@@ -1,15 +1,17 @@
 ---
-date: 2019-01-22
-title: "Birch in the Rosesss"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+date: 2020-10-16
+title: "Despliegue con Gatsbyjs"
+cover: "https://img2.freepng.es/20180401/hyw/kisspng-javascript-react-static-web-page-github-npm-gatsby-5ac0f1c0adbe34.8958887715225942407117.jpg"
 categories: 
-    - Gatsby
-    - Nodejs
+    - IAW
 tags:
-    - tag one
+    - Gatsbyjs
 ---
+h1. Gatsbyjs
 
-## Accipit alto fecerat mutato centauri haerent dominoque
+![Brackets icon](../static/logos/gatsby.jpeg "Brackets Icon")
+
+## Gatsbyjs
 
 
 Far far away, behind the word mountains, far from the countries Vokalia and
