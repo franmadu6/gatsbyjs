@@ -15,7 +15,7 @@ read nom
 echo "---
 date: $time
 title: "'"'"$nom"'"'"
-cover: "Añade un cover o borra la linea si no quieres poner ninguno"
+cover: "'"'"https://img.utdstc.com/icons/brackets-.png:225"'"'"
 categories: 
     - Escribe aqui la categoria
 tags:
