@@ -1,0 +1,15 @@
+---
+date: 2020-10-17
+title: prueba-script
+cover: Añade un cover o borra la linea si no quieres poner ninguno
+categories: 
+    - Escribe aqui la categoria
+tags:
+    - Escribe aqui el tag
+---
+
+
+## Titulo
+
+Comienza a escribir tu publicación
+
