@@ -7,7 +7,6 @@ categories:
 tags:
     - Gatsbyjs
 ---
-h1.Gatsbyjs
 
 ![Brackets icon](../static/logos/gatsby.jpeg "Brackets Icon")
 
