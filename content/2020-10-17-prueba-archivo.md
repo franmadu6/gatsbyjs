@@ -1,10 +1,11 @@
 ---
 date: 2020-10-17
-title: prueba-archivo
-categories:
-    - Pruebas
+title: +prueba-archivo+
+cover: Añade un cover o borra la linea si no quieres poner ninguno
+categories: 
+    - Escribe aqui la categoria
 tags:
-    - Test
+    - Escribe aqui el tag
 ---
 
 
