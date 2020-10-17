@@ -14,7 +14,7 @@ read nom
 #Creo plantilla por defecto para rellenar
 echo "---
 date: $time
-title: "+$nom+"
+title: """$nom"""
 cover: "Añade un cover o borra la linea si no quieres poner ninguno"
 categories: 
     - Escribe aqui la categoria
