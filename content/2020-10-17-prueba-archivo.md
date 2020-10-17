@@ -1,10 +1,10 @@
 ---
 date: 2020-10-17
-title: prueba-100
-categories: 
+title: prueba-archivo
+categories:
     - Pruebas
 tags:
-    - Pruebas
+    - Test
 ---
 
 
