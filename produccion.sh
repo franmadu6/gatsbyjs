@@ -36,8 +36,6 @@ parrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafopar
 4. lista4
 5. lista5
 
-imagenes => 
-![Brackets icon](../static/logos/maxresdefault.jpg "Brackets Icon")
 enlaces => 
 -[Todo lo que necesitas saber de Brackets](https://beatrizruizcorvillo.es/brackets-editor-html/)  
 
