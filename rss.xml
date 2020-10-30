@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 22 Oct 2020 11:53:56 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[publicacion-pruebafinal]]></title><description><![CDATA[Titulo Titulo…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/publicacion-pruebafinal</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/publicacion-pruebafinal</guid><category><![CDATA[test]]></category><pubDate>Sat, 17 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;titulo&quot;&gt;&lt;a href=&quot;#titulo&quot; aria-label=&quot;titulo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 30 Oct 2020 08:20:38 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[prueba-123123]]></title><description><![CDATA[Titulo Titulo…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-123123</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-123123</guid><category><![CDATA[test]]></category><pubDate>Sat, 17 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;titulo&quot;&gt;&lt;a href=&quot;#titulo&quot; aria-label=&quot;titulo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo&lt;/h1&gt;
+&lt;h2 id=&quot;titulo2&quot;&gt;&lt;a href=&quot;#titulo2&quot; aria-label=&quot;titulo2 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo2&lt;/h2&gt;
+&lt;p&gt;parrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafo&lt;/p&gt;
+&lt;p&gt;parrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafo&lt;/p&gt;
+&lt;p&gt;1.lista1
+2.lista2
+3.lista3
+4.lista4
+5.lista5&lt;/p&gt;
+&lt;p&gt;imagenes =&gt; &lt;img src=&quot;../static/logos/maxresdefault.jpg%20Brackets%20Icon&quot; alt=&quot;Brackets icon&quot;&gt;
+enlaces =&gt; -&lt;a href=&quot;https://beatrizruizcorvillo.es/brackets-editor-html/&quot;&gt;Todo lo que necesitas saber de Brackets&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;Comienza a escribir tu publicación&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[publicacion-pruebafinal]]></title><description><![CDATA[Titulo Titulo…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/publicacion-pruebafinal</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/publicacion-pruebafinal</guid><category><![CDATA[test]]></category><pubDate>Sat, 17 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;titulo&quot;&gt;&lt;a href=&quot;#titulo&quot; aria-label=&quot;titulo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo&lt;/h1&gt;
 &lt;h2 id=&quot;titulo2&quot;&gt;&lt;a href=&quot;#titulo2&quot; aria-label=&quot;titulo2 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo2&lt;/h2&gt;
 &lt;p&gt;parrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafo&lt;/p&gt;
 &lt;p&gt;parrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafo&lt;/p&gt;
@@ -13,101 +24,9 @@
 &lt;img src=&quot;../static/logos/maxresdefault.jpg%20Brackets%20Icon&quot; alt=&quot;Brackets icon&quot;&gt;
 enlaces =&gt;
 -&lt;a href=&quot;https://beatrizruizcorvillo.es/brackets-editor-html/&quot;&gt;Todo lo que necesitas saber de Brackets&lt;/a&gt;  &lt;/p&gt;
-&lt;p&gt;Comienza a escribir tu publicación&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[prueba-123123]]></title><description><![CDATA[Titulo Titulo…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-123123</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-123123</guid><category><![CDATA[test]]></category><pubDate>Sat, 17 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;titulo&quot;&gt;&lt;a href=&quot;#titulo&quot; aria-label=&quot;titulo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo&lt;/h1&gt;
-&lt;h2 id=&quot;titulo2&quot;&gt;&lt;a href=&quot;#titulo2&quot; aria-label=&quot;titulo2 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo2&lt;/h2&gt;
-&lt;p&gt;parrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafo&lt;/p&gt;
-&lt;p&gt;parrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafo&lt;/p&gt;
-&lt;p&gt;1.lista1
-2.lista2
-3.lista3
-4.lista4
-5.lista5&lt;/p&gt;
-&lt;p&gt;imagenes =&gt; &lt;img src=&quot;../static/logos/maxresdefault.jpg%20Brackets%20Icon&quot; alt=&quot;Brackets icon&quot;&gt;
-enlaces =&gt; -&lt;a href=&quot;https://beatrizruizcorvillo.es/brackets-editor-html/&quot;&gt;Todo lo que necesitas saber de Brackets&lt;/a&gt;  &lt;/p&gt;
-&lt;p&gt;Comienza a escribir tu publicación&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[prueba-2]]></title><description><![CDATA[Titulo Comienza a escribir tu publicación]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-2</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-2</guid><category><![CDATA[Test]]></category><pubDate>Fri, 16 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;titulo&quot;&gt;&lt;a href=&quot;#titulo&quot; aria-label=&quot;titulo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo&lt;/h2&gt;
 &lt;p&gt;Comienza a escribir tu publicación&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Prueba again22]]></title><description><![CDATA[Titulo Comienza a escribir tu publicación]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-again-22</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-again-22</guid><category><![CDATA[Test]]></category><pubDate>Fri, 16 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;titulo&quot;&gt;&lt;a href=&quot;#titulo&quot; aria-label=&quot;titulo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo&lt;/h2&gt;
-&lt;p&gt;Comienza a escribir tu publicación&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación de Brackets en Debian2]]></title><description><![CDATA[Brackets2  Un editor de texto de código abierto moderno que comprende el diseño web. Extensiones recomendadas CanIUse Con esta extensión…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian-2</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian-2</guid><category><![CDATA[Entorno de desarrollo]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Brackets]]></category><pubDate>Thu, 15 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;brackets2&quot;&gt;&lt;a href=&quot;#brackets2&quot; aria-label=&quot;brackets2 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Brackets2&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/6c315/maxresdefault.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABnczaZ5AoHP/EABwQAAEDBQAAAAAAAAAAAAAAAAIAAQQDEhQxNP/aAAgBAQABBQKiN4YxoxcDgbUvp//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/AYf/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAIAQIBAT8B0j//xAAeEAACAQMFAAAAAAAAAAAAAAAAAQIDEBIxM1Fxkv/aAAgBAQAGPwLFU03ybUfQ4vUl1aZ//8QAGxABAAICAwAAAAAAAAAAAAAAAQARELEhQfD/2gAIAQEAAT8hVxPmzWNGiA6GC7PblE1NT//aAAwDAQACAAMAAAAQM+//xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAwEBPxAEl//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxBQy02//8QAGxAAAgIDAQAAAAAAAAAAAAAAAREAITFRsZH/2gAIAQEAAT8QM+hw6PDzCuge4eGtsAO8wQQOnUGqUEN8J//Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Brackets icon&quot;
-        title=&quot;Brackets Icon&quot;
-        src=&quot;/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/8c996/maxresdefault.jpg&quot;
-        srcset=&quot;/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/6f483/maxresdefault.jpg 173w,
-/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/0fa0d/maxresdefault.jpg 345w,
-/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/8c996/maxresdefault.jpg 690w,
-/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/c8cd5/maxresdefault.jpg 1035w,
-/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/6c315/maxresdefault.jpg 1280w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Un editor de texto de código abierto moderno que comprende el diseño web.&lt;/p&gt;
-&lt;h2 id=&quot;extensiones-recomendadas&quot;&gt;&lt;a href=&quot;#extensiones-recomendadas&quot; aria-label=&quot;extensiones recomendadas permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Extensiones recomendadas&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;CanIUse&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Con esta extensión podrás ver de un vistazo el nivel de soporte que tenga cierta tecnología web sin dejar de utilizar Brackets. Y es que su nombre lo deja bien claro. Can I Use significa ¿Puedo utilizar?, frase que resume muy bien el uso de esta extensión. &lt;/p&gt;
-&lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;HTML Skeleton&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;HTML Skeleton te ayuda a configurar tus páginas HTML de manera rápida insertando automáticamente elementos básicos como la declaración doctype, el tag html, el tag head, el tah body...&lt;/p&gt;
-&lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;HTML Wrapper&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Con HTML Wrapper solo basta con seleccionar un texto con retornos de carro para convertirlos automáticamente en una lista (li), celdas de una tabla (tr), hipervínculos (a) o cualquier elemento de HTML que se te ocurra.&lt;/p&gt;
-&lt;ol start=&quot;4&quot;&gt;
-&lt;li&gt;Brackets Icons&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Esta super extensión añade los iconos típicos de los ficheros en el sidebar de Brackets. Los iconos son un gran referente visual para identificar de manera sencilla la extensión de los ficheros de un directorio y sobre todo, saber cómo hay que tratarlos.&lt;/p&gt;
-&lt;ol start=&quot;5&quot;&gt;
-&lt;li&gt;Autoprefixer&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Añade prefijos automática e inteligentemente a las propiedades CSS con la extensión Autoprefixer. Utiliza los datos relativos al soporte de navegadores de la extensión CanIUse para decidir si debe poner un prefijo para el navegador o no. Otra funcionalidad destacada de esta extensión es que elimina los prefijos para proveedores innecesarios.&lt;/p&gt;
-&lt;ol start=&quot;6&quot;&gt;
-&lt;li&gt;JS CSS Minifier&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Esta extensión elimina los caracteres innecesarios de tus archivos CSS y Javascript. A este proceso se le llama minificación, y puede mejorar la velocidad de tu proyecto web.&lt;/p&gt;
-&lt;ol start=&quot;7&quot;&gt;
-&lt;li&gt;CSSLint&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Este error pone de manifiesto, remarcándolos, los errores de CSS y las partes del código que deberían mejorarse. Los errores y los warnings que se muestran con esta extensión están basados en las reglas de CSS Lint.
-Emmet&lt;/p&gt;
-&lt;p&gt;Emmet es una colección de herramientas y atajos de teclados que pueden ayudarte a desarrollar más rápido tanto tus códigos CSS como la implementación de maquetas en HTML.&lt;/p&gt;
-&lt;ol start=&quot;8&quot;&gt;
-&lt;li&gt;Lorem Ipsum Generator&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;¿Necesitas algo de texto para rellenar el prototipo de un diseño? La extensión Lorem Ipsum Generator te ayuda convenientemente a generar texto de prueba. Este texto de prueba es el típico Lorem Ipsum, un texto en latín que se suele utilizar para rellenar huecos en documentos de diseño gráfico.&lt;/p&gt;
-&lt;ol start=&quot;9&quot;&gt;
-&lt;li&gt;Beautify&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Esta extensión te ayudará a mantener tu código HTML, CSS y Javascript siempre bien formateado, indentado y, lo más importante, legible. Una opción alternativa para esto es la extensión CSSComb, pero solo funciona para código CSS. En mi opinión, Beautify es más útil.&lt;/p&gt;
-&lt;ol start=&quot;10&quot;&gt;
-&lt;li&gt;Simple To-Do&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Asegúrate de no olvidar ninguna tarea relacionada con tus proyectos utilizando la extensión Simple To-Do, que te permite gestionar lista sobre cosas a realizar (to do) para cada proyecto. Todo esto sin salir de Brackets, claro está.&lt;/p&gt;
-&lt;ol start=&quot;11&quot;&gt;
-&lt;li&gt;eqFTP&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Transferir ficheros desde tu ordenador al servidor web del proyecto requiere de un cliente FTP o SFTP, pero esta característica tan fundamental del desarrollo web no está incluida en Brackets. Para remediar esta situación, usa la extensión eqFTP, un cliente FTP/SFTP con el cual puedes operar sin tener que abandonar el editor de código. &lt;/p&gt;
-&lt;h2 id=&quot;enlaces-de-interes&quot;&gt;&lt;a href=&quot;#enlaces-de-interes&quot; aria-label=&quot;enlaces de interes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Enlaces de interes&lt;/h2&gt;
-&lt;p&gt;-&lt;a href=&quot;https://beatrizruizcorvillo.es/brackets-editor-html/&quot;&gt;Todo lo que necesitas saber de Brackets&lt;/a&gt;&lt;br&gt;
--&lt;a href=&quot;https://www.w3.org/Style/Examples/011/firstcss.es.html&quot;&gt;HTML Y CSS&lt;/a&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue con Gatsbyjs]]></title><description><![CDATA[Gatsbyjs Far far away, behind the word mountains, far from the countries Vokalia and
+&lt;p&gt;Comienza a escribir tu publicación&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[prueba-2]]></title><description><![CDATA[Titulo Comienza a escribir tu publicación]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-2</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-2</guid><category><![CDATA[Test]]></category><pubDate>Fri, 16 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;titulo&quot;&gt;&lt;a href=&quot;#titulo&quot; aria-label=&quot;titulo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo&lt;/h2&gt;
+&lt;p&gt;Comienza a escribir tu publicación&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue con Gatsbyjs]]></title><description><![CDATA[Gatsbyjs Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-con-gatsbyjs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-con-gatsbyjs</guid><category><![CDATA[Gatsbyjs]]></category><pubDate>Thu, 15 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 318px;&quot;
@@ -228,7 +147,88 @@ would be the word &quot;and&quot; and the Little Blind Text should turn around a
 to its own, safe country. But nothing the copy said could convince her and so it
 didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
 with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación de Brackets en Debian]]></title><description><![CDATA[Brackets  Un editor de texto de código abierto moderno que comprende el diseño web. Extensiones recomendadas CanIUse Con esta extensión…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</guid><category><![CDATA[Entorno de desarrollo]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Brackets]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;brackets&quot;&gt;&lt;a href=&quot;#brackets&quot; aria-label=&quot;brackets permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Brackets&lt;/h2&gt;
+for their projects again and again.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación de Brackets en Debian2]]></title><description><![CDATA[Brackets2  Un editor de texto de código abierto moderno que comprende el diseño web. Extensiones recomendadas CanIUse Con esta extensión…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian-2</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian-2</guid><category><![CDATA[Entorno de desarrollo]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Brackets]]></category><pubDate>Thu, 15 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;brackets2&quot;&gt;&lt;a href=&quot;#brackets2&quot; aria-label=&quot;brackets2 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Brackets2&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/6c315/maxresdefault.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABnczaZ5AoHP/EABwQAAEDBQAAAAAAAAAAAAAAAAIAAQQDEhQxNP/aAAgBAQABBQKiN4YxoxcDgbUvp//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/AYf/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAIAQIBAT8B0j//xAAeEAACAQMFAAAAAAAAAAAAAAAAAQIDEBIxM1Fxkv/aAAgBAQAGPwLFU03ybUfQ4vUl1aZ//8QAGxABAAICAwAAAAAAAAAAAAAAAQARELEhQfD/2gAIAQEAAT8hVxPmzWNGiA6GC7PblE1NT//aAAwDAQACAAMAAAAQM+//xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAwEBPxAEl//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxBQy02//8QAGxAAAgIDAQAAAAAAAAAAAAAAAREAITFRsZH/2gAIAQEAAT8QM+hw6PDzCuge4eGtsAO8wQQOnUGqUEN8J//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Brackets icon&quot;
+        title=&quot;Brackets Icon&quot;
+        src=&quot;/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/8c996/maxresdefault.jpg&quot;
+        srcset=&quot;/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/6f483/maxresdefault.jpg 173w,
+/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/0fa0d/maxresdefault.jpg 345w,
+/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/8c996/maxresdefault.jpg 690w,
+/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/c8cd5/maxresdefault.jpg 1035w,
+/gatsbyjs/static/fec60b69e86c107a9b7d2511435c104d/6c315/maxresdefault.jpg 1280w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Un editor de texto de código abierto moderno que comprende el diseño web.&lt;/p&gt;
+&lt;h2 id=&quot;extensiones-recomendadas&quot;&gt;&lt;a href=&quot;#extensiones-recomendadas&quot; aria-label=&quot;extensiones recomendadas permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Extensiones recomendadas&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;CanIUse&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Con esta extensión podrás ver de un vistazo el nivel de soporte que tenga cierta tecnología web sin dejar de utilizar Brackets. Y es que su nombre lo deja bien claro. Can I Use significa ¿Puedo utilizar?, frase que resume muy bien el uso de esta extensión. &lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;HTML Skeleton&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;HTML Skeleton te ayuda a configurar tus páginas HTML de manera rápida insertando automáticamente elementos básicos como la declaración doctype, el tag html, el tag head, el tah body...&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;HTML Wrapper&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Con HTML Wrapper solo basta con seleccionar un texto con retornos de carro para convertirlos automáticamente en una lista (li), celdas de una tabla (tr), hipervínculos (a) o cualquier elemento de HTML que se te ocurra.&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Brackets Icons&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Esta super extensión añade los iconos típicos de los ficheros en el sidebar de Brackets. Los iconos son un gran referente visual para identificar de manera sencilla la extensión de los ficheros de un directorio y sobre todo, saber cómo hay que tratarlos.&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;Autoprefixer&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Añade prefijos automática e inteligentemente a las propiedades CSS con la extensión Autoprefixer. Utiliza los datos relativos al soporte de navegadores de la extensión CanIUse para decidir si debe poner un prefijo para el navegador o no. Otra funcionalidad destacada de esta extensión es que elimina los prefijos para proveedores innecesarios.&lt;/p&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;JS CSS Minifier&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Esta extensión elimina los caracteres innecesarios de tus archivos CSS y Javascript. A este proceso se le llama minificación, y puede mejorar la velocidad de tu proyecto web.&lt;/p&gt;
+&lt;ol start=&quot;7&quot;&gt;
+&lt;li&gt;CSSLint&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Este error pone de manifiesto, remarcándolos, los errores de CSS y las partes del código que deberían mejorarse. Los errores y los warnings que se muestran con esta extensión están basados en las reglas de CSS Lint.
+Emmet&lt;/p&gt;
+&lt;p&gt;Emmet es una colección de herramientas y atajos de teclados que pueden ayudarte a desarrollar más rápido tanto tus códigos CSS como la implementación de maquetas en HTML.&lt;/p&gt;
+&lt;ol start=&quot;8&quot;&gt;
+&lt;li&gt;Lorem Ipsum Generator&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;¿Necesitas algo de texto para rellenar el prototipo de un diseño? La extensión Lorem Ipsum Generator te ayuda convenientemente a generar texto de prueba. Este texto de prueba es el típico Lorem Ipsum, un texto en latín que se suele utilizar para rellenar huecos en documentos de diseño gráfico.&lt;/p&gt;
+&lt;ol start=&quot;9&quot;&gt;
+&lt;li&gt;Beautify&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Esta extensión te ayudará a mantener tu código HTML, CSS y Javascript siempre bien formateado, indentado y, lo más importante, legible. Una opción alternativa para esto es la extensión CSSComb, pero solo funciona para código CSS. En mi opinión, Beautify es más útil.&lt;/p&gt;
+&lt;ol start=&quot;10&quot;&gt;
+&lt;li&gt;Simple To-Do&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Asegúrate de no olvidar ninguna tarea relacionada con tus proyectos utilizando la extensión Simple To-Do, que te permite gestionar lista sobre cosas a realizar (to do) para cada proyecto. Todo esto sin salir de Brackets, claro está.&lt;/p&gt;
+&lt;ol start=&quot;11&quot;&gt;
+&lt;li&gt;eqFTP&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Transferir ficheros desde tu ordenador al servidor web del proyecto requiere de un cliente FTP o SFTP, pero esta característica tan fundamental del desarrollo web no está incluida en Brackets. Para remediar esta situación, usa la extensión eqFTP, un cliente FTP/SFTP con el cual puedes operar sin tener que abandonar el editor de código. &lt;/p&gt;
+&lt;h2 id=&quot;enlaces-de-interes&quot;&gt;&lt;a href=&quot;#enlaces-de-interes&quot; aria-label=&quot;enlaces de interes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Enlaces de interes&lt;/h2&gt;
+&lt;p&gt;-&lt;a href=&quot;https://beatrizruizcorvillo.es/brackets-editor-html/&quot;&gt;Todo lo que necesitas saber de Brackets&lt;/a&gt;&lt;br&gt;
+-&lt;a href=&quot;https://www.w3.org/Style/Examples/011/firstcss.es.html&quot;&gt;HTML Y CSS&lt;/a&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación de Brackets en Debian]]></title><description><![CDATA[Brackets  Un editor de texto de código abierto moderno que comprende el diseño web. Extensiones recomendadas CanIUse Con esta extensión…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</guid><category><![CDATA[Entorno de desarrollo]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Brackets]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;brackets&quot;&gt;&lt;a href=&quot;#brackets&quot; aria-label=&quot;brackets permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Brackets&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
