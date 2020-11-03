@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/compilacion-de-un-programa-en-c-utilizando-un-makefile</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/prueba-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/prueba-again-22</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/instalacion-de-brackets-en-debian-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/prueba-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/despliegue-con-gatsbyjs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/instalacion-de-brackets-en-debian-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/instalacion-de-brackets-en-debian</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/developing-a-gatsby-theme</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/big-sample-test</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -16,10 +16,10 @@
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/htaccess/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/compilacion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/gatsbyjs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/entorno-de-desarrollo/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/debian/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/brackets/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/gatsbyjs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/tag-one/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/gatsby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/huge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -34,8 +34,8 @@
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/tagging/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/servicios/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/sistemas-operativos/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/pruebas/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/prueba/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/pruebas/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/iaw/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/nodejs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/creative-thinking/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
