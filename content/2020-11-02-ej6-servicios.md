@@ -7,9 +7,6 @@ tags:
     - .htaccess
 ---
 
-
-![Brackets icon](../static/logos/maxresdefault.jpg Brackets Icon)
-
 Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor?, ¿qué podemos hacer? Explica la directiva AllowOverride de apache2. Utilizando archivos .htaccess realiza las siguientes configuraciones:
 
 Con 000webhost -> https://franmaduhtaccess.000webhostapp.com/
