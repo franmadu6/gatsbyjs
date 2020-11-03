@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 03 Nov 2020 08:52:59 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Ejercicio 6: Configuración de apache mediante archivo .htaccess ]]></title><description><![CDATA[Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</guid><category><![CDATA[.htaccess]]></category><pubDate>Sun, 01 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor?, ¿qué podemos hacer? Explica la directiva AllowOverride de apache2. Utilizando archivos .htaccess realiza las siguientes configuraciones:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 03 Nov 2020 08:58:35 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Ejercicio 6: Configuración de apache mediante archivo .htaccess ]]></title><description><![CDATA[Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</guid><category><![CDATA[.htaccess]]></category><pubDate>Sun, 01 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor?, ¿qué podemos hacer? Explica la directiva AllowOverride de apache2. Utilizando archivos .htaccess realiza las siguientes configuraciones:&lt;/p&gt;
 &lt;p&gt;Con 000webhost -&gt; &lt;a href=&quot;https://franmaduhtaccess.000webhostapp.com/&quot;&gt;https://franmaduhtaccess.000webhostapp.com/&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Habilita el listado de ficheros en la URL &lt;a href=&quot;http://host.dominio/nas&quot;&gt;http://host.dominio/nas&lt;/a&gt;.&lt;/li&gt;
@@ -90,18 +90,366 @@ Require valid-user
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
-Como podemos comprobar nos pide que nos logeemos para poder acceder a ese directorio.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[prueba-123123]]></title><description><![CDATA[Titulo Titulo…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-123123</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-123123</guid><category><![CDATA[test]]></category><pubDate>Sat, 17 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;titulo&quot;&gt;&lt;a href=&quot;#titulo&quot; aria-label=&quot;titulo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo&lt;/h1&gt;
-&lt;h2 id=&quot;titulo2&quot;&gt;&lt;a href=&quot;#titulo2&quot; aria-label=&quot;titulo2 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo2&lt;/h2&gt;
-&lt;p&gt;parrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafo&lt;/p&gt;
-&lt;p&gt;parrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafoparrafo&lt;/p&gt;
-&lt;p&gt;1.lista1
-2.lista2
-3.lista3
-4.lista4
-5.lista5&lt;/p&gt;
-&lt;p&gt;imagenes =&gt; &lt;img src=&quot;../static/logos/maxresdefault.jpg%20Brackets%20Icon&quot; alt=&quot;Brackets icon&quot;&gt;
-enlaces =&gt; -&lt;a href=&quot;https://beatrizruizcorvillo.es/brackets-editor-html/&quot;&gt;Todo lo que necesitas saber de Brackets&lt;/a&gt;  &lt;/p&gt;
-&lt;p&gt;Comienza a escribir tu publicación&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Prueba again22]]></title><description><![CDATA[Titulo Comienza a escribir tu publicación]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-again-22</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-again-22</guid><category><![CDATA[Test]]></category><pubDate>Fri, 16 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;titulo&quot;&gt;&lt;a href=&quot;#titulo&quot; aria-label=&quot;titulo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo&lt;/h2&gt;
+Como podemos comprobar nos pide que nos logeemos para poder acceder a ese directorio.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Compilación de un programa en C utilizando un Makefile]]></title><description><![CDATA[h1. Ylva - Command line password manager  Ylva es un antiguo nombre femenino sueco, significa "loba", un derivado del nórdico antiguo úlfr…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-programa-en-c-utilizando-un-makefile</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-programa-en-c-utilizando-un-makefile</guid><category><![CDATA[Compilacion]]></category><pubDate>Sat, 31 Oct 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;h1. Ylva - Command line password manager&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 295px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/4b1e7d7481577bf8e6f1f3d1547779ab/d2d38/ylva.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAC4jAAAuIwF4pT92AAAEW0lEQVQ4y21VS1daVxS+f6fjzjLvsB10OUmbJhoVRFSCIIqohIeIgOD7bYga8a1JTRNMxKCmlWjjI4kaWJolKoL1dtCOw/2696maZK0M9uWee/b5zt7f/vZGOjo6WiP79/j4+Pzw8FDe2NiQP3w4kGkt0/evGu+x76tYTN7f3//CV6LHwdnZGVKpFGgTYxNTiCy+wCmtT05OQM7i9/KdLZ1OIxpdQldvP7a2t8Wa9xmDAeOnp6e8+EjRKR5/q9LU0qGsra0p9F3JZDIKgYv3s7OMWLOf2xtQ9KYaJRJZFHvJZFIhLIUBEwxIll1ZeYkGXwAubwCDD0Lou3cfT8Lz2N5+IyJ5Gn6GQFsHunr6UF3ngKGqDjOzj5Ci6JLJIxAWPgGmUllOtd7jF9YfHEJ9oxc6YxXMdTZo7xjxS76afg1obuuEqcYGo7kOodFxnBANDPYFIKWcXYgswtHYBIfbh9HxSXj8zXTQiqrau9CUlaOwuAx6kxkDwUGYLDboK2vwIDQmeP0K4El2aXlFpMuFGaKUTRariO4SUF1yB/lFJfDSRbxfSVFOTc8KQOLwEyBXiSwbi8Xw25OnCA4OCRC2zwFVWt0FaCkafX6MT0zi+cLClQIYVKJHQj4/x/Tso6zL04QGr5+4qaHbrai8AP0csJCNUs9TFcNQaUEV+bV3915JSiIpJBaoGMRN1mSpE0Aclc3VCKfDhWqr/QJQDxVFp9cbYSAei0r1ArhAU4obt1VUxEFkMmlIu7t7CTsdJrAsHzaaa2F3uVFmdSK3pRfmuw4BWEQRFtHhnPoAvi+tgJFA89RaQQFbnkqL1dgrSJRqor7RhxqbM8sH3cRNG6XgbO9GjtWNQnK20EUsm+s/38I1tR4apwcuj4+0aBeRMh06QyV6+4OQFqNLiZaOLuYt6/W3YHX1D/QPjSDQ1YuOzm5YKEKmQciG+LM7XXAy182tiEQWRHFyCzXC5+Gvc5CGQ2MJAxWBeMsyd1PTMwhNTiM4MgpvS7twvCwK82UknlupUzr775Gox1BaXiFSvpGngi/QCsnR4En0UKjMYTlVraK6ltrpIf5cX0dobBwVBMAXFesMorJNFNnK8jKmZ2ag0ZXjZoEauSoNmDY+K715+zYxcH8IWr1RcMgfOaq5x48Rnp8XKZsuUmZRD4+EMDc3hxKqdi5doC7R4afcfHHpxuYmpHfvdhK19npqN0/WSGAsHV9zmxB4NBqF9UI6nJqGCjBBYuY9p9srUr1F/LFubxdpEV1ahhR5EY2Hnz1HR0/fRwJWll/+rpDylUw6rayvrys2l1sp0OqUH6/fVEh3SjgcFuMqTUYyUcy1NoUyU6ggwiSavAdJ6sHWzh7s7u3hb1m+Gqjcm8HBYXz3Qw6++faakA8PYR6k3BXcYdxu3F2vNzb/H7B029r7ePyfza2tv0jpYrTzKCdHmUDleDwu9w0EZbe3SX5Nfw/kL/bYh31pBsg7O7vyxuaW2PsPgT2MYwQ8KNQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/4b1e7d7481577bf8e6f1f3d1547779ab/d2d38/ylva.png&quot;
+        srcset=&quot;/gatsbyjs/static/4b1e7d7481577bf8e6f1f3d1547779ab/acf4b/ylva.png 173w,
+/gatsbyjs/static/4b1e7d7481577bf8e6f1f3d1547779ab/d2d38/ylva.png 295w&quot;
+        sizes=&quot;(max-width: 295px) 100vw, 295px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ylva es un antiguo nombre femenino sueco, significa &quot;loba&quot;, un derivado del nórdico antiguo úlfr. Cuando se trata del administrador de contraseñas, antes del lanzamiento 1.4, Ylva era conocido como Titan.&lt;/p&gt;
+&lt;p&gt;La administración de contraseñas pertenece a la línea de comandos, en lo más profundo del corazón de Unix, el shell. Ylva hace que la administración de contraseñas sea fácil y segura. Es un software de línea de comandos tradicional escrito en C. Ylva es muy portátil y debería funcionar bien en la mayoría de los sistemas operativos similares a Unix. Ylva se desarrolla principalmente en Linux.&lt;/p&gt;
+&lt;p&gt;El administrador de contraseñas de la línea de comandos es útil. Puede optar por ejecutarlo en un servidor remoto para que sus contraseñas estén disponibles de forma remota (a través de SSH, etc.). No es necesario sincronizar su base de datos de contraseñas entre máquinas.&lt;/p&gt;
+&lt;p&gt;Ylva usa OpenSSL (o LibreSSL) para el cifrado. Para la base de datos de contraseñas se utiliza SQLite. Ylva cifra la base de datos usando AES con 256 claves. La base de datos cifrada se autentica mediante HMAC. Para la generación de claves, PKBDF2-SHA256 se utiliza con 200 000 iteraciones.&lt;/p&gt;
+&lt;p&gt;Ylva no permanece ejecutándose, por lo que las posibles contraseñas de texto sin formato no están en la memoria excepto por un tiempo muy corto. Por ejemplo, ejecutar el comando ylva --auto-encrypt --list-all listaría todas las entradas de contraseña, encriptaría la base de datos y luego saldría. Las contraseñas de texto sin formato estarán en la memoria solo unos segundos. Esto hace que sea muy difícil para el malware robarlos.&lt;/p&gt;
+&lt;p&gt;Cuando se descifra la base de datos, solo el propietario la puede leer (chmod 600). Ylva lo hace automáticamente para el archivo de la base de datos para que no tenga que cambiar los permisos.&lt;/p&gt;
+&lt;p&gt;Después de esta breve introducción cabe destacar que posee un archivo donde guarda las actualizaciones realizadas.&lt;/p&gt;
+&lt;pre&gt;
+Release 1.6 (2020-04-17)
+        Some changes to command line switches
+        Fixing typos in the manual
+        Makefile fixes
+        Minor code refactoring
+        Very stable long term release
+
+Release 1.5 (2019-05-24)
+        Password generator now uses RAND_bytes from OpenSSL
+        Regex search can now search all the entry fields
+        Minor memory leak fixed
+        Entries can now be duplicated with -D, --duplicate
+        Decrypted database is now only readable by the owner
+
+Release 1.4 (2019-05-18)
+        *Titan is now Ylva
+        *Ylva no longer supports encrypting individual files or directories, it&apos;s not a job for a password manager.
+        *Note that if you used colors, change TITAN_COLOR to YLVA_COLOR
+        *This release is made mostly because of the name change, but active development will continue
+Release 1.3 (2018-09-04)
+        *Titan now supports custom count of listing latest entries
+
+Release 1.2 (2017-11-14)
+        *Support for colors. See man titan(1) for more information.
+        *Added Support encrypting individual files
+        *Added support for encrypting directories
+        *Many smaller internal changes and bug fixes
+&lt;/pre&gt;
+&lt;p&gt;Comenzaremos descargando el repositorio de debian salsa:&lt;/p&gt;
+&lt;pre&gt;
+vagrant@compilacion:~$ git clone https://salsa.debian.org/debian/ylva
+Cloning into &apos;ylva&apos;...
+warning: redirecting to https://salsa.debian.org/debian/ylva.git/
+remote: Enumerating objects: 75, done.
+remote: Counting objects: 100% (75/75), done.
+remote: Compressing objects: 100% (69/69), done.
+remote: Total 75 (delta 21), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (75/75), done.
+vagrant@compilacion:~$ cd ylva/
+vagrant@compilacion:~/ylva$ ls
+cmd_ui.c  crypto.h  debian   LICENSE   pwd-gen.c  regexfind.c  utils.h  ylva.png
+cmd_ui.h  db.c      entry.c  Makefile  pwd-gen.h  regexfind.h  ylva.1
+crypto.c  db.h      entry.h  NEWS      README.md  utils.c      ylva.c
+&lt;/pre&gt;
+&lt;p&gt;El primer error que encontramos:&lt;/p&gt;
+&lt;pre&gt;
+vagrant@compilacion:~/ylva$ make install
+cc -g -std=c99 -Wall -c entry.c -o entry.o
+cc -g -std=c99 -Wall -c db.c -o db.o
+db.c:11:10: fatal error: sqlite3.h: No such file or directory
+ #include &lt;sqlite3.h&gt;
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [Makefile:14: db.o] Error 1
+&lt;/pre&gt;
+&lt;p&gt;Deberemos de crear la librería &lt;em&gt;libsqlite3-0&lt;/em&gt; que es una libreria compartida de SQLite.&lt;/p&gt;
+&lt;pre&gt;
+vagrant@compilacion:~/ylva$ sudo apt install libsqlite3-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Suggested packages:
+  sqlite3-doc
+The following NEW packages will be installed:
+  libsqlite3-dev
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
+Need to get 787 kB of archives.
+After this operation, 2,288 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian buster/main amd64 libsqlite3-dev amd64 3.27.2-3 [787 kB]
+Fetched 787 kB in 1s (1,331 kB/s)      
+Selecting previously unselected package libsqlite3-dev:amd64.
+(Reading database ... 73425 files and directories currently installed.)
+Preparing to unpack .../libsqlite3-dev_3.27.2-3_amd64.deb ...
+Unpacking libsqlite3-dev:amd64 (3.27.2-3) ...
+Setting up libsqlite3-dev:amd64 (3.27.2-3) ...
+&lt;/pre&gt;
+&lt;p&gt;Volvemos a tener el mismo caso, ahora con &lt;em&gt;openssl/evp.h&lt;/em&gt;:&lt;/p&gt;
+&lt;pre&gt;
+vagrant@compilacion:~/ylva$ make install
+cc -g -std=c99 -Wall -c db.c -o db.o
+cc -g -std=c99 -Wall -c crypto.c -o crypto.o
+crypto.c:11:10: fatal error: openssl/evp.h: No such file or directory
+ #include &lt;openssl/evp.h&gt;
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Makefile:14: crypto.o] Error 1
+&lt;/pre&gt;
+&lt;p&gt;Que lo solucionamos instalando sus dependencias:&lt;/p&gt;
+&lt;pre&gt;
+vagrant@compilacion:~/ylva$ sudo apt install libssl-dev 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Suggested packages:
+  libssl-doc
+The following NEW packages will be installed:
+  libssl-dev
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
+Need to get 1,793 kB of archives.
+After this operation, 8,072 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian buster/main amd64 libssl-dev amd64 1.1.1d-0+deb10u3 [1,793 kB]
+Fetched 1,793 kB in 1s (1,972 kB/s)     
+Selecting previously unselected package libssl-dev:amd64.
+(Reading database ... 73437 files and directories currently installed.)
+Preparing to unpack .../libssl-dev_1.1.1d-0+deb10u3_amd64.deb ...
+Unpacking libssl-dev:amd64 (1.1.1d-0+deb10u3) ...
+Setting up libssl-dev:amd64 (1.1.1d-0+deb10u3) ...
+&lt;/pre&gt;
+&lt;p&gt;Ahora podremos instalar sin problemas:&lt;/p&gt;
+&lt;pre&gt;
+vagrant@compilacion:~/ylva$ sudo make install
+if [ ! -d /usr//share/man/man1 ];then	\
+	mkdir -p /usr//share/man/man1;	\
+fi
+install -m644 ylva.1 /usr//share/man/man1/
+gzip -f /usr//share/man/man1/ylva.1
+if [ ! -d /usr//bin ] ; then \
+	mkdir -p /usr//bin ; \
+fi
+install -m755 ylva /usr//bin/
+&lt;/pre&gt;
+&lt;p&gt;Comprobamos su ubicación:&lt;/p&gt;
+&lt;pre&gt;
+vagrant@compilacion:~/ylva$ which ylva
+/usr/bin/ylva
+
+vagrant@compilacion:~/ylva$ whereis ylva
+ylva: /usr/bin/ylva /usr/share/man/man1/ylva.1.gz
+&lt;/pre&gt;
+&lt;p&gt;Comprobamos que tambien esta su manual.&lt;/p&gt;
+&lt;pre&gt;
+man(1)                                                 ylva man page                                                 man(1)
+
+NAME
+       ylva - command line password manager
+
+SYNOPSIS
+       ylva [FLAGS] &lt;OPTIONS&gt;
+
+DESCRIPTION
+       Ylva is a command line password manager program for Unix-like operating systems.
+
+OPTIONS
+       -i, --init &lt;path&gt;
+              Initialize new database
+
+       -E, --encrypt
+              Encrypt current database
+
+       -D, --decrypt &lt;path&gt;
+              Decrypt database
+
+       -c, --copy &lt;id&gt;
+              Copy an entry to a new entry
+
+       -a, --add
+              Add new entry
+
+       -p, --show-db-path
+              Show current database path
+...
+&lt;/pre&gt;
+&lt;p&gt;Comprobamos su utilización:&lt;/p&gt;
+&lt;pre&gt;
+vagrant@compilacion:~$ ylva -i contraseñas
+Existing database is already active. Encrypt it before creating a new one.
+vagrant@compilacion:~$ ylva -a 
+Title: Prueba
+Username: fran
+Url: www.sshfran.com
+Notes: Hola
+Password (empty to generate new): 
+
+vagrant@compilacion:~$ ylva -A
+=====================================================================
+ID: 1
+Title: Prueba
+User: fran
+Url: www.sshfran.com
+Password: **********
+Notes: Hola
+Modified: 2020-10-28 10:40:38
+=====================================================================
+
+vagrant@compilacion:~$ ylva --show-passwords -A
+=====================================================================
+ID: 1
+Title: Prueba
+User: fran
+Url: www.sshfran.com
+Password: segura
+Notes: Hola
+Modified: 2020-10-28 10:40:38
+=====================================================================
+&lt;/pre&gt;
+&lt;p&gt;Este programa nos da dos opciones para limpiar o borrar su rastro de nuestra maquina, el pimero es:
+&lt;em&gt;make clean&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;
+clean:
+	rm -f *.o
+	rm -f $(PROG)
+&lt;/pre&gt;
+&lt;p&gt;Borrará los directorios junto con sus configuraciones, tambien tenemos:
+&lt;em&gt;make unistall&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;
+uninstall:
+	rm $(PREFIX)/bin/ylva
+	rm $(DESTDIR)$(MANDIR)/man1/ylva.1.gz
+&lt;/pre&gt;
+&lt;p&gt;Desistalará el programa de nuestra maquina y tambien borrará su manual.&lt;/p&gt;
+&lt;p&gt;Comprobamos el funcionamiento de &lt;em&gt;make uninstall&lt;/em&gt;:&lt;/p&gt;
+&lt;pre&gt;
+vagrant@compilacion:~/ylva$ sudo make uninstall
+rm /usr//bin/ylva
+rm /usr//share/man/man1/ylva.1.gz
+vagrant@compilacion:~/ylva$ whereis ylva
+ylva:
+vagrant@compilacion:~/ylva$ man ylva
+No manual entry for ylva
+vagrant@compilacion:~/ylva$ man -W ylva
+No manual entry for ylva
+&lt;/pre&gt;
+&lt;p&gt;Como hemos comprobado el desistalador funciona y borrar tanto la carpeta dentro de /bin como su manual.&lt;/p&gt;
+&lt;p&gt;h4. Añadiremos algunas funcionalidades.&lt;/p&gt;
+&lt;p&gt;Dado que hemos tenido que instalar algunas dependencias podemos añadir en el README que ejecutaramos un script que añadiremos en el Makefile antes de realizar el make install donde instalar las dependencias necesarias:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dep: libc6 (&gt;= 2.17) [arm64, ppc64el]
+Biblioteca de C de GNU: Bibliotecas compartidas
+also a virtual package provided by libc6-udeb
+** dep: libc6 (&gt;= 2.4) [not arm64, ppc64el]&lt;/li&gt;
+&lt;li&gt;dep: libsqlite3-0 (&gt;= 3.5.9)
+biblioteca compartida de SQLite &lt;/li&gt;
+&lt;li&gt;dep: libssl1.1 (&gt;= 1.1.0)
+juego de herramientas de capa de conexión segura («Secure Sockets Layer») - bibliotecas compartidas &lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;
+instdep:
+        sudo apt install libc6
+        sudo apt install libssl-dev
+        sudo apt install libsqlite3-dev
+&lt;/pre&gt;
+&lt;p&gt;Con esto podremos ejecutar un nuevo script con make:&lt;/p&gt;
+&lt;pre&gt;
+vagrant@compilacion:~/ylva$ make instdep
+sudo apt install libc6
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+libc6 is already the newest version (2.28-10).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+sudo apt install libssl-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+libssl-dev is already the newest version (1.1.1d-0+deb10u3).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+sudo apt install libsqlite3-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+libsqlite3-dev is already the newest version (3.27.2-3).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+&lt;/pre&gt;
+&lt;p&gt;Este paso nos ayudará a ahorrarnos tiempo en instalar dependencias y volverá la instalación mas fluida.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Tambien he traducido el programa y le he añadido un poco de color, para ello he estado modificando el fichero utils.c&lt;/em&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/25194d7e4306f1c5209eb1c702bfdc08/3916b/ylvamodify.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.96774193548387%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAAByklEQVQ4y52T23LaMBCGHaCdJG1ok6a0lEIz0zSDLds6WJIR2ICBXDXv/zp/17ITyKEzmVx8s/JK+vegdSCkBItjJGnibZwkiBh7wPvixPvDMPJ2uVqhqipUmw1mznn/NAzJhgjK+QLO5ijcHHlmyDpUyxLb9eqBws1Qzh00BVeCQ6YpEgpWk8YMinPYTNG+QDAtc9yUFjeF9faaBNXtHeTuDmL3F9PFFiOeY5RaTGSOiXKYCINRxPCTxfg+ZRgxgWs9w5XQCMZbi/5c47wwZA1OtEWPLndSgyA26KYaPW4970loj/YEsUUQESGtQ7rzq5A4o1QHluOEK9o0Deweu/c9ohWK2jP3jEuFwSzFFyvwSZM49cJvhC3RK2AHgX6vJb7mHN8cx0elcG4k+iRai9frY56hS6X3Eo3uCzRidl/NkPr3WQtC4sIIXNpmXQv2M9kGaIJcmOb7kE78RHBCJZ9K5UXOKEMf9bWlPiq57eHVUlG5KX4s9n30B8I3Cv5Z0wvnKYYk2lfSZ/qBMvZQxu9obOqy/sezHo53BoNKYbilTDcKlwuaSfpz6geqOZWZfxiPOKD1HT0VPM4cjmiIOzS4NX5QWf7mHv4Dv4x45NMT0RYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/25194d7e4306f1c5209eb1c702bfdc08/36727/ylvamodify.png&quot;
+        srcset=&quot;/gatsbyjs/static/25194d7e4306f1c5209eb1c702bfdc08/acf4b/ylvamodify.png 173w,
+/gatsbyjs/static/25194d7e4306f1c5209eb1c702bfdc08/fc834/ylvamodify.png 345w,
+/gatsbyjs/static/25194d7e4306f1c5209eb1c702bfdc08/36727/ylvamodify.png 690w,
+/gatsbyjs/static/25194d7e4306f1c5209eb1c702bfdc08/3916b/ylvamodify.png 775w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Además he traducido su manual&lt;/em&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/4f80f703b80372a6ff94f4082ecbe9ae/9d617/ylvamantrad.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.73532796317606%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABy0lEQVQ4y5VSaW8TQQydJJRsoPANqVDEIURC9spu9sqxuwlCQqIcUin0//+SPPw8O0kjpSA+PHnssZ/9ZmySKNwJkO5txDN4ztMEn7YbfGwbbOs1mtUSeZIg8qeIA/8I8zjWfPNu0eJtVe/elDVe5Sue8bpYi23A2GVa4fksx4ukwEWcK+gfo8BlUuKl5Jhh1u6MX8JMC2t9CVpf0YtXGMzWeJDWMOECJqjs/V1IrDdb4eFsCfOk2MBLpCBeYih2mPDCwuv8M7ljMjES4n5YaeNeUHZg8xyjWBp68xojwRkLWEwiTqOT/h88Eo7mDZ6WW5znrZ0yXSvpQC7psxHtIKJvY+rLeXDky/SUzGkeZY2CkumzuB9Vah360aHYYtE1OTRUQieXb0EyTkyyviOS9+IkJij/LlneUCXzwGQWPxbZVrL7ICtfG3YfocSn4N6QDqdg0Xm+UemclJIYYyNt6sjuI90Tdgk6Ydbqj3tuSrFuRfa4j9QR9sI7E3InOzJK5WNzlQjKV9n/IjTvU5jxXANcZl3YsFtYElDuRO4nGTT3Q3aa1BGOv1xjfPUTE0Hw4xb+998W336pP7m6weTrjdqpxJ7Vnw+kJwj/ABkEkq6flZC5AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/4f80f703b80372a6ff94f4082ecbe9ae/36727/ylvamantrad.png&quot;
+        srcset=&quot;/gatsbyjs/static/4f80f703b80372a6ff94f4082ecbe9ae/acf4b/ylvamantrad.png 173w,
+/gatsbyjs/static/4f80f703b80372a6ff94f4082ecbe9ae/fc834/ylvamantrad.png 345w,
+/gatsbyjs/static/4f80f703b80372a6ff94f4082ecbe9ae/36727/ylvamantrad.png 690w,
+/gatsbyjs/static/4f80f703b80372a6ff94f4082ecbe9ae/9d617/ylvamantrad.png 869w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Prueba again22]]></title><description><![CDATA[Titulo Comienza a escribir tu publicación]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-again-22</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-again-22</guid><category><![CDATA[Test]]></category><pubDate>Fri, 16 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;titulo&quot;&gt;&lt;a href=&quot;#titulo&quot; aria-label=&quot;titulo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo&lt;/h2&gt;
 &lt;p&gt;Comienza a escribir tu publicación&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[prueba-2]]></title><description><![CDATA[Titulo Comienza a escribir tu publicación]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-2</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/prueba-2</guid><category><![CDATA[Test]]></category><pubDate>Fri, 16 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;titulo&quot;&gt;&lt;a href=&quot;#titulo&quot; aria-label=&quot;titulo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Titulo&lt;/h2&gt;
 &lt;p&gt;Comienza a escribir tu publicación&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue con Gatsbyjs]]></title><description><![CDATA[Gatsbyjs Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-con-gatsbyjs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-con-gatsbyjs</guid><category><![CDATA[Gatsbyjs]]></category><pubDate>Thu, 15 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
