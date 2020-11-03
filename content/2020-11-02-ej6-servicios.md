@@ -19,7 +19,7 @@ Dentro de mi directorio nas añado un archivo .htaccess y le añado la siguiente
 <pre>
 Options +Indexes
 </pre>
-![PracticaImg](content/images/servicios/000webhostnas.png Imagen de la practica)/home/fran/GitHub/gatsby/content/images
+![PracticaImg](content/images/servicios/000webhostnas.png "Imagen de la practica")
 
 * Crea una redirección permanente: cuando entremos en ttp://host.dominio/google salte a www.google.es.
 <pre>
@@ -44,5 +44,5 @@ AuthName "Inicio de sesión"
 AuthUserFile franmaduhtaccess.000webhostapp.com/prohibido/seguro.txt
 Require valid-user
 </pre>
-![PracticaImg](content/images/servicios/000webhostreq.png Imagen de la practica)
+![PracticaImg](content/images/servicios/000webhostreq.png "Imagen de la practica")
 Como podemos comprobar nos pide que nos logeemos para poder acceder a ese directorio.
