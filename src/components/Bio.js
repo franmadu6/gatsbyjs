@@ -10,8 +10,7 @@ const Bio = ({ config, expanded }) => (
       alt={config.userName}
     />
     <p>
-      Written by <strong>{config.userName}</strong> who lives and works in San
-      Francisco building useful things.
+      Escrito por <strong>{config.userName}</strong> Estudiante de administración de sistemas operativos (Dos Hermanas, Sevila).
       {` `}
       <Follow
         username={config.userTwitter}
