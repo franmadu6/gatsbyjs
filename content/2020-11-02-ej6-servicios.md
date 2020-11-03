@@ -1,6 +1,7 @@
 ---
 date: 2020-11-02
 title: "Ejercicio 6: Configuración de apache mediante archivo .htaccess "
+cover: "https://img.utdstc.com/icons/brackets-.png:225"
 categories: 
     - Servicios
 tags:
