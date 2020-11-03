@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 03 Nov 2020 09:07:50 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Ejercicio 6: Configuración de apache mediante archivo .htaccess ]]></title><description><![CDATA[Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</guid><category><![CDATA[.htaccess]]></category><pubDate>Sun, 01 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor?, ¿qué podemos hacer? Explica la directiva AllowOverride de apache2. Utilizando archivos .htaccess realiza las siguientes configuraciones:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 03 Nov 2020 09:10:55 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Ejercicio 6: Configuración de apache mediante archivo .htaccess ]]></title><description><![CDATA[Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</guid><category><![CDATA[.htaccess]]></category><pubDate>Sun, 01 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor?, ¿qué podemos hacer? Explica la directiva AllowOverride de apache2. Utilizando archivos .htaccess realiza las siguientes configuraciones:&lt;/p&gt;
 &lt;p&gt;Con 000webhost -&gt; &lt;a href=&quot;https://franmaduhtaccess.000webhostapp.com/&quot;&gt;https://franmaduhtaccess.000webhostapp.com/&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Habilita el listado de ficheros en la URL &lt;a href=&quot;http://host.dominio/nas&quot;&gt;http://host.dominio/nas&lt;/a&gt;.&lt;/li&gt;
@@ -124,36 +124,33 @@ Como podemos comprobar nos pide que nos logeemos para poder acceder a ese direct
 &lt;p&gt;Ylva usa OpenSSL (o LibreSSL) para el cifrado. Para la base de datos de contraseñas se utiliza SQLite. Ylva cifra la base de datos usando AES con 256 claves. La base de datos cifrada se autentica mediante HMAC. Para la generación de claves, PKBDF2-SHA256 se utiliza con 200 000 iteraciones.&lt;/p&gt;
 &lt;p&gt;Ylva no permanece ejecutándose, por lo que las posibles contraseñas de texto sin formato no están en la memoria excepto por un tiempo muy corto. Por ejemplo, ejecutar el comando ylva --auto-encrypt --list-all listaría todas las entradas de contraseña, encriptaría la base de datos y luego saldría. Las contraseñas de texto sin formato estarán en la memoria solo unos segundos. Esto hace que sea muy difícil para el malware robarlos.&lt;/p&gt;
 &lt;p&gt;Cuando se descifra la base de datos, solo el propietario la puede leer (chmod 600). Ylva lo hace automáticamente para el archivo de la base de datos para que no tenga que cambiar los permisos.&lt;/p&gt;
-&lt;p&gt;Después de esta breve introducción cabe destacar que posee un archivo donde guarda las actualizaciones realizadas.&lt;/p&gt;
-&lt;pre&gt;
+&lt;p&gt;Después de esta breve introducción cabe destacar que posee un archivo donde guarda las actualizaciones realizadas.
+&quot;
 Release 1.6 (2020-04-17)
-        Some changes to command line switches
-        Fixing typos in the manual
-        Makefile fixes
-        Minor code refactoring
-        Very stable long term release
-
-Release 1.5 (2019-05-24)
-        Password generator now uses RAND_bytes from OpenSSL
-        Regex search can now search all the entry fields
-        Minor memory leak fixed
-        Entries can now be duplicated with -D, --duplicate
-        Decrypted database is now only readable by the owner
-
-Release 1.4 (2019-05-18)
-        *Titan is now Ylva
-        *Ylva no longer supports encrypting individual files or directories, it&apos;s not a job for a password manager.
-        *Note that if you used colors, change TITAN_COLOR to YLVA_COLOR
-        *This release is made mostly because of the name change, but active development will continue
+Some changes to command line switches
+Fixing typos in the manual
+Makefile fixes
+Minor code refactoring
+Very stable long term release&lt;/p&gt;
+&lt;p&gt;Release 1.5 (2019-05-24)
+Password generator now uses RAND_bytes from OpenSSL
+Regex search can now search all the entry fields
+Minor memory leak fixed
+Entries can now be duplicated with -D, --duplicate
+Decrypted database is now only readable by the owner&lt;/p&gt;
+&lt;p&gt;Release 1.4 (2019-05-18)
+*Titan is now Ylva
+*Ylva no longer supports encrypting individual files or directories, it&apos;s not a job for a password manager.
+*Note that if you used colors, change TITAN&lt;em&gt;COLOR to YLVA&lt;/em&gt;COLOR
+*This release is made mostly because of the name change, but active development will continue
 Release 1.3 (2018-09-04)
-        *Titan now supports custom count of listing latest entries
-
-Release 1.2 (2017-11-14)
-        *Support for colors. See man titan(1) for more information.
-        *Added Support encrypting individual files
-        *Added support for encrypting directories
-        *Many smaller internal changes and bug fixes
-&lt;/pre&gt;
+*Titan now supports custom count of listing latest entries&lt;/p&gt;
+&lt;p&gt;Release 1.2 (2017-11-14)
+*Support for colors. See man titan(1) for more information.
+*Added Support encrypting individual files
+*Added support for encrypting directories
+*Many smaller internal changes and bug fixes
+&quot;&lt;/p&gt;
 &lt;p&gt;Comenzaremos descargando el repositorio de debian salsa:&lt;/p&gt;
 &lt;pre&gt;
 vagrant@compilacion:~$ git clone https://salsa.debian.org/debian/ylva
