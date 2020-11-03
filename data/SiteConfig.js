@@ -17,7 +17,7 @@ const config = {
   userTwitter: 'franmadueo', // Optionally renders "Follow Me" in the Bio segment.
   userGitHub: 'franmadu6', // Optionally renders "Follow Me" in the Bio segment.
   userLocation: 'Sevilla, España', // User location to display in the author segment.
-  userAvatar: '../images/perfil.jpeg', // User avatar to display in the author segment.
+  userAvatar: 'https://avatars0.githubusercontent.com/u/47178991?s=460&u=a2a999b1e9dfa3489ddb4b97fea2cd9a69aad5fc&v=4', // User avatar to display in the author segment.
   userDescription:
     "Aquí hay una descripción", // User description to display in the author segment.
   copyright: 'Copyright © 2020. All rights reserved.', // Copyright string for the footer of the website and RSS feed.
