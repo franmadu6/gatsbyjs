@@ -40,7 +40,7 @@
         }
       }
     })
-  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-795f99583aa1c1ac11b4.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-308be3d502e059192429.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-283161312e4fd86bad9f.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/compilacion-de-un-programa-en-c-utilizando-un-makefile/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/creative-thinking">Creative Thinking<strong> (<!-- -->2<!-- -->)</strong></a></li><li><a href="/gatsbyjs/gatsby">Gatsby<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/nodejs">Nodejs<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/prueba">Prueba<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/pruebas">Pruebas<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/react">React<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/servicios">Servicios<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sistemas-operativos">Sistemas Operativos<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/tech">Tech<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Compilación de un programa en C utilizando un Makefile</h1><p class="post-module--post-meta--1ci95">October 31, 2020<!-- --> — <!-- -->8<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/compilacion"><span>Compilacion</span></a></div></div><div><h1 id="ylva---command-line-password-manager"><a href="#ylva---command-line-password-manager" aria-label="ylva   command line password manager permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ylva - Command line password manager</h1>
+  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-795f99583aa1c1ac11b4.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-308be3d502e059192429.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-283161312e4fd86bad9f.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/compilacion-de-un-programa-en-c-utilizando-un-makefile/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/creative-thinking">Creative Thinking<strong> (<!-- -->2<!-- -->)</strong></a></li><li><a href="/gatsbyjs/gatsby">Gatsby<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/nodejs">Nodejs<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/prueba">Prueba<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/pruebas">Pruebas<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/react">React<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/servicios">Servicios<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sistemas-operativos">Sistemas Operativos<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/tech">Tech<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Compilación de un programa en C utilizando un Makefile</h1><p class="post-module--post-meta--1ci95">October 31, 2020<!-- --> — <!-- -->7<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/compilacion"><span>Compilacion</span></a></div></div><div><h1 id="ylva---command-line-password-manager"><a href="#ylva---command-line-password-manager" aria-label="ylva   command line password manager permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ylva - Command line password manager</h1>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 295px;"
@@ -74,33 +74,36 @@
 <p>Ylva usa OpenSSL (o LibreSSL) para el cifrado. Para la base de datos de contraseñas se utiliza SQLite. Ylva cifra la base de datos usando AES con 256 claves. La base de datos cifrada se autentica mediante HMAC. Para la generación de claves, PKBDF2-SHA256 se utiliza con 200 000 iteraciones.</p>
 <p>Ylva no permanece ejecutándose, por lo que las posibles contraseñas de texto sin formato no están en la memoria excepto por un tiempo muy corto. Por ejemplo, ejecutar el comando ylva --auto-encrypt --list-all listaría todas las entradas de contraseña, encriptaría la base de datos y luego saldría. Las contraseñas de texto sin formato estarán en la memoria solo unos segundos. Esto hace que sea muy difícil para el malware robarlos.</p>
 <p>Cuando se descifra la base de datos, solo el propietario la puede leer (chmod 600). Ylva lo hace automáticamente para el archivo de la base de datos para que no tenga que cambiar los permisos.</p>
-<p>Después de esta breve introducción cabe destacar que posee un archivo donde guarda las actualizaciones realizadas.
-`
+<p>Después de esta breve introducción cabe destacar que posee un archivo donde guarda las actualizaciones realizadas.</p>
+<pre>
 Release 1.6 (2020-04-17)
-Some changes to command line switches
-Fixing typos in the manual
-Makefile fixes
-Minor code refactoring
-Very stable long term release</p>
-<p>Release 1.5 (2019-05-24)
-Password generator now uses RAND_bytes from OpenSSL
-Regex search can now search all the entry fields
-Minor memory leak fixed
-Entries can now be duplicated with -D, --duplicate
-Decrypted database is now only readable by the owner</p>
-<p>Release 1.4 (2019-05-18)
-*Titan is now Ylva
-*Ylva no longer supports encrypting individual files or directories, it's not a job for a password manager.
-*Note that if you used colors, change TITAN<em>COLOR to YLVA</em>COLOR
-*This release is made mostly because of the name change, but active development will continue
+        Some changes to command line switches
+        Fixing typos in the manual
+        Makefile fixes
+        Minor code refactoring
+        Very stable long term release
+
+Release 1.5 (2019-05-24)
+        Password generator now uses RAND_bytes from OpenSSL
+        Regex search can now search all the entry fields
+        Minor memory leak fixed
+        Entries can now be duplicated with -D, --duplicate
+        Decrypted database is now only readable by the owner
+
+Release 1.4 (2019-05-18)
+        *Titan is now Ylva
+        *Ylva no longer supports encrypting individual files or directories, it's not a job for a password manager.
+        *Note that if you used colors, change TITAN_COLOR to YLVA_COLOR
+        *This release is made mostly because of the name change, but active development will continue
 Release 1.3 (2018-09-04)
-*Titan now supports custom count of listing latest entries</p>
-<p>Release 1.2 (2017-11-14)
-*Support for colors. See man titan(1) for more information.
-*Added Support encrypting individual files
-*Added support for encrypting directories
-*Many smaller internal changes and bug fixes
-`</p>
+        *Titan now supports custom count of listing latest entries
+
+Release 1.2 (2017-11-14)
+        *Support for colors. See man titan(1) for more information.
+        *Added Support encrypting individual files
+        *Added support for encrypting directories
+        *Many smaller internal changes and bug fixes
+</pre>
 <p>Comenzaremos descargando el repositorio de debian salsa:</p>
 <pre>
 vagrant@compilacion:~$ git clone https://salsa.debian.org/debian/ylva
