@@ -74,6 +74,9 @@ const SEO = ({ postNode, postPath, postSEO }) => {
         {JSON.stringify(schemaOrgJSONLD)}
       </script>
 
+      {/* Google tags */}
+      <meta name="google-site-verification" content="nfw924182Pw8-Z0KTHJTD3f66Y5RI30SKWd8emqslnE" />
+
       {/* OpenGraph tags */}
       <meta property="og:url" content={postSEO ? postURL : blogURL} />
       {postSEO ? <meta property="og:type" content="article" /> : null}

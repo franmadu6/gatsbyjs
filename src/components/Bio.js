@@ -10,7 +10,8 @@ const Bio = ({ config, expanded }) => (
       alt={config.userName}
     />
     <p>
-      Escrito por <strong>{config.userName}</strong> Estudiante de administración de sistemas operativos (Dos Hermanas, Sevila).
+      Escrito por <strong>{config.userName}</strong> Estudiante de administración de sistemas operativos 
+      (Dos Hermanas, Sevilla).
       {` `}
       <Follow
         username={config.userTwitter}
