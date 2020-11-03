@@ -27,7 +27,7 @@ Ylva no permanece ejecutándose, por lo que las posibles contraseñas de texto s
 Cuando se descifra la base de datos, solo el propietario la puede leer (chmod 600). Ylva lo hace automáticamente para el archivo de la base de datos para que no tenga que cambiar los permisos.
 
 Después de esta breve introducción cabe destacar que posee un archivo donde guarda las actualizaciones realizadas.
-<div style="background-color:powderblue;">
+<pre style="background-color:powderblue;">
 Release 1.6 (2020-04-17)
         Some changes to command line switches
         Fixing typos in the manual
@@ -55,10 +55,10 @@ Release 1.2 (2017-11-14)
         *Added Support encrypting individual files
         *Added support for encrypting directories
         *Many smaller internal changes and bug fixes
-</div>
+</pre>
 
 Comenzaremos descargando el repositorio de debian salsa:
-<pre>
+<pre style="background-color:powderblue;">
 vagrant@compilacion:~$ git clone https://salsa.debian.org/debian/ylva
 Cloning into 'ylva'...
 warning: redirecting to https://salsa.debian.org/debian/ylva.git/
@@ -75,7 +75,7 @@ crypto.c  db.h      entry.h  NEWS      README.md  utils.c      ylva.c
 </pre>
 
 El primer error que encontramos:
-<pre>
+<pre style="background-color:powderblue;">
 vagrant@compilacion:~/ylva$ make install
 cc -g -std=c99 -Wall -c entry.c -o entry.o
 cc -g -std=c99 -Wall -c db.c -o db.o
@@ -87,7 +87,7 @@ make: *** [Makefile:14: db.o] Error 1
 </pre>
 
 Deberemos de crear la librería *libsqlite3-0* que es una libreria compartida de SQLite.
-<pre>
+<pre style="background-color:powderblue;">
 vagrant@compilacion:~/ylva$ sudo apt install libsqlite3-dev
 Reading package lists... Done
 Building dependency tree       
@@ -109,7 +109,7 @@ Setting up libsqlite3-dev:amd64 (3.27.2-3) ...
 </pre>
 
 Volvemos a tener el mismo caso, ahora con *openssl/evp.h*:
-<pre>
+<pre style="background-color:powderblue;">
 vagrant@compilacion:~/ylva$ make install
 cc -g -std=c99 -Wall -c db.c -o db.o
 cc -g -std=c99 -Wall -c crypto.c -o crypto.o
@@ -121,7 +121,7 @@ make: *** [Makefile:14: crypto.o] Error 1
 </pre>
 
 Que lo solucionamos instalando sus dependencias:
-<pre>
+<pre style="background-color:powderblue;">
 vagrant@compilacion:~/ylva$ sudo apt install libssl-dev 
 Reading package lists... Done
 Building dependency tree       
@@ -143,7 +143,7 @@ Setting up libssl-dev:amd64 (1.1.1d-0+deb10u3) ...
 </pre>
 
 Ahora podremos instalar sin problemas:
-<pre>
+<pre style="background-color:powderblue;">
 vagrant@compilacion:~/ylva$ sudo make install
 if [ ! -d /usr//share/man/man1 ];then	\
 	mkdir -p /usr//share/man/man1;	\
@@ -157,7 +157,7 @@ install -m755 ylva /usr//bin/
 </pre>
 
 Comprobamos su ubicación:
-<pre>
+<pre style="background-color:powderblue;">
 vagrant@compilacion:~/ylva$ which ylva
 /usr/bin/ylva
 
@@ -166,7 +166,7 @@ ylva: /usr/bin/ylva /usr/share/man/man1/ylva.1.gz
 </pre>
 
 Comprobamos que tambien esta su manual.
-<pre>
+<pre style="background-color:powderblue;">
 man(1)                                                 ylva man page                                                 man(1)
 
 NAME
@@ -200,7 +200,7 @@ OPTIONS
 </pre>
 
 Comprobamos su utilización:
-<pre>
+<pre style="background-color:powderblue;">
 vagrant@compilacion:~$ ylva -i contraseñas
 Existing database is already active. Encrypt it before creating a new one.
 vagrant@compilacion:~$ ylva -a 
@@ -235,14 +235,14 @@ Modified: 2020-10-28 10:40:38
 
 Este programa nos da dos opciones para limpiar o borrar su rastro de nuestra maquina, el pimero es:
 *make clean*
-<pre>
+<pre style="background-color:powderblue;">
 clean:
 	rm -f *.o
 	rm -f $(PROG)
 </pre>
 Borrará los directorios junto con sus configuraciones, tambien tenemos:
 *make unistall*
-<pre>
+<pre style="background-color:powderblue;">
 uninstall:
 	rm $(PREFIX)/bin/ylva
 	rm $(DESTDIR)$(MANDIR)/man1/ylva.1.gz
@@ -250,7 +250,7 @@ uninstall:
 Desistalará el programa de nuestra maquina y tambien borrará su manual.
 
 Comprobamos el funcionamiento de *make uninstall*:
-<pre>
+<pre style="background-color:powderblue;">
 vagrant@compilacion:~/ylva$ sudo make uninstall
 rm /usr//bin/ylva
 rm /usr//share/man/man1/ylva.1.gz
@@ -278,14 +278,14 @@ Dado que hemos tenido que instalar algunas dependencias podemos añadir en el RE
 * dep: libssl1.1 (>= 1.1.0)
  juego de herramientas de capa de conexión segura («Secure Sockets Layer») - bibliotecas compartidas 
 
-<pre>
+<pre style="background-color:powderblue;">
 instdep:
         sudo apt install libc6
         sudo apt install libssl-dev
         sudo apt install libsqlite3-dev
 </pre>
 Con esto podremos ejecutar un nuevo script con make:
-<pre>
+<pre style="background-color:powderblue;">
 vagrant@compilacion:~/ylva$ make instdep
 sudo apt install libc6
 Reading package lists... Done
