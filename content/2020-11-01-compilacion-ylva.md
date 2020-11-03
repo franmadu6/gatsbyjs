@@ -27,7 +27,7 @@ Ylva no permanece ejecutándose, por lo que las posibles contraseñas de texto s
 Cuando se descifra la base de datos, solo el propietario la puede leer (chmod 600). Ylva lo hace automáticamente para el archivo de la base de datos para que no tenga que cambiar los permisos.
 
 Después de esta breve introducción cabe destacar que posee un archivo donde guarda las actualizaciones realizadas.
-<span style="color:blue">
+<div style="background-color:powderblue;">
 Release 1.6 (2020-04-17)
         Some changes to command line switches
         Fixing typos in the manual
@@ -55,7 +55,7 @@ Release 1.2 (2017-11-14)
         *Added Support encrypting individual files
         *Added support for encrypting directories
         *Many smaller internal changes and bug fixes
-</span>
+</div>
 
 Comenzaremos descargando el repositorio de debian salsa:
 <pre>
