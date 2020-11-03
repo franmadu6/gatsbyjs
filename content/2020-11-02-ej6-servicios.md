@@ -1,7 +1,7 @@
 ---
 date: 2020-11-02
 title: "Ejercicio 6: Configuración de apache mediante archivo .htaccess "
-cover: "https://img.utdstc.com/icons/brackets-.png:225"
+cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
     - Servicios
 tags:
@@ -19,7 +19,8 @@ Dentro de mi directorio nas añado un archivo .htaccess y le añado la siguiente
 <pre>
 Options +Indexes
 </pre>
-![PracticaImg](images/servicios/000webhostnas.png Imagen de la practica)
+![PracticaImg](content/images/servicios/000webhostnas.png Imagen de la practica)/home/fran/GitHub/gatsby/content/images
+
 * Crea una redirección permanente: cuando entremos en ttp://host.dominio/google salte a www.google.es.
 <pre>
 Redirect 301 /google http://www.google.es
@@ -43,5 +44,5 @@ AuthName "Inicio de sesión"
 AuthUserFile franmaduhtaccess.000webhostapp.com/prohibido/seguro.txt
 Require valid-user
 </pre>
-![PracticaImg](images/servicios/000webhostreq.png Imagen de la practica)
+![PracticaImg](content/images/servicios/000webhostreq.png Imagen de la practica)
 Como podemos comprobar nos pide que nos logeemos para poder acceder a ese directorio.
