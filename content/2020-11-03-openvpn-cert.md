@@ -50,18 +50,47 @@ A challenge password []:
 An optional company name []:
 </pre>
 Una vez generado el certificado deberemos ir a gestiona "https://dit.gonzalonazareno.org/gestiona/cert/" subirlo y esperar su regreso.
-
-
-
-* Descarga el certificado firmado cuando esté disponible
-<pre style="background-color:powderblue;">
-
-</pre>
+Nos llegará nuestro archivo .crt y estara certificado por el cetro.
 
 * Instala y configura apropiadamente el cliente openvpn y muestra los registros (logs) del sistema que demuestren que se ha establecido una conexión.
-<pre style="background-color:powderblue;">
 
+Instalaremos nuestro cliente openvpn
+<pre style="background-color:powderblue;">
+fran@debian:~$ sudo apt-get install openvpn
 </pre>
+
+Ahora con paquete instalado moveremos el certificado a /etc/openvpn
+<pre style="background-color:powderblue;">
+root@debian:/etc/openvpn# ls
+client	maduvpn.crt  server  update-resolv-conf
+</pre>
+
+Crearemos un fichero de configuración nuevo y le añadiremos las siguientes lineas
+<pre style="background-color:powderblue;">
+#sputnik.conf
+dev tun
+remote sputnik.gonzalonazareno.org
+ifconfig 172.23.0.0 255.255.255.0
+pull
+proto tcp-client
+tls-client
+remote-cert-tls server
+ca /etc/ssl/certs/gonzalonazareno.crt            
+cert /etc/openvpn/maduvpn.crt
+key /etc/ssl/private/maduvpn.key
+comp-lzo
+keepalive 10 60
+log /var/log/openvpn-sputnik.log
+verb 1
+</pre>
+
+Reiniciamos el servicio de openvpn
+<pre style="background-color:powderblue;">
+root@debian:/etc/openvpn# /etc/init.d/openvpn restart
+[ ok ] Restarting openvpn (via systemctl): openvpn.service.
+</pre>
+
+
 
 * Cuando hayas establecido la conexión VPN tendrás acceso a la red 172.22.0.0/16 a través de un túnel SSL. Compruébalo haciendo ping a 172.22.0.1
 <pre style="background-color:powderblue;">
