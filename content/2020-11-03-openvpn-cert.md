@@ -49,6 +49,7 @@ to be sent with your certificate request
 A challenge password []:
 An optional company name []:
 </pre>
+
 Una vez generado el certificado deberemos ir a gestiona "https://dit.gonzalonazareno.org/gestiona/cert/" subirlo y esperar su regreso.
 Nos llegará nuestro archivo .crt y estara certificado por el cetro.
 
