@@ -43,7 +43,6 @@ Organization Name (eg, company) [Internet Widgits Pty Ltd]:IES Gonzalo Nazareno
 Organizational Unit Name (eg, section) []:Asir
 Common Name (e.g. server FQDN or YOUR name) []:maduvpn  
 Email Address []:frandh1997@gmail.com
-
 Please enter the following 'extra' attributes
 to be sent with your certificate request
 A challenge password []:
