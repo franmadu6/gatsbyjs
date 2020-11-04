@@ -91,10 +91,49 @@ root@debian:/etc/openvpn# /etc/init.d/openvpn restart
 [ ok ] Restarting openvpn (via systemctl): openvpn.service.
 </pre>
 
+Commprobamos que se ha creado la regla de encaminamiento para acceder a los equipos de la 172.22.0.0/16.
+<pre style="background-color:powderblue;">
+fran@debian:~$ ip r
+default via 192.168.1.1 dev wlo1 proto dhcp metric 600 
+169.254.0.0/16 dev wlo1 scope link metric 1000 
+172.22.0.0/16 via 172.23.0.93 dev tun0 
+172.23.0.1 via 172.23.0.93 dev tun0 
+172.23.0.93 dev tun0 proto kernel scope link src 172.23.0.94 
+192.168.1.0/24 dev wlo1 proto kernel scope link src 192.168.1.139 metric 600 
+</pre>
 
+Comprobamos los mensajes de log
+<pre style="background-color:powderblue;">
+root@debian:/home/fran# cat /var/log/openvpn-sputnik.log
+Wed Nov  4 19:10:38 2020 WARNING: file '/etc/ssl/private/maduvpn.key' is group or others accessible
+Wed Nov  4 19:10:38 2020 OpenVPN 2.4.7 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Feb 20 2019
+Wed Nov  4 19:10:38 2020 library versions: OpenSSL 1.1.1d  10 Sep 2019, LZO 2.10
+Wed Nov  4 19:10:38 2020 WARNING: using --pull/--client and --ifconfig together is probably not what you want
+Wed Nov  4 19:10:38 2020 TCP/UDP: Preserving recently used remote address: [AF_INET]92.222.86.77:1194
+Wed Nov  4 19:10:38 2020 Attempting to establish TCP connection with [AF_INET]92.222.86.77:1194 [nonblock]
+Wed Nov  4 19:10:39 2020 TCP connection established with [AF_INET]92.222.86.77:1194
+Wed Nov  4 19:10:39 2020 TCP_CLIENT link local: (not bound)
+Wed Nov  4 19:10:39 2020 TCP_CLIENT link remote: [AF_INET]92.222.86.77:1194
+Wed Nov  4 19:10:40 2020 [sputnik.gonzalonazareno.org] Peer Connection Initiated with [AF_INET]92.222.86.77:1194
+Wed Nov  4 19:10:41 2020 TUN/TAP device tun0 opened
+Wed Nov  4 19:10:41 2020 /sbin/ip link set dev tun0 up mtu 1500
+Wed Nov  4 19:10:41 2020 /sbin/ip addr add dev tun0 local 172.23.0.94 peer 172.23.0.93
+Wed Nov  4 19:10:41 2020 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+Wed Nov  4 19:10:41 2020 Initialization Sequence Completed
+</pre>
 
 * Cuando hayas establecido la conexión VPN tendrás acceso a la red 172.22.0.0/16 a través de un túnel SSL. Compruébalo haciendo ping a 172.22.0.1
-<pre style="background-color:powderblue;">
 
+<pre style="background-color:powderblue;">
+root@debian:/home/fran# ping 172.22.0.1
+PING 172.22.0.1 (172.22.0.1) 56(84) bytes of data.
+64 bytes from 172.22.0.1: icmp_seq=1 ttl=63 time=144 ms
+64 bytes from 172.22.0.1: icmp_seq=2 ttl=63 time=88.8 ms
+64 bytes from 172.22.0.1: icmp_seq=3 ttl=63 time=88.8 ms
+64 bytes from 172.22.0.1: icmp_seq=4 ttl=63 time=93.5 ms
+^C
+--- 172.22.0.1 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 8ms
+rtt min/avg/max/mdev = 88.801/103.841/144.254/23.411 ms
 </pre>
 
