@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 03 Nov 2020 18:00:34 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Servidor web nginx]]></title><description><![CDATA[Tarea 1 (1 punto)(Obligatorio): Crea una máquina del cloud con una red pública. Añade la clave pública del profesor a la máquina. Instala el…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servidor-web-nginx</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servidor-web-nginx</guid><category><![CDATA[nginx]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-1-puntoobligatorio-crea-una-máquina-del-cloud-con-una-red-pública-añade-la-clave-pública-del-profesor-a-la-máquina-instala-el-servidor-web-nginx-en-la-máquina-modifica-la-página-indexhtml-que-viene-por-defecto-y-accede-a-ella-desde-un-navegador&quot;&gt;&lt;a href=&quot;#tarea-1-1-puntoobligatorio-crea-una-m%C3%A1quina-del-cloud-con-una-red-p%C3%BAblica-a%C3%B1ade-la-clave-p%C3%BAblica-del-profesor-a-la-m%C3%A1quina-instala-el-servidor-web-nginx-en-la-m%C3%A1quina-modifica-la-p%C3%A1gina-indexhtml-que-viene-por-defecto-y-accede-a-ella-desde-un-navegador&quot; aria-label=&quot;tarea 1 1 puntoobligatorio crea una máquina del cloud con una red pública añade la clave pública del profesor a la máquina instala el servidor web nginx en la máquina modifica la página indexhtml que viene por defecto y accede a ella desde un navegador permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1 (1 punto)(Obligatorio): Crea una máquina del cloud con una red pública. Añade la clave pública del profesor a la máquina. Instala el servidor web nginx en la máquina. Modifica la página index.html que viene por defecto y accede a ella desde un navegador.&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 04 Nov 2020 17:44:21 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Servidor web nginx]]></title><description><![CDATA[Tarea 1 (1 punto)(Obligatorio): Crea una máquina del cloud con una red pública. Añade la clave pública del profesor a la máquina. Instala el…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servidor-web-nginx</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servidor-web-nginx</guid><category><![CDATA[nginx]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-1-puntoobligatorio-crea-una-máquina-del-cloud-con-una-red-pública-añade-la-clave-pública-del-profesor-a-la-máquina-instala-el-servidor-web-nginx-en-la-máquina-modifica-la-página-indexhtml-que-viene-por-defecto-y-accede-a-ella-desde-un-navegador&quot;&gt;&lt;a href=&quot;#tarea-1-1-puntoobligatorio-crea-una-m%C3%A1quina-del-cloud-con-una-red-p%C3%BAblica-a%C3%B1ade-la-clave-p%C3%BAblica-del-profesor-a-la-m%C3%A1quina-instala-el-servidor-web-nginx-en-la-m%C3%A1quina-modifica-la-p%C3%A1gina-indexhtml-que-viene-por-defecto-y-accede-a-ella-desde-un-navegador&quot; aria-label=&quot;tarea 1 1 puntoobligatorio crea una máquina del cloud con una red pública añade la clave pública del profesor a la máquina instala el servidor web nginx en la máquina modifica la página indexhtml que viene por defecto y accede a ella desde un navegador permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1 (1 punto)(Obligatorio): Crea una máquina del cloud con una red pública. Añade la clave pública del profesor a la máquina. Instala el servidor web nginx en la máquina. Modifica la página index.html que viene por defecto y accede a ella desde un navegador.&lt;/h2&gt;
 &lt;h3 id=&quot;entrega-la-ip-flotante-de-la-máquina-para-que-el-profesor-pueda-acceder-a-ella&quot;&gt;&lt;a href=&quot;#entrega-la-ip-flotante-de-la-m%C3%A1quina-para-que-el-profesor-pueda-acceder-a-ella&quot; aria-label=&quot;entrega la ip flotante de la máquina para que el profesor pueda acceder a ella permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Entrega la ip flotante de la máquina para que el profesor pueda acceder a ella.&lt;/h3&gt;
 &lt;h3 id=&quot;entrega-una-captura-de-pantalla-accediendo-a-ella&quot;&gt;&lt;a href=&quot;#entrega-una-captura-de-pantalla-accediendo-a-ella&quot; aria-label=&quot;entrega una captura de pantalla accediendo a ella permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Entrega una captura de pantalla accediendo a ella&lt;/h3&gt;
 &lt;p&gt;Ip flotante de la maquina es -&gt;  &lt;em&gt;172.22.200.137&lt;/em&gt;
@@ -50,19 +50,41 @@ A challenge password []:
 An optional company name []:&lt;/p&gt;
 &lt;/pre&gt;
 Una vez generado el certificado deberemos ir a gestiona &quot;https://dit.gonzalonazareno.org/gestiona/cert/&quot; subirlo y esperar su regreso.
+Nos llegará nuestro archivo .crt y estara certificado por el cetro.
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Descarga el certificado firmado cuando esté disponible&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-&lt;/li&gt;
+&lt;li&gt;Instala y configura apropiadamente el cliente openvpn y muestra los registros (logs) del sistema que demuestren que se ha establecido una conexión.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Instalaremos nuestro cliente openvpn&lt;/p&gt;
+&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
+fran@debian:~$ sudo apt-get install openvpn
 &lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Instala y configura apropiadamente el cliente openvpn y muestra los registros (logs) del sistema que demuestren que se ha establecido una conexión.&lt;/p&gt;
+&lt;p&gt;Ahora con paquete instalado moveremos el certificado a /etc/openvpn&lt;/p&gt;
 &lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+root@debian:/etc/openvpn# ls
+client	maduvpn.crt  server  update-resolv-conf
+&lt;/pre&gt;
+&lt;p&gt;Crearemos un fichero de configuración nuevo y le añadiremos las siguientes lineas&lt;/p&gt;
+&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
+#sputnik.conf
+dev tun
+remote sputnik.gonzalonazareno.org
+ifconfig 172.23.0.0 255.255.255.0
+pull
+proto tcp-client
+tls-client
+remote-cert-tls server
+ca /etc/ssl/certs/gonzalonazareno.crt            
+cert /etc/openvpn/maduvpn.crt
+key /etc/ssl/private/maduvpn.key
+comp-lzo
+keepalive 10 60
+log /var/log/openvpn-sputnik.log
+verb 1
+&lt;/pre&gt;
+&lt;p&gt;Reiniciamos el servicio de openvpn&lt;/p&gt;
+&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
+root@debian:/etc/openvpn# /etc/init.d/openvpn restart
+[ ok ] Restarting openvpn (via systemctl): openvpn.service.
 &lt;/pre&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -521,7 +543,7 @@ libsqlite3-dev is already the newest version (3.27.2-3).
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación de Brackets en Debian]]></title><description><![CDATA[Brackets  Un editor de texto de código abierto moderno que comprende el diseño web. Extensiones recomendadas CanIUse Con esta extensión…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</guid><category><![CDATA[Entorno de desarrollo]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Brackets]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;brackets&quot;&gt;&lt;a href=&quot;#brackets&quot; aria-label=&quot;brackets permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Brackets&lt;/h2&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Ejercicio 5: Control de acceso, autentificación y autorización]]></title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-5-control-de-acceso-autentificacion-y-autorizacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-5-control-de-acceso-autentificacion-y-autorizacion</guid><category><![CDATA[Control de acceso]]></category><category><![CDATA[Autentificación]]></category><category><![CDATA[Autorización]]></category><pubDate>Sat, 31 Oct 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; aria-label=&quot; permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación de Brackets en Debian]]></title><description><![CDATA[Brackets  Un editor de texto de código abierto moderno que comprende el diseño web. Extensiones recomendadas CanIUse Con esta extensión…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</guid><category><![CDATA[Entorno de desarrollo]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Brackets]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;brackets&quot;&gt;&lt;a href=&quot;#brackets&quot; aria-label=&quot;brackets permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Brackets&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -602,78 +624,7 @@ Emmet&lt;/p&gt;
 &lt;p&gt;Transferir ficheros desde tu ordenador al servidor web del proyecto requiere de un cliente FTP o SFTP, pero esta característica tan fundamental del desarrollo web no está incluida en Brackets. Para remediar esta situación, usa la extensión eqFTP, un cliente FTP/SFTP con el cual puedes operar sin tener que abandonar el editor de código. &lt;/p&gt;
 &lt;h2 id=&quot;enlaces-de-interes&quot;&gt;&lt;a href=&quot;#enlaces-de-interes&quot; aria-label=&quot;enlaces de interes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Enlaces de interes&lt;/h2&gt;
 &lt;p&gt;-&lt;a href=&quot;https://beatrizruizcorvillo.es/brackets-editor-html/&quot;&gt;Todo lo que necesitas saber de Brackets&lt;/a&gt;&lt;br&gt;
--&lt;a href=&quot;https://www.w3.org/Style/Examples/011/firstcss.es.html&quot;&gt;HTML Y CSS&lt;/a&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Developing a Gatsby Theme]]></title><description><![CDATA[Accipit alto fecerat mutato centauri haerent dominoque Lorem markdownum nunc fuerat vulgaris ipse. Profecisse Atridae flumen perit
-huic, non…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/developing-a-gatsby-theme</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/developing-a-gatsby-theme</guid><category><![CDATA[tag one]]></category><category><![CDATA[gatsby]]></category><pubDate>Wed, 16 Oct 2019 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;accipit-alto-fecerat-mutato-centauri-haerent-dominoque&quot;&gt;&lt;a href=&quot;#accipit-alto-fecerat-mutato-centauri-haerent-dominoque&quot; aria-label=&quot;accipit alto fecerat mutato centauri haerent dominoque permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Accipit alto fecerat mutato centauri haerent dominoque&lt;/h2&gt;
-&lt;p&gt;Lorem markdownum nunc fuerat vulgaris ipse. Profecisse Atridae flumen perit
-huic, non bis, summa retemptat. Praedelassat tollitur parte capiebant lustratum
-hominem loco coniuge quota, nec aura. Cum constiterat, animos sic videre dumque
-altus &lt;strong&gt;de vesper&lt;/strong&gt; membra blanditiis aethera orgia.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Sicyonius color&lt;/li&gt;
-&lt;li&gt;Publica animalia suoque sub&lt;/li&gt;
-&lt;li&gt;Stupet eiusdem paventem meum&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/6a30910688d8595424925411cc8a4768/c3f92/park.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.64705882352942%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAF+WeuKhID/xAAbEAACAgMBAAAAAAAAAAAAAAABAgMRABAUEv/aAAgBAQABBQIyRqvWt9KY1gezr//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AYj/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARES/9oACAECAQE/Ablp/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQACESEQEkH/2gAIAQEABj8CJ2Eq28VtKmc//8QAHBAAAQUAAwAAAAAAAAAAAAAAAQARITFREEFx/9oACAEBAAE/IYCYQNUSizasSe1bJ9Tgbj//2gAMAwEAAgADAAAAECQv/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qgf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QJ//EAB0QAQEAAgIDAQAAAAAAAAAAAAERAEEhMVFhcdH/2gAIAQEAAT8QGyoXe2jARrLn5N5dY609CIP24YhrZ+sFE08McS8gHrP/2Q==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;park&quot;
-        title=&quot;park&quot;
-        src=&quot;/gatsbyjs/static/6a30910688d8595424925411cc8a4768/8c996/park.jpg&quot;
-        srcset=&quot;/gatsbyjs/static/6a30910688d8595424925411cc8a4768/6f483/park.jpg 173w,
-/gatsbyjs/static/6a30910688d8595424925411cc8a4768/0fa0d/park.jpg 345w,
-/gatsbyjs/static/6a30910688d8595424925411cc8a4768/8c996/park.jpg 690w,
-/gatsbyjs/static/6a30910688d8595424925411cc8a4768/c8cd5/park.jpg 1035w,
-/gatsbyjs/static/6a30910688d8595424925411cc8a4768/00650/park.jpg 1380w,
-/gatsbyjs/static/6a30910688d8595424925411cc8a4768/c3f92/park.jpg 1700w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&quot;supersunt-prothoenora-arida-moturaque-fuerit-demissaque-aut&quot;&gt;&lt;a href=&quot;#supersunt-prothoenora-arida-moturaque-fuerit-demissaque-aut&quot; aria-label=&quot;supersunt prothoenora arida moturaque fuerit demissaque aut permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Supersunt Prothoenora arida moturaque fuerit demissaque aut&lt;/h2&gt;
-&lt;p&gt;Hunc adventare duxit lacrimis hospes futurum fecerat inde manus reditum annos,
-fuerat usque foedus mihi, priscum? Amanti tu costis occursu: dentes alios,
-adflabitur poteram. Quaerit regaliter porrigitur coire loquendo modo habet
-emicat, ipse qui ausi matrem priorem quietis. Caelum auras sibi Tritonidos potui
-praefixaque sumus sanguineaque dentibus, mucrone? Saucius iuvenis sunt.&lt;/p&gt;
-&lt;p&gt;Ita ultor restituit tollere. Ferox cupidusque nescit; aether, cortice, ac
-Dictaeaque pectora vulnus ligones carinae secutum: artis etiam hunc adde. Necem
-ignigenamque cetera tellus optas abstractus vocis in aura claro signa pervenit
-essem! Turbatque aequora remanet accepit in digitos, refert reus sanguine.&lt;/p&gt;
-&lt;h2 id=&quot;mediis-plura-sono&quot;&gt;&lt;a href=&quot;#mediis-plura-sono&quot; aria-label=&quot;mediis plura sono permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mediis plura sono&lt;/h2&gt;
-&lt;p&gt;Haec dedisset pendens quem exul medios nec fecundus unde, concursibus. Iste in
-superat, omnem cognovit nulla inpendere in silvae certatim.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Nimium contigerat fera incipit Lichan nata&lt;/li&gt;
-&lt;li&gt;Prothoenora rapti contendisse comae&lt;/li&gt;
-&lt;li&gt;Colloque mitisque&lt;/li&gt;
-&lt;li&gt;Utinam rogum adeunda dic ausus magnus canam&lt;/li&gt;
-&lt;li&gt;In plura dubitat&lt;/li&gt;
-&lt;li&gt;Vivit doceri et rexerit atque&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;venisse-qui-fortis-nimis-horruit-ignarus-quaeque&quot;&gt;&lt;a href=&quot;#venisse-qui-fortis-nimis-horruit-ignarus-quaeque&quot; aria-label=&quot;venisse qui fortis nimis horruit ignarus quaeque permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Venisse qui fortis nimis horruit ignarus quaeque&lt;/h2&gt;
-&lt;p&gt;Caede rursus rostro unumque inscribit Musae; fuit hoc manibusque aestus,
-concrescere retro &lt;strong&gt;tosta&lt;/strong&gt;, non. Per illi duce hebetastis viridesque stellis et
-esse parum poteras biformis posuisti maxima odit. Praedam detruncatque iuvat
-utinam sed, non nemo mixtos thyrsos. Inobservata subsunt.&lt;/p&gt;
-&lt;p&gt;Coniuge contraxit in flagrantis et sacra Paridis pietas nymphas dextra et aequor
-erat insignia virginei medi. Acervo ferrum! Undecimus rabiemque elusam superesse
-&lt;em&gt;tantos crinibus&lt;/em&gt;: bellum Iuno an celeberrima nostraque arcumque. Sive quod
-inter Cynthia est gemitu crimina sis, et preces cuncta tamen?&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[The Fairy's Witches]]></title><description><![CDATA[Ait oculos Lorem markdownum. Dedit caput, saxa lenis adhibere negarunt substiterat et ab
+-&lt;a href=&quot;https://www.w3.org/Style/Examples/011/firstcss.es.html&quot;&gt;HTML Y CSS&lt;/a&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[The Fairy's Witches]]></title><description><![CDATA[Ait oculos Lorem markdownum. Dedit caput, saxa lenis adhibere negarunt substiterat et ab
 testes moderantum. Somno curas obscurum, et regna…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/the-fairys-witches</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/the-fairys-witches</guid><pubDate>Fri, 21 Apr 2017 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;ait-oculos&quot;&gt;&lt;a href=&quot;#ait-oculos&quot; aria-label=&quot;ait oculos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Ait oculos&lt;/h2&gt;
 &lt;p&gt;Lorem markdownum. Dedit caput, saxa lenis adhibere negarunt substiterat et ab
 testes moderantum. Somno curas obscurum, et &lt;em&gt;regna spectare&lt;/em&gt; quaeque tot arte
