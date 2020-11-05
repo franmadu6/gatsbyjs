@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 05 Nov 2020 08:43:23 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 05 Nov 2020 08:45:58 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
 &lt;h3 id=&quot;para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot;&gt;&lt;a href=&quot;#para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot; aria-label=&quot;para poder acceder a la red local desde el exterior existe una red privada configurada con openvpn que utiliza certificados x509 para autenticar los usuarios y el servidor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Para poder acceder a la red local desde el exterior, existe una red privada configurada con OpenVPN que utiliza certificados x509 para autenticar los usuarios y el servidor.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -631,7 +631,34 @@ El servidor solo seguirá enlaces simbólicos para los cuales el archivo o direc
         CustomLog &lt;span class=&quot;token variable&quot;&gt;${APACHE_LOG_DIR}&lt;/span&gt;/access.log combined
 
 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/VirtualHost&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;!mapeoroot.png!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 551px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/811bebe1cda8ea3735f160f2d0adfbc1/66920/mapeoroot.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.5989110707804%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACUUlEQVQ4y52SWU8aURiG59cgCRgBUaCgyBIM4UoTbYCL/sqa2BtAkEWookBFGytQtmGmA4xQdt6ec9i0ctOe5M23zvN9Z2Y4o9GIw8ND7O3t4eDgAFarlVgr7HYbTCYTaH1rawsqlQoKhQIbGxvvpFQql+IsBORyuWCz2eBwOAjIDodzZvf39xmQand3FzqdDlqtdmmpNBoNNjc3l+I+kGaTwcA2tFgsbCvTzg6DmM1m9jCt0dhA+ra3t6HX699YClKr1Uycx+3CJ/9H+Px+eL1eHB8f44hs7Ce+z+/D6ekpTk5O4PF44Ha7mV2Ixk6n8424z2dnCAQCCIVCSKdvEYvFEI3GSHyBi4swYtE4gsEgzs+/4CpxhXA4gsvLKCKRCJLJJGq1GnieX4qjyVQqhUz2DuVqAaVSCYlEHPcPWdxlr/H1Jo5v91lkc2k8POZwc5skvTdkeBr5fB5/H44C6Bn1AKG4KryIgFQB+B9ATwbaPNCqz3JyY9U3nU4xmUyW4gqFwgwgD1EvDTGajNHrDcH/7KP63Ef5ex9NYUBiotIA5ac+GuUBJuMZgAIXYLZhMBRE7voerYpMpkvgnyQMfg/m8ye0dW7HczvTAjCrv7pyKBzA410dxcwU/PMY0xG5UltGpVKFJDUhCCJkWSZb99+9rxX0FTCXy6LZlNFqdglAxkuH+K0W8SW0223mU1G/0+kwONVwOFwL5TKZDARRwC9JRL1eQ7VaJbZONhPIoCYDNxoNlhdFkeXp79HtdtcDi8Ui/vesvfLiKy++2L9oHfQPQJJ/N4TT8S4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/811bebe1cda8ea3735f160f2d0adfbc1/66920/mapeoroot.png&quot;
+        srcset=&quot;/gatsbyjs/static/811bebe1cda8ea3735f160f2d0adfbc1/acf4b/mapeoroot.png 173w,
+/gatsbyjs/static/811bebe1cda8ea3735f160f2d0adfbc1/fc834/mapeoroot.png 345w,
+/gatsbyjs/static/811bebe1cda8ea3735f160f2d0adfbc1/66920/mapeoroot.png 551w&quot;
+        sizes=&quot;(max-width: 551px) 100vw, 551px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Como podemos ver en la captura no podemos ver el archivo que he creado con el usuario root&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;4. En todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido. Para el ello se crearan dos ficheros html dentro del directorio error. Entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento.&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/srv/mapeo&lt;span class=&quot;token comment&quot;&gt;# mkdir error&lt;/span&gt;
@@ -646,8 +673,62 @@ root@debian:/srv/mapeo/error&lt;span class=&quot;token comment&quot;&gt;# nano e
           &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory &lt;span class=&quot;token string&quot;&gt;&quot;/srv/mapeo/css&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
                 Require all denied
         &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;!mapeo403.png!
-!mapeo404.png!&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación de Brackets en Debian]]></title><description><![CDATA[Brackets  Un editor de texto de código abierto moderno que comprende el diseño web. Extensiones recomendadas CanIUse Con esta extensión…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</guid><category><![CDATA[Entorno de desarrollo]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Brackets]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;brackets&quot;&gt;&lt;a href=&quot;#brackets&quot; aria-label=&quot;brackets permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Brackets&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 504px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/8d04cd6114fce188c3f0ad2acd44f5b0/1654f/mapeo403.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25.396825396825395%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAABGElEQVQY042NXWuCABSG/UkRVFpRoA6yMiqX05sa9OU0rTEW7D/Waih00x+o7oOKembuauxmBx7Ow/ngFfr9PpZloes6ptmJMdEbDaq1GrWYer2OVqkg5fOUciK5TIZMNkuxWKRQKCBJEqIokk6nSaVSCOPRiF63i2EY2LZF77nHU+cRo92mHWM0m7RaLRRFoao8oMgysiInYZqmJaiqSrlcIh+HCsOuydQbMpu94k8mvLguH57D2zTA9TzGts0sCJjEO9dzCaY/7jgOg8GA+fwd3/cJ4hs3/hWiKORrvWaxWLDZbIiiiM/ViuVySRiGiW+3Ww6HA7vd7hf7/f7PTLher1wuF47HY9LvnE6nhLufz2dutxv/rW+ZlA4jZbr9PgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/8d04cd6114fce188c3f0ad2acd44f5b0/1654f/mapeo403.png&quot;
+        srcset=&quot;/gatsbyjs/static/8d04cd6114fce188c3f0ad2acd44f5b0/acf4b/mapeo403.png 173w,
+/gatsbyjs/static/8d04cd6114fce188c3f0ad2acd44f5b0/fc834/mapeo403.png 345w,
+/gatsbyjs/static/8d04cd6114fce188c3f0ad2acd44f5b0/1654f/mapeo403.png 504w&quot;
+        sizes=&quot;(max-width: 504px) 100vw, 504px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 508px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/c31c7d625903eb462441acda97a0e7fa/6b519/mapeo404.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 39.173228346456696%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABFklEQVQoz62OwWrCQBRF55PEVdOSiMbGWDeN0ZoSLRXdNBtjJgkUKv3KIqi4iV9RE48TS1ctQqUPDm/evXDniiiSTCZTer0eo9GI8XjMw8DDcbq4XUW/r94ORq2Gqd2ga9dcaRr1eh3TNDEMA13XqVarVCoVxPOTz9B/xHVdPG+A7/t4bhnm0FWB950OrgpstVrc3VrYlkWz2aTdbmPbNh3ll16j0aCmPhXBdEgcBsg4QUYRoeI9mvEaS2bzOYFqLcOQOEmYqztNU6SUioggeGGxeDtpaZqcNJHtdqxWa3ZqrzcbttstH8slWZZxOBzIFfv9/leKovihiSLPyRWlWe4v4/N0XzLinFk2/CvinPkd+m8NL5kjhkIE97e1Ba0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/c31c7d625903eb462441acda97a0e7fa/6b519/mapeo404.png&quot;
+        srcset=&quot;/gatsbyjs/static/c31c7d625903eb462441acda97a0e7fa/acf4b/mapeo404.png 173w,
+/gatsbyjs/static/c31c7d625903eb462441acda97a0e7fa/fc834/mapeo404.png 345w,
+/gatsbyjs/static/c31c7d625903eb462441acda97a0e7fa/6b519/mapeo404.png 508w&quot;
+        sizes=&quot;(max-width: 508px) 100vw, 508px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación de Brackets en Debian]]></title><description><![CDATA[Brackets  Un editor de texto de código abierto moderno que comprende el diseño web. Extensiones recomendadas CanIUse Con esta extensión…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</guid><category><![CDATA[Entorno de desarrollo]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Brackets]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;brackets&quot;&gt;&lt;a href=&quot;#brackets&quot; aria-label=&quot;brackets permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Brackets&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
