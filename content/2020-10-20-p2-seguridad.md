@@ -62,12 +62,10 @@ pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
       28ED3C3112ED8846BEDFFAF657112B319F2A6170
 uid        [  absoluta ] Francisco Javier Madueño Jurado <frandh1997@gmail.com>
 sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]
-
 pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
       9233303D1F5495739A6D2CB4636AE9EBCB7E3294
 uid        [desconocida] Manuel Lora Román <manuelloraroman@gmail.com>
 sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]
-
 pub   rsa3072 2020-10-08 [SC] [caduca: 2020-11-07]
       443D661D9AAF3ABAEDCA93E1C3B291882C4EE5DF
 uid        [desconocida] Alejandro Gutierrez Valencia <tojandro@gmail.com>
