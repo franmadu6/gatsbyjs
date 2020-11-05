@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 05 Nov 2020 12:30:47 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 05 Nov 2020 14:15:48 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
 &lt;h3 id=&quot;para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot;&gt;&lt;a href=&quot;#para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot; aria-label=&quot;para poder acceder a la red local desde el exterior existe una red privada configurada con openvpn que utiliza certificados x509 para autenticar los usuarios y el servidor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Para poder acceder a la red local desde el exterior, existe una red privada configurada con OpenVPN que utiliza certificados x509 para autenticar los usuarios y el servidor.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1692,4 +1692,1242 @@ Emmet&lt;/p&gt;
 &lt;p&gt;Transferir ficheros desde tu ordenador al servidor web del proyecto requiere de un cliente FTP o SFTP, pero esta característica tan fundamental del desarrollo web no está incluida en Brackets. Para remediar esta situación, usa la extensión eqFTP, un cliente FTP/SFTP con el cual puedes operar sin tener que abandonar el editor de código. &lt;/p&gt;
 &lt;h2 id=&quot;enlaces-de-interes&quot;&gt;&lt;a href=&quot;#enlaces-de-interes&quot; aria-label=&quot;enlaces de interes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Enlaces de interes&lt;/h2&gt;
 &lt;p&gt;-&lt;a href=&quot;https://beatrizruizcorvillo.es/brackets-editor-html/&quot;&gt;Todo lo que necesitas saber de Brackets&lt;/a&gt;&lt;br&gt;
--&lt;a href=&quot;https://www.w3.org/Style/Examples/011/firstcss.es.html&quot;&gt;HTML Y CSS&lt;/a&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item></channel></rss>
+-&lt;a href=&quot;https://www.w3.org/Style/Examples/011/firstcss.es.html&quot;&gt;HTML Y CSS&lt;/a&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube]]></title><description><![CDATA[Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube rclone es una herramienta que nos permite trabajar con los ficheros que…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube</guid><category><![CDATA[Rclone]]></category><pubDate>Wed, 07 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-2-rclone---gestionando-nuestro-almacenamiento-en-la-nube&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-2-rclone---gestionando-nuestro-almacenamiento-en-la-nube&quot; aria-label=&quot;práctica 2 rclone   gestionando nuestro almacenamiento en la nube permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube&lt;/h2&gt;
+&lt;p&gt;rclone es una herramienta que nos permite trabajar con los ficheros que tenemos almacenados en distintos servicios de almacenamiento en la nube (dropbox, google drive, mega, box,… y muchos más que puedes ver en su página principal). Por lo tanto con rclone podemos gestionar y sincronizar los ficheros de nuestros servicios preferidos desde la línea de comandos.&lt;/p&gt;
+&lt;h2 id=&quot;tarea-1-instala-rclone-en-tu-equipo&quot;&gt;&lt;a href=&quot;#tarea-1-instala-rclone-en-tu-equipo&quot; aria-label=&quot;tarea 1 instala rclone en tu equipo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Instala rclone en tu equipo.&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueo:/home/fran&lt;span class=&quot;token comment&quot;&gt;# wget https://downloads.rclone.org/v1.53.1/rclone-v1.53.1-linux-amd64.deb&lt;/span&gt;
+
+root@madueo:/home/fran&lt;span class=&quot;token comment&quot;&gt;# dpkg -i rclone-v1.53.1-linux-amd64.deb&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Leyendo la base de datos &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. &lt;span class=&quot;token number&quot;&gt;293038&lt;/span&gt; ficheros o directorios instalados actualmente.&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Preparando para desempaquetar rclone-v1.53.1-linux-amd64.deb &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+Desempaquetando rclone &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.53&lt;/span&gt;.1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; sobre &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.45&lt;/span&gt;-3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+Configurando rclone &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.53&lt;/span&gt;.1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+Procesando disparadores para man-db &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2.8&lt;/span&gt;.5-2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+root@madueo:/home/fran&lt;span class=&quot;token comment&quot;&gt;# rclone version&lt;/span&gt;
+rclone v1.53.1
+- os/arch: linux/amd64
+- go version: go1.15&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;tarea-2-configura-dos-proveedores-cloud-en-rclone-dropbox-google-drive-mega-&quot;&gt;&lt;a href=&quot;#tarea-2-configura-dos-proveedores-cloud-en-rclone-dropbox-google-drive-mega-&quot; aria-label=&quot;tarea 2 configura dos proveedores cloud en rclone dropbox google drive mega  permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Configura dos proveedores cloud en rclone (dropbox, google drive, mega, …)&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueo:/home/fran&lt;span class=&quot;token comment&quot;&gt;# rclone config&lt;/span&gt;
+No remotes found - &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; a new one
+n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; New remote
+s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Set configuration password
+q&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Quit config
+n/s/q&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; n
+name&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; dropbox
+Type of storage to configure.
+Enter a string value. Press Enter &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; the default &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+Choose a number from below, or &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; your own value
+ &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; / A stackable unification remote, &lt;span class=&quot;token function&quot;&gt;which&lt;/span&gt; can appear to merge the contents of several remotes
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;union&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; / Alias &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; a existing remote
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;alias&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; / Amazon Drive
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;amazon cloud drive&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; / Amazon S3 Compliant Storage Providers &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;AWS, Ceph, Dreamhost, IBM COS, Minio&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;s3&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; / Backblaze B2
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;b2&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt; / Box
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;box&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt; / Cache a remote
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;cache&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt; / Dropbox
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;dropbox&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt; / Encrypt/Decrypt a remote
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;crypt&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; / FTP Connection
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;ftp&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt; / Google Cloud Storage &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;this is not Google Drive&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;google cloud storage&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;12&lt;/span&gt; / Google Drive
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;drive&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt; / Hubic
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;hubic&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;14&lt;/span&gt; / JottaCloud
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;jottacloud&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt; / Local Disk
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;local&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt; / Microsoft Azure Blob Storage
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;azureblob&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt; / Microsoft OneDrive
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;onedrive&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;18&lt;/span&gt; / OpenDrive
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;opendrive&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt; / Openstack Swift &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Rackspace Cloud Files, Memset Memstore, OVH&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;swift&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt; / Pcloud
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;pcloud&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;21&lt;/span&gt; / SSH/SFTP Connection
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;sftp&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;22&lt;/span&gt; / Webdav
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;webdav&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;23&lt;/span&gt; / Yandex Disk
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;yandex&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;24&lt;/span&gt; / http Connection
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;http&quot;&lt;/span&gt;
+Storage&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;
+** See &lt;span class=&quot;token builtin class-name&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; dropbox backend at: https://rclone.org/dropbox/ **
+
+Dropbox App Client Id
+Leave blank normally.
+Enter a string value. Press Enter &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; the default &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+client_id&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; asirgames97@gmail.com
+Dropbox App Client Secret
+Leave blank normally.
+Enter a string value. Press Enter &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; the default &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+client_secret&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;contraseña&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Edit advanced config? &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;y/n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Yes
+n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; No
+y/n&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; n
+Remote config
+Make sure your Redirect URL is &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; to &lt;span class=&quot;token string&quot;&gt;&quot;http://localhost:53682/&quot;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; your custom config.
+Use auto config?
+ * Say Y &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; not sure
+ * Say N &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; you are working on a remote or headless machine
+y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Yes
+n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; No
+y/n&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; n
+For this to work, you will need rclone available on a machine that has a web browser available.
+Execute the following on your machine:
+	rclone authorize &lt;span class=&quot;token string&quot;&gt;&quot;dropbox&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;asirgames97@gmail.com&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;(contraseña)&quot;&lt;/span&gt;
+Then &lt;span class=&quot;token function&quot;&gt;paste&lt;/span&gt; the result below:
+result&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+--------------------&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;desde otra terminal pondremos :&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueo:/home/fran&lt;span class=&quot;token comment&quot;&gt;# rclone authorize &quot;dropbox&quot;&lt;/span&gt;
+If your browser doesn&apos;t &lt;span class=&quot;token function&quot;&gt;open&lt;/span&gt; automatically go to the following link: http://127.0.0.1:53682/auth
+Log &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; and authorize rclone &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; access
+Waiting &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; code&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+Got code
+Paste the following into your remote machine ---&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;access_token&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;4K5WIAn2ODYAAAAAAAAAAbCTIJVfyowBMoHDKK-e2rlHJSZc0bIYME5FQouUgdd9&quot;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&quot;token_type&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;bearer&quot;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&quot;expiry&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;0001-01-01T00:00:00Z&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;result&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;access_token&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;4K5WIAn2ODYAAAAAAAAAAbCTIJVfyowBMoHDKK-e2rlHJSZc0bIYME5FQouUgdd9&quot;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&quot;token_type&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;bearer&quot;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&quot;expiry&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;0001-01-01T00:00:00Z&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;/09/24 &lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt;:36:11 ERROR &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Failed to save new token &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; config file: section &lt;span class=&quot;token string&quot;&gt;&apos;dropbox&apos;&lt;/span&gt; not found
+--------------------
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;dropbox&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+client_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; asirgames97@gmail.com
+client_secret &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;contraseña&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+token &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;access_token&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;4K5WIAn2ODYAAAAAAAAAAbCTIJVfyowBMoHDKK-e2rlHJSZc0bIYME5FQouUgdd9&quot;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&quot;token_type&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;bearer&quot;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&quot;expiry&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;0001-01-01T00:00:00Z&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+--------------------
+y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Yes this is OK
+e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Edit this remote
+d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Delete this remote
+y/e/d&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; y
+Current remotes:
+
+Name                 Type
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;                 &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
+dropbox              dropbox
+
+e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Edit existing remote
+n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; New remote
+d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Delete remote
+r&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Rename remote
+c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Copy remote
+s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Set configuration password
+q&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Quit config
+e/n/d/r/c/s/q&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Accedemos al link que nos proporciona rclone y nos registramos, también daremos los permisos a dropbox.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/71276cbbb1da407175f2dd0109107efa/26d75/permisosdropbox.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 39.722061378112336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAAAwklEQVQoz51Ryw6CMBDsPyN2CycaPPBfepKL8QcwwegRJRgR2rHUSAARH5tMut2dnc6mLIoiLMIQgQzgkoPZ3IHjEnzfhxAETh6ICMS5yQnCwDO5EALc1h4nEYeUEgwjUdzwdzCtNbpQBkDnrpQlHrMrkqxC01WDmS6Ynmg2qK2gwnJ7wCrJbd488lZwzLa2LtGSikuB8+mEeJdjk+a9DZ7cduVvBJUyqCvE+xLrtHzhfBScGhjWfnbYc9p+GkbXbeIOmMVawRgAzdIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/71276cbbb1da407175f2dd0109107efa/36727/permisosdropbox.png&quot;
+        srcset=&quot;/gatsbyjs/static/71276cbbb1da407175f2dd0109107efa/acf4b/permisosdropbox.png 173w,
+/gatsbyjs/static/71276cbbb1da407175f2dd0109107efa/fc834/permisosdropbox.png 345w,
+/gatsbyjs/static/71276cbbb1da407175f2dd0109107efa/36727/permisosdropbox.png 690w,
+/gatsbyjs/static/71276cbbb1da407175f2dd0109107efa/17fa4/permisosdropbox.png 1035w,
+/gatsbyjs/static/71276cbbb1da407175f2dd0109107efa/a5044/permisosdropbox.png 1380w,
+/gatsbyjs/static/71276cbbb1da407175f2dd0109107efa/26d75/permisosdropbox.png 1727w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/30317e59d81f05064efeb1a07d12503f/574ac/dropboxsuccess.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.96969696969697%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAdElEQVQY062NSw7CMAxEc96kik0pSLlvLhHF9tQNBBAqOxZPo/nIDvfbhlIKrusKyhmZCNmVXYnY/WXkA8+YGbQsSCkhxjh0wkwItVa01qAiEEdVX8iT785UnPfOzB5734Te+zh4mFmcYvq7+zgc5ufD/IMdRUsbXkIl0D4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/30317e59d81f05064efeb1a07d12503f/36727/dropboxsuccess.png&quot;
+        srcset=&quot;/gatsbyjs/static/30317e59d81f05064efeb1a07d12503f/acf4b/dropboxsuccess.png 173w,
+/gatsbyjs/static/30317e59d81f05064efeb1a07d12503f/fc834/dropboxsuccess.png 345w,
+/gatsbyjs/static/30317e59d81f05064efeb1a07d12503f/36727/dropboxsuccess.png 690w,
+/gatsbyjs/static/30317e59d81f05064efeb1a07d12503f/17fa4/dropboxsuccess.png 1035w,
+/gatsbyjs/static/30317e59d81f05064efeb1a07d12503f/a5044/dropboxsuccess.png 1380w,
+/gatsbyjs/static/30317e59d81f05064efeb1a07d12503f/574ac/dropboxsuccess.png 1650w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Con estos pasos hemos configurado dropbox en rclone&lt;br&gt;
+Acontinuacion añadiremos a la configuracion mega.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueo:/home/fran&lt;span class=&quot;token comment&quot;&gt;# rclone config&lt;/span&gt;
+Current remotes:
+
+Name                 Type
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;                 &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
+dropbox              dropbox
+
+e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Edit existing remote
+n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; New remote
+d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Delete remote
+r&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Rename remote
+c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Copy remote
+s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Set configuration password
+q&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Quit config
+e/n/d/r/c/s/q&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; n
+name&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; mega
+Type of storage to configure.
+Enter a string value. Press Enter &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; the default &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+Choose a number from below, or &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; your own value
+ &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; / 1Fichier
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;fichier&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; / Alias &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; an existing remote
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;alias&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; / Amazon Drive
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;amazon cloud drive&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; / Amazon S3 Compliant Storage Provider &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;AWS, Alibaba, Ceph, Digital Ocean, Dreamhost, IBM COS, Minio, Tencent COS, etc&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;s3&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; / Backblaze B2
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;b2&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt; / Box
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;box&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt; / Cache a remote
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;cache&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt; / Citrix Sharefile
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;sharefile&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt; / Dropbox
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;dropbox&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; / Encrypt/Decrypt a remote
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;crypt&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt; / FTP Connection
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;ftp&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;12&lt;/span&gt; / Google Cloud Storage &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;this is not Google Drive&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;google cloud storage&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt; / Google Drive
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;drive&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;14&lt;/span&gt; / Google Photos
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;google photos&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt; / Hubic
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;hubic&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt; / In memory object storage system.
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;memory&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt; / Jottacloud
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;jottacloud&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;18&lt;/span&gt; / Koofr
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;koofr&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt; / Local Disk
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;local&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt; / Mail.ru Cloud
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;mailru&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;21&lt;/span&gt; / Mega
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;mega&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;22&lt;/span&gt; / Microsoft Azure Blob Storage
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;azureblob&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;23&lt;/span&gt; / Microsoft OneDrive
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;onedrive&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;24&lt;/span&gt; / OpenDrive
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;opendrive&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt; / OpenStack Swift &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Rackspace Cloud Files, Memset Memstore, OVH&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;swift&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;26&lt;/span&gt; / Pcloud
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;pcloud&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;27&lt;/span&gt; / Put.io
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;putio&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;28&lt;/span&gt; / QingCloud Object Storage
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;qingstor&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;29&lt;/span&gt; / SSH/SFTP Connection
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;sftp&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt; / Sugarsync
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;sugarsync&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;31&lt;/span&gt; / Tardigrade Decentralized Cloud Storage
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;tardigrade&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt; / Transparently chunk/split large files
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;chunker&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;33&lt;/span&gt; / Union merges the contents of several upstream fs
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;union&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;34&lt;/span&gt; / Webdav
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;webdav&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;35&lt;/span&gt; / Yandex Disk
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;yandex&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;36&lt;/span&gt; / http Connection
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;http&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;37&lt;/span&gt; / premiumize.me
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;premiumizeme&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;38&lt;/span&gt; / seafile
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;seafile&quot;&lt;/span&gt;
+Storage&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;21&lt;/span&gt;
+** See &lt;span class=&quot;token builtin class-name&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; mega backend at: https://rclone.org/mega/ **
+
+User name
+Enter a string value. Press Enter &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; the default &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+user&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; asirgames97@gmail.com
+Password.
+y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Yes &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; my own password
+g&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Generate random password
+y/g&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; y
+Enter the password:
+password:
+Confirm the password:
+password:
+Edit advanced config? &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;y/n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Yes
+n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; No &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;default&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+y/n&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; n
+Remote config
+--------------------
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;mega&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; mega
+user &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; asirgames97@gmail.com
+pass &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; *** ENCRYPTED ***
+--------------------
+y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Yes this is OK &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;default&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Edit this remote
+d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Delete this remote
+y/e/d&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; y
+Current remotes:
+
+Name                 Type
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;                 &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
+dropbox              dropbox
+mega                 mega
+
+e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Edit existing remote
+n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; New remote
+d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Delete remote
+r&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Rename remote
+c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Copy remote
+s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Set configuration password
+q&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Quit config
+e/n/d/r/c/s/q&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Despues de un buen rato peleandome con rclone he conseguido añadir tambien google drive, de pues de varios intentos creo que mi fallo estaba en la configuracion en concreto, a la hora de poner mi cuenta, es preferible dejar los apartados de tu cuenta en blanco.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueo:/home/fran&lt;span class=&quot;token comment&quot;&gt;# rclone config&lt;/span&gt;
+Current remotes:
+
+Name                 Type
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;                 &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
+dropbox              dropbox
+mega                 mega
+
+e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Edit existing remote
+n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; New remote
+d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Delete remote
+r&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Rename remote
+c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Copy remote
+s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Set configuration password
+q&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Quit config
+e/n/d/r/c/s/q&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; n
+name&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; googledrive
+Type of storage to configure.
+Enter a string value. Press Enter &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; the default &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+Choose a number from below, or &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; your own value
+ &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; / 1Fichier
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;fichier&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; / Alias &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; an existing remote
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;alias&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; / Amazon Drive
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;amazon cloud drive&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; / Amazon S3 Compliant Storage Provider &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;AWS, Alibaba, Ceph, Digital Ocean, Dreamhost, IBM COS, Minio, Tencent COS, etc&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;s3&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; / Backblaze B2
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;b2&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt; / Box
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;box&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt; / Cache a remote
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;cache&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt; / Citrix Sharefile
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;sharefile&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt; / Dropbox
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;dropbox&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; / Encrypt/Decrypt a remote
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;crypt&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt; / FTP Connection
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;ftp&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;12&lt;/span&gt; / Google Cloud Storage &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;this is not Google Drive&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;google cloud storage&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt; / Google Drive
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;drive&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;14&lt;/span&gt; / Google Photos
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;google photos&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt; / Hubic
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;hubic&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt; / In memory object storage system.
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;memory&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt; / Jottacloud
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;jottacloud&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;18&lt;/span&gt; / Koofr
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;koofr&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt; / Local Disk
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;local&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt; / Mail.ru Cloud
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;mailru&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;21&lt;/span&gt; / Mega
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;mega&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;22&lt;/span&gt; / Microsoft Azure Blob Storage
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;azureblob&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;23&lt;/span&gt; / Microsoft OneDrive
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;onedrive&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;24&lt;/span&gt; / OpenDrive
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;opendrive&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt; / OpenStack Swift &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Rackspace Cloud Files, Memset Memstore, OVH&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;swift&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;26&lt;/span&gt; / Pcloud
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;pcloud&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;27&lt;/span&gt; / Put.io
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;putio&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;28&lt;/span&gt; / QingCloud Object Storage
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;qingstor&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;29&lt;/span&gt; / SSH/SFTP Connection
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;sftp&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt; / Sugarsync
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;sugarsync&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;31&lt;/span&gt; / Tardigrade Decentralized Cloud Storage
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;tardigrade&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt; / Transparently chunk/split large files
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;chunker&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;33&lt;/span&gt; / Union merges the contents of several upstream fs
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;union&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;34&lt;/span&gt; / Webdav
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;webdav&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;35&lt;/span&gt; / Yandex Disk
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;yandex&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;36&lt;/span&gt; / http Connection
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;http&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;37&lt;/span&gt; / premiumize.me
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;premiumizeme&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;38&lt;/span&gt; / seafile
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;seafile&quot;&lt;/span&gt;
+Storage&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt;
+** See &lt;span class=&quot;token builtin class-name&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; drive backend at: https://rclone.org/drive/ **
+
+Google Application Client Id
+Setting your own is recommended.
+See https://rclone.org/drive/&lt;span class=&quot;token comment&quot;&gt;#making-your-own-client-id for how to create your own.&lt;/span&gt;
+If you leave this blank, it will use an internal key &lt;span class=&quot;token function&quot;&gt;which&lt;/span&gt; is low performance.
+Enter a string value. Press Enter &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; the default &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+client_id&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; 
+OAuth Client Secret
+Leave blank normally.
+Enter a string value. Press Enter &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; the default &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+client_secret&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; 
+Scope that rclone should use when requesting access from drive.
+Enter a string value. Press Enter &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; the default &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+Choose a number from below, or &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; your own value
+ &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; / Full access all files, excluding Application Data Folder.
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;drive&quot;&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; / Read-only access to &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; metadata and &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; contents.
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;drive.readonly&quot;&lt;/span&gt;
+   / Access to files created by rclone only.
+ &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; These are visible &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; the drive website.
+   &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; File authorization is revoked when the user deauthorizes the app.
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;drive.file&quot;&lt;/span&gt;
+   / Allows &lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; and &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt; access to the Application Data folder.
+ &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; This is not visible &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; the drive website.
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;drive.appfolder&quot;&lt;/span&gt;
+   / Allows read-only access to &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; metadata but
+ &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; does not allow any access to &lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; or download &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; content.
+   &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;drive.metadata.readonly&quot;&lt;/span&gt;
+scope&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+ID of the root folder
+Leave blank normally.
+
+Fill &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; to access &lt;span class=&quot;token string&quot;&gt;&quot;Computers&quot;&lt;/span&gt; folders &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;see docs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, or &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; rclone to use
+a non root folder as its starting point.
+
+Enter a string value. Press Enter &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; the default &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+root_folder_id&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; 
+Service Account Credentials JSON &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; path 
+Leave blank normally.
+Needed only &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; you want use SA instead of interactive login.
+
+Leading &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;~&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; will be expanded &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; the &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; name as will environment variables such as &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;$&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;RCLONE_CONFIG_DIR&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+
+Enter a string value. Press Enter &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; the default &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+service_account_file&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; 
+Edit advanced config? &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;y/n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Yes
+n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; No &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;default&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+y/n&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; n
+Remote config
+Use auto config?
+ * Say Y &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; not sure
+ * Say N &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; you are working on a remote or headless machine
+y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Yes &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;default&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; No
+y/n&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; n
+Please go to the following link: https://accounts.google.com/o/oauth2/auth?access_type&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;offline&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;client_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;202264815644&lt;/span&gt;.apps.googleusercontent.com&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;redirect_uri&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;response_type&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;code&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;UW0G1I6DsfY2aAe6zS_KQQ
+Log &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; and authorize rclone &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; access
+Enter verification code&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;/4gEraHwhFI9FAQWMl3xcYTfUjV4FrttxH_HCqoRAo4RaVtOFq_BcdWk            
+Configure this as a team drive?
+y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Yes
+n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; No &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;default&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+y/n&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; n
+--------------------
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;googledrive&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; drive
+scope &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; drive
+token &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;access_token&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;ya29.a0AfH6SMCfIp8MYBmjM83uNRtZO5bh8yjbf6rRt4dmktZVgaXPbpGJVhRjQqxrIICsF1iKDgkT7gxI7DGLpv_zHANB1HQoYpbWmUkC28YZP6NyqmNo2WT6xhc5ekDe3qhwu87cgUqdNpR9wU3pLPlGRDzLFV7KKpzupnA&quot;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&quot;token_type&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Bearer&quot;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&quot;refresh_token&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;1//03MZHVsEYfirECgYIARAAGAMSNwF-L9IrsfWUgmTPK3PHPakqEV5QI3F1h50-eKAx9zU22LeMDI5CaMTzzz2rwVw2u6ZXLHXCut0&quot;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&quot;expiry&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;2020-09-25T10:28:04.359275291+02:00&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+--------------------
+y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Yes this is OK &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;default&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Edit this remote
+d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Delete this remote
+y/e/d&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; y
+Current remotes:
+
+Name                 Type
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;                 &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
+dropbox              dropbox
+googledrive          drive
+mega                 mega
+
+e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Edit existing remote
+n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; New remote
+d&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Delete remote
+r&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Rename remote
+c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Copy remote
+s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Set configuration password
+q&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Quit config
+e/n/d/r/c/s/q&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/cf02bf371bf5241b5a4798408bcd31e3/1436b/permisosgdrive.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.66467065868263%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAAnklEQVQoz62P3QqDMAxGfeKa1uKVbq/r6IUrrO1Kq9+wY06H+DMMHBLaj0OSXS816qqCKAh5ziClBOc8QVy8IQLlNL4X9J2FEKkzxlCWJTKcXKOw7/tTyLYCXdcldguX1h4+pn0o556w5rGamZ38K/wEjTFo2zuUUmiaG6y1iDHOtjokHARaa3jvE845hBCOC5fO2ZPZFK7xt3BrntYLKgr5b5qBxtUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/cf02bf371bf5241b5a4798408bcd31e3/36727/permisosgdrive.png&quot;
+        srcset=&quot;/gatsbyjs/static/cf02bf371bf5241b5a4798408bcd31e3/acf4b/permisosgdrive.png 173w,
+/gatsbyjs/static/cf02bf371bf5241b5a4798408bcd31e3/fc834/permisosgdrive.png 345w,
+/gatsbyjs/static/cf02bf371bf5241b5a4798408bcd31e3/36727/permisosgdrive.png 690w,
+/gatsbyjs/static/cf02bf371bf5241b5a4798408bcd31e3/17fa4/permisosgdrive.png 1035w,
+/gatsbyjs/static/cf02bf371bf5241b5a4798408bcd31e3/a5044/permisosgdrive.png 1380w,
+/gatsbyjs/static/cf02bf371bf5241b5a4798408bcd31e3/1436b/permisosgdrive.png 1670w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tarea-3-muestra-distintos-comandos-de-rclone-para-gestionar-los-ficheros-de-los-proveedores-cloud-lista-los-ficheros-copia-un-fichero-local-a-la-nube-sincroniza-un-directorio-local-con-un-directorio-en-la-nube-copia-ficheros-entre-los-dos-proveedores-cloud-muestra-alguna-funcionalidad-más&quot;&gt;&lt;a href=&quot;#tarea-3-muestra-distintos-comandos-de-rclone-para-gestionar-los-ficheros-de-los-proveedores-cloud-lista-los-ficheros-copia-un-fichero-local-a-la-nube-sincroniza-un-directorio-local-con-un-directorio-en-la-nube-copia-ficheros-entre-los-dos-proveedores-cloud-muestra-alguna-funcionalidad-m%C3%A1s&quot; aria-label=&quot;tarea 3 muestra distintos comandos de rclone para gestionar los ficheros de los proveedores cloud lista los ficheros copia un fichero local a la nube sincroniza un directorio local con un directorio en la nube copia ficheros entre los dos proveedores cloud muestra alguna funcionalidad más permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Muestra distintos comandos de rclone para gestionar los ficheros de los proveedores cloud: lista los ficheros, copia un fichero local a la nube, sincroniza un directorio local con un directorio en la nube, copia ficheros entre los dos proveedores cloud, muestra alguna funcionalidad más,…&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Listar todos los ficheros del servicio:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt; rclone &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; dropbox:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Listar los directorios que tenemos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt; rclone lsd dropbox:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Podemos crear un directorio:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt; rclone &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; dropbox:/prueba&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Copiar un fichero desde nuestro ordenador a la carpeta que hemos creado:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt; rclone copy info.txt dropbox:/prueba
+ rclone &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; dropbox:/prueba
+ &lt;span class=&quot;token number&quot;&gt;2072006&lt;/span&gt; info.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Operaciones entre varios servicios, por ejemplo copiar el fichero info.txt que acabamos de subir a dropbox, a un directorio de mega:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt; rclone &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; mega:/prueba
+ rclone copy dropbox:/prueba/info.txt mega:/prueba
+ rclone &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; mega:/prueba
+ test.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En este caso, la fuente se sincroniza con el destino, Este método salta archivos sin cambios. Como el comando puede causar la pérdida de datos, puede usarlo con “–dry-run” para ver qué se copiará y eliminará exactamente.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;rclone &lt;span class=&quot;token function&quot;&gt;sync&lt;/span&gt; source:path dest:path &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;flags&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;ejemplo:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;rclone &lt;span class=&quot;token function&quot;&gt;sync&lt;/span&gt; dropbox:dropbox&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; imagenes captura.png --dry-run&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Comprobar si los archivos en origen y destino coinciden:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;rclone check source:path dest:path&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Borrar archivos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;rclone delete remote:path&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;tarea-4-monta-en-un-directorio-local-de-tu-ordenador-los-ficheros-de-un-proveedor-cloud-comprueba-que-copiando-o-borrando-ficheros-en-este-directorio-se-crean-o-eliminan-en-el-proveedor&quot;&gt;&lt;a href=&quot;#tarea-4-monta-en-un-directorio-local-de-tu-ordenador-los-ficheros-de-un-proveedor-cloud-comprueba-que-copiando-o-borrando-ficheros-en-este-directorio-se-crean-o-eliminan-en-el-proveedor&quot; aria-label=&quot;tarea 4 monta en un directorio local de tu ordenador los ficheros de un proveedor cloud comprueba que copiando o borrando ficheros en este directorio se crean o eliminan en el proveedor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 4: Monta en un directorio local de tu ordenador, los ficheros de un proveedor cloud. Comprueba que copiando o borrando ficheros en este directorio se crean o eliminan en el proveedor.&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueo:/home/fran&lt;span class=&quot;token comment&quot;&gt;# rclone mkdir dropbox:/prueba&lt;/span&gt;
+root@madueo:/home/fran/Descargas&lt;span class=&quot;token comment&quot;&gt;# rclone copy cap1.PNG dropbox:/prueba&lt;/span&gt;
+root@madueo:/home/fran/Descargas&lt;span class=&quot;token comment&quot;&gt;# rclone ls dropbox:/prueba&lt;/span&gt;
+    &lt;span class=&quot;token number&quot;&gt;23248&lt;/span&gt; cap1.PNG&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/bcaee0d13df7fa93168c183c0406d27f/ec011/dropboxsync.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.373570520965686%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABNUlEQVQoz52Ry07DMBBF/Y9IiEWa0LSgSqzK47NY8gdsQGLHDgk14VHSJKROYre249y6bqyGSt0w0tFc63rs8Zjc3d7gejrF5GqCs8CDNxwiCC8wvpzg1B/jxBtjcD6C54cYBCE8owOT/U4PevjhCCRNc5QlRc0FPhYVZvMCUULx88vwFDG8fEkUvEVaa2RbmEbe046ctUhKAUIpBWM1OOegyyXyLIOSAv8JxhhIHMdI0wzSHCLWzMDRNI1Zqz1KgfGV1W3bQmuDyVZ3WTUaSgMkiiKUdInP7wL3D694fJ6ZDdoU/UVKCaUaW+yi7Q7rr0mSJKjrCrRkeHtfYG7m58zDWK3XFhdCSPsat3+rSZ5vP6W0XQCO/e19hBC2U+crM4pdHbpR6F2HVVVZ0xpHujt82jFvA/6dTfsqnjMMAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/bcaee0d13df7fa93168c183c0406d27f/36727/dropboxsync.png&quot;
+        srcset=&quot;/gatsbyjs/static/bcaee0d13df7fa93168c183c0406d27f/acf4b/dropboxsync.png 173w,
+/gatsbyjs/static/bcaee0d13df7fa93168c183c0406d27f/fc834/dropboxsync.png 345w,
+/gatsbyjs/static/bcaee0d13df7fa93168c183c0406d27f/36727/dropboxsync.png 690w,
+/gatsbyjs/static/bcaee0d13df7fa93168c183c0406d27f/17fa4/dropboxsync.png 1035w,
+/gatsbyjs/static/bcaee0d13df7fa93168c183c0406d27f/a5044/dropboxsync.png 1380w,
+/gatsbyjs/static/bcaee0d13df7fa93168c183c0406d27f/ec011/dropboxsync.png 1574w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueo:/home/fran&lt;span class=&quot;token comment&quot;&gt;# rclone delete dropbox:/prueba&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/284981d2f7f0f0919de904477c3574dd/8a362/dropboxsync2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.91615956727518%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABUUlEQVQoz52SS0/CQBSF5/+59UFpAWNIXIFu+HGuWLhx48aNxmAEUpA+pTPtTN/HmSFoVIrEJl9yb3vnzJkzJaPRCNdXQwwHA/Qv+zhun+LMMmF2ztE7v5B9D0cnXRhWDy3DQqstMTswJKaxqbe9YXVBprM3OK6H9XsIFgtMVxQTO8BkEcL2GO5nDOMXDj8usYoKOPQLl37vFcT3Q0RRhCSJIYTQdeD7EJzjPw9xHAfz+RyudJnnGfKMa6qqQlmWKCR5Ueo6y3I5k6Oq60ZIEARYLpfS2RpByHAzfsbt3SuKovgU3NZCpEizTDup5eJdENd1YdsLUBohohwPjys8TTz5sflYTWJa0Jd5eZ4nBSkq6WLfokNEdYYKxtgmn6rW+f0cLOU7Li8tThJ97F0zvxyqrJp21xmmKTgX+wXVpagc1e+yT/DQHIlypvhL8BCU6w9YRTdsjK1WcgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/284981d2f7f0f0919de904477c3574dd/36727/dropboxsync2.png&quot;
+        srcset=&quot;/gatsbyjs/static/284981d2f7f0f0919de904477c3574dd/acf4b/dropboxsync2.png 173w,
+/gatsbyjs/static/284981d2f7f0f0919de904477c3574dd/fc834/dropboxsync2.png 345w,
+/gatsbyjs/static/284981d2f7f0f0919de904477c3574dd/36727/dropboxsync2.png 690w,
+/gatsbyjs/static/284981d2f7f0f0919de904477c3574dd/17fa4/dropboxsync2.png 1035w,
+/gatsbyjs/static/284981d2f7f0f0919de904477c3574dd/a5044/dropboxsync2.png 1380w,
+/gatsbyjs/static/284981d2f7f0f0919de904477c3574dd/8a362/dropboxsync2.png 1479w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 3: Integridad de ficheros]]></title><description><![CDATA[Práctica 3: Integridad de ficheros En caso de que algún tipo de malware reemplace o falsifique archivos del sistema operativo, ocultándose…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-de-ficheros</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-de-ficheros</guid><category><![CDATA[Integridad]]></category><pubDate>Wed, 07 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;práctica-3-integridad-de-ficheros&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-3-integridad-de-ficheros&quot; aria-label=&quot;práctica 3 integridad de ficheros permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica 3: Integridad de ficheros&lt;/h1&gt;
+&lt;p&gt;En caso de que algún tipo de malware reemplace o falsifique archivos del sistema operativo, ocultándose para realizar tareas no autorizadas, la búsqueda y detección del mismo se complica ya que los análisis antimalware y de los procesos sospechosos por parte de administradores de sistemas, no dudarán de la veracidad de dichos archivos y procesos. A este tipo de malware se le denomina rootkit, programa que sustituye los ejecutables binarios del sistema para ocultarse mejor, pudiendo servir de puertas trasera o backdoor para la ejecución malware remota.&lt;/p&gt;
+&lt;h2 id=&quot;tarea-1-crea-un-manual-lo-más-completo-posible-de-las-herramientas-sfc-y-dsim-para-comprobar-la-integridad-de-ficheros-en-windows-indica-para-qué-sirven-las-opciones-más-usadas-del-programa-y-entrega-capturas-de-pantallas-para-comprobar-que-has-realizado-la-práctica&quot;&gt;&lt;a href=&quot;#tarea-1-crea-un-manual-lo-m%C3%A1s-completo-posible-de-las-herramientas-sfc-y-dsim-para-comprobar-la-integridad-de-ficheros-en-windows-indica-para-qu%C3%A9-sirven-las-opciones-m%C3%A1s-usadas-del-programa-y-entrega-capturas-de-pantallas-para-comprobar-que-has-realizado-la-pr%C3%A1ctica&quot; aria-label=&quot;tarea 1 crea un manual lo más completo posible de las herramientas sfc y dsim para comprobar la integridad de ficheros en windows indica para qué sirven las opciones más usadas del programa y entrega capturas de pantallas para comprobar que has realizado la práctica permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Crea un manual lo más completo posible de las herramientas sfc y dsim para comprobar la integridad de ficheros en Windows. Indica para qué sirven las opciones más usadas del programa y entrega capturas de pantallas para comprobar que has realizado la práctica.&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;SFC&lt;/strong&gt;:(System File Checker) Comprobador de archivos de sistema para reparar los archivos de sistema que faltan o están dañados.&lt;/p&gt;
+&lt;p&gt;En el símbolo del sistema, escriba el comando siguiente y presione ENTRAR:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;sfc /scannow&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/06a52acc303283e310f79cf1879bd09b/6b5c3/sfc.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.348993288590606%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAAr0lEQVQoz9WSuw7CMAxF3YdUmoedVl34jC5FavsnDAx8AojfvyRpM1RISEAXhqObLMd2YtLGoFYKh7pGVVWRLMtARB/T9z1InAMzw1gD5cUsAqU19IqxNt5DwVAoz/MXiqKIwnmeQU3bIknDOZAEoduQZVm+7SxNNI5jSMKvbITfvtd/Cqdp2ld4GoZ9PiVxvlxB7PfM+h1McMQu8JLCW5z4FVtpnaBrBMeuwe3+wBNG8dYCgrvpugAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/06a52acc303283e310f79cf1879bd09b/36727/sfc.png&quot;
+        srcset=&quot;/gatsbyjs/static/06a52acc303283e310f79cf1879bd09b/acf4b/sfc.png 173w,
+/gatsbyjs/static/06a52acc303283e310f79cf1879bd09b/fc834/sfc.png 345w,
+/gatsbyjs/static/06a52acc303283e310f79cf1879bd09b/36727/sfc.png 690w,
+/gatsbyjs/static/06a52acc303283e310f79cf1879bd09b/6b5c3/sfc.png 745w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;El comando sfc /scannow examinará todos los archivos de sistema protegidos y remplaza los archivos dañados con una copia en caché ubicada en una carpeta comprimida en %WinDir%\System32\dllcache.
+El marcador de posición %WinDir% representa la carpeta del sistema operativo Windows. Por ejemplo, C:\Windows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nota:&lt;/strong&gt; No cierre la ventana del símbolo del sistema hasta que la verificación haya terminado por completo. Una vez finalizado el proceso, aparecerán los resultados del examen.&lt;/p&gt;
+&lt;p&gt;Cuando el proceso termine, puede recibir alguno de los siguientes mensajes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Protección de recursos de Windows no encontró ninguna infracción de integridad.&lt;br&gt;
+Esto quiere decir que no hay ningún archivo de sistema que esté dañado o que falte.&lt;/li&gt;
+&lt;li&gt;Protección de recursos de Windows no pudo realizar la operación solicitada.&lt;br&gt;
+Para resolver este problema, vuelva a ejecutar el examen de Comprobador de archivos de sistema en modo seguro y compruebe que las carpetas PendingDeletes y PendingRenames existen dentro de %WinDir%\WinSxS\Temp.&lt;/li&gt;
+&lt;li&gt;Protección de recursos de Windows encontró archivos dañados y los reparó correctamente. Los detalles están incluidos en CBS.Log %WinDir%\Logs\CBS\CBS.log.  &lt;/li&gt;
+&lt;li&gt;Para obtener información detallada sobre el análisis de archivos de sistema y su restauración, diríjase a Cómo ver los detalles del proceso de Comprobador de archivos de sistema.  &lt;/li&gt;
+&lt;li&gt;Protección de recursos de Windows encontró archivos dañados pero no pudo corregir algunos de ellos. Los detalles están incluidos en CBS.Log %WinDir%\Logs\CBS\CBS.log.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Cómo ver los detalles del proceso del Comprobador de archivos de sistema&lt;/strong&gt;&lt;br&gt;
+Para ver los detalles incluidos en el archivo CBS.Log, puede copiar la información al archivo Sfcdetails.txt usando el comando Findstr y luego ver los detalles en el archivo Sfcdetails.txt.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;findstr /c:&lt;span class=&quot;token string&quot;&gt;&quot;[SR]&quot;&lt;/span&gt; %windir%&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;Logs&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;CBS&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;CBS.log &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;%userprofile%\Desktop\sfcdetails.txt&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;DSIM:&lt;/em&gt;(Deployment Image Servicing and Management) Mantenimiento y preparación de las imágenes de Windows.&lt;/p&gt;
+&lt;p&gt;DISM permite realizar el mantenimiento y preparación de las imágenes de Windows. Es decir, DISM lo podemos usar para realizar el mantenimiento de una imagen de Windows o un disco duro virtual.&lt;/p&gt;
+&lt;p&gt;Los comandos de DISM permiten capturar y aplicar imágenes de Windows, añadir o elimnar imágenes de un archivo .wim o incluso dividir archvios .win en otros archivos más pequeños. Para realizar un análisis a una imagen de Windows 10 con el objetivo de detectar errores o archivos corruptos podemos ejecutar el comando Dism /Online /Cleanup-Image /ScanHealth, aunque podemos ver el resto de opciones y parámetros si ejecutamos DISM /? desde la línea de comandos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;DISM /Online /Cleanup-Image /CheckHealth
+&lt;span class=&quot;token comment&quot;&gt;#comprueba el estado del sistema y mira si se han detectado fallos&lt;/span&gt;
+DISM /Online /Cleanup-Image /ScanHealth
+&lt;span class=&quot;token comment&quot;&gt;#escanea el sistema buscando errores. Realiza él la búsqueda asi que tarda algo más que CheckHealth&lt;/span&gt;
+DISM /Online /Cleanup-Image /RestoreHealth
+&lt;span class=&quot;token comment&quot;&gt;#comprobará nuestro sistema e intentará repararlo, tardará un poco.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/83cd0b395a5df15fb56b427308e81141/6b5c3/dism.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.241610738255034%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAA3klEQVQoz+2SyYrCQBCGK92dzmQh20zQs14DIc80hzn4GB4EJ2ZzFxF90t90gx4GhIx49PDRVU3xVXVTNJ39oqwaFGWNRVVjvd1jdzhitdmhalrU7Qpl3WqqZvmQebHA6XwByQ8H0jQhpewwwTmDEELfCc67nIOIejEejUBfgyHiOEaSJIjCEK7rwnEc2LZ9jz3Pg2VZYIzpBn9RAyhhnueg6LMTRWFHhCAItFxJlECIftMZhqHPLMtAfhjD932NeX+61EW3wn8JifX/o55C8RY+L0zT9DVChdqQ758JrhfeCBGwIn+lAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/83cd0b395a5df15fb56b427308e81141/36727/dism.png&quot;
+        srcset=&quot;/gatsbyjs/static/83cd0b395a5df15fb56b427308e81141/acf4b/dism.png 173w,
+/gatsbyjs/static/83cd0b395a5df15fb56b427308e81141/fc834/dism.png 345w,
+/gatsbyjs/static/83cd0b395a5df15fb56b427308e81141/36727/dism.png 690w,
+/gatsbyjs/static/83cd0b395a5df15fb56b427308e81141/6b5c3/dism.png 745w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;*Combinación de ambos:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Con estos dos comandos (SFC y DISM), si tienes suerte, deberías poder reparar tu sistema. El proceso normal es:
+correr el sfc/scannow.
+Si hay errores correr DISM /Online /Cleanup-Image /RestoreHealth
+Reiniciar, ejecutar de nuevo el sfc /scannow y repetir hasta que no existan errores o buscar otro método si no se arreglan (mirando el registro de ambos para ver por qué).&lt;/p&gt;
+&lt;h2 id=&quot;tarea-2-del-mismo-modo-crea-un-manual-de-la-herramienta-rootkit-hunter-rkhunter-en-linux-indica-las-opciones-mas-usadas-del-programa-y-entrega-capturas-de-pantallas-para-comprobar-que-has-realizado-la-práctica&quot;&gt;&lt;a href=&quot;#tarea-2-del-mismo-modo-crea-un-manual-de-la-herramienta-rootkit-hunter-rkhunter-en-linux-indica-las-opciones-mas-usadas-del-programa-y-entrega-capturas-de-pantallas-para-comprobar-que-has-realizado-la-pr%C3%A1ctica&quot; aria-label=&quot;tarea 2 del mismo modo crea un manual de la herramienta rootkit hunter rkhunter en linux indica las opciones mas usadas del programa y entrega capturas de pantallas para comprobar que has realizado la práctica permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Del mismo modo, crea un manual de la herramienta Rootkit Hunter (rkhunter) en Linux. Indica las opciones mas usadas del programa y entrega capturas de pantallas para comprobar que has realizado la práctica.&lt;/h2&gt;
+&lt;p&gt;Rkhunter es una aplicación para línea de comandos que se encarga automáticamente de analizar nuestro sistema en busca de rootkits, malware, scripts maliciosos, backdoors y otro tipo de software potencialmente peligroso en nuestro sistema Linux fácilmente para saber en todo momento si nuestro sistema se encuentra realmente seguro.&lt;/p&gt;
+&lt;p&gt;Terminos asociados:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rootkits: Un rootkit permite acceso de privilegio continuo a un sistema y su presencia activamente oculta al control de los administradores al corromper su funcionamiento normal y el de otras aplicaciones. Comúnmente son asociados a malware.&lt;/li&gt;
+&lt;li&gt;BackDoor (o puerta trasera): Es una secuencia especial dentro del código de programación, mediante la cual se pueden evitar los sistemas de autentificación para acceder al sistema.&lt;/li&gt;
+&lt;li&gt;Exploit: Es un fragmento de software, fragmento de datos o secuencia de comandos y/o acciones, utilizada con el fin de aprovechar una vulnerabilidad de seguridad de un sistema de información para conseguir un comportamiento no deseado del mismo. Acceso de forma no autorizada, toma de control de un sistema, consecución privilegios no concedidos lícitamente, consecución de ataques de denegación de servicio.&lt;/li&gt;
+&lt;li&gt;MD5: En criptografía, MD5 es un algoritmo de reducción criptográfico de 128 bits usado en este caso para comprobar que algún archivo no haya sido modificado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Comandos:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Escaneo&lt;/strong&gt;
+El escaneo de nuestro sistema invocando a rkhuter, se lleva a cabo bajo la siguiente linea de comando:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran&lt;span class=&quot;token comment&quot;&gt;# rkhunter --check&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Rootkit Hunter version &lt;span class=&quot;token number&quot;&gt;1.4&lt;/span&gt;.6 &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+Checking system commands&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+
+  Performing &lt;span class=&quot;token string&quot;&gt;&apos;strings&apos;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt; checks
+    Checking &lt;span class=&quot;token string&quot;&gt;&apos;strings&apos;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt;                               &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+  Performing &lt;span class=&quot;token string&quot;&gt;&apos;shared libraries&apos;&lt;/span&gt; checks
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; preloading variables                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; preloaded libraries                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking LD_LIBRARY_PATH variable                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+  Performing &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; properties checks
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; prerequisites                               &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/awk                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Warning &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/basename                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/bash                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/cat                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/chattr                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/chmod                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/chown                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/cp                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/curl                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Warning &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/cut                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/date                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/df                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/diff                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/dirname                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/dmesg                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/dpkg                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/dpkg-query                                      &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/du                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/echo                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/egrep                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Warning &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/env                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/fgrep                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Warning &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/file                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/find                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/fuser                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/GET                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/grep                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/groups                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/head                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/id                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/ip                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/ipcs                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/kill                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/killall                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/last                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/lastlog                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/ldd                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/less                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/logger                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/login                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/ls                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/lsattr                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/lsmod                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/lsof                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/mail                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/md5sum                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/mktemp                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/more                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/mount                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/mv                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/netstat                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/newgrp                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/passwd                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/perl                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/pgrep                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/ping                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/pkill                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/ps                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/pstree                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/pwd                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/readlink                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/rkhunter                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/runcon                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/sed                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/sh                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/sha1sum                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/sha224sum                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/sha256sum                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/sha384sum                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/sha512sum                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/size                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/sort                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/ssh                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/stat                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/strings                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/su                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/sudo                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/tail                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/telnet                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/test                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/top                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/touch                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/tr                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/uname                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/uniq                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/users                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/vmstat                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/w                                               &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/watch                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/wc                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/wget                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/whatis                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/whereis                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/which                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Warning &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/who                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/whoami                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/numfmt                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/gawk                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Warning &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/lwp-request                                     &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Warning &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/kmod                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/bsd-mailx                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/dash                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/x86_64-linux-gnu-size                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/x86_64-linux-gnu-strings                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/telnet.netkit                                   &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/w.procps                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/systemd                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/bin/systemctl                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/adduser                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/chroot                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/cron                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/depmod                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/fsck                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/groupadd                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/groupdel                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/groupmod                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/grpck                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/ifconfig                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/ifdown                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/ifup                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/init                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/insmod                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/ip                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/lsmod                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/modinfo                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/modprobe                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/nologin                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/pwck                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/rmmod                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/route                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/rsyslogd                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/runlevel                                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/sulogin                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/sysctl                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/useradd                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/userdel                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/usermod                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/vipw                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/unhide                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/unhide-linux                                   &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/unhide-posix                                   &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/sbin/unhide-tcp                                     &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    /usr/lib/systemd/systemd                                 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Press &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ENTER&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; to continue&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+
+Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; rootkits&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+
+  Performing check of known rootkit files and directories
+    &lt;span class=&quot;token number&quot;&gt;55808&lt;/span&gt; Trojan - Variant A                                 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    ADM Worm                                                 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    AjaKit Rootkit                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Adore Rootkit                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    aPa Kit                                                  &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Apache Worm                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Ambient &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ark&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Rootkit                                    &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Balaur Rootkit                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    BeastKit Rootkit                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    beX2 Rootkit                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    BOBKit Rootkit                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    cb Rootkit                                               &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    CiNIK Worm &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Slapper.B variant&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Danny-Boy&lt;span class=&quot;token string&quot;&gt;&apos;s Abuse Kit                                    [ Not found ]
+    Devil RootKit                                            [ Not found ]
+    Diamorphine LKM                                          [ Not found ]
+    Dica-Kit Rootkit                                         [ Not found ]
+    Dreams Rootkit                                           [ Not found ]
+    Duarawkz Rootkit                                         [ Not found ]
+    Ebury backdoor                                           [ Not found ]
+    Enye LKM                                                 [ Not found ]
+    Flea Linux Rootkit                                       [ Not found ]
+    Fu Rootkit                                               [ Not found ]
+    Fuck`it Rootkit                                          [ Not found ]
+    GasKit Rootkit                                           [ Not found ]
+    Heroin LKM                                               [ Not found ]
+    HjC Kit                                                  [ Not found ]
+    ignoKit Rootkit                                          [ Not found ]
+    IntoXonia-NG Rootkit                                     [ Not found ]
+    Irix Rootkit                                             [ Not found ]
+    Jynx Rootkit                                             [ Not found ]
+    Jynx2 Rootkit                                            [ Not found ]
+    KBeast Rootkit                                           [ Not found ]
+    Kitko Rootkit                                            [ Not found ]
+    Knark Rootkit                                            [ Not found ]
+    ld-linuxv.so Rootkit                                     [ Not found ]
+    Li0n Worm                                                [ Not found ]
+    Lockit / LJK2 Rootkit                                    [ Not found ]
+    Mokes backdoor                                           [ Not found ]
+    Mood-NT Rootkit                                          [ Not found ]
+    MRK Rootkit                                              [ Not found ]
+    Ni0 Rootkit                                              [ Not found ]
+    Ohhara Rootkit                                           [ Not found ]
+    Optic Kit (Tux) Worm                                     [ Not found ]
+    Oz Rootkit                                               [ Not found ]
+    Phalanx Rootkit                                          [ Not found ]
+    Phalanx2 Rootkit                                         [ Not found ]
+    Phalanx2 Rootkit (extended tests)                        [ Not found ]
+    Portacelo Rootkit                                        [ Not found ]
+    R3dstorm Toolkit                                         [ Not found ]
+    RH-Sharpe&apos;&lt;/span&gt;s Rootkit                                      &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    RSHA&lt;span class=&quot;token string&quot;&gt;&apos;s Rootkit                                           [ Not found ]
+    Scalper Worm                                             [ Not found ]
+    Sebek LKM                                                [ Not found ]
+    Shutdown Rootkit                                         [ Not found ]
+    SHV4 Rootkit                                             [ Not found ]
+    SHV5 Rootkit                                             [ Not found ]
+    Sin Rootkit                                              [ Not found ]
+    Slapper Worm                                             [ Not found ]
+    Sneakin Rootkit                                          [ Not found ]
+    &apos;&lt;/span&gt;Spanish&apos; Rootkit                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Suckit Rootkit                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Superkit Rootkit                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    TBD &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Telnet BackDoor&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;                                    &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    TeLeKiT Rootkit                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    T0rn Rootkit                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    trNkit Rootkit                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Trojanit Kit                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Tuxtendo Rootkit                                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    URK Rootkit                                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Vampire Rootkit                                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    VcKit Rootkit                                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Volc Rootkit                                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Xzibit Rootkit                                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    zaRwT.KiT Rootkit                                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    ZK Rootkit                                               &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Press &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ENTER&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; to continue&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+
+  Performing additional rootkit checks
+    Suckit Rootkit additional checks                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; possible rootkit files and directories      &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; possible rootkit strings                    &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+  Performing malware checks
+    Checking running processes &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; suspicious files          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; login backdoors                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; sniffer log files                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; suspicious directories                      &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; suspicious &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;large&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; shared memory segments   &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; Apache backdoor                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+  Performing Linux specific checks
+    Checking loaded kernel modules                           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking kernel module names                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Press &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ENTER&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; to continue&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+
+Checking the network&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+
+  Performing checks on the network ports
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; backdoor ports                              &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+  Performing checks on the network interfaces
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; promiscuous interfaces                      &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+Checking the &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; host&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+
+  Performing system boot checks
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;host&lt;/span&gt; name                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; system startup files                        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking system startup files &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; malware                &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+  Performing group and account checks
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;passwd&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt;                                 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; root equivalent &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token environment constant&quot;&gt;UID&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; accounts            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; passwordless accounts                       &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;passwd&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; changes                         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Warning &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; group &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; changes                          &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Warning &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking root account shell &lt;span class=&quot;token function&quot;&gt;history&lt;/span&gt; files                &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; OK &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+  Performing system configuration &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; checks
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; an SSH configuration &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt;                   &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; a running system logging daemon             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; a system logging configuration &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt;         &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; syslog remote logging is allowed             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Not allowed &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+  Performing filesystem checks
+    Checking /dev &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; suspicious &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; types                  &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    Checking &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; hidden files and directories                &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; None found &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Press &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ENTER&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; to continue&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+
+
+System checks summary
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+
+File properties checks&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+    Files checked: &lt;span class=&quot;token number&quot;&gt;143&lt;/span&gt;
+    Suspect files: &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;
+
+Rootkit checks&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+    Rootkits checked &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;481&lt;/span&gt;
+    Possible rootkits: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+
+Applications checks&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+    All checks skipped
+
+The system checks took: &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt; minutes and &lt;span class=&quot;token number&quot;&gt;52&lt;/span&gt; seconds
+
+All results have been written to the log file: /var/log/rkhunter.log
+
+One or &lt;span class=&quot;token function&quot;&gt;more&lt;/span&gt; warnings have been found &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; checking the system.
+Please check the log &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;/var/log/rkhunter.log&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Los resultado son muy intuitivos de visualizar, los agrupa en 3 categorías: Archivos sospechosos, posibles rootkits, y aplicaciones sospechosas.&lt;br&gt;
+También, nos crea un archivo con los resultados del análisis al que podemos acceder por cualquier consulta.&lt;/p&gt;
+&lt;p&gt;Modificando el fichero de rkhunter podemos cambiar las rutas y otros parametros:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;  --examples       &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Show layout examples.
+  --layout  &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Choose installation template.
+                     The templates are:
+                      - default: &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;FHS compliant&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; the default&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                      - /usr
+                      - /usr/local
+                      - oldschool: old version &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; locations
+                      - custom: supply your own installation directory
+                      - RPM: &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; building RPM&lt;span class=&quot;token string&quot;&gt;&apos;s. Requires &lt;span class=&quot;token variable&quot;&gt;$RPM_BUILD_ROOT&lt;/span&gt;.
+                      - DEB: for building DEB&apos;&lt;/span&gt;s. Requires &lt;span class=&quot;token variable&quot;&gt;$DEB_BUILD_ROOT&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+                      - TGZ: &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; building Slackware TGZ&lt;span class=&quot;token string&quot;&gt;&apos;s. Requires &lt;span class=&quot;token variable&quot;&gt;$TGZ_BUILD_ROOT&lt;/span&gt;.
+                      - TXZ: for building Slackware TXZ&apos;&lt;/span&gt;s. Requires &lt;span class=&quot;token variable&quot;&gt;$TXZ_BUILD_ROOT&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+  --striproot      &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Strip path from custom layout &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;for package maintainers&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+  --install        &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Install according to chosen layout.
+  --overwrite      &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Overwrite the existing configuration file.
+                     &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Default is to create a separate configuration file.&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Instalación en modo standalone&lt;/strong&gt;&lt;br&gt;
+Este modo de instalación permite instalar rkhunter en un único directorio, es decir, sin separar binarios, archivos de configuración, logs, etc.&lt;/p&gt;
+&lt;p&gt;Si quisiéramos instalar todo en la ruta /opt/rkhunter:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# ./installer.sh --layout custom /opt/rkhunter/ --install&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Este es el proceso normal de instalación, todo correcto a excepción de un aviso que nos indica que la ruta no se encuentra en el path así que si no lo modificamos manualmente no podremos invocar el comando sin utilizar el path completo:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Note: Directory /opt/rkhunter//bin is not &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; your &lt;span class=&quot;token environment constant&quot;&gt;PATH&lt;/span&gt;
+
+Checking system for:
+ Rootkit Hunter installer files: found
+ A web &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; download command: &lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; found
+Starting installation:
+ Checking installation directory &lt;span class=&quot;token string&quot;&gt;&quot;/opt/rkhunter/&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; it exists and is writable.
+ Checking installation directories:
+  Directory /opt/rkhunter//share/doc/rkhunter-1.4.2: creating: OK
+  Directory /opt/rkhunter//share/man/man8: creating: OK
+  Directory /opt/rkhunter//etc: creating: OK
+  Directory /opt/rkhunter//bin: creating: OK
+  Directory /opt/rkhunter//lib64: creating: OK
+  Directory /opt/rkhunter//var/lib: creating: OK
+  Directory /opt/rkhunter//lib64/rkhunter/scripts: creating: OK
+  Directory /opt/rkhunter//var/lib/rkhunter/db: creating: OK
+  Directory /opt/rkhunter//var/lib/rkhunter/tmp: creating: OK
+  Directory /opt/rkhunter//var/lib/rkhunter/db/i18n: creating: OK
+  Directory /opt/rkhunter//var/lib/rkhunter/db/signatures: creating: OK
+ Installing check_modules.pl: OK
+ Installing filehashsha.pl: OK
+ Installing stat.pl: OK
+ Installing readlink.sh: OK
+ Installing backdoorports.dat: OK
+ Installing mirrors.dat: OK
+ Installing programs_bad.dat: OK
+ Installing suspscan.dat: OK
+ Installing rkhunter.8: OK
+ Installing ACKNOWLEDGMENTS: OK
+ Installing CHANGELOG: OK
+ Installing FAQ: OK
+ Installing LICENSE: OK
+ Installing README: OK
+ Installing language support files: OK
+ Installing ClamAV signatures: OK
+ Installing rkhunter: OK
+ Installing rkhunter.conf: OK
+Installation complete&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Este método de instalación es interesante si vamos a probar la herramienta y no queremos integrarla en el sistema, así la podremos borrar fácilmente (eliminar directorio y listo). En el resto de casos, para eliminar rkhunter usaremos el parámetro –remove del instalador:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# ./installer.sh --remove&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Utilización/Modo de uso&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;En el caso de que vayamos a utilizar rkhunter de forma proactiva, es necesario generar una base de datos en la que indiquemos a la herramienta el estado inicial (y correcto) del sistema sobre el cual comparar futuros análisis. El comando para generar la base de datos es el siguiente:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# rkhunter --propupd&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Rootkit Hunter version &lt;span class=&quot;token number&quot;&gt;1.4&lt;/span&gt;.6 &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+File created: searched &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;171&lt;/span&gt; files, found &lt;span class=&quot;token number&quot;&gt;118&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Para hacer un análisis básico del sistema, utilizamos el parámetro -c (check). Podemos personalizar el modo de análisis añadiendo o quitando diferentes tests. Actualmente, los test disponibles son los siguientes:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Current &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; names:
+    additional_rkts all apps attributes avail_modules deleted_files
+    filesystem group_accounts group_changes hashes hidden_ports hidden_procs
+    immutable known_rkts loaded_modules local_host malware network
+    none os_specific other_malware packet_cap_apps passwd_changes ports
+    possible_rkt_files possible_rkt_strings promisc properties rootkits running_procs
+    scripts shared_libs shared_libs_path startup_files startup_malware strings
+    suspscan system_commands system_configs trojans
+
+Grouped &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; names:
+    additional_rkts &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; possible_rkt_files possible_rkt_strings 
+    group_accounts  &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; group_changes passwd_changes 
+    local_host      &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; filesystem group_changes passwd_changes startup_malware system_configs 
+    malware         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; deleted_files hidden_procs other_malware running_procs suspscan 
+    network         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; hidden_ports packet_cap_apps ports promisc 
+    os_specific     &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; avail_modules loaded_modules 
+    properties      &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; attributes hashes immutable scripts 
+    rootkits        &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; avail_modules deleted_files hidden_procs known_rkts loaded_modules other_malware possible_rkt_files possible_rkt_strings running_procs suspscan trojans 
+    shared_libs     &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; shared_libs_path 
+    startup_files   &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; startup_malware 
+    system_commands &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; attributes hashes immutable scripts shared_libs_path strings 
+
+Current languages:
+    cn de en &lt;span class=&quot;token function&quot;&gt;tr&lt;/span&gt; tr.utf8 zh zh.utf8
+
+Rootkits checked for:
+    &lt;span class=&quot;token number&quot;&gt;55808&lt;/span&gt; Trojan - Variant A, AjaKit, aPa Kit, Adore, Apache Worm, Ambient &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ark&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;,
+    Balaur, BeastKit, beX2, BOBKit, Boonana &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Koobface.A&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, cb,
+    CiNIK Worm &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Slapper.B variant&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, CX, Danny-Boy&lt;span class=&quot;token string&quot;&gt;&apos;s Abuse Kit, Devil, Dica, Dreams,
+    Duarawkz, Enye LKM, Flea Linux, FreeBSD, Fu, Fuck`it,
+    GasKit, Heroin LKM, HjC Kit, ignoKit, iLLogiC, Inqtana-A,
+    Inqtana-B, Inqtana-C, IntoXonia-NG, Irix, Jynx, KBeast,
+    Kitko, Knark, ld-linuxv.so, Li0n Worm, Lockit/LJK2, Mood-NT,
+    MRK, Ni0, Ohhara, Optic Kit (Tux), OSXRK, Oz,
+    Phalanx, Phalanx2, Portacelo, R3dstorm Toolkit, RH-Sharpe&apos;&lt;/span&gt;s, RSHA&apos;s,
+    Scalper Worm, Shutdown, SHV4, SHV5, Sin, SInAR,
+    Slapper, Sneakin, Solaris Wanuk, Spanish, Suckit, SunOS / NSDAP,
+    SunOS Rootkit, Superkit, TBD &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Telnet BackDoor&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, TeLeKiT, Togroot, T0rn,
+    trNkit, Trojanit Kit, Turtle2, Tuxtendo, URK, Vampire,
+    VcKit, Volc, w00tkit, weaponX, Xzibit, X-Org SunOS,
+    zaRwT.KiT, ZK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;De primeras, y ante la duda sobre tanta lista de pruebas, podemos lanzar un escaneo completo con todos los tests, así que lo ejecutamos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# rkhunter -c --enable all&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Se realiza el escaneo, en este punto, lo importante es revisar cualquier problema que haya podido saltar en el análisis. Información extendida aparecerá en el log var/log/rkhunter.log  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Actualización de las bases de datos&lt;/strong&gt;&lt;br&gt;
+Con el parámetro -update revisamos si hay actualizaciones (y actualizamos en caso afirmativo) referente a la información de rootkits, backdoors, malware, etc:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# rkhunter --update&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; Rootkit Hunter version &lt;span class=&quot;token number&quot;&gt;1.4&lt;/span&gt;.6 &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+Checking rkhunter data files&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+  Checking &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; mirrors.dat                                  &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; No update &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  Checking &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; programs_bad.dat                             &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; No update &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  Checking &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; backdoorports.dat                            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; No update &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  Checking &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; suspscan.dat                                 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; No update &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  Checking &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; i18n/cn                                      &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; No update &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  Checking &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; i18n/de                                      &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; No update &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  Checking &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; i18n/en                                      &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; No update &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  Checking &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; i18n/tr                                      &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; No update &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  Checking &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; i18n/tr.utf8                                 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; No update &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  Checking &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; i18n/zh                                      &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; No update &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  Checking &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; i18n/zh.utf8                                 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; No update &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Falsos positivos y personalización&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Como es lógico, pueden aparecer falsos positivos. Para ello tenemos el archivo de configuración «/etc/rkhunter.conf» donde se pueden personalizar todos los parámetros, por ejemplo añadiendo scripts o binarios en lista blanca (SCRIPTWHITELIST), configurar alertas por correo electrónico (MAIL-ON-WARNING), configuraciones de SSH (ALLOW&lt;em&gt;SSH&lt;/em&gt;ROOT_USER), etc.&lt;/p&gt;
+&lt;p&gt;Después de cada cambio en la configuración hay que volver a actualizar la base de datos de rkhunter, sino aparecerán alertas y errores:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# rkhunter --propupd&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Automatización de análisis&lt;/strong&gt;
+Para automatizar los análisis, simplemente añadimos una entrada en el cron de root que ejecute periódicamente el análisis según nuestros requerimientos. Podemos añadir el parámetro «–quiet» y «–cronjob» para evitar ruido al ser una ejecución desatendida. En este caso lo ejecutamos a las 8 de la mañana todos los días junto con un update por si hay actualizaciones:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;crontab&lt;/span&gt; -u root -e
+
+&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; 08 * * * /usr/bin/rkhunter --cronjob --update --quiet&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; /usr/bin/rkhunter --cronjob -c --enable all --quiet&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Por supuesto, en lugar de añadirlo así al cron se puede crear un script más optimizado que realice el update y el chequeo según nuestros requerimientos. Después, basta con invocar ese script en el cron.io.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item></channel></rss>
