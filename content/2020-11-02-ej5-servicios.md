@@ -33,12 +33,16 @@ end
 
 ## A la URL departamentos.iesgn.org/intranet sólo se debe tener acceso desde el cliente de la red local, y no se pueda acceder desde la anfitriona por la red pública. A la URL departamentos.iesgn.org/internet, sin embargo, sólo se debe tener acceso desde la anfitriona por la red pública, y no desde la red local.
 
-Intalaremos Apache en nuestro servidor
-Crearemos un fichero llamado departamentos.conf ubicado en sites-avaliable
+1. Intalaremos Apache en nuestro servidor
+2. Crearemos un fichero llamado departamentos.conf ubicado en sites-avaliable
 <pre style="background-color:powderblue;">
-
-
-
+<Directory /var/www/departamentos/internet/>
+                Options Indexes FollowSymLinks MultiViews
+                <RequireAll>
+                        Require not ip 192.168.100
+                        Require all granted
+                </RequireAll>
+</Directory>
 </pre>
 
 ## Autentificación básica. Limita el acceso a la URL departamentos.iesgn.org/secreto. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente. ¿Cómo se manda la contraseña entre el cliente y el servidor?. Entrega una breve explicación del ejercicio.
