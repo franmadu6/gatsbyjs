@@ -89,12 +89,14 @@ total <span class="token number">0</span>
 lrwxrwxrwx <span class="token number">1</span> root     root     <span class="token number">27</span> oct <span class="token number">22</span> 09:34 pruebaroot.txt -<span class="token operator">></span> /root/prueba/pruebaroot.txt
 lrwxrwxrwx <span class="token number">1</span> www-data www-data <span class="token number">32</span> oct <span class="token number">21</span> <span class="token number">13</span>:20 prueba.txt -<span class="token operator">></span> /home/fran/Documentos/prueba.txt</code></pre></div>
 <p>He creado varios documentos para probar de diferentes formas he dejado la creación de dos de ellos para que se pueda ver como crear un enlace simbólico.</p>
-<p><em>Creo la redirección y doy los permisos al directorio /home/fran/Documentos</em></p>
-<p>Usando:
-<em>Indexes</em>
-Si se solicita una URL que se asigna a un directorio, y no hay DirectoryIndex ( por ejemplo , index.html) en ese directorio, mod_autoindexse devolverá una lista formateada del directorio.
-<em>SymLinksIfOwnerMatch</em>
-El servidor solo seguirá enlaces simbólicos para los cuales el archivo o directorio de destino es propiedad del mismo ID de usuario que el enlace.</p>
+<p><strong>Creo la redirección y doy los permisos al directorio /home/fran/Documentos</strong></p>
+<p>Usando:</p>
+<ul>
+<li>Indexes</li>
+<li>Si se solicita una URL que se asigna a un directorio, y no hay DirectoryIndex ( por ejemplo , index.html) en ese directorio, mod_autoindexse devolverá una lista formateada del directorio.</li>
+<li>SymLinksIfOwnerMatch</li>
+<li>El servidor solo seguirá enlaces simbólicos para los cuales el archivo o directorio de destino es propiedad del mismo ID de usuario que el enlace.</li>
+</ul>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token operator">&lt;</span>VirtualHost *:8<span class="token operator"><span class="token file-descriptor important">0</span>></span>
 
         ServerName www.mapeo.com
@@ -142,8 +144,10 @@ El servidor solo seguirá enlaces simbólicos para los cuales el archivo o direc
       />
   </a>
     </span></p>
-<p><em>Como podemos ver en la captura no podemos ver el archivo que he creado con el usuario root</em></p>
-<p><em>4. En todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido. Para el ello se crearan dos ficheros html dentro del directorio error. Entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento.</em></p>
+<p><strong>Como podemos ver en la captura no podemos ver el archivo que he creado con el usuario root</strong></p>
+<ol start="4">
+<li>En todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido. Para el ello se crearan dos ficheros html dentro del directorio error. Entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento.</li>
+</ol>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/srv/mapeo<span class="token comment"># mkdir error</span>
 root@debian:/srv/mapeo/error<span class="token comment"># nano error403.html</span>
 root@debian:/srv/mapeo/error<span class="token comment"># nano error404.html</span>
