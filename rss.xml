@@ -1,52 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 05 Nov 2020 08:12:06 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Servidor web nginx]]></title><description><![CDATA[Tarea 1 (1 punto)(Obligatorio): Crea una máquina del cloud con una red pública. Añade la clave pública del profesor a la máquina. Instala el…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servidor-web-nginx</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servidor-web-nginx</guid><category><![CDATA[nginx]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-1-puntoobligatorio-crea-una-máquina-del-cloud-con-una-red-pública-añade-la-clave-pública-del-profesor-a-la-máquina-instala-el-servidor-web-nginx-en-la-máquina-modifica-la-página-indexhtml-que-viene-por-defecto-y-accede-a-ella-desde-un-navegador&quot;&gt;&lt;a href=&quot;#tarea-1-1-puntoobligatorio-crea-una-m%C3%A1quina-del-cloud-con-una-red-p%C3%BAblica-a%C3%B1ade-la-clave-p%C3%BAblica-del-profesor-a-la-m%C3%A1quina-instala-el-servidor-web-nginx-en-la-m%C3%A1quina-modifica-la-p%C3%A1gina-indexhtml-que-viene-por-defecto-y-accede-a-ella-desde-un-navegador&quot; aria-label=&quot;tarea 1 1 puntoobligatorio crea una máquina del cloud con una red pública añade la clave pública del profesor a la máquina instala el servidor web nginx en la máquina modifica la página indexhtml que viene por defecto y accede a ella desde un navegador permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1 (1 punto)(Obligatorio): Crea una máquina del cloud con una red pública. Añade la clave pública del profesor a la máquina. Instala el servidor web nginx en la máquina. Modifica la página index.html que viene por defecto y accede a ella desde un navegador.&lt;/h2&gt;
-&lt;h3 id=&quot;entrega-la-ip-flotante-de-la-máquina-para-que-el-profesor-pueda-acceder-a-ella&quot;&gt;&lt;a href=&quot;#entrega-la-ip-flotante-de-la-m%C3%A1quina-para-que-el-profesor-pueda-acceder-a-ella&quot; aria-label=&quot;entrega la ip flotante de la máquina para que el profesor pueda acceder a ella permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Entrega la ip flotante de la máquina para que el profesor pueda acceder a ella.&lt;/h3&gt;
-&lt;h3 id=&quot;entrega-una-captura-de-pantalla-accediendo-a-ella&quot;&gt;&lt;a href=&quot;#entrega-una-captura-de-pantalla-accediendo-a-ella&quot; aria-label=&quot;entrega una captura de pantalla accediendo a ella permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Entrega una captura de pantalla accediendo a ella&lt;/h3&gt;
-&lt;p&gt;Ip flotante de la maquina es -&gt;  &lt;em&gt;172.22.200.137&lt;/em&gt;
-Primero instalaremos el servidor Gninx en nuestra maquina.&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-debian@servidor-gninx:~$ sudo apt-get install nginx
-&lt;/pre&gt;
-&lt;h2 id=&quot;tarea-2-2-puntoobligatorio-configura-la-resolución-estática-en-los-clientes-y-muestra-el-acceso-a-cada-una-de-las-páginas&quot;&gt;&lt;a href=&quot;#tarea-2-2-puntoobligatorio-configura-la-resoluci%C3%B3n-est%C3%A1tica-en-los-clientes-y-muestra-el-acceso-a-cada-una-de-las-p%C3%A1ginas&quot; aria-label=&quot;tarea 2 2 puntoobligatorio configura la resolución estática en los clientes y muestra el acceso a cada una de las páginas permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2 (2 punto)(Obligatorio): Configura la resolución estática en los clientes y muestra el acceso a cada una de las páginas.&lt;/h2&gt;
-&lt;p&gt;El sistema de directorios de nginx es muy similar al de apache, tendremos que configurar nuevo archivo de configuración en sites-avaliable para especificar nuestro sitio.&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-
-&lt;/pre&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 05 Nov 2020 08:15:49 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
 &lt;h3 id=&quot;para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot;&gt;&lt;a href=&quot;#para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot; aria-label=&quot;para poder acceder a la red local desde el exterior existe una red privada configurada con openvpn que utiliza certificados x509 para autenticar los usuarios y el servidor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Para poder acceder a la red local desde el exterior, existe una red privada configurada con OpenVPN que utiliza certificados x509 para autenticar los usuarios y el servidor.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Genera una clave privada RSA 4096&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-root@debian:/home/fran/Documentos# openssl genrsa 4096 &gt; /etc/ssl/private/maduvpn.key
-Generating RSA private key, 4096 bit long modulus (2 primes)
-.................................++++
-....................................
-.........................................................++++
-e is 65537 (0x010001)
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran/Documentos&lt;span class=&quot;token comment&quot;&gt;# openssl genrsa 4096 &gt; /etc/ssl/private/maduvpn.key&lt;/span&gt;
+Generating RSA private key, &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt; bit long modulus &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; primes&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.++++
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.++++
+e is &lt;span class=&quot;token number&quot;&gt;65537&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;0x010001&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Genera una solicitud de firma de certificado (fichero CSR) y súbelo a gestiona&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-root@debian:~# openssl req -new -key /etc/ssl/private/maduvpn.key -out /root/maduvpn.csr
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:~&lt;span class=&quot;token comment&quot;&gt;# openssl req -new -key /etc/ssl/private/maduvpn.key -out /root/maduvpn.csr&lt;/span&gt;
 You are about to be asked to enter information that will be incorporated
 into your certificate request.
 What you are about to enter is what is called a Distinguished Name or a DN.
 There are quite a few fields but you can leave some blank
 For some fields there will be a default value,
-If you enter &apos;.&apos;, the field will be left blank.
+If you enter &lt;span class=&quot;token string&quot;&gt;&apos;.&apos;&lt;/span&gt;, the field will be left blank.
 -----
-Country Name (2 letter code) [AU]:ES
-State or Province Name (full name) [Some-State]:Sevilla
-Locality Name (eg, city) []:Dos Hermanas
-Organization Name (eg, company) [Internet Widgits Pty Ltd]:IES Gonzalo Nazareno
-Organizational Unit Name (eg, section) []:Asir
-Common Name (e.g. server FQDN or YOUR name) []:maduvpn  
-Email Address []:frandh1997@gmail.com
-Please enter the following &apos;extra&apos; attributes
+Country Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; letter code&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;AU&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:ES
+State or Province Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;full name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Some-State&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:Sevilla
+Locality Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;eg, city&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:Dos Hermanas
+Organization Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;eg, company&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Internet Widgits Pty Ltd&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:IES Gonzalo Nazareno
+Organizational Unit Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;eg, section&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:Asir
+Common Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e.g. server FQDN or YOUR name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:maduvpn  
+Email Address &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:frandh1997@gmail.com
+Please enter the following &lt;span class=&quot;token string&quot;&gt;&apos;extra&apos;&lt;/span&gt; attributes
 to be sent with your certificate request
-A challenge password []:
-An optional company name []:
-&lt;/pre&gt;
+A challenge password &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:
+An optional company name &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Una vez generado el certificado deberemos ir a gestiona &quot;&lt;a href=&quot;https://dit.gonzalonazareno.org/gestiona/cert/&quot;&gt;https://dit.gonzalonazareno.org/gestiona/cert/&lt;/a&gt;&quot; subirlo y esperar su regreso.
@@ -55,20 +39,15 @@ Nos llegará nuestro archivo .crt y estara certificado por el cetro.&lt;/p&gt;
 &lt;li&gt;Instala y configura apropiadamente el cliente openvpn y muestra los registros (logs) del sistema que demuestren que se ha establecido una conexión.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Instalaremos nuestro cliente openvpn&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-fran@debian:~$ sudo apt-get install openvpn
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openvpn&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Ahora con paquete instalado moveremos el certificado a /etc/openvpn&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-root@debian:/etc/openvpn# ls
-client	maduvpn.crt  server  update-resolv-conf
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/etc/openvpn&lt;span class=&quot;token comment&quot;&gt;# ls&lt;/span&gt;
+client	maduvpn.crt  server  update-resolv-conf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Crearemos un fichero de configuración nuevo y le añadiremos las siguientes lineas&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-#sputnik.conf
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#sputnik.conf&lt;/span&gt;
 dev tun
 remote sputnik.gonzalonazareno.org
-ifconfig 172.23.0.0 255.255.255.0
+&lt;span class=&quot;token function&quot;&gt;ifconfig&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;172.23&lt;/span&gt;.0.0 &lt;span class=&quot;token number&quot;&gt;255.255&lt;/span&gt;.255.0
 pull
 proto tcp-client
 tls-client
@@ -77,68 +56,65 @@ ca /etc/ssl/certs/gonzalonazareno.crt
 cert /etc/openvpn/maduvpn.crt
 key /etc/ssl/private/maduvpn.key
 comp-lzo
-keepalive 10 60
+keepalive &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;60&lt;/span&gt;
 log /var/log/openvpn-sputnik.log
-verb 1
-&lt;/pre&gt;
+verb &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Reiniciamos el servicio de openvpn&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-root@debian:/etc/openvpn# /etc/init.d/openvpn restart
-[ ok ] Restarting openvpn (via systemctl): openvpn.service.
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/etc/openvpn&lt;span class=&quot;token comment&quot;&gt;# /etc/init.d/openvpn restart&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; ok &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Restarting openvpn &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;via systemctl&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: openvpn.service.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Commprobamos que se ha creado la regla de encaminamiento para acceder a los equipos de la 172.22.0.0/16.&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-fran@debian:~$ ip r
-default via 192.168.1.1 dev wlo1 proto dhcp metric 600 
-169.254.0.0/16 dev wlo1 scope link metric 1000 
-172.22.0.0/16 via 172.23.0.93 dev tun0 
-172.23.0.1 via 172.23.0.93 dev tun0 
-172.23.0.93 dev tun0 proto kernel scope link src 172.23.0.94 
-192.168.1.0/24 dev wlo1 proto kernel scope link src 192.168.1.139 metric 600 
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;ip&lt;/span&gt; r
+default via &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.1.1 dev wlo1 proto dhcp metric &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt; 
+&lt;span class=&quot;token number&quot;&gt;169.254&lt;/span&gt;.0.0/16 dev wlo1 scope &lt;span class=&quot;token function&quot;&gt;link&lt;/span&gt; metric &lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt; 
+&lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.0.0/16 via &lt;span class=&quot;token number&quot;&gt;172.23&lt;/span&gt;.0.93 dev tun0 
+&lt;span class=&quot;token number&quot;&gt;172.23&lt;/span&gt;.0.1 via &lt;span class=&quot;token number&quot;&gt;172.23&lt;/span&gt;.0.93 dev tun0 
+&lt;span class=&quot;token number&quot;&gt;172.23&lt;/span&gt;.0.93 dev tun0 proto kernel scope &lt;span class=&quot;token function&quot;&gt;link&lt;/span&gt; src &lt;span class=&quot;token number&quot;&gt;172.23&lt;/span&gt;.0.94 
+&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.1.0/24 dev wlo1 proto kernel scope &lt;span class=&quot;token function&quot;&gt;link&lt;/span&gt; src &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.1.139 metric &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Comprobamos los mensajes de log&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-root@debian:/home/fran# cat /var/log/openvpn-sputnik.log
-Wed Nov  4 19:10:38 2020 WARNING: file &apos;/etc/ssl/private/maduvpn.key&apos; is group or others accessible
-Wed Nov  4 19:10:38 2020 OpenVPN 2.4.7 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Feb 20 2019
-Wed Nov  4 19:10:38 2020 library versions: OpenSSL 1.1.1d  10 Sep 2019, LZO 2.10
-Wed Nov  4 19:10:38 2020 WARNING: using --pull/--client and --ifconfig together is probably not what you want
-Wed Nov  4 19:10:38 2020 TCP/UDP: Preserving recently used remote address: [AF_INET]92.222.86.77:1194
-Wed Nov  4 19:10:38 2020 Attempting to establish TCP connection with [AF_INET]92.222.86.77:1194 [nonblock]
-Wed Nov  4 19:10:39 2020 TCP connection established with [AF_INET]92.222.86.77:1194
-Wed Nov  4 19:10:39 2020 TCP_CLIENT link local: (not bound)
-Wed Nov  4 19:10:39 2020 TCP_CLIENT link remote: [AF_INET]92.222.86.77:1194
-Wed Nov  4 19:10:40 2020 [sputnik.gonzalonazareno.org] Peer Connection Initiated with [AF_INET]92.222.86.77:1194
-Wed Nov  4 19:10:41 2020 TUN/TAP device tun0 opened
-Wed Nov  4 19:10:41 2020 /sbin/ip link set dev tun0 up mtu 1500
-Wed Nov  4 19:10:41 2020 /sbin/ip addr add dev tun0 local 172.23.0.94 peer 172.23.0.93
-Wed Nov  4 19:10:41 2020 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
-Wed Nov  4 19:10:41 2020 Initialization Sequence Completed
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran&lt;span class=&quot;token comment&quot;&gt;# cat /var/log/openvpn-sputnik.log&lt;/span&gt;
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:38 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; WARNING: &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/etc/ssl/private/maduvpn.key&apos;&lt;/span&gt; is group or others accessible
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:38 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; OpenVPN &lt;span class=&quot;token number&quot;&gt;2.4&lt;/span&gt;.7 x86_64-pc-linux-gnu &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SSL &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;OpenSSL&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;LZO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;LZ4&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;EPOLL&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;PKCS11&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;MH/PKTINFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;AEAD&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; built on Feb &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2019&lt;/span&gt;
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:38 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; library versions: OpenSSL &lt;span class=&quot;token number&quot;&gt;1.1&lt;/span&gt;.1d  &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; Sep &lt;span class=&quot;token number&quot;&gt;2019&lt;/span&gt;, LZO &lt;span class=&quot;token number&quot;&gt;2.10&lt;/span&gt;
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:38 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; WARNING: using --pull/--client and --ifconfig together is probably not what you want
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:38 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; TCP/UDP: Preserving recently used remote address: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;AF_INET&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;92.222&lt;/span&gt;.86.77:1194
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:38 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; Attempting to establish TCP connection with &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;AF_INET&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;92.222&lt;/span&gt;.86.77:1194 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nonblock&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:39 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; TCP connection established with &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;AF_INET&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;92.222&lt;/span&gt;.86.77:1194
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:39 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; TCP_CLIENT &lt;span class=&quot;token function&quot;&gt;link&lt;/span&gt; local: &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;not bound&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:39 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; TCP_CLIENT &lt;span class=&quot;token function&quot;&gt;link&lt;/span&gt; remote: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;AF_INET&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;92.222&lt;/span&gt;.86.77:1194
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:40 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;sputnik.gonzalonazareno.org&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Peer Connection Initiated with &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;AF_INET&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;92.222&lt;/span&gt;.86.77:1194
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:41 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; TUN/TAP device tun0 opened
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:41 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; /sbin/ip &lt;span class=&quot;token function&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; dev tun0 up mtu &lt;span class=&quot;token number&quot;&gt;1500&lt;/span&gt;
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:41 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; /sbin/ip addr &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; dev tun0 &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;172.23&lt;/span&gt;.0.94 peer &lt;span class=&quot;token number&quot;&gt;172.23&lt;/span&gt;.0.93
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:41 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; WARNING: this configuration may cache passwords &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; memory -- use the auth-nocache option to prevent this
+Wed Nov  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:10:41 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; Initialization Sequence Completed&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Cuando hayas establecido la conexión VPN tendrás acceso a la red 172.22.0.0/16 a través de un túnel SSL. Compruébalo haciendo ping a 172.22.0.1&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-root@debian:/home/fran# ping 172.22.0.1
-PING 172.22.0.1 (172.22.0.1) 56(84) bytes of data.
-64 bytes from 172.22.0.1: icmp_seq=1 ttl=63 time=144 ms
-64 bytes from 172.22.0.1: icmp_seq=2 ttl=63 time=88.8 ms
-64 bytes from 172.22.0.1: icmp_seq=3 ttl=63 time=88.8 ms
-64 bytes from 172.22.0.1: icmp_seq=4 ttl=63 time=93.5 ms
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran&lt;span class=&quot;token comment&quot;&gt;# ping 172.22.0.1&lt;/span&gt;
+PING &lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.0.1 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.0.1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;84&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; bytes of data.
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.0.1: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;63&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;144&lt;/span&gt; ms
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.0.1: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;63&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;88.8&lt;/span&gt; ms
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.0.1: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;63&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;88.8&lt;/span&gt; ms
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.0.1: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;63&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;93.5&lt;/span&gt; ms
 ^C
---- 172.22.0.1 ping statistics ---
-4 packets transmitted, 4 received, 0% packet loss, time 8ms
-rtt min/avg/max/mdev = 88.801/103.841/144.254/23.411 ms
-&lt;/pre&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Ejercicio 6: Configuración de apache mediante archivo .htaccess ]]></title><description><![CDATA[Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</guid><category><![CDATA[.htaccess]]></category><pubDate>Sun, 01 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor?, ¿qué podemos hacer? Explica la directiva AllowOverride de apache2. Utilizando archivos .htaccess realiza las siguientes configuraciones:&lt;/p&gt;
+--- &lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.0.1 &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; statistics ---
+&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; packets transmitted, &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; received, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% packet loss, &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; 8ms
+rtt min/avg/max/mdev &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;88.801&lt;/span&gt;/103.841/144.254/23.411 ms&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Servidor web nginx]]></title><description><![CDATA[Tarea 1 (1 punto)(Obligatorio): Crea una máquina del cloud con una red pública. Añade la clave pública del profesor a la máquina. Instala el…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servidor-web-nginx</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servidor-web-nginx</guid><category><![CDATA[nginx]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-1-puntoobligatorio-crea-una-máquina-del-cloud-con-una-red-pública-añade-la-clave-pública-del-profesor-a-la-máquina-instala-el-servidor-web-nginx-en-la-máquina-modifica-la-página-indexhtml-que-viene-por-defecto-y-accede-a-ella-desde-un-navegador&quot;&gt;&lt;a href=&quot;#tarea-1-1-puntoobligatorio-crea-una-m%C3%A1quina-del-cloud-con-una-red-p%C3%BAblica-a%C3%B1ade-la-clave-p%C3%BAblica-del-profesor-a-la-m%C3%A1quina-instala-el-servidor-web-nginx-en-la-m%C3%A1quina-modifica-la-p%C3%A1gina-indexhtml-que-viene-por-defecto-y-accede-a-ella-desde-un-navegador&quot; aria-label=&quot;tarea 1 1 puntoobligatorio crea una máquina del cloud con una red pública añade la clave pública del profesor a la máquina instala el servidor web nginx en la máquina modifica la página indexhtml que viene por defecto y accede a ella desde un navegador permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1 (1 punto)(Obligatorio): Crea una máquina del cloud con una red pública. Añade la clave pública del profesor a la máquina. Instala el servidor web nginx en la máquina. Modifica la página index.html que viene por defecto y accede a ella desde un navegador.&lt;/h2&gt;
+&lt;h3 id=&quot;entrega-la-ip-flotante-de-la-máquina-para-que-el-profesor-pueda-acceder-a-ella&quot;&gt;&lt;a href=&quot;#entrega-la-ip-flotante-de-la-m%C3%A1quina-para-que-el-profesor-pueda-acceder-a-ella&quot; aria-label=&quot;entrega la ip flotante de la máquina para que el profesor pueda acceder a ella permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Entrega la ip flotante de la máquina para que el profesor pueda acceder a ella.&lt;/h3&gt;
+&lt;h3 id=&quot;entrega-una-captura-de-pantalla-accediendo-a-ella&quot;&gt;&lt;a href=&quot;#entrega-una-captura-de-pantalla-accediendo-a-ella&quot; aria-label=&quot;entrega una captura de pantalla accediendo a ella permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Entrega una captura de pantalla accediendo a ella&lt;/h3&gt;
+&lt;p&gt;Ip flotante de la maquina es -&gt;  &lt;em&gt;172.22.200.137&lt;/em&gt;
+Primero instalaremos el servidor Gninx en nuestra maquina.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@servidor-gninx:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; nginx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;tarea-2-2-puntoobligatorio-configura-la-resolución-estática-en-los-clientes-y-muestra-el-acceso-a-cada-una-de-las-páginas&quot;&gt;&lt;a href=&quot;#tarea-2-2-puntoobligatorio-configura-la-resoluci%C3%B3n-est%C3%A1tica-en-los-clientes-y-muestra-el-acceso-a-cada-una-de-las-p%C3%A1ginas&quot; aria-label=&quot;tarea 2 2 puntoobligatorio configura la resolución estática en los clientes y muestra el acceso a cada una de las páginas permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2 (2 punto)(Obligatorio): Configura la resolución estática en los clientes y muestra el acceso a cada una de las páginas.&lt;/h2&gt;
+&lt;p&gt;El sistema de directorios de nginx es muy similar al de apache, tendremos que configurar nuevo archivo de configuración en sites-avaliable para especificar nuestro sitio.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Ejercicio 6: Configuración de apache mediante archivo .htaccess ]]></title><description><![CDATA[Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</guid><category><![CDATA[.htaccess]]></category><pubDate>Sun, 01 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor?, ¿qué podemos hacer? Explica la directiva AllowOverride de apache2. Utilizando archivos .htaccess realiza las siguientes configuraciones:&lt;/p&gt;
 &lt;p&gt;Con 000webhost -&gt; &lt;a href=&quot;https://franmaduhtaccess.000webhostapp.com/&quot;&gt;https://franmaduhtaccess.000webhostapp.com/&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Habilita el listado de ficheros en la URL &lt;a href=&quot;http://host.dominio/nas&quot;&gt;http://host.dominio/nas&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Creo en mi host el directorio nas y añado contenido
 Dentro de mi directorio nas añado un archivo .htaccess y le añado la siguiente linea&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-Options +Indexes
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Options +Indexes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 644px;&quot;
@@ -170,28 +146,22 @@ Options +Indexes
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Crea una redirección permanente: cuando entremos en ttp://host.dominio/google salte a www.google.es.&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-Redirect 301 /google http://www.google.es
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Redirect &lt;span class=&quot;token number&quot;&gt;301&lt;/span&gt; /google http://www.google.es&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Comprobación -&gt; &lt;a href=&quot;https://franmaduhtaccess.000webhostapp.com/google&quot;&gt;https://franmaduhtaccess.000webhostapp.com/google&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;Pedir autentificación para entrar en la URL &lt;a href=&quot;http://host.dominio/prohibido&quot;&gt;http://host.dominio/prohibido&lt;/a&gt;. (No la hagas si has elegido como proveedor CDMON, en la plataforma de prueba, no funciona.)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Creo un directorio llamado prohibido en el añado un fichero con la contraseña guardada.&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-#generacion de fichero
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#generacion de fichero&lt;/span&gt;
 htpasswd -c seguro.txt fran
 New password: 
 Re-type new password: 
-Adding password for user fran
-&lt;/pre&gt;
+Adding password &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; user fran&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Añado las siguientes lineas en mi fichero .htaccess que creo dentro de ese directorio(prohibido)&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-AuthType Basic
-AuthName &quot;Inicio de sesión&quot;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;AuthType Basic
+AuthName &lt;span class=&quot;token string&quot;&gt;&quot;Inicio de sesión&quot;&lt;/span&gt;
 AuthUserFile franmaduhtaccess.000webhostapp.com/prohibido/seguro.txt
-Require valid-user
-&lt;/pre&gt;
+Require valid-user&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -225,23 +195,21 @@ Como podemos comprobar nos pide que nos logeemos para poder acceder a ese direct
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Escenario:&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-Vagrant.configure(&quot;2&quot;) do |config|
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Vagrant.configure&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;2&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;config&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
 
-    config.vm.define :servidor do |servidor|
-            servidor.vm.box = &quot;debian/buster64&quot;
-            servidor.vm.hostname = &quot;servidor&quot;
-            servidor.vm.network :public_network,:bridge=&gt;&quot;wlo1&quot;
-            servidor.vm.network :private_network, ip: &quot;192.168.100.25&quot;, virtualbox__intnet: &quot;redinterna&quot;
+    config.vm.define :servidor &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;servidor&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+            servidor.vm.box &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;debian/buster64&quot;&lt;/span&gt;
+            servidor.vm.hostname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;servidor&quot;&lt;/span&gt;
+            servidor.vm.network :public_network,:bridge&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;wlo1&quot;&lt;/span&gt;
+            servidor.vm.network :private_network, ip: &lt;span class=&quot;token string&quot;&gt;&quot;192.168.100.25&quot;&lt;/span&gt;, virtualbox__intnet: &lt;span class=&quot;token string&quot;&gt;&quot;redinterna&quot;&lt;/span&gt;
     end
 
-    config.vm.define :cliente do |cliente|
-            cliente.vm.box = &quot;debian/buster64&quot;
-            cliente.vm.hostname = &quot;cliente&quot;
-            cliente.vm.network :private_network, ip: &quot;192.168.100.26&quot;, virtualbox__intnet: &quot;redinterna&quot;
+    config.vm.define :cliente &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;cliente&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+            cliente.vm.box &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;debian/buster64&quot;&lt;/span&gt;
+            cliente.vm.hostname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;cliente&quot;&lt;/span&gt;
+            cliente.vm.network :private_network, ip: &lt;span class=&quot;token string&quot;&gt;&quot;192.168.100.26&quot;&lt;/span&gt;, virtualbox__intnet: &lt;span class=&quot;token string&quot;&gt;&quot;redinterna&quot;&lt;/span&gt;
     end
-end
-&lt;/pre&gt;
+end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;a-la-url-departamentosiesgnorgintranet-sólo-se-debe-tener-acceso-desde-el-cliente-de-la-red-local-y-no-se-pueda-acceder-desde-la-anfitriona-por-la-red-pública-a-la-url-departamentosiesgnorginternet-sin-embargo-sólo-se-debe-tener-acceso-desde-la-anfitriona-por-la-red-pública-y-no-desde-la-red-local&quot;&gt;&lt;a href=&quot;#a-la-url-departamentosiesgnorgintranet-s%C3%B3lo-se-debe-tener-acceso-desde-el-cliente-de-la-red-local-y-no-se-pueda-acceder-desde-la-anfitriona-por-la-red-p%C3%BAblica-a-la-url-departamentosiesgnorginternet-sin-embargo-s%C3%B3lo-se-debe-tener-acceso-desde-la-anfitriona-por-la-red-p%C3%BAblica-y-no-desde-la-red-local&quot; aria-label=&quot;a la url departamentosiesgnorgintranet sólo se debe tener acceso desde el cliente de la red local y no se pueda acceder desde la anfitriona por la red pública a la url departamentosiesgnorginternet sin embargo sólo se debe tener acceso desde la anfitriona por la red pública y no desde la red local permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;A la URL departamentos.iesgn.org/intranet sólo se debe tener acceso desde el cliente de la red local, y no se pueda acceder desde la anfitriona por la red pública. A la URL departamentos.iesgn.org/internet, sin embargo, sólo se debe tener acceso desde la anfitriona por la red pública, y no desde la red local.&lt;/h2&gt;
@@ -249,15 +217,13 @@ end
 &lt;li&gt;Intalaremos Apache en nuestro servidor&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Crearemos un fichero llamado departamentos.conf ubicado en sites-avaliable&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-&lt;Directory /var/www/departamentos/internet/&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory /var/www/departamentos/internet/&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
             Options Indexes FollowSymLinks MultiViews
-            &lt;RequireAll&gt;
-                    Require not ip 192.168.100
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;RequireAll&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                    Require not &lt;span class=&quot;token function&quot;&gt;ip&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100
                     Require all granted
-            &lt;/RequireAll&gt;
-&lt;/Directory&gt;
-&lt;/pre&gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/RequireAll&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;autentificación-básica-limita-el-acceso-a-la-url-departamentosiesgnorgsecreto-comprueba-las-cabeceras-de-los-mensajes-http-que-se-intercambian-entre-el-servidor-y-el-cliente-¿cómo-se-manda-la-contraseña-entre-el-cliente-y-el-servidor-entrega-una-breve-explicación-del-ejercicio&quot;&gt;&lt;a href=&quot;#autentificaci%C3%B3n-b%C3%A1sica-limita-el-acceso-a-la-url-departamentosiesgnorgsecreto-comprueba-las-cabeceras-de-los-mensajes-http-que-se-intercambian-entre-el-servidor-y-el-cliente-%C2%BFc%C3%B3mo-se-manda-la-contrase%C3%B1a-entre-el-cliente-y-el-servidor-entrega-una-breve-explicaci%C3%B3n-del-ejercicio&quot; aria-label=&quot;autentificación básica limita el acceso a la url departamentosiesgnorgsecreto comprueba las cabeceras de los mensajes http que se intercambian entre el servidor y el cliente ¿cómo se manda la contraseña entre el cliente y el servidor entrega una breve explicación del ejercicio permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Autentificación básica. Limita el acceso a la URL departamentos.iesgn.org/secreto. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente. ¿Cómo se manda la contraseña entre el cliente y el servidor?. Entrega una breve explicación del ejercicio.&lt;/h2&gt;
@@ -297,160 +263,143 @@ end
 &lt;p&gt;Ylva no permanece ejecutándose, por lo que las posibles contraseñas de texto sin formato no están en la memoria excepto por un tiempo muy corto. Por ejemplo, ejecutar el comando ylva --auto-encrypt --list-all listaría todas las entradas de contraseña, encriptaría la base de datos y luego saldría. Las contraseñas de texto sin formato estarán en la memoria solo unos segundos. Esto hace que sea muy difícil para el malware robarlos.&lt;/p&gt;
 &lt;p&gt;Cuando se descifra la base de datos, solo el propietario la puede leer (chmod 600). Ylva lo hace automáticamente para el archivo de la base de datos para que no tenga que cambiar los permisos.&lt;/p&gt;
 &lt;p&gt;Después de esta breve introducción cabe destacar que posee un archivo donde guarda las actualizaciones realizadas.&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-Release 1.6 (2020-04-17)
-        Some changes to command line switches
-        Fixing typos in the manual
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Release &lt;span class=&quot;token number&quot;&gt;1.6&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-04-17&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        Some changes to &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt; line switches
+        Fixing typos &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; the manual
         Makefile fixes
         Minor code refactoring
         Very stable long term release
 
-Release 1.5 (2019-05-24)
+Release &lt;span class=&quot;token number&quot;&gt;1.5&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2019&lt;/span&gt;-05-24&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
         Password generator now uses RAND_bytes from OpenSSL
         Regex search can now search all the entry fields
         Minor memory leak fixed
         Entries can now be duplicated with -D, --duplicate
         Decrypted database is now only readable by the owner
 
-Release 1.4 (2019-05-18)
+Release &lt;span class=&quot;token number&quot;&gt;1.4&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2019&lt;/span&gt;-05-18&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
         *Titan is now Ylva
-        *Ylva no longer supports encrypting individual files or directories, it&apos;s not a job for a password manager.
-        *Note that if you used colors, change TITAN_COLOR to YLVA_COLOR
-        *This release is made mostly because of the name change, but active development will continue
-Release 1.3 (2018-09-04)
+        *Ylva no longer supports encrypting individual files or directories, it&apos;s not a job &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; a password manager.
+        *Note that &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; you used colors, change TITAN_COLOR to YLVA_COLOR
+        *This release is made mostly because of the name change, but active development will &lt;span class=&quot;token builtin class-name&quot;&gt;continue&lt;/span&gt;
+Release &lt;span class=&quot;token number&quot;&gt;1.3&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2018&lt;/span&gt;-09-04&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
         *Titan now supports custom count of listing latest entries
 
-Release 1.2 (2017-11-14)
-        *Support for colors. See man titan(1) for more information.
+Release &lt;span class=&quot;token number&quot;&gt;1.2&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2017&lt;/span&gt;-11-14&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        *Support &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; colors. See &lt;span class=&quot;token function&quot;&gt;man&lt;/span&gt; titan&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;more&lt;/span&gt; information.
         *Added Support encrypting individual files
-        *Added support for encrypting directories
-        *Many smaller internal changes and bug fixes
-&lt;/pre&gt;
+        *Added support &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; encrypting directories
+        *Many smaller internal changes and bug fixes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Comenzaremos descargando el repositorio de debian salsa:&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-vagrant@compilacion:~$ git clone https://salsa.debian.org/debian/ylva
-Cloning into &apos;ylva&apos;...
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@compilacion:~$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://salsa.debian.org/debian/ylva
+Cloning into &lt;span class=&quot;token string&quot;&gt;&apos;ylva&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
 warning: redirecting to https://salsa.debian.org/debian/ylva.git/
-remote: Enumerating objects: 75, done.
-remote: Counting objects: 100% (75/75), done.
-remote: Compressing objects: 100% (69/69), done.
-remote: Total 75 (delta 21), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (75/75), done.
-vagrant@compilacion:~$ cd ylva/
-vagrant@compilacion:~/ylva$ ls
+remote: Enumerating objects: &lt;span class=&quot;token number&quot;&gt;75&lt;/span&gt;, done.
+remote: Counting objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;75&lt;/span&gt;/75&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, done.
+remote: Compressing objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;69&lt;/span&gt;/69&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, done.
+remote: Total &lt;span class=&quot;token number&quot;&gt;75&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;delta &lt;span class=&quot;token number&quot;&gt;21&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, reused &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;delta &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, pack-reused &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+Unpacking objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;75&lt;/span&gt;/75&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, done.
+vagrant@compilacion:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; ylva/
+vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
 cmd_ui.c  crypto.h  debian   LICENSE   pwd-gen.c  regexfind.c  utils.h  ylva.png
 cmd_ui.h  db.c      entry.c  Makefile  pwd-gen.h  regexfind.h  ylva.1
-crypto.c  db.h      entry.h  NEWS      README.md  utils.c      ylva.c
-&lt;/pre&gt;
+crypto.c  db.h      entry.h  NEWS      README.md  utils.c      ylva.c&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;El primer error que encontramos:&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-vagrant@compilacion:~/ylva$ make install
-cc -g -std=c99 -Wall -c entry.c -o entry.o
-cc -g -std=c99 -Wall -c db.c -o db.o
-db.c:11:10: fatal error: sqlite3.h: No such file or directory
- #include &lt;sqlite3.h&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt;
+cc -g -std&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;c99 -Wall -c entry.c -o entry.o
+cc -g -std&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;c99 -Wall -c db.c -o db.o
+db.c:11:10: fatal error: sqlite3.h: No such &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; or directory
+ &lt;span class=&quot;token comment&quot;&gt;#include &amp;lt;sqlite3.h&gt;&lt;/span&gt;
           ^~~~~~~~~~~
 compilation terminated.
-make: *** [Makefile:14: db.o] Error 1
-&lt;/pre&gt;
+make: *** &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Makefile:14: db.o&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Error &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Deberemos de crear la librería &lt;em&gt;libsqlite3-0&lt;/em&gt; que es una libreria compartida de SQLite.&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-vagrant@compilacion:~/ylva$ sudo apt install libsqlite3-dev
-Reading package lists... Done
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; libsqlite3-dev
+Reading package lists&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. Done
 Building dependency tree       
-Reading state information... Done
+Reading state information&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. Done
 Suggested packages:
   sqlite3-doc
 The following NEW packages will be installed:
   libsqlite3-dev
-0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
-Need to get 787 kB of archives.
-After this operation, 2,288 kB of additional disk space will be used.
-Get:1 http://deb.debian.org/debian buster/main amd64 libsqlite3-dev amd64 3.27.2-3 [787 kB]
-Fetched 787 kB in 1s (1,331 kB/s)      
+&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; upgraded, &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; newly installed, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; to remove and &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; not upgraded.
+Need to get &lt;span class=&quot;token number&quot;&gt;787&lt;/span&gt; kB of archives.
+After this operation, &lt;span class=&quot;token number&quot;&gt;2,288&lt;/span&gt; kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian buster/main amd64 libsqlite3-dev amd64 &lt;span class=&quot;token number&quot;&gt;3.27&lt;/span&gt;.2-3 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;787&lt;/span&gt; kB&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+Fetched &lt;span class=&quot;token number&quot;&gt;787&lt;/span&gt; kB &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; 1s &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1,331&lt;/span&gt; kB/s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;      
 Selecting previously unselected package libsqlite3-dev:amd64.
-(Reading database ... 73425 files and directories currently installed.)
-Preparing to unpack .../libsqlite3-dev_3.27.2-3_amd64.deb ...
-Unpacking libsqlite3-dev:amd64 (3.27.2-3) ...
-Setting up libsqlite3-dev:amd64 (3.27.2-3) ...
-&lt;/pre&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Reading database &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. &lt;span class=&quot;token number&quot;&gt;73425&lt;/span&gt; files and directories currently installed.&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Preparing to unpack &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;./libsqlite3-dev_3.27.2-3_amd64.deb &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+Unpacking libsqlite3-dev:amd64 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.27&lt;/span&gt;.2-3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+Setting up libsqlite3-dev:amd64 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.27&lt;/span&gt;.2-3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Volvemos a tener el mismo caso, ahora con &lt;em&gt;openssl/evp.h&lt;/em&gt;:&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-vagrant@compilacion:~/ylva$ make install
-cc -g -std=c99 -Wall -c db.c -o db.o
-cc -g -std=c99 -Wall -c crypto.c -o crypto.o
-crypto.c:11:10: fatal error: openssl/evp.h: No such file or directory
- #include &lt;openssl/evp.h&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt;
+cc -g -std&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;c99 -Wall -c db.c -o db.o
+cc -g -std&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;c99 -Wall -c crypto.c -o crypto.o
+crypto.c:11:10: fatal error: openssl/evp.h: No such &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; or directory
+ &lt;span class=&quot;token comment&quot;&gt;#include &amp;lt;openssl/evp.h&gt;&lt;/span&gt;
           ^~~~~~~~~~~~~~~
 compilation terminated.
-make: *** [Makefile:14: crypto.o] Error 1
-&lt;/pre&gt;
+make: *** &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Makefile:14: crypto.o&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Error &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Que lo solucionamos instalando sus dependencias:&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-vagrant@compilacion:~/ylva$ sudo apt install libssl-dev 
-Reading package lists... Done
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; libssl-dev 
+Reading package lists&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. Done
 Building dependency tree       
-Reading state information... Done
+Reading state information&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. Done
 Suggested packages:
   libssl-doc
 The following NEW packages will be installed:
   libssl-dev
-0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
-Need to get 1,793 kB of archives.
-After this operation, 8,072 kB of additional disk space will be used.
-Get:1 http://deb.debian.org/debian buster/main amd64 libssl-dev amd64 1.1.1d-0+deb10u3 [1,793 kB]
-Fetched 1,793 kB in 1s (1,972 kB/s)     
+&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; upgraded, &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; newly installed, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; to remove and &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; not upgraded.
+Need to get &lt;span class=&quot;token number&quot;&gt;1,793&lt;/span&gt; kB of archives.
+After this operation, &lt;span class=&quot;token number&quot;&gt;8,072&lt;/span&gt; kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian buster/main amd64 libssl-dev amd64 &lt;span class=&quot;token number&quot;&gt;1.1&lt;/span&gt;.1d-0+deb10u3 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1,793&lt;/span&gt; kB&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+Fetched &lt;span class=&quot;token number&quot;&gt;1,793&lt;/span&gt; kB &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; 1s &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1,972&lt;/span&gt; kB/s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;     
 Selecting previously unselected package libssl-dev:amd64.
-(Reading database ... 73437 files and directories currently installed.)
-Preparing to unpack .../libssl-dev_1.1.1d-0+deb10u3_amd64.deb ...
-Unpacking libssl-dev:amd64 (1.1.1d-0+deb10u3) ...
-Setting up libssl-dev:amd64 (1.1.1d-0+deb10u3) ...
-&lt;/pre&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Reading database &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. &lt;span class=&quot;token number&quot;&gt;73437&lt;/span&gt; files and directories currently installed.&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Preparing to unpack &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;./libssl-dev_1.1.1d-0+deb10u3_amd64.deb &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+Unpacking libssl-dev:amd64 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.1&lt;/span&gt;.1d-0+deb10u3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+Setting up libssl-dev:amd64 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.1&lt;/span&gt;.1d-0+deb10u3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Ahora podremos instalar sin problemas:&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-vagrant@compilacion:~/ylva$ sudo make install
-if [ ! -d /usr//share/man/man1 ];then	\
-	mkdir -p /usr//share/man/man1;	\
-fi
-install -m644 ylva.1 /usr//share/man/man1/
-gzip -f /usr//share/man/man1/ylva.1
-if [ ! -d /usr//bin ] ; then \
-	mkdir -p /usr//bin ; \
-fi
-install -m755 ylva /usr//bin/
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; -d /usr//share/man/man1 &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;	&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; -p /usr//share/man/man1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;	&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -m644 ylva.1 /usr//share/man/man1/
+&lt;span class=&quot;token function&quot;&gt;gzip&lt;/span&gt; -f /usr//share/man/man1/ylva.1
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; -d /usr//bin &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; -p /usr//bin &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -m755 ylva /usr//bin/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Comprobamos su ubicación:&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-vagrant@compilacion:~/ylva$ which ylva
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;which&lt;/span&gt; ylva
 /usr/bin/ylva
 
-vagrant@compilacion:~/ylva$ whereis ylva
-ylva: /usr/bin/ylva /usr/share/man/man1/ylva.1.gz
-&lt;/pre&gt;
+vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;whereis&lt;/span&gt; ylva
+ylva: /usr/bin/ylva /usr/share/man/man1/ylva.1.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Comprobamos que tambien esta su manual.&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-man(1)                                                 ylva man page                                                 man(1)
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;man&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;                                                 ylva &lt;span class=&quot;token function&quot;&gt;man&lt;/span&gt; page                                                 man&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
 NAME
-       ylva - command line password manager
+       ylva - &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt; line password manager
 
 SYNOPSIS
-       ylva [FLAGS] &lt;OPTIONS&gt;
+       ylva &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;FLAGS&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;OPTIONS&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
 
 DESCRIPTION
-       Ylva is a command line password manager program for Unix-like operating systems.
+       Ylva is a &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt; line password manager program &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; Unix-like operating systems.
 
 OPTIONS
-       -i, --init &lt;path&gt;
+       -i, --init &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;path&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
               Initialize new database
 
        -E, --encrypt
               Encrypt current database
 
-       -D, --decrypt &lt;path&gt;
+       -D, --decrypt &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;path&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
               Decrypt database
 
-       -c, --copy &lt;id&gt;
+       -c, --copy &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;id&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
               Copy an entry to a new entry
 
        -a, --add
@@ -458,68 +407,59 @@ OPTIONS
 
        -p, --show-db-path
               Show current database path
-...
-&lt;/pre&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Comprobamos su utilización:&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-vagrant@compilacion:~$ ylva -i contraseñas
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@compilacion:~$ ylva -i contraseñas
 Existing database is already active. Encrypt it before creating a new one.
 vagrant@compilacion:~$ ylva -a 
 Title: Prueba
 Username: fran
 Url: www.sshfran.com
 Notes: Hola
-Password (empty to generate new): 
+Password &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;empty to generate new&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: 
 
 vagrant@compilacion:~$ ylva -A
-=====================================================================
-ID: 1
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+ID: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
 Title: Prueba
 User: fran
 Url: www.sshfran.com
 Password: **********
 Notes: Hola
-Modified: 2020-10-28 10:40:38
-=====================================================================
+Modified: &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-28 &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;:40:38
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
 
 vagrant@compilacion:~$ ylva --show-passwords -A
-=====================================================================
-ID: 1
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+ID: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
 Title: Prueba
 User: fran
 Url: www.sshfran.com
 Password: segura
 Notes: Hola
-Modified: 2020-10-28 10:40:38
-=====================================================================
-&lt;/pre&gt;
+Modified: &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-28 &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;:40:38
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Este programa nos da dos opciones para limpiar o borrar su rastro de nuestra maquina, el pimero es:
 &lt;em&gt;make clean&lt;/em&gt;&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-clean:
-	rm -f *.o
-	rm -f $(PROG)
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;clean:
+	&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; -f *.o
+	&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; -f &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;PROG&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Borrará los directorios junto con sus configuraciones, tambien tenemos:
 &lt;em&gt;make unistall&lt;/em&gt;&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-uninstall:
-	rm $(PREFIX)/bin/ylva
-	rm $(DESTDIR)$(MANDIR)/man1/ylva.1.gz
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;uninstall:
+	&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;PREFIX&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;/bin/ylva
+	&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;DESTDIR&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;MANDIR&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;/man1/ylva.1.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Desistalará el programa de nuestra maquina y tambien borrará su manual.&lt;/p&gt;
 &lt;p&gt;Comprobamos el funcionamiento de &lt;em&gt;make uninstall&lt;/em&gt;:&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-vagrant@compilacion:~/ylva$ sudo make uninstall
-rm /usr//bin/ylva
-rm /usr//share/man/man1/ylva.1.gz
-vagrant@compilacion:~/ylva$ whereis ylva
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; uninstall
+&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; /usr//bin/ylva
+&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; /usr//share/man/man1/ylva.1.gz
+vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;whereis&lt;/span&gt; ylva
 ylva:
-vagrant@compilacion:~/ylva$ man ylva
-No manual entry for ylva
-vagrant@compilacion:~/ylva$ man -W ylva
-No manual entry for ylva
-&lt;/pre&gt;
+vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;man&lt;/span&gt; ylva
+No manual entry &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; ylva
+vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;man&lt;/span&gt; -W ylva
+No manual entry &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; ylva&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Como hemos comprobado el desistalador funciona y borrar tanto la carpeta dentro de /bin como su manual.&lt;/p&gt;
 &lt;p&gt;h4. Añadiremos algunas funcionalidades.&lt;/p&gt;
 &lt;p&gt;Dado que hemos tenido que instalar algunas dependencias podemos añadir en el README que ejecutaramos un script que añadiremos en el Makefile antes de realizar el make install donde instalar las dependencias necesarias:&lt;/p&gt;
@@ -533,34 +473,30 @@ biblioteca compartida de SQLite &lt;/li&gt;
 &lt;li&gt;dep: libssl1.1 (&gt;= 1.1.0)
 juego de herramientas de capa de conexión segura («Secure Sockets Layer») - bibliotecas compartidas &lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-instdep:
-        sudo apt install libc6
-        sudo apt install libssl-dev
-        sudo apt install libsqlite3-dev
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;instdep:
+        &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; libc6
+        &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; libssl-dev
+        &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; libsqlite3-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Con esto podremos ejecutar un nuevo script con make:&lt;/p&gt;
-&lt;pre style=&quot;background-color:powderblue;&quot;&gt;
-vagrant@compilacion:~/ylva$ make instdep
-sudo apt install libc6
-Reading package lists... Done
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@compilacion:~/ylva$ &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; instdep
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; libc6
+Reading package lists&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. Done
 Building dependency tree       
-Reading state information... Done
-libc6 is already the newest version (2.28-10).
-0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
-sudo apt install libssl-dev
-Reading package lists... Done
+Reading state information&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. Done
+libc6 is already the newest version &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2.28&lt;/span&gt;-10&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; upgraded, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; newly installed, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; to remove and &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; not upgraded.
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; libssl-dev
+Reading package lists&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. Done
 Building dependency tree       
-Reading state information... Done
-libssl-dev is already the newest version (1.1.1d-0+deb10u3).
-0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
-sudo apt install libsqlite3-dev
-Reading package lists... Done
+Reading state information&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. Done
+libssl-dev is already the newest version &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.1&lt;/span&gt;.1d-0+deb10u3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; upgraded, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; newly installed, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; to remove and &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; not upgraded.
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; libsqlite3-dev
+Reading package lists&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. Done
 Building dependency tree       
-Reading state information... Done
-libsqlite3-dev is already the newest version (3.27.2-3).
-0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
-&lt;/pre&gt;
+Reading state information&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. Done
+libsqlite3-dev is already the newest version &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.27&lt;/span&gt;.2-3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; upgraded, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; newly installed, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; to remove and &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; not upgraded.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Este paso nos ayudará a ahorrarnos tiempo en instalar dependencias y volverá la instalación mas fluida.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Tambien he traducido el programa y le he añadido un poco de color, para ello he estado modificando el fichero utils.c&lt;/em&gt;
 &lt;span
