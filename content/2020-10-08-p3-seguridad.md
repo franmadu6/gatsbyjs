@@ -60,7 +60,7 @@ DISM /Online /Cleanup-Image /RestoreHealth
 ```
 ![PracticaImg](images/seguridad/dism.png "Imagen de la practica")
 
-***Combinación de ambos:**
+**Combinación de ambos:**
 
 Con estos dos comandos (SFC y DISM), si tienes suerte, deberías poder reparar tu sistema. El proceso normal es:
     correr el sfc/scannow.

@@ -33,8 +33,8 @@ end
 
 ## A la URL departamentos.iesgn.org/intranet sólo se debe tener acceso desde el cliente de la red local, y no se pueda acceder desde la anfitriona por la red pública. A la URL departamentos.iesgn.org/internet, sin embargo, sólo se debe tener acceso desde la anfitriona por la red pública, y no desde la red local.
 
-1. Intalaremos Apache en nuestro servidor
-2. Crearemos un fichero llamado departamentos.conf ubicado en sites-avaliable
+* Intalaremos Apache en nuestro servidor
+* Crearemos un fichero llamado departamentos.conf ubicado en sites-avaliable, haremos que solo se pueda acceder al derectorio desde una ip externa a la red privada.
 ```shell
 <Directory /var/www/departamentos/internet/>
                 Options Indexes FollowSymLinks MultiViews
@@ -44,6 +44,29 @@ end
                 </RequireAll>
 </Directory>
 ```
+Ahora la intranet, permitiremos que solo las ips de la red local puedan entrar al directorio.
+```shell
+<Directory /var/www/departamentos/intranet/>
+                Options Indexes FollowSymLinks MultiViews
+                <RequireAll>
+                        Require ip 192.168.100
+                        Require all granted
+                </RequireAll>
+</Directory>
+```
+
+Modificaremos nuetros archivo </etc/hosts> tanto es nuesta maquina(internet) como en nuestro cliente (intranet).
+```shell
+192.168.100.25   www.departamentos.iesgn.org
+192.168.2.161    www.departamentos.iesgn.org
+```
+![PracticaImg](images/servicios/ej5-1 "Imagen de la practica")
+
+![PracticaImg](images/servicios/ej5-2 "Imagen de la practica")
+
+![PracticaImg](images/servicios/ej5-3 "Imagen de la practica")
+
+![PracticaImg](images/servicios/ej5-4 "Imagen de la practica")
 
 ## Autentificación básica. Limita el acceso a la URL departamentos.iesgn.org/secreto. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente. ¿Cómo se manda la contraseña entre el cliente y el servidor?. Entrega una breve explicación del ejercicio.
 
