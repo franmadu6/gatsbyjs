@@ -92,11 +92,13 @@ lrwxrwxrwx <span class="token number">1</span> www-data www-data <span class="to
 <p><strong>Creo la redirección y doy los permisos al directorio /home/fran/Documentos</strong></p>
 <p>Usando:</p>
 <ul>
-<li>Indexes
-Si se solicita una URL que se asigna a un directorio, y no hay DirectoryIndex ( por ejemplo , index.html) en ese directorio, mod_autoindexse devolverá una lista formateada del directorio.</li>
-<li>SymLinksIfOwnerMatch
-El servidor solo seguirá enlaces simbólicos para los cuales el archivo o directorio de destino es propiedad del mismo ID de usuario que el enlace.</li>
+<li>Indexes :  </li>
 </ul>
+<p>Si se solicita una URL que se asigna a un directorio, y no hay DirectoryIndex ( por ejemplo , index.html) en ese directorio, mod_autoindexse devolverá una lista formateada del directorio.</p>
+<ul>
+<li>SymLinksIfOwnerMatch :  </li>
+</ul>
+<p>El servidor solo seguirá enlaces simbólicos para los cuales el archivo o directorio de destino es propiedad del mismo ID de usuario que el enlace.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token operator">&lt;</span>VirtualHost *:8<span class="token operator"><span class="token file-descriptor important">0</span>></span>
 
         ServerName www.mapeo.com
