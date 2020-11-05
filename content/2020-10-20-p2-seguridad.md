@@ -72,8 +72,8 @@ pub   rsa3072 2020-10-08 [SC] [caduca: 2020-11-07]
       443D661D9AAF3ABAEDCA93E1C3B291882C4EE5DF
 uid        [desconocida] Alejandro Gutierrez Valencia <tojandro@gmail.com>
 sub   rsa3072 2020-10-08 [E] [caduca: 2020-11-07]
-```
-Nos muestra el nombre de la persona, su correo, cuando se genero la clave, cuando caduca y el código de la clave.
+```  
+Nos muestra el nombre de la persona, su correo, cuando se genero la clave, cuando caduca y el código de la clave.  
 
 * Lista las claves privadas de tu almacén de claves
 ```shell
