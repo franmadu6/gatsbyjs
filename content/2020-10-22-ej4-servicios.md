@@ -69,13 +69,13 @@ lrwxrwxrwx 1 www-data www-data 32 oct 21 13:20 prueba.txt -> /home/fran/Document
 
 He creado varios documentos para probar de diferentes formas he dejado la creación de dos de ellos para que se pueda ver como crear un enlace simbólico.
 
-*Creo la redirección y doy los permisos al directorio /home/fran/Documentos*
+**Creo la redirección y doy los permisos al directorio /home/fran/Documentos**
 
 Usando:
-*Indexes*
-Si se solicita una URL que se asigna a un directorio, y no hay DirectoryIndex ( por ejemplo , index.html) en ese directorio, mod_autoindexse devolverá una lista formateada del directorio.
-*SymLinksIfOwnerMatch*
-El servidor solo seguirá enlaces simbólicos para los cuales el archivo o directorio de destino es propiedad del mismo ID de usuario que el enlace.
+* Indexes
+- Si se solicita una URL que se asigna a un directorio, y no hay DirectoryIndex ( por ejemplo , index.html) en ese directorio, mod_autoindexse devolverá una lista formateada del directorio.
+* SymLinksIfOwnerMatch
+- El servidor solo seguirá enlaces simbólicos para los cuales el archivo o directorio de destino es propiedad del mismo ID de usuario que el enlace.
 
 ```shell
 <VirtualHost *:80>
@@ -101,9 +101,9 @@ El servidor solo seguirá enlaces simbólicos para los cuales el archivo o direc
 
 ![PracticaImg](images/servicios/mapeoroot.png "Imagen de la practica")
 
-*Como podemos ver en la captura no podemos ver el archivo que he creado con el usuario root*
+**Como podemos ver en la captura no podemos ver el archivo que he creado con el usuario root**
 
-*4. En todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido. Para el ello se crearan dos ficheros html dentro del directorio error. Entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento.*
+4. En todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido. Para el ello se crearan dos ficheros html dentro del directorio error. Entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento.
 
 ```shell
 root@debian:/srv/mapeo# mkdir error
