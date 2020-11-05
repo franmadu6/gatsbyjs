@@ -1,0 +1,625 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.722 'Lato',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'Lato',sans-serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;color:hsla(0,0%,0%,0.9);font-family:'Neuton',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;color:hsla(0,0%,0%,0.9);font-family:'Neuton',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;color:hsla(0,0%,0%,0.9);font-family:'Neuton',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;color:hsla(0,0%,0%,0.9);font-family:'Neuton',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;color:hsla(0,0%,0%,0.9);font-family:'Neuton',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;color:hsla(0,0%,0%,0.9);font-family:'Neuton',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;}ul{margin-left:1.722rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.722rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;font-size:0.85rem;line-height:1.722rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;font-size:1rem;line-height:1.722rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;}blockquote{margin-left:0;margin-right:1.722rem;margin-top:0;padding-bottom:0;padding-left:1.93725rem;padding-right:0;padding-top:0;margin-bottom:1.722rem;font-size:1.1487rem;line-height:1.722rem;color:hsla(0,0%,0%,0.59);border-left:0.64575rem solid;border-color:#612423;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.722rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.722rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.722rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.722rem;margin-bottom:calc(1.722rem / 2);margin-top:calc(1.722rem / 2);}li > ul{margin-left:1.722rem;margin-bottom:calc(1.722rem / 2);margin-top:calc(1.722rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.722rem / 2);}code{font-size:0.85rem;line-height:1.722rem;}kbd{font-size:0.85rem;line-height:1.722rem;}samp{font-size:0.85rem;line-height:1.722rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.148rem;padding-right:1.148rem;padding-top:0.861rem;padding-bottom:calc(0.861rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}a{color:#4665b7;text-decoration:none;}a:hover,a:active{color:hsla(0,0%,0%,0.8);}h1,h2,h3,h4,h5,h6{margin-top:3.444rem;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.722rem;color:hsla(0,0%,0%,0.8);font-weight:400;}blockquote cite:before{content:"— ";}@media only screen and (max-width:480px){blockquote{margin-left:-1.2915rem;margin-right:0;border-left:0.32288rem solid;border-color:#612423;padding-left:0.96862rem;}}</style><style data-href="/gatsbyjs/styles.15b6dda261ecea92380b.css">footer{background-color:rgba(0,0,0,.9);padding:20px 0 40px;color:hsla(0,0%,100%,.7)}footer .Footer-module--container--3Dvn1{display:grid;grid-template-columns:50% 50%;margin-left:auto;margin-right:auto;max-width:50rem;padding:20px}footer a{color:#ddd;margin:10px}footer a:hover{color:#fff}footer .Footer-module--copyright--2uglW{text-align:right}header{display:flex;justify-content:space-between;align-items:center;padding:1rem;position:-webkit-sticky;position:sticky;top:0;background:hsla(0,0%,100%,.75);-webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px);z-index:9;margin-left:auto;margin-right:auto;height:70px}header a{text-decoration:none;color:#3c4856;font-size:1.1rem;margin-top:0}header h1{margin-top:5px}header nav a{color:#757575;transition:color .2s ease;text-decoration:none;display:inline-block;position:relative;font-size:16px}header nav a:hover{color:#4f647d}header nav a strong{margin:1px;color:#4f647d;font-size:.8rem}header .Header-module--activeNav--25noA{color:#4f647d;font-weight:700}.Header-module--main-nav--2C0n8{display:flex;list-style:none;padding:0;margin-top:30px;overflow:auto;overflow:-moz-scrollbars-none;scrollbar-width:none;-ms-overflow-style:none!important}.Header-module--main-nav--2C0n8::-webkit-scrollbar{width:0!important}.Header-module--main-nav--2C0n8 li{font-size:1.3rem}.Header-module--main-nav--2C0n8 li+li{margin-left:1.5rem}@media (max-width:1000px){header{display:block;height:120px}nav{margin-top:-20px}nav ul{margin:0}}@media (max-width:768px){header strong{display:none}.Header-module--main-nav--2C0n8 li+li{margin-left:1rem}}@media (max-width:520px){header nav a{font-size:.7rem;border:1px solid #eee;padding:2px;border-radius:5px}}body{margin:0;background:#fafbfb}h1,h2,h3,h4,h5,h6{margin-top:1rem}main{margin-left:auto;margin-right:auto;max-width:50rem;display:flex;flex-direction:column;min-height:100vh;padding:20px}article{height:90%}article:hover{box-shadow:0 11px 22px 12px #eee;border-radius:5px}.Bio-module--avatar--v_AB0{border-radius:50%;width:70px;float:left;margin:5px 20px}.PostTags-module--tag-container--ksSgQ a{text-decoration:none;display:inline-grid}.PostTags-module--tag-container--ksSgQ span{font-size:.8rem;font-weight:500;padding:.3rem .6rem;margin:.3rem;border-radius:3px;background:rgba(141,154,169,.21);color:rgba(0,0,0,.54)}.SocialLinks-module--social-links--1RDpJ{position:fixed;top:100px;left:30px;flex-direction:row;flex-wrap:wrap;justify-content:center;align-content:center;align-items:center;margin:15px 0}.SocialLinks-module--social-links--1RDpJ div{margin:5px 15px;cursor:pointer}.SocialLinks-module--share-count--3wXKp{text-align:center}@media (max-width:1200px){.SocialLinks-module--social-links--1RDpJ{position:relative;top:0}.SocialLinks-module--social-links--1RDpJ div{display:inline-grid;position:relative}}.post-module--post-meta--1ci95{color:#757575;margin-bottom:.5rem;font-size:.7rem}.post-module--pagination--1F-V0{display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0;margin-top:4rem}code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.PostsListing-module--article-list--3ReSK{display:grid;grid-template-columns:50% 50%}.PostsListing-module--article-list--3ReSK .PostsListing-module--article-box--3M6_I{margin-bottom:30px;display:inline-block;width:auto;transition:all .25s ease}.PostsListing-module--article-list--3ReSK .PostsListing-module--article-box--3M6_I:hover{cursor:pointer}.PostsListing-module--article-list--3ReSK .PostsListing-module--article-box--3M6_I .PostsListing-module--right--2MxCO{padding:15px;color:#3c4856;margin-top:-20px}.PostsListing-module--article-list--3ReSK .PostsListing-module--article-box--3M6_I .PostsListing-module--right--2MxCO .PostsListing-module--meta--3cFzL{margin-top:-15px;margin-bottom:20px;font-size:.7rem}@media (max-width:768px){.PostsListing-module--article-list--3ReSK{grid-template-columns:100%}}</style><title data-react-helmet="true">Práctica 1: Implantación y despliegue de una aplicación web estática | Fran Madueño Blog</title><meta data-react-helmet="true" name="description" content="Instalacion de Gatsby ¿Que es Gatsby?
+Gatsby es un framework gratuito y open source basado en React que permite desarrollar de forma rápida…"/><meta data-react-helmet="true" name="image" content="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/https://img.icons8.com/ios/452/work.png"/><meta data-react-helmet="true" name="google-site-verification" content="nfw924182Pw8-Z0KTHJTD3f66Y5RI30SKWd8emqslnE"/><meta data-react-helmet="true" property="og:url" content="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-1-implantacion-y-despliegue-de-una-aplicacion-web-estatica"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:title" content="Práctica 1: Implantación y despliegue de una aplicación web estática"/><meta data-react-helmet="true" property="og:description" content="Instalacion de Gatsby ¿Que es Gatsby?
+Gatsby es un framework gratuito y open source basado en React que permite desarrollar de forma rápida…"/><meta data-react-helmet="true" property="og:image" content="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/https://img.icons8.com/ios/452/work.png"/><meta data-react-helmet="true" property="fb:app_id" content="1825356251115265"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="franmadueo"/><meta data-react-helmet="true" name="twitter:title" content="Práctica 1: Implantación y despliegue de una aplicación web estática"/><meta data-react-helmet="true" name="twitter:description" content="Instalacion de Gatsby ¿Que es Gatsby?
+Gatsby es un framework gratuito y open source basado en React que permite desarrollar de forma rápida…"/><meta data-react-helmet="true" name="twitter:image" content="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/https://img.icons8.com/ios/452/work.png"/><script data-react-helmet="true" type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","url":"https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs","name":"Práctica 1: Implantación y despliegue de una aplicación web estática","alternateName":"Fran Madueño Blog"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-1-implantacion-y-despliegue-de-una-aplicacion-web-estatica","name":"Práctica 1: Implantación y despliegue de una aplicación web estática","image":"https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/https://img.icons8.com/ios/452/work.png"}}]},{"@context":"http://schema.org","@type":"BlogPosting","url":"https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs","name":"Práctica 1: Implantación y despliegue de una aplicación web estática","alternateName":"Fran Madueño Blog","headline":"Práctica 1: Implantación y despliegue de una aplicación web estática","image":{"@type":"ImageObject","url":"https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/https://img.icons8.com/ios/452/work.png"},"description":"Instalacion de Gatsby ¿Que es Gatsby?\nGatsby es un framework gratuito y open source basado en React que permite desarrollar de forma rápida…"}]</script><meta name="generator" content="Gatsby 2.19.49"/><link href="//fonts.googleapis.com/css?family=Neuton:700|Lato:400,400i,700" rel="stylesheet" type="text/css"/><style type="text/css">.gatsby-resp-image-image{width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;color:transparent;}</style><style type="text/css">
+    .anchor {
+      float: left;
+      padding-right: 4px;
+      margin-left: -20px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var offset = element.offsetTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-9d240335cccfc7a9b6a0.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-1717f72b1ae567e55410.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/practica-1-implantacion-y-despliegue-de-una-aplicacion-web-estatica/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/otros">Otros<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/servicios">Servicios<strong> (<!-- -->4<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sistemas-operativos">Sistemas Operativos<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Práctica 1: Implantación y despliegue de una aplicación web estática</h1><p class="post-module--post-meta--1ci95">October 18, 2020<!-- --> — <!-- -->19<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/gastby"><span>Gastby</span></a><a href="/gatsbyjs/tags/github"><span>Github</span></a><a href="/gatsbyjs/tags/github-pages"><span>Github-Pages</span></a><a href="/gatsbyjs/tags/web"><span>Web</span></a></div></div><div><h1 id="instalacion-de-gatsby"><a href="#instalacion-de-gatsby" aria-label="instalacion de gatsby permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instalacion de Gatsby</h1>
+<p><strong>¿Que es Gatsby?</strong>
+Gatsby es un framework gratuito y open source basado en React que permite desarrollar de forma rápida sitios web y aplicaciones web rápidos.</p>
+<p><strong>¿Por qué Gatsby?</strong><br>
+Gatsby quiere ser el framework universal de JavaScript que tiene la visión de que todo el “sitio web es un aplicación web y toda aplicación web es un sitio web”. Además, Gatsby.js es un generador de PWAs estáticas, que gracias a su funcionamiento nativo, permite una carga óptima y una navegación muy rápida.</p>
+<p><strong>Temas</strong><br>
+Con un tema de Gatsby, toda su configuración predeterminada (funcionalidad compartida, origen de datos, diseño) se extrae de su sitio y se convierte en un paquete instalable. Esto significa que la configuración y la funcionalidad no se escriben directamente en su proyecto, sino que se versionan, administran de forma centralizada y se instalan como una dependencia. Puede actualizar sin problemas un tema, componer temas juntos e incluso cambiar un tema compatible por otro.</p>
+<p><strong>Requisitos previos:</strong></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> build-essential
+<span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> <span class="token function">git</span>
+<span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> libpng-dev</code></pre></div>
+<p><em>Instalacion de Node.Js</em>
+(Es aconsejable no instalarlo como root)</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/home/fran<span class="token comment"># apt-get install curl</span>
+debian:/home/fran<span class="token comment">#curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash</span>
+
+fran@debian:~$ nvm --version
+<span class="token number">0.35</span>.1
+fran@debian:~$ nvm <span class="token function">install</span> <span class="token number">10</span>
+Downloading and installing node v10.22.1<span class="token punctuation">..</span>.
+Downloading https://nodejs.org/dist/v10.22.1/node-v10.22.1-linux-x64.tar.xz<span class="token punctuation">..</span>.
+<span class="token comment">######################################################################### 100,0%</span>
+Computing checksum with sha256sum
+Checksums matched<span class="token operator">!</span>
+^<span class="token punctuation">[</span><span class="token punctuation">[</span>ANow using node v10.22.1 <span class="token punctuation">(</span>npm v6.14.6<span class="token punctuation">)</span>
+Creating default alias: default -<span class="token operator">></span> <span class="token number">10</span> <span class="token punctuation">(</span>-<span class="token operator">></span> v10.22.1<span class="token punctuation">)</span>
+fran@debian:~$ nvm use <span class="token number">10</span>
+Now using node v10.22.1 <span class="token punctuation">(</span>npm v6.14.6<span class="token punctuation">)</span></code></pre></div>
+<p><strong>Instalamos el cliente de Gatsby:</strong></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~$ <span class="token function">npm</span> <span class="token function">install</span> -g gatsby-cli
+<span class="token function">npm</span> WARN deprecated @hapi/joi@15.1.1: joi is leaving the @hapi organization and moving back to <span class="token string">'joi'</span> <span class="token punctuation">(</span>https://github.com/sideway/joi/issues/2411<span class="token punctuation">)</span>
+<span class="token function">npm</span> WARN deprecated @hapi/bourne@1.3.2: This version has been deprecated and is no longer supported or maintained
+<span class="token function">npm</span> WARN deprecated @hapi/hoek@8.5.1: This version has been deprecated and is no longer supported or maintained
+<span class="token function">npm</span> WARN deprecated @hapi/address@2.1.4: This version has been deprecated and is no longer supported or maintained
+<span class="token function">npm</span> WARN deprecated @hapi/topo@3.1.6: This version has been deprecated and is no longer supported or maintained
+<span class="token function">npm</span> WARN deprecated core-js@2.6.11: core-js@<span class="token operator">&lt;</span><span class="token number">3</span> is no longer maintained and not recommended <span class="token keyword">for</span> usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+/home/fran/.nvm/versions/node/v10.22.1/bin/gatsby -<span class="token operator">></span> /home/fran/.nvm/versions/node/v10.22.1/lib/node_modules/gatsby-cli/cli.js
+
+<span class="token operator">></span> core-js@2.6.11 postinstall /home/fran/.nvm/versions/node/v10.22.1/lib/node_modules/gatsby-cli/node_modules/core-js
+<span class="token operator">></span> node -e <span class="token string">"try{require('./postinstall')}catch(e){}"</span>
+
+Thank you <span class="token keyword">for</span> using core-js <span class="token punctuation">(</span> https://github.com/zloirock/core-js <span class="token punctuation">)</span> <span class="token keyword">for</span> polyfilling JavaScript standard library<span class="token operator">!</span>
+
+The project needs your help<span class="token operator">!</span> Please consider supporting of core-js on Open Collective or Patreon: 
+<span class="token operator">></span> https://opencollective.com/core-js 
+<span class="token operator">></span> https://www.patreon.com/zloirock 
+
+Also, the author of core-js <span class="token punctuation">(</span> https://github.com/zloirock <span class="token punctuation">)</span> is looking <span class="token keyword">for</span> a good job -<span class="token punctuation">)</span>
+
+
+<span class="token operator">></span> gatsby-telemetry@1.3.37 postinstall /home/fran/.nvm/versions/node/v10.22.1/lib/node_modules/gatsby-cli/node_modules/gatsby-telemetry
+<span class="token operator">></span> node src/postinstall.js <span class="token operator">||</span> <span class="token boolean">true</span>
+
+
+<span class="token operator">></span> gatsby-cli@2.12.102 postinstall /home/fran/.nvm/versions/node/v10.22.1/lib/node_modules/gatsby-cli
+<span class="token operator">></span> node scripts/postinstall.js
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                                                                        ║
+║   Gatsby collects anonymous usage analytics                            ║
+║   to <span class="token builtin class-name">help</span> improve Gatsby <span class="token keyword">for</span> all users.                                ║
+║                                                                        ║
+║   If you d like to opt-out, you can use <span class="token variable"><span class="token variable">`</span>gatsby telemetry --disable<span class="token variable">`</span></span>   ║
+║   To learn more, checkout https://gatsby.dev/telemetry                 ║
+║                                                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
+Success<span class="token operator">!</span>
+
+Welcome to the Gatsby CLI<span class="token operator">!</span> Please visit https://www.gatsbyjs.org/docs/gatsby-cli/ <span class="token keyword">for</span> <span class="token function">more</span> information.
+
+<span class="token function">npm</span> WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.2 <span class="token punctuation">(</span>node_modules/gatsby-cli/node_modules/chokidar/node_modules/fsevents<span class="token punctuation">)</span>:
+<span class="token function">npm</span> WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform <span class="token keyword">for</span> fsevents@2.1.3: wanted <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"darwin"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"any"</span><span class="token punctuation">}</span> <span class="token punctuation">(</span>current: <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"linux"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"x64"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token function">npm</span> WARN gatsby-interface@0.0.193 requires a peer of gatsby@^2.6.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN gatsby-interface@0.0.193 requires a peer of react-dom@^16.8.1 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN theme-ui@0.2.52 requires a peer of @mdx-js/react@^1.0.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/tooltip@0.10.3 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/popover@0.10.3 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/combobox@0.10.3 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/dialog@0.10.3 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/tabs@0.10.3 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/alert@0.10.3 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/menu-button@0.10.3 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/utils@0.10.5 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/visually-hidden@0.10.4 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/descendants@0.10.5 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/portal@0.10.5 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/auto-id@0.10.5 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN @reach/rect@0.10.5 requires a peer of react-dom@^16.8.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+
++ gatsby-cli@2.12.102
+added <span class="token number">860</span> packages from <span class="token number">621</span> contributors <span class="token keyword">in</span> <span class="token number">67</span>.717s</code></pre></div>
+<p><strong>Implantación del entorno:</strong><br>
+Para crear nuestro sitio web con estilo deberemos elegir un tema, en mi caso he elegido un tema de <a href="https://jamstackthemes.dev/ssg/gatsby/">https://jamstackthemes.dev/ssg/gatsby/</a>
+para generarlo ejecutaremos el siguiente comando en el cual crearemos una carpeta y descargaremos el contenido.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/home/fran/GitHub<span class="token comment"># gatsby new gatsby https://github.com/ammarjabakji/gatsby-markdown-blog-starter/</span>
+info Creating new site from git: https://github.com/ammarjabakji/gatsby-markdown-blog-starter.git
+Clonando en <span class="token string">'gatsby'</span><span class="token punctuation">..</span>.
+remote: Enumerating objects: <span class="token number">69</span>, done.
+remote: Counting objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">69</span>/69<span class="token punctuation">)</span>, done.
+remote: Compressing objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">63</span>/63<span class="token punctuation">)</span>, done.
+remote: Total <span class="token number">69</span> <span class="token punctuation">(</span>delta <span class="token number">5</span><span class="token punctuation">)</span>, reused <span class="token number">30</span> <span class="token punctuation">(</span>delta <span class="token number">0</span><span class="token punctuation">)</span>, pack-reused <span class="token number">0</span>
+Desempaquetando objetos: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">69</span>/69<span class="token punctuation">)</span>, listo.
+success Created starter directory layout
+info Installing packages<span class="token punctuation">..</span>.
+
+<span class="token operator">></span> sharp@0.23.0 <span class="token function">install</span> /home/fran/GitHub/gatsby/node_modules/sharp
+<span class="token operator">></span> <span class="token punctuation">(</span>node install/libvips <span class="token operator">&amp;&amp;</span> node install/dll-copy <span class="token operator">&amp;&amp;</span> prebuild-install<span class="token punctuation">)</span> <span class="token operator">||</span> <span class="token punctuation">(</span>node-gyp rebuild <span class="token operator">&amp;&amp;</span> node install/dll-copy<span class="token punctuation">)</span>
+
+info sharp Using cached /root/.npm/_libvips/libvips-8.8.1-linux-x64.tar.gz
+
+<span class="token operator">></span> node-sass@4.13.1 <span class="token function">install</span> /home/fran/GitHub/gatsby/node_modules/node-sass
+<span class="token operator">></span> node scripts/install.js
+
+Cached binary found at /root/.npm/node-sass/4.13.1/linux-x64-64_binding.node
+
+<span class="token operator">></span> core-js@2.6.9 postinstall /home/fran/GitHub/gatsby/node_modules/core-js
+<span class="token operator">></span> node scripts/postinstall <span class="token operator">||</span> <span class="token builtin class-name">echo</span> <span class="token string">"ignore"</span>
+
+Thank you <span class="token keyword">for</span> using core-js <span class="token punctuation">(</span> https://github.com/zloirock/core-js <span class="token punctuation">)</span> <span class="token keyword">for</span> polyfilling JavaScript standard library<span class="token operator">!</span>
+
+The project needs your help<span class="token operator">!</span> Please consider supporting of core-js on Open Collective or Patreon: 
+<span class="token operator">></span> https://opencollective.com/core-js 
+<span class="token operator">></span> https://www.patreon.com/zloirock 
+
+Also, the author of core-js <span class="token punctuation">(</span> https://github.com/zloirock <span class="token punctuation">)</span> is looking <span class="token keyword">for</span> a good job -<span class="token punctuation">)</span>
+
+
+<span class="token operator">></span> core-js-pure@3.6.4 postinstall /home/fran/GitHub/gatsby/node_modules/core-js-pure
+<span class="token operator">></span> node -e <span class="token string">"try{require('./postinstall')}catch(e){}"</span>
+
+Thank you <span class="token keyword">for</span> using core-js <span class="token punctuation">(</span> https://github.com/zloirock/core-js <span class="token punctuation">)</span> <span class="token keyword">for</span> polyfilling JavaScript standard library<span class="token operator">!</span>
+
+The project needs your help<span class="token operator">!</span> Please consider supporting of core-js on Open Collective or Patreon: 
+<span class="token operator">></span> https://opencollective.com/core-js 
+<span class="token operator">></span> https://www.patreon.com/zloirock 
+
+Also, the author of core-js <span class="token punctuation">(</span> https://github.com/zloirock <span class="token punctuation">)</span> is looking <span class="token keyword">for</span> a good job -<span class="token punctuation">)</span>
+
+
+<span class="token operator">></span> core-js@2.6.11 postinstall /home/fran/GitHub/gatsby/node_modules/gatsby/node_modules/core-js
+<span class="token operator">></span> node -e <span class="token string">"try{require('./postinstall')}catch(e){}"</span>
+
+Thank you <span class="token keyword">for</span> using core-js <span class="token punctuation">(</span> https://github.com/zloirock/core-js <span class="token punctuation">)</span> <span class="token keyword">for</span> polyfilling JavaScript standard library<span class="token operator">!</span>
+
+The project needs your help<span class="token operator">!</span> Please consider supporting of core-js on Open Collective or Patreon: 
+<span class="token operator">></span> https://opencollective.com/core-js 
+<span class="token operator">></span> https://www.patreon.com/zloirock 
+
+Also, the author of core-js <span class="token punctuation">(</span> https://github.com/zloirock <span class="token punctuation">)</span> is looking <span class="token keyword">for</span> a good job -<span class="token punctuation">)</span>
+
+
+<span class="token operator">></span> gatsby-telemetry@1.1.56 postinstall /home/fran/GitHub/gatsby/node_modules/gatsby-telemetry
+<span class="token operator">></span> node src/postinstall.js <span class="token operator">||</span> <span class="token boolean">true</span>
+
+
+<span class="token operator">></span> cwebp-bin@5.1.0 postinstall /home/fran/GitHub/gatsby/node_modules/cwebp-bin
+<span class="token operator">></span> node lib/install.js
+
+  ✔ cwebp pre-build <span class="token builtin class-name">test</span> passed successfully
+
+<span class="token operator">></span> mozjpeg@6.0.1 postinstall /home/fran/GitHub/gatsby/node_modules/mozjpeg
+<span class="token operator">></span> node lib/install.js
+
+  ✔ mozjpeg pre-build <span class="token builtin class-name">test</span> passed successfully
+
+<span class="token operator">></span> pngquant-bin@5.0.2 postinstall /home/fran/GitHub/gatsby/node_modules/pngquant-bin
+<span class="token operator">></span> node lib/install.js
+
+  ✔ pngquant pre-build <span class="token builtin class-name">test</span> passed successfully
+
+<span class="token operator">></span> gatsby-cli@2.10.13 postinstall /home/fran/GitHub/gatsby/node_modules/gatsby/node_modules/gatsby-cli
+<span class="token operator">></span> node scripts/postinstall.js
+
+
+<span class="token operator">></span> gatsby@2.19.49 postinstall /home/fran/GitHub/gatsby/node_modules/gatsby
+<span class="token operator">></span> node scripts/postinstall.js
+
+
+<span class="token operator">></span> node-sass@4.13.1 postinstall /home/fran/GitHub/gatsby/node_modules/node-sass
+<span class="token operator">></span> node scripts/build.js
+
+Binary found at /home/fran/GitHub/gatsby/node_modules/node-sass/vendor/linux-x64-64/binding.node
+Testing binary
+Binary is fine
+<span class="token function">npm</span> WARN gatsby-Blog-advanced@1.1.0 No repository field.
+<span class="token function">npm</span> WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 <span class="token punctuation">(</span>node_modules/fsevents<span class="token punctuation">)</span>:
+<span class="token function">npm</span> WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform <span class="token keyword">for</span> fsevents@1.2.9: wanted <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"darwin"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"any"</span><span class="token punctuation">}</span> <span class="token punctuation">(</span>current: <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"linux"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"x64"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token function">npm</span> WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 <span class="token punctuation">(</span>node_modules/gatsby/node_modules/fsevents<span class="token punctuation">)</span>:
+<span class="token function">npm</span> WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform <span class="token keyword">for</span> fsevents@2.1.2: wanted <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"darwin"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"any"</span><span class="token punctuation">}</span> <span class="token punctuation">(</span>current: <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"linux"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"x64"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token function">npm</span> WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.0.7 <span class="token punctuation">(</span>node_modules/gatsby-source-filesystem/node_modules/fsevents<span class="token punctuation">)</span>:
+<span class="token function">npm</span> WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform <span class="token keyword">for</span> fsevents@2.0.7: wanted <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"darwin"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"any"</span><span class="token punctuation">}</span> <span class="token punctuation">(</span>current: <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"linux"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"x64"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token function">npm</span> WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 <span class="token punctuation">(</span>node_modules/gatsby-page-utils/node_modules/fsevents<span class="token punctuation">)</span>:
+<span class="token function">npm</span> WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform <span class="token keyword">for</span> fsevents@2.1.2: wanted <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"darwin"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"any"</span><span class="token punctuation">}</span> <span class="token punctuation">(</span>current: <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"linux"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"x64"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+added <span class="token number">3001</span> packages from <span class="token number">1182</span> contributors and audited <span class="token number">3075</span> packages <span class="token keyword">in</span> <span class="token number">30</span>.09s
+
+<span class="token number">57</span> packages are looking <span class="token keyword">for</span> funding
+  run <span class="token variable"><span class="token variable">`</span><span class="token function">npm</span> fund<span class="token variable">`</span></span> <span class="token keyword">for</span> details
+
+found <span class="token number">456</span> vulnerabilities <span class="token punctuation">(</span><span class="token number">409</span> low, <span class="token number">47</span> high<span class="token punctuation">)</span>
+  run <span class="token variable"><span class="token variable">`</span><span class="token function">npm</span> audit fix<span class="token variable">`</span></span> to fix them, or <span class="token variable"><span class="token variable">`</span><span class="token function">npm</span> audit<span class="token variable">`</span></span> <span class="token keyword">for</span> details
+info Initialising <span class="token function">git</span> <span class="token keyword">in</span> gatsby
+Inicializado repositorio Git vacío en /home/fran/GitHub/gatsby/.git/
+info Create initial <span class="token function">git</span> commit <span class="token keyword">in</span> gatsby
+info
+Your new Gatsby site has been successfully bootstrapped. Start developing it by running:
+
+  <span class="token builtin class-name">cd</span> gatsby
+  gatsby develop</code></pre></div>
+<p><strong>Podremos desplegarla usando gastby develop para tener una primera vista de la misma.</strong></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/home/fran/GitHub/gatsby<span class="token comment"># gatsby develop</span>
+success <span class="token function">open</span> and validate gatsby-configs - <span class="token number">0</span>.094s
+success load plugins - <span class="token number">0</span>.981s
+success onPreInit - <span class="token number">0</span>.005s
+success initialize cache - <span class="token number">0</span>.006s
+success copy gatsby files - <span class="token number">0</span>.015s
+success onPreBootstrap - <span class="token number">0</span>.008s
+success createSchemaCustomization - <span class="token number">0</span>.020s
+success <span class="token builtin class-name">source</span> and transform nodes - <span class="token number">0</span>.107s
+warn Plugin <span class="token variable"><span class="token variable">`</span>gatsby-source-filesystem<span class="token variable">`</span></span> tried to define built-in Gatsby GraphQL <span class="token builtin class-name">type</span> <span class="token variable"><span class="token variable">`</span>File<span class="token variable">`</span></span>
+warn Plugin <span class="token variable"><span class="token variable">`</span>gatsby-source-filesystem<span class="token variable">`</span></span> tried to define built-in Gatsby GraphQL <span class="token builtin class-name">type</span> <span class="token variable"><span class="token variable">`</span>File<span class="token variable">`</span></span>
+success building schema - <span class="token number">0</span>.272s
+success createPages - <span class="token number">0</span>.053s
+success createPagesStatefully - <span class="token number">0</span>.071s
+success onPreExtractQueries - <span class="token number">0</span>.002s
+success update schema - <span class="token number">0</span>.025s
+success extract queries from components - <span class="token number">0</span>.237s
+success <span class="token function">write</span> out requires - <span class="token number">0</span>.044s
+success <span class="token function">write</span> out redirect data - <span class="token number">0</span>.003s
+success Build manifest and related icons - <span class="token number">0</span>.003s
+success onPostBootstrap - <span class="token number">0</span>.013s
+⠀
+info bootstrap finished - <span class="token number">4.613</span> s
+⠀
+success Generating image thumbnails - <span class="token number">0</span>.164s - <span class="token number">6</span>/6 <span class="token number">36.58</span>/s
+warn code block or inline code language not specified <span class="token keyword">in</span> markdown. applying generic code block
+success run queries - <span class="token number">0</span>.598s - <span class="token number">33</span>/33 <span class="token number">55.21</span>/s
+warn Browserslist: caniuse-lite is outdated. Please run the following command: <span class="token variable"><span class="token variable">`</span>npx browserslist --update-db<span class="token variable">`</span></span>
+⠀
+You can now view gatsby-Blog-advanced <span class="token keyword">in</span> the browser.
+⠀
+  http://localhost:8000/
+⠀
+View GraphiQL, an in-browser IDE, to explore your site s data and schema
+⠀
+  http://localhost:8000/___graphql
+⠀
+Note that the development build is not optimized.
+To create a production build, use gatsby build
+⠀
+success Building development bundle - <span class="token number">4</span>.242s</code></pre></div>
+<p><em>Ejecutaremos gatsby build para generar los archivos estaticos.</em></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/home/fran/GitHub/gatsby<span class="token comment"># gatsby build</span>
+success <span class="token function">open</span> and validate gatsby-configs - <span class="token number">0</span>.048s
+success load plugins - <span class="token number">0</span>.647s
+success onPreInit - <span class="token number">0</span>.004s
+success delete html and css files from previous builds - <span class="token number">0</span>.014s
+success initialize cache - <span class="token number">0</span>.007s
+success copy gatsby files - <span class="token number">0</span>.015s
+success onPreBootstrap - <span class="token number">0</span>.007s
+success createSchemaCustomization - <span class="token number">0</span>.017s
+success <span class="token builtin class-name">source</span> and transform nodes - <span class="token number">0</span>.060s
+warn Plugin <span class="token variable"><span class="token variable">`</span>gatsby-source-filesystem<span class="token variable">`</span></span> tried to define built-in Gatsby GraphQL <span class="token builtin class-name">type</span> <span class="token variable"><span class="token variable">`</span>File<span class="token variable">`</span></span>
+warn Plugin <span class="token variable"><span class="token variable">`</span>gatsby-source-filesystem<span class="token variable">`</span></span> tried to define built-in Gatsby GraphQL <span class="token builtin class-name">type</span> <span class="token variable"><span class="token variable">`</span>File<span class="token variable">`</span></span>
+success building schema - <span class="token number">0</span>.276s
+success createPages - <span class="token number">0</span>.056s
+success createPagesStatefully - <span class="token number">0</span>.071s
+success onPreExtractQueries - <span class="token number">0</span>.002s
+success update schema - <span class="token number">0</span>.037s
+success extract queries from components - <span class="token number">0</span>.252s
+success <span class="token function">write</span> out requires - <span class="token number">0</span>.004s
+success <span class="token function">write</span> out redirect data - <span class="token number">0</span>.001s
+success Build manifest and related icons - <span class="token number">0</span>.002s
+success onPostBootstrap - <span class="token number">0</span>.012s
+⠀
+info bootstrap finished - <span class="token number">3.840</span> s
+⠀
+warn Browserslist: caniuse-lite is outdated. Please run the following command: <span class="token variable"><span class="token variable">`</span>npx browserslist --update-db<span class="token variable">`</span></span>
+success Building production JavaScript and CSS bundles - <span class="token number">12</span>.703s
+success Rewriting compilation hashes - <span class="token number">0</span>.003s
+success run queries - <span class="token number">12</span>.917s - <span class="token number">5</span>/5 <span class="token number">0.39</span>/s
+success Building static HTML <span class="token keyword">for</span> pages - <span class="token number">1</span>.930s - <span class="token number">32</span>/32 <span class="token number">16.58</span>/s
+Generated public/sw.js, <span class="token function">which</span> will precache <span class="token number">6</span> files, totaling <span class="token number">351630</span> bytes.
+success onPostBuild - <span class="token number">0</span>.120s
+info Done building <span class="token keyword">in</span> <span class="token number">18.897</span> sec</code></pre></div>
+<p><em>Instalaremos gh-pages en nuestra carpeta</em></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/home/fran/GitHub/gatsby<span class="token comment"># npm i gh-pages</span>
+<span class="token function">npm</span> WARN eslint-config-react-app@5.2.0 requires a peer of eslint@6.x but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN stylelint-config-recommended@2.2.0 requires a peer of stylelint@^8.3.0 <span class="token operator">||</span> ^9.0.0 <span class="token operator">||</span> ^10.0.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN stylelint-config-standard@18.3.0 requires a peer of stylelint@^8.3.0 <span class="token operator">||</span> ^9.0.0 <span class="token operator">||</span> ^10.0.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN stylelint-config-standard-scss@1.1.0 requires a peer of stylelint@^8.3.0 <span class="token operator">||</span> ^9.0.0 <span class="token operator">||</span> ^10.0.0 but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN tsutils@3.17.1 requires a peer of typescript@<span class="token operator">></span><span class="token operator">=</span><span class="token number">2.8</span>.0 <span class="token operator">||</span> <span class="token operator">></span><span class="token operator">=</span> <span class="token number">3.2</span>.0-dev <span class="token operator">||</span> <span class="token operator">></span><span class="token operator">=</span> <span class="token number">3.3</span>.0-dev <span class="token operator">||</span> <span class="token operator">></span><span class="token operator">=</span> <span class="token number">3.4</span>.0-dev <span class="token operator">||</span> <span class="token operator">></span><span class="token operator">=</span> <span class="token number">3.5</span>.0-dev <span class="token operator">||</span> <span class="token operator">></span><span class="token operator">=</span> <span class="token number">3.6</span>.0-dev <span class="token operator">||</span> <span class="token operator">></span><span class="token operator">=</span> <span class="token number">3.6</span>.0-beta <span class="token operator">||</span> <span class="token operator">></span><span class="token operator">=</span> <span class="token number">3.7</span>.0-dev <span class="token operator">||</span> <span class="token operator">></span><span class="token operator">=</span> <span class="token number">3.7</span>.0-beta but none is installed. You must <span class="token function">install</span> peer dependencies yourself.
+<span class="token function">npm</span> WARN gatsby-Blog-advanced@1.1.0 No repository field.
+<span class="token function">npm</span> WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 <span class="token punctuation">(</span>node_modules/fsevents<span class="token punctuation">)</span>:
+<span class="token function">npm</span> WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform <span class="token keyword">for</span> fsevents@1.2.9: wanted <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"darwin"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"any"</span><span class="token punctuation">}</span> <span class="token punctuation">(</span>current: <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"linux"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"x64"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token function">npm</span> WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 <span class="token punctuation">(</span>node_modules/gatsby/node_modules/fsevents<span class="token punctuation">)</span>:
+<span class="token function">npm</span> WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform <span class="token keyword">for</span> fsevents@2.1.2: wanted <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"darwin"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"any"</span><span class="token punctuation">}</span> <span class="token punctuation">(</span>current: <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"linux"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"x64"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token function">npm</span> WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 <span class="token punctuation">(</span>node_modules/gatsby-page-utils/node_modules/fsevents<span class="token punctuation">)</span>:
+<span class="token function">npm</span> WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform <span class="token keyword">for</span> fsevents@2.1.2: wanted <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"darwin"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"any"</span><span class="token punctuation">}</span> <span class="token punctuation">(</span>current: <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"linux"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"x64"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token function">npm</span> WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.0.7 <span class="token punctuation">(</span>node_modules/gatsby-source-filesystem/node_modules/fsevents<span class="token punctuation">)</span>:
+<span class="token function">npm</span> WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform <span class="token keyword">for</span> fsevents@2.0.7: wanted <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"darwin"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"any"</span><span class="token punctuation">}</span> <span class="token punctuation">(</span>current: <span class="token punctuation">{</span><span class="token string">"os"</span><span class="token builtin class-name">:</span><span class="token string">"linux"</span>,<span class="token string">"arch"</span><span class="token builtin class-name">:</span><span class="token string">"x64"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
++ gh-pages@2.2.0
+removed <span class="token number">1</span> package, updated <span class="token number">2</span> packages and audited <span class="token number">3074</span> packages <span class="token keyword">in</span> <span class="token number">13</span>.058s
+
+<span class="token number">57</span> packages are looking <span class="token keyword">for</span> funding
+  run <span class="token variable"><span class="token variable">`</span><span class="token function">npm</span> fund<span class="token variable">`</span></span> <span class="token keyword">for</span> details
+
+found <span class="token number">456</span> vulnerabilities <span class="token punctuation">(</span><span class="token number">409</span> low, <span class="token number">47</span> high<span class="token punctuation">)</span>
+  run <span class="token variable"><span class="token variable">`</span><span class="token function">npm</span> audit fix<span class="token variable">`</span></span> to fix them, or <span class="token variable"><span class="token variable">`</span><span class="token function">npm</span> audit<span class="token variable">`</span></span> <span class="token keyword">for</span> details</code></pre></div>
+<p><strong>En mi caso, el tema que estoy usando necesita modificacion extra antes de subir la web para que todo salga bien modificaré las siguientes lineas, para saber que modificar segun tu tema revisa la documentacion del mismo</strong></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment">#en gatsby-config.js</span>
+module.exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  pathPrefix: <span class="token string">"/gatsbyjs"</span>,
+  siteMetadata: <span class="token punctuation">{</span>
+    siteUrl: urljoin<span class="token punctuation">(</span>config.siteUrl, config.pathPrefix<span class="token punctuation">)</span>,
+    rssMetadata: <span class="token punctuation">{</span>
+      site_url: urljoin<span class="token punctuation">(</span>config.siteUrl, config.pathPrefix<span class="token punctuation">)</span>,
+      feed_url: urljoin<span class="token punctuation">(</span>config.siteUrl, config.pathPrefix, config.siteRss<span class="token punctuation">)</span>,
+      title: config.siteTitle,
+      description: config.siteDescription,
+      image_url: <span class="token variable"><span class="token variable">`</span>$<span class="token punctuation">{</span>urljoin<span class="token punctuation">(</span>
+        config.siteUrl,
+        config.pathPrefix
+      <span class="token punctuation">)</span><span class="token punctuation">}</span>/logos/logo-48.png<span class="token variable">`</span></span>,
+      copyright: config.copyright
+    <span class="token punctuation">}</span>
+
+<span class="token comment">#en /data/SiteConfig.js</span>
+pathPrefix: <span class="token string">'https://github.com/franmadu6/gatsbyjs/'</span>,</code></pre></div>
+<p><strong>Subir la carpeta a GitHub</strong></p>
+<h2 id="crearemos-un-repositorio-en-github-el-mio-es-httpsgithubcomfranmadu6gatsbyjs"><a href="#crearemos-un-repositorio-en-github-el-mio-es-httpsgithubcomfranmadu6gatsbyjs" aria-label="crearemos un repositorio en github el mio es httpsgithubcomfranmadu6gatsbyjs permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Crearemos un repositorio en GitHub el mio es: <a href="https://github.com/franmadu6/gatsbyjs">https://github.com/franmadu6/gatsbyjs</a></h2>
+<h3 id="ahora-subiremos-nuestra-carpeta-al-repositorio"><a href="#ahora-subiremos-nuestra-carpeta-al-repositorio" aria-label="ahora subiremos nuestra carpeta al repositorio permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ahora subiremos nuestra carpeta al repositorio</h3>
+<div class="gatsby-highlight" data-language="shellroot@debian:/home/fran/github/gatsby#git remote add origin https://github.com/franmadu6/gatsbyjs.git"><pre class="language-shellroot@debian:/home/fran/github/gatsby#git remote add origin https://github.com/franmadu6/gatsbyjs.git"><code class="language-shellroot@debian:/home/fran/github/gatsby#git remote add origin https://github.com/franmadu6/gatsbyjs.git">root@debian:/home/fran/GitHub/gatsby# git branch -M main
+root@debian:/home/fran/GitHub/gatsby# git push -u origin main
+Username for &#39;https://github.com&#39;: franmadu6
+Password for &#39;https://franmadu6@github.com&#39;: 
+Enumerando objetos: 68, listo.
+Contando objetos: 100% (68/68), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos: 100% (62/62), listo.
+Escribiendo objetos: 100% (68/68), 701.45 KiB | 13.23 MiB/s, listo.
+Total 68 (delta 3), reusado 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/franmadu6/gatsbyjs.git
+ * [new branch]      main -&gt; main
+Rama &#39;main&#39; configurada para hacer seguimiento a la rama remota &#39;main&#39; de &#39;origin&#39;.</code></pre></div>
+<p><strong>Para publica nuestra pagina en Gh-pages añadiremos un script a package.json</strong></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment">#añadiremos en la linea de scripts</span>
+<span class="token string">"deploy"</span><span class="token builtin class-name">:</span> <span class="token string">"gatsby build --prefix-paths &amp;&amp; gh-pages -d public"</span></code></pre></div>
+<p><em>y ejecutaremos el comando</em></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/home/fran/GitHub/gatsby<span class="token comment"># npm run deploy</span>
+
+<span class="token operator">></span> gatsby-Blog-advanced@1.1.0 deploy /home/fran/GitHub/gatsby
+<span class="token operator">></span> gatsby build --prefix-paths <span class="token operator">&amp;&amp;</span> gh-pages -d public
+
+success <span class="token function">open</span> and validate gatsby-configs - <span class="token number">0</span>.047s
+success load plugins - <span class="token number">0</span>.580s
+success onPreInit - <span class="token number">0</span>.004s
+success delete html and css files from previous builds - <span class="token number">0</span>.016s
+info One or <span class="token function">more</span> of your plugins have changed since the last <span class="token function">time</span> you ran Gatsby. As
+a precaution, we re deleting your site<span class="token string">'s cache to ensure there'</span>s no stale data.
+success initialize cache - <span class="token number">0</span>.016s
+success copy gatsby files - <span class="token number">0</span>.018s
+success onPreBootstrap - <span class="token number">0</span>.012s
+success createSchemaCustomization - <span class="token number">0</span>.020s
+success <span class="token builtin class-name">source</span> and transform nodes - <span class="token number">0</span>.102s
+warn Plugin <span class="token variable"><span class="token variable">`</span>gatsby-source-filesystem<span class="token variable">`</span></span> tried to define built-in Gatsby GraphQL <span class="token builtin class-name">type</span> <span class="token variable"><span class="token variable">`</span>File<span class="token variable">`</span></span>
+warn Plugin <span class="token variable"><span class="token variable">`</span>gatsby-source-filesystem<span class="token variable">`</span></span> tried to define built-in Gatsby GraphQL <span class="token builtin class-name">type</span> <span class="token variable"><span class="token variable">`</span>File<span class="token variable">`</span></span>
+success building schema - <span class="token number">0</span>.279s
+success createPages - <span class="token number">0</span>.056s
+success createPagesStatefully - <span class="token number">0</span>.104s
+success onPreExtractQueries - <span class="token number">0</span>.002s
+success update schema - <span class="token number">0</span>.045s
+success extract queries from components - <span class="token number">0</span>.324s
+success <span class="token function">write</span> out requires - <span class="token number">0</span>.004s
+success <span class="token function">write</span> out redirect data - <span class="token number">0</span>.001s
+success Build manifest and related icons - <span class="token number">0</span>.002s
+success onPostBootstrap - <span class="token number">0</span>.006s
+⠀
+info bootstrap finished - <span class="token number">3.172</span> s
+⠀
+warn Browserslist: caniuse-lite is outdated. Please run the following command: <span class="token variable"><span class="token variable">`</span>npx browserslist --update-db<span class="token variable">`</span></span>
+success Building production JavaScript and CSS bundles - <span class="token number">8</span>.803s
+success Rewriting compilation hashes - <span class="token number">0</span>.004s
+warn code block or inline code language not specified <span class="token keyword">in</span> markdown. applying generic code block
+success run queries - <span class="token number">9</span>.381s - <span class="token number">33</span>/33 <span class="token number">3.52</span>/s
+success Building static HTML <span class="token keyword">for</span> pages - <span class="token number">1</span>.059s - <span class="token number">32</span>/32 <span class="token number">30.22</span>/s
+Generated public/sw.js, <span class="token function">which</span> will precache <span class="token number">8</span> files, totaling <span class="token number">352300</span> bytes.
+success onPostBuild - <span class="token number">0</span>.085s
+info Done building <span class="token keyword">in</span> <span class="token number">13.755</span> sec
+Username <span class="token keyword">for</span> <span class="token string">'https://github.com'</span><span class="token builtin class-name">:</span> franmadu6
+Password <span class="token keyword">for</span> <span class="token string">'https://franmadu6@github.com'</span><span class="token builtin class-name">:</span> 
+Published</code></pre></div>
+<p>Podremos ver el resultado entrando en nuestra pagina <a href="https://franmadu6.github.io/gatsbyjs/">https://franmadu6.github.io/gatsbyjs/</a>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 51.857666143380435%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABTUlEQVQoz5VSiW6DMAztNw/oBmhH4UtX6MpRjnCEI9A3Ox1Vi6apC7Kc+Hh6z2bjeTt4ux1cx4Ft23BdF479gufnLbbbi1mWdXM3YRgGTNPEk2HBob4Pz4fv+3h9e8em6we0XY9+GLGceZ6hlMJIxnc+app07Hw+g7+J4tNMnuKjmrRv2hab8aeRrR8G7UtRYR+GCMIDjlGMVnaI4gSfQYjklOnGYRzvTC2A6wQDciIvSuSlQEa+bhqIukFZ1cjyAoUQ+LWP6u4YLomu7zVbpeVc4rLriKm81twC3TFcA3KirCqkJE3UtTaOJ+kJh68jjUNo8DXwH4AKFVGPkpOeV0xA/Gb5aZZfjVU8BMieGVQ0M9nJawPHJEluZaulX+ofBOQlxEmqN8uSORbQ1vdBgKIsIWgk/5A8aXYRAbJkls5v3i7LZ7m8+eUXWwN+A2s361M0vVorAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/8380d9c5aed886fbcf114d1e751f5a42/36727/porfin1.png"
+        srcset="/gatsbyjs/static/8380d9c5aed886fbcf114d1e751f5a42/acf4b/porfin1.png 173w,
+/gatsbyjs/static/8380d9c5aed886fbcf114d1e751f5a42/fc834/porfin1.png 345w,
+/gatsbyjs/static/8380d9c5aed886fbcf114d1e751f5a42/36727/porfin1.png 690w,
+/gatsbyjs/static/8380d9c5aed886fbcf114d1e751f5a42/17fa4/porfin1.png 1035w,
+/gatsbyjs/static/8380d9c5aed886fbcf114d1e751f5a42/a5044/porfin1.png 1380w,
+/gatsbyjs/static/8380d9c5aed886fbcf114d1e751f5a42/fa85d/porfin1.png 1911w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+    </span></p>
+<p><strong>Comenzaremos con las configuraciones</strong></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment">#en /data/SiteConfig.js</span>
+
+const config <span class="token operator">=</span> <span class="token punctuation">{</span>
+  siteTitle: <span class="token string">'Fran Madueño Blog'</span>, // Site title.
+  siteTitleShort: <span class="token string">'Madueño Markdown Blog'</span>, // Short site title <span class="token keyword">for</span> homescreen <span class="token punctuation">(</span>PWA<span class="token punctuation">)</span>. Preferably should be under <span class="token number">12</span> characters to prevent truncation.
+  siteTitleAlt: <span class="token string">'Fran Madueño Blog'</span>, // Alternative site title <span class="token keyword">for</span> SEO.
+  siteLogo: <span class="token string">'/logos/logo-1024.png'</span>, // Logo used <span class="token keyword">for</span> SEO and manifest.
+  siteUrl: <span class="token string">'https://github.com/franmadu6/gatsbyjs/'</span>, // Domain of your website without pathPrefix.
+  pathPrefix: <span class="token string">'https://github.com/franmadu6/gatsbyjs/'</span>, // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  siteDescription:
+    <span class="token string">'Web estatica generada por Gatsby.'</span>, // Website description used <span class="token keyword">for</span> RSS feeds/meta description tag.
+  siteRss: <span class="token string">'/rss.xml'</span>, // Path to the RSS file.
+  siteFBAppID: <span class="token string">'1825356251115265'</span>, // FB Application ID <span class="token keyword">for</span> using app insights
+  googleAnalyticsID: <span class="token string">'UA-161211056-1'</span>, // GA tracking ID.
+  dateFromFormat: <span class="token string">'YYYY-MM-DD'</span>, // Date <span class="token function">format</span> used <span class="token keyword">in</span> the frontmatter.
+  dateFormat: <span class="token string">'DD/MM/YYYY'</span>, // Date <span class="token function">format</span> <span class="token keyword">for</span> display.
+  userName: <span class="token string">'Fran Madueño'</span>, // Username to display <span class="token keyword">in</span> the author segment.
+  userEmail: <span class="token string">'frandh1997@gmail.com'</span>, // Email used <span class="token keyword">for</span> RSS feed<span class="token string">'s author segment
+  userTwitter: '</span>franmadueo<span class="token string">', // Optionally renders "Follow Me" in the Bio segment.
+  userGitHub: '</span>franmadu6<span class="token string">', // Optionally renders "Follow Me" in the Bio segment.
+  userLocation: '</span>Sevilla, España<span class="token string">', // User location to display in the author segment.
+  userAvatar: '</span>https://i.ibb.co/WPz9CNk/avatar.jpg<span class="token string">', // User avatar to display in the author segment.
+  userDescription:
+    "Aquí hay una descripción", // User description to display in the author segment.
+  copyright: '</span>Copyright © <span class="token number">2020</span>. All rights reserved.<span class="token string">', // Copyright string for the footer of the website and RSS feed.
+  themeColor: '</span><span class="token comment">#c62828', // Used for setting manifest and progress theme colors.</span>
+  backgroundColor: <span class="token string">'red'</span> // Used <span class="token keyword">for</span> setting manifest background color.
+<span class="token punctuation">}</span></code></pre></div>
+<p><strong>En la carpeta /content es donde se guardan mis archivos markdown, alli es donde modifico o creo tarjetas nuevas para usar en la web.</strong>
+Creemos una:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">---
+date: <span class="token number">2020</span>-10-15
+title: <span class="token string">"Instalación de Brackets en Debian"</span>
+cover: <span class="token string">"https://img.utdstc.com/icons/brackets-.png:225"</span>
+categories: 
+    - Sistemas
+    - Gatsby
+tags:
+    - Entorno de desarrollo
+    - Debian
+    - Brackets
+---
+
+<span class="token comment">## Brackets</span>
+
+Un editor de texto de código abierto moderno que comprende el diseño web.
+
+<span class="token comment">## Extensiones recomendadas</span>
+
+<span class="token number">1</span>. CanIUse
+
+Con esta extensión podrás ver de un vistazo el nivel de soporte que tenga cierta tecnología web sin dejar de utilizar Brackets. Y es que <span class="token function">su</span> nombre lo deja bien claro. Can I Use significa ¿Puedo utilizar?, frase que resume muy bien el uso de esta extensión. 
+
+<span class="token number">2</span>. HTML Skeleton
+
+HTML Skeleton te ayuda a configurar tus páginas HTML de manera rápida insertando automáticamente elementos básicos como la declaración doctype, el tag html, el tag head, el tah body<span class="token punctuation">..</span>.
+
+<span class="token number">3</span>. HTML Wrapper
+
+Con HTML Wrapper solo basta con seleccionar un texto con retornos de carro para convertirlos automáticamente en una lista <span class="token punctuation">(</span>li<span class="token punctuation">)</span>, celdas de una tabla <span class="token punctuation">(</span>tr<span class="token punctuation">)</span>, hipervínculos <span class="token punctuation">(</span>a<span class="token punctuation">)</span> o cualquier elemento de HTML que se te ocurra.
+
+<span class="token number">4</span>. Brackets Icons
+
+Esta super extensión añade los iconos típicos de los ficheros en el sidebar de Brackets. Los iconos son un gran referente visual para identificar de manera sencilla la extensión de los ficheros de un directorio y sobre todo, saber cómo hay que tratarlos.
+
+<span class="token number">5</span>. Autoprefixer
+
+Añade prefijos automática e inteligentemente a las propiedades CSS con la extensión Autoprefixer. Utiliza los datos relativos al soporte de navegadores de la extensión CanIUse para decidir si debe poner un prefijo para el navegador o no. Otra funcionalidad destacada de esta extensión es que elimina los prefijos para proveedores innecesarios.
+
+<span class="token number">6</span>. JS CSS Minifier
+
+Esta extensión elimina los caracteres innecesarios de tus archivos CSS y Javascript. A este proceso se le llama minificación, y puede mejorar la velocidad de tu proyecto web.
+
+<span class="token number">7</span>. CSSLint
+
+Este error pone de manifiesto, remarcándolos, los errores de CSS y las partes del código que deberían mejorarse. Los errores y los warnings que se muestran con esta extensión están basados en las reglas de CSS Lint.
+Emmet
+
+Emmet es una colección de herramientas y atajos de teclados que pueden ayudarte a desarrollar más rápido tanto tus códigos CSS como la implementación de maquetas en HTML.
+
+<span class="token number">8</span>. Lorem Ipsum Generator
+
+¿Necesitas algo de texto para rellenar el prototipo de un diseño? La extensión Lorem Ipsum Generator te ayuda convenientemente a generar texto de prueba. Este texto de prueba es el típico Lorem Ipsum, un texto en latín que se suele utilizar para rellenar huecos en documentos de diseño gráfico.
+
+<span class="token number">9</span>. Beautify
+
+Esta extensión te ayudará a mantener tu código HTML, CSS y Javascript siempre bien formateado, indentado y, lo más importante, legible. Una opción alternativa para esto es la extensión CSSComb, pero solo funciona para código CSS. En mi opinión, Beautify es más útil.
+
+<span class="token number">10</span>. Simple To-Do
+
+Asegúrate de no olvidar ninguna tarea relacionada con tus proyectos utilizando la extensión Simple To-Do, que te permite gestionar lista sobre cosas a realizar <span class="token punctuation">(</span>to <span class="token keyword">do</span><span class="token punctuation">)</span> para cada proyecto. Todo esto sin salir de Brackets, claro está.
+
+<span class="token number">11</span>. eqFTP
+
+Transferir ficheros desde tu ordenador al servidor web del proyecto requiere de un cliente FTP o SFTP, pero esta característica tan fundamental del desarrollo web no está incluida en Brackets. Para remediar esta situación, usa la extensión eqFTP, un cliente FTP/SFTP con el cual puedes operar sin tener que abandonar el editor de código. 
+
+<span class="token comment">## Enlaces de interes</span>
+
+-<span class="token punctuation">[</span>Todo lo que necesitas saber de Brackets<span class="token punctuation">]</span><span class="token punctuation">(</span>https://beatrizruizcorvillo.es/brackets-editor-html/<span class="token punctuation">)</span>  
+-<span class="token punctuation">[</span>HTML Y CSS<span class="token punctuation">]</span><span class="token punctuation">(</span>https://www.w3.org/Style/Examples/011/firstcss.es.html<span class="token punctuation">)</span></code></pre></div>
+<p>Con este archivo se habrá generado este link <a href="https://franmadu6.github.io/gatsbyjs/instalacion-de-brackets-en-debian">https://franmadu6.github.io/gatsbyjs/instalacion-de-brackets-en-debian</a></p>
+<p>Este tema es de mucha ayuda para crear una web formato blog puesto que tiene un sistema de tags y etiquetas bastante util.</p>
+<p><strong>Generación de Script para automatizar la producción</strong>
+Con este Script he generado una plantilla por defecto para mis paginas que se publica automaticamente despues de ser escrita.s</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token shebang important">#!/bin/bash</span>
+
+<span class="token comment">#Subir los archivos a Github</span>
+<span class="token function">sudo</span> <span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>
+<span class="token function">sudo</span> <span class="token function">git</span> commit -m <span class="token string">"Publicación añadida por el Script de Producción"</span>
+<span class="token function">sudo</span> <span class="token function">git</span> push
+
+<span class="token comment">#Cuando se ejecute npm run deploy todo el contenido de la public carpeta se moverá a la rama master de mi repositorio .</span>
+<span class="token function">npm</span> run deploy</code></pre></div>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/295ff9b0f59a603d53a8fdaeb3ab5ced/600cc/capturafinal.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 46.853516657852985%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABDElEQVQoz32R226DMBBE+WwIChC1iLQ/WPW1aZpQ7hjC1Z56rbqykCnSkfEsOzvYzuvLGUkc4xSdEAQhoihCGBwRhqHcB/B9H4eDB9d14Xmegt41R1k/y/4kSfD0HMMZxhGE+QghsCwLVs4xzbNaBekWOBdYVy5ZVY/znjLUj1FuZozThFmKRVni43LB1+2Gz+sVLWNKpzoN2IUM3+4Nqn6QExYlLnJSWddoWgYukxKkUY1MNXumzvYD+j1KmBeF0uk4KNkWPUD3aR9nps1vXJ2waVvc0xRZnuM7y5Q5aUTdNIqu7+2GpqANWdf9GZFpWVXKwOQxDDsJN+dCq24yNRu22r+G5mXYLsCW8Aed1aIPNBBhMgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/295ff9b0f59a603d53a8fdaeb3ab5ced/36727/capturafinal.png"
+        srcset="/gatsbyjs/static/295ff9b0f59a603d53a8fdaeb3ab5ced/acf4b/capturafinal.png 173w,
+/gatsbyjs/static/295ff9b0f59a603d53a8fdaeb3ab5ced/fc834/capturafinal.png 345w,
+/gatsbyjs/static/295ff9b0f59a603d53a8fdaeb3ab5ced/36727/capturafinal.png 690w,
+/gatsbyjs/static/295ff9b0f59a603d53a8fdaeb3ab5ced/17fa4/capturafinal.png 1035w,
+/gatsbyjs/static/295ff9b0f59a603d53a8fdaeb3ab5ced/a5044/capturafinal.png 1380w,
+/gatsbyjs/static/295ff9b0f59a603d53a8fdaeb3ab5ced/600cc/capturafinal.png 1891w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span></p></div><hr/><img class="Bio-module--avatar--v_AB0" src="https://avatars0.githubusercontent.com/u/47178991?s=460&amp;u=a2a999b1e9dfa3489ddb4b97fea2cd9a69aad5fc&amp;v=4" alt="Fran Madueño"/><p>Escrito por <strong>Fran Madueño</strong> Estudiante de administración de sistemas operativos<br/>(Dos Hermanas, Sevilla).<!-- --> <div></div></p><div class="post-module--post-meta--1ci95"><div class="SocialLinks-module--social-links--1RDpJ"><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--reddit"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--reddit "><g><circle cx="32" cy="32" r="31" fill="#5f99cf"></circle></g><g><path d="m 52.8165,31.942362 c 0,-2.4803 -2.0264,-4.4965 -4.5169,-4.4965 -1.2155,0 -2.3171,0.4862 -3.128,1.2682 -3.077,-2.0247 -7.2403,-3.3133 -11.8507,-3.4782 l 2.5211,-7.9373 6.8272,1.5997 -0.0102,0.0986 c 0,2.0281 1.6575,3.6771 3.6958,3.6771 2.0366,0 3.6924,-1.649 3.6924,-3.6771 0,-2.0281 -1.6575,-3.6788 -3.6924,-3.6788 -1.564,0 -2.8968,0.9758 -3.4357,2.3443 l -7.3593,-1.7255 c -0.3213,-0.0782 -0.6477,0.1071 -0.748,0.4233 L 32,25.212062 c -4.8246,0.0578 -9.1953,1.3566 -12.41,3.4425 -0.8058,-0.7446 -1.8751,-1.2104 -3.0583,-1.2104 -2.4905,0 -4.5152,2.0179 -4.5152,4.4982 0,1.649 0.9061,3.0787 2.2389,3.8607 -0.0884,0.4794 -0.1462,0.9639 -0.1462,1.4569 0,6.6487 8.1736,12.0581 18.2223,12.0581 10.0487,0 18.224,-5.4094 18.224,-12.0581 0,-0.4658 -0.0493,-0.9248 -0.1275,-1.377 1.4144,-0.7599 2.3885,-2.2304 2.3885,-3.9406 z m -29.2808,3.0872 c 0,-1.4756 1.207,-2.6775 2.6894,-2.6775 1.4824,0 2.6877,1.2019 2.6877,2.6775 0,1.4756 -1.2053,2.6758 -2.6877,2.6758 -1.4824,0 -2.6894,-1.2002 -2.6894,-2.6758 z m 15.4037,7.9373 c -1.3549,1.3481 -3.4816,2.0043 -6.5008,2.0043 l -0.0221,-0.0051 -0.0221,0.0051 c -3.0209,0 -5.1476,-0.6562 -6.5008,-2.0043 -0.2465,-0.2448 -0.2465,-0.6443 0,-0.8891 0.2465,-0.2465 0.6477,-0.2465 0.8942,0 1.105,1.0999 2.9393,1.6337 5.6066,1.6337 l 0.0221,0.0051 0.0221,-0.0051 c 2.6673,0 4.5016,-0.5355 5.6066,-1.6354 0.2465,-0.2465 0.6477,-0.2448 0.8942,0 0.2465,0.2465 0.2465,0.6443 0,0.8908 z m -0.3213,-5.2615 c -1.4824,0 -2.6877,-1.2002 -2.6877,-2.6758 0,-1.4756 1.2053,-2.6775 2.6877,-2.6775 1.4824,0 2.6877,1.2019 2.6877,2.6775 0,1.4756 -1.2053,2.6758 -2.6877,2.6758 z" fill="white"></path></g></svg></div><div class="SocialMediaShareCount"><div class="SocialLinks-module--share-count--3wXKp"></div></div></div><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--twitter"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--twitter "><g><circle cx="32" cy="32" r="31" fill="#00aced"></circle></g><g><path d="M48,22.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6 C41.7,19.8,40,19,38.2,19c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5c-5.5-0.3-10.3-2.9-13.5-6.9c-0.6,1-0.9,2.1-0.9,3.3 c0,2.3,1.2,4.3,2.9,5.5c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1c2.9,1.9,6.4,2.9,10.1,2.9c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C46,24.5,47.1,23.4,48,22.1z" fill="white"></path></g></svg></div></div><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--facebook"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--facebook "><g><circle cx="32" cy="32" r="31" fill="#3b5998"></circle></g><g><path d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z" fill="white"></path></g></svg></div><div class="SocialMediaShareCount"><div class="SocialLinks-module--share-count--3wXKp"></div></div></div><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--linkedin"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--linkedin "><g><circle cx="32" cy="32" r="31" fill="#007fb1"></circle></g><g><path d="M20.4,44h5.4V26.6h-5.4V44z M23.1,18c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1 c1.7,0,3.1-1.4,3.1-3.1C26.2,19.4,24.8,18,23.1,18z M39.5,26.2c-2.6,0-4.4,1.4-5.1,2.8h-0.1v-2.4h-5.2V44h5.4v-8.6 c0-2.3,0.4-4.5,3.2-4.5c2.8,0,2.8,2.6,2.8,4.6V44H46v-9.5C46,29.8,45,26.2,39.5,26.2z" fill="white"></path></g></svg></div><div class="SocialMediaShareCount"><div class="SocialLinks-module--share-count--3wXKp"></div></div></div><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--telegram"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--telegram "><g><circle cx="32" cy="32" r="31" fill="#37aee2"></circle></g><g><path d="m45.90873,15.44335c-0.6901,-0.0281 -1.37668,0.14048 -1.96142,0.41265c-0.84989,0.32661 -8.63939,3.33986 -16.5237,6.39174c-3.9685,1.53296 -7.93349,3.06593 -10.98537,4.24067c-3.05012,1.1765 -5.34694,2.05098 -5.4681,2.09312c-0.80775,0.28096 -1.89996,0.63566 -2.82712,1.72788c-0.23354,0.27218 -0.46884,0.62161 -0.58825,1.10275c-0.11941,0.48114 -0.06673,1.09222 0.16682,1.5716c0.46533,0.96052 1.25376,1.35737 2.18443,1.71383c3.09051,0.99037 6.28638,1.93508 8.93263,2.8236c0.97632,3.44171 1.91401,6.89571 2.84116,10.34268c0.30554,0.69185 0.97105,0.94823 1.65764,0.95525l-0.00351,0.03512c0,0 0.53908,0.05268 1.06412,-0.07375c0.52679,-0.12292 1.18879,-0.42846 1.79109,-0.99212c0.662,-0.62161 2.45836,-2.38812 3.47683,-3.38552l7.6736,5.66477l0.06146,0.03512c0,0 0.84989,0.59703 2.09312,0.68132c0.62161,0.04214 1.4399,-0.07726 2.14229,-0.59176c0.70766,-0.51626 1.1765,-1.34683 1.396,-2.29506c0.65673,-2.86224 5.00979,-23.57745 5.75257,-27.00686l-0.02107,0.08077c0.51977,-1.93157 0.32837,-3.70159 -0.87096,-4.74991c-0.60054,-0.52152 -1.2924,-0.7498 -1.98425,-0.77965l0,0.00176zm-0.2072,3.29069c0.04741,0.0439 0.0439,0.0439 0.00351,0.04741c-0.01229,-0.00351 0.14048,0.2072 -0.15804,1.32576l-0.01229,0.04214l-0.00878,0.03863c-0.75858,3.50668 -5.15554,24.40802 -5.74203,26.96472c-0.08077,0.34417 -0.11414,0.31959 -0.09482,0.29852c-0.1756,-0.02634 -0.50045,-0.16506 -0.52679,-0.1756l-13.13468,-9.70175c4.4988,-4.33199 9.09945,-8.25307 13.744,-12.43229c0.8218,-0.41265 0.68483,-1.68573 -0.29852,-1.70681c-1.04305,0.24584 -1.92279,0.99564 -2.8798,1.47502c-5.49971,3.2626 -11.11882,6.13186 -16.55882,9.49279c-2.792,-0.97105 -5.57873,-1.77704 -8.15298,-2.57601c2.2336,-0.89555 4.00889,-1.55579 5.75608,-2.23009c3.05188,-1.1765 7.01687,-2.7042 10.98537,-4.24067c7.94051,-3.06944 15.92667,-6.16346 16.62028,-6.43037l0.05619,-0.02283l0.05268,-0.02283c0.19316,-0.0878 0.30378,-0.09658 0.35471,-0.10009c0,0 -0.01756,-0.05795 -0.00351,-0.04566l-0.00176,0zm-20.91715,22.0638l2.16687,1.60145c-0.93418,0.91311 -1.81743,1.77353 -2.45485,2.38812l0.28798,-3.98957" fill="white"></path></g></svg></div></div></div></div></div><nav><ul class="post-module--pagination--1F-V0"><li><a rel="prev" href="/gatsbyjs/ejercicio-4-mapear-url-a-ubicaciones-de-un-sistema-de-ficheros">← <!-- -->Ejercicio 4: Mapear URL a ubicaciones de un sistema de ficheros</a></li><li><a rel="next" href="/gatsbyjs/instalacion-de-brackets-en-debian">Instalación de Brackets en Debian<!-- -->→</a></li></ul></nav></main><footer><div class="Footer-module--container--3Dvn1"><div><a href="https://twitter.com/franmadueo" target="_blank" rel="noopener noreferrer">Twitter</a><a href="https://github.com/franmadu6" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://github.com/franmadu6/gatsbyjs/rss.xml" target="_blank" rel="noopener noreferrer">RSS</a></div><div class="Footer-module--copyright--2uglW">Copyright © 2020. All rights reserved.</div></div></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-161211056-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/practica-1-implantacion-y-despliegue-de-una-aplicacion-web-estatica";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-3faf24a9353f23273b6b.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-7ca1fffc0f095fe8aa22.js"],"component---src-templates-post-js":["/component---src-templates-post-js-eb4f70b974a2837e45a6.js"],"component---src-templates-tag-js":["/component---src-templates-tag-js-048813de74a0f2205756.js"],"component---src-templates-category-js":["/component---src-templates-category-js-f6f26836a5a0dfef289c.js"],"component---src-pages-404-js":["/component---src-pages-404-js-08abf9db6d816a8110aa.js"],"component---src-pages-about-js":["/component---src-pages-about-js-a0bbb469f5a0942e80b2.js"],"component---src-pages-contact-js":["/component---src-pages-contact-js-5342676424cfecc86972.js"],"component---src-pages-index-js":["/component---src-pages-index-js-cef9456ebae1a181e5f4.js"]};/*]]>*/</script><script src="/gatsbyjs/webpack-runtime-1717f72b1ae567e55410.js" async=""></script><script src="/gatsbyjs/app-3faf24a9353f23273b6b.js" async=""></script><script src="/gatsbyjs/commons-9d240335cccfc7a9b6a0.js" async=""></script><script src="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js" async=""></script><script src="/gatsbyjs/styles-eac94caeae57308993bd.js" async=""></script></body></html>
