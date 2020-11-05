@@ -5,7 +5,7 @@ cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
     - Servicios
 tags:
-    - nginx
+    - Nginx
 ---
 
 ## Tarea 1 (1 punto)(Obligatorio): Crea una máquina del cloud con una red pública. Añade la clave pública del profesor a la máquina. Instala el servidor web nginx en la máquina. Modifica la página index.html que viene por defecto y accede a ella desde un navegador.
