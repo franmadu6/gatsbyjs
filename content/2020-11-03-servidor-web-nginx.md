@@ -15,13 +15,13 @@ tags:
 
 Ip flotante de la maquina es ->  *172.22.200.137*
 Primero instalaremos el servidor Gninx en nuestra maquina.
-<pre style="background-color:powderblue;">
+```shell
 debian@servidor-gninx:~$ sudo apt-get install nginx
-</pre>
+```
 
 ## Tarea 2 (2 punto)(Obligatorio): Configura la resolución estática en los clientes y muestra el acceso a cada una de las páginas.
 
 El sistema de directorios de nginx es muy similar al de apache, tendremos que configurar nuevo archivo de configuración en sites-avaliable para especificar nuestro sitio.
-<pre style="background-color:powderblue;">
+```shell
 
-</pre>
+```

@@ -13,7 +13,7 @@ tags:
 ### Crea un escenario en Vagrant o reutiliza uno de los que tienes en ejercicios anteriores, que tenga un servidor con una red publica, y una privada y un cliente conectada a la red privada. Crea un host virtual departamentos.iesgn.org.
 
 * Escenario:
-<pre style="background-color:powderblue;">
+```shell
 Vagrant.configure("2") do |config|
 
         config.vm.define :servidor do |servidor|
@@ -29,13 +29,13 @@ Vagrant.configure("2") do |config|
                 cliente.vm.network :private_network, ip: "192.168.100.26", virtualbox__intnet: "redinterna"
         end
 end
-</pre>
+```
 
 ## A la URL departamentos.iesgn.org/intranet sólo se debe tener acceso desde el cliente de la red local, y no se pueda acceder desde la anfitriona por la red pública. A la URL departamentos.iesgn.org/internet, sin embargo, sólo se debe tener acceso desde la anfitriona por la red pública, y no desde la red local.
 
 1. Intalaremos Apache en nuestro servidor
 2. Crearemos un fichero llamado departamentos.conf ubicado en sites-avaliable
-<pre style="background-color:powderblue;">
+```shell
 <Directory /var/www/departamentos/internet/>
                 Options Indexes FollowSymLinks MultiViews
                 <RequireAll>
@@ -43,7 +43,7 @@ end
                         Require all granted
                 </RequireAll>
 </Directory>
-</pre>
+```
 
 ## Autentificación básica. Limita el acceso a la URL departamentos.iesgn.org/secreto. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente. ¿Cómo se manda la contraseña entre el cliente y el servidor?. Entrega una breve explicación del ejercicio.
 
