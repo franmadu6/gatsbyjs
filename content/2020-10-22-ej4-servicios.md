@@ -99,7 +99,7 @@ El servidor solo seguirá enlaces simbólicos para los cuales el archivo o direc
 </VirtualHost>
 ```
 
-!mapeoroot.png!
+![PracticaImg](images/servicios/mapeoroot.png "Imagen de la practica")
 
 *Como podemos ver en la captura no podemos ver el archivo que he creado con el usuario root*
 
@@ -120,5 +120,5 @@ root@debian:/srv/mapeo/error# nano error404.html
         </Directory>
 ```
 
-!mapeo403.png!
-!mapeo404.png!
+![PracticaImg](images/servicios/mapeo403.png "Imagen de la practica")
+![PracticaImg](images/servicios/mapeo404.png "Imagen de la practica")
