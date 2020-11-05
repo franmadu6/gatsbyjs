@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 05 Nov 2020 08:17:48 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 05 Nov 2020 08:43:23 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
 &lt;h3 id=&quot;para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot;&gt;&lt;a href=&quot;#para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot; aria-label=&quot;para poder acceder a la red local desde el exterior existe una red privada configurada con openvpn que utiliza certificados x509 para autenticar los usuarios y el servidor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Para poder acceder a la red local desde el exterior, existe una red privada configurada con OpenVPN que utiliza certificados x509 para autenticar los usuarios y el servidor.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -557,7 +557,97 @@ libsqlite3-dev is already the newest version &lt;span class=&quot;token punctuat
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación de Brackets en Debian]]></title><description><![CDATA[Brackets  Un editor de texto de código abierto moderno que comprende el diseño web. Extensiones recomendadas CanIUse Con esta extensión…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</guid><category><![CDATA[Entorno de desarrollo]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Brackets]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;brackets&quot;&gt;&lt;a href=&quot;#brackets&quot; aria-label=&quot;brackets permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Brackets&lt;/h2&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Ejercicio 4: Mapear URL a ubicaciones de un sistema de ficheros]]></title><description><![CDATA[Crea un nuevo host virtual que es accedido con el nombre www.mapeo.com, cuyo DocumentRoot sea /srv/mapeo. Cuando se entre a la dirección www…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-4-mapear-url-a-ubicaciones-de-un-sistema-de-ficheros</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-4-mapear-url-a-ubicaciones-de-un-sistema-de-ficheros</guid><category><![CDATA[Mapeo]]></category><category><![CDATA[URL]]></category><pubDate>Wed, 21 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Crea un nuevo host virtual que es accedido con el nombre www.mapeo.com, cuyo DocumentRoot sea /srv/mapeo.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;VirtualHost *:8&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;0&lt;/span&gt;&gt;&lt;/span&gt;
+        ServerName www.mapeo.com
+
+        ServerAdmin webmaster@localhost
+        DocumentRoot /srv/mapeo
+
+        ErrorLog &lt;span class=&quot;token variable&quot;&gt;${APACHE_LOG_DIR}&lt;/span&gt;/error.log
+        CustomLog &lt;span class=&quot;token variable&quot;&gt;${APACHE_LOG_DIR}&lt;/span&gt;/access.log combined
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/VirtualHost&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#configuramos virtualhost&lt;/span&gt;
+fran@debian:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; a2ensite mapeo.conf
+Enabling site mapeo.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
+
+&lt;span class=&quot;token comment&quot;&gt;#le damos permisos de propietario adecuados&lt;/span&gt;
+fran@debian:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; -R www-data:www-data /srv/mapeo/
+
+&lt;span class=&quot;token comment&quot;&gt;#por ultimo recargamos apache para que se inicie la configuración nueva&lt;/span&gt;
+fran@debian:/etc/apache2/sites-available$ systemctl reload apache2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Cuando se entre a la dirección www.mapeo.com se redireccionará automáticamente a www.mapeo.com/principal, donde se mostrará el mensaje de bienvenida.*
+muevo el index.html a /srv/mapeo/principal&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#en mapeo.conf&lt;/span&gt;
+Redirect &lt;span class=&quot;token number&quot;&gt;301&lt;/span&gt; /index.html        /principal&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En el directorio principal no se permite ver la lista de los ficheros, no se permite que se siga los enlaces simbólicos y no se permite negociación de contenido. Muestra al profesor el funcionamiento. ¿Qué configuración tienes que poner?&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory &lt;span class=&quot;token string&quot;&gt;&quot;/srv/mapeo&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            Options -Indexes -FollowSymLinks -Multiviews
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Si accedes a la página www.mapeo.com/principal/documentos se visualizarán los documentos que hay en /home/usuario/doc. Por lo tanto se permitirá el listado de fichero y el seguimiento de enlaces simbólicos siempre que el propietario del enlace y del fichero al que apunta sean el mismo usuario. Explica bien y pon una prueba de funcionamiento donde se vea bien el seguimiento de los enlaces simbólicos.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;Creo un directorio llamado documentos en mi carpeta principal y creo los enlaces simbolicos:&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/srv/mapeo/principal/documentos&lt;span class=&quot;token comment&quot;&gt;# sudo ln -s /home/fran/Documentos/prueba.txt &lt;/span&gt;
+root@debian:/srv/mapeo/principal/documentos&lt;span class=&quot;token comment&quot;&gt;# sudo chown -R www-data:www-data prueba.txt &lt;/span&gt;
+
+root@debian:/srv/mapeo/principal/documentos&lt;span class=&quot;token comment&quot;&gt;# ln -s /root/prueba/pruebaroot.txt &lt;/span&gt;
+root@debian:/srv/mapeo/principal/documentos&lt;span class=&quot;token comment&quot;&gt;# chown www-data:www-data pruebaroot.txt &lt;/span&gt;
+
+
+root@debian:/srv/mapeo/principal/documentos&lt;span class=&quot;token comment&quot;&gt;# ls -l&lt;/span&gt;
+total &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+lrwxrwxrwx &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; root     root     &lt;span class=&quot;token number&quot;&gt;27&lt;/span&gt; oct &lt;span class=&quot;token number&quot;&gt;22&lt;/span&gt; 09:34 pruebaroot.txt -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; /root/prueba/pruebaroot.txt
+lrwxrwxrwx &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; www-data www-data &lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt; oct &lt;span class=&quot;token number&quot;&gt;21&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt;:20 prueba.txt -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; /home/fran/Documentos/prueba.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;He creado varios documentos para probar de diferentes formas he dejado la creación de dos de ellos para que se pueda ver como crear un enlace simbólico.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Creo la redirección y doy los permisos al directorio /home/fran/Documentos&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Usando:
+&lt;em&gt;Indexes&lt;/em&gt;
+Si se solicita una URL que se asigna a un directorio, y no hay DirectoryIndex ( por ejemplo , index.html) en ese directorio, mod_autoindexse devolverá una lista formateada del directorio.
+&lt;em&gt;SymLinksIfOwnerMatch&lt;/em&gt;
+El servidor solo seguirá enlaces simbólicos para los cuales el archivo o directorio de destino es propiedad del mismo ID de usuario que el enlace.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;VirtualHost *:8&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;0&lt;/span&gt;&gt;&lt;/span&gt;
+
+        ServerName www.mapeo.com
+
+        ServerAdmin webmaster@localhost
+        DocumentRoot /srv/mapeo/
+
+        Redirect &lt;span class=&quot;token number&quot;&gt;301&lt;/span&gt; /index.html        /principal
+        Redirect &lt;span class=&quot;token number&quot;&gt;301&lt;/span&gt; /srv/mapeo/principal/documentos    /principal/documentos
+
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory &lt;span class=&quot;token string&quot;&gt;&quot;/home/fran/Documentos&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                Options Indexes SymLinksIfOwnerMatch
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+
+        ErrorLog &lt;span class=&quot;token variable&quot;&gt;${APACHE_LOG_DIR}&lt;/span&gt;/error.log
+        CustomLog &lt;span class=&quot;token variable&quot;&gt;${APACHE_LOG_DIR}&lt;/span&gt;/access.log combined
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/VirtualHost&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;!mapeoroot.png!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Como podemos ver en la captura no podemos ver el archivo que he creado con el usuario root&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;4. En todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido. Para el ello se crearan dos ficheros html dentro del directorio error. Entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/srv/mapeo&lt;span class=&quot;token comment&quot;&gt;# mkdir error&lt;/span&gt;
+root@debian:/srv/mapeo/error&lt;span class=&quot;token comment&quot;&gt;# nano error403.html&lt;/span&gt;
+root@debian:/srv/mapeo/error&lt;span class=&quot;token comment&quot;&gt;# nano error404.html&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;#Añadimos las siguientes lineas a nuestro archivo de configuración:&lt;/span&gt;
+        ErrorDocument &lt;span class=&quot;token number&quot;&gt;403&lt;/span&gt; /error/error403.html
+        ErrorDocument &lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt; /error/error404.html
+
+&lt;span class=&quot;token comment&quot;&gt;#Añado la ruta de mi carpeta css y la restrinjo&lt;/span&gt;
+          &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory &lt;span class=&quot;token string&quot;&gt;&quot;/srv/mapeo/css&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                Require all denied
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;!mapeo403.png!
+!mapeo404.png!&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación de Brackets en Debian]]></title><description><![CDATA[Brackets  Un editor de texto de código abierto moderno que comprende el diseño web. Extensiones recomendadas CanIUse Con esta extensión…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</guid><category><![CDATA[Entorno de desarrollo]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Brackets]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;brackets&quot;&gt;&lt;a href=&quot;#brackets&quot; aria-label=&quot;brackets permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Brackets&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -717,43 +807,7 @@ fore spinae nulla, tuus.&lt;/p&gt;
 &lt;p&gt;Iacentes sunt. &lt;em&gt;Fugio et illo&lt;/em&gt;, non Nam et esse foret genu coercuit vana forcipe
 funeribus Achelous fugae Eurytidae moram. Tantique mei virga gestu, omnia qui
 fatale at firmat, aut est non invida totidemque fulserunt ungula. &lt;strong&gt;Dignus
-apro&lt;/strong&gt; incubat qui! Torserat conplexa cum, Rhoetus tibi ignes crudelis marinae.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Random project 4 With Super Long Title Phase One]]></title><description><![CDATA[Mendaci pinu ipsi nunc Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque,
-tardius pello ostentare; dixit. Agit…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/random-project-4-with-super-long-title-phase-one</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/random-project-4-with-super-long-title-phase-one</guid><category><![CDATA[say hi]]></category><pubDate>Wed, 01 Mar 2017 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;mendaci-pinu-ipsi-nunc&quot;&gt;&lt;a href=&quot;#mendaci-pinu-ipsi-nunc&quot; aria-label=&quot;mendaci pinu ipsi nunc permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mendaci pinu ipsi nunc&lt;/h2&gt;
-&lt;p&gt;Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque,
-tardius pello ostentare; dixit. &lt;a href=&quot;http://accessit.net/&quot;&gt;Agit&lt;/a&gt; super, cum, qua
-quae pinxit certamine occulte causa: est est non. Dubita fictumque imagine.&lt;/p&gt;
-&lt;p&gt;Illi quid patitur limitibus sumptam in vincemur ducit tumulatus et odisse
-volucris et cupit inrorant vivax, Proetus ait. Nec induit mortalia olim ortus
-foedera &lt;a href=&quot;http://www.pontumferae.io/protinuset.html&quot;&gt;praecipitem&lt;/a&gt; amans et iter
-&lt;a href=&quot;http://casuquefuit.io/murmurevestrum.aspx&quot;&gt;est&lt;/a&gt; huc virginitate spernimus
-Oenopiis longi ore paretur? Sede ore quaedam dumque. Et alti: Tagus vino omnes
-ait dictis &lt;strong&gt;videt vos&lt;/strong&gt;, meus licet bipennem, Acheronte! Fulvae vulneris et
-munus succurritis coma simulacraque amborum semper, insequar quae &lt;strong&gt;simul
-tela&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;facta-huic-laboras-matris-tandem-scelus&quot;&gt;&lt;a href=&quot;#facta-huic-laboras-matris-tandem-scelus&quot; aria-label=&quot;facta huic laboras matris tandem scelus permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Facta huic laboras matris tandem scelus&lt;/h2&gt;
-&lt;p&gt;Per praesuta occupat stratum, manuque te femina magni Nelidae. &lt;a href=&quot;http://www.in.io/&quot;&gt;Cauda
-lacrimisque&lt;/a&gt; sua nec quoque &lt;em&gt;prodiga&lt;/em&gt;: more te aera est fas
-ut utrumque omnes, fugae sua Telamone. Scilicet indulgere &lt;em&gt;dat terunt quam&lt;/em&gt;
-corpora, ad non Canentem gressu feliciter lapillis caede frequentes tibi nostro?
-Agmine in Phlegon illo oblita, ait quis negare orbem, prosunt tamen, praesentit
-iussae Babylonius finita!&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Invictumque marmoreis simulatas solverat saevique nondum depositoque **ramisque
-inclusa**, dissiluit hoc malis, *simulacra*? Cum cupido alis. Ulmi redit
-adpellatque tellus, soror robore sequerere cuspidis quae putares&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; Mihi solidas
-&lt;span class=&quot;token function&quot;&gt;sed&lt;/span&gt; tyranni tecta pennas virgine, unus aufer, *Oete* neve femina, vos quid.
-Oscula dignior.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&quot;corpore-motae-iam&quot;&gt;&lt;a href=&quot;#corpore-motae-iam&quot; aria-label=&quot;corpore motae iam permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Corpore motae iam&lt;/h2&gt;
-&lt;p&gt;Est humum data tardus et movet attrahit ferro
-&lt;a href=&quot;http://soleta.org/lectos&quot;&gt;imperio&lt;/a&gt;. Iam undis veniente et crines faciat
-Melaneus sedebat et vobis. Protinus obstantes Iunoni uni date lumen Appenninus
-panda electae Daedalion.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Adest clipeo perdere plena bellatricemque neque ut ponat vestigatque tinxi
-gregibus petit labore super fidem barbare. Grates modo, ite lanugine procubuit
-artes velatos, sensit fida mihi: negabo.
-&lt;a href=&quot;http://www.mea-pars.net/temptanti&quot;&gt;Tum&lt;/a&gt; desubito radere tendens &lt;strong&gt;fuit&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Quibus &lt;strong&gt;se intus montibus&lt;/strong&gt;. Auro terrae: mare e adulterium, per dolet et.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[The Fallen Time]]></title><description><![CDATA[Hoc domum solitos veteremque nostrum Lorem markdownum huc suo ara, dubites celeri mihi bicolor. Secuti non? Suo opus
+apro&lt;/strong&gt; incubat qui! Torserat conplexa cum, Rhoetus tibi ignes crudelis marinae.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[The Fallen Time]]></title><description><![CDATA[Hoc domum solitos veteremque nostrum Lorem markdownum huc suo ara, dubites celeri mihi bicolor. Secuti non? Suo opus
 quales dant, puppim…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/the-fallen-time</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/the-fallen-time</guid><category><![CDATA[test]]></category><category><![CDATA[something]]></category><category><![CDATA[tagging]]></category><pubDate>Tue, 31 Jan 2017 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;hoc-domum-solitos-veteremque-nostrum&quot;&gt;&lt;a href=&quot;#hoc-domum-solitos-veteremque-nostrum&quot; aria-label=&quot;hoc domum solitos veteremque nostrum permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hoc domum solitos veteremque nostrum&lt;/h2&gt;
 &lt;p&gt;Lorem markdownum huc suo ara, dubites celeri mihi bicolor. Secuti non? Suo opus
 quales dant, puppim hanc!&lt;/p&gt;
