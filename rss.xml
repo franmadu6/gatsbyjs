@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 05 Nov 2020 09:58:14 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 05 Nov 2020 11:49:09 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
 &lt;h3 id=&quot;para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot;&gt;&lt;a href=&quot;#para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot; aria-label=&quot;para poder acceder a la red local desde el exterior existe una red privada configurada con openvpn que utiliza certificados x509 para autenticar los usuarios y el servidor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Para poder acceder a la red local desde el exterior, existe una red privada configurada con OpenVPN que utiliza certificados x509 para autenticar los usuarios y el servidor.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -732,7 +732,319 @@ root@debian:/srv/mapeo/error&lt;span class=&quot;token comment&quot;&gt;# nano e
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 1: Implantación y despliegue de una aplicación web estática]]></title><description><![CDATA[Instalacion de Gatsby ¿Que es Gatsby? Gatsby es un framework gratuito y open source basado en React que permite desarrollar de forma rápida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-1-implantacion-y-despliegue-de-una-aplicacion-web-estatica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-1-implantacion-y-despliegue-de-una-aplicacion-web-estatica</guid><category><![CDATA[Gastby]]></category><category><![CDATA[Github]]></category><category><![CDATA[Github-Pages]]></category><category><![CDATA[Web]]></category><pubDate>Sun, 18 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;instalacion-de-gatsby&quot;&gt;&lt;a href=&quot;#instalacion-de-gatsby&quot; aria-label=&quot;instalacion de gatsby permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalacion de Gatsby&lt;/h1&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Ejercicio 3: VirtualHosting con Apache]]></title><description><![CDATA[Repite el ejercicio cambiando los directorios de trabajo a /srv/www. ¿Qué modificación debes hacer en el fichero /etc/apache2/apache2.conf…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-3-virtual-hosting-con-apache</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-3-virtual-hosting-con-apache</guid><category><![CDATA[Apache]]></category><category><![CDATA[VirtualHosting]]></category><pubDate>Mon, 19 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Repite el ejercicio cambiando los directorios de trabajo a /srv/www. ¿Qué modificación debes hacer en el fichero /etc/apache2/apache2.conf?&lt;/p&gt;
+&lt;h3 id=&quot;deberemos-activar-las-lineas-del-directorio-srv&quot;&gt;&lt;a href=&quot;#deberemos-activar-las-lineas-del-directorio-srv&quot; aria-label=&quot;deberemos activar las lineas del directorio srv permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Deberemos activar las lineas del directorio srv&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory /srv/&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;movemos-nuestros-archivos&quot;&gt;&lt;a href=&quot;#movemos-nuestros-archivos&quot; aria-label=&quot;movemos nuestros archivos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Movemos nuestros archivos&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/var/www&lt;span class=&quot;token comment&quot;&gt;# mv iesgn/ /srv/www/&lt;/span&gt;
+root@debian:/var/www&lt;span class=&quot;token comment&quot;&gt;# mv departamentosgn/ /srv/www/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;modificaremos-la-ruta-en-nuestros-archivos-de-configuración&quot;&gt;&lt;a href=&quot;#modificaremos-la-ruta-en-nuestros-archivos-de-configuraci%C3%B3n&quot; aria-label=&quot;modificaremos la ruta en nuestros archivos de configuración permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Modificaremos la ruta en nuestros archivos de configuración&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;DocumentRoot /srv/www/iesgn
+DocumentRoot /srv/www/departamentosgn&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;recargamaos-los-servicios&quot;&gt;&lt;a href=&quot;#recargamaos-los-servicios&quot; aria-label=&quot;recargamaos los servicios permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Recargamaos los servicios:&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/etc/apache2/sites-available&lt;span class=&quot;token comment&quot;&gt;# systemctl reload apache2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/0a5b864339c25c9b92e7ba24a7986884/2c3d7/iesgn.org.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.63519313304721%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAACJ0lEQVQozz2QzU8TURTF+zdJy8JgkBA3pioKxOifYlwSoobSTyigYYULNTEmxq0JAlLt17TMdzudmZZ22oaWYpVEEv35ZlAXZ+5555x3574bevjgPnfn5lhcXGD2xixXI5Ncm5pienqayckI4XCYSCTMxMQVIuGJ4Oz7MzPXuRm9w/z8QnA3Gr3F7bl7hDLpFOn1TTZiCTJLz0gnU8TjSRKJFKuriQCpVIbYygrx2ErgxWJx0uk1stlN1tc3gprJZEmk1giZVgdvNIbvF/wanPMTkHSdimFgNl2KioJcM1Eti4LgumMHmt31+C2yFwJ+PRn/wHK6hKpaA7tqUnz1nv2dtwwlg2FZF7isp5LJqWxxptmXvGIyEhiUfO9vpqThFGRk3Sak2G3Udx+pPEqSf5xEXX6O8WQbbflFUI2n29Szr6ltvQk8X1eWtv5zXWSO4y8xdz6g1Vuiofizbrs4Jz0aPQ+z3URrOtS8Y+y+h+xYGC2HutBdkTkeDeicDXEHfdqjYYD++VisbYRmuKKh7mAYFq5Vp2GaNMS+3EZDwMIRms9bjkO306bTagk06Qne9zp0223aYs/j0yHfzsYo/pM1w6FY0cmVVHJFhbyko9ZaKGYzeEKj2cNyPWp2h7rjoQnvSAwhi2n+wT9XFAvNFBP6n4KkcvBFYj9XZu+wyKfPBXYP8kIr87VYJZeXyJdl8qWjQNsV/t5hKcjsHhSoqnVU0UcVw/0BHe9E3Uc8GkcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/0a5b864339c25c9b92e7ba24a7986884/36727/iesgn.org.png&quot;
+        srcset=&quot;/gatsbyjs/static/0a5b864339c25c9b92e7ba24a7986884/acf4b/iesgn.org.png 173w,
+/gatsbyjs/static/0a5b864339c25c9b92e7ba24a7986884/fc834/iesgn.org.png 345w,
+/gatsbyjs/static/0a5b864339c25c9b92e7ba24a7986884/36727/iesgn.org.png 690w,
+/gatsbyjs/static/0a5b864339c25c9b92e7ba24a7986884/2c3d7/iesgn.org.png 932w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/f3e12e588afb15d7a00f437939eac4f7/7d205/departamentosgn.org.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.67396061269147%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACSklEQVQoz0WSS3PTMBSF/acZ9gw0qfNoB3aU4bGBFTPsOkOBISVAk9C0SWzLlh/yK2kTx3KblkLK4nCllrL45hz53itbxzLazSaa7W20aptoP9hAg7TZaKFBmJsN1Osm2lSv1eowaxswzSbq1NNqbd2yja2tbe03G20YfnSCdL7EurzAOi6wBnDMHAwtC3YQYDAeYzAaweIcfdKhben6iDFcU+9vQulqvYYvpjBsL4ZwBez3+zh4twtJXjKBkkU3XsETVGGGinrVWqmqn/OUSDRzJ4RlBzBYPIOz28Xh/Ta+32uAPXyKoP4Cfv05caPB49cQO2/BzZdwqe5tPIP7aEfDCGG+QvjkDeyRB8P1UzAewQ19cBHR0VyMHBs29+BFISaug7Fae67uibIUyWwKPxYQeaaZFQsUVQUvSOkL6bP9IMaMCiezHFMaUD5PE+RZgox0MT9FuSwgiWIxhywLnMlS65LW55XEn+s1PD+B4QUZjiccvUMLgyNbw6McLj3nlFs2WyDJThFnJ8QpApGD0eB/UjiUoZqxKV+D02B/aGPvcw8f9wf40Oljr/PP9/C1d4zOt0N0SbsHyg91/dOXH7qutH/EMJwEsOhHGeoNHmXIKCeHrkTg8zvv0vWwJmOMxyM49MxzGaIwoChSTUw5crpOPy8v6MjXcNWRVYaeL3QxjukKCQpbxNonCQ0llGWeQ0p5S3Xnq+oMWT7FarXC1dUv+rmx2jCBHyYoqXFZSq0KSc1qLSu1ltoXy1Lrsiw1N70Sq4tL7dWGfwHMVftt56jrZwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/f3e12e588afb15d7a00f437939eac4f7/36727/departamentosgn.org.png&quot;
+        srcset=&quot;/gatsbyjs/static/f3e12e588afb15d7a00f437939eac4f7/acf4b/departamentosgn.org.png 173w,
+/gatsbyjs/static/f3e12e588afb15d7a00f437939eac4f7/fc834/departamentosgn.org.png 345w,
+/gatsbyjs/static/f3e12e588afb15d7a00f437939eac4f7/36727/departamentosgn.org.png 690w,
+/gatsbyjs/static/f3e12e588afb15d7a00f437939eac4f7/7d205/departamentosgn.org.png 914w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/3dbc13e1ea7856a80f0d0164d73e8720/d5788/departamentosgn.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.526315789473685%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAACeklEQVQoz03QzUvTcQDH8W9STufTfvNhU9vjb7/pbKbTHJqPbJooJImaRlYzSsnQnNvMZ2XrUNKtgxUeqktUkOEfkBpEdU/U0nwIuhSGEV3fTbp0ePGBz+f2EVOTE0yMjxEKBRgaGmJkdJRgMMBgIEDgP8FgkFC09w/cwO8fIDDoJxgYZGRklOlwhHA4zOTkFGJx+Q1Li29ZXnzH+toquztbfI06yN3tf7a3tlj/9JnVjU2+7//h5/5vfuz9YmvnGxtfttnY/LevRYnj5U5MignZmo+i5CLb7Ci2POyyDbPFicXiiKYdV2EevuZyrl5o50RFLXK+m1SDg3SzQobJRrpBQW/JRRS53ejNJjKMMnpjDmmZNrItUUYDhhwTWVY9qiQLuWYDdS4drtxMpAwzIj4TdWoW8ZKJ2GQTiVozmnQHoqvfQX1bPO19Ek2+OHx+LeMTZqZHj3J/NpuHcyXcultH95U8FJ3A7dLQ2KKlyitx0puM94yGhnMaTnem4TmrR3iqcrDY0igrtdJzuYynsxe50+tl/LyOhTE18wEjH54VsPK6lpnBbK77DtM9HEdRTSIF1So6hxPxjUh0DOjoDcciOuvL6fCU0N9aS1dzJcXHjFSU5JNnzaShQM1wk+DVuODjgo29FTdzYcG9iERphQbJqqawJpnaVhuuKh1FlTpET5uXlgon7mIDWrtEqj0Vg0NLVk46slPLfETFxnMN7x/H8igiuB0SPLgpeDkVQ1OdGkdJCo4yDQYlgUKnESGX2tFYk0lRtMQpKcTZk0iIOmJJwVMdy9JMDGsvVDyZFFxrF1xqi8FTpaKv6RChg+8bFRpOychuHTqnxF9Zt2LxDerw2wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/3dbc13e1ea7856a80f0d0164d73e8720/36727/departamentosgn.png&quot;
+        srcset=&quot;/gatsbyjs/static/3dbc13e1ea7856a80f0d0164d73e8720/acf4b/departamentosgn.png 173w,
+/gatsbyjs/static/3dbc13e1ea7856a80f0d0164d73e8720/fc834/departamentosgn.png 345w,
+/gatsbyjs/static/3dbc13e1ea7856a80f0d0164d73e8720/36727/departamentosgn.png 690w,
+/gatsbyjs/static/3dbc13e1ea7856a80f0d0164d73e8720/17fa4/departamentosgn.png 1035w,
+/gatsbyjs/static/3dbc13e1ea7856a80f0d0164d73e8720/a5044/departamentosgn.png 1380w,
+/gatsbyjs/static/3dbc13e1ea7856a80f0d0164d73e8720/d5788/departamentosgn.png 1900w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/99adb05802182f69a1b233228d8addc3/54f11/iesgn.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25.759416767922232%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAAdklEQVQY06XNQQ6CQAyF4R6XDqNjgkrwpoZogBsY3Dn0dyCSsGCh8povXbRp5VKVnE8Fh7An7JIQyHOHZhnOuUQ/fYWmPdWJ955jWSG3uqW+NjT3jhgj/8cYDOTZQ/+A4bUYmSVz/84cGS+PprLtZO3T8uOveQNjgWpRCMidlwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/99adb05802182f69a1b233228d8addc3/36727/iesgn.png&quot;
+        srcset=&quot;/gatsbyjs/static/99adb05802182f69a1b233228d8addc3/acf4b/iesgn.png 173w,
+/gatsbyjs/static/99adb05802182f69a1b233228d8addc3/fc834/iesgn.png 345w,
+/gatsbyjs/static/99adb05802182f69a1b233228d8addc3/36727/iesgn.png 690w,
+/gatsbyjs/static/99adb05802182f69a1b233228d8addc3/17fa4/iesgn.png 1035w,
+/gatsbyjs/static/99adb05802182f69a1b233228d8addc3/a5044/iesgn.png 1380w,
+/gatsbyjs/static/99adb05802182f69a1b233228d8addc3/54f11/iesgn.png 1646w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 2: Cifrado asimétrico con gpg y openssl]]></title><description><![CDATA[Tarea 1: Generación de claves Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario? Generar…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-2-cifrado-asimetrico-con-gpg-y-openssl</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-2-cifrado-asimetrico-con-gpg-y-openssl</guid><category><![CDATA[GPG]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Mon, 19 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-generación-de-claves&quot;&gt;&lt;a href=&quot;#tarea-1-generaci%C3%B3n-de-claves&quot; aria-label=&quot;tarea 1 generación de claves permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Generación de claves&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Genera un par de claves (pública y privada). ¿En que directorio se guarda las claves de un usuario?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Generar par de claves&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ gpg --gen-key
+gpg &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GnuPG&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.2&lt;/span&gt;.12&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Copyright &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2018&lt;/span&gt; Free Software Foundation, Inc.
+This is &lt;span class=&quot;token function&quot;&gt;free&lt;/span&gt; software: you are &lt;span class=&quot;token function&quot;&gt;free&lt;/span&gt; to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Nota: Usa &lt;span class=&quot;token string&quot;&gt;&quot;gpg --full-generate-key&quot;&lt;/span&gt; para el diálogo completo de generación de clave.
+
+GnuPG debe construir un ID de usuario para identificar &lt;span class=&quot;token function&quot;&gt;su&lt;/span&gt; clave.
+
+Nombre y apellidos: Francisco Javier Madueño Jurado
+Dirección de correo electrónico: frandh1997@gmail.com
+Está usando el juego de caracteres &lt;span class=&quot;token string&quot;&gt;&apos;utf-8&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+Ha seleccionado este ID de usuario:
+    &lt;span class=&quot;token string&quot;&gt;&quot;Francisco Javier Madueño Jurado &amp;lt;frandh1997@gmail.com&gt;&quot;&lt;/span&gt;
+
+¿Cambia &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;N&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;ombre, &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;D&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;irección o &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;V&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;ale/&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;S&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;alir? &lt;span class=&quot;token function&quot;&gt;v&lt;/span&gt;
+Es necesario generar muchos bytes aleatorios. Es una buena idea realizar
+alguna otra tarea &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;trabajar en otra ventana/consola, mover el ratón, usar
+la red y los discos&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; durante la generación de números primos. Esto da al
+generador de números aleatorios mayor oportunidad de recoger suficiente
+entropía.
+Es necesario generar muchos bytes aleatorios. Es una buena idea realizar
+alguna otra tarea &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;trabajar en otra ventana/consola, mover el ratón, usar
+la red y los discos&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; durante la generación de números primos. Esto da al
+generador de números aleatorios mayor oportunidad de recoger suficiente
+entropía.
+gpg: clave 57112B319F2A6170 marcada como de confianza absoluta
+gpg: creado el directorio &lt;span class=&quot;token string&quot;&gt;&apos;/home/fran/.gnupg/openpgp-revocs.d&apos;&lt;/span&gt;
+gpg: certificado de revocación guardado como &lt;span class=&quot;token string&quot;&gt;&apos;/home/fran/.gnupg/openpgp-revocs.d/28ED3C3112ED8846BEDFFAF657112B319F2A6170.rev&apos;&lt;/span&gt;
+claves pública y secreta creadas y firmadas.
+
+pub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SC&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-06&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+      28ED3C3112ED8846BEDFFAF657112B319F2A6170
+uid                      Francisco Javier Madueño Jurado &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;frandh1997@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;E&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-06&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como podemos ver en la salida nuestra clave se guarda en /home/fran/.gnupg/openpgp-revocs.d&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Lista las claves públicas que tienes en tu almacén de claves. Explica los distintos datos que nos muestra. ¿Cómo deberías haber generado las claves para indicar, por ejemplo, que tenga un 1 mes de validez?&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Cifrado$ gpg --list-key
+/home/fran/.gnupg/pubring.kbx
+-----------------------------
+pub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SC&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-06&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  28ED3C3112ED8846BEDFFAF657112B319F2A6170
+uid        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;  absoluta &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Francisco Javier Madueño Jurado &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;frandh1997@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;E&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-06&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
+9233303D1F5495739A6D2CB4636AE9EBCB7E3294
+uid        [desconocida] Manuel Lora Román &lt;a href=&quot;mailto:manuelloraroman@gmail.com&quot;&gt;manuelloraroman@gmail.com&lt;/a&gt;
+sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]&lt;/p&gt;
+&lt;p&gt;pub   rsa3072 2020-10-08 [SC] [caduca: 2020-11-07]
+443D661D9AAF3ABAEDCA93E1C3B291882C4EE5DF
+uid        [desconocida] Alejandro Gutierrez Valencia &lt;a href=&quot;mailto:tojandro@gmail.com&quot;&gt;tojandro@gmail.com&lt;/a&gt;
+sub   rsa3072 2020-10-08 [E] [caduca: 2020-11-07]&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Nos muestra el nombre de la persona, su correo, cuando se genero la clave, cuando caduca y el código de la clave.
+
+* Lista las claves privadas de tu almacén de claves
+```shell
+fran@debian:~/Cifrado$ gpg --list-secret-keys
+/home/fran/.gnupg/pubring.kbx
+-----------------------------
+sec   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
+      28ED3C3112ED8846BEDFFAF657112B319F2A6170
+uid        [  absoluta ] Francisco Javier Madueño Jurado &amp;lt;frandh1997@gmail.com&amp;gt;
+ssb   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;tarea-2-importar--exportar-clave-pública-1-punto&quot;&gt;&lt;a href=&quot;#tarea-2-importar--exportar-clave-p%C3%BAblica-1-punto&quot; aria-label=&quot;tarea 2 importar  exportar clave pública 1 punto permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Importar / exportar clave pública (1 punto)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Exporta tu clave pública en formato ASCII y guardalo en un archivo nombre_apellido.asc y envíalo al compañero con el que vas a hacer esta práctica.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Cifrado$ gpg --export -a fran &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; fran_madueño.asc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Importa las claves públicas recibidas de vuestro compañero.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Cifrado$ gpg --import alejandro_gutierrez.asc &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Comprueba que las claves se han incluido correctamente en vuestro keyring.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Cifrado$ gpg --list-key
+/home/fran/.gnupg/pubring.kbx
+-----------------------------
+pub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SC&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-06&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  28ED3C3112ED8846BEDFFAF657112B319F2A6170
+uid        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;  absoluta &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Francisco Javier Madueño Jurado &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;frandh1997@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;E&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-06&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
+9233303D1F5495739A6D2CB4636AE9EBCB7E3294
+uid        [desconocida] Manuel Lora Román &lt;a href=&quot;mailto:manuelloraroman@gmail.com&quot;&gt;manuelloraroman@gmail.com&lt;/a&gt;
+sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]&lt;/p&gt;
+&lt;p&gt;pub   rsa3072 2020-10-08 [SC] [caduca: 2020-11-07]
+443D661D9AAF3ABAEDCA93E1C3B291882C4EE5DF
+uid        [desconocida] Alejandro Gutierrez Valencia &lt;a href=&quot;mailto:tojandro@gmail.com&quot;&gt;tojandro@gmail.com&lt;/a&gt;
+sub   rsa3072 2020-10-08 [E] [caduca: 2020-11-07]&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;## Tarea 3: Cifrado asimétrico con claves públicas (3 puntos)
+
+* Cifraremos un archivo cualquiera y lo remitiremos por email a uno de nuestros compañeros que nos proporcionó su clave pública.
+```shell
+fran@debian:~/Cifrado$ gpg -er 9233303D1F5495739A6D2CB4636AE9EBCB7E3294 kpasa &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Nuestro compañero, a su vez, nos remitirá un archivo cifrado para que nosotros lo descifremos.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran/Cifrado&lt;span class=&quot;token comment&quot;&gt;# gpg -o pruebagpg -d pruebagpg.gpg&lt;/span&gt;
+root@debian:/home/fran/Cifrado&lt;span class=&quot;token comment&quot;&gt;# cat pruebagpg&lt;/span&gt;
+root@debian:/home/fran/Cifrado&lt;span class=&quot;token comment&quot;&gt;# se ve&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Tanto nosotros como nuestro compañero comprobaremos que hemos podido descifrar los mensajes recibidos respectivamente.&lt;/li&gt;
+&lt;li&gt;Por último, enviaremos el documento cifrado a alguien que no estaba en la lista de destinatarios y comprobaremos que este usuario no podrá descifrar este archivo.&lt;br&gt;
+No vera el archivo, puesto que no tiene añadida nuestra clave publica a su anillo de confianza.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para terminar, indica los comandos necesarios para borrar las claves públicas y privadas que posees.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#borrar clave publica&lt;/span&gt;
+gpg --delete-key &lt;span class=&quot;token string&quot;&gt;&quot;Nombre de Usuario&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;borrar-clave-privada&quot;&gt;&lt;a href=&quot;#borrar-clave-privada&quot; aria-label=&quot;borrar clave privada permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;borrar clave privada&lt;/h1&gt;
+&lt;p&gt;gpg --delete-secret-key &quot;Nombre de Usuario&quot;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;## Tarea 4: Exportar clave a un servidor público de claves PGP (2 puntos)
+
+* Genera la clave de revocación de tu clave pública para utilizarla en caso de que haya problemas.
+```shell
+#el codigo para generar una clave de revocacion es:
+gpg -a --output cert-revocacion.txt --gen-revoke XXXXXXXX
+# la opción -a es opcional, para generar el certificado en ascii, para poder guardarlo en un gestor de contraseñas, por ejemplo
+#XXXXXXXX puede ser el identificador de clave pública o el de la clave privada, ambos identifican el par de claves que se revocaría el certificado.
+
+#en mi caso se generaron desde un principio si miramos al principio de la configuracion
+gpg: clave 57112B319F2A6170 marcada como de confianza absoluta
+gpg: creado el directorio &amp;#39;/home/fran/.gnupg/openpgp-revocs.d&amp;#39;
+gpg: certificado de revocación guardado como &amp;#39;/home/fran/.gnupg/openpgp-revocs.d/28ED3C3112ED8846BEDFFAF657112B319F2A6170.rev&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Exporta tu clave pública al servidor pgp.rediris.es&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#Exportar claves a usuarios en formato binario&lt;/span&gt;
+gpg --output clave-publica.gpg --export CB7E3294
+&lt;span class=&quot;token comment&quot;&gt;#Exportarla al servidor de claves&lt;/span&gt;
+gpg --send-keys --keyserver pgp.rediris.es CB7E3294
+&lt;span class=&quot;token comment&quot;&gt;#Recivir una clave del servidor de claves&lt;/span&gt;
+gpg  --keyserver pgp.rediris.es --recv CB7E3294&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Borra la clave pública de alguno de tus compañeros de clase e impórtala ahora del servidor público de rediris.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ gpg --delete-key &lt;span class=&quot;token string&quot;&gt;&quot;tojandro@gmail.com&quot;&lt;/span&gt;
+gpg &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GnuPG&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.2&lt;/span&gt;.12&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Copyright &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;C&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2018&lt;/span&gt; Free Software Foundation, Inc.
+This is &lt;span class=&quot;token function&quot;&gt;free&lt;/span&gt; software: you are &lt;span class=&quot;token function&quot;&gt;free&lt;/span&gt; to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;pub  rsa3072/C3B291882C4EE5DF 2020-10-08 Alejandro Gutierrez Valencia &lt;a href=&quot;mailto:tojandro@gmail.com&quot;&gt;tojandro@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;¿Eliminar esta clave del anillo? (s/N) s&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;## Tarea 5: Cifrado asimétrico con openssl (3 puntos)
+
+* Genera un par de claves (pública y privada).
+```shell
+fran@debian:~/Cifrado$ sudo openssl genrsa -out claveOpenSSL.pem 2048&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Envía tu clave pública a un compañero.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Cifrado$ openssl rsa -in claveOpenSSL.pem -pubout -out ClaveOpenSSL.public.pem&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Utilizando la clave pública cifra un fichero de texto y envíalo a tu compañero.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#cifrado con la clave publica que mi compañero me ha pasado.&lt;/span&gt;
+openssl rsautl -pubin -encrypt -in test1.txt -out test1.txt.enc -inkey key.publicLoraOpenSSL.pem &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tu compañero te ha mandado un fichero cifrado, muestra el proceso para el descifrado.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran/Cifrado&lt;span class=&quot;token comment&quot;&gt;# openssl rsautl -decrypt -inkey claveOpenSSL.pem -in test2.txt.enc -out test2.txt&lt;/span&gt;
+root@debian:/home/fran/Cifrado&lt;span class=&quot;token comment&quot;&gt;# cat test2.txt&lt;/span&gt;
+si ves esto esta bien.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 1: Implantación y despliegue de una aplicación web estática]]></title><description><![CDATA[Instalacion de Gatsby ¿Que es Gatsby? Gatsby es un framework gratuito y open source basado en React que permite desarrollar de forma rápida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-1-implantacion-y-despliegue-de-una-aplicacion-web-estatica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-1-implantacion-y-despliegue-de-una-aplicacion-web-estatica</guid><category><![CDATA[Gastby]]></category><category><![CDATA[Github]]></category><category><![CDATA[Github-Pages]]></category><category><![CDATA[Web]]></category><pubDate>Sun, 18 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;instalacion-de-gatsby&quot;&gt;&lt;a href=&quot;#instalacion-de-gatsby&quot; aria-label=&quot;instalacion de gatsby permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalacion de Gatsby&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;¿Que es Gatsby?&lt;/strong&gt;&lt;br&gt;
 Gatsby es un framework gratuito y open source basado en React que permite desarrollar de forma rápida sitios web y aplicaciones web rápidos.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;¿Por qué Gatsby?&lt;/strong&gt;&lt;br&gt;
