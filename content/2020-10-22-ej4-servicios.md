@@ -72,10 +72,12 @@ He creado varios documentos para probar de diferentes formas he dejado la creaci
 **Creo la redirección y doy los permisos al directorio /home/fran/Documentos**
 
 Usando:
-* Indexes
-        Si se solicita una URL que se asigna a un directorio, y no hay DirectoryIndex ( por ejemplo , index.html) en ese directorio, mod_autoindexse devolverá una lista formateada del directorio.
-* SymLinksIfOwnerMatch
-        El servidor solo seguirá enlaces simbólicos para los cuales el archivo o directorio de destino es propiedad del mismo ID de usuario que el enlace.
+* Indexes :  
+
+Si se solicita una URL que se asigna a un directorio, y no hay DirectoryIndex ( por ejemplo , index.html) en ese directorio, mod_autoindexse devolverá una lista formateada del directorio.
+* SymLinksIfOwnerMatch :  
+
+El servidor solo seguirá enlaces simbólicos para los cuales el archivo o directorio de destino es propiedad del mismo ID de usuario que el enlace.
 
 ```shell
 <VirtualHost *:80>
