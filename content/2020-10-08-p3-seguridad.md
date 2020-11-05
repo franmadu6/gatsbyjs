@@ -1,11 +1,11 @@
 ---
 date: 2020-10-08
-title: "Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube"
+title: "Práctica 3: Integridad de ficheros"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
     - Seguridad
 tags:
-    - Rclone
+    - Integridad
 ---
 
 
