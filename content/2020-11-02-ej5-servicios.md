@@ -60,17 +60,50 @@ Modificaremos nuetros archivo </etc/hosts> tanto es nuesta maquina(internet) com
 192.168.100.25   www.departamentos.iesgn.org
 192.168.2.161    www.departamentos.iesgn.org
 ```
-![PracticaImg](images/servicios/ej5-1 "Imagen de la practica")
+![PracticaImg](images/servicios/ej5-1.png "Imagen de la practica")
 
-![PracticaImg](images/servicios/ej5-2 "Imagen de la practica")
+![PracticaImg](images/servicios/ej5-2.png "Imagen de la practica")
 
-![PracticaImg](images/servicios/ej5-3 "Imagen de la practica")
+![PracticaImg](images/servicios/ej5-3.png "Imagen de la practica")
 
-![PracticaImg](images/servicios/ej5-4 "Imagen de la practica")
+![PracticaImg](images/servicios/ej5-4.png "Imagen de la practica")
 
 ## Autentificación básica. Limita el acceso a la URL departamentos.iesgn.org/secreto. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente. ¿Cómo se manda la contraseña entre el cliente y el servidor?. Entrega una breve explicación del ejercicio.
 
+Crearemos un directorio el directorio secreto:
+```shell
+root@servidor:/etc/apache2/sites-available# mkdir /var/www/departamentos/secreto
+```
+Crearemos un otro directorio llamado registro donde guardaremos un fichero de contraseñas y le daré la psw de root:
+```shell
+root@servidor:/var/www/departamentos/registro# htpasswd -c psw.txt root
+New password: 
+Re-type new password: 
+Adding password for user root
+```
+
+En departamentos.conf
+```shell
+<Directory /var/www/departamentos/secreto> 
+                Options Indexes FollowSymLinks MultiViews
+                AuthType Basic
+                AuthName "¿Quien eres?"
+                AuthUserFile "/var/www/departamentos/registro/psw.txt"
+                Require valid-user
+</Directory>
+```
+Recargamos Apache
+```shell
+root@servidor:/etc/apache2/sites-available# systemctl reload apache2
+```
+![PracticaImg](images/servicios/ej5-5.png "Imagen de la practica")
+![PracticaImg](images/servicios/ej5-6.png "Imagen de la practica")
+
+
 ## Cómo hemos visto la autentificación básica no es segura, modifica la autentificación para que sea del tipo digest, y sólo sea accesible a los usuarios pertenecientes al grupo directivos. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente. ¿Cómo funciona esta autentificación?
 
+
+
 ## Vamos a combinar el control de acceso (ejercicio 1) y la autentificación (Ejercicios 2 y 3), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.
+
 
