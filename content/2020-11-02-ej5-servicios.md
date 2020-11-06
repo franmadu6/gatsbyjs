@@ -96,13 +96,54 @@ Recargamos Apache
 ```shell
 root@servidor:/etc/apache2/sites-available# systemctl reload apache2
 ```
+Desde mi maquina:
 ![PracticaImg](images/servicios/ej5-5.png "Imagen de la practica")
 ![PracticaImg](images/servicios/ej5-6.png "Imagen de la practica")
 
+Desde el cliente:
+![PracticaImg](images/servicios/ej5-7.png "Imagen de la practica")
+![PracticaImg](images/servicios/ej5-8.png "Imagen de la practica")
 
 ## Cómo hemos visto la autentificación básica no es segura, modifica la autentificación para que sea del tipo digest, y sólo sea accesible a los usuarios pertenecientes al grupo directivos. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente. ¿Cómo funciona esta autentificación?
 
+1. Activar modulo digest.
+```shell
+sudo a2enmod auth_digest
+```
+2. Modificar el virtualhost para cambiar el tipo de autentificación.
+```shell
+<Directory /var/www/departamentos/secreto> 
+                Options Indexes FollowSymLinks MultiViews
+                AuthType Digest
+                AuthName "autorizados"
+                AuthUserFile "/var/www/departamentos/registro/psw.txt"
+                Require valid-user
+</Directory>
+```
+**Reiniciamos servicios**
 
+3. Crearemos un usuario autorizado a acceder y otro restringido.
+```shell
+root@servidor:/etc/apache2/sites-available# htdigest -c /var/www/departamentos/registro/psw.txt autorizados paco
+Adding password for paco in realm autorizados.
+New password: 
+Re-type new password:
+
+root@servidor:/etc/apache2/sites-available# htdigest -c /var/www/departamentos/registro/psw.txt restringidos pepe
+Adding password for pepe in realm restringidos.
+New password: 
+Re-type new password: 
+```
+Usuario autorizado
+![PracticaImg](images/servicios/ej5-9.png "Imagen de la practica")
+Usuario no autorizado
+![PracticaImg](images/servicios/ej5-10.png "Imagen de la practica")
+
+
+Usuario autorizado
+![PracticaImg](images/servicios/ej5-11.png "Imagen de la practica")
+Usuario no autorizado
+![PracticaImg](images/servicios/ej5-12.png "Imagen de la practica")
 
 ## Vamos a combinar el control de acceso (ejercicio 1) y la autentificación (Ejercicios 2 y 3), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.
 
