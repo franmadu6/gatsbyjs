@@ -74,7 +74,7 @@ Crearemos un directorio el directorio secreto:
 ```shell
 root@servidor:/etc/apache2/sites-available# mkdir /var/www/departamentos/secreto
 ```
-Crearemos un otro directorio llamado registro donde guardaremos un fichero de contraseñas y le daré la psw de root:
+Crearemos un otro directorio llamado registro donde guardaremos un fichero de contraseñas y añadiré un usuario llamado root:
 ```shell
 root@servidor:/var/www/departamentos/registro# htpasswd -c psw.txt root
 New password: 
