@@ -128,7 +128,6 @@ root@servidor:/etc/apache2/sites-available# htdigest -c /var/www/departamentos/r
 Adding password for paco in realm autorizados.
 New password: 
 Re-type new password:
-
 root@servidor:/etc/apache2/sites-available# htdigest -c /var/www/departamentos/registro/psw.txt restringidos pepe
 Adding password for pepe in realm restringidos.
 New password: 
