@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 06 Nov 2020 17:30:48 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sat, 07 Nov 2020 01:31:02 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
 &lt;h3 id=&quot;para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot;&gt;&lt;a href=&quot;#para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot; aria-label=&quot;para poder acceder a la red local desde el exterior existe una red privada configurada con openvpn que utiliza certificados x509 para autenticar los usuarios y el servidor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Para poder acceder a la red local desde el exterior, existe una red privada configurada con OpenVPN que utiliza certificados x509 para autenticar los usuarios y el servidor.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -522,13 +522,84 @@ Re-type new password: &lt;/p&gt;
 Usuario no autorizado
 ![PracticaImg](images/servicios/ej5-10.png &amp;quot;Imagen de la practica&amp;quot;)
 
-
-Usuario autorizado
-![PracticaImg](images/servicios/ej5-11.png &amp;quot;Imagen de la practica&amp;quot;)
-Usuario no autorizado
+Usuario no autorizado, en cliente el usuario autorizado es la misma captura que en el ejercicio 2.
 ![PracticaImg](images/servicios/ej5-12.png &amp;quot;Imagen de la practica&amp;quot;)
 
-## Vamos a combinar el control de acceso (ejercicio 1) y la autentificación (Ejercicios 2 y 3), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Compilación de un programa en C utilizando un Makefile]]></title><description><![CDATA[Ylva - Command line password manager  Ylva es un antiguo nombre femenino sueco, significa "loba", un derivado del nórdico antiguo úlfr…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-programa-en-c-utilizando-un-makefile</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-programa-en-c-utilizando-un-makefile</guid><category><![CDATA[Compilacion]]></category><pubDate>Sat, 31 Oct 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;ylva---command-line-password-manager&quot;&gt;&lt;a href=&quot;#ylva---command-line-password-manager&quot; aria-label=&quot;ylva   command line password manager permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Ylva - Command line password manager&lt;/h1&gt;
+## Vamos a combinar el control de acceso (ejercicio 1) y la autentificación (Ejercicios 2 y 3), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.
+
+Modificamos la configuracion de /secreto en departamentos.conf
+```shell
+&amp;lt;Directory /var/www/departamentos/secreto&amp;gt;
+                Options Indexes FollowSymLinks MultiViews
+                AuthType Digest
+                AuthName &amp;quot;autorizados&amp;quot;
+                AuthUserFile &amp;quot;/var/www/departamentos/registro/psw.txt&amp;quot;
+                &amp;lt;RequireAny&amp;gt;
+                        Require ip 192.168.100
+			Require valid-user
+                &amp;lt;/RequireAny&amp;gt;
+&amp;lt;/Directory&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como podemos ver si intentamos acceder desde nuestra maquina vemos como nos pide autentificación.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/a3474be63929f3117c6a52716a4ce14c/a9c1d/ej5-13.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 92.75675675675676%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAACo0lEQVQ4y62USXPTQBCFxY5tiLM5xibW4l27ZG3W5h1IVSCpVMGBE/+Cv//oGTleggkcOHz1utUzTzOjHgme52GxWGC5WiHNUowoNwwdiqJwOp02qQxJkiCK4h6tVguSLMHULGTOCo5rQ1hMJ5hO51jOZkiiMXx3hDFpPI45WZojTTKEQYDQ9xCGEcUhorWysTOau1wtMJ8vIEglA1LZglwyIZMqjIoNmcGeM9axUilqu7CaRHMZ4msDwjtBw99RH8S77I8VmoKO/8kfDRv0tvePTGT1g4ZF4RA6zkjrwgA12toF1wK21cJgf/zGsMHfuIUVLuj5dVPHz5sFpv0IdmMJu57DIqQXLj+vh/Ma92d4WRri/ZsepGMNYlWFeDREs9LHDzskw1vcZhk+5He4u/qGr5+/IxjmaJZ7fFyL8XYA+URD6xWtsE7Lt1UP89UUOjX0yHMQRT5CYkxGCZHlE2RZgjRNkE8yjOMIQUg9GQWkPscLHHTOqW3Y2aT+DNdfruE6LuJ0gtXVDW/SOE5o8j0povE2jpMUSZqRFgRRhE7NKs7QHvj05hwfV0sks08YTW8wVHWouk1YO+znA9XEUCtUs2y0z9eG5sBFko/5dpKUrl0SYuS78B6BHU2cRPADj285TkNaockMdR6YbQ+a5KAvGRiIJlTF5gwlk+cFxibutwxoilOMlW0YXRdSxSi+cl0YUs+1cflSR//UQ+fIQfd4tMZFt1rQOylypp2qg/aRzXOR/gc1obu9eg360ueCglZZw6Dmo3dKBkT/bMSV5cqRhfaxzZXH1W0slqlvn/R4g28Mz8jwsqSie0KfnyZuoFypWrx+Ksik8k6sbHK2wsbWkF2xPhpPqcGfa7/RfKbyOruGhylq3HD3kt9fn0P869/mF01MFhE2mrcFAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/a3474be63929f3117c6a52716a4ce14c/36727/ej5-13.png&quot;
+        srcset=&quot;/gatsbyjs/static/a3474be63929f3117c6a52716a4ce14c/acf4b/ej5-13.png 173w,
+/gatsbyjs/static/a3474be63929f3117c6a52716a4ce14c/fc834/ej5-13.png 345w,
+/gatsbyjs/static/a3474be63929f3117c6a52716a4ce14c/36727/ej5-13.png 690w,
+/gatsbyjs/static/a3474be63929f3117c6a52716a4ce14c/a9c1d/ej5-13.png 925w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Mientras que desde nuestro cliente no.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e785e08df9417837973cb10d5ea1155e/f73cf/ej5-14.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.48076923076924%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABrklEQVQoz42S23LaMBCG/TZNsHU+WgZzcEKmzV1JSTudzgT6/q/gvysZCMlNufjmX62sX7vyVkrKUUkBKcUoBAdnDFIIaKWK0j76xQIpJbCmwWw2Q13XF22awsjonBBirIyLML4bNem83+Dh6VtR41u42EHZgLv7Gb7c3aNhHNZaKLrMkErSum4KWmsqSKCqjR+FD2AujiJ00GmBrLRGQ2Z28wz3tIfb7iDiAsw4MOvBiRw32oGbMHLjkfr1WOlgMAwKsY/wfSKosnkLv0gwKUKFCN12BUkXC+cIf6We8h61NkirDSrpLULScJ2HnU9mKgaqwJ0OZewJVw5/RhGNtmS4RsWpLelaSBvfcQGKWlaUn4gXFXa6jJ/aPlOfDfN7iFNy+tj/l/KOVxRDdTb8tHkLk/HHKt8Nb6joFqaW6afkx2SG0FfktTEUGxoJU3JZz3HOX5PztVRIyyWqPFs8TFzHLPTT3JHyk7LzN3FJrC6IdoXG9+iGr6geXv5guz9iszuQHvD441Di9e6I4eUNq+9HPO7z+m+Jt/s3GvRf4JtXyOEnxDApW79i/vwb/wB3FIbRkRWkaQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/e785e08df9417837973cb10d5ea1155e/36727/ej5-14.png&quot;
+        srcset=&quot;/gatsbyjs/static/e785e08df9417837973cb10d5ea1155e/acf4b/ej5-14.png 173w,
+/gatsbyjs/static/e785e08df9417837973cb10d5ea1155e/fc834/ej5-14.png 345w,
+/gatsbyjs/static/e785e08df9417837973cb10d5ea1155e/36727/ej5-14.png 690w,
+/gatsbyjs/static/e785e08df9417837973cb10d5ea1155e/17fa4/ej5-14.png 1035w,
+/gatsbyjs/static/e785e08df9417837973cb10d5ea1155e/f73cf/ej5-14.png 1040w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Compilación de un programa en C utilizando un Makefile]]></title><description><![CDATA[Ylva - Command line password manager  Ylva es un antiguo nombre femenino sueco, significa "loba", un derivado del nórdico antiguo úlfr…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-programa-en-c-utilizando-un-makefile</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-programa-en-c-utilizando-un-makefile</guid><category><![CDATA[Compilacion]]></category><pubDate>Sat, 31 Oct 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;ylva---command-line-password-manager&quot;&gt;&lt;a href=&quot;#ylva---command-line-password-manager&quot; aria-label=&quot;ylva   command line password manager permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Ylva - Command line password manager&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 295px;&quot;
