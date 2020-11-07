@@ -139,12 +139,26 @@ Usuario autorizado
 Usuario no autorizado
 ![PracticaImg](images/servicios/ej5-10.png "Imagen de la practica")
 
-
-Usuario autorizado
-![PracticaImg](images/servicios/ej5-11.png "Imagen de la practica")
-Usuario no autorizado
+Usuario no autorizado, en cliente el usuario autorizado es la misma captura que en el ejercicio 2.
 ![PracticaImg](images/servicios/ej5-12.png "Imagen de la practica")
 
 ## Vamos a combinar el control de acceso (ejercicio 1) y la autentificación (Ejercicios 2 y 3), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.
 
+Modificamos la configuracion de /secreto en departamentos.conf
+```shell
+<Directory /var/www/departamentos/secreto>
+                Options Indexes FollowSymLinks MultiViews
+                AuthType Digest
+                AuthName "autorizados"
+                AuthUserFile "/var/www/departamentos/registro/psw.txt"
+                <RequireAny>
+                        Require ip 192.168.100
+			Require valid-user
+                </RequireAny>
+</Directory>
+```
+Como podemos ver si intentamos acceder desde nuestra maquina vemos como nos pide autentificación.
+![PracticaImg](images/servicios/ej5-13.png "Imagen de la practica")
 
+Mientras que desde nuestro cliente no.
+![PracticaImg](images/servicios/ej5-14.png "Imagen de la practica")
