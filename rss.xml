@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sat, 07 Nov 2020 01:31:02 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sat, 07 Nov 2020 01:33:38 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
 &lt;h3 id=&quot;para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot;&gt;&lt;a href=&quot;#para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot; aria-label=&quot;para poder acceder a la red local desde el exterior existe una red privada configurada con openvpn que utiliza certificados x509 para autenticar los usuarios y el servidor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Para poder acceder a la red local desde el exterior, existe una red privada configurada con OpenVPN que utiliza certificados x509 para autenticar los usuarios y el servidor.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -510,35 +510,116 @@ Adding password &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; use
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@servidor:/etc/apache2/sites-available&lt;span class=&quot;token comment&quot;&gt;# htdigest -c /var/www/departamentos/registro/psw.txt autorizados paco&lt;/span&gt;
 Adding password &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;paco&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; realm autorizados.
 New password: 
-Re-type new password:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+Re-type new password:
+root@servidor:/etc/apache2/sites-available&lt;span class=&quot;token comment&quot;&gt;# htdigest -c /var/www/departamentos/registro/psw.txt restringidos pepe&lt;/span&gt;
+Adding password &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;pepe&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; realm restringidos.
+New password: 
+Re-type new password: &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Usuario autorizado
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/b12a709c7bfd851f4b4da5115558e5b6/93430/ej5-9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.775510204081634%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABgklEQVQoz42RXUsbQRSG9y8ZNkFCQv0BIRfJnbkpZDfEpFar9MflukWxDdLmQtELRfK1hiB18rE7u5t9PLOGEC2FDjyc8545++6ZGatcLlOtVqlUKnzY22M3Y5Ozs9i2TTabTSkUCuTzeXK5HLbonZ0MmcwrZq9YLFIqlajV9rFOT75wdHzM18+HfGq3aTsuR4eSCwcHLer1Oq1Wi7bsuY0G9Y81Gq6D47o4jkOz2aQhddPjSs3qdDpcXnb5+eOC3u9fnJ19o9u94Pz8O7PZH6JIo7VPGAb4QYAOJNempgmMXkff91kul1hKPTOZzFFqIQZLPE8xHs8YDhXzeSKNSCPyIf+1LN+PuL4OxFTz9KS5vdWpNtzcLLi6WtDrzbm/90mShNVqlcZ/Yd3dmalCHh60TBnJP+I1q61oSP6axhhs56nhaDRmNPLo94cMBkOM9rxHObaX6n5/kEajp9PpBqXUxnDb2IrjSI4RE8exPEAoRBvCMHyDXj+GyU3/+2nNdbwAXGIcvBNDKuwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/b12a709c7bfd851f4b4da5115558e5b6/36727/ej5-9.png&quot;
+        srcset=&quot;/gatsbyjs/static/b12a709c7bfd851f4b4da5115558e5b6/acf4b/ej5-9.png 173w,
+/gatsbyjs/static/b12a709c7bfd851f4b4da5115558e5b6/fc834/ej5-9.png 345w,
+/gatsbyjs/static/b12a709c7bfd851f4b4da5115558e5b6/36727/ej5-9.png 690w,
+/gatsbyjs/static/b12a709c7bfd851f4b4da5115558e5b6/93430/ej5-9.png 784w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+Usuario no autorizado
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/f640da92332fdf3fad49da57601ce43e/16abd/ej5-10.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 39.25531914893617%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABKUlEQVQoz62N3WrCQBCF95GSklQIgVzYm1CItS3FNxKqJYKCdfPzUmJzE5KYpCj4lwRUEOLp7tJc9LY48LFnzpmdIb3eGzqdJ7y+POOh3Yam3qPVakFRVSiKAk3ToOs6VNbfyTJkhiRJojcMA5ZlodvtwjRNmI8WyOjjHbY9gj0cMIYY9PuYjMfwfR+UUnieJ/TscwqXTkEdBw7DdV2ReZ7L8t+ZGQWJkwRBEGA+n2OxWOCL6e12i/8WyfMMef6N1WqFzWaD9XqNLMuQpinzcyTsINfcWy6XiKIIcRwLHYahyLjH9fF4BOEB/3g4HARFUaAsS0FVVYJGN/7pdML5fBYL+Nv0l8sFhA82S/b7vdANu91OeM0xDp+v61pwvV7/vByCGxfh22/JD6zpKYgWoDNTAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/f640da92332fdf3fad49da57601ce43e/36727/ej5-10.png&quot;
+        srcset=&quot;/gatsbyjs/static/f640da92332fdf3fad49da57601ce43e/acf4b/ej5-10.png 173w,
+/gatsbyjs/static/f640da92332fdf3fad49da57601ce43e/fc834/ej5-10.png 345w,
+/gatsbyjs/static/f640da92332fdf3fad49da57601ce43e/36727/ej5-10.png 690w,
+/gatsbyjs/static/f640da92332fdf3fad49da57601ce43e/16abd/ej5-10.png 940w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;root@servidor:/etc/apache2/sites-available# htdigest -c /var/www/departamentos/registro/psw.txt restringidos pepe
-Adding password for pepe in realm restringidos.
-New password:
-Re-type new password: &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Usuario autorizado
-![PracticaImg](images/servicios/ej5-9.png &amp;quot;Imagen de la practica&amp;quot;)
-Usuario no autorizado
-![PracticaImg](images/servicios/ej5-10.png &amp;quot;Imagen de la practica&amp;quot;)
-
-Usuario no autorizado, en cliente el usuario autorizado es la misma captura que en el ejercicio 2.
-![PracticaImg](images/servicios/ej5-12.png &amp;quot;Imagen de la practica&amp;quot;)
-
-## Vamos a combinar el control de acceso (ejercicio 1) y la autentificación (Ejercicios 2 y 3), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.
-
-Modificamos la configuracion de /secreto en departamentos.conf
-```shell
-&amp;lt;Directory /var/www/departamentos/secreto&amp;gt;
+&lt;p&gt;Usuario no autorizado, en cliente el usuario autorizado es la misma captura que en el ejercicio 2.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/04880/ej5-12.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.46287367405979%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABjElEQVQoz52S3VLbMBCF/TQUEv3almRb8Y8cIFxwQSjNcJGEvv9LnK7kxM0MGZj24puzu1qdXXmc5VpDK5WQUkAKQbFEnmuok3ZdC+8bMMawWCywXC5nZURUzjk0eWW6tNClg8oNmrbH+LBBveqgC4vcOAhd4Ob2Djc/bsHoUlGWUHQxqdJYRFPGaXCR8oyVFZipE8J56LqDdCtwSxvRmfYB/vkd1WYLSQO0qyBtBUXEXNBCsnCQ1BvJqq5HeNygXa/Rjmv4IaDue1Rth6YfUr0ZRvgQlczDSPWTUh5x1JtXtEBh6MmuhvUrlE0D42lDS8+3FsrYUxynm785qTRTPsU29UdNhnFlVcZLLqmitZWZ0PQZIlM81WKfoAHx3lk5GUVmQz5j5sOvsZ+IPrPhvxJNr+X/bfhpQHne0CLj9P9cpfgmvwIjMln3ENXEZXwtP9dUPVAciOGCAE6aPf7a4/7nEePrEQ9vR6wpDtsD+pcPig8Ytsek/fY31T+oZw/3tIMIO6hxB3mBCG/4A1NIhyQSSylFAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/36727/ej5-12.png&quot;
+        srcset=&quot;/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/acf4b/ej5-12.png 173w,
+/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/fc834/ej5-12.png 345w,
+/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/36727/ej5-12.png 690w,
+/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/17fa4/ej5-12.png 1035w,
+/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/04880/ej5-12.png 1037w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;vamos-a-combinar-el-control-de-acceso-ejercicio-1-y-la-autentificación-ejercicios-2-y-3-y-vamos-a-configurar-el-virtual-host-para-que-se-comporte-de-la-siguiente-manera-el-acceso-a-la-url-departamentosiesgnorgsecreto-se-hace-forma-directa-desde-la-intranet-desde-la-red-pública-te-pide-la-autentificación-muestra-el-resultado-al-profesor&quot;&gt;&lt;a href=&quot;#vamos-a-combinar-el-control-de-acceso-ejercicio-1-y-la-autentificaci%C3%B3n-ejercicios-2-y-3-y-vamos-a-configurar-el-virtual-host-para-que-se-comporte-de-la-siguiente-manera-el-acceso-a-la-url-departamentosiesgnorgsecreto-se-hace-forma-directa-desde-la-intranet-desde-la-red-p%C3%BAblica-te-pide-la-autentificaci%C3%B3n-muestra-el-resultado-al-profesor&quot; aria-label=&quot;vamos a combinar el control de acceso ejercicio 1 y la autentificación ejercicios 2 y 3 y vamos a configurar el virtual host para que se comporte de la siguiente manera el acceso a la url departamentosiesgnorgsecreto se hace forma directa desde la intranet desde la red pública te pide la autentificación muestra el resultado al profesor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Vamos a combinar el control de acceso (ejercicio 1) y la autentificación (Ejercicios 2 y 3), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.&lt;/h2&gt;
+&lt;p&gt;Modificamos la configuracion de /secreto en departamentos.conf&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory /var/www/departamentos/secreto&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
                 Options Indexes FollowSymLinks MultiViews
                 AuthType Digest
-                AuthName &amp;quot;autorizados&amp;quot;
-                AuthUserFile &amp;quot;/var/www/departamentos/registro/psw.txt&amp;quot;
-                &amp;lt;RequireAny&amp;gt;
-                        Require ip 192.168.100
+                AuthName &lt;span class=&quot;token string&quot;&gt;&quot;autorizados&quot;&lt;/span&gt;
+                AuthUserFile &lt;span class=&quot;token string&quot;&gt;&quot;/var/www/departamentos/registro/psw.txt&quot;&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;RequireAny&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                        Require &lt;span class=&quot;token function&quot;&gt;ip&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100
 			Require valid-user
-                &amp;lt;/RequireAny&amp;gt;
-&amp;lt;/Directory&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+                &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/RequireAny&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Como podemos ver si intentamos acceder desde nuestra maquina vemos como nos pide autentificación.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;

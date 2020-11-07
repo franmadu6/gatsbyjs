@@ -359,35 +359,116 @@ Adding password <span class="token keyword">for</span> user root</code></pre></d
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@servidor:/etc/apache2/sites-available<span class="token comment"># htdigest -c /var/www/departamentos/registro/psw.txt autorizados paco</span>
 Adding password <span class="token keyword">for</span> <span class="token for-or-select variable">paco</span> <span class="token keyword">in</span> realm autorizados.
 New password: 
-Re-type new password:</code></pre></div>
+Re-type new password:
+root@servidor:/etc/apache2/sites-available<span class="token comment"># htdigest -c /var/www/departamentos/registro/psw.txt restringidos pepe</span>
+Adding password <span class="token keyword">for</span> <span class="token for-or-select variable">pepe</span> <span class="token keyword">in</span> realm restringidos.
+New password: 
+Re-type new password: </code></pre></div>
+<p>Usuario autorizado
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/b12a709c7bfd851f4b4da5115558e5b6/93430/ej5-9.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 38.775510204081634%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABgklEQVQoz42RXUsbQRSG9y8ZNkFCQv0BIRfJnbkpZDfEpFar9MflukWxDdLmQtELRfK1hiB18rE7u5t9PLOGEC2FDjyc8545++6ZGatcLlOtVqlUKnzY22M3Y5Ozs9i2TTabTSkUCuTzeXK5HLbonZ0MmcwrZq9YLFIqlajV9rFOT75wdHzM18+HfGq3aTsuR4eSCwcHLer1Oq1Wi7bsuY0G9Y81Gq6D47o4jkOz2aQhddPjSs3qdDpcXnb5+eOC3u9fnJ19o9u94Pz8O7PZH6JIo7VPGAb4QYAOJNempgmMXkff91kul1hKPTOZzFFqIQZLPE8xHs8YDhXzeSKNSCPyIf+1LN+PuL4OxFTz9KS5vdWpNtzcLLi6WtDrzbm/90mShNVqlcZ/Yd3dmalCHh60TBnJP+I1q61oSP6axhhs56nhaDRmNPLo94cMBkOM9rxHObaX6n5/kEajp9PpBqXUxnDb2IrjSI4RE8exPEAoRBvCMHyDXj+GyU3/+2nNdbwAXGIcvBNDKuwAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/b12a709c7bfd851f4b4da5115558e5b6/36727/ej5-9.png"
+        srcset="/gatsbyjs/static/b12a709c7bfd851f4b4da5115558e5b6/acf4b/ej5-9.png 173w,
+/gatsbyjs/static/b12a709c7bfd851f4b4da5115558e5b6/fc834/ej5-9.png 345w,
+/gatsbyjs/static/b12a709c7bfd851f4b4da5115558e5b6/36727/ej5-9.png 690w,
+/gatsbyjs/static/b12a709c7bfd851f4b4da5115558e5b6/93430/ej5-9.png 784w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span>
+Usuario no autorizado
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/f640da92332fdf3fad49da57601ce43e/16abd/ej5-10.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 39.25531914893617%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABKUlEQVQoz62N3WrCQBCF95GSklQIgVzYm1CItS3FNxKqJYKCdfPzUmJzE5KYpCj4lwRUEOLp7tJc9LY48LFnzpmdIb3eGzqdJ7y+POOh3Yam3qPVakFRVSiKAk3ToOs6VNbfyTJkhiRJojcMA5ZlodvtwjRNmI8WyOjjHbY9gj0cMIYY9PuYjMfwfR+UUnieJ/TscwqXTkEdBw7DdV2ReZ7L8t+ZGQWJkwRBEGA+n2OxWOCL6e12i/8WyfMMef6N1WqFzWaD9XqNLMuQpinzcyTsINfcWy6XiKIIcRwLHYahyLjH9fF4BOEB/3g4HARFUaAsS0FVVYJGN/7pdML5fBYL+Nv0l8sFhA82S/b7vdANu91OeM0xDp+v61pwvV7/vByCGxfh22/JD6zpKYgWoDNTAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/f640da92332fdf3fad49da57601ce43e/36727/ej5-10.png"
+        srcset="/gatsbyjs/static/f640da92332fdf3fad49da57601ce43e/acf4b/ej5-10.png 173w,
+/gatsbyjs/static/f640da92332fdf3fad49da57601ce43e/fc834/ej5-10.png 345w,
+/gatsbyjs/static/f640da92332fdf3fad49da57601ce43e/36727/ej5-10.png 690w,
+/gatsbyjs/static/f640da92332fdf3fad49da57601ce43e/16abd/ej5-10.png 940w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 </li>
 </ol>
-<p>root@servidor:/etc/apache2/sites-available# htdigest -c /var/www/departamentos/registro/psw.txt restringidos pepe
-Adding password for pepe in realm restringidos.
-New password:
-Re-type new password: </p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Usuario autorizado
-![PracticaImg](images/servicios/ej5-9.png &quot;Imagen de la practica&quot;)
-Usuario no autorizado
-![PracticaImg](images/servicios/ej5-10.png &quot;Imagen de la practica&quot;)
-
-Usuario no autorizado, en cliente el usuario autorizado es la misma captura que en el ejercicio 2.
-![PracticaImg](images/servicios/ej5-12.png &quot;Imagen de la practica&quot;)
-
-## Vamos a combinar el control de acceso (ejercicio 1) y la autentificación (Ejercicios 2 y 3), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.
-
-Modificamos la configuracion de /secreto en departamentos.conf
-```shell
-&lt;Directory /var/www/departamentos/secreto&gt;
+<p>Usuario no autorizado, en cliente el usuario autorizado es la misma captura que en el ejercicio 2.
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/04880/ej5-12.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 60.46287367405979%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABjElEQVQoz52S3VLbMBCF/TQUEv3almRb8Y8cIFxwQSjNcJGEvv9LnK7kxM0MGZj24puzu1qdXXmc5VpDK5WQUkAKQbFEnmuok3ZdC+8bMMawWCywXC5nZURUzjk0eWW6tNClg8oNmrbH+LBBveqgC4vcOAhd4Ob2Djc/bsHoUlGWUHQxqdJYRFPGaXCR8oyVFZipE8J56LqDdCtwSxvRmfYB/vkd1WYLSQO0qyBtBUXEXNBCsnCQ1BvJqq5HeNygXa/Rjmv4IaDue1Rth6YfUr0ZRvgQlczDSPWTUh5x1JtXtEBh6MmuhvUrlE0D42lDS8+3FsrYUxynm785qTRTPsU29UdNhnFlVcZLLqmitZWZ0PQZIlM81WKfoAHx3lk5GUVmQz5j5sOvsZ+IPrPhvxJNr+X/bfhpQHne0CLj9P9cpfgmvwIjMln3ENXEZXwtP9dUPVAciOGCAE6aPf7a4/7nEePrEQ9vR6wpDtsD+pcPig8Ytsek/fY31T+oZw/3tIMIO6hxB3mBCG/4A1NIhyQSSylFAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/36727/ej5-12.png"
+        srcset="/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/acf4b/ej5-12.png 173w,
+/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/fc834/ej5-12.png 345w,
+/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/36727/ej5-12.png 690w,
+/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/17fa4/ej5-12.png 1035w,
+/gatsbyjs/static/e61be70159c5fd55ab19cf6e20d84165/04880/ej5-12.png 1037w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<h2 id="vamos-a-combinar-el-control-de-acceso-ejercicio-1-y-la-autentificación-ejercicios-2-y-3-y-vamos-a-configurar-el-virtual-host-para-que-se-comporte-de-la-siguiente-manera-el-acceso-a-la-url-departamentosiesgnorgsecreto-se-hace-forma-directa-desde-la-intranet-desde-la-red-pública-te-pide-la-autentificación-muestra-el-resultado-al-profesor"><a href="#vamos-a-combinar-el-control-de-acceso-ejercicio-1-y-la-autentificaci%C3%B3n-ejercicios-2-y-3-y-vamos-a-configurar-el-virtual-host-para-que-se-comporte-de-la-siguiente-manera-el-acceso-a-la-url-departamentosiesgnorgsecreto-se-hace-forma-directa-desde-la-intranet-desde-la-red-p%C3%BAblica-te-pide-la-autentificaci%C3%B3n-muestra-el-resultado-al-profesor" aria-label="vamos a combinar el control de acceso ejercicio 1 y la autentificación ejercicios 2 y 3 y vamos a configurar el virtual host para que se comporte de la siguiente manera el acceso a la url departamentosiesgnorgsecreto se hace forma directa desde la intranet desde la red pública te pide la autentificación muestra el resultado al profesor permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Vamos a combinar el control de acceso (ejercicio 1) y la autentificación (Ejercicios 2 y 3), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.</h2>
+<p>Modificamos la configuracion de /secreto en departamentos.conf</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token operator">&lt;</span>Directory /var/www/departamentos/secreto<span class="token operator">></span>
                 Options Indexes FollowSymLinks MultiViews
                 AuthType Digest
-                AuthName &quot;autorizados&quot;
-                AuthUserFile &quot;/var/www/departamentos/registro/psw.txt&quot;
-                &lt;RequireAny&gt;
-                        Require ip 192.168.100
+                AuthName <span class="token string">"autorizados"</span>
+                AuthUserFile <span class="token string">"/var/www/departamentos/registro/psw.txt"</span>
+                <span class="token operator">&lt;</span>RequireAny<span class="token operator">></span>
+                        Require <span class="token function">ip</span> <span class="token number">192.168</span>.100
 			Require valid-user
-                &lt;/RequireAny&gt;
-&lt;/Directory&gt;</code></pre></div>
+                <span class="token operator">&lt;</span>/RequireAny<span class="token operator">></span>
+<span class="token operator">&lt;</span>/Directory<span class="token operator">></span></code></pre></div>
 <p>Como podemos ver si intentamos acceder desde nuestra maquina vemos como nos pide autentificación.
 <span
       class="gatsby-resp-image-wrapper"
