@@ -144,8 +144,8 @@ Usuario no autorizado.
 
 ## Vamos a combinar el control de acceso (ejercicio 1) y la autentificación (Ejercicios 2 y 3), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.
 
-Modificamos la configuracion de /secreto en departamentos.conf
-En este caso mezclaremos autorizaciones tipo digest, y que para poder acceder a dicha autentificacion deben acceder mediante la red 192.168.100...
+Modificamos la configuracion de /secreto en departamentos.conf.
+En este caso mezclaremos la autorizacion tipo digest, y que para poder acceder a dicha autentificacion deben acceder mediante el rango de ips 192.168.100 que son las de nuestra red privada.
 ```shell
 <Directory /var/www/departamentos/secreto>
                 Options Indexes FollowSymLinks MultiViews
