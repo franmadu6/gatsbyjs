@@ -40,7 +40,7 @@
         }
       }
     })
-  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-44bc9a9756ea55015b66.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-256ea88b7913782ee157.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/practica-3-integridad-firmas-y-autenticacion/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/otros">Otros<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/seguridad">Seguridad<strong> (<!-- -->4<!-- -->)</strong></a></li><li><a href="/gatsbyjs/servicios">Servicios<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sistemas-operativos">Sistemas Operativos<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Práctica 3: Integridad, firmas y autenticación </h1><p class="post-module--post-meta--1ci95">November 07, 2020<!-- --> — <!-- -->12<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/gpg"><span>Gpg</span></a><a href="/gatsbyjs/tags/open-ssl"><span>OpenSSL</span></a></div></div><div><h2 id="práctica-integridad-firmas-y-autenticación"><a href="#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n" aria-label="práctica integridad firmas y autenticación permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práctica: Integridad, firmas y autenticación</h2>
+  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-44bc9a9756ea55015b66.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-256ea88b7913782ee157.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/practica-3-integridad-firmas-y-autenticacion/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/otros">Otros<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/seguridad">Seguridad<strong> (<!-- -->4<!-- -->)</strong></a></li><li><a href="/gatsbyjs/servicios">Servicios<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sistemas-operativos">Sistemas Operativos<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Práctica 3: Integridad, firmas y autenticación </h1><p class="post-module--post-meta--1ci95">November 07, 2020<!-- --> — <!-- -->14<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/gpg"><span>Gpg</span></a><a href="/gatsbyjs/tags/open-ssl"><span>OpenSSL</span></a></div></div><div><h2 id="práctica-integridad-firmas-y-autenticación"><a href="#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n" aria-label="práctica integridad firmas y autenticación permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práctica: Integridad, firmas y autenticación</h2>
 <h3 id="tarea-1-firmas-electrónicas-3-puntos"><a href="#tarea-1-firmas-electr%C3%B3nicas-3-puntos" aria-label="tarea 1 firmas electrónicas 3 puntos permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 1: Firmas electrónicas (3 puntos)</h3>
 <p><strong>GPG</strong>  </p>
 <h3 id="manda-un-documento-y-la-firma-electrónica-del-mismo-a-un-compañero-verifica-la-firma-que-tu-has-recibido"><a href="#manda-un-documento-y-la-firma-electr%C3%B3nica-del-mismo-a-un-compa%C3%B1ero-verifica-la-firma-que-tu-has-recibido" aria-label="manda un documento y la firma electrónica del mismo a un compañero verifica la firma que tu has recibido permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Manda un documento y la firma electrónica del mismo a un compañero. Verifica la firma que tu has recibido.</h3>
@@ -196,199 +196,92 @@ Huellas dactilares de la clave primaria: DCFB 091C <span class="token number">54
 <ol>
 <li>Configura el cliente de correo evolution con tu cuenta de correo habitual.</li>
 </ol>
-<p>Nos instalaremos thunderbird.
-<span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/gatsbyjs/static/0fd538edcdf478349014bbe11b9dfc14/6ff5e/p3-1.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 70.58333333333333%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABuklEQVQ4y5VTTY+bMBDlx7SqlM8GY4yNIbDha9MsiVLtodpT1UqVeujHpT+fV48TEyDawx6exjx73rwZG2+9Xnfz+RwG3bv3HzCbzbBYLHDlEAQBwjBEFEV2Tftub3CuWy6XWK1WnUeHAs475m/w8uMfdvsz6nKHqq7x2DQoyxJSSjDGLDjnfRERCRuJM3udEAKe+egs4fvdw/NvbPY/wWwCBzeHwytIxIkOQTxpUDRdkMNLRW6w0Xvw4hmxTpBoDd0jRpIkSNPURrdO06R3THAOe+KxLnA+fkL79ITjscXhcDDxiNPphLZt0ZgRVFXVo2lqxHF8L+hEtXG23Wa28tjJxZlzTCJxrOzaXda1ZXjXGVjC9/1+Xm+By79rOc8zW925HuKWbC5M3Lhp9IZElmV9G0On9GyUkvZMGufQ0RZSKCvOg7H4SHA4K7J/E4ygpLLrh7OP4stHJKV57EL2uQ53gtSyUmoiKCGji8PdZ4bqZQOZ+Qh8bl0ORUeCSaJtMl3OdNjE0yi0TCGYaZeFr7fsiDzPURQ7+5CnN+jAAvN3cMJFzMZpyy6JHHz7/hV//v4a/buvYTo/wn+kLs6/FBzGZgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="PracticaImg"
-        title="Imagen de la practica"
-        src="/gatsbyjs/static/0fd538edcdf478349014bbe11b9dfc14/36727/p3-1.png"
-        srcset="/gatsbyjs/static/0fd538edcdf478349014bbe11b9dfc14/acf4b/p3-1.png 173w,
-/gatsbyjs/static/0fd538edcdf478349014bbe11b9dfc14/fc834/p3-1.png 345w,
-/gatsbyjs/static/0fd538edcdf478349014bbe11b9dfc14/36727/p3-1.png 690w,
-/gatsbyjs/static/0fd538edcdf478349014bbe11b9dfc14/17fa4/p3-1.png 1035w,
-/gatsbyjs/static/0fd538edcdf478349014bbe11b9dfc14/6ff5e/p3-1.png 1200w"
-        sizes="(max-width: 690px) 100vw, 690px"
-        loading="lazy"
-      />
-  </a>
-    </span>
-Pondremos nuestro nombre para la configuración y añadiremos una de nuestras cuentas.
-<span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 646px;"
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/gatsbyjs/static/e268aac407a5caded709aefd8cb1f50a/cb0d3/p3-2.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 107.89473684210526%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsSAAALEgHS3X78AAAClUlEQVQ4y3VUWZLaQAz1bRg+AIONN/Bus4V1QlFUZYprZA6UuWUKRU9YTjPAx0NtWv36aWlZb29vf7vdLrG9MgjrTqdDo9GIsiyjNE0FRZFTnmdUliVNp1NqzohlyNler3e1bNsmxrWxLUDoum6L8Xh8ZweDAX07cx0Oh2SxwxVOsJ7niXMURTSfz6mua5rNZrJerVZil8ulrKFWLzA5LFOFCZAXRdGiLAsJFxfEcaxEd8A5CweDIBCoQmxiDWDt+75A/3McR1ICq1ARFoiQfNyONTZBMplMKEmSFnmet9blfeQNOQOwxjmkygrDUJwUZh7TNBFUfBkqHbGvEo0M4NsFIe+3hDgAVbdcsMKY1ZQVZXlBYTRlVRyq65E9dB4wsEc0csYUsN8doSbWAWGSUzVfUj1fkRdMyHY8Ggxd6jNBn+3AQN92aMj7fhiTVNlMrJIG0YTKqqKCwy1Zac3VjTiCW2F8GkvBGjRrqfJD6ccO+VOPaiZDq0A9ipZlKVVVKS2E1sH3rYBN4zdi7gldEP5vG7NVzDbStdHYLSRk7SnzNu01E68egQkLvYUnhtDQKqh0NJly/m7PruLQsV/X1W2v8XmFO0JMEXx7fiBFOB5/0uFwoP1+L3axWNB6vZY3DV88we+w8HNLeiZ/QMHhsKfL5SIFwDAAAZSiEPpyQPgMFpQdj0dWsRNH5OHz8zd9ff2h7XZLHx+/6HQ60fv7QS5AWKpOSe4UYgyBbLPZyB84sFwu6Hw+0263k8tg1+sfrTKT7EFhksTtVIYjDqk1Jzbe9LOcKfScpWPrWd/p6NLx9grwUV+Zh0g4WgSSUUkFQkcK9Fk+A/YQCVImbQNmrVwYBhIeqqmVx/B49iLMKQ0iFAxq/wHENeRzWw1CgAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="PracticaImg"
-        title="Imagen de la practica"
-        src="/gatsbyjs/static/e268aac407a5caded709aefd8cb1f50a/cb0d3/p3-2.png"
-        srcset="/gatsbyjs/static/e268aac407a5caded709aefd8cb1f50a/acf4b/p3-2.png 173w,
-/gatsbyjs/static/e268aac407a5caded709aefd8cb1f50a/fc834/p3-2.png 345w,
-/gatsbyjs/static/e268aac407a5caded709aefd8cb1f50a/cb0d3/p3-2.png 646w"
-        sizes="(max-width: 646px) 100vw, 646px"
-        loading="lazy"
-      />
-  </a>
-    </span>
-OAuth2
-<span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/gatsbyjs/static/78c1d259d4a5c7765a576d29e5b9acf5/39282/p3-3.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 80.3061224489796%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACAElEQVQ4y51TTY/aMBDlf/DRAxwLK35g1UNvnKr2UrULagKsilS1Ui9b9dhDxRHErYdFW4SWpoQ4IbaTkPjV4yi7sF8qtTQa23nz5o0zUyo/KatqtYpKpaK0oVwuo9FooNlsotVqaf8UrZMTtNttc86tiXq9brC1Wg063nDou6zUtXsYDAdqMBhgOByCfL/fh23b6GvrvbfQPT1Fr/sOlmXBsi3jCZfH5PjRaKQ6nQ5KABTyVfi7K0mRpTEeWSZ2Pp+r0m63w76laYogCOB5nvGuu4YQQp8ZGGPm3nEcRFFksBQTx3myyWRiFN6kUblIAkop4fu+IWHaFwnoLgxDZFl2HVPsZ7PZIeE+KfkkSYyCcOtD8PBa0W3sg4T7ZFQSqYwjCceLsQkis6c7SlTgHlV4h1BwcBnj2VmIt98kVBqBc3FAeLRCrkt982WFT9//IIn58YQFiMhc18VqdQXnaoGArcH1z7hd8j8Q5m0lZIQ1i+BtU7jaGFdgQulzognj4xUGocTr8y1efBZ49VXg5bnA848CH35wDUxM4qMIw5Dj58UCl0sXF0uGhSNwueL4veHY/c9fpu6nNjGtoidFyht76A2n0+n9CglHoDTNsBUZQv1kgUghIlKjDqaEjBqe1ng8vl8hBdD8MubB9zZYL3+Z8dt4rh49T3+TB9XsE/4FSWWV2EkCzyUAAAAASUVORK5CYII='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="PracticaImg"
-        title="Imagen de la practica"
-        src="/gatsbyjs/static/78c1d259d4a5c7765a576d29e5b9acf5/36727/p3-3.png"
-        srcset="/gatsbyjs/static/78c1d259d4a5c7765a576d29e5b9acf5/acf4b/p3-3.png 173w,
-/gatsbyjs/static/78c1d259d4a5c7765a576d29e5b9acf5/fc834/p3-3.png 345w,
-/gatsbyjs/static/78c1d259d4a5c7765a576d29e5b9acf5/36727/p3-3.png 690w,
-/gatsbyjs/static/78c1d259d4a5c7765a576d29e5b9acf5/39282/p3-3.png 980w"
-        sizes="(max-width: 690px) 100vw, 690px"
-        loading="lazy"
-      />
-  </a>
-    </span>
-Como podemos ver ya tenemos instalado y configurado nuestro cliente.
-<span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/gatsbyjs/static/2aaf96d4ad3ac219bb69fec871313c5e/3b243/p3-4.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 98.24218750000001%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAACjElEQVQ4y9VUy3abQAzlb4LDmKexARv8xDjBbxy7Jm3c00U2zf8vUXRF7CZNmtPTXRf3zAxornSlkTS/E1aO1ybH83n1yTAUNRoNga7r5HkehWFIQRAwOnR9fc02xgVKKayVaZqwrbTT9x/05XhfFXcH2u2PtF6vabVa0WazkfX29pZubm7o8fGRnp5+0na7pX6/T51Oh9rttjh0HIdc163SNCUtHudVmO4oGOZVlIxoMBhQmk5oNpvJfjwe03A4pOk0ZUzlO84gA1qtFhRUvu/XEWIzGk8o6nap2VSMJtm2LWSIBOj1enIZEnHOsuzyDdHFcUyIDmcNBDggT7hgWZZ4XSwWNJ/PRTYkI2o4wj7Pc5F8zuNoNKKiKGpCkwkhBQZKGRyhSUnscy6XjI0QIII4iclylDhKkkSKhkKAcDKZUFmWwqHZbotmfAmkFhso1aTJOKBvX0s6Hkv2PqQupyOKQrI9RYfDQQhQXahD1eH04eFBlGlR3KecpSFcGCllUj/xabfbilzIhsRuNyLTMS4pgHwQniPc7/e1ZJtzhtLXZEok95O2RLhcLqUAfZboug6ZtkHFrpCcv5acZVM6nU6sIiLt5WGKN1TZYMlRiKLM+Q3mgjyfS1ps17o8nZpMsWRUfsDOV+zUq6t8BsgbDeTFFGB/hmFYH3w339lrNdFbwrPhZ6gJ3jrA/kPCs8fP0RT8bv9Hwr8nNv9Hwteoc2P+M7TXwxLQdUC9w9WV8YJ6r+vNd/+w13gwSg+iWzyvxS3V4pH0C/XZ50fbfgPHcvlxuzydPL4fkO+H/N0nDRN6s9ly797JCmAUYcW02W4L7ucFt9uUuyTjNZPeDcZr6oQ9mURleS+DpCh29Aw9tYvYc/GwcwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="PracticaImg"
-        title="Imagen de la practica"
-        src="/gatsbyjs/static/2aaf96d4ad3ac219bb69fec871313c5e/36727/p3-4.png"
-        srcset="/gatsbyjs/static/2aaf96d4ad3ac219bb69fec871313c5e/acf4b/p3-4.png 173w,
-/gatsbyjs/static/2aaf96d4ad3ac219bb69fec871313c5e/fc834/p3-4.png 345w,
-/gatsbyjs/static/2aaf96d4ad3ac219bb69fec871313c5e/36727/p3-4.png 690w,
-/gatsbyjs/static/2aaf96d4ad3ac219bb69fec871313c5e/3b243/p3-4.png 1024w"
-        sizes="(max-width: 690px) 100vw, 690px"
-        loading="lazy"
-      />
-  </a>
-    </span></p>
+<p>La configuración inicial es muy simple y son varios siguiente,siguiente...<br>
+Deberás poner tu nombre y asociar un correo en este caso al ser gmail te saldra una ventana de OAuth2<br>
+En la que deberas de poner tu cuenta una vez hecho esto ya podras disfrutar de Evolution.</p>
 <ol start="2">
 <li>Añade a la cuenta las opciones de seguridad para poder enviar correos firmados con tu clave privada o cifrar los mensajes para otros destinatarios.</li>
-<li>
-<p>Exportaremos nuestra clave privada para poder firmar nuestro mensajes.</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">rfran@debian:~/Documentos$ gpg --export-secret-key -a <span class="token string">"frandh1997@gmail.com"</span> <span class="token operator">></span> private.gpg</code></pre></div>
-</li>
-<li>Nos iremos a la siguiente ruta.<br>
-Opciones -> Tools -> OpenPgP key Manager -> File -> Import Secrect key from file ->
-<span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 660px;"
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/gatsbyjs/static/ff1a5c81d6c2178f2532d685d2f240e4/2a182/p3-5.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 53.78787878787878%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAB50lEQVQoz22SS4/SUBTH+2kMGEIs0HehhYGlpRSKMCN98GZDIsk4O5fGxTgziY9o4tbP4NJHot/AjyN/7zmdYhcufvnf0/O6555KpVLpT7lchtAjqW1bMHUTiqzAUM17DCg1FVpDg64YsI0mLN1Cs9lEtVrlXAEqlcpRkmUZgiNprVaD/KgG/9zD7sUKi8sY88uIWV4lWDxPhKZ8Tp/NYBh6llOoITUajSN9JFVVBeUHD7F/ucPn35/w5us13v+4YT7+vMPbb9d49/01Pvy6w+2XV9AMDXmugFWybRvtdhuWlY3QarUYx3Hguu4JsimOyG2Kp7wMm1WaTCbY7/eIohhJIsZZilEXS6xXa6zXG7bzb5vNFtvtjn1kT6fnGI1ChOGYGQ5HkMIwxOFw4OD5fMFKwbNZhDhOGDoT1JTPUYSLi6dcjKBCpINBAIm6rETHIBgiTVNRIMZ4/IRt3x+g3/dZi5CPihCUk0+RJAlOb+g47ul9cvr9vhhrKhKH4gYj0DRBEODsrMvxFNPtdtHr9RjKpy0L578lZI/votPpwPMeixv5orDHeJ4nxhpwEVpccWG0IF3XISmKgnq9IajjfvV8VlVV/GfGCdM0T0o+isnzyKYNa5qWFfwfefFik6IW4+hmNC41/AuYu5qB9o8yNAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="PracticaImg"
-        title="Imagen de la practica"
-        src="/gatsbyjs/static/ff1a5c81d6c2178f2532d685d2f240e4/2a182/p3-5.png"
-        srcset="/gatsbyjs/static/ff1a5c81d6c2178f2532d685d2f240e4/acf4b/p3-5.png 173w,
-/gatsbyjs/static/ff1a5c81d6c2178f2532d685d2f240e4/fc834/p3-5.png 345w,
-/gatsbyjs/static/ff1a5c81d6c2178f2532d685d2f240e4/2a182/p3-5.png 660w"
-        sizes="(max-width: 660px) 100vw, 660px"
-        loading="lazy"
-      />
-  </a>
-    </span>
-Con estos pasos ya tendremos nuestra clave en thunderbird
-<span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/gatsbyjs/static/93f3980b0b97bb85bbabc1d8016dee18/2053a/p3-6.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 97.32558139534883%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAABVElEQVQ4y+2UzW6DMBCE/TI5BLD5/zcOgYREkdL3fxqmu6uAekBNo+ZSqYdPHuzZsddCVl1n0XXd3Pc9DoeDsOhxHGGtRV3XQpIkSNN0JUlSmcuyDE3TzGVZQuV5PhdFwSGzcw7H43ENZM2BZJZA9nFRVVXy7VwnXs5gHzGrLMtlBza0bSvFzKJ55ELWSyDDm1MQwjCEMQa+72O320FxGC8MwyAFURRJGwtxHBGxkCTEQ3PLxmgEQQCt9YrioOlyoRZ7nE4nXK9X0VVV437/wDRN0tZIa3wFztFVUM1A98vzTFGUjw0TKFs26CqLIq9hi4ZOW6MiWoLna6Ilj6PRlq14XG1hdAzP51ZDeJ5ZUfu9xhbeD/QWak+pX/E2vzW2fFso75vFZ8iJ3xn49hP+B/6VwP2TP/9VVBCE+A1aR4IxsYzyfL1OLk8e6/P5jNvtJvBr9QnTnVC5CXql0gAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="PracticaImg"
-        title="Imagen de la practica"
-        src="/gatsbyjs/static/93f3980b0b97bb85bbabc1d8016dee18/36727/p3-6.png"
-        srcset="/gatsbyjs/static/93f3980b0b97bb85bbabc1d8016dee18/acf4b/p3-6.png 173w,
-/gatsbyjs/static/93f3980b0b97bb85bbabc1d8016dee18/fc834/p3-6.png 345w,
-/gatsbyjs/static/93f3980b0b97bb85bbabc1d8016dee18/36727/p3-6.png 690w,
-/gatsbyjs/static/93f3980b0b97bb85bbabc1d8016dee18/2053a/p3-6.png 860w"
-        sizes="(max-width: 690px) 100vw, 690px"
-        loading="lazy"
-      />
-  </a>
-    </span></li>
+</ol>
+<p>Primero apuntamos nuestra id publica:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~$ gpg --list-keys
+/home/fran/.gnupg/pubring.kbx
+-----------------------------
+pub   rsa3072 <span class="token number">2020</span>-10-06 <span class="token punctuation">[</span>SC<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2022</span>-10-06<span class="token punctuation">]</span>
+      28ED3C3112ED8846BEDFFAF657112B319F2A6170
+uid        <span class="token punctuation">[</span>  absoluta <span class="token punctuation">]</span> Francisco Javier Madueño Jurado <span class="token operator">&lt;</span>frandh1997@gmail.com<span class="token operator">></span>
+sub   rsa3072 <span class="token number">2020</span>-10-06 <span class="token punctuation">[</span>E<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2022</span>-10-06<span class="token punctuation">]</span></code></pre></div>
+<p>Ahora seguiremos la siguiente ruta:
+Editar → Preferencias → Preferencias del editor → Firmas → Añadir → Ponemos nuestra id.
+<img src="images/seguridad/p3-1.png" alt="PracticaImg" title="Imagen de la practica"></p>
+<ol start="3">
 <li>Envía y recibe varios mensajes con tus compañeros y comprueba el funcionamiento adecuado de GPG.</li>
 </ol>
+<p>Creación de mensaje firmado:
+<img src="images/seguridad/p3-2.png" alt="PracticaImg" title="Imagen de la practica"></p>
+<p>Creación de mensaje cifrado:
+<img src="images/seguridad/p3-3.png" alt="PracticaImg" title="Imagen de la practica"></p>
+<p>Falta foto de mensaje llegado a lora:
+<img src="images/seguridad/p3-4.png" alt="PracticaImg" title="Imagen de la practica"></p>
+<p>Falta foto de mansaje de lora:
+<img src="images/seguridad/p3-5.png" alt="PracticaImg" title="Imagen de la practica"></p>
 <h2 id="tarea-3-integridad-de-ficheros-1-punto"><a href="#tarea-3-integridad-de-ficheros-1-punto" aria-label="tarea 3 integridad de ficheros 1 punto permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 3: Integridad de ficheros (1 punto)</h2>
 <p>Vamos a descargarnos la ISO de debian, y posteriormente vamos a comprobar su integridad.</p>
 <p>Puedes encontrar la ISO en la dirección: <a href="https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/">https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/</a>.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Para validar el contenido de la imagen CD, solo asegúrese de usar la herramienta apropiada para sumas de verificación. Para cada versión publicada existen archivos de suma de comprobación con algoritmos fuertes (SHA256 y SHA512); debería usar las herramientas sha256sum o sha512sum para trabajar con ellos.
-Verifica que el contenido del hash que has utilizado no ha sido manipulado, usando la firma digital que encontrarás en el repositorio. Puedes encontrar una guía para realizarlo en este artículo: How to verify an authenticity of downloaded Debian ISO images</code></pre></div>
+<ol>
+<li>Para validar el contenido de la imagen CD, solo asegúrese de usar la herramienta apropiada para sumas de verificación. Para cada versión publicada existen archivos de suma de comprobación con algoritmos fuertes (SHA256 y SHA512); debería usar las herramientas sha256sum o sha512sum para trabajar con ellos.</li>
+</ol>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/home/fran/Descargas<span class="token comment"># sha512sum -c SHA512SUMS 2> /dev/null | grep netinst</span>
+debian-10.6.0-amd64-netinst.iso: La suma coincide
+debian-edu-10.6.0-amd64-netinst.iso: La suma coincide
+debian-mac-10.6.0-amd64-netinst.iso: La suma coincide
+root@debian:/home/fran/Descargas<span class="token comment"># md5sum -c MD5SUMS 2> /dev/null | grep netinst</span>
+debian-10.6.0-amd64-netinst.iso: La suma coincide
+debian-edu-10.6.0-amd64-netinst.iso: La suma coincide
+debian-mac-10.6.0-amd64-netinst.iso: La suma coincide</code></pre></div>
+<ol start="2">
+<li>Verifica que el contenido del hash que has utilizado no ha sido manipulado, usando la firma digital que encontrarás en el repositorio. Puedes encontrar una guía para realizarlo en este artículo: How to verify an authenticity of downloaded Debian ISO images</li>
+</ol>
+<p>Importaremos las claves publicas de debian</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/home/fran/Descargas<span class="token comment"># gpg --keyserver keyring.debian.org --recv-keys 64E6EA7D</span>
+gpg: clave 988021A964E6EA7D: clave pública <span class="token string">"Debian CD signing key &lt;debian-cd@lists.debian.org>"</span> importada
+gpg: Cantidad total procesada: <span class="token number">1</span>
+gpg:               importadas: <span class="token number">1</span>
+root@debian:/home/fran/Descargas<span class="token comment"># gpg --keyserver keyring.debian.org --recv-keys 6294BE9B</span>
+gpg: clave DA87E80D6294BE9B: clave pública <span class="token string">"Debian CD signing key &lt;debian-cd@lists.debian.org>"</span> importada
+gpg: Cantidad total procesada: <span class="token number">1</span>
+gpg:               importadas: <span class="token number">1</span>
+root@debian:/home/fran/Descargas<span class="token comment"># gpg --keyserver keyring.debian.org --recv-keys 09EA8AC3</span>
+gpg: clave 42468F4009EA8AC3: clave pública <span class="token string">"Debian Testing CDs Automatic Signing Key &lt;debian-cd@lists.debian.org>"</span> importada
+gpg: Cantidad total procesada: <span class="token number">1</span>
+gpg:               importadas: <span class="token number">1</span></code></pre></div>
+<p>Verificamos clave:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/home/fran/Descargas<span class="token comment"># gpg --verify MD5SUMS.sign </span>
+gpg: asumiendo que los datos firmados están en <span class="token string">'MD5SUMS'</span>
+gpg: Firmado el dom <span class="token number">27</span> sep <span class="token number">2020</span> 02:24:22 CEST
+gpg:                usando RSA clave DF9B9C49EAA9298432589D76DA87E80D6294BE9B
+gpg: Firma correcta de <span class="token string">"Debian CD signing key &lt;debian-cd@lists.debian.org>"</span> <span class="token punctuation">[</span>desconocido<span class="token punctuation">]</span>
+gpg: ATENCIÓN: ¡Esta clave no está certificada por una firma de confianza<span class="token operator">!</span>
+gpg:          No hay indicios de que la firma pertenezca al propietario.
+Huellas dactilares de la clave primaria: DF9B 9C49 EAA9 <span class="token number">2984</span> <span class="token number">3258</span>  9D76 DA87 E80D <span class="token number">6294</span> BE9B</code></pre></div>
+<p>Comprobamos que ambos ficheros son iguales:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/home/fran/Descargas<span class="token comment"># gpg --verify MD5SUMS.sign MD5SUMS</span>
+gpg: Firmado el dom <span class="token number">27</span> sep <span class="token number">2020</span> 02:24:22 CEST
+gpg:                usando RSA clave DF9B9C49EAA9298432589D76DA87E80D6294BE9B
+gpg: Firma correcta de <span class="token string">"Debian CD signing key &lt;debian-cd@lists.debian.org>"</span> <span class="token punctuation">[</span>desconocido<span class="token punctuation">]</span>
+gpg: ATENCIÓN: ¡Esta clave no está certificada por una firma de confianza<span class="token operator">!</span>
+gpg:          No hay indicios de que la firma pertenezca al propietario.
+Huellas dactilares de la clave primaria: DF9B 9C49 EAA9 <span class="token number">2984</span> <span class="token number">3258</span>  9D76 DA87 E80D <span class="token number">6294</span> BE9B</code></pre></div>
+<p><strong>Como hemos comprobado que ambos ficheros son iguales, podemos confiar en ellos, ahora podremos comprobar el fichero ISO de debian.</strong></p>
+<p>Código de comprobación de la iso de debian.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/home/fran/Descargas<span class="token comment"># md5sum debian-10.6.0-amd64-netinst.iso</span>
+42c43392d108ed8957083843392c794b  debian-10.6.0-amd64-netinst.iso</code></pre></div>
+<p>Código de comprobación del fichero MD5SUMS</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/home/fran/Descargas<span class="token comment"># cat MD5SUMS</span>
+42c43392d108ed8957083843392c794b  debian-10.6.0-amd64-netinst.iso
+3b6d4c43e10a06731a98005d0b1c14a1  debian-10.6.0-amd64-xfce-CD-1.iso
+02f0041c789c29fbf6530ffd291d5119  debian-edu-10.6.0-amd64-netinst.iso
+adf9e02c5a9a471cac7e527ca2ca77db  debian-mac-10.6.0-amd64-netinst.iso</code></pre></div>
+<p>El código de comprobación de ambos ficheros es el mismo por lo que podemos decir que el fichero es auténtico.</p>
 <h2 id="tarea-4-integridad-y-autenticidad-apt-secure-2-puntos"><a href="#tarea-4-integridad-y-autenticidad-apt-secure-2-puntos" aria-label="tarea 4 integridad y autenticidad apt secure 2 puntos permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 4: Integridad y autenticidad (apt secure) (2 puntos)</h2>
 <p>Cuando nos instalamos un paquete en nuestra distribución linux tenemos que asegurarnos que ese paquete es legítimo. Para conseguir este objetivo se utiliza criptografía asimétrica, y en el caso de Debian a este sistema se llama apt secure. Esto lo debemos tener en cuenta al utilizar los repositorios oficiales. Cuando añadamos nuevos repositorios tendremos que añadir las firmas necesarias para confiar en que los paquetes son legítimos y no han sido modificados.</p>
 <p>Busca información sobre apt secure y responde las siguientes preguntas:</p>
