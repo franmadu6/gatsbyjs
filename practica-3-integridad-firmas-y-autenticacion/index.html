@@ -40,7 +40,7 @@
         }
       }
     })
-  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-44bc9a9756ea55015b66.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-256ea88b7913782ee157.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/practica-3-integridad-firmas-y-autenticacion/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/otros">Otros<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/seguridad">Seguridad<strong> (<!-- -->4<!-- -->)</strong></a></li><li><a href="/gatsbyjs/servicios">Servicios<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sistemas-operativos">Sistemas Operativos<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Práctica 3: Integridad, firmas y autenticación </h1><p class="post-module--post-meta--1ci95">November 07, 2020<!-- --> — <!-- -->11<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/gpg"><span>Gpg</span></a><a href="/gatsbyjs/tags/open-ssl"><span>OpenSSL</span></a></div></div><div><h2 id="práctica-integridad-firmas-y-autenticación"><a href="#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n" aria-label="práctica integridad firmas y autenticación permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práctica: Integridad, firmas y autenticación</h2>
+  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-44bc9a9756ea55015b66.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-256ea88b7913782ee157.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/practica-3-integridad-firmas-y-autenticacion/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/otros">Otros<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/seguridad">Seguridad<strong> (<!-- -->4<!-- -->)</strong></a></li><li><a href="/gatsbyjs/servicios">Servicios<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sistemas-operativos">Sistemas Operativos<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Práctica 3: Integridad, firmas y autenticación </h1><p class="post-module--post-meta--1ci95">November 07, 2020<!-- --> — <!-- -->12<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/gpg"><span>Gpg</span></a><a href="/gatsbyjs/tags/open-ssl"><span>OpenSSL</span></a></div></div><div><h2 id="práctica-integridad-firmas-y-autenticación"><a href="#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n" aria-label="práctica integridad firmas y autenticación permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práctica: Integridad, firmas y autenticación</h2>
 <h3 id="tarea-1-firmas-electrónicas-3-puntos"><a href="#tarea-1-firmas-electr%C3%B3nicas-3-puntos" aria-label="tarea 1 firmas electrónicas 3 puntos permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 1: Firmas electrónicas (3 puntos)</h3>
 <p><strong>GPG</strong>  </p>
 <h3 id="manda-un-documento-y-la-firma-electrónica-del-mismo-a-un-compañero-verifica-la-firma-que-tu-has-recibido"><a href="#manda-un-documento-y-la-firma-electr%C3%B3nica-del-mismo-a-un-compa%C3%B1ero-verifica-la-firma-que-tu-has-recibido" aria-label="manda un documento y la firma electrónica del mismo a un compañero verifica la firma que tu has recibido permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Manda un documento y la firma electrónica del mismo a un compañero. Verifica la firma que tu has recibido.</h3>
@@ -318,6 +318,70 @@ Como podemos ver ya tenemos instalado y configurado nuestro cliente.
     </span></p>
 <ol start="2">
 <li>Añade a la cuenta las opciones de seguridad para poder enviar correos firmados con tu clave privada o cifrar los mensajes para otros destinatarios.</li>
+<li>
+<p>Exportaremos nuestra clave privada para poder firmar nuestro mensajes.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">rfran@debian:~/Documentos$ gpg --export-secret-key -a <span class="token string">"frandh1997@gmail.com"</span> <span class="token operator">></span> private.gpg</code></pre></div>
+</li>
+<li>Nos iremos a la siguiente ruta.<br>
+Opciones -> Tools -> OpenPgP key Manager -> File -> Import Secrect key from file ->
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 660px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/ff1a5c81d6c2178f2532d685d2f240e4/2a182/p3-5.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 53.78787878787878%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAB50lEQVQoz22SS4/SUBTH+2kMGEIs0HehhYGlpRSKMCN98GZDIsk4O5fGxTgziY9o4tbP4NJHot/AjyN/7zmdYhcufvnf0/O6555KpVLpT7lchtAjqW1bMHUTiqzAUM17DCg1FVpDg64YsI0mLN1Cs9lEtVrlXAEqlcpRkmUZgiNprVaD/KgG/9zD7sUKi8sY88uIWV4lWDxPhKZ8Tp/NYBh6llOoITUajSN9JFVVBeUHD7F/ucPn35/w5us13v+4YT7+vMPbb9d49/01Pvy6w+2XV9AMDXmugFWybRvtdhuWlY3QarUYx3Hguu4JsimOyG2Kp7wMm1WaTCbY7/eIohhJIsZZilEXS6xXa6zXG7bzb5vNFtvtjn1kT6fnGI1ChOGYGQ5HkMIwxOFw4OD5fMFKwbNZhDhOGDoT1JTPUYSLi6dcjKBCpINBAIm6rETHIBgiTVNRIMZ4/IRt3x+g3/dZi5CPihCUk0+RJAlOb+g47ul9cvr9vhhrKhKH4gYj0DRBEODsrMvxFNPtdtHr9RjKpy0L578lZI/votPpwPMeixv5orDHeJ4nxhpwEVpccWG0IF3XISmKgnq9IajjfvV8VlVV/GfGCdM0T0o+isnzyKYNa5qWFfwfefFik6IW4+hmNC41/AuYu5qB9o8yNAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/ff1a5c81d6c2178f2532d685d2f240e4/2a182/p3-5.png"
+        srcset="/gatsbyjs/static/ff1a5c81d6c2178f2532d685d2f240e4/acf4b/p3-5.png 173w,
+/gatsbyjs/static/ff1a5c81d6c2178f2532d685d2f240e4/fc834/p3-5.png 345w,
+/gatsbyjs/static/ff1a5c81d6c2178f2532d685d2f240e4/2a182/p3-5.png 660w"
+        sizes="(max-width: 660px) 100vw, 660px"
+        loading="lazy"
+      />
+  </a>
+    </span>
+Con estos pasos ya tendremos nuestra clave en thunderbird
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/93f3980b0b97bb85bbabc1d8016dee18/2053a/p3-6.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 97.32558139534883%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAABVElEQVQ4y+2UzW6DMBCE/TI5BLD5/zcOgYREkdL3fxqmu6uAekBNo+ZSqYdPHuzZsddCVl1n0XXd3Pc9DoeDsOhxHGGtRV3XQpIkSNN0JUlSmcuyDE3TzGVZQuV5PhdFwSGzcw7H43ENZM2BZJZA9nFRVVXy7VwnXs5gHzGrLMtlBza0bSvFzKJ55ELWSyDDm1MQwjCEMQa+72O320FxGC8MwyAFURRJGwtxHBGxkCTEQ3PLxmgEQQCt9YrioOlyoRZ7nE4nXK9X0VVV437/wDRN0tZIa3wFztFVUM1A98vzTFGUjw0TKFs26CqLIq9hi4ZOW6MiWoLna6Ilj6PRlq14XG1hdAzP51ZDeJ5ZUfu9xhbeD/QWak+pX/E2vzW2fFso75vFZ8iJ3xn49hP+B/6VwP2TP/9VVBCE+A1aR4IxsYzyfL1OLk8e6/P5jNvtJvBr9QnTnVC5CXql0gAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/93f3980b0b97bb85bbabc1d8016dee18/36727/p3-6.png"
+        srcset="/gatsbyjs/static/93f3980b0b97bb85bbabc1d8016dee18/acf4b/p3-6.png 173w,
+/gatsbyjs/static/93f3980b0b97bb85bbabc1d8016dee18/fc834/p3-6.png 345w,
+/gatsbyjs/static/93f3980b0b97bb85bbabc1d8016dee18/36727/p3-6.png 690w,
+/gatsbyjs/static/93f3980b0b97bb85bbabc1d8016dee18/2053a/p3-6.png 860w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
 <li>Envía y recibe varios mensajes con tus compañeros y comprueba el funcionamiento adecuado de GPG.</li>
 </ol>
 <h2 id="tarea-3-integridad-de-ficheros-1-punto"><a href="#tarea-3-integridad-de-ficheros-1-punto" aria-label="tarea 3 integridad de ficheros 1 punto permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 3: Integridad de ficheros (1 punto)</h2>
