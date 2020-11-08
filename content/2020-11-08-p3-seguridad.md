@@ -176,9 +176,19 @@ Huellas dactilares de la clave primaria: DCFB 091C 5495 684E 59BC  061E A52A 681
 
 Ahora vamos a configurar nuestro cliente de correo electrónico para poder mandar correos cifrados, para ello:
 
-Configura el cliente de correo evolution con tu cuenta de correo habitual
-Añade a la cuenta las opciones de seguridad para poder enviar correos firmados con tu clave privada o cifrar los mensajes para otros destinatarios
-Envía y recibe varios mensajes con tus compañeros y comprueba el funcionamiento adecuado de GPG
+1. Configura el cliente de correo evolution con tu cuenta de correo habitual.
+
+Nos instalaremos thunderbird
+![PracticaImg](images/seguridad/p3-1.png "Imagen de la practica")
+La configuración de thunderbird es sencilla, te registras mediante OAuth2 de manera sencilla y ya puedes acceder a sus prestaciones.
+
+2. Añade a la cuenta las opciones de seguridad para poder enviar correos firmados con tu clave privada o cifrar los mensajes para otros destinatarios.
+
+
+3. Envía y recibe varios mensajes con tus compañeros y comprueba el funcionamiento adecuado de GPG.
+
+
+
 
 ## Tarea 3: Integridad de ficheros (1 punto)
 
