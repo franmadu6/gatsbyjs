@@ -101,96 +101,90 @@ gpg: enviando clave 57112B319F2A6170 a hkp://pgp.rediris.es</code></pre></div>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~/Cifrado$ gpg --keyserver keyserver.ubuntu.com --recv-key 9987B52D
 gpg: clave 4F54B5799987B52D: clave pública <span class="token string">"Juan Antonio Reifs &lt;initategnat9@gmail.com>"</span> importada
 gpg: Cantidad total procesada: <span class="token number">1</span>
-gpg:               importadas: <span class="token number">1</span></code></pre></div>
+gpg:               importadas: <span class="token number">1</span>
+fran@debian:~/Cifrado$ gpg --keyserver pgp.rediris.es --recv-key 2C4EE5DF
+gpg: clave C3B291882C4EE5DF: <span class="token string">"Alejandro Gutierrez Valencia &lt;tojandro@gmail.com>"</span> sin cambios
+gpg: Cantidad total procesada: <span class="token number">1</span>
+gpg:              sin cambios: <span class="token number">1</span></code></pre></div>
+</li>
+<li>
+<p>Firmar claves de compañeros →</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~/Cifrado$ gpg --sign-key 2C4EE5DF</code></pre></div>
 </li>
 </ul>
-<p>fran@debian:~/Cifrado$ gpg --keyserver pgp.rediris.es --recv-key 2C4EE5DF
-gpg: clave C3B291882C4EE5DF: "Alejandro Gutierrez Valencia <a href="mailto:tojandro@gmail.com">tojandro@gmail.com</a>" sin cambios
-gpg: Cantidad total procesada: 1
-gpg:              sin cambios: 1</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">* Firmar claves de compañeros →
-```shell
-fran@debian:~/Cifrado$ gpg --sign-key 2C4EE5DF
-
-pub  rsa3072/C3B291882C4EE5DF
-     creado: 2020-10-08  caduca: 2020-11-07  uso: SC  
-     confianza: desconocido   validez: desconocido
+<p>pub  rsa3072/C3B291882C4EE5DF
+creado: 2020-10-08  caduca: 2020-11-07  uso: SC<br>
+confianza: desconocido   validez: desconocido
 sub  rsa3072/3C5DBE21F6961E37
-     creado: 2020-10-08  caduca: 2020-11-07  uso: E   
-[desconocida] (1). Alejandro Gutierrez Valencia &lt;tojandro@gmail.com&gt;
-
-
-pub  rsa3072/C3B291882C4EE5DF
-     creado: 2020-10-08  caduca: 2020-11-07  uso: SC  
-     confianza: desconocido   validez: desconocido
- Huella clave primaria: 443D 661D 9AAF 3ABA EDCA  93E1 C3B2 9188 2C4E E5DF
-
-     Alejandro Gutierrez Valencia &lt;tojandro@gmail.com&gt;
-
-Esta clave expirará el 2020-11-07.
+creado: 2020-10-08  caduca: 2020-11-07  uso: E<br>
+[desconocida] (1). Alejandro Gutierrez Valencia <a href="mailto:tojandro@gmail.com">tojandro@gmail.com</a></p>
+<p>pub  rsa3072/C3B291882C4EE5DF
+creado: 2020-10-08  caduca: 2020-11-07  uso: SC<br>
+confianza: desconocido   validez: desconocido
+Huella clave primaria: 443D 661D 9AAF 3ABA EDCA  93E1 C3B2 9188 2C4E E5DF</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> Alejandro Gutierrez Valencia &lt;tojandro@gmail.com&gt;</code></pre></div>
+<p>Esta clave expirará el 2020-11-07.
 ¿Está realmente seguro de querer firmar esta clave
-con su clave: &quot;Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;&quot; (57112B319F2A6170)?
-
-¿Firmar de verdad? (s/N) s</code></pre></div>
-<ul>
-<li>
-<p>Muestra las firmas que tiene tu clave pública.</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~/Descargas$ gpg --list-sign
+con su clave: "Francisco Javier Madueño Jurado <a href="mailto:frandh1997@gmail.com">frandh1997@gmail.com</a>" (57112B319F2A6170)?</p>
+<p>¿Firmar de verdad? (s/N) s</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">* Muestra las firmas que tiene tu clave pública.
+```shell
+fran@debian:~/Descargas$ gpg --list-sign
 /home/fran/.gnupg/pubring.kbx
 -----------------------------
-pub   rsa3072 <span class="token number">2020</span>-10-06 <span class="token punctuation">[</span>SC<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2022</span>-10-06<span class="token punctuation">]</span>
-  28ED3C3112ED8846BEDFFAF657112B319F2A6170
-uid        <span class="token punctuation">[</span>  absoluta <span class="token punctuation">]</span> Francisco Javier Madueño Jurado <span class="token operator">&lt;</span>frandh1997@gmail.com<span class="token operator">></span>
-sig <span class="token number">3</span>        57112B319F2A6170 <span class="token number">2020</span>-10-06  Francisco Javier Madueño Jurado <span class="token operator">&lt;</span>frandh1997@gmail.com<span class="token operator">></span>
-sig          C3B291882C4EE5DF <span class="token number">2020</span>-10-28  Alejandro Gutierrez Valencia <span class="token operator">&lt;</span>tojandro@gmail.com<span class="token operator">></span>
-sub   rsa3072 <span class="token number">2020</span>-10-06 <span class="token punctuation">[</span>E<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2022</span>-10-06<span class="token punctuation">]</span>
-sig          57112B319F2A6170 <span class="token number">2020</span>-10-06  Francisco Javier Madueño Jurado <span class="token operator">&lt;</span>frandh1997@gmail.com<span class="token operator">></span></code></pre></div>
-</li>
-</ul>
-<p>pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
-9233303D1F5495739A6D2CB4636AE9EBCB7E3294
-uid        [   total   ] Manuel Lora Román <a href="mailto:manuelloraroman@gmail.com">manuelloraroman@gmail.com</a>
-sig 3        636AE9EBCB7E3294 2020-10-06  Manuel Lora Román <a href="mailto:manuelloraroman@gmail.com">manuelloraroman@gmail.com</a>
-sig          57112B319F2A6170 2020-10-28  Francisco Javier Madueño Jurado <a href="mailto:frandh1997@gmail.com">frandh1997@gmail.com</a>
+pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
+      28ED3C3112ED8846BEDFFAF657112B319F2A6170
+uid        [  absoluta ] Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;
+sig 3        57112B319F2A6170 2020-10-06  Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;
+sig          C3B291882C4EE5DF 2020-10-28  Alejandro Gutierrez Valencia &lt;tojandro@gmail.com&gt;
 sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]
-sig          636AE9EBCB7E3294 2020-10-06  Manuel Lora Román <a href="mailto:manuelloraroman@gmail.com">manuelloraroman@gmail.com</a></p>
-<p>pub   rsa3072 2020-10-08 [SC] [caduca: 2020-11-07]
-443D661D9AAF3ABAEDCA93E1C3B291882C4EE5DF
-uid        [   total   ] Alejandro Gutierrez Valencia <a href="mailto:tojandro@gmail.com">tojandro@gmail.com</a>
-sig 3        C3B291882C4EE5DF 2020-10-08  Alejandro Gutierrez Valencia <a href="mailto:tojandro@gmail.com">tojandro@gmail.com</a>
-sig          57112B319F2A6170 2020-10-22  Francisco Javier Madueño Jurado <a href="mailto:frandh1997@gmail.com">frandh1997@gmail.com</a>
+sig          57112B319F2A6170 2020-10-06  Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;
+#
+pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
+      9233303D1F5495739A6D2CB4636AE9EBCB7E3294
+uid        [   total   ] Manuel Lora Román &lt;manuelloraroman@gmail.com&gt;
+sig 3        636AE9EBCB7E3294 2020-10-06  Manuel Lora Román &lt;manuelloraroman@gmail.com&gt;
+sig          57112B319F2A6170 2020-10-28  Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;
+sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]
+sig          636AE9EBCB7E3294 2020-10-06  Manuel Lora Román &lt;manuelloraroman@gmail.com&gt;
+#
+pub   rsa3072 2020-10-08 [SC] [caduca: 2020-11-07]
+      443D661D9AAF3ABAEDCA93E1C3B291882C4EE5DF
+uid        [   total   ] Alejandro Gutierrez Valencia &lt;tojandro@gmail.com&gt;
+sig 3        C3B291882C4EE5DF 2020-10-08  Alejandro Gutierrez Valencia &lt;tojandro@gmail.com&gt;
+sig          57112B319F2A6170 2020-10-22  Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;
 sig          A52A681834F0E596 2020-10-28  [ID de usuario no encontrado]
 sub   rsa3072 2020-10-08 [E] [caduca: 2020-11-07]
-sig          C3B291882C4EE5DF 2020-10-08  Alejandro Gutierrez Valencia <a href="mailto:tojandro@gmail.com">tojandro@gmail.com</a></p>
-<p>pub   rsa3072 2020-10-22 [SC] [caduca: 2022-10-22]
-AD19812061DA946F8DA70E0C4F54B5799987B52D
-uid        [   total   ] Juan Antonio Reifs <a href="mailto:initategnat9@gmail.com">initategnat9@gmail.com</a>
-sig 3        4F54B5799987B52D 2020-10-22  Juan Antonio Reifs <a href="mailto:initategnat9@gmail.com">initategnat9@gmail.com</a>
-sig          57112B319F2A6170 2020-10-28  Francisco Javier Madueño Jurado <a href="mailto:frandh1997@gmail.com">frandh1997@gmail.com</a>
+sig          C3B291882C4EE5DF 2020-10-08  Alejandro Gutierrez Valencia &lt;tojandro@gmail.com&gt;
+#
+pub   rsa3072 2020-10-22 [SC] [caduca: 2022-10-22]
+      AD19812061DA946F8DA70E0C4F54B5799987B52D
+uid        [   total   ] Juan Antonio Reifs &lt;initategnat9@gmail.com&gt;
+sig 3        4F54B5799987B52D 2020-10-22  Juan Antonio Reifs &lt;initategnat9@gmail.com&gt;
+sig          57112B319F2A6170 2020-10-28  Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;
 sub   rsa3072 2020-10-22 [E] [caduca: 2022-10-22]
-sig          4F54B5799987B52D 2020-10-22  Juan Antonio Reifs <a href="mailto:initategnat9@gmail.com">initategnat9@gmail.com</a></p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">### Comprueba que puedes verificar con confianza una firma de una persona en las que no confías, pero sin embargo si confía otra persona en la que tu tienes confianza total.
-```shell
-#firmo un documento y lo envio(aunque por defecto suele coger tu propia firma he leido que puede generar errores asi que he añadido la linea default key para asegurarlo.
+sig          4F54B5799987B52D 2020-10-22  Juan Antonio Reifs &lt;initategnat9@gmail.com&gt;</code></pre></div>
+<h3 id="comprueba-que-puedes-verificar-con-confianza-una-firma-de-una-persona-en-las-que-no-confías-pero-sin-embargo-si-confía-otra-persona-en-la-que-tu-tienes-confianza-total"><a href="#comprueba-que-puedes-verificar-con-confianza-una-firma-de-una-persona-en-las-que-no-conf%C3%ADas-pero-sin-embargo-si-conf%C3%ADa-otra-persona-en-la-que-tu-tienes-confianza-total" aria-label="comprueba que puedes verificar con confianza una firma de una persona en las que no confías pero sin embargo si confía otra persona en la que tu tienes confianza total permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Comprueba que puedes verificar con confianza una firma de una persona en las que no confías, pero sin embargo si confía otra persona en la que tu tienes confianza total.</h3>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment">#firmo un documento y lo envio(aunque por defecto suele coger tu propia firma he leido que puede generar errores asi que he añadido la linea default key para asegurarlo.</span>
 fran@debian:~/Cifrado/cifrado2$ gpg --sign --default-key frandh1997@gmail.com fockiu.txt 
-gpg: usando &quot;frandh1997@gmail.com&quot; como clave secreta predeterminada para firmar
+gpg: usando <span class="token string">"frandh1997@gmail.com"</span> como clave secreta predeterminada para firmar
 
 fran@debian:~/Cifrado/cifrado2$ gpg --import jose.key 
-gpg: clave A52A681834F0E596: clave pública &quot;José Miguel Calderón Frutos &lt;josemiguelcalderonfrutos@gamil.com&gt;&quot; importada
-gpg: Cantidad total procesada: 1
-gpg:               importadas: 1
-gpg: marginals needed: 3  completes needed: 1  trust model: pgp
-gpg: nivel: 0  validez:   1  firmada:   3  confianza: 0-, 0q, 0n, 0m, 0f, 1u
-gpg: nivel: 1  validez:   3  firmada:   1  confianza: 2-, 0q, 0n, 1m, 0f, 0u
-gpg: siguiente comprobación de base de datos de confianza el: 2020-11-07
+gpg: clave A52A681834F0E596: clave pública <span class="token string">"José Miguel Calderón Frutos &lt;josemiguelcalderonfrutos@gamil.com>"</span> importada
+gpg: Cantidad total procesada: <span class="token number">1</span>
+gpg:               importadas: <span class="token number">1</span>
+gpg: marginals needed: <span class="token number">3</span>  completes needed: <span class="token number">1</span>  trust model: pgp
+gpg: nivel: <span class="token number">0</span>  validez:   <span class="token number">1</span>  firmada:   <span class="token number">3</span>  confianza: <span class="token number">0</span>-, 0q, 0n, 0m, 0f, 1u
+gpg: nivel: <span class="token number">1</span>  validez:   <span class="token number">3</span>  firmada:   <span class="token number">1</span>  confianza: <span class="token number">2</span>-, 0q, 0n, 1m, 0f, 0u
+gpg: siguiente comprobación de base de datos de confianza el: <span class="token number">2020</span>-11-07
 fran@debian:~/Cifrado/cifrado2$ gpg -d hola.sig 
 Tonto el que lo lea
-gpg: Firmado el mar 03 nov 2020 12:31:01 CET
+gpg: Firmado el mar 03 nov <span class="token number">2020</span> <span class="token number">12</span>:31:01 CET
 gpg:                usando RSA clave DCFB091C5495684E59BC061EA52A681834F0E596
-gpg: Firma correcta de &quot;José Miguel Calderón Frutos &lt;josemiguelcalderonfrutos@gamil.com&gt;&quot; [dudosa]
-gpg: ATENCIÓN: ¡Esta clave no está certificada con firmas de suficiente confianza!
+gpg: Firma correcta de <span class="token string">"José Miguel Calderón Frutos &lt;josemiguelcalderonfrutos@gamil.com>"</span> <span class="token punctuation">[</span>dudosa<span class="token punctuation">]</span>
+gpg: ATENCIÓN: ¡Esta clave no está certificada con firmas de suficiente confianza<span class="token operator">!</span>
 gpg:          No es seguro que la firma pertenezca al propietario.
-Huellas dactilares de la clave primaria: DCFB 091C 5495 684E 59BC  061E A52A 6818 34F0 E596</code></pre></div>
+Huellas dactilares de la clave primaria: DCFB 091C <span class="token number">5495</span> 684E 59BC  061E A52A <span class="token number">6818</span> 34F0 E596</code></pre></div>
 <h2 id="tarea-2-correo-seguro-con-evolutionthunderbird-2-puntos"><a href="#tarea-2-correo-seguro-con-evolutionthunderbird-2-puntos" aria-label="tarea 2 correo seguro con evolutionthunderbird 2 puntos permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 2: Correo seguro con evolution/thunderbird (2 puntos)</h2>
 <p>Ahora vamos a configurar nuestro cliente de correo electrónico para poder mandar correos cifrados, para ello:</p>
 <p>Configura el cliente de correo evolution con tu cuenta de correo habitual
