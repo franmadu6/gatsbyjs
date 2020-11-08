@@ -189,6 +189,16 @@ Como podemos ver ya tenemos instalado y configurado nuestro cliente.
 
 2. Añade a la cuenta las opciones de seguridad para poder enviar correos firmados con tu clave privada o cifrar los mensajes para otros destinatarios.
 
+* Exportaremos nuestra clave privada para poder firmar nuestro mensajes.
+```shell
+rfran@debian:~/Documentos$ gpg --export-secret-key -a "frandh1997@gmail.com" > private.gpg
+```
+* Nos iremos a la siguiente ruta.  
+Opciones -> Tools -> OpenPgP key Manager -> File -> Import Secrect key from file -> 
+![PracticaImg](images/seguridad/p3-5.png "Imagen de la practica")
+Con estos pasos ya tendremos nuestra clave en thunderbird
+![PracticaImg](images/seguridad/p3-6.png "Imagen de la practica")
+
 
 3. Envía y recibe varios mensajes con tus compañeros y comprueba el funcionamiento adecuado de GPG.
 
