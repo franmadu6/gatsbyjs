@@ -58,13 +58,13 @@ Huellas dactilares de la clave primaria: 9233 303D 1F54 9573 9A6D  2CB4 636A E9E
 Significa que no confiamos esa firma de confianza ni nosotros ni nuestro anillo de confianzas.
 
 ### Vamos a crear un anillo de confianza entre los miembros de nuestra clase, para ello.
- - Tu clave pública debe estar en un servidor de claves  
- - Escribe tu fingerprint en un papel y dárselo a tu compañero, para que puede descargarse tu clave pública.  
- - Te debes bajar al menos tres claves públicas de compañeros. Firma estas claves.  
- - Tu te debes asegurar que tu clave pública es firmada por al menos tres compañeros de la clase.  
- - Una vez que firmes una clave se la tendrás que devolver a su dueño, para que otra persona se la firme.  
- - Cuando tengas las tres firmas sube la clave al servidor de claves y rellena tus datos en la tabla Claves públicas PGP 2020-2021  
- - Asegurate que te vuelves a bajar las claves públicas de tus compañeros que tengan las tres firmas.  
+     * Tu clave pública debe estar en un servidor de claves  
+     * Escribe tu fingerprint en un papel y dárselo a tu compañero, para que puede descargarse tu clave pública.  
+     * Te debes bajar al menos tres claves públicas de compañeros. Firma estas claves.  
+     * Tu te debes asegurar que tu clave pública es firmada por al menos tres compañeros de la clase.  
+     * Una vez que firmes una clave se la tendrás que devolver a su dueño, para que otra persona se la firme.  
+     * Cuando tengas las tres firmas sube la clave al servidor de claves y rellena tus datos en la tabla Claves públicas PGP 2020-2021  
+     * Asegurate que te vuelves a bajar las claves públicas de tus compañeros que tengan las tres firmas.  
 
 * Añadir firma a un servidor en este caso a Rediris → 
 ```shell
@@ -288,7 +288,7 @@ root@debian:/home/fran/Descargas# cat MD5SUMS
 02f0041c789c29fbf6530ffd291d5119  debian-edu-10.6.0-amd64-netinst.iso
 adf9e02c5a9a471cac7e527ca2ca77db  debian-mac-10.6.0-amd64-netinst.iso
 ```
-El código de comprobación de ambos ficheros es el mismo por lo que podemos decir que el fichero es auténtico.
+**El código de comprobación de ambos ficheros es el mismo por lo que podemos decir que el fichero es auténtico.**
 
 ## Tarea 4: Integridad y autenticidad (apt secure) (2 puntos)
 
