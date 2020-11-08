@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sun, 08 Nov 2020 18:27:36 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Práctica 3: Integridad, firmas y autenticación ]]></title><description><![CDATA[Práctica: Integridad, firmas y autenticación Tarea 1: Firmas electrónicas (3 puntos) GPG   Manda un documento y la firma electrónica del…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Sat, 07 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-integridad-firmas-y-autenticación&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n&quot; aria-label=&quot;práctica integridad firmas y autenticación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Integridad, firmas y autenticación&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sun, 08 Nov 2020 18:30:22 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Práctica 3: Integridad, firmas y autenticación ]]></title><description><![CDATA[Práctica: Integridad, firmas y autenticación Tarea 1: Firmas electrónicas (3 puntos) GPG   Manda un documento y la firma electrónica del…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Sat, 07 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-integridad-firmas-y-autenticación&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n&quot; aria-label=&quot;práctica integridad firmas y autenticación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Integridad, firmas y autenticación&lt;/h2&gt;
 &lt;h3 id=&quot;tarea-1-firmas-electrónicas-3-puntos&quot;&gt;&lt;a href=&quot;#tarea-1-firmas-electr%C3%B3nicas-3-puntos&quot; aria-label=&quot;tarea 1 firmas electrónicas 3 puntos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Firmas electrónicas (3 puntos)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;GPG&lt;/strong&gt;  &lt;/p&gt;
 &lt;h3 id=&quot;manda-un-documento-y-la-firma-electrónica-del-mismo-a-un-compañero-verifica-la-firma-que-tu-has-recibido&quot;&gt;&lt;a href=&quot;#manda-un-documento-y-la-firma-electr%C3%B3nica-del-mismo-a-un-compa%C3%B1ero-verifica-la-firma-que-tu-has-recibido&quot; aria-label=&quot;manda un documento y la firma electrónica del mismo a un compañero verifica la firma que tu has recibido permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Manda un documento y la firma electrónica del mismo a un compañero. Verifica la firma que tu has recibido.&lt;/h3&gt;
@@ -41,14 +41,14 @@ Huellas dactilares de la clave primaria: &lt;span class=&quot;token number&quot;
 &lt;/ul&gt;
 &lt;p&gt;Significa que no confiamos esa firma de confianza ni nosotros ni nuestro anillo de confianzas.&lt;/p&gt;
 &lt;h3 id=&quot;vamos-a-crear-un-anillo-de-confianza-entre-los-miembros-de-nuestra-clase-para-ello&quot;&gt;&lt;a href=&quot;#vamos-a-crear-un-anillo-de-confianza-entre-los-miembros-de-nuestra-clase-para-ello&quot; aria-label=&quot;vamos a crear un anillo de confianza entre los miembros de nuestra clase para ello permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Vamos a crear un anillo de confianza entre los miembros de nuestra clase, para ello.&lt;/h3&gt;
+&lt;p&gt;Tu clave pública debe estar en un servidor de claves&lt;br&gt;
+Escribe tu fingerprint en un papel y dárselo a tu compañero, para que puede descargarse tu clave pública.&lt;br&gt;
+Te debes bajar al menos tres claves públicas de compañeros. Firma estas claves.&lt;br&gt;
+Tu te debes asegurar que tu clave pública es firmada por al menos tres compañeros de la clase.&lt;br&gt;
+Una vez que firmes una clave se la tendrás que devolver a su dueño, para que otra persona se la firme.&lt;br&gt;
+Cuando tengas las tres firmas sube la clave al servidor de claves y rellena tus datos en la tabla Claves públicas PGP 2020-2021&lt;br&gt;
+Asegurate que te vuelves a bajar las claves públicas de tus compañeros que tengan las tres firmas.  &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Tu clave pública debe estar en un servidor de claves&lt;/li&gt;
-&lt;li&gt;Escribe tu fingerprint en un papel y dárselo a tu compañero, para que puede descargarse tu clave pública.&lt;/li&gt;
-&lt;li&gt;Te debes bajar al menos tres claves públicas de compañeros. Firma estas claves.&lt;/li&gt;
-&lt;li&gt;Tu te debes asegurar que tu clave pública es firmada por al menos tres compañeros de la clase.&lt;/li&gt;
-&lt;li&gt;Una vez que firmes una clave se la tendrás que devolver a su dueño, para que otra persona se la firme.&lt;/li&gt;
-&lt;li&gt;Cuando tengas las tres firmas sube la clave al servidor de claves y rellena tus datos en la tabla Claves públicas PGP 2020-2021&lt;/li&gt;
-&lt;li&gt;Asegurate que te vuelves a bajar las claves públicas de tus compañeros que tengan las tres firmas.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Añadir firma a un servidor en este caso a Rediris → &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Cifrado/cifrado2$ gpg --keyserver pgp.rediris.es --send-key 9F2A6170
@@ -67,61 +67,67 @@ gpg:              sin cambios: &lt;span class=&quot;token number&quot;&gt;1&lt;/
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Firmar claves de compañeros →&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Cifrado$ gpg --sign-key 2C4EE5DF&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;pub  rsa3072/C3B291882C4EE5DF
-creado: 2020-10-08  caduca: 2020-11-07  uso: SC&lt;br&gt;
-confianza: desconocido   validez: desconocido
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Cifrado$ gpg --sign-key 2C4EE5DF
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+pub  rsa3072/C3B291882C4EE5DF
+ creado: &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-08  caduca: &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-11-07  uso: SC  
+ confianza: desconocido   validez: desconocido
 sub  rsa3072/3C5DBE21F6961E37
-creado: 2020-10-08  caduca: 2020-11-07  uso: E&lt;br&gt;
-[desconocida] (1). Alejandro Gutierrez Valencia &lt;a href=&quot;mailto:tojandro@gmail.com&quot;&gt;tojandro@gmail.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;pub  rsa3072/C3B291882C4EE5DF
-creado: 2020-10-08  caduca: 2020-11-07  uso: SC&lt;br&gt;
-confianza: desconocido   validez: desconocido
-Huella clave primaria: 443D 661D 9AAF 3ABA EDCA  93E1 C3B2 9188 2C4E E5DF&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; Alejandro Gutierrez Valencia &amp;lt;tojandro@gmail.com&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Esta clave expirará el 2020-11-07.
+ creado: &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-08  caduca: &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-11-07  uso: E   
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;desconocida&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;. Alejandro Gutierrez Valencia &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;tojandro@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+pub  rsa3072/C3B291882C4EE5DF
+ creado: &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-08  caduca: &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-11-07  uso: SC  
+ confianza: desconocido   validez: desconocido
+Huella clave primaria: 443D 661D 9AAF 3ABA EDCA  93E1 C3B2 &lt;span class=&quot;token number&quot;&gt;9188&lt;/span&gt; 2C4E E5DF
+
+ Alejandro Gutierrez Valencia &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;tojandro@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+Esta clave expirará el &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-11-07.
 ¿Está realmente seguro de querer firmar esta clave
-con su clave: &quot;Francisco Javier Madueño Jurado &lt;a href=&quot;mailto:frandh1997@gmail.com&quot;&gt;frandh1997@gmail.com&lt;/a&gt;&quot; (57112B319F2A6170)?&lt;/p&gt;
-&lt;p&gt;¿Firmar de verdad? (s/N) s&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* Muestra las firmas que tiene tu clave pública.
-```shell
-fran@debian:~/Descargas$ gpg --list-sign
+con &lt;span class=&quot;token function&quot;&gt;su&lt;/span&gt; clave: &lt;span class=&quot;token string&quot;&gt;&quot;Francisco Javier Madueño Jurado &amp;lt;frandh1997@gmail.com&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;57112B319F2A6170&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;?
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+¿Firmar de verdad? &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s/N&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; s&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Muestra las firmas que tiene tu clave pública.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Descargas$ gpg --list-sign
 /home/fran/.gnupg/pubring.kbx
 -----------------------------
-pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
-      28ED3C3112ED8846BEDFFAF657112B319F2A6170
-uid        [  absoluta ] Francisco Javier Madueño Jurado &amp;lt;frandh1997@gmail.com&amp;gt;
-sig 3        57112B319F2A6170 2020-10-06  Francisco Javier Madueño Jurado &amp;lt;frandh1997@gmail.com&amp;gt;
-sig          C3B291882C4EE5DF 2020-10-28  Alejandro Gutierrez Valencia &amp;lt;tojandro@gmail.com&amp;gt;
-sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]
-sig          57112B319F2A6170 2020-10-06  Francisco Javier Madueño Jurado &amp;lt;frandh1997@gmail.com&amp;gt;
-#
-pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
-      9233303D1F5495739A6D2CB4636AE9EBCB7E3294
-uid        [   total   ] Manuel Lora Román &amp;lt;manuelloraroman@gmail.com&amp;gt;
-sig 3        636AE9EBCB7E3294 2020-10-06  Manuel Lora Román &amp;lt;manuelloraroman@gmail.com&amp;gt;
-sig          57112B319F2A6170 2020-10-28  Francisco Javier Madueño Jurado &amp;lt;frandh1997@gmail.com&amp;gt;
-sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]
-sig          636AE9EBCB7E3294 2020-10-06  Manuel Lora Román &amp;lt;manuelloraroman@gmail.com&amp;gt;
-#
-pub   rsa3072 2020-10-08 [SC] [caduca: 2020-11-07]
-      443D661D9AAF3ABAEDCA93E1C3B291882C4EE5DF
-uid        [   total   ] Alejandro Gutierrez Valencia &amp;lt;tojandro@gmail.com&amp;gt;
-sig 3        C3B291882C4EE5DF 2020-10-08  Alejandro Gutierrez Valencia &amp;lt;tojandro@gmail.com&amp;gt;
-sig          57112B319F2A6170 2020-10-22  Francisco Javier Madueño Jurado &amp;lt;frandh1997@gmail.com&amp;gt;
-sig          A52A681834F0E596 2020-10-28  [ID de usuario no encontrado]
-sub   rsa3072 2020-10-08 [E] [caduca: 2020-11-07]
-sig          C3B291882C4EE5DF 2020-10-08  Alejandro Gutierrez Valencia &amp;lt;tojandro@gmail.com&amp;gt;
-#
-pub   rsa3072 2020-10-22 [SC] [caduca: 2022-10-22]
-      AD19812061DA946F8DA70E0C4F54B5799987B52D
-uid        [   total   ] Juan Antonio Reifs &amp;lt;initategnat9@gmail.com&amp;gt;
-sig 3        4F54B5799987B52D 2020-10-22  Juan Antonio Reifs &amp;lt;initategnat9@gmail.com&amp;gt;
-sig          57112B319F2A6170 2020-10-28  Francisco Javier Madueño Jurado &amp;lt;frandh1997@gmail.com&amp;gt;
-sub   rsa3072 2020-10-22 [E] [caduca: 2022-10-22]
-sig          4F54B5799987B52D 2020-10-22  Juan Antonio Reifs &amp;lt;initategnat9@gmail.com&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+pub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SC&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-06&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  28ED3C3112ED8846BEDFFAF657112B319F2A6170
+uid        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;  absoluta &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Francisco Javier Madueño Jurado &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;frandh1997@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sig &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;        57112B319F2A6170 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06  Francisco Javier Madueño Jurado &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;frandh1997@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sig          C3B291882C4EE5DF &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-28  Alejandro Gutierrez Valencia &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;tojandro@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;E&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-06&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+sig          57112B319F2A6170 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06  Francisco Javier Madueño Jurado &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;frandh1997@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+pub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SC&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-06&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  9233303D1F5495739A6D2CB4636AE9EBCB7E3294
+uid        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;   total   &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Manuel Lora Román &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;manuelloraroman@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sig &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;        636AE9EBCB7E3294 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06  Manuel Lora Román &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;manuelloraroman@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sig          57112B319F2A6170 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-28  Francisco Javier Madueño Jurado &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;frandh1997@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;E&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-06&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+sig          636AE9EBCB7E3294 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06  Manuel Lora Román &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;manuelloraroman@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+pub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-08 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SC&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-11-07&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  443D661D9AAF3ABAEDCA93E1C3B291882C4EE5DF
+uid        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;   total   &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Alejandro Gutierrez Valencia &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;tojandro@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sig &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;        C3B291882C4EE5DF &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-08  Alejandro Gutierrez Valencia &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;tojandro@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sig          57112B319F2A6170 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-22  Francisco Javier Madueño Jurado &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;frandh1997@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sig          A52A681834F0E596 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-28  &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ID de usuario no encontrado&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+sub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-08 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;E&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-11-07&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+sig          C3B291882C4EE5DF &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-08  Alejandro Gutierrez Valencia &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;tojandro@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+pub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-22 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SC&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-22&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  AD19812061DA946F8DA70E0C4F54B5799987B52D
+uid        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;   total   &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Juan Antonio Reifs &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;initategnat9@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sig &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;        4F54B5799987B52D &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-22  Juan Antonio Reifs &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;initategnat9@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sig          57112B319F2A6170 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-28  Francisco Javier Madueño Jurado &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;frandh1997@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+sub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-22 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;E&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-22&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+sig          4F54B5799987B52D &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-22  Juan Antonio Reifs &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;initategnat9@gmail.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&quot;comprueba-que-puedes-verificar-con-confianza-una-firma-de-una-persona-en-las-que-no-confías-pero-sin-embargo-si-confía-otra-persona-en-la-que-tu-tienes-confianza-total&quot;&gt;&lt;a href=&quot;#comprueba-que-puedes-verificar-con-confianza-una-firma-de-una-persona-en-las-que-no-conf%C3%ADas-pero-sin-embargo-si-conf%C3%ADa-otra-persona-en-la-que-tu-tienes-confianza-total&quot; aria-label=&quot;comprueba que puedes verificar con confianza una firma de una persona en las que no confías pero sin embargo si confía otra persona en la que tu tienes confianza total permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Comprueba que puedes verificar con confianza una firma de una persona en las que no confías, pero sin embargo si confía otra persona en la que tu tienes confianza total.&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#firmo un documento y lo envio(aunque por defecto suele coger tu propia firma he leido que puede generar errores asi que he añadido la linea default key para asegurarlo.&lt;/span&gt;
 fran@debian:~/Cifrado/cifrado2$ gpg --sign --default-key frandh1997@gmail.com fockiu.txt 

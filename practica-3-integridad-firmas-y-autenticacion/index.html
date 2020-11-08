@@ -40,7 +40,7 @@
         }
       }
     })
-  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-44bc9a9756ea55015b66.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-256ea88b7913782ee157.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/practica-3-integridad-firmas-y-autenticacion/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/otros">Otros<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/seguridad">Seguridad<strong> (<!-- -->4<!-- -->)</strong></a></li><li><a href="/gatsbyjs/servicios">Servicios<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sistemas-operativos">Sistemas Operativos<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Práctica 3: Integridad, firmas y autenticación </h1><p class="post-module--post-meta--1ci95">November 07, 2020<!-- --> — <!-- -->11<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/gpg"><span>Gpg</span></a><a href="/gatsbyjs/tags/open-ssl"><span>OpenSSL</span></a></div></div><div><h2 id="práctica-integridad-firmas-y-autenticación"><a href="#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n" aria-label="práctica integridad firmas y autenticación permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práctica: Integridad, firmas y autenticación</h2>
+  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-44bc9a9756ea55015b66.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-256ea88b7913782ee157.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/practica-3-integridad-firmas-y-autenticacion/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/otros">Otros<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/seguridad">Seguridad<strong> (<!-- -->4<!-- -->)</strong></a></li><li><a href="/gatsbyjs/servicios">Servicios<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sistemas-operativos">Sistemas Operativos<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Práctica 3: Integridad, firmas y autenticación </h1><p class="post-module--post-meta--1ci95">November 07, 2020<!-- --> — <!-- -->10<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/gpg"><span>Gpg</span></a><a href="/gatsbyjs/tags/open-ssl"><span>OpenSSL</span></a></div></div><div><h2 id="práctica-integridad-firmas-y-autenticación"><a href="#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n" aria-label="práctica integridad firmas y autenticación permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práctica: Integridad, firmas y autenticación</h2>
 <h3 id="tarea-1-firmas-electrónicas-3-puntos"><a href="#tarea-1-firmas-electr%C3%B3nicas-3-puntos" aria-label="tarea 1 firmas electrónicas 3 puntos permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 1: Firmas electrónicas (3 puntos)</h3>
 <p><strong>GPG</strong>  </p>
 <h3 id="manda-un-documento-y-la-firma-electrónica-del-mismo-a-un-compañero-verifica-la-firma-que-tu-has-recibido"><a href="#manda-un-documento-y-la-firma-electr%C3%B3nica-del-mismo-a-un-compa%C3%B1ero-verifica-la-firma-que-tu-has-recibido" aria-label="manda un documento y la firma electrónica del mismo a un compañero verifica la firma que tu has recibido permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Manda un documento y la firma electrónica del mismo a un compañero. Verifica la firma que tu has recibido.</h3>
@@ -83,14 +83,14 @@ Huellas dactilares de la clave primaria: <span class="token number">9233</span> 
 </ul>
 <p>Significa que no confiamos esa firma de confianza ni nosotros ni nuestro anillo de confianzas.</p>
 <h3 id="vamos-a-crear-un-anillo-de-confianza-entre-los-miembros-de-nuestra-clase-para-ello"><a href="#vamos-a-crear-un-anillo-de-confianza-entre-los-miembros-de-nuestra-clase-para-ello" aria-label="vamos a crear un anillo de confianza entre los miembros de nuestra clase para ello permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Vamos a crear un anillo de confianza entre los miembros de nuestra clase, para ello.</h3>
+<p>Tu clave pública debe estar en un servidor de claves<br>
+Escribe tu fingerprint en un papel y dárselo a tu compañero, para que puede descargarse tu clave pública.<br>
+Te debes bajar al menos tres claves públicas de compañeros. Firma estas claves.<br>
+Tu te debes asegurar que tu clave pública es firmada por al menos tres compañeros de la clase.<br>
+Una vez que firmes una clave se la tendrás que devolver a su dueño, para que otra persona se la firme.<br>
+Cuando tengas las tres firmas sube la clave al servidor de claves y rellena tus datos en la tabla Claves públicas PGP 2020-2021<br>
+Asegurate que te vuelves a bajar las claves públicas de tus compañeros que tengan las tres firmas.  </p>
 <ul>
-<li>Tu clave pública debe estar en un servidor de claves</li>
-<li>Escribe tu fingerprint en un papel y dárselo a tu compañero, para que puede descargarse tu clave pública.</li>
-<li>Te debes bajar al menos tres claves públicas de compañeros. Firma estas claves.</li>
-<li>Tu te debes asegurar que tu clave pública es firmada por al menos tres compañeros de la clase.</li>
-<li>Una vez que firmes una clave se la tendrás que devolver a su dueño, para que otra persona se la firme.</li>
-<li>Cuando tengas las tres firmas sube la clave al servidor de claves y rellena tus datos en la tabla Claves públicas PGP 2020-2021</li>
-<li>Asegurate que te vuelves a bajar las claves públicas de tus compañeros que tengan las tres firmas.</li>
 <li>
 <p>Añadir firma a un servidor en este caso a Rediris → </p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~/Cifrado/cifrado2$ gpg --keyserver pgp.rediris.es --send-key 9F2A6170
@@ -109,61 +109,67 @@ gpg:              sin cambios: <span class="token number">1</span></code></pre><
 </li>
 <li>
 <p>Firmar claves de compañeros →</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~/Cifrado$ gpg --sign-key 2C4EE5DF</code></pre></div>
-</li>
-</ul>
-<p>pub  rsa3072/C3B291882C4EE5DF
-creado: 2020-10-08  caduca: 2020-11-07  uso: SC<br>
-confianza: desconocido   validez: desconocido
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~/Cifrado$ gpg --sign-key 2C4EE5DF
+<span class="token comment">#</span>
+pub  rsa3072/C3B291882C4EE5DF
+ creado: <span class="token number">2020</span>-10-08  caduca: <span class="token number">2020</span>-11-07  uso: SC  
+ confianza: desconocido   validez: desconocido
 sub  rsa3072/3C5DBE21F6961E37
-creado: 2020-10-08  caduca: 2020-11-07  uso: E<br>
-[desconocida] (1). Alejandro Gutierrez Valencia <a href="mailto:tojandro@gmail.com">tojandro@gmail.com</a></p>
-<p>pub  rsa3072/C3B291882C4EE5DF
-creado: 2020-10-08  caduca: 2020-11-07  uso: SC<br>
-confianza: desconocido   validez: desconocido
-Huella clave primaria: 443D 661D 9AAF 3ABA EDCA  93E1 C3B2 9188 2C4E E5DF</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> Alejandro Gutierrez Valencia &lt;tojandro@gmail.com&gt;</code></pre></div>
-<p>Esta clave expirará el 2020-11-07.
+ creado: <span class="token number">2020</span>-10-08  caduca: <span class="token number">2020</span>-11-07  uso: E   
+<span class="token punctuation">[</span>desconocida<span class="token punctuation">]</span> <span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>. Alejandro Gutierrez Valencia <span class="token operator">&lt;</span>tojandro@gmail.com<span class="token operator">></span>
+<span class="token comment">#</span>
+pub  rsa3072/C3B291882C4EE5DF
+ creado: <span class="token number">2020</span>-10-08  caduca: <span class="token number">2020</span>-11-07  uso: SC  
+ confianza: desconocido   validez: desconocido
+Huella clave primaria: 443D 661D 9AAF 3ABA EDCA  93E1 C3B2 <span class="token number">9188</span> 2C4E E5DF
+
+ Alejandro Gutierrez Valencia <span class="token operator">&lt;</span>tojandro@gmail.com<span class="token operator">></span>
+<span class="token comment">#</span>
+Esta clave expirará el <span class="token number">2020</span>-11-07.
 ¿Está realmente seguro de querer firmar esta clave
-con su clave: "Francisco Javier Madueño Jurado <a href="mailto:frandh1997@gmail.com">frandh1997@gmail.com</a>" (57112B319F2A6170)?</p>
-<p>¿Firmar de verdad? (s/N) s</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">* Muestra las firmas que tiene tu clave pública.
-```shell
-fran@debian:~/Descargas$ gpg --list-sign
+con <span class="token function">su</span> clave: <span class="token string">"Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com>"</span> <span class="token punctuation">(</span>57112B319F2A6170<span class="token punctuation">)</span>?
+<span class="token comment">#</span>
+¿Firmar de verdad? <span class="token punctuation">(</span>s/N<span class="token punctuation">)</span> s</code></pre></div>
+</li>
+<li>
+<p>Muestra las firmas que tiene tu clave pública.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~/Descargas$ gpg --list-sign
 /home/fran/.gnupg/pubring.kbx
 -----------------------------
-pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
-      28ED3C3112ED8846BEDFFAF657112B319F2A6170
-uid        [  absoluta ] Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;
-sig 3        57112B319F2A6170 2020-10-06  Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;
-sig          C3B291882C4EE5DF 2020-10-28  Alejandro Gutierrez Valencia &lt;tojandro@gmail.com&gt;
-sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]
-sig          57112B319F2A6170 2020-10-06  Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;
-#
-pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
-      9233303D1F5495739A6D2CB4636AE9EBCB7E3294
-uid        [   total   ] Manuel Lora Román &lt;manuelloraroman@gmail.com&gt;
-sig 3        636AE9EBCB7E3294 2020-10-06  Manuel Lora Román &lt;manuelloraroman@gmail.com&gt;
-sig          57112B319F2A6170 2020-10-28  Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;
-sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]
-sig          636AE9EBCB7E3294 2020-10-06  Manuel Lora Román &lt;manuelloraroman@gmail.com&gt;
-#
-pub   rsa3072 2020-10-08 [SC] [caduca: 2020-11-07]
-      443D661D9AAF3ABAEDCA93E1C3B291882C4EE5DF
-uid        [   total   ] Alejandro Gutierrez Valencia &lt;tojandro@gmail.com&gt;
-sig 3        C3B291882C4EE5DF 2020-10-08  Alejandro Gutierrez Valencia &lt;tojandro@gmail.com&gt;
-sig          57112B319F2A6170 2020-10-22  Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;
-sig          A52A681834F0E596 2020-10-28  [ID de usuario no encontrado]
-sub   rsa3072 2020-10-08 [E] [caduca: 2020-11-07]
-sig          C3B291882C4EE5DF 2020-10-08  Alejandro Gutierrez Valencia &lt;tojandro@gmail.com&gt;
-#
-pub   rsa3072 2020-10-22 [SC] [caduca: 2022-10-22]
-      AD19812061DA946F8DA70E0C4F54B5799987B52D
-uid        [   total   ] Juan Antonio Reifs &lt;initategnat9@gmail.com&gt;
-sig 3        4F54B5799987B52D 2020-10-22  Juan Antonio Reifs &lt;initategnat9@gmail.com&gt;
-sig          57112B319F2A6170 2020-10-28  Francisco Javier Madueño Jurado &lt;frandh1997@gmail.com&gt;
-sub   rsa3072 2020-10-22 [E] [caduca: 2022-10-22]
-sig          4F54B5799987B52D 2020-10-22  Juan Antonio Reifs &lt;initategnat9@gmail.com&gt;</code></pre></div>
+pub   rsa3072 <span class="token number">2020</span>-10-06 <span class="token punctuation">[</span>SC<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2022</span>-10-06<span class="token punctuation">]</span>
+  28ED3C3112ED8846BEDFFAF657112B319F2A6170
+uid        <span class="token punctuation">[</span>  absoluta <span class="token punctuation">]</span> Francisco Javier Madueño Jurado <span class="token operator">&lt;</span>frandh1997@gmail.com<span class="token operator">></span>
+sig <span class="token number">3</span>        57112B319F2A6170 <span class="token number">2020</span>-10-06  Francisco Javier Madueño Jurado <span class="token operator">&lt;</span>frandh1997@gmail.com<span class="token operator">></span>
+sig          C3B291882C4EE5DF <span class="token number">2020</span>-10-28  Alejandro Gutierrez Valencia <span class="token operator">&lt;</span>tojandro@gmail.com<span class="token operator">></span>
+sub   rsa3072 <span class="token number">2020</span>-10-06 <span class="token punctuation">[</span>E<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2022</span>-10-06<span class="token punctuation">]</span>
+sig          57112B319F2A6170 <span class="token number">2020</span>-10-06  Francisco Javier Madueño Jurado <span class="token operator">&lt;</span>frandh1997@gmail.com<span class="token operator">></span>
+<span class="token comment">#</span>
+pub   rsa3072 <span class="token number">2020</span>-10-06 <span class="token punctuation">[</span>SC<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2022</span>-10-06<span class="token punctuation">]</span>
+  9233303D1F5495739A6D2CB4636AE9EBCB7E3294
+uid        <span class="token punctuation">[</span>   total   <span class="token punctuation">]</span> Manuel Lora Román <span class="token operator">&lt;</span>manuelloraroman@gmail.com<span class="token operator">></span>
+sig <span class="token number">3</span>        636AE9EBCB7E3294 <span class="token number">2020</span>-10-06  Manuel Lora Román <span class="token operator">&lt;</span>manuelloraroman@gmail.com<span class="token operator">></span>
+sig          57112B319F2A6170 <span class="token number">2020</span>-10-28  Francisco Javier Madueño Jurado <span class="token operator">&lt;</span>frandh1997@gmail.com<span class="token operator">></span>
+sub   rsa3072 <span class="token number">2020</span>-10-06 <span class="token punctuation">[</span>E<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2022</span>-10-06<span class="token punctuation">]</span>
+sig          636AE9EBCB7E3294 <span class="token number">2020</span>-10-06  Manuel Lora Román <span class="token operator">&lt;</span>manuelloraroman@gmail.com<span class="token operator">></span>
+<span class="token comment">#</span>
+pub   rsa3072 <span class="token number">2020</span>-10-08 <span class="token punctuation">[</span>SC<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2020</span>-11-07<span class="token punctuation">]</span>
+  443D661D9AAF3ABAEDCA93E1C3B291882C4EE5DF
+uid        <span class="token punctuation">[</span>   total   <span class="token punctuation">]</span> Alejandro Gutierrez Valencia <span class="token operator">&lt;</span>tojandro@gmail.com<span class="token operator">></span>
+sig <span class="token number">3</span>        C3B291882C4EE5DF <span class="token number">2020</span>-10-08  Alejandro Gutierrez Valencia <span class="token operator">&lt;</span>tojandro@gmail.com<span class="token operator">></span>
+sig          57112B319F2A6170 <span class="token number">2020</span>-10-22  Francisco Javier Madueño Jurado <span class="token operator">&lt;</span>frandh1997@gmail.com<span class="token operator">></span>
+sig          A52A681834F0E596 <span class="token number">2020</span>-10-28  <span class="token punctuation">[</span>ID de usuario no encontrado<span class="token punctuation">]</span>
+sub   rsa3072 <span class="token number">2020</span>-10-08 <span class="token punctuation">[</span>E<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2020</span>-11-07<span class="token punctuation">]</span>
+sig          C3B291882C4EE5DF <span class="token number">2020</span>-10-08  Alejandro Gutierrez Valencia <span class="token operator">&lt;</span>tojandro@gmail.com<span class="token operator">></span>
+<span class="token comment">#</span>
+pub   rsa3072 <span class="token number">2020</span>-10-22 <span class="token punctuation">[</span>SC<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2022</span>-10-22<span class="token punctuation">]</span>
+  AD19812061DA946F8DA70E0C4F54B5799987B52D
+uid        <span class="token punctuation">[</span>   total   <span class="token punctuation">]</span> Juan Antonio Reifs <span class="token operator">&lt;</span>initategnat9@gmail.com<span class="token operator">></span>
+sig <span class="token number">3</span>        4F54B5799987B52D <span class="token number">2020</span>-10-22  Juan Antonio Reifs <span class="token operator">&lt;</span>initategnat9@gmail.com<span class="token operator">></span>
+sig          57112B319F2A6170 <span class="token number">2020</span>-10-28  Francisco Javier Madueño Jurado <span class="token operator">&lt;</span>frandh1997@gmail.com<span class="token operator">></span>
+sub   rsa3072 <span class="token number">2020</span>-10-22 <span class="token punctuation">[</span>E<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2022</span>-10-22<span class="token punctuation">]</span>
+sig          4F54B5799987B52D <span class="token number">2020</span>-10-22  Juan Antonio Reifs <span class="token operator">&lt;</span>initategnat9@gmail.com<span class="token operator">></span></code></pre></div>
+</li>
+</ul>
 <h3 id="comprueba-que-puedes-verificar-con-confianza-una-firma-de-una-persona-en-las-que-no-confías-pero-sin-embargo-si-confía-otra-persona-en-la-que-tu-tienes-confianza-total"><a href="#comprueba-que-puedes-verificar-con-confianza-una-firma-de-una-persona-en-las-que-no-conf%C3%ADas-pero-sin-embargo-si-conf%C3%ADa-otra-persona-en-la-que-tu-tienes-confianza-total" aria-label="comprueba que puedes verificar con confianza una firma de una persona en las que no confías pero sin embargo si confía otra persona en la que tu tienes confianza total permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Comprueba que puedes verificar con confianza una firma de una persona en las que no confías, pero sin embargo si confía otra persona en la que tu tienes confianza total.</h3>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment">#firmo un documento y lo envio(aunque por defecto suele coger tu propia firma he leido que puede generar errores asi que he añadido la linea default key para asegurarlo.</span>
 fran@debian:~/Cifrado/cifrado2$ gpg --sign --default-key frandh1997@gmail.com fockiu.txt 
