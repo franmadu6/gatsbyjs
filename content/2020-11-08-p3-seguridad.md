@@ -178,9 +178,14 @@ Ahora vamos a configurar nuestro cliente de correo electrónico para poder manda
 
 1. Configura el cliente de correo evolution con tu cuenta de correo habitual.
 
-Nos instalaremos thunderbird
+Nos instalaremos thunderbird.
 ![PracticaImg](images/seguridad/p3-1.png "Imagen de la practica")
-La configuración de thunderbird es sencilla, te registras mediante OAuth2 de manera sencilla y ya puedes acceder a sus prestaciones.
+Pondremos nuestro nombre para la configuración y añadiremos una de nuestras cuentas.
+![PracticaImg](images/seguridad/p3-2.png "Imagen de la practica")
+OAuth2
+![PracticaImg](images/seguridad/p3-3.png "Imagen de la practica")
+Como podemos ver ya tenemos instalado y configurado nuestro cliente.
+![PracticaImg](images/seguridad/p3-4.png "Imagen de la practica")
 
 2. Añade a la cuenta las opciones de seguridad para poder enviar correos firmados con tu clave privada o cifrar los mensajes para otros destinatarios.
 
