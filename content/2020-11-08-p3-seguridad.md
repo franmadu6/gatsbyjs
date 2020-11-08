@@ -77,13 +77,12 @@ fran@debian:~/Cifrado$ gpg --keyserver keyserver.ubuntu.com --recv-key 9987B52D
 gpg: clave 4F54B5799987B52D: clave pública "Juan Antonio Reifs <initategnat9@gmail.com>" importada
 gpg: Cantidad total procesada: 1
 gpg:               importadas: 1
-
 fran@debian:~/Cifrado$ gpg --keyserver pgp.rediris.es --recv-key 2C4EE5DF
 gpg: clave C3B291882C4EE5DF: "Alejandro Gutierrez Valencia <tojandro@gmail.com>" sin cambios
 gpg: Cantidad total procesada: 1
 gpg:              sin cambios: 1
-
 ```
+
 * Firmar claves de compañeros →
 ```shell
 fran@debian:~/Cifrado$ gpg --sign-key 2C4EE5DF
@@ -122,7 +121,7 @@ sig 3        57112B319F2A6170 2020-10-06  Francisco Javier Madueño Jurado <fran
 sig          C3B291882C4EE5DF 2020-10-28  Alejandro Gutierrez Valencia <tojandro@gmail.com>
 sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]
 sig          57112B319F2A6170 2020-10-06  Francisco Javier Madueño Jurado <frandh1997@gmail.com>
-
+#
 pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
       9233303D1F5495739A6D2CB4636AE9EBCB7E3294
 uid        [   total   ] Manuel Lora Román <manuelloraroman@gmail.com>
@@ -130,7 +129,7 @@ sig 3        636AE9EBCB7E3294 2020-10-06  Manuel Lora Román <manuelloraroman@gm
 sig          57112B319F2A6170 2020-10-28  Francisco Javier Madueño Jurado <frandh1997@gmail.com>
 sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]
 sig          636AE9EBCB7E3294 2020-10-06  Manuel Lora Román <manuelloraroman@gmail.com>
-
+#
 pub   rsa3072 2020-10-08 [SC] [caduca: 2020-11-07]
       443D661D9AAF3ABAEDCA93E1C3B291882C4EE5DF
 uid        [   total   ] Alejandro Gutierrez Valencia <tojandro@gmail.com>
@@ -139,7 +138,7 @@ sig          57112B319F2A6170 2020-10-22  Francisco Javier Madueño Jurado <fran
 sig          A52A681834F0E596 2020-10-28  [ID de usuario no encontrado]
 sub   rsa3072 2020-10-08 [E] [caduca: 2020-11-07]
 sig          C3B291882C4EE5DF 2020-10-08  Alejandro Gutierrez Valencia <tojandro@gmail.com>
-
+#
 pub   rsa3072 2020-10-22 [SC] [caduca: 2022-10-22]
       AD19812061DA946F8DA70E0C4F54B5799987B52D
 uid        [   total   ] Juan Antonio Reifs <initategnat9@gmail.com>
@@ -147,7 +146,6 @@ sig 3        4F54B5799987B52D 2020-10-22  Juan Antonio Reifs <initategnat9@gmail
 sig          57112B319F2A6170 2020-10-28  Francisco Javier Madueño Jurado <frandh1997@gmail.com>
 sub   rsa3072 2020-10-22 [E] [caduca: 2022-10-22]
 sig          4F54B5799987B52D 2020-10-22  Juan Antonio Reifs <initategnat9@gmail.com>
-
 ```
 
 ### Comprueba que puedes verificar con confianza una firma de una persona en las que no confías, pero sin embargo si confía otra persona en la que tu tienes confianza total.
