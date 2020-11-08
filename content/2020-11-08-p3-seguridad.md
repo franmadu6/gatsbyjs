@@ -178,32 +178,39 @@ Ahora vamos a configurar nuestro cliente de correo electrónico para poder manda
 
 1. Configura el cliente de correo evolution con tu cuenta de correo habitual.
 
-Nos instalaremos thunderbird.
-![PracticaImg](images/seguridad/p3-1.png "Imagen de la practica")
-Pondremos nuestro nombre para la configuración y añadiremos una de nuestras cuentas.
-![PracticaImg](images/seguridad/p3-2.png "Imagen de la practica")
-OAuth2
-![PracticaImg](images/seguridad/p3-3.png "Imagen de la practica")
-Como podemos ver ya tenemos instalado y configurado nuestro cliente.
-![PracticaImg](images/seguridad/p3-4.png "Imagen de la practica")
+La configuración inicial es muy simple y son varios siguiente,siguiente...  
+Deberás poner tu nombre y asociar un correo en este caso al ser gmail te saldra una ventana de OAuth2  
+En la que deberas de poner tu cuenta una vez hecho esto ya podras disfrutar de Evolution.
 
 2. Añade a la cuenta las opciones de seguridad para poder enviar correos firmados con tu clave privada o cifrar los mensajes para otros destinatarios.
 
-* Exportaremos nuestra clave privada para poder firmar nuestro mensajes.
+Primero apuntamos nuestra id publica:
 ```shell
-rfran@debian:~/Documentos$ gpg --export-secret-key -a "frandh1997@gmail.com" > private.gpg
+fran@debian:~$ gpg --list-keys
+/home/fran/.gnupg/pubring.kbx
+-----------------------------
+pub   rsa3072 2020-10-06 [SC] [caduca: 2022-10-06]
+      28ED3C3112ED8846BEDFFAF657112B319F2A6170
+uid        [  absoluta ] Francisco Javier Madueño Jurado <frandh1997@gmail.com>
+sub   rsa3072 2020-10-06 [E] [caduca: 2022-10-06]
 ```
-* Nos iremos a la siguiente ruta.  
-Opciones -> Tools -> OpenPgP key Manager -> File -> Import Secrect key from file -> 
-![PracticaImg](images/seguridad/p3-5.png "Imagen de la practica")
-Con estos pasos ya tendremos nuestra clave en thunderbird
-![PracticaImg](images/seguridad/p3-6.png "Imagen de la practica")
-
+Ahora seguiremos la siguiente ruta:
+Editar → Preferencias → Preferencias del editor → Firmas → Añadir → Ponemos nuestra id.
+![PracticaImg](images/seguridad/p3-1.png "Imagen de la practica")
 
 3. Envía y recibe varios mensajes con tus compañeros y comprueba el funcionamiento adecuado de GPG.
 
+Creación de mensaje firmado:
+![PracticaImg](images/seguridad/p3-2.png "Imagen de la practica")
 
+Creación de mensaje cifrado:
+![PracticaImg](images/seguridad/p3-3.png "Imagen de la practica")
 
+Falta foto de mensaje llegado a lora:
+![PracticaImg](images/seguridad/p3-4.png "Imagen de la practica")
+
+Falta foto de mansaje de lora:
+![PracticaImg](images/seguridad/p3-5.png "Imagen de la practica")
 
 ## Tarea 3: Integridad de ficheros (1 punto)
 
@@ -211,8 +218,77 @@ Vamos a descargarnos la ISO de debian, y posteriormente vamos a comprobar su int
 
 Puedes encontrar la ISO en la dirección: https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/.
 
-    Para validar el contenido de la imagen CD, solo asegúrese de usar la herramienta apropiada para sumas de verificación. Para cada versión publicada existen archivos de suma de comprobación con algoritmos fuertes (SHA256 y SHA512); debería usar las herramientas sha256sum o sha512sum para trabajar con ellos.
-    Verifica que el contenido del hash que has utilizado no ha sido manipulado, usando la firma digital que encontrarás en el repositorio. Puedes encontrar una guía para realizarlo en este artículo: How to verify an authenticity of downloaded Debian ISO images
+1. Para validar el contenido de la imagen CD, solo asegúrese de usar la herramienta apropiada para sumas de verificación. Para cada versión publicada existen archivos de suma de comprobación con algoritmos fuertes (SHA256 y SHA512); debería usar las herramientas sha256sum o sha512sum para trabajar con ellos.
+
+```shell
+root@debian:/home/fran/Descargas# sha512sum -c SHA512SUMS 2> /dev/null | grep netinst
+debian-10.6.0-amd64-netinst.iso: La suma coincide
+debian-edu-10.6.0-amd64-netinst.iso: La suma coincide
+debian-mac-10.6.0-amd64-netinst.iso: La suma coincide
+root@debian:/home/fran/Descargas# md5sum -c MD5SUMS 2> /dev/null | grep netinst
+debian-10.6.0-amd64-netinst.iso: La suma coincide
+debian-edu-10.6.0-amd64-netinst.iso: La suma coincide
+debian-mac-10.6.0-amd64-netinst.iso: La suma coincide
+```
+
+2. Verifica que el contenido del hash que has utilizado no ha sido manipulado, usando la firma digital que encontrarás en el repositorio. Puedes encontrar una guía para realizarlo en este artículo: How to verify an authenticity of downloaded Debian ISO images
+
+Importaremos las claves publicas de debian
+```shell
+root@debian:/home/fran/Descargas# gpg --keyserver keyring.debian.org --recv-keys 64E6EA7D
+gpg: clave 988021A964E6EA7D: clave pública "Debian CD signing key <debian-cd@lists.debian.org>" importada
+gpg: Cantidad total procesada: 1
+gpg:               importadas: 1
+root@debian:/home/fran/Descargas# gpg --keyserver keyring.debian.org --recv-keys 6294BE9B
+gpg: clave DA87E80D6294BE9B: clave pública "Debian CD signing key <debian-cd@lists.debian.org>" importada
+gpg: Cantidad total procesada: 1
+gpg:               importadas: 1
+root@debian:/home/fran/Descargas# gpg --keyserver keyring.debian.org --recv-keys 09EA8AC3
+gpg: clave 42468F4009EA8AC3: clave pública "Debian Testing CDs Automatic Signing Key <debian-cd@lists.debian.org>" importada
+gpg: Cantidad total procesada: 1
+gpg:               importadas: 1
+```
+
+Verificamos clave:
+```shell
+root@debian:/home/fran/Descargas# gpg --verify MD5SUMS.sign 
+gpg: asumiendo que los datos firmados están en 'MD5SUMS'
+gpg: Firmado el dom 27 sep 2020 02:24:22 CEST
+gpg:                usando RSA clave DF9B9C49EAA9298432589D76DA87E80D6294BE9B
+gpg: Firma correcta de "Debian CD signing key <debian-cd@lists.debian.org>" [desconocido]
+gpg: ATENCIÓN: ¡Esta clave no está certificada por una firma de confianza!
+gpg:          No hay indicios de que la firma pertenezca al propietario.
+Huellas dactilares de la clave primaria: DF9B 9C49 EAA9 2984 3258  9D76 DA87 E80D 6294 BE9B
+```
+
+
+Comprobamos que ambos ficheros son iguales:
+```shell
+root@debian:/home/fran/Descargas# gpg --verify MD5SUMS.sign MD5SUMS
+gpg: Firmado el dom 27 sep 2020 02:24:22 CEST
+gpg:                usando RSA clave DF9B9C49EAA9298432589D76DA87E80D6294BE9B
+gpg: Firma correcta de "Debian CD signing key <debian-cd@lists.debian.org>" [desconocido]
+gpg: ATENCIÓN: ¡Esta clave no está certificada por una firma de confianza!
+gpg:          No hay indicios de que la firma pertenezca al propietario.
+Huellas dactilares de la clave primaria: DF9B 9C49 EAA9 2984 3258  9D76 DA87 E80D 6294 BE9B
+```
+**Como hemos comprobado que ambos ficheros son iguales, podemos confiar en ellos, ahora podremos comprobar el fichero ISO de debian.**
+
+Código de comprobación de la iso de debian.
+```shell
+root@debian:/home/fran/Descargas# md5sum debian-10.6.0-amd64-netinst.iso
+42c43392d108ed8957083843392c794b  debian-10.6.0-amd64-netinst.iso
+```
+
+Código de comprobación del fichero MD5SUMS
+```shell
+root@debian:/home/fran/Descargas# cat MD5SUMS
+42c43392d108ed8957083843392c794b  debian-10.6.0-amd64-netinst.iso
+3b6d4c43e10a06731a98005d0b1c14a1  debian-10.6.0-amd64-xfce-CD-1.iso
+02f0041c789c29fbf6530ffd291d5119  debian-edu-10.6.0-amd64-netinst.iso
+adf9e02c5a9a471cac7e527ca2ca77db  debian-mac-10.6.0-amd64-netinst.iso
+```
+El código de comprobación de ambos ficheros es el mismo por lo que podemos decir que el fichero es auténtico.
 
 ## Tarea 4: Integridad y autenticidad (apt secure) (2 puntos)
 
