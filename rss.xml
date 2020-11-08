@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sun, 08 Nov 2020 23:20:55 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Práctica 3: Integridad, firmas y autenticación ]]></title><description><![CDATA[Práctica: Integridad, firmas y autenticación Tarea 1: Firmas electrónicas (3 puntos) GPG   Manda un documento y la firma electrónica del…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Sat, 07 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-integridad-firmas-y-autenticación&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n&quot; aria-label=&quot;práctica integridad firmas y autenticación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Integridad, firmas y autenticación&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sun, 08 Nov 2020 23:27:07 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Práctica 3: Integridad, firmas y autenticación ]]></title><description><![CDATA[Práctica: Integridad, firmas y autenticación Tarea 1: Firmas electrónicas (3 puntos) GPG   Manda un documento y la firma electrónica del…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Sat, 07 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-integridad-firmas-y-autenticación&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n&quot; aria-label=&quot;práctica integridad firmas y autenticación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Integridad, firmas y autenticación&lt;/h2&gt;
 &lt;h3 id=&quot;tarea-1-firmas-electrónicas-3-puntos&quot;&gt;&lt;a href=&quot;#tarea-1-firmas-electr%C3%B3nicas-3-puntos&quot; aria-label=&quot;tarea 1 firmas electrónicas 3 puntos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Firmas electrónicas (3 puntos)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;GPG&lt;/strong&gt;  &lt;/p&gt;
 &lt;h3 id=&quot;manda-un-documento-y-la-firma-electrónica-del-mismo-a-un-compañero-verifica-la-firma-que-tu-has-recibido&quot;&gt;&lt;a href=&quot;#manda-un-documento-y-la-firma-electr%C3%B3nica-del-mismo-a-un-compa%C3%B1ero-verifica-la-firma-que-tu-has-recibido&quot; aria-label=&quot;manda un documento y la firma electrónica del mismo a un compañero verifica la firma que tu has recibido permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Manda un documento y la firma electrónica del mismo a un compañero. Verifica la firma que tu has recibido.&lt;/h3&gt;
@@ -41,14 +41,14 @@ Huellas dactilares de la clave primaria: &lt;span class=&quot;token number&quot;
 &lt;/ul&gt;
 &lt;p&gt;Significa que no confiamos esa firma de confianza ni nosotros ni nuestro anillo de confianzas.&lt;/p&gt;
 &lt;h3 id=&quot;vamos-a-crear-un-anillo-de-confianza-entre-los-miembros-de-nuestra-clase-para-ello&quot;&gt;&lt;a href=&quot;#vamos-a-crear-un-anillo-de-confianza-entre-los-miembros-de-nuestra-clase-para-ello&quot; aria-label=&quot;vamos a crear un anillo de confianza entre los miembros de nuestra clase para ello permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Vamos a crear un anillo de confianza entre los miembros de nuestra clase, para ello.&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; * Tu clave pública debe estar en un servidor de claves  
+ * Escribe tu fingerprint en un papel y dárselo a tu compañero, para que puede descargarse tu clave pública.  
+ * Te debes bajar al menos tres claves públicas de compañeros. Firma estas claves.  
+ * Tu te debes asegurar que tu clave pública es firmada por al menos tres compañeros de la clase.  
+ * Una vez que firmes una clave se la tendrás que devolver a su dueño, para que otra persona se la firme.  
+ * Cuando tengas las tres firmas sube la clave al servidor de claves y rellena tus datos en la tabla Claves públicas PGP 2020-2021  
+ * Asegurate que te vuelves a bajar las claves públicas de tus compañeros que tengan las tres firmas.  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;Tu clave pública debe estar en un servidor de claves  &lt;/li&gt;
-&lt;li&gt;Escribe tu fingerprint en un papel y dárselo a tu compañero, para que puede descargarse tu clave pública.  &lt;/li&gt;
-&lt;li&gt;Te debes bajar al menos tres claves públicas de compañeros. Firma estas claves.  &lt;/li&gt;
-&lt;li&gt;Tu te debes asegurar que tu clave pública es firmada por al menos tres compañeros de la clase.  &lt;/li&gt;
-&lt;li&gt;Una vez que firmes una clave se la tendrás que devolver a su dueño, para que otra persona se la firme.  &lt;/li&gt;
-&lt;li&gt;Cuando tengas las tres firmas sube la clave al servidor de claves y rellena tus datos en la tabla Claves públicas PGP 2020-2021  &lt;/li&gt;
-&lt;li&gt;Asegurate que te vuelves a bajar las claves públicas de tus compañeros que tengan las tres firmas.  &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Añadir firma a un servidor en este caso a Rediris → &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Cifrado/cifrado2$ gpg --keyserver pgp.rediris.es --send-key 9F2A6170
@@ -170,12 +170,69 @@ uid        &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;  absol
 sub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-10-06 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;E&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;caduca: &lt;span class=&quot;token number&quot;&gt;2022&lt;/span&gt;-10-06&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Ahora seguiremos la siguiente ruta:
 Editar → Preferencias → Preferencias del editor → Firmas → Añadir → Ponemos nuestra id.
-&lt;img src=&quot;images/seguridad/p3-1.png&quot; alt=&quot;PracticaImg&quot; title=&quot;Imagen de la practica&quot;&gt;&lt;/p&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/84739/p3-1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.29459901800327%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABuklEQVQ4y5VTTY+bMBDlx7SqlM8GY4yNIbDha9MsiVLtodpT1UqVeujHpT+fV48TEyDawx6exjx73rwZG2+9Xnfz+RwG3bv3HzCbzbBYLHDlEAQBwjBEFEV2Tftub3CuWy6XWK1WnUeHAs475m/w8uMfdvsz6nKHqq7x2DQoyxJSSjDGLDjnfRERCRuJM3udEAKe+egs4fvdw/NvbPY/wWwCBzeHwytIxIkOQTxpUDRdkMNLRW6w0Xvw4hmxTpBoDd0jRpIkSNPURrdO06R3THAOe+KxLnA+fkL79ITjscXhcDDxiNPphLZt0ZgRVFXVo2lqxHF8L+hEtXG23Wa28tjJxZlzTCJxrOzaXda1ZXjXGVjC9/1+Xm+By79rOc8zW925HuKWbC5M3Lhp9IZElmV9G0On9GyUkvZMGufQ0RZSKCvOg7H4SHA4K7J/E4ygpLLrh7OP4stHJKV57EL2uQ53gtSyUmoiKCGji8PdZ4bqZQOZ+Qh8bl0ORUeCSaJtMl3OdNjE0yi0TCGYaZeFr7fsiDzPURQ7+5CnN+jAAvN3cMJFzMZpyy6JHHz7/hV//v4a/buvYTo/wn+kLs6/FBzGZgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/36727/p3-1.png&quot;
+        srcset=&quot;/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/acf4b/p3-1.png 173w,
+/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/fc834/p3-1.png 345w,
+/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/36727/p3-1.png 690w,
+/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/17fa4/p3-1.png 1035w,
+/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/84739/p3-1.png 1222w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;Envía y recibe varios mensajes con tus compañeros y comprueba el funcionamiento adecuado de GPG.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Creación de mensaje firmado:
-&lt;img src=&quot;images/seguridad/p3-2.png&quot; alt=&quot;PracticaImg&quot; title=&quot;Imagen de la practica&quot;&gt;&lt;/p&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/6eed4b5025262658c6ebfa3ab37fa265/b28c0/p3-2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 63.70106761565837%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABrUlEQVQ4y41Ta2+jMBD0v0l45IUBY4J5uE2u6rVS//9/OeZ2DE45KVLvw8heszteZtYqSZI/WZYhz/M5TRNkeY4syxkH8FuhNdq2RZqm2CcJdvs99rtdiKWemA+HA06n06zef39g8n7uug79dIf3A1zfwrkOQ9/j9eUFfnJCWsMYi6aq4K9X9MOAy+UCLZetmLmqX2/v8ziOqI2Zr+Mdg2sk2UhcoWsspnHA1+cbjO3g5NLBNvi83eBvd9R1jaZpYK2duRrhUFoX4ZC/5Lorus5JZyPYsVmSUElha20g0GUZ4rLUJHrUcl9J94oFpSSxfSYas9zKM+qy6JuFddX6H3234JmKbZ/P5wAKvU0gKbEl+sbh8T1Cta0VA1wgJdhpJOdenMPxeERRFCEmCkGpF8TciNAhNeD/V1UZSFlMEpItN+dBCubUklPXFZzVYppcUuit01CjuDgMMh6vMh7ey34Az6IUJPnWctVundXtvEaopbPqQcA1xsHhlfB/oWhCBKd+G0c8N+Q5FHXaihpN+AnMe5ar6DBfSi/PzPspDDRn8CfQyL53QRaaEeX5C7XsndjZ0tEqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/6eed4b5025262658c6ebfa3ab37fa265/36727/p3-2.png&quot;
+        srcset=&quot;/gatsbyjs/static/6eed4b5025262658c6ebfa3ab37fa265/acf4b/p3-2.png 173w,
+/gatsbyjs/static/6eed4b5025262658c6ebfa3ab37fa265/fc834/p3-2.png 345w,
+/gatsbyjs/static/6eed4b5025262658c6ebfa3ab37fa265/36727/p3-2.png 690w,
+/gatsbyjs/static/6eed4b5025262658c6ebfa3ab37fa265/b28c0/p3-2.png 843w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Creación de mensaje cifrado:
 &lt;img src=&quot;images/seguridad/p3-3.png&quot; alt=&quot;PracticaImg&quot; title=&quot;Imagen de la practica&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Falta foto de mensaje llegado a lora:
@@ -239,7 +296,7 @@ Huellas dactilares de la clave primaria: DF9B 9C49 EAA9 &lt;span class=&quot;tok
 3b6d4c43e10a06731a98005d0b1c14a1  debian-10.6.0-amd64-xfce-CD-1.iso
 02f0041c789c29fbf6530ffd291d5119  debian-edu-10.6.0-amd64-netinst.iso
 adf9e02c5a9a471cac7e527ca2ca77db  debian-mac-10.6.0-amd64-netinst.iso&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;El código de comprobación de ambos ficheros es el mismo por lo que podemos decir que el fichero es auténtico.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;El código de comprobación de ambos ficheros es el mismo por lo que podemos decir que el fichero es auténtico.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;tarea-4-integridad-y-autenticidad-apt-secure-2-puntos&quot;&gt;&lt;a href=&quot;#tarea-4-integridad-y-autenticidad-apt-secure-2-puntos&quot; aria-label=&quot;tarea 4 integridad y autenticidad apt secure 2 puntos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 4: Integridad y autenticidad (apt secure) (2 puntos)&lt;/h2&gt;
 &lt;p&gt;Cuando nos instalamos un paquete en nuestra distribución linux tenemos que asegurarnos que ese paquete es legítimo. Para conseguir este objetivo se utiliza criptografía asimétrica, y en el caso de Debian a este sistema se llama apt secure. Esto lo debemos tener en cuenta al utilizar los repositorios oficiales. Cuando añadamos nuevos repositorios tendremos que añadir las firmas necesarias para confiar en que los paquetes son legítimos y no han sido modificados.&lt;/p&gt;
 &lt;p&gt;Busca información sobre apt secure y responde las siguientes preguntas:&lt;/p&gt;

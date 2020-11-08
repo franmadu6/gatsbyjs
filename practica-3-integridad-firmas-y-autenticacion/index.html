@@ -83,14 +83,14 @@ Huellas dactilares de la clave primaria: <span class="token number">9233</span> 
 </ul>
 <p>Significa que no confiamos esa firma de confianza ni nosotros ni nuestro anillo de confianzas.</p>
 <h3 id="vamos-a-crear-un-anillo-de-confianza-entre-los-miembros-de-nuestra-clase-para-ello"><a href="#vamos-a-crear-un-anillo-de-confianza-entre-los-miembros-de-nuestra-clase-para-ello" aria-label="vamos a crear un anillo de confianza entre los miembros de nuestra clase para ello permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Vamos a crear un anillo de confianza entre los miembros de nuestra clase, para ello.</h3>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> * Tu clave pública debe estar en un servidor de claves  
+ * Escribe tu fingerprint en un papel y dárselo a tu compañero, para que puede descargarse tu clave pública.  
+ * Te debes bajar al menos tres claves públicas de compañeros. Firma estas claves.  
+ * Tu te debes asegurar que tu clave pública es firmada por al menos tres compañeros de la clase.  
+ * Una vez que firmes una clave se la tendrás que devolver a su dueño, para que otra persona se la firme.  
+ * Cuando tengas las tres firmas sube la clave al servidor de claves y rellena tus datos en la tabla Claves públicas PGP 2020-2021  
+ * Asegurate que te vuelves a bajar las claves públicas de tus compañeros que tengan las tres firmas.  </code></pre></div>
 <ul>
-<li>Tu clave pública debe estar en un servidor de claves  </li>
-<li>Escribe tu fingerprint en un papel y dárselo a tu compañero, para que puede descargarse tu clave pública.  </li>
-<li>Te debes bajar al menos tres claves públicas de compañeros. Firma estas claves.  </li>
-<li>Tu te debes asegurar que tu clave pública es firmada por al menos tres compañeros de la clase.  </li>
-<li>Una vez que firmes una clave se la tendrás que devolver a su dueño, para que otra persona se la firme.  </li>
-<li>Cuando tengas las tres firmas sube la clave al servidor de claves y rellena tus datos en la tabla Claves públicas PGP 2020-2021  </li>
-<li>Asegurate que te vuelves a bajar las claves públicas de tus compañeros que tengan las tres firmas.  </li>
 <li>
 <p>Añadir firma a un servidor en este caso a Rediris → </p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~/Cifrado/cifrado2$ gpg --keyserver pgp.rediris.es --send-key 9F2A6170
@@ -212,12 +212,69 @@ uid        <span class="token punctuation">[</span>  absoluta <span class="token
 sub   rsa3072 <span class="token number">2020</span>-10-06 <span class="token punctuation">[</span>E<span class="token punctuation">]</span> <span class="token punctuation">[</span>caduca: <span class="token number">2022</span>-10-06<span class="token punctuation">]</span></code></pre></div>
 <p>Ahora seguiremos la siguiente ruta:
 Editar → Preferencias → Preferencias del editor → Firmas → Añadir → Ponemos nuestra id.
-<img src="images/seguridad/p3-1.png" alt="PracticaImg" title="Imagen de la practica"></p>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/84739/p3-1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 70.29459901800327%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABuklEQVQ4y5VTTY+bMBDlx7SqlM8GY4yNIbDha9MsiVLtodpT1UqVeujHpT+fV48TEyDawx6exjx73rwZG2+9Xnfz+RwG3bv3HzCbzbBYLHDlEAQBwjBEFEV2Tftub3CuWy6XWK1WnUeHAs475m/w8uMfdvsz6nKHqq7x2DQoyxJSSjDGLDjnfRERCRuJM3udEAKe+egs4fvdw/NvbPY/wWwCBzeHwytIxIkOQTxpUDRdkMNLRW6w0Xvw4hmxTpBoDd0jRpIkSNPURrdO06R3THAOe+KxLnA+fkL79ITjscXhcDDxiNPphLZt0ZgRVFXVo2lqxHF8L+hEtXG23Wa28tjJxZlzTCJxrOzaXda1ZXjXGVjC9/1+Xm+By79rOc8zW925HuKWbC5M3Lhp9IZElmV9G0On9GyUkvZMGufQ0RZSKCvOg7H4SHA4K7J/E4ygpLLrh7OP4stHJKV57EL2uQ53gtSyUmoiKCGji8PdZ4bqZQOZ+Qh8bl0ORUeCSaJtMl3OdNjE0yi0TCGYaZeFr7fsiDzPURQ7+5CnN+jAAvN3cMJFzMZpyy6JHHz7/hV//v4a/buvYTo/wn+kLs6/FBzGZgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/36727/p3-1.png"
+        srcset="/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/acf4b/p3-1.png 173w,
+/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/fc834/p3-1.png 345w,
+/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/36727/p3-1.png 690w,
+/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/17fa4/p3-1.png 1035w,
+/gatsbyjs/static/8c1b51695a134d81f882c4623255ce6c/84739/p3-1.png 1222w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <ol start="3">
 <li>Envía y recibe varios mensajes con tus compañeros y comprueba el funcionamiento adecuado de GPG.</li>
 </ol>
 <p>Creación de mensaje firmado:
-<img src="images/seguridad/p3-2.png" alt="PracticaImg" title="Imagen de la practica"></p>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/6eed4b5025262658c6ebfa3ab37fa265/b28c0/p3-2.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 63.70106761565837%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABrUlEQVQ4y41Ta2+jMBD0v0l45IUBY4J5uE2u6rVS//9/OeZ2DE45KVLvw8heszteZtYqSZI/WZYhz/M5TRNkeY4syxkH8FuhNdq2RZqm2CcJdvs99rtdiKWemA+HA06n06zef39g8n7uug79dIf3A1zfwrkOQ9/j9eUFfnJCWsMYi6aq4K9X9MOAy+UCLZetmLmqX2/v8ziOqI2Zr+Mdg2sk2UhcoWsspnHA1+cbjO3g5NLBNvi83eBvd9R1jaZpYK2duRrhUFoX4ZC/5Lorus5JZyPYsVmSUElha20g0GUZ4rLUJHrUcl9J94oFpSSxfSYas9zKM+qy6JuFddX6H3234JmKbZ/P5wAKvU0gKbEl+sbh8T1Cta0VA1wgJdhpJOdenMPxeERRFCEmCkGpF8TciNAhNeD/V1UZSFlMEpItN+dBCubUklPXFZzVYppcUuit01CjuDgMMh6vMh7ey34Az6IUJPnWctVundXtvEaopbPqQcA1xsHhlfB/oWhCBKd+G0c8N+Q5FHXaihpN+AnMe5ar6DBfSi/PzPspDDRn8CfQyL53QRaaEeX5C7XsndjZ0tEqAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/6eed4b5025262658c6ebfa3ab37fa265/36727/p3-2.png"
+        srcset="/gatsbyjs/static/6eed4b5025262658c6ebfa3ab37fa265/acf4b/p3-2.png 173w,
+/gatsbyjs/static/6eed4b5025262658c6ebfa3ab37fa265/fc834/p3-2.png 345w,
+/gatsbyjs/static/6eed4b5025262658c6ebfa3ab37fa265/36727/p3-2.png 690w,
+/gatsbyjs/static/6eed4b5025262658c6ebfa3ab37fa265/b28c0/p3-2.png 843w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <p>Creación de mensaje cifrado:
 <img src="images/seguridad/p3-3.png" alt="PracticaImg" title="Imagen de la practica"></p>
 <p>Falta foto de mensaje llegado a lora:
@@ -281,7 +338,7 @@ Huellas dactilares de la clave primaria: DF9B 9C49 EAA9 <span class="token numbe
 3b6d4c43e10a06731a98005d0b1c14a1  debian-10.6.0-amd64-xfce-CD-1.iso
 02f0041c789c29fbf6530ffd291d5119  debian-edu-10.6.0-amd64-netinst.iso
 adf9e02c5a9a471cac7e527ca2ca77db  debian-mac-10.6.0-amd64-netinst.iso</code></pre></div>
-<p>El código de comprobación de ambos ficheros es el mismo por lo que podemos decir que el fichero es auténtico.</p>
+<p><strong>El código de comprobación de ambos ficheros es el mismo por lo que podemos decir que el fichero es auténtico.</strong></p>
 <h2 id="tarea-4-integridad-y-autenticidad-apt-secure-2-puntos"><a href="#tarea-4-integridad-y-autenticidad-apt-secure-2-puntos" aria-label="tarea 4 integridad y autenticidad apt secure 2 puntos permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 4: Integridad y autenticidad (apt secure) (2 puntos)</h2>
 <p>Cuando nos instalamos un paquete en nuestra distribución linux tenemos que asegurarnos que ese paquete es legítimo. Para conseguir este objetivo se utiliza criptografía asimétrica, y en el caso de Debian a este sistema se llama apt secure. Esto lo debemos tener en cuenta al utilizar los repositorios oficiales. Cuando añadamos nuevos repositorios tendremos que añadir las firmas necesarias para confiar en que los paquetes son legítimos y no han sido modificados.</p>
 <p>Busca información sobre apt secure y responde las siguientes preguntas:</p>
