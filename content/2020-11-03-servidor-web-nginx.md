@@ -16,7 +16,7 @@ Ip flotante de la maquina es ->  *172.22.200.137*
 ### Entrega una captura de pantalla accediendo a ella
 ![PracticaImg](images/servicios/nginx-1.png "Imagen de la practica")
 
-#### Virtual Hosting
+#### Virtual Hosting ####
 Primero instalaremos el servidor Gninx en nuestra maquina.
 ```shell
 debian@servidor-gninx:~$ sudo apt-get install nginx
