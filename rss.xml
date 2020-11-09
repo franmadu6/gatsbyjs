@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 09 Nov 2020 09:06:56 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Práctica 3: Integridad, firmas y autenticación ]]></title><description><![CDATA[Práctica: Integridad, firmas y autenticación Tarea 1: Firmas electrónicas (3 puntos) GPG   Manda un documento y la firma electrónica del…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Sat, 07 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-integridad-firmas-y-autenticación&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n&quot; aria-label=&quot;práctica integridad firmas y autenticación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Integridad, firmas y autenticación&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 09 Nov 2020 09:38:58 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Despliegue de aplicaciones python ]]></title><description><![CDATA[Tarea 1: Entorno de desarrollo Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</guid><category><![CDATA[Django]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-entorno-de-desarrollo&quot;&gt;&lt;a href=&quot;#tarea-1-entorno-de-desarrollo&quot; aria-label=&quot;tarea 1 entorno de desarrollo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Entorno de desarrollo&lt;/h2&gt;
+&lt;p&gt;Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de desarrollo para trabajar con la aplicación, para ello:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Clona el repositorio de GitHub: &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;https://github.com/josedom24/django_tutorial&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Crea un entorno virtual de python3 e instala las dependencias necesarias para que funcione el proyecto (fichero requirements.txt).&lt;/li&gt;
+&lt;li&gt;Comprueba que vamos a trabajar con una base de datos sqlite (django_tutorial/settings.py). ¿Cómo se llama la base de datos que vamos a crear?&lt;/li&gt;
+&lt;li&gt;Crea la base de datos: python3 manage.py migrate. A partir del modelo de datos se crean las tablas de la base de datos.&lt;/li&gt;
+&lt;li&gt;Crea un usuario administrador: python3 manage.py createsuperuser.&lt;/li&gt;
+&lt;li&gt;Ejecuta el servidor web de desarrollo y entra en la zona de administración (\admin) para comprobar que los datos se han añadido correctamente.&lt;/li&gt;
+&lt;li&gt;Crea dos preguntas, con posibles respuestas.&lt;/li&gt;
+&lt;li&gt;Comprueba en el navegador que la aplicación está funcionando, accede a la url \polls.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (2 puntos)&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tarea-2-entorno-de-producción&quot;&gt;&lt;a href=&quot;#tarea-2-entorno-de-producci%C3%B3n&quot; aria-label=&quot;tarea 2 entorno de producción permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Entorno de producción&lt;/h2&gt;
+&lt;p&gt;Vamos a realizar el despliegue de nuestra aplicación en un entorno de producción, para ello vamos a utilizar una instancia del cloud, sigue los siguientes pasos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Instala en el servidor los servicios necesarios (apache2). Instala el módulo de apache2 para ejecutar código python.&lt;/li&gt;
+&lt;li&gt;Clona el repositorio en el DocumentRoot de tu virtualhost.&lt;/li&gt;
+&lt;li&gt;Crea un entorno virtual e instala las dependencias de tu aplicación.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Instala el módulo que permite que python trabaje con mysql:&lt;/p&gt;
+&lt;p&gt;  $ apt-get install python3-mysqldb&lt;/p&gt;
+&lt;p&gt;Y en el entorno virtual:&lt;/p&gt;
+&lt;p&gt;  (env)$ pip install mysql-connector-python&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Crea una base de datos y un usuario en mysql.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Configura la aplicación para trabajar con mysql, para ello modifica la configuración de la base de datos en el archivo settings.py:&lt;/p&gt;
+&lt;p&gt;  DATABASES = {
+&apos;default&apos;: {
+&apos;ENGINE&apos;: &apos;mysql.connector.django&apos;,
+&apos;NAME&apos;: &apos;myproject&apos;,
+&apos;USER&apos;: &apos;myprojectuser&apos;,
+&apos;PASSWORD&apos;: &apos;password&apos;,
+&apos;HOST&apos;: &apos;localhost&apos;,
+&apos;PORT&apos;: &apos;&apos;,
+}
+}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Como en la tarea 1, realiza la migración de la base de datos que creará la estructura de datos necesrias. comprueba en mariadb que la base de datos y las tablas se han creado.&lt;/li&gt;
+&lt;li&gt;Crea un usuario administrador: python3 manage.py createsuperuser.&lt;/li&gt;
+&lt;li&gt;Configura un virtualhost en apache2 con la configuración adecuada para que funcione la aplicación. El punto de entrada de nuestro servidor será django&lt;em&gt;tutorial/django&lt;/em&gt;tutorial/wsgi.py. Puedes guiarte por el Ejercicio: Desplegando aplicaciones flask, por la documentación de django: How to use Django with Apache and mod_wsgi,…&lt;/li&gt;
+&lt;li&gt;Debes asegurarte que el contenido estático se está sirviendo: ¿Se muestra la imagen de fondo de la aplicación? ¿Se ve de forma adecuada la hoja de estilo de la zona de administración?. Para arreglarlo puedes encontrar documentación en How to use Django with Apache and mod_wsgi.&lt;/li&gt;
+&lt;li&gt;Desactiva en la configuración (fichero settings.py) el modo debug a False. Para que los errores de ejecución no den información sensible de la aplicación.&lt;/li&gt;
+&lt;li&gt;Muestra la página funcionando.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (4 puntos)&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tarea-3-modificación-de-nuestra-aplicación&quot;&gt;&lt;a href=&quot;#tarea-3-modificaci%C3%B3n-de-nuestra-aplicaci%C3%B3n&quot; aria-label=&quot;tarea 3 modificación de nuestra aplicación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Modificación de nuestra aplicación&lt;/h2&gt;
+&lt;p&gt;Vamos a realizar cambios en el entorno de desarrollo y posteriormente vamos a subirlas a producción. Vamos a realizar tres modificaciones (entrega una captura de pantalla donde se ven cada una de ellas). Recuerda que primero lo haces en el entrono de desarrollo, y luego tendrás que llevar los cambios a producción:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Modifica la página inicial donde se ven las encuestas para que aparezca tu nombre: Para ello modifica el archivo django_tutorial/polls/templates/polls/index.html.
+Modifica la imagen de fondo que se ve la aplicación.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vamos a crear una nueva tabla en la base de datos, para ello sigue los siguientes pasos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Añade un nuevo modelo al fichero polls/models.py:&lt;/p&gt;
+&lt;p&gt;  class Categoria(models.Model):
+Abr = models.CharField(max&lt;em&gt;length=4)
+Nombre = models.CharField(max&lt;/em&gt;length=50)&lt;/p&gt;
+&lt;p&gt;  	def &lt;strong&gt;str&lt;/strong&gt;(self):
+return self.Abr+&quot; - &quot;+self.Nombre 		&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Crea una nueva migración: python3 manage.py makemigrations.
+Y realiza la migración: python3 manage.py migrate&lt;/li&gt;
+&lt;li&gt;Añade el nuevo modelo al sitio de administración de django:&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para ello cambia la siguiente línea en el fichero polls/admin.py:&lt;/p&gt;
+&lt;p&gt;   from .models import Choice, Question&lt;/p&gt;
+&lt;p&gt;Por esta otra:&lt;/p&gt;
+&lt;p&gt;   from .models import Choice, Question, Categoria&lt;/p&gt;
+&lt;p&gt;Y añade al final la siguiente línea:&lt;/p&gt;
+&lt;p&gt;   admin.site.register(Categoria)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Despliega el cambio producido al crear la nueva tabla en el entorno de producción.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Explica los cambios que has realizado en el entorno de desarrollo y cómo lo has desplegado en producción para cada una de las modificaciones (4 puntos).&lt;/strong&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 3: Integridad, firmas y autenticación ]]></title><description><![CDATA[Práctica: Integridad, firmas y autenticación Tarea 1: Firmas electrónicas (3 puntos) GPG   Manda un documento y la firma electrónica del…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Sat, 07 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-integridad-firmas-y-autenticación&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n&quot; aria-label=&quot;práctica integridad firmas y autenticación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Integridad, firmas y autenticación&lt;/h2&gt;
 &lt;h3 id=&quot;tarea-1-firmas-electrónicas-3-puntos&quot;&gt;&lt;a href=&quot;#tarea-1-firmas-electr%C3%B3nicas-3-puntos&quot; aria-label=&quot;tarea 1 firmas electrónicas 3 puntos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Firmas electrónicas (3 puntos)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;GPG&lt;/strong&gt;  &lt;/p&gt;
 &lt;h3 id=&quot;manda-un-documento-y-la-firma-electrónica-del-mismo-a-un-compañero-verifica-la-firma-que-tu-has-recibido&quot;&gt;&lt;a href=&quot;#manda-un-documento-y-la-firma-electr%C3%B3nica-del-mismo-a-un-compa%C3%B1ero-verifica-la-firma-que-tu-has-recibido&quot; aria-label=&quot;manda un documento y la firma electrónica del mismo a un compañero verifica la firma que tu has recibido permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Manda un documento y la firma electrónica del mismo a un compañero. Verifica la firma que tu has recibido.&lt;/h3&gt;
@@ -237,12 +315,94 @@ Editar → Preferencias → Preferencias del editor → Firmas → Añadir → P
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Creación de mensaje cifrado:
-&lt;img src=&quot;images/seguridad/p3-3.png&quot; alt=&quot;PracticaImg&quot; title=&quot;Imagen de la practica&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Falta foto de mensaje llegado a lora:
-&lt;img src=&quot;images/seguridad/p3-4.png&quot; alt=&quot;PracticaImg&quot; title=&quot;Imagen de la practica&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Falta foto de mansaje de lora:
-&lt;img src=&quot;images/seguridad/p3-5.png&quot; alt=&quot;PracticaImg&quot; title=&quot;Imagen de la practica&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Creación de mensaje cifrado(Señalado activación de cifrado GPG):
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/5ad339d4285d084daf2b14864fc6e112/b28c0/p3-3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 63.70106761565837%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB6UlEQVQ4y41T227UMBD1t4AgcW6brBPnYidxst0WSssfUIkXJF6QeAAJ/p0cZrxrdUGI9uHEl8ycGZ9jCynlrzRNkWXZliSSR6Rp5kdGkiSoqgpD3yOOY8RSIoojvH4VY1fSOk4gZbLleY7dbreJ23d3WNZ1s9ZiWq/h5gnWDhhHi3macDisRNZB1Rpt22PQNabW4u7e4ONDhPf3GREp1LXalFIQN29uN+cctG43664puYWxLSVrWOrKuRmH1aHrLbiobTu8XY749Nni65cCDx9KNNpsw9BRTrsJZu26DsNAXVlDnY2YZ0fJI9rOBxEZdTb01EUD3Sr8+PkS37+9AJNY28MY6/M5VvCnrmuvk9Z0LAIX4D3WhfUNkDLD4mIcryKUZQYZZ3/8Z82FPhMwIROwCZcBvMc4zdmkHFGUn4zLH/8HCD4KH7OnYzVNg/1+78nLsvQjOYeiKGi/8mseFaGpK9TqFHcJ36ExBqxlOH6eF56EyU6VM28SF9RNTdI0GHsF21HxvfK5AWJZFiyLIyNmHI9XdPyTw0EKJglahruZnu/q5X0NEJzgK58JuEuee4NoHgifC8EmBNCrweU64O8u/gfBOl2KGkx4Chz3r1jBDvNLmeiZreviXwMb8xSMGXwOyxIeB8vzG7lGoAiduHgxAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/5ad339d4285d084daf2b14864fc6e112/36727/p3-3.png&quot;
+        srcset=&quot;/gatsbyjs/static/5ad339d4285d084daf2b14864fc6e112/acf4b/p3-3.png 173w,
+/gatsbyjs/static/5ad339d4285d084daf2b14864fc6e112/fc834/p3-3.png 345w,
+/gatsbyjs/static/5ad339d4285d084daf2b14864fc6e112/36727/p3-3.png 690w,
+/gatsbyjs/static/5ad339d4285d084daf2b14864fc6e112/b28c0/p3-3.png 843w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Como le ha llegado el mensaje a Manuel Lora:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 599px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/431002e915c91ce2457e010a316588a2/3d4e8/p3-4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 72.62103505843072%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACBklEQVQ4y5VTWY7aUBD0adhX7wsG22PMZoMhEiSR8pecLgfIFXKrSld7jBiS0Sgfpe73+tGu6i6MbrcLotPpaOz1epp3Os39YrFAmqawLFPP/X5f37QYDAaYTCaYz+cYjUYwoihCEPhYLpdwXRemaWO1WoH34/EYtm3DcRy5N/U8HA6lwVSbTKdTzGYzbUYwN+pThTTLsF6vkSQr/Pj+DXmeY7PZKLMkSbQ5G+92O9y+fJWPx1rzfV/IBFpjThiXao9IZIWhMPU9nKpUH8VxrI3IPAxDkWwhjET+S6H1SHIyJ1hrlNgwfv/6ifGU+ociy8J4MlN5rQyFnG3bgmVKbTaROFfYlnkfCSNhXM61yiIjzo7gOZMxNJJXEhN4ixR2lMOJN3AWheQvcKIMruffmxJGKLJutxuOxwrn8xlleRCUKA97xHmJIL8gymu4L59g558FN4WXHOAESziu17B7ZWnUda0NuQQ2LYpCWZGlMpcZMrquo7IdstFImG/YKcPr9SoNr9hut6iqEvv9HqfT8T6GWBbGxejwX+dkPUIW0kIZ0gL8ged5GlmgYWngFq2B6UF68T1wgQb9x0VwAUWxVj+2C+EHWMuyVBfDnGZmY/4rnqEN6TGyo7eY03uMPDf3vp7DMNC7vyz1AKozGv1vZ/E4k+e7xwX8C8ZHD57RGvg9/HfDj/AHQKXwqI0guUYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/431002e915c91ce2457e010a316588a2/3d4e8/p3-4.png&quot;
+        srcset=&quot;/gatsbyjs/static/431002e915c91ce2457e010a316588a2/acf4b/p3-4.png 173w,
+/gatsbyjs/static/431002e915c91ce2457e010a316588a2/fc834/p3-4.png 345w,
+/gatsbyjs/static/431002e915c91ce2457e010a316588a2/3d4e8/p3-4.png 599w&quot;
+        sizes=&quot;(max-width: 599px) 100vw, 599px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Mensaje descrifrado de Manuel Lora:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 600px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/94490c3c1500e908b08e85b862c35e48/34e8a/p3-5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 72.83333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACWklEQVQ4y62TSW/TQBiG/WfaNDS1HW/xbseJ4zqOYye0aRYqEAgEB1pVKgipTdJW6rFSfwYHlgLiwAkhceEfcfLLzFAhloZF4vDo22Zej+f7hiuVSiAUy8slrKxQVmiMpaUlqKqKZrMBx3EQhiEqlQqrl8tlBvVXV1cLnueLarVK/c+caZqFYehwXAeqpkKSFXi+B5KHIAhQVIWh6zrIRrLpGniBZz6ti6IISZIoBfW5tB3DsZzCd324to2b21vwHA9BPYBt2rBMC7qmQ1gT0Aoj5Pl1GDUDtmVDlVVKURWqhSIp0FSt4DZHOdazGFG2jka7jhu3ugg7LcR5jFYaEdtGMwnhNh22Lh30ESZNRKTmtTz4ETlI6CKIAxiWAe79h+c4fDHDk6ePMb+Y4uDZAeavpjh+MyPxIY5ez3Dy9pjYI5KfY07i6cspZhc0f4LTd6c4+3iG80/nyG/n4B7uP8BkZ4L+/RFGj+5iTBjt3yH+PRYz9rYx3BlitDv6geHu1xytjffG7LScrCjI0gyq04Fg98FTrB7WzAy83gYv2eArEoQKD3FNXExFhCzJ4Pq9HiaTMZK0i27eY+T9DdQbIel2HY5twvNc6GQS6BjRSWD2Zy7z3OZgA4OtTazHEdI0QZLEyHIinqXIexnanYRZ13fZ+NT0GjRd+wWaZ4KtiHSUiNDZowSNAF6ddK/uw3ZsFrvkhH7gw7ItCKKwkJpZA0fVTctkv0S/8s2a38VGDYZpsJyiKQuhWpxCmiLLMqj9G668v0tonfvdgis3XT7Fq2B3+K+Cf+K/C34Bl74QrsNvtlUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/94490c3c1500e908b08e85b862c35e48/34e8a/p3-5.png&quot;
+        srcset=&quot;/gatsbyjs/static/94490c3c1500e908b08e85b862c35e48/acf4b/p3-5.png 173w,
+/gatsbyjs/static/94490c3c1500e908b08e85b862c35e48/fc834/p3-5.png 345w,
+/gatsbyjs/static/94490c3c1500e908b08e85b862c35e48/34e8a/p3-5.png 600w&quot;
+        sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;tarea-3-integridad-de-ficheros-1-punto&quot;&gt;&lt;a href=&quot;#tarea-3-integridad-de-ficheros-1-punto&quot; aria-label=&quot;tarea 3 integridad de ficheros 1 punto permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Integridad de ficheros (1 punto)&lt;/h2&gt;
 &lt;p&gt;Vamos a descargarnos la ISO de debian, y posteriormente vamos a comprobar su integridad.&lt;/p&gt;
 &lt;p&gt;Puedes encontrar la ISO en la dirección: &lt;a href=&quot;https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/&quot;&gt;https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/&lt;/a&gt;.&lt;/p&gt;
@@ -304,39 +464,63 @@ adf9e02c5a9a471cac7e527ca2ca77db  debian-mac-10.6.0-amd64-netinst.iso&lt;/code&g
 &lt;h2 id=&quot;tarea-4-integridad-y-autenticidad-apt-secure-2-puntos&quot;&gt;&lt;a href=&quot;#tarea-4-integridad-y-autenticidad-apt-secure-2-puntos&quot; aria-label=&quot;tarea 4 integridad y autenticidad apt secure 2 puntos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 4: Integridad y autenticidad (apt secure) (2 puntos)&lt;/h2&gt;
 &lt;p&gt;Cuando nos instalamos un paquete en nuestra distribución linux tenemos que asegurarnos que ese paquete es legítimo. Para conseguir este objetivo se utiliza criptografía asimétrica, y en el caso de Debian a este sistema se llama apt secure. Esto lo debemos tener en cuenta al utilizar los repositorios oficiales. Cuando añadamos nuevos repositorios tendremos que añadir las firmas necesarias para confiar en que los paquetes son legítimos y no han sido modificados.&lt;/p&gt;
 &lt;p&gt;Busca información sobre apt secure y responde las siguientes preguntas:&lt;/p&gt;
-&lt;p&gt;¿Qué software utiliza apt secure para realizar la criptografía asimétrica?
-¿Para que sirve el comando apt-key? ¿Qué muestra el comando apt-key list?
-En que fichero se guarda el anillo de claves que guarda la herramienta apt-key?
-¿Qué contiene el archivo Release de un repositorio de paquetes?. ¿Y el archivo Release.gpg?. Puedes ver estos archivos en el repositorio &lt;a href=&quot;http://ftp.debian.org/debian/dists/Debian10.1/&quot;&gt;http://ftp.debian.org/debian/dists/Debian10.1/&lt;/a&gt;. Estos archivos se descargan cuando hacemos un apt update.
-Explica el proceso por el cual el sistema nos asegura que los ficheros que estamos descargando son legítimos.
-añade de forma correcta el repositorio de virtualbox añadiendo la clave pública de virtualbox como se indica en la documentación.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;¿Qué software utiliza apt secure para realizar la criptografía asimétrica?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Software de encriptación GPG&lt;/strong&gt;&lt;br&gt;
+GPG (GNU Privacy Guard, gnupg.org, paquete gnupg) es un software de encriptación utilizado para cifrar y firmar documentos digitales, especialmente el correo, que utiliza criptografía híbrida: combina criptografía simétrica (por su rapidez), con criptografía asimétrica (por no necesitar compartir claves secretas). Sigue el estándar OpenPGP del IETF (Internet Engineering Task Force) y está integrado en numerosos programas como Secure-APT, Kmail, Evolution, Mozilla-Thunderbird, etc.&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;¿Para que sirve el comando apt-key? ¿Qué muestra el comando apt-key list?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Sirve para gestionar la lista de claves que APT usa para autenticar paquetes. Los paquetes autenticados mediante estas claves se consideran de confianza.
+apt-key list → lista nuestras claves de confianza.&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;En que fichero se guarda el anillo de claves que guarda la herramienta apt-key?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;El anillo de claves se guarda en el archivo /etc/apt/trusted.gpg&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;¿Qué contiene el archivo Release de un repositorio de paquetes?. ¿Y el archivo Release.gpg?. Puedes ver estos archivos en el repositorio &lt;a href=&quot;http://ftp.debian.org/debian/dists/Debian10.1/&quot;&gt;http://ftp.debian.org/debian/dists/Debian10.1/&lt;/a&gt;. Estos archivos se descargan cuando hacemos un apt update.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Debian contiene un archivo llamado Release, el cual se actualiza cada vez que cualquiera de los paquetes en el archivo cambian. Entre otras cosas, el fichero Release contiene algunos md5sums por cada paquete listado en él. &lt;/p&gt;
+&lt;p&gt;Secure Apt siempre descarga los ficheros Release.gpg cuando está descargando los ficheros Release, y si no puede descargar el archivo Release.gpg, o si la firma está mal, lo advertirá, y nos dirá que el fichero Packages al cual apunta el fichero Release, y todos los paquetes enumerados dentro, son de una fuente sin autentificar, la seguridad del sistema entero depende de que haya un fichero Release.gpg, el cual firma un fichero Release, y de APT comprobando que esa firma use gpg.&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;Explica el proceso por el cual el sistema nos asegura que los ficheros que estamos descargando son legítimos.
+añade de forma correcta el repositorio de virtualbox añadiendo la clave pública de virtualbox como se indica en la documentación.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Explicado en el punto anterior.&lt;/p&gt;
 &lt;h2 id=&quot;tarea-5-autentificación-ejemplo-ssh-2-puntos&quot;&gt;&lt;a href=&quot;#tarea-5-autentificaci%C3%B3n-ejemplo-ssh-2-puntos&quot; aria-label=&quot;tarea 5 autentificación ejemplo ssh 2 puntos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 5: Autentificación: ejemplo SSH (2 puntos)&lt;/h2&gt;
 &lt;p&gt;Vamos a estudiar como la criptografía nos ayuda a cifrar las comunicaciones que hacemos utilizando el protocolo ssh, y cómo nos puede servir también para conseguir que un cliente se autentifique contra el servidor. Responde las siguientes cuestiones:&lt;/p&gt;
-&lt;p&gt;Explica los pasos que se producen entre el cliente y el servidor para que el protocolo cifre la información que se transmite? ¿Para qué se utiliza la criptografía simétrica? ¿Y la asimétrica?
-Explica los dos métodos principales de autentificación: por contraseña y utilizando un par de claves públicas y privadas.
-En el cliente para que sirve el contenido que se guarda en el fichero ~/.ssh/know_hosts?&lt;/p&gt;
-&lt;p&gt;¿Qué significa este mensaje que aparece la primera vez que nos conectamos a un servidor?&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; $ ssh debian@172.22.200.74
- The authenticity of host &amp;#39;172.22.200.74 (172.22.200.74)&amp;#39; can&amp;#39;t be established.
- ECDSA key fingerprint is SHA256:7ZoNZPCbQTnDso1meVSNoKszn38ZwUI4i6saebbfL4M.
- Are you sure you want to continue connecting (yes/no)? &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;Explica los pasos que se producen entre el cliente y el servidor para que el protocolo cifre la información que se transmite? ¿Para qué se utiliza la criptografía simétrica? ¿Y la asimétrica?&lt;/li&gt;
+&lt;li&gt;Explica los dos métodos principales de autentificación: por contraseña y utilizando un par de claves públicas y privadas.&lt;/li&gt;
+&lt;li&gt;En el cliente para que sirve el contenido que se guarda en el fichero ~/.ssh/know_hosts?&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5¿Qué significa este mensaje que aparece la primera vez que nos conectamos a un servidor?&lt;/p&gt;
+&lt;p&gt; $ ssh debian@172.22.200.74
+The authenticity of host &apos;172.22.200.74 (172.22.200.74)&apos; can&apos;t be established.
+ECDSA key fingerprint is SHA256:7ZoNZPCbQTnDso1meVSNoKszn38ZwUI4i6saebbfL4M.
+Are you sure you want to continue connecting (yes/no)? &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;En ocasiones cuando estamos trabajando en el cloud, y reutilizamos una ip flotante nos aparece este mensaje:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; $ ssh debian@172.22.200.74
- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
- @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
- IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
- Someone could be eavesdropping on you right now (man-in-the-middle attack)!
- It is also possible that a host key has just been changed.
- The fingerprint for the ECDSA key sent by the remote host is
- SHA256:W05RrybmcnJxD3fbwJOgSNNWATkVftsQl7EzfeKJgNc.
- Please contact your system administrator.
- Add correct host key in /home/jose/.ssh/known_hosts to get rid of this message.
- Offending ECDSA key in /home/jose/.ssh/known_hosts:103
-   remove with:
-   ssh-keygen -f &amp;quot;/home/jose/.ssh/known_hosts&amp;quot; -R &amp;quot;172.22.200.74&amp;quot;
- ECDSA host key for 172.22.200.74 has changed and you have requested strict checking.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;¿Qué guardamos y para qué sirve el fichero en el servidor ~/.ssh/authorized_keys?&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
+&lt;p&gt; $ ssh debian@172.22.200.74
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:W05RrybmcnJxD3fbwJOgSNNWATkVftsQl7EzfeKJgNc.
+Please contact your system administrator.
+Add correct host key in /home/jose/.ssh/known&lt;em&gt;hosts to get rid of this message.
+Offending ECDSA key in /home/jose/.ssh/known&lt;/em&gt;hosts:103
+remove with:
+ssh-keygen -f &quot;/home/jose/.ssh/known_hosts&quot; -R &quot;172.22.200.74&quot;
+ECDSA host key for 172.22.200.74 has changed and you have requested strict checking.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;¿Qué guardamos y para qué sirve el fichero en el servidor ~/.ssh/authorized_keys?&lt;/li&gt;
+&lt;/ol&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
 &lt;h3 id=&quot;para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot;&gt;&lt;a href=&quot;#para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot; aria-label=&quot;para poder acceder a la red local desde el exterior existe una red privada configurada con openvpn que utiliza certificados x509 para autenticar los usuarios y el servidor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Para poder acceder a la red local desde el exterior, existe una red privada configurada con OpenVPN que utiliza certificados x509 para autenticar los usuarios y el servidor.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -2403,85 +2587,7 @@ Con este Script he generado una plantilla por defecto para mis paginas que se pu
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de aplicaciones python ]]></title><description><![CDATA[Tarea 1: Entorno de desarrollo Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</guid><category><![CDATA[Django]]></category><pubDate>Sun, 18 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-entorno-de-desarrollo&quot;&gt;&lt;a href=&quot;#tarea-1-entorno-de-desarrollo&quot; aria-label=&quot;tarea 1 entorno de desarrollo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Entorno de desarrollo&lt;/h2&gt;
-&lt;p&gt;Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de desarrollo para trabajar con la aplicación, para ello:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Clona el repositorio de GitHub: &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;https://github.com/josedom24/django_tutorial&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Crea un entorno virtual de python3 e instala las dependencias necesarias para que funcione el proyecto (fichero requirements.txt).&lt;/li&gt;
-&lt;li&gt;Comprueba que vamos a trabajar con una base de datos sqlite (django_tutorial/settings.py). ¿Cómo se llama la base de datos que vamos a crear?&lt;/li&gt;
-&lt;li&gt;Crea la base de datos: python3 manage.py migrate. A partir del modelo de datos se crean las tablas de la base de datos.&lt;/li&gt;
-&lt;li&gt;Crea un usuario administrador: python3 manage.py createsuperuser.&lt;/li&gt;
-&lt;li&gt;Ejecuta el servidor web de desarrollo y entra en la zona de administración (\admin) para comprobar que los datos se han añadido correctamente.&lt;/li&gt;
-&lt;li&gt;Crea dos preguntas, con posibles respuestas.&lt;/li&gt;
-&lt;li&gt;Comprueba en el navegador que la aplicación está funcionando, accede a la url \polls.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (2 puntos)&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;tarea-2-entorno-de-producción&quot;&gt;&lt;a href=&quot;#tarea-2-entorno-de-producci%C3%B3n&quot; aria-label=&quot;tarea 2 entorno de producción permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Entorno de producción&lt;/h2&gt;
-&lt;p&gt;Vamos a realizar el despliegue de nuestra aplicación en un entorno de producción, para ello vamos a utilizar una instancia del cloud, sigue los siguientes pasos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Instala en el servidor los servicios necesarios (apache2). Instala el módulo de apache2 para ejecutar código python.&lt;/li&gt;
-&lt;li&gt;Clona el repositorio en el DocumentRoot de tu virtualhost.&lt;/li&gt;
-&lt;li&gt;Crea un entorno virtual e instala las dependencias de tu aplicación.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Instala el módulo que permite que python trabaje con mysql:&lt;/p&gt;
-&lt;p&gt;  $ apt-get install python3-mysqldb&lt;/p&gt;
-&lt;p&gt;Y en el entorno virtual:&lt;/p&gt;
-&lt;p&gt;  (env)$ pip install mysql-connector-python&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Crea una base de datos y un usuario en mysql.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Configura la aplicación para trabajar con mysql, para ello modifica la configuración de la base de datos en el archivo settings.py:&lt;/p&gt;
-&lt;p&gt;  DATABASES = {
-&apos;default&apos;: {
-&apos;ENGINE&apos;: &apos;mysql.connector.django&apos;,
-&apos;NAME&apos;: &apos;myproject&apos;,
-&apos;USER&apos;: &apos;myprojectuser&apos;,
-&apos;PASSWORD&apos;: &apos;password&apos;,
-&apos;HOST&apos;: &apos;localhost&apos;,
-&apos;PORT&apos;: &apos;&apos;,
-}
-}&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Como en la tarea 1, realiza la migración de la base de datos que creará la estructura de datos necesrias. comprueba en mariadb que la base de datos y las tablas se han creado.&lt;/li&gt;
-&lt;li&gt;Crea un usuario administrador: python3 manage.py createsuperuser.&lt;/li&gt;
-&lt;li&gt;Configura un virtualhost en apache2 con la configuración adecuada para que funcione la aplicación. El punto de entrada de nuestro servidor será django&lt;em&gt;tutorial/django&lt;/em&gt;tutorial/wsgi.py. Puedes guiarte por el Ejercicio: Desplegando aplicaciones flask, por la documentación de django: How to use Django with Apache and mod_wsgi,…&lt;/li&gt;
-&lt;li&gt;Debes asegurarte que el contenido estático se está sirviendo: ¿Se muestra la imagen de fondo de la aplicación? ¿Se ve de forma adecuada la hoja de estilo de la zona de administración?. Para arreglarlo puedes encontrar documentación en How to use Django with Apache and mod_wsgi.&lt;/li&gt;
-&lt;li&gt;Desactiva en la configuración (fichero settings.py) el modo debug a False. Para que los errores de ejecución no den información sensible de la aplicación.&lt;/li&gt;
-&lt;li&gt;Muestra la página funcionando.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (4 puntos)&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;tarea-3-modificación-de-nuestra-aplicación&quot;&gt;&lt;a href=&quot;#tarea-3-modificaci%C3%B3n-de-nuestra-aplicaci%C3%B3n&quot; aria-label=&quot;tarea 3 modificación de nuestra aplicación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Modificación de nuestra aplicación&lt;/h2&gt;
-&lt;p&gt;Vamos a realizar cambios en el entorno de desarrollo y posteriormente vamos a subirlas a producción. Vamos a realizar tres modificaciones (entrega una captura de pantalla donde se ven cada una de ellas). Recuerda que primero lo haces en el entrono de desarrollo, y luego tendrás que llevar los cambios a producción:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Modifica la página inicial donde se ven las encuestas para que aparezca tu nombre: Para ello modifica el archivo django_tutorial/polls/templates/polls/index.html.
-Modifica la imagen de fondo que se ve la aplicación.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Vamos a crear una nueva tabla en la base de datos, para ello sigue los siguientes pasos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Añade un nuevo modelo al fichero polls/models.py:&lt;/p&gt;
-&lt;p&gt;  class Categoria(models.Model):
-Abr = models.CharField(max&lt;em&gt;length=4)
-Nombre = models.CharField(max&lt;/em&gt;length=50)&lt;/p&gt;
-&lt;p&gt;  	def &lt;strong&gt;str&lt;/strong&gt;(self):
-return self.Abr+&quot; - &quot;+self.Nombre 		&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Crea una nueva migración: python3 manage.py makemigrations.
-Y realiza la migración: python3 manage.py migrate&lt;/li&gt;
-&lt;li&gt;Añade el nuevo modelo al sitio de administración de django:&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Para ello cambia la siguiente línea en el fichero polls/admin.py:&lt;/p&gt;
-&lt;p&gt;   from .models import Choice, Question&lt;/p&gt;
-&lt;p&gt;Por esta otra:&lt;/p&gt;
-&lt;p&gt;   from .models import Choice, Question, Categoria&lt;/p&gt;
-&lt;p&gt;Y añade al final la siguiente línea:&lt;/p&gt;
-&lt;p&gt;   admin.site.register(Categoria)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Despliega el cambio producido al crear la nueva tabla en el entorno de producción.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Explica los cambios que has realizado en el entorno de desarrollo y cómo lo has desplegado en producción para cada una de las modificaciones (4 puntos).&lt;/strong&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación de Brackets en Debian]]></title><description><![CDATA[Brackets  Un editor de texto de código abierto moderno que comprende el diseño web. Extensiones recomendadas CanIUse Con esta extensión…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</guid><category><![CDATA[Entorno de desarrollo]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Brackets]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;brackets&quot;&gt;&lt;a href=&quot;#brackets&quot; aria-label=&quot;brackets permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Brackets&lt;/h2&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación de Brackets en Debian]]></title><description><![CDATA[Brackets  Un editor de texto de código abierto moderno que comprende el diseño web. Extensiones recomendadas CanIUse Con esta extensión…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-de-brackets-en-debian</guid><category><![CDATA[Entorno de desarrollo]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Brackets]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;brackets&quot;&gt;&lt;a href=&quot;#brackets&quot; aria-label=&quot;brackets permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Brackets&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
