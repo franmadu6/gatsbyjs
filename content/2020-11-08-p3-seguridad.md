@@ -203,13 +203,13 @@ Editar → Preferencias → Preferencias del editor → Firmas → Añadir → P
 Creación de mensaje firmado:
 ![PracticaImg](images/seguridad/p3-2.png "Imagen de la practica")
 
-Creación de mensaje cifrado:
+Creación de mensaje cifrado(Señalado activación de cifrado GPG):
 ![PracticaImg](images/seguridad/p3-3.png "Imagen de la practica")
 
-Falta foto de mensaje llegado a lora:
+Como le ha llegado el mensaje a Manuel Lora:
 ![PracticaImg](images/seguridad/p3-4.png "Imagen de la practica")
 
-Falta foto de mansaje de lora:
+Mensaje descrifrado de Manuel Lora:
 ![PracticaImg](images/seguridad/p3-5.png "Imagen de la practica")
 
 ## Tarea 3: Integridad de ficheros (1 punto)
@@ -296,28 +296,48 @@ Cuando nos instalamos un paquete en nuestra distribución linux tenemos que aseg
 
 Busca información sobre apt secure y responde las siguientes preguntas:
 
-¿Qué software utiliza apt secure para realizar la criptografía asimétrica?
-¿Para que sirve el comando apt-key? ¿Qué muestra el comando apt-key list?
-En que fichero se guarda el anillo de claves que guarda la herramienta apt-key?
-¿Qué contiene el archivo Release de un repositorio de paquetes?. ¿Y el archivo Release.gpg?. Puedes ver estos archivos en el repositorio http://ftp.debian.org/debian/dists/Debian10.1/. Estos archivos se descargan cuando hacemos un apt update.
-Explica el proceso por el cual el sistema nos asegura que los ficheros que estamos descargando son legítimos.
+1. ¿Qué software utiliza apt secure para realizar la criptografía asimétrica?
+
+**Software de encriptación GPG**  
+GPG (GNU Privacy Guard, gnupg.org, paquete gnupg) es un software de encriptación utilizado para cifrar y firmar documentos digitales, especialmente el correo, que utiliza criptografía híbrida: combina criptografía simétrica (por su rapidez), con criptografía asimétrica (por no necesitar compartir claves secretas). Sigue el estándar OpenPGP del IETF (Internet Engineering Task Force) y está integrado en numerosos programas como Secure-APT, Kmail, Evolution, Mozilla-Thunderbird, etc.
+
+2. ¿Para que sirve el comando apt-key? ¿Qué muestra el comando apt-key list?
+
+Sirve para gestionar la lista de claves que APT usa para autenticar paquetes. Los paquetes autenticados mediante estas claves se consideran de confianza. 
+apt-key list → lista nuestras claves de confianza.
+
+3. En que fichero se guarda el anillo de claves que guarda la herramienta apt-key?
+
+El anillo de claves se guarda en el archivo /etc/apt/trusted.gpg
+
+4. ¿Qué contiene el archivo Release de un repositorio de paquetes?. ¿Y el archivo Release.gpg?. Puedes ver estos archivos en el repositorio http://ftp.debian.org/debian/dists/Debian10.1/. Estos archivos se descargan cuando hacemos un apt update.
+
+Debian contiene un archivo llamado Release, el cual se actualiza cada vez que cualquiera de los paquetes en el archivo cambian. Entre otras cosas, el fichero Release contiene algunos md5sums por cada paquete listado en él. 
+
+Secure Apt siempre descarga los ficheros Release.gpg cuando está descargando los ficheros Release, y si no puede descargar el archivo Release.gpg, o si la firma está mal, lo advertirá, y nos dirá que el fichero Packages al cual apunta el fichero Release, y todos los paquetes enumerados dentro, son de una fuente sin autentificar, la seguridad del sistema entero depende de que haya un fichero Release.gpg, el cual firma un fichero Release, y de APT comprobando que esa firma use gpg.
+
+5. Explica el proceso por el cual el sistema nos asegura que los ficheros que estamos descargando son legítimos.
 añade de forma correcta el repositorio de virtualbox añadiendo la clave pública de virtualbox como se indica en la documentación.
+
+Explicado en el punto anterior.
 
 ## Tarea 5: Autentificación: ejemplo SSH (2 puntos)
 Vamos a estudiar como la criptografía nos ayuda a cifrar las comunicaciones que hacemos utilizando el protocolo ssh, y cómo nos puede servir también para conseguir que un cliente se autentifique contra el servidor. Responde las siguientes cuestiones:
 
-Explica los pasos que se producen entre el cliente y el servidor para que el protocolo cifre la información que se transmite? ¿Para qué se utiliza la criptografía simétrica? ¿Y la asimétrica?
-Explica los dos métodos principales de autentificación: por contraseña y utilizando un par de claves públicas y privadas.
-En el cliente para que sirve el contenido que se guarda en el fichero ~/.ssh/know_hosts?
+1. Explica los pasos que se producen entre el cliente y el servidor para que el protocolo cifre la información que se transmite? ¿Para qué se utiliza la criptografía simétrica? ¿Y la asimétrica?
 
-¿Qué significa este mensaje que aparece la primera vez que nos conectamos a un servidor?
+2. Explica los dos métodos principales de autentificación: por contraseña y utilizando un par de claves públicas y privadas.
+
+3. En el cliente para que sirve el contenido que se guarda en el fichero ~/.ssh/know_hosts?
+
+4. 5¿Qué significa este mensaje que aparece la primera vez que nos conectamos a un servidor?
 
      $ ssh debian@172.22.200.74
      The authenticity of host '172.22.200.74 (172.22.200.74)' can't be established.
      ECDSA key fingerprint is SHA256:7ZoNZPCbQTnDso1meVSNoKszn38ZwUI4i6saebbfL4M.
      Are you sure you want to continue connecting (yes/no)? 
 
-En ocasiones cuando estamos trabajando en el cloud, y reutilizamos una ip flotante nos aparece este mensaje:
+5. En ocasiones cuando estamos trabajando en el cloud, y reutilizamos una ip flotante nos aparece este mensaje:
 
      $ ssh debian@172.22.200.74
      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -335,5 +355,5 @@ En ocasiones cuando estamos trabajando en el cloud, y reutilizamos una ip flotan
        ssh-keygen -f "/home/jose/.ssh/known_hosts" -R "172.22.200.74"
      ECDSA host key for 172.22.200.74 has changed and you have requested strict checking.
 
-¿Qué guardamos y para qué sirve el fichero en el servidor ~/.ssh/authorized_keys?
+6. ¿Qué guardamos y para qué sirve el fichero en el servidor ~/.ssh/authorized_keys?
 
