@@ -1,6 +1,6 @@
 ---
 date: 2020-10-08
-title: "Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube"
+title: "Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube (unidad 1)"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
     - Seguridad
