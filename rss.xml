@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 09 Nov 2020 09:38:58 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Despliegue de aplicaciones python ]]></title><description><![CDATA[Tarea 1: Entorno de desarrollo Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</guid><category><![CDATA[Django]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-entorno-de-desarrollo&quot;&gt;&lt;a href=&quot;#tarea-1-entorno-de-desarrollo&quot; aria-label=&quot;tarea 1 entorno de desarrollo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Entorno de desarrollo&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 09 Nov 2020 10:51:32 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Despliegue de aplicaciones python ]]></title><description><![CDATA[Tarea 1: Entorno de desarrollo Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</guid><category><![CDATA[Django]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-entorno-de-desarrollo&quot;&gt;&lt;a href=&quot;#tarea-1-entorno-de-desarrollo&quot; aria-label=&quot;tarea 1 entorno de desarrollo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Entorno de desarrollo&lt;/h2&gt;
 &lt;p&gt;Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de desarrollo para trabajar con la aplicación, para ello:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Clona el repositorio de GitHub: &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;https://github.com/josedom24/django_tutorial&lt;/a&gt;.&lt;/li&gt;
@@ -465,44 +465,121 @@ adf9e02c5a9a471cac7e527ca2ca77db  debian-mac-10.6.0-amd64-netinst.iso&lt;/code&g
 &lt;p&gt;Cuando nos instalamos un paquete en nuestra distribución linux tenemos que asegurarnos que ese paquete es legítimo. Para conseguir este objetivo se utiliza criptografía asimétrica, y en el caso de Debian a este sistema se llama apt secure. Esto lo debemos tener en cuenta al utilizar los repositorios oficiales. Cuando añadamos nuevos repositorios tendremos que añadir las firmas necesarias para confiar en que los paquetes son legítimos y no han sido modificados.&lt;/p&gt;
 &lt;p&gt;Busca información sobre apt secure y responde las siguientes preguntas:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;¿Qué software utiliza apt secure para realizar la criptografía asimétrica?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;¿Qué software utiliza apt secure para realizar la criptografía asimétrica?&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Software de encriptación GPG&lt;/strong&gt;&lt;br&gt;
 GPG (GNU Privacy Guard, gnupg.org, paquete gnupg) es un software de encriptación utilizado para cifrar y firmar documentos digitales, especialmente el correo, que utiliza criptografía híbrida: combina criptografía simétrica (por su rapidez), con criptografía asimétrica (por no necesitar compartir claves secretas). Sigue el estándar OpenPGP del IETF (Internet Engineering Task Force) y está integrado en numerosos programas como Secure-APT, Kmail, Evolution, Mozilla-Thunderbird, etc.&lt;/p&gt;
 &lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;¿Para que sirve el comando apt-key? ¿Qué muestra el comando apt-key list?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;¿Para que sirve el comando apt-key? ¿Qué muestra el comando apt-key list?&lt;/strong&gt;
+Sirve para gestionar la lista de claves que APT usa para autenticar paquetes. Los paquetes autenticados mediante estas claves se consideran de confianza.
+apt-key list → lista nuestras claves de confianza.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;En que fichero se guarda el anillo de claves que guarda la herramienta apt-key?&lt;/strong&gt;
+El anillo de claves se guarda en el archivo /etc/apt/trusted.gpg&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;¿Qué contiene el archivo Release de un repositorio de paquetes?. ¿Y el archivo Release.gpg?. Puedes ver estos archivos en el repositorio &lt;a href=&quot;http://ftp.debian.org/debian/dists/Debian10.1/&quot;&gt;http://ftp.debian.org/debian/dists/Debian10.1/&lt;/a&gt;. Estos archivos se descargan cuando hacemos un apt update.&lt;/strong&gt;
+Debian contiene un archivo llamado Release, el cual se actualiza cada vez que cualquiera de los paquetes en el archivo cambian. Entre otras cosas, el fichero Release contiene algunos md5sums por cada paquete listado en él. &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Sirve para gestionar la lista de claves que APT usa para autenticar paquetes. Los paquetes autenticados mediante estas claves se consideran de confianza.
-apt-key list → lista nuestras claves de confianza.&lt;/p&gt;
-&lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;En que fichero se guarda el anillo de claves que guarda la herramienta apt-key?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;El anillo de claves se guarda en el archivo /etc/apt/trusted.gpg&lt;/p&gt;
-&lt;ol start=&quot;4&quot;&gt;
-&lt;li&gt;¿Qué contiene el archivo Release de un repositorio de paquetes?. ¿Y el archivo Release.gpg?. Puedes ver estos archivos en el repositorio &lt;a href=&quot;http://ftp.debian.org/debian/dists/Debian10.1/&quot;&gt;http://ftp.debian.org/debian/dists/Debian10.1/&lt;/a&gt;. Estos archivos se descargan cuando hacemos un apt update.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Debian contiene un archivo llamado Release, el cual se actualiza cada vez que cualquiera de los paquetes en el archivo cambian. Entre otras cosas, el fichero Release contiene algunos md5sums por cada paquete listado en él. &lt;/p&gt;
 &lt;p&gt;Secure Apt siempre descarga los ficheros Release.gpg cuando está descargando los ficheros Release, y si no puede descargar el archivo Release.gpg, o si la firma está mal, lo advertirá, y nos dirá que el fichero Packages al cual apunta el fichero Release, y todos los paquetes enumerados dentro, son de una fuente sin autentificar, la seguridad del sistema entero depende de que haya un fichero Release.gpg, el cual firma un fichero Release, y de APT comprobando que esa firma use gpg.&lt;/p&gt;
 &lt;ol start=&quot;5&quot;&gt;
-&lt;li&gt;Explica el proceso por el cual el sistema nos asegura que los ficheros que estamos descargando son legítimos.
-añade de forma correcta el repositorio de virtualbox añadiendo la clave pública de virtualbox como se indica en la documentación.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Explica el proceso por el cual el sistema nos asegura que los ficheros que estamos descargando son legítimos.
+añade de forma correcta el repositorio de virtualbox añadiendo la clave pública de virtualbox como se indica en la documentación.&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Explicado en el punto anterior.&lt;/p&gt;
 &lt;h2 id=&quot;tarea-5-autentificación-ejemplo-ssh-2-puntos&quot;&gt;&lt;a href=&quot;#tarea-5-autentificaci%C3%B3n-ejemplo-ssh-2-puntos&quot; aria-label=&quot;tarea 5 autentificación ejemplo ssh 2 puntos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 5: Autentificación: ejemplo SSH (2 puntos)&lt;/h2&gt;
 &lt;p&gt;Vamos a estudiar como la criptografía nos ayuda a cifrar las comunicaciones que hacemos utilizando el protocolo ssh, y cómo nos puede servir también para conseguir que un cliente se autentifique contra el servidor. Responde las siguientes cuestiones:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Explica los pasos que se producen entre el cliente y el servidor para que el protocolo cifre la información que se transmite? ¿Para qué se utiliza la criptografía simétrica? ¿Y la asimétrica?&lt;/li&gt;
-&lt;li&gt;Explica los dos métodos principales de autentificación: por contraseña y utilizando un par de claves públicas y privadas.&lt;/li&gt;
-&lt;li&gt;En el cliente para que sirve el contenido que se guarda en el fichero ~/.ssh/know_hosts?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Explica los pasos que se producen entre el cliente y el servidor para que el protocolo cifre la información que se transmite? ¿Para qué se utiliza la criptografía simétrica? ¿Y la asimétrica?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Pasos Cliente-Servidor:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Las conexiones TCP se componen de tres etapas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Establecimiento de conexión (3-way handshake)&lt;/li&gt;
+&lt;li&gt;Transferencia de datos&lt;/li&gt;
+&lt;li&gt;Fin de la conexión.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Criptografía simétrica:&lt;/strong&gt;&lt;br&gt;
+La criptografía simétrica solo utiliza una clave para cifrar y descifrar el mensaje, que tiene que conocer el emisor y el receptor previamente y este es el punto débil del sistema, la comunicación de las claves entre ambos sujetos, ya que resulta más fácil interceptar una clave que se ha transmitido sin seguridad
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 500px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/90f89c173a12ddc70ffb6aa78f477209/d19c0/p3-6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.4%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAARlAAAEZQAGA43XUAAACZUlEQVQoz4VT22vSYRj+dBILUguUysBFjmHkZpMYIwiW3YSg5Pl8PjC3qfN8QAYTNRAivJAuhCAlCNSbIKRusksvg0X/gtCF0D/w6/l+U9mG0Hf1ft97et7nfT5Crpx4PE4YhiGHh4fsPZFICLLZrLBQKAgymQzf7/dz6LvZbFY5HI5XOp1O43K59tLptLJer2+SZQeBZDwes3Y0Gt1Bwc18Pv8ISSraTCKRkP+e/f19cnBwwNqxWIwzQ7ceiUQqMDmzmJ1gMMindjKZJBqNhuj1eqLVatk8oD8vZjKZOLTzcDjkyGQycnR0xJ2h24atKpVKK/SO4lI026Z2OBzm7u7ukna7zaW5TqeTzaFccJYhBmc8IH5+9R1vUaBUUZsWunjQ5NywWCxPO53Oz1qt9paOB654QKY+Pj6+o1arb+L+BUW+wRYj6VkoFPKMRiMWdaVSed3tds+A8MWissFg+DiZTJhms8mAk/fY5icE/sWm36DZh8FgwPR6Per7kUqlqvD9waI+w1erVqvMdDplMOlwUdBqte4h6BeC36GTsNFo3MZWleBHYDQapblc7it4/I44eb/fFxSLRWW5XJYgdhUya6Dob7vd/vLS/F6vV35yciJcxqfH41mDf32ZDyDuQYeKVqt1jX3AeDx03sAGt8DTltvtFs3IZ7eGuxRyUMD3GPYaxifglvX5fD5RIBB4Ajmp0FABP4/+CC6ELMSDBIXFQHOdBovF4jkdN7Cg+4iTYiw+xmP1N5tqFWOLkHPXZrMJsayVi3KQQ3e3Zp0vSen09PQBNr0xv2OqhUSQx4fIH84l9A+1SfdZZCqn4gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/90f89c173a12ddc70ffb6aa78f477209/d19c0/p3-6.png&quot;
+        srcset=&quot;/gatsbyjs/static/90f89c173a12ddc70ffb6aa78f477209/acf4b/p3-6.png 173w,
+/gatsbyjs/static/90f89c173a12ddc70ffb6aa78f477209/fc834/p3-6.png 345w,
+/gatsbyjs/static/90f89c173a12ddc70ffb6aa78f477209/d19c0/p3-6.png 500w&quot;
+        sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Criptografía asimétrica:&lt;/strong&gt;&lt;br&gt;
+La criptografía asimétrica se basa en el uso de dos claves: la pública (que se podrá difundir sin ningún problema a todas las personas que necesiten mandarte algo cifrado) y la privada (que no debe de ser revelada nunca).
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 500px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/47685ecc67a46745bc8021bfab3f39f4/d19c0/p3-7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.4%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAARlAAAEZQAGA43XUAAACcklEQVQoz3VS20uaYRz+PGwYpC5QxpTZkGjKrFxbix0ugkEtkSAP5fl8KE+o5RkRxRx4segidtVgymAitZvBtJsx6B8YbOxfcFfB/oFvz2t+Rpu98PG97+/5HZ/fQ1GDo1QqqevO9vb2fza9Xv/AYrGsrq2trdpstqWdnZ25Wq020wftdnv/D5ATDAbn8S04nc6FUCi0HAgE5EwS2O/7/f4nsM24XK5Fj8fzMJFI3CTY2dnZZbVwOEzlcjmmG1EymVyMRqNP8X+ezWZvEXsqlWKZTCYeEsh3d3df4D+HpBOI5QgEAkoqlVJ4XyQ0GAwsmqapVqvFJm84C9CFgynY7XZZnU6Hxbzj8fhUsVi8Qe6I6cdardZ+LGU0Gln/8oOxuKis3dra4lzDqQ/f3RFxF5eNjY1njUbj+97e3v6ggzGM/IjctVqtGIR/9nq9pysrKxJi8/l8y7CJyb1SqbxuNps/0OHLYWadTveh1+vRBwcH9Pr6+jtw9BGOf9DlPoq9Pzk5odvtNsG+gY43wH6D00/AatVqlT4/P6cx6Zdhws3NzSU4/cQS3qKSsF6v385kMuqjoyM+5CFLp9PdfD7/FX4KcDmORakLhYIEvrxYLFZH0l9ms/nVlfkhE0WpVBKO4szhcEwCnxqFoQkpdKg6PDzsy4fCeFxUnsZWZ8HTLDQpInZokD3QqMztdquAqXGfPD4+Jhz3MchEBC0+xvLmUVAFnEs0yIbihTBIkFiMbsaIs1gsZugYj0Qi9+Anw1h8jEdpNBpmKh7GFiHmDjQqxLIuVYGOFJDCxKDyFSmVy2U5tjrNvDHVUCKI42NRSqJFcv4CF9Xz47706SQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/47685ecc67a46745bc8021bfab3f39f4/d19c0/p3-7.png&quot;
+        srcset=&quot;/gatsbyjs/static/47685ecc67a46745bc8021bfab3f39f4/acf4b/p3-7.png 173w,
+/gatsbyjs/static/47685ecc67a46745bc8021bfab3f39f4/fc834/p3-7.png 345w,
+/gatsbyjs/static/47685ecc67a46745bc8021bfab3f39f4/d19c0/p3-7.png 500w&quot;
+        sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Explica los dos métodos principales de autentificación: por contraseña y utilizando un par de claves públicas y privadas.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Por contraseña:&lt;/strong&gt;&lt;br&gt;
+Utilizando una contraseña antes generada.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Utilizando claves:&lt;/strong&gt;&lt;br&gt;
+Generando una clave pública y privada. La pública se comparte con la máquina a la que queremos acceder.&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;&lt;strong&gt;En el cliente para que sirve el contenido que se guarda en el fichero ~/.ssh/know_hosts?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Las claves de máquinas se mantienen en etc/ssh&lt;em&gt;knownhosts y en el directorio del usuario ~/.ssh/known&lt;/em&gt;hosts.&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;
-&lt;p&gt;5¿Qué significa este mensaje que aparece la primera vez que nos conectamos a un servidor?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿Qué significa este mensaje que aparece la primera vez que nos conectamos a un servidor?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt; $ ssh debian@172.22.200.74
 The authenticity of host &apos;172.22.200.74 (172.22.200.74)&apos; can&apos;t be established.
 ECDSA key fingerprint is SHA256:7ZoNZPCbQTnDso1meVSNoKszn38ZwUI4i6saebbfL4M.
 Are you sure you want to continue connecting (yes/no)? &lt;/p&gt;
 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Al escribir yes o aceptar la advertencia en la ventana emergente, se agregará entonces la clave a la lista hosts conocidos (archivo known_hosts).&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
 &lt;li&gt;
-&lt;p&gt;En ocasiones cuando estamos trabajando en el cloud, y reutilizamos una ip flotante nos aparece este mensaje:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;En ocasiones cuando estamos trabajando en el cloud, y reutilizamos una ip flotante nos aparece este mensaje:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt; $ ssh debian@172.22.200.74
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
@@ -519,7 +596,11 @@ remove with:
 ssh-keygen -f &quot;/home/jose/.ssh/known_hosts&quot; -R &quot;172.22.200.74&quot;
 ECDSA host key for 172.22.200.74 has changed and you have requested strict checking.&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;¿Qué guardamos y para qué sirve el fichero en el servidor ~/.ssh/authorized_keys?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;La clave del equipo remoto ha cambiado.&lt;/p&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;&lt;strong&gt;¿Qué guardamos y para qué sirve el fichero en el servidor ~/.ssh/authorized_keys?&lt;/strong&gt;
+El archivo Authorized_keys en SSH especifica las claves SSH que se pueden usar para iniciar sesión en la cuenta de usuario para la que está configurado el archivo. Es un archivo de configuración muy importante, ya que configura el acceso permanente mediante claves SSH y necesita una gestión adecuada.&lt;/li&gt;
 &lt;/ol&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Configuración de cliente OpenVPN con certificados X.509]]></title><description><![CDATA[Configuración de cliente OpenVPN con certificados X.509 Para poder acceder a la red local desde el exterior, existe una red privada…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</guid><category><![CDATA[OpenVPN]]></category><category><![CDATA[Certificados]]></category><pubDate>Mon, 02 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-de-cliente-openvpn-con-certificados-x509&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-de-cliente-openvpn-con-certificados-x509&quot; aria-label=&quot;configuración de cliente openvpn con certificados x509 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración de cliente OpenVPN con certificados X.509&lt;/h2&gt;
 &lt;h3 id=&quot;para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot;&gt;&lt;a href=&quot;#para-poder-acceder-a-la-red-local-desde-el-exterior-existe-una-red-privada-configurada-con-openvpn-que-utiliza-certificados-x509-para-autenticar-los-usuarios-y-el-servidor&quot; aria-label=&quot;para poder acceder a la red local desde el exterior existe una red privada configurada con openvpn que utiliza certificados x509 para autenticar los usuarios y el servidor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Para poder acceder a la red local desde el exterior, existe una red privada configurada con OpenVPN que utiliza certificados x509 para autenticar los usuarios y el servidor.&lt;/h3&gt;
 &lt;ul&gt;
