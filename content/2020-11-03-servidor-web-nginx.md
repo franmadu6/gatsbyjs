@@ -29,7 +29,7 @@ Nos iremos al archivo default de sites-avaliable y le cambiaremos el server name
 ### Entrega una captura de pantalla accediendo a ella
 ![PracticaImg](images/servicios/nginx-2.png "Imagen de la practica")
 
-#### Virtual Hosting ####
+# Virtual Hosting 
 
 ## Tarea 2 (2 punto)(Obligatorio): Configura la resolución estática en los clientes y muestra el acceso a cada una de las páginas.
 
@@ -94,18 +94,36 @@ Modificamos nuestro archivo /etc/hosts de nuestra maquina local:
 172.22.200.137  departamentos.iesgn.org
 ```
 
+**He creado los respectivos directorios en "/srv/www" para añadir algo de contenido.**
+
 www.iesgn.org:
-![PracticaImg](images/servicios/nginx-2.png "Imagen de la practica")
+![PracticaImg](images/servicios/nginx-3.png "Imagen de la practica")
 
 departamenots.iesgn.org:
-![PracticaImg](images/servicios/nginx-2.png "Imagen de la practica")
+![PracticaImg](images/servicios/nginx-4.png "Imagen de la practica")
 
-**Mapeo de URL**
+# Mapeo de URL
 Cambia la configuración del sitio web www.iesgn.org para que se comporte de la siguiente forma:
 
-
-
 ## Tarea 3 (1 punto)(Obligatorio): Cuando se entre a la dirección www.iesgn.org se redireccionará automáticamente a www.iesgn.org/principal, donde se mostrará el mensaje de bienvenida. En el directorio principal no se permite ver la lista de los ficheros, no se permite que se siga los enlaces simbólicos y no se permite negociación de contenido. Muestra al profesor el funcionamiento.
+
+Crearemos la carpeta /principal dentro de moveremos su index.html.  
+En iesgn:
+```shell
+location / {
+                return 301 /principal/index.html;
+                autoindex off;
+                try_files $uri $uri/ =404;
+                location /principal {
+                        disable_symlinks on;
+                        autoindex off;
+                }
+        }
+```
+
+Creamos ficheros en el directorio principal para comprobar si los podemos ver.
+departamenots.iesgn.org:
+![PracticaImg](images/servicios/nginx-5.png "Imagen de la practica")
 
 
 ## Tarea 4 (1 punto)(Obligatorio): Si accedes a la página www.iesgn.org/principal/documentos se visualizarán los documentos que hay en /srv/doc. Por lo tanto se permitirá el listado de fichero y el seguimiento de enlaces simbólicos siempre que sean a ficheros o directorios cuyo dueño sea el usuario. Muestra al profesor el funcionamiento.
