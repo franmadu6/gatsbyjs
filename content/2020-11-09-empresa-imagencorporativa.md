@@ -15,7 +15,7 @@ tags:
 # Nazarbike
 ![PracticaImg](images/empresa/logoemp.png "Imagen de la practica")
 
-Nazarbike es un taller de bicicletas y a su vez franquicia de BiciMarket, su logo ya nos deja ver el tipo de sector en el que esta envuelta la actividad de la empresa. En cuanto a la fachada de la tienda es bastante vistosa ya que tiene varios muestrarios donde enseñan cajas de cambio, frenos, cadenas, manguitos y demas articulos relacionados a la bicicleta. Tambien tienen una bici despiezada puesta en la pared donde se puede diferenciar bien sus partes. A pesar de ser una franquicia, al ser un pequeño negocio se ve bastante acogedor y cercano. Al ser franquicia con BiciMarket puede llegar a tener precios mas competitivos en temas de recambios y piezas, y además es punto de recogida de los productos de las misma que se encarga o bien online o bien en la misma tienda, tambien se pueden pedir bicicletas.
+**Nazarbike** es un taller de bicicletas y a su vez franquicia de BiciMarket, su logo ya nos deja ver el tipo de sector en el que esta envuelta la actividad de la empresa. En cuanto a la fachada de la tienda es bastante vistosa ya que tiene varios muestrarios donde enseñan cajas de cambio, frenos, camisetas o mallots de cliclimos, cadenas, manguitos y demas articulos relacionados a la bicicleta. Tambien tienen una bici despiezada puesta en la pared donde se puede diferenciar bien sus partes. A pesar de ser una franquicia, al ser un pequeño negocio se ve bastante acogedor y cercano. Al ser franquicia con BiciMarket puede llegar a tener precios mas competitivos en temas de recambios y piezas, y además es punto de recogida de los productos de las misma que se encarga o bien online o bien en la misma tienda, tambien se pueden pedir bicicletas.
 
 
 **Bicimarket**:  
