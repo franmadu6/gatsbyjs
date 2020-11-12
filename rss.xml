@@ -1,8 +1,152 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 11 Nov 2020 19:37:42 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Tarea OVH. Lemp]]></title><description><![CDATA[Instalación de un servidor LEMP (Servicios) Instala un servidor web nginx Instala un servidor de base de datos MariaDB. Ejecuta el programa…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</guid><category><![CDATA[OVH]]></category><category><![CDATA[Lemp]]></category><pubDate>Tue, 10 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;instalación-de-un-servidor-lemp-servicios&quot;&gt;&lt;a href=&quot;#instalaci%C3%B3n-de-un-servidor-lemp-servicios&quot; aria-label=&quot;instalación de un servidor lemp servicios permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalación de un servidor LEMP (Servicios)&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 12 Nov 2020 20:34:30 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Tarea OVH. Lemp]]></title><description><![CDATA[Configuración inicial de OVH Añadir clave del profesor Resolución de nombres Reiniciamos la maquina. Accedemos y verificamos su nombre:…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</guid><category><![CDATA[OVH]]></category><category><![CDATA[Lemp]]></category><pubDate>Tue, 10 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-inicial-de-ovh&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-inicial-de-ovh&quot; aria-label=&quot;configuración inicial de ovh permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración inicial de OVH&lt;/h2&gt;
+&lt;p&gt;Añadir clave del profesor&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg  --keyserver pgp.rediris.es --recv 4CB31DE5
+
+&lt;span class=&quot;token comment&quot;&gt;#añadir a .ssh/authorized_keys&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Resolución de nombres&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#en /etc/hostname&lt;/span&gt;
+valhalla.iesgn11.es
+&lt;span class=&quot;token comment&quot;&gt;#en /etc/hosts&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;127.0&lt;/span&gt;.1.1       valhalla.iesgn11.es&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Reiniciamos la maquina.&lt;/p&gt;
+&lt;p&gt;Accedemos y verificamos su nombre:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@valhalla:~$ &lt;span class=&quot;token function&quot;&gt;hostname&lt;/span&gt; -f
+valhalla.iesgn11.es&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Añadimos registro de tipo A en la zona DNS de mi dominio.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 594px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/7608f5532af93c393fcb72324bf4036e/262c7/ovhdns.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 89.8989898989899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAACTklEQVQ4y4VUy47UMBCMxAfwXVw58ktIXBFfgcQJuHDmxKJldwUCMcm8Z/J0nMSx4xTdnckkGpbBUqU67U673HYnSLIEWZEiV6mw2MVoJ2fm+TRPwPHMgpmdU8z94oig73sYY6GrBg0x21VtBru1Zy51A+ccON57P6D36LruDPYFoLHcJLj5FiJcxQiXMb6QHZH9Ozrg52KPX4sDvt5FUGXD4ZJ0HE1jUJaaRNTyLgqd7dC2jhQMbAiWfHXdwpJvPjh+jsu5gJ70sYPWBoWqRUXdWKpZQ7WpYCixp+CO4hiecnjhwW6dFwHMknBcpaWkcVJKrdjDCXXVij0lGNCPSWlOUUySVVAkqBOFFzUZt+Joedt5QddPCtm2flTbY/yyl29PNRwT8inx1jkwLWrs41KUzhPyNkvjZcGTggk4KXxU5Wxlf4H+Cs4KWR3XkBVakhTGGuGxJGikpoMiX+H+jZzg+pnCS5WGAkY0tkfd+uuwXkolCnVloPhUSR3bOdVPbDpx9ruLu3htBJ6KGycK212GY1wI1psUh2Mhvg2BE3NrcetdQz9uOUliRNEC2+0G+/0Oh8Me6/UKu90W69VSWKlSUJYTF4Wiy6+Q5QNbSipbttZSy9mB5zaxI3Zugj298xzg/jr/4H810XTnYtUJjB3um3Ve5m5Dg1fvErx+n+HNh0xigstmP1+j04lvU4eHpcF9RIdVeeSZpr9Qyt2Nl28TBM/u8PTFdzx5/oDPP+qplx/7c8jvia5EpjtB68aOGngVW3y80fh0y6igG48/oiB1Cl0wm9UAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/7608f5532af93c393fcb72324bf4036e/262c7/ovhdns.png&quot;
+        srcset=&quot;/gatsbyjs/static/7608f5532af93c393fcb72324bf4036e/acf4b/ovhdns.png 173w,
+/gatsbyjs/static/7608f5532af93c393fcb72324bf4036e/fc834/ovhdns.png 345w,
+/gatsbyjs/static/7608f5532af93c393fcb72324bf4036e/262c7/ovhdns.png 594w&quot;
+        sizes=&quot;(max-width: 594px) 100vw, 594px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/64d5aa347aa03d8587673a53d87a5e07/9288f/ovhdns2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 3.463587921847247%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAMklEQVQI11WLORIAEBAE/f+xSiSwR9tBIuiqOVtkcuFRGlgeWJHSFniV8n3MgzLt/i9sg61PA4A2v2MAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/64d5aa347aa03d8587673a53d87a5e07/36727/ovhdns2.png&quot;
+        srcset=&quot;/gatsbyjs/static/64d5aa347aa03d8587673a53d87a5e07/acf4b/ovhdns2.png 173w,
+/gatsbyjs/static/64d5aa347aa03d8587673a53d87a5e07/fc834/ovhdns2.png 345w,
+/gatsbyjs/static/64d5aa347aa03d8587673a53d87a5e07/36727/ovhdns2.png 690w,
+/gatsbyjs/static/64d5aa347aa03d8587673a53d87a5e07/17fa4/ovhdns2.png 1035w,
+/gatsbyjs/static/64d5aa347aa03d8587673a53d87a5e07/9288f/ovhdns2.png 1126w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;instalación-de-un-servidor-lemp-servicios&quot;&gt;&lt;a href=&quot;#instalaci%C3%B3n-de-un-servidor-lemp-servicios&quot; aria-label=&quot;instalación de un servidor lemp servicios permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalación de un servidor LEMP (Servicios)&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Instala un servidor web nginx&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Instala un servidor web nginx&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# apt-get install nginx&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
 &lt;li&gt;Instala un servidor de base de datos MariaDB. Ejecuta el programa necesario para asegurar el servicio, ya que lo vamos a tener corriendo en el entorno de producción.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# apt-get apt-get install mariadb-server&lt;/span&gt;
+root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# mysql_secure_installation&lt;/span&gt;
+
+NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
+      SERVERS IN PRODUCTION USE&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;  PLEASE READ EACH STEP CAREFULLY&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;
+
+In order to log into MariaDB to secure it, we&lt;span class=&quot;token string&quot;&gt;&apos;ll need the current
+password for the root user.  If you&apos;&lt;/span&gt;ve just installed MariaDB, and
+you haven&lt;span class=&quot;token string&quot;&gt;&apos;t set the root password yet, the password will be blank,
+so you should just press enter here.
+
+Enter current password for root (enter for none): 
+OK, successfully used password, moving on...
+
+Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.
+
+Set root password? [Y/n] y
+
+New password: root
+Re-enter new password: root
+Password updated successfully!
+Reloading privilege tables..
+ ... Success!
+
+
+By default, a MariaDB installation has an anonymous user, allowing anyone
+to log into MariaDB without having to have a user account created for
+them.  This is intended only for testing, and to make the installation
+go a bit smoother.  You should remove them before moving into a
+production environment.
+
+Remove anonymous users? [Y/n] y
+ ... Success!
+
+Normally, root should only be allowed to connect from &apos;&lt;/span&gt;localhost&lt;span class=&quot;token string&quot;&gt;&apos;.  This
+ensures that someone cannot guess at the root password from the network.
+
+Disallow root login remotely? [Y/n] y
+ ... Success!
+
+By default, MariaDB comes with a database named &apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos; that anyone can
+access.  This is also intended only for testing, and should be removed
+before moving into a production environment.
+
+Remove test database and access to it? [Y/n] y
+ - Dropping test database...
+ ... Success!
+ - Removing privileges on test database...
+ ... Success!
+
+Reloading the privilege tables will ensure that all changes made so far
+will take effect immediately.
+
+Reload privilege tables now? [Y/n] y
+ ... Success!
+
+Cleaning up...
+
+All done!  If you&apos;&lt;/span&gt;ve completed all of the above steps, your MariaDB
+installation should now be secure.
+
+Thanks &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; using MariaDB&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;Instala un servidor de aplicaciones php php-fpm.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# apt-get install php php-fpm&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;Crea un virtualhost al que vamos acceder con el nombre www.iesgnXX.es. Recuerda que tendrás que crear un registro CNAME en la zona DNS.&lt;/li&gt;
 &lt;li&gt;Cuando se acceda al virtualhost por defecto default nos tiene que redirigir al virtualhost que hemos creado en el punto anterior.&lt;/li&gt;
 &lt;li&gt;Cuando se acceda a www.iesgnXX.es se nos redigirá a la página www.iesgnXX.es/principal&lt;/li&gt;
