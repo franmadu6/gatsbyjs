@@ -150,55 +150,71 @@ debian@valhalla:~$ </code></pre></div>
 root@valhalla:/home/debian<span class="token comment"># mysql_secure_installation</span></code></pre></div>
 </li>
 </ol>
-<p>NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
-SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!</p>
-<p>In order to log into MariaDB to secure it, well need the current
-password for the root user.  If you ve just installed MariaDB, and
-you havent set the root password yet, the password will be blank,
-so you should just press enter here.</p>
-<p>Enter current password for root (enter for none):
-OK, successfully used password, moving on...</p>
-<p>Setting the root password ensures that nobody can log into the MariaDB
-root user without the proper authorisation.</p>
-<p>Set root password? [Y/n] y</p>
-<p>New password: root
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
+      SERVERS IN PRODUCTION USE<span class="token operator">!</span>  PLEASE READ EACH STEP CAREFULLY<span class="token operator">!</span>
+
+In order to log into MariaDB to secure it, well need the current
+password <span class="token keyword">for</span> the root user.  If you ve just installed MariaDB, and
+you havent <span class="token builtin class-name">set</span> the root password yet, the password will be blank,
+so you should just press enter here.
+
+Enter current password <span class="token keyword">for</span> root <span class="token punctuation">(</span>enter <span class="token keyword">for</span> none<span class="token punctuation">)</span>: 
+OK, successfully used password, moving on<span class="token punctuation">..</span>.
+
+Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.
+
+Set root password? <span class="token punctuation">[</span>Y/n<span class="token punctuation">]</span> y
+
+New password: root
 Re-enter new password: root
-Password updated successfully!
-Reloading privilege tables..
-... Success!</p>
-<p>By default, a MariaDB installation has an anonymous user, allowing anyone
-to log into MariaDB without having to have a user account created for
-them.  This is intended only for testing, and to make the installation
+Password updated successfully<span class="token operator">!</span>
+Reloading privilege tables<span class="token punctuation">..</span>
+ <span class="token punctuation">..</span>. Success<span class="token operator">!</span>
+
+
+By default, a MariaDB installation has an anonymous user, allowing anyone
+to log into MariaDB without having to have a user account created <span class="token keyword">for</span>
+them.  This is intended only <span class="token keyword">for</span> testing, and to <span class="token function">make</span> the installation
 go a bit smoother.  You should remove them before moving into a
-production environment.</p>
-<p>Remove anonymous users? [Y/n] y
-... Success!</p>
-<p>Normally, root should only be allowed to connect from localhost.  This
-ensures that someone cannot guess at the root password from the network.</p>
-<p>Disallow root login remotely? [Y/n] y
-... Success!</p>
-<p>By default, MariaDB comes with a database named test that anyone can
-access.  This is also intended only for testing, and should be removed
-before moving into a production environment.</p>
-<p>Remove test database and access to it? [Y/n] y</p>
-<ul>
-<li>Dropping test database...
-... Success!</li>
-<li>Removing privileges on test database...
-... Success!</li>
-</ul>
-<p>Reloading the privilege tables will ensure that all changes made so far
-will take effect immediately.</p>
-<p>Reload privilege tables now? [Y/n] y
-... Success!</p>
-<p>Cleaning up...</p>
-<p>All done!  If you ve completed all of the above steps, your MariaDB
-installation should now be secure.</p>
-<p>Thanks for using MariaDB!</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">3. Instala un servidor de aplicaciones php php-fpm.
-```shell
-root@valhalla:/home/debian# apt-get install php php-fpm</code></pre></div>
-<ol start="4">
+production environment.
+
+Remove anonymous users? <span class="token punctuation">[</span>Y/n<span class="token punctuation">]</span> y
+ <span class="token punctuation">..</span>. Success<span class="token operator">!</span>
+
+Normally, root should only be allowed to connect from localhost.  This
+ensures that someone cannot guess at the root password from the network.
+
+Disallow root login remotely? <span class="token punctuation">[</span>Y/n<span class="token punctuation">]</span> y
+ <span class="token punctuation">..</span>. Success<span class="token operator">!</span>
+
+By default, MariaDB comes with a database named <span class="token builtin class-name">test</span> that anyone can
+access.  This is also intended only <span class="token keyword">for</span> testing, and should be removed
+before moving into a production environment.
+
+Remove <span class="token builtin class-name">test</span> database and access to it? <span class="token punctuation">[</span>Y/n<span class="token punctuation">]</span> y
+ - Dropping <span class="token builtin class-name">test</span> database<span class="token punctuation">..</span>.
+ <span class="token punctuation">..</span>. Success<span class="token operator">!</span>
+ - Removing privileges on <span class="token builtin class-name">test</span> database<span class="token punctuation">..</span>.
+ <span class="token punctuation">..</span>. Success<span class="token operator">!</span>
+
+Reloading the privilege tables will ensure that all changes made so far
+will take effect immediately.
+
+Reload privilege tables now? <span class="token punctuation">[</span>Y/n<span class="token punctuation">]</span> y
+ <span class="token punctuation">..</span>. Success<span class="token operator">!</span>
+
+Cleaning up<span class="token punctuation">..</span>.
+
+All done<span class="token operator">!</span>  If you ve completed all of the above steps, your MariaDB
+installation should now be secure.
+
+Thanks <span class="token keyword">for</span> using MariaDB<span class="token operator">!</span></code></pre></div>
+<ol start="3">
+<li>
+<p>Instala un servidor de aplicaciones php php-fpm.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@valhalla:/home/debian<span class="token comment"># apt-get install php php-fpm</span></code></pre></div>
+</li>
 <li>Crea un virtualhost al que vamos acceder con el nombre www.iesgnXX.es. Recuerda que tendrás que crear un registro CNAME en la zona DNS.</li>
 </ol>
 <p>Primero borrare las 3 configuraciones predeterminadas que habia hacer www.iesgn11.es y luego añadire la siguiente:
