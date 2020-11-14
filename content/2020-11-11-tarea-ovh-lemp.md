@@ -144,7 +144,8 @@ root@valhalla:/home/debian# apt-get install php php-fpm
 
 4. Crea un virtualhost al que vamos acceder con el nombre www.iesgnXX.es. Recuerda que tendrás que crear un registro CNAME en la zona DNS.
 
-En mi caso venia por defecto el DNS www.iesgn11.es no se porque pero me ha ahorrado añadirlo.
+Primero borrare las 3 configuraciones predeterminadas que habia hacer www.iesgn11.es y luego añadire la siguiente:
+![PracticaImg](images/servicios/ovh7.png "Imagen de la practica")
 
 Crearemos un fichero para www.iesgn11.es, para ello copiaremos el fichero default y lo modificaremos
 ```shell
@@ -199,17 +200,54 @@ server {
         }
 }
 ```
+y por ultimo añadimos la ruta en /etc/hosts.
+
 
 6. Cuando se acceda a www.iesgnXX.es se nos redigirá a la página www.iesgnXX.es/principal
 
+```shell
+        location / {
+
+                try_files $uri $uri/ =404;
+                return 301 /principal/index.html;
+                location /principal {
+                        autoindex off;
+                }
+        }
+```
+Crearemos el directorio y el index.html.
 
 7. En la página www.iesgnXX.es/principal se debe mostrar una página web estática (utiliza alguna plantilla para que tenga hoja de estilo). En esta página debe aparecer tu nombre, y una lista de enlaces a las aplicaciones que vamos a ir desplegando posteriormente.
+
+He descargado esta plantilla https://plantillashtmlgratis.com/todas-las-plantillas/plantilla/plantillas-html-css-para-descargar-gratis-flame/ y la he modificado un poco para hacerla mas simple y accesible para este proyecto, la he subido a github modificada así que la descargare desde ahi con git.
+Repositorio: https://github.com/franmadu6/FlameOvh
+
+![PracticaImg](images/servicios/ovh4.png "Imagen de la practica")
 
 
 8. Configura el nuevo virtualhost, para que pueda ejecutar PHP. Determina que configuración tiene por defecto php-fpm (socket unix o socket TCP) para configurar nginx de forma adecuada.
 
+Deberemos tener instalado php-fpm (ya instalado en el punto 3).
+
+Para que nginx pueda ejecutar php modificaremos nuestro fichero de nuevo:
+```shell
+location ~ \.php$ {
+
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php7.3-fpm.sock;
+}
+```
 
 9. Crea un fichero info.php que demuestre que está funcionando el servidor LEMP.
 
+creamos el fichero info.php y dentro le añadiremos lo siguiente:
+```shell
+<?php
+phpinfo();
+?>
+```
+le he añadido un logo que vuelva a la pagina principal.
 
-Documenta de la forma más precisa posible cada uno de los pasos que has dado, y entrega pruebas de funcionamiento para comprobar el proceso que has realizado.
+Comprobaremos su funcionamiento, además añadiremos un link en nuestra pagina principal para que podamos acceder de manera inmediata.
+
+![PracticaImg](images/servicios/ovh6.png "Imagen de la practica")
