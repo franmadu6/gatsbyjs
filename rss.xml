@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sat, 14 Nov 2020 23:20:29 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Tarea OVH. Lemp]]></title><description><![CDATA[Configuración inicial de OVH Añadir clave de los profesores: Resolución de nombres Reiniciamos la maquina. Accedemos y verificamos su nombre…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</guid><category><![CDATA[OVH]]></category><category><![CDATA[Lemp]]></category><pubDate>Tue, 10 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-inicial-de-ovh&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-inicial-de-ovh&quot; aria-label=&quot;configuración inicial de ovh permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración inicial de OVH&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sat, 14 Nov 2020 23:25:03 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Tarea OVH. Lemp]]></title><description><![CDATA[Configuración inicial de OVH Añadir clave de los profesores: Resolución de nombres Reiniciamos la maquina. Accedemos y verificamos su nombre…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</guid><category><![CDATA[OVH]]></category><category><![CDATA[Lemp]]></category><pubDate>Tue, 10 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-inicial-de-ovh&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-inicial-de-ovh&quot; aria-label=&quot;configuración inicial de ovh permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración inicial de OVH&lt;/h2&gt;
 &lt;p&gt;Añadir clave de los profesores:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#con wget desde la pag de redmine.&lt;/span&gt;
 debian@valhalla:~/claves$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
@@ -105,76 +105,58 @@ debian@valhalla:~$ &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;li&gt;
 &lt;p&gt;Instala un servidor de base de datos MariaDB. Ejecuta el programa necesario para asegurar el servicio, ya que lo vamos a tener corriendo en el entorno de producción.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# apt-get apt-get install mariadb-server&lt;/span&gt;
-root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# mysql_secure_installation&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
-NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
-  SERVERS IN PRODUCTION USE&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;  PLEASE READ EACH STEP CAREFULLY&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
-In order to log into MariaDB to secure it, we&lt;span class=&quot;token string&quot;&gt;&apos;ll need the current
-password for the root user.  If you&apos;&lt;/span&gt;ve just installed MariaDB, and
-you haven&lt;span class=&quot;token string&quot;&gt;&apos;t set the root password yet, the password will be blank,
-so you should just press enter here.
-#
-Enter current password for root (enter for none): 
-OK, successfully used password, moving on...
-#
-Setting the root password ensures that nobody can log into the MariaDB
-root user without the proper authorisation.
-#
-Set root password? [Y/n] y
-#
-New password: root
+root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# mysql_secure_installation&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
+SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!&lt;/p&gt;
+&lt;p&gt;In order to log into MariaDB to secure it, well need the current
+password for the root user.  If you ve just installed MariaDB, and
+you havent set the root password yet, the password will be blank,
+so you should just press enter here.&lt;/p&gt;
+&lt;p&gt;Enter current password for root (enter for none):
+OK, successfully used password, moving on...&lt;/p&gt;
+&lt;p&gt;Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.&lt;/p&gt;
+&lt;p&gt;Set root password? [Y/n] y&lt;/p&gt;
+&lt;p&gt;New password: root
 Re-enter new password: root
 Password updated successfully!
 Reloading privilege tables..
-... Success!
-#
-#
-By default, a MariaDB installation has an anonymous user, allowing anyone
+... Success!&lt;/p&gt;
+&lt;p&gt;By default, a MariaDB installation has an anonymous user, allowing anyone
 to log into MariaDB without having to have a user account created for
 them.  This is intended only for testing, and to make the installation
 go a bit smoother.  You should remove them before moving into a
-production environment.
-#
-Remove anonymous users? [Y/n] y
-... Success!
-#
-Normally, root should only be allowed to connect from &apos;&lt;/span&gt;localhost&lt;span class=&quot;token string&quot;&gt;&apos;.  This
-ensures that someone cannot guess at the root password from the network.
-#
-Disallow root login remotely? [Y/n] y
-... Success!
-#
-By default, MariaDB comes with a database named &apos;&lt;/span&gt;test&apos; that anyone can
-access.  This is also intended only &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; testing, and should be removed
-before moving into a production environment.
-&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
-Remove &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; database and access to it? &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Y/n&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; y&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
+production environment.&lt;/p&gt;
+&lt;p&gt;Remove anonymous users? [Y/n] y
+... Success!&lt;/p&gt;
+&lt;p&gt;Normally, root should only be allowed to connect from localhost.  This
+ensures that someone cannot guess at the root password from the network.&lt;/p&gt;
+&lt;p&gt;Disallow root login remotely? [Y/n] y
+... Success!&lt;/p&gt;
+&lt;p&gt;By default, MariaDB comes with a database named test that anyone can
+access.  This is also intended only for testing, and should be removed
+before moving into a production environment.&lt;/p&gt;
+&lt;p&gt;Remove test database and access to it? [Y/n] y&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Dropping test database...
 ... Success!&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Removing privileges on test database...
-... Success!&lt;/p&gt;
-&lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; aria-label=&quot; permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;li&gt;Removing privileges on test database...
+... Success!&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Reloading the privilege tables will ensure that all changes made so far
 will take effect immediately.&lt;/p&gt;
-&lt;h1 id=&quot;-1&quot;&gt;&lt;a href=&quot;#-1&quot; aria-label=&quot; 1 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Reload privilege tables now? [Y/n] y
 ... Success!&lt;/p&gt;
-&lt;h1 id=&quot;-2&quot;&gt;&lt;a href=&quot;#-2&quot; aria-label=&quot; 2 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Cleaning up...&lt;/p&gt;
-&lt;h1 id=&quot;-3&quot;&gt;&lt;a href=&quot;#-3&quot; aria-label=&quot; 3 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;All done!  If you&apos;ve completed all of the above steps, your MariaDB
+&lt;p&gt;All done!  If you ve completed all of the above steps, your MariaDB
 installation should now be secure.&lt;/p&gt;
-&lt;h1 id=&quot;-4&quot;&gt;&lt;a href=&quot;#-4&quot; aria-label=&quot; 4 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Thanks for using MariaDB!&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Instala un servidor de aplicaciones php php-fpm.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# apt-get install php php-fpm&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;3. Instala un servidor de aplicaciones php php-fpm.
+```shell
+root@valhalla:/home/debian# apt-get install php php-fpm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;Crea un virtualhost al que vamos acceder con el nombre www.iesgnXX.es. Recuerda que tendrás que crear un registro CNAME en la zona DNS.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Primero borrare las 3 configuraciones predeterminadas que habia hacer www.iesgn11.es y luego añadire la siguiente:
