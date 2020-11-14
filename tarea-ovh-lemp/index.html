@@ -147,58 +147,76 @@ debian@valhalla:~$ </code></pre></div>
 <li>
 <p>Instala un servidor de base de datos MariaDB. Ejecuta el programa necesario para asegurar el servicio, ya que lo vamos a tener corriendo en el entorno de producción.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@valhalla:/home/debian<span class="token comment"># apt-get apt-get install mariadb-server</span>
-root@valhalla:/home/debian<span class="token comment"># mysql_secure_installation</span></code></pre></div>
-</li>
-</ol>
-<p>NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
-SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!</p>
-<p>In order to log into MariaDB to secure it, we'll need the current
-password for the root user.  If you've just installed MariaDB, and
-you haven't set the root password yet, the password will be blank,
-so you should just press enter here.</p>
-<p>Enter current password for root (enter for none):
-OK, successfully used password, moving on...</p>
-<p>Setting the root password ensures that nobody can log into the MariaDB
-root user without the proper authorisation.</p>
-<p>Set root password? [Y/n] y</p>
-<p>New password: root
+root@valhalla:/home/debian<span class="token comment"># mysql_secure_installation</span>
+<span class="token comment">#</span>
+NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
+  SERVERS IN PRODUCTION USE<span class="token operator">!</span>  PLEASE READ EACH STEP CAREFULLY<span class="token operator">!</span>
+<span class="token comment">#</span>
+In order to log into MariaDB to secure it, we<span class="token string">'ll need the current
+password for the root user.  If you'</span>ve just installed MariaDB, and
+you haven<span class="token string">'t set the root password yet, the password will be blank,
+so you should just press enter here.
+#
+Enter current password for root (enter for none): 
+OK, successfully used password, moving on...
+#
+Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.
+#
+Set root password? [Y/n] y
+#
+New password: root
 Re-enter new password: root
 Password updated successfully!
 Reloading privilege tables..
-... Success!</p>
-<p>By default, a MariaDB installation has an anonymous user, allowing anyone
+... Success!
+#
+#
+By default, a MariaDB installation has an anonymous user, allowing anyone
 to log into MariaDB without having to have a user account created for
 them.  This is intended only for testing, and to make the installation
 go a bit smoother.  You should remove them before moving into a
-production environment.</p>
-<p>Remove anonymous users? [Y/n] y
-... Success!</p>
-<p>Normally, root should only be allowed to connect from 'localhost'.  This
-ensures that someone cannot guess at the root password from the network.</p>
-<p>Disallow root login remotely? [Y/n] y
-... Success!</p>
-<p>By default, MariaDB comes with a database named 'test' that anyone can
-access.  This is also intended only for testing, and should be removed
-before moving into a production environment.</p>
-<p>Remove test database and access to it? [Y/n] y</p>
-<ul>
+production environment.
+#
+Remove anonymous users? [Y/n] y
+... Success!
+#
+Normally, root should only be allowed to connect from '</span>localhost<span class="token string">'.  This
+ensures that someone cannot guess at the root password from the network.
+#
+Disallow root login remotely? [Y/n] y
+... Success!
+#
+By default, MariaDB comes with a database named '</span>test' that anyone can
+access.  This is also intended only <span class="token keyword">for</span> testing, and should be removed
+before moving into a production environment.
+<span class="token comment">#</span>
+Remove <span class="token builtin class-name">test</span> database and access to it? <span class="token punctuation">[</span>Y/n<span class="token punctuation">]</span> y</code></pre></div>
+</li>
 <li>Dropping test database...
 ... Success!</li>
-<li>Removing privileges on test database...
-... Success!</li>
-</ul>
+<li>
+<p>Removing privileges on test database...
+... Success!</p>
+<h1 id=""><a href="#" aria-label=" permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a></h1>
 <p>Reloading the privilege tables will ensure that all changes made so far
 will take effect immediately.</p>
+<h1 id="-1"><a href="#-1" aria-label=" 1 permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a></h1>
 <p>Reload privilege tables now? [Y/n] y
 ... Success!</p>
+<h1 id="-2"><a href="#-2" aria-label=" 2 permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a></h1>
 <p>Cleaning up...</p>
+<h1 id="-3"><a href="#-3" aria-label=" 3 permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a></h1>
 <p>All done!  If you've completed all of the above steps, your MariaDB
 installation should now be secure.</p>
+<h1 id="-4"><a href="#-4" aria-label=" 4 permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a></h1>
 <p>Thanks for using MariaDB!</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">3. Instala un servidor de aplicaciones php php-fpm.
-```shell
-root@valhalla:/home/debian# apt-get install php php-fpm</code></pre></div>
-<ol start="4">
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"></code></pre></div>
+</li>
+<li>
+<p>Instala un servidor de aplicaciones php php-fpm.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@valhalla:/home/debian<span class="token comment"># apt-get install php php-fpm</span></code></pre></div>
+</li>
 <li>Crea un virtualhost al que vamos acceder con el nombre www.iesgnXX.es. Recuerda que tendrás que crear un registro CNAME en la zona DNS.</li>
 </ol>
 <p>Primero borrare las 3 configuraciones predeterminadas que habia hacer www.iesgn11.es y luego añadire la siguiente:
