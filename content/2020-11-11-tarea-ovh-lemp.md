@@ -74,7 +74,9 @@ root@valhalla:/home/debian# apt-get install nginx
 ```shell
 root@valhalla:/home/debian# apt-get apt-get install mariadb-server
 root@valhalla:/home/debian# mysql_secure_installation
+```
 
+```shell
 NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
       SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!
 
