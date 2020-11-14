@@ -241,7 +241,7 @@ location ~ \.php$ {
 9. Crea un fichero info.php que demuestre que está funcionando el servidor LEMP.
 
 creamos el fichero info.php y dentro le añadiremos lo siguiente:
-```shell
+```php
 <?php
 phpinfo();
 ?>
