@@ -11,12 +11,25 @@ tags:
 
 ## Configuración inicial de OVH
 
-Añadir clave del profesor
+Añadir clave de los profesores:
 ```shell
-gpg  --keyserver pgp.rediris.es --recv 4CB31DE5
-
+#con wget desde la pag de redmine.
+debian@valhalla:~/claves$ ls
+clave-openstack.pub  id_rsa.pub  nota.txt  rafa.pub
+#la mia con scp
+root@debian:/home/fran/.ssh# scp maduovh.pub debian@valhalla.iesgn11.es:/home/debian/claves
+The authenticity of host 'valhalla.iesgn11.es (146.59.196.81)' can't be established.
+ECDSA key fingerprint is SHA256:HBSKW/gGZRGIBLQ1M28AGyb8jKujW2w9A+NuisTLqic.
+Are you sure you want to continue connecting (yes/no)? ye
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'valhalla.iesgn11.es' (ECDSA) to the list of known hosts.
+debian@valhalla.iesgn11.es's password: 
+maduovh.pub     
 #añadir a .ssh/authorized_keys
-
+debian@valhalla:~$ echo `cat claves/id_rsa.pub` >> .ssh/authorized_keys
+debian@valhalla:~$ echo `cat claves/rafa.pub` >> .ssh/authorized_keys
+debian@valhalla:~$ echo `cat claves/clave-openstack.pub` >> .ssh/authorized_keys
+debian@valhalla:~$ echo `cat claves/maduovh.pub` >> .ssh/authorized_keys
 ```
 
 Resolución de nombres
@@ -37,6 +50,19 @@ valhalla.iesgn11.es
 Añadimos registro de tipo A en la zona DNS de mi dominio.
 ![PracticaImg](images/servicios/ovhdns.png "Imagen de la practica")
 ![PracticaImg](images/servicios/ovhdns2.png "Imagen de la practica")
+```shell
+root@debian:/home/fran# ssh -i .ssh/maduovh.pub debian@valhalla.iesgn11.es
+Linux valhalla.iesgn11.es 4.19.0-11-cloud-amd64 #1 SMP Debian 4.19.146-1 (2020-09-17) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Fri Nov 13 09:49:57 2020 from 85.55.236.72
+debian@valhalla:~$ 
+```
 
 ## Instalación de un servidor LEMP (Servicios)
 
@@ -45,7 +71,6 @@ Añadimos registro de tipo A en la zona DNS de mi dominio.
 root@valhalla:/home/debian# apt-get install nginx
 ```
 2. Instala un servidor de base de datos MariaDB. Ejecuta el programa necesario para asegurar el servicio, ya que lo vamos a tener corriendo en el entorno de producción.
-
 ```shell
 root@valhalla:/home/debian# apt-get apt-get install mariadb-server
 root@valhalla:/home/debian# mysql_secure_installation
@@ -113,21 +138,78 @@ Thanks for using MariaDB!
 ```
 
 3. Instala un servidor de aplicaciones php php-fpm.
-
 ```shell
 root@valhalla:/home/debian# apt-get install php php-fpm
 ```
 
 4. Crea un virtualhost al que vamos acceder con el nombre www.iesgnXX.es. Recuerda que tendrás que crear un registro CNAME en la zona DNS.
 
+En mi caso venia por defecto el DNS www.iesgn11.es no se porque pero me ha ahorrado añadirlo.
+
+Crearemos un fichero para www.iesgn11.es, para ello copiaremos el fichero default y lo modificaremos
+```shell
+debian@valhalla:/etc/nginx/sites-available$ sudo cp default iesgn11
+debian@valhalla:/etc/nginx/sites-available$ sudo nano iesgn11
+server {
+	listen 80;
+	listen [::]:80;
+
+	root /var/www/iesgn11;
+
+	index index.html index.htm index.nginx-debian.html;
+
+	server_name www.iesgn11.es;
+
+	location / {
+
+		try_files $uri $uri/ =404;
+	}
+
+}
+```
+Crearemos el document root copiando de nuevo el default para el ejemplo.
+
+Crearemos el enlace simbólico:
+```shell
+debian@valhalla:/etc/nginx/sites-available$ sudo ln -s /etc/nginx/sites-available/iesgn11 /etc/nginx/sites-enabled/
+```
+Añadimos la ruta en nuestro /hosts local.
+![PracticaImg](images/servicios/ovh3.png "Imagen de la practica")
+
 5. Cuando se acceda al virtualhost por defecto default nos tiene que redirigir al virtualhost que hemos creado en el punto anterior.
+
+crearemos un directorio en la ubicación de la paguina por defecto llamado /default.
+
+Modificaremos el archivo de configuración default:
+```shell
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+
+        root /var/www/html/default;
+
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name _;
+        return 301 $scheme://www.iesgn11.es$request_uri;
+
+        location / {
+
+                try_files $uri $uri/ =404;
+        }
+}
+```
 
 6. Cuando se acceda a www.iesgnXX.es se nos redigirá a la página www.iesgnXX.es/principal
 
+
 7. En la página www.iesgnXX.es/principal se debe mostrar una página web estática (utiliza alguna plantilla para que tenga hoja de estilo). En esta página debe aparecer tu nombre, y una lista de enlaces a las aplicaciones que vamos a ir desplegando posteriormente.
+
 
 8. Configura el nuevo virtualhost, para que pueda ejecutar PHP. Determina que configuración tiene por defecto php-fpm (socket unix o socket TCP) para configurar nginx de forma adecuada.
 
+
 9. Crea un fichero info.php que demuestre que está funcionando el servidor LEMP.
+
 
 Documenta de la forma más precisa posible cada uno de los pasos que has dado, y entrega pruebas de funcionamiento para comprobar el proceso que has realizado.
