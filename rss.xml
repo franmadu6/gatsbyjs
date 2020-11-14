@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sat, 14 Nov 2020 15:00:41 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Tarea OVH. Lemp]]></title><description><![CDATA[Configuración inicial de OVH Añadir clave de los profesores: Resolución de nombres Reiniciamos la maquina. Accedemos y verificamos su nombre…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</guid><category><![CDATA[OVH]]></category><category><![CDATA[Lemp]]></category><pubDate>Tue, 10 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-inicial-de-ovh&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-inicial-de-ovh&quot; aria-label=&quot;configuración inicial de ovh permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración inicial de OVH&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sat, 14 Nov 2020 23:03:44 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Tarea OVH. Lemp]]></title><description><![CDATA[Configuración inicial de OVH Añadir clave de los profesores: Resolución de nombres Reiniciamos la maquina. Accedemos y verificamos su nombre…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</guid><category><![CDATA[OVH]]></category><category><![CDATA[Lemp]]></category><pubDate>Tue, 10 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-inicial-de-ovh&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-inicial-de-ovh&quot; aria-label=&quot;configuración inicial de ovh permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración inicial de OVH&lt;/h2&gt;
 &lt;p&gt;Añadir clave de los profesores:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#con wget desde la pag de redmine.&lt;/span&gt;
 debian@valhalla:~/claves$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
@@ -159,7 +159,35 @@ root@valhalla:/home/debian# apt-get install php php-fpm&lt;/code&gt;&lt;/pre&gt;
 &lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;Crea un virtualhost al que vamos acceder con el nombre www.iesgnXX.es. Recuerda que tendrás que crear un registro CNAME en la zona DNS.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;En mi caso venia por defecto el DNS www.iesgn11.es no se porque pero me ha ahorrado añadirlo.&lt;/p&gt;
+&lt;p&gt;Primero borrare las 3 configuraciones predeterminadas que habia hacer www.iesgn11.es y luego añadire la siguiente:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 599px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/9858015cf1ad0434112b5392011ec2c3/3d4e8/ovh7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 90.48414023372287%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAACb0lEQVQ4y41TXW7bMAzO0+6xE+2hh9hZdpABG3aCPQ3D2odhwNB1XdLmr6mTNLYbx7Zsyz+S/Y2UbNcJinUKvpCmKIr8SI0msxnG0xmmixluSJ+wPre2W5KL5RzzFqwv7k7Q2mfLJS5+XGFU1xpAbdAY2bSg76azWTv7Kq2ghyAbo6HfYxBiRJ6YLl38GjtwtgHGt1tcXt9Txi4WKw+3ix3+kO3n1QpRLNmdLkIv00xCJAmqSiFJUowasuZ5SRsF8qKiTUkbOaS0toJsSmlzoK5tpnwGLVi3diCOhQ3IzhzAIK9QlIqClUgoYKWsc08EB2iepKY/3QdMbEBeHMz1YpMdO+3DDLqx7GnyeQ6K9veRhLdPkBUKIQe0XLSkoONmmMWxbiptfYb6UcmdQVF5nKmiCAdqgB8kEFT6UZa0J4q6PfPEY1/yaYbmAhyXWveDZcEXDmvqvvoMeWldw38UpuMlkbfyEzyEOQQRFVctlMXQxnogFbxDBiHaDLvVjQU3I8k10lIjpwMdZFU/i4zAWfddrmjOmD/OsjIzp01wrekV0HdJY8TypWVK5iCeH2P7ENLYREZ31oEZofUmwM6NcO/sjb2/5ASqvSzigKz4vo/dbgfXdeE4jvnebjYkPWRZSp3PjEzoiQ0RE2cRlRlGgvYlgjC2ATuHNE2JWHEki6LoUZb0csrSgHU0FfecUJn+h8Mu/88idiBkjTirUVKTLu8KfDwX+HQh8OU6RxSJpzl8CaYSqXGzKfD7vkCYapy9W2P0ZoxXZxO8frvEA/HeZ/ivTPuXRPMUJBp+rJDTqHyfSrz/GuHDtwifLyUOxOFfs01vMg83uXgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/9858015cf1ad0434112b5392011ec2c3/3d4e8/ovh7.png&quot;
+        srcset=&quot;/gatsbyjs/static/9858015cf1ad0434112b5392011ec2c3/acf4b/ovh7.png 173w,
+/gatsbyjs/static/9858015cf1ad0434112b5392011ec2c3/fc834/ovh7.png 345w,
+/gatsbyjs/static/9858015cf1ad0434112b5392011ec2c3/3d4e8/ovh7.png 599w&quot;
+        sizes=&quot;(max-width: 599px) 100vw, 599px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Crearemos un fichero para www.iesgn11.es, para ello copiaremos el fichero default y lo modificaremos&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@valhalla:/etc/nginx/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; default iesgn11
 debian@valhalla:/etc/nginx/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; iesgn11
@@ -234,13 +262,105 @@ server &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
                 try_files &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt;/ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;y por ultimo añadimos la ruta en /etc/hosts.&lt;/p&gt;
 &lt;ol start=&quot;6&quot;&gt;
 &lt;li&gt;Cuando se acceda a www.iesgnXX.es se nos redigirá a la página www.iesgnXX.es/principal&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;        location / &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+
+                try_files &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt;/ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;301&lt;/span&gt; /principal/index.html&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                location /principal &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        autoindex off&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Crearemos el directorio y el index.html.&lt;/p&gt;
+&lt;ol start=&quot;7&quot;&gt;
 &lt;li&gt;En la página www.iesgnXX.es/principal se debe mostrar una página web estática (utiliza alguna plantilla para que tenga hoja de estilo). En esta página debe aparecer tu nombre, y una lista de enlaces a las aplicaciones que vamos a ir desplegando posteriormente.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;He descargado esta plantilla &lt;a href=&quot;https://plantillashtmlgratis.com/todas-las-plantillas/plantilla/plantillas-html-css-para-descargar-gratis-flame/&quot;&gt;https://plantillashtmlgratis.com/todas-las-plantillas/plantilla/plantillas-html-css-para-descargar-gratis-flame/&lt;/a&gt; y la he modificado un poco para hacerla mas simple y accesible para este proyecto, la he subido a github modificada así que la descargare desde ahi con git.
+Repositorio: &lt;a href=&quot;https://github.com/franmadu6/FlameOvh&quot;&gt;https://github.com/franmadu6/FlameOvh&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/a714e8aec1c10baf03eba2badddbd02d/a987b/ovh4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACxUlEQVQoz0WS3VMaZxSHFwjLpwjyjcguC6sB5WOVL5eSRSQaiMZMrIkkEURN0pKYGJNMc9HpVS962Zve9KL/6pOXTDu9eOad884553fOnJ/UtSx+aLcxDINKpUKpVKJSLn+nPKdUFn//v/+x8S/znHk8r23U60hudwK3ZxmPK4XPk8HnyyLJGRwuBadHw+vL4Q/kWAjphMJzVr8TC+WJCoJLecKxNbyBDM9GUyTFoWCJBquBNXaDeSKxMttRnaZIXhfEF3R8/jwhr4bsUrnjVHHKCi6B063iciv4F3LY5BTj87dI6UiVwbLBvt7it2KNbqPHL81tdtp7/PGgx27nAfc7fX7vtlgpWeSrFvvNNt1aC0XbIh4vEIoV8Arx8fQ9kitWw6912OgMMfqPsE5H7Dwd0T05Zfj0OZ2Hx5i7j+haA7b6jxmYO3w0N+lstbGMFudmg5bZ416jxV+/fkGySys4HFm8EYPt/ogfxz9zdfuVN5++Mp79xOGLMy6/XDO5mXE8OWf69hUXlxMOH5/QOThhOhlxODwgmdrgdvYRySZFcUhJXE6FZvOI/eGEweCMTvsJewdjhseXPDx4yfHoDaOrG55dzHj56prL609MPrzD3DuiKaY/EiJ//vO3WFkKYrdHkT051GSVldAa6aSBqjZYT66jRtdZzbUwiiaZRJV8qkJxs0/mrkUwUCSt1sk2B8R0k+nVZyTJEcEnLKI5AoSFPeJqm5ZqoIeLRNJ18nqTTLSAtqihaXUyQmhN2ESP6CiJEvlsjWS8gk1Kc3U2Q9p1LTG1O3HLaZRokRNXiIJ9iUXVpJetcm8hTURYKpnvUFGrpMQG0VCBbLpKMGYQCxcox1UiNj+vL8SVT21u5Dsq+mKGm6QX3baEb7nGE0VjTzTueaLUSib3U3fZlBOsystkE2VUQcorvChrFD0h/OIWz8e3fAN6aVT7O+cUGgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/a714e8aec1c10baf03eba2badddbd02d/36727/ovh4.png&quot;
+        srcset=&quot;/gatsbyjs/static/a714e8aec1c10baf03eba2badddbd02d/acf4b/ovh4.png 173w,
+/gatsbyjs/static/a714e8aec1c10baf03eba2badddbd02d/fc834/ovh4.png 345w,
+/gatsbyjs/static/a714e8aec1c10baf03eba2badddbd02d/36727/ovh4.png 690w,
+/gatsbyjs/static/a714e8aec1c10baf03eba2badddbd02d/17fa4/ovh4.png 1035w,
+/gatsbyjs/static/a714e8aec1c10baf03eba2badddbd02d/a5044/ovh4.png 1380w,
+/gatsbyjs/static/a714e8aec1c10baf03eba2badddbd02d/a987b/ovh4.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;8&quot;&gt;
 &lt;li&gt;Configura el nuevo virtualhost, para que pueda ejecutar PHP. Determina que configuración tiene por defecto php-fpm (socket unix o socket TCP) para configurar nginx de forma adecuada.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Deberemos tener instalado php-fpm (ya instalado en el punto 3).&lt;/p&gt;
+&lt;p&gt;Para que nginx pueda ejecutar php modificaremos nuestro fichero de nuevo:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;location ~ &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;.php$ &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+
+        include snippets/fastcgi-php.conf&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        fastcgi_pass unix:/var/run/php/php7.3-fpm.sock&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;9&quot;&gt;
 &lt;li&gt;Crea un fichero info.php que demuestre que está funcionando el servidor LEMP.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Documenta de la forma más precisa posible cada uno de los pasos que has dado, y entrega pruebas de funcionamiento para comprobar el proceso que has realizado.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de aplicaciones python ]]></title><description><![CDATA[Tarea 1: Entorno de desarrollo Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</guid><category><![CDATA[Django]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-entorno-de-desarrollo&quot;&gt;&lt;a href=&quot;#tarea-1-entorno-de-desarrollo&quot; aria-label=&quot;tarea 1 entorno de desarrollo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Entorno de desarrollo&lt;/h2&gt;
+&lt;p&gt;creamos el fichero info.php y dentro le añadiremos lo siguiente:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;?php
+phpinfo&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+?&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;le he añadido un logo que vuelva a la pagina principal.&lt;/p&gt;
+&lt;p&gt;Comprobaremos su funcionamiento, además añadiremos un link en nuestra pagina principal para que podamos acceder de manera inmediata.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/a12fbb675fc11ce472edf1e871a9d9fc/6683a/ovh6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.93717277486911%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABi0lEQVQoz52RWU/CQBSF+asIIajxhRcQSXD9MRpUQkIsSwUFRCEsFTqlpbQugQcTH4wvFNoeb8uiRmPUSU5mMpn7zbn3eA7297C7s42taBSRcBhh0mpwHT5f0JXfv4ZAYOOTvCtBeH0BhEIhRDYjiMfj2CFGLBaDB9+sbFbG6SlDMsmQSolIp9lS3JmMw6Majk/KX+oMw4DHpoNt266cNZ2a4Hmd9ITr6wmq1R5arToYkyCKIu2iuw/UAUzThFO2qDWMMQHnsMWlaVrI5TQkEhKKxVeUSgyVyiVB26SWq0ajgV6vB8uy3JpF7Xg8fm/5I1AQJqjVLNTrIKCI8/McCoUinUsol8v00QU6nc6y5keg03I+r1HLz7i5scidRB80yZHsunIkSRIGg1nLv3KYySjguCHN0KQZyuh2hU9AxtjfgBzXp0QfCWjNgW0Kgrlh/Mshz6sE7NO8XnB1JdI8q7NAmk0INDvh9haKovwuFOeRrt+TEwWyrCzbVFUVo9EQovaArtyHpt99G8obbvDIDzMYKA8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/a12fbb675fc11ce472edf1e871a9d9fc/36727/ovh6.png&quot;
+        srcset=&quot;/gatsbyjs/static/a12fbb675fc11ce472edf1e871a9d9fc/acf4b/ovh6.png 173w,
+/gatsbyjs/static/a12fbb675fc11ce472edf1e871a9d9fc/fc834/ovh6.png 345w,
+/gatsbyjs/static/a12fbb675fc11ce472edf1e871a9d9fc/36727/ovh6.png 690w,
+/gatsbyjs/static/a12fbb675fc11ce472edf1e871a9d9fc/17fa4/ovh6.png 1035w,
+/gatsbyjs/static/a12fbb675fc11ce472edf1e871a9d9fc/a5044/ovh6.png 1380w,
+/gatsbyjs/static/a12fbb675fc11ce472edf1e871a9d9fc/6683a/ovh6.png 1910w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de aplicaciones python ]]></title><description><![CDATA[Tarea 1: Entorno de desarrollo Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</guid><category><![CDATA[Django]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-entorno-de-desarrollo&quot;&gt;&lt;a href=&quot;#tarea-1-entorno-de-desarrollo&quot; aria-label=&quot;tarea 1 entorno de desarrollo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Entorno de desarrollo&lt;/h2&gt;
 &lt;p&gt;Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de desarrollo para trabajar con la aplicación, para ello:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Clona el repositorio de GitHub: &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;https://github.com/josedom24/django_tutorial&lt;/a&gt;.&lt;/li&gt;
