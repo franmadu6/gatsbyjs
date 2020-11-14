@@ -1,8 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 12 Nov 2020 20:34:30 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Tarea OVH. Lemp]]></title><description><![CDATA[Configuración inicial de OVH Añadir clave del profesor Resolución de nombres Reiniciamos la maquina. Accedemos y verificamos su nombre:…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</guid><category><![CDATA[OVH]]></category><category><![CDATA[Lemp]]></category><pubDate>Tue, 10 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-inicial-de-ovh&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-inicial-de-ovh&quot; aria-label=&quot;configuración inicial de ovh permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración inicial de OVH&lt;/h2&gt;
-&lt;p&gt;Añadir clave del profesor&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg  --keyserver pgp.rediris.es --recv 4CB31DE5
-
-&lt;span class=&quot;token comment&quot;&gt;#añadir a .ssh/authorized_keys&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sat, 14 Nov 2020 15:00:41 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Tarea OVH. Lemp]]></title><description><![CDATA[Configuración inicial de OVH Añadir clave de los profesores: Resolución de nombres Reiniciamos la maquina. Accedemos y verificamos su nombre…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</guid><category><![CDATA[OVH]]></category><category><![CDATA[Lemp]]></category><pubDate>Tue, 10 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-inicial-de-ovh&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-inicial-de-ovh&quot; aria-label=&quot;configuración inicial de ovh permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración inicial de OVH&lt;/h2&gt;
+&lt;p&gt;Añadir clave de los profesores:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#con wget desde la pag de redmine.&lt;/span&gt;
+debian@valhalla:~/claves$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
+clave-openstack.pub  id_rsa.pub  nota.txt  rafa.pub
+&lt;span class=&quot;token comment&quot;&gt;#la mia con scp&lt;/span&gt;
+root@debian:/home/fran/.ssh&lt;span class=&quot;token comment&quot;&gt;# scp maduovh.pub debian@valhalla.iesgn11.es:/home/debian/claves&lt;/span&gt;
+The authenticity of &lt;span class=&quot;token function&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;valhalla.iesgn11.es (146.59.196.81)&apos;&lt;/span&gt; can&lt;span class=&quot;token string&quot;&gt;&apos;t be established.
+ECDSA key fingerprint is SHA256:HBSKW/gGZRGIBLQ1M28AGyb8jKujW2w9A+NuisTLqic.
+Are you sure you want to continue connecting (yes/no)? ye
+Please type &apos;&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos; or &apos;&lt;/span&gt;no&lt;span class=&quot;token string&quot;&gt;&apos;: yes
+Warning: Permanently added &apos;&lt;/span&gt;valhalla.iesgn11.es&lt;span class=&quot;token string&quot;&gt;&apos; (ECDSA) to the list of known hosts.
+debian@valhalla.iesgn11.es&apos;&lt;/span&gt;s password: 
+maduovh.pub     
+&lt;span class=&quot;token comment&quot;&gt;#añadir a .ssh/authorized_keys&lt;/span&gt;
+debian@valhalla:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; claves/id_rsa.pub&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; .ssh/authorized_keys
+debian@valhalla:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; claves/rafa.pub&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; .ssh/authorized_keys
+debian@valhalla:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; claves/clave-openstack.pub&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; .ssh/authorized_keys
+debian@valhalla:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; claves/maduovh.pub&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; .ssh/authorized_keys&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Resolución de nombres&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#en /etc/hostname&lt;/span&gt;
 valhalla.iesgn11.es
@@ -71,84 +85,156 @@ valhalla.iesgn11.es&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran&lt;span class=&quot;token comment&quot;&gt;# ssh -i .ssh/maduovh.pub debian@valhalla.iesgn11.es&lt;/span&gt;
+Linux valhalla.iesgn11.es &lt;span class=&quot;token number&quot;&gt;4.19&lt;/span&gt;.0-11-cloud-amd64 &lt;span class=&quot;token comment&quot;&gt;#1 SMP Debian 4.19.146-1 (2020-09-17) x86_64&lt;/span&gt;
+
+The programs included with the Debian GNU/Linux system are &lt;span class=&quot;token function&quot;&gt;free&lt;/span&gt; software&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+the exact distribution terms &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; each program are described &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; the
+individual files &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Fri Nov &lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt; 09:49:57 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; from &lt;span class=&quot;token number&quot;&gt;85.55&lt;/span&gt;.236.72
+debian@valhalla:~$ &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&quot;instalación-de-un-servidor-lemp-servicios&quot;&gt;&lt;a href=&quot;#instalaci%C3%B3n-de-un-servidor-lemp-servicios&quot; aria-label=&quot;instalación de un servidor lemp servicios permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalación de un servidor LEMP (Servicios)&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Instala un servidor web nginx&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# apt-get install nginx&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;li&gt;Instala un servidor de base de datos MariaDB. Ejecuta el programa necesario para asegurar el servicio, ya que lo vamos a tener corriendo en el entorno de producción.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;
+&lt;p&gt;Instala un servidor de base de datos MariaDB. Ejecuta el programa necesario para asegurar el servicio, ya que lo vamos a tener corriendo en el entorno de producción.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# apt-get apt-get install mariadb-server&lt;/span&gt;
-root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# mysql_secure_installation&lt;/span&gt;
-
-NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
-      SERVERS IN PRODUCTION USE&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;  PLEASE READ EACH STEP CAREFULLY&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;
-
-In order to log into MariaDB to secure it, we&lt;span class=&quot;token string&quot;&gt;&apos;ll need the current
-password for the root user.  If you&apos;&lt;/span&gt;ve just installed MariaDB, and
-you haven&lt;span class=&quot;token string&quot;&gt;&apos;t set the root password yet, the password will be blank,
-so you should just press enter here.
-
-Enter current password for root (enter for none): 
-OK, successfully used password, moving on...
-
-Setting the root password ensures that nobody can log into the MariaDB
-root user without the proper authorisation.
-
-Set root password? [Y/n] y
-
-New password: root
+root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# mysql_secure_installation&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
+SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!&lt;/p&gt;
+&lt;p&gt;In order to log into MariaDB to secure it, we&apos;ll need the current
+password for the root user.  If you&apos;ve just installed MariaDB, and
+you haven&apos;t set the root password yet, the password will be blank,
+so you should just press enter here.&lt;/p&gt;
+&lt;p&gt;Enter current password for root (enter for none):
+OK, successfully used password, moving on...&lt;/p&gt;
+&lt;p&gt;Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.&lt;/p&gt;
+&lt;p&gt;Set root password? [Y/n] y&lt;/p&gt;
+&lt;p&gt;New password: root
 Re-enter new password: root
 Password updated successfully!
 Reloading privilege tables..
- ... Success!
-
-
-By default, a MariaDB installation has an anonymous user, allowing anyone
+... Success!&lt;/p&gt;
+&lt;p&gt;By default, a MariaDB installation has an anonymous user, allowing anyone
 to log into MariaDB without having to have a user account created for
 them.  This is intended only for testing, and to make the installation
 go a bit smoother.  You should remove them before moving into a
-production environment.
-
-Remove anonymous users? [Y/n] y
- ... Success!
-
-Normally, root should only be allowed to connect from &apos;&lt;/span&gt;localhost&lt;span class=&quot;token string&quot;&gt;&apos;.  This
-ensures that someone cannot guess at the root password from the network.
-
-Disallow root login remotely? [Y/n] y
- ... Success!
-
-By default, MariaDB comes with a database named &apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos; that anyone can
+production environment.&lt;/p&gt;
+&lt;p&gt;Remove anonymous users? [Y/n] y
+... Success!&lt;/p&gt;
+&lt;p&gt;Normally, root should only be allowed to connect from &apos;localhost&apos;.  This
+ensures that someone cannot guess at the root password from the network.&lt;/p&gt;
+&lt;p&gt;Disallow root login remotely? [Y/n] y
+... Success!&lt;/p&gt;
+&lt;p&gt;By default, MariaDB comes with a database named &apos;test&apos; that anyone can
 access.  This is also intended only for testing, and should be removed
-before moving into a production environment.
-
-Remove test database and access to it? [Y/n] y
- - Dropping test database...
- ... Success!
- - Removing privileges on test database...
- ... Success!
-
-Reloading the privilege tables will ensure that all changes made so far
-will take effect immediately.
-
-Reload privilege tables now? [Y/n] y
- ... Success!
-
-Cleaning up...
-
-All done!  If you&apos;&lt;/span&gt;ve completed all of the above steps, your MariaDB
-installation should now be secure.
-
-Thanks &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; using MariaDB&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;Instala un servidor de aplicaciones php php-fpm.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@valhalla:/home/debian&lt;span class=&quot;token comment&quot;&gt;# apt-get install php php-fpm&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+before moving into a production environment.&lt;/p&gt;
+&lt;p&gt;Remove test database and access to it? [Y/n] y&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dropping test database...
+... Success!&lt;/li&gt;
+&lt;li&gt;Removing privileges on test database...
+... Success!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reloading the privilege tables will ensure that all changes made so far
+will take effect immediately.&lt;/p&gt;
+&lt;p&gt;Reload privilege tables now? [Y/n] y
+... Success!&lt;/p&gt;
+&lt;p&gt;Cleaning up...&lt;/p&gt;
+&lt;p&gt;All done!  If you&apos;ve completed all of the above steps, your MariaDB
+installation should now be secure.&lt;/p&gt;
+&lt;p&gt;Thanks for using MariaDB!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;3. Instala un servidor de aplicaciones php php-fpm.
+```shell
+root@valhalla:/home/debian# apt-get install php php-fpm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;Crea un virtualhost al que vamos acceder con el nombre www.iesgnXX.es. Recuerda que tendrás que crear un registro CNAME en la zona DNS.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;En mi caso venia por defecto el DNS www.iesgn11.es no se porque pero me ha ahorrado añadirlo.&lt;/p&gt;
+&lt;p&gt;Crearemos un fichero para www.iesgn11.es, para ello copiaremos el fichero default y lo modificaremos&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@valhalla:/etc/nginx/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; default iesgn11
+debian@valhalla:/etc/nginx/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; iesgn11
+server &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	listen &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	listen &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;::&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:80&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	root /var/www/iesgn11&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	index index.html index.htm index.nginx-debian.html&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	server_name www.iesgn11.es&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	location / &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+
+		try_files &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt;/ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Crearemos el document root copiando de nuevo el default para el ejemplo.&lt;/p&gt;
+&lt;p&gt;Crearemos el enlace simbólico:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@valhalla:/etc/nginx/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /etc/nginx/sites-available/iesgn11 /etc/nginx/sites-enabled/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Añadimos la ruta en nuestro /hosts local.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/366ed53c3c46395a55fded0c773a7075/2623a/ovh3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.57046979865772%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAAA3klEQVQoz41Pyw6CMBDs52kKBOSgHkwM6tcSwoEPQDiIBU6Ex0Fh7G6k6sWwyWT2MTvbisv5hCAIcDwcsN/usHE9+P4GrutCrlewLKlhce15nmHHcbhv2zYzQUoJcS8KKKVQqjtzVVUoy1JzzXld11zHcYwoipAkCcIwRJpeea70Hs1JR7XAwij04SzLkOe5Nku1QYW27dE0PZ7Ph9GJcRzxD9M0MdPryYxwuyl9oGGzroPREP6+kIQEimEY9HKHvu9ArXebVEZD+aIvfxZ+uubgPCcWS4y+Fz/4nc/xAkcu+oVdVDBeAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/366ed53c3c46395a55fded0c773a7075/36727/ovh3.png&quot;
+        srcset=&quot;/gatsbyjs/static/366ed53c3c46395a55fded0c773a7075/acf4b/ovh3.png 173w,
+/gatsbyjs/static/366ed53c3c46395a55fded0c773a7075/fc834/ovh3.png 345w,
+/gatsbyjs/static/366ed53c3c46395a55fded0c773a7075/36727/ovh3.png 690w,
+/gatsbyjs/static/366ed53c3c46395a55fded0c773a7075/17fa4/ovh3.png 1035w,
+/gatsbyjs/static/366ed53c3c46395a55fded0c773a7075/2623a/ovh3.png 1341w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
 &lt;li&gt;Cuando se acceda al virtualhost por defecto default nos tiene que redirigir al virtualhost que hemos creado en el punto anterior.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;crearemos un directorio en la ubicación de la paguina por defecto llamado /default.&lt;/p&gt;
+&lt;p&gt;Modificaremos el archivo de configuración default:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;server &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        listen &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt; default_server&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        listen &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;::&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:80 default_server&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+        root /var/www/html/default&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+        index index.html index.htm index.nginx-debian.html&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+        server_name _&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;301&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$scheme&lt;/span&gt;://www.iesgn11.es&lt;span class=&quot;token variable&quot;&gt;$request_uri&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+        location / &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+
+                try_files &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt;/ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;6&quot;&gt;
 &lt;li&gt;Cuando se acceda a www.iesgnXX.es se nos redigirá a la página www.iesgnXX.es/principal&lt;/li&gt;
 &lt;li&gt;En la página www.iesgnXX.es/principal se debe mostrar una página web estática (utiliza alguna plantilla para que tenga hoja de estilo). En esta página debe aparecer tu nombre, y una lista de enlaces a las aplicaciones que vamos a ir desplegando posteriormente.&lt;/li&gt;
 &lt;li&gt;Configura el nuevo virtualhost, para que pueda ejecutar PHP. Determina que configuración tiene por defecto php-fpm (socket unix o socket TCP) para configurar nginx de forma adecuada.&lt;/li&gt;
