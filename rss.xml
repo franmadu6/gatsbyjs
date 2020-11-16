@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sun, 15 Nov 2020 18:27:22 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Compilación de un kérnel linux a medida]]></title><description><![CDATA[Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</guid><category><![CDATA[Kernel]]></category><category><![CDATA[Linux]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es más sencilla de lo que parece gracias a las herramientas disponibles.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 16 Nov 2020 20:31:16 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Compilación de un kérnel linux a medida]]></title><description><![CDATA[Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</guid><category><![CDATA[Kernel]]></category><category><![CDATA[Linux]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es más sencilla de lo que parece gracias a las herramientas disponibles.&lt;/p&gt;
 &lt;p&gt;En esta tarea debes tratar de compilar un kérnel completamente funcional que reconozca todo el hardware básico de tu equipo y que sea a la vez lo más pequeño posible, es decir que incluya un vmlinuz lo más pequeño posible y que incorpore sólo los módulos imprescindibles. Para ello utiliza el método explicado en clase y entrega finalmente el fichero deb con el kérnel compilado por ti.&lt;/p&gt;
 &lt;p&gt;El hardware básico incluye como mínimo el teclado, la interfaz de red y la consola gráfica (texto).&lt;/p&gt;
 &lt;h3 id=&quot;pasos-a-seguir&quot;&gt;&lt;a href=&quot;#pasos-a-seguir&quot; aria-label=&quot;pasos a seguir permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pasos a seguir&lt;/h3&gt;
@@ -1224,12 +1224,60 @@ rtt min/avg/max/mdev &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Añadiremos la clave pública de nuestro profesor:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#la descargaremos directamente desde redmine&lt;/span&gt;
+debian@servidor-gninx:~$ &lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; https://dit.gonzalonazareno.org/redmine/attachments/download/1996/id_rsa.pub
+--2020-11-16 &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;:05:02--  https://dit.gonzalonazareno.org/redmine/attachments/download/1996/id_rsa.pub
+Resolving dit.gonzalonazareno.org &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dit.gonzalonazareno.org&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.203.2
+Connecting to dit.gonzalonazareno.org &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dit.gonzalonazareno.org&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.203.2&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;:443&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. connected.
+HTTP request sent, awaiting response&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. &lt;span class=&quot;token number&quot;&gt;302&lt;/span&gt; Found
+Location: https://dit.gonzalonazareno.org/redmine/login?back_url&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;https%3A%2F%2Fdit.gonzalonazareno.org%2Fredmine%2Fattachments%2Fdownload%2F1996%2Fid_rsa.pub &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;following&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+--2020-11-16 &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;:05:02--  https://dit.gonzalonazareno.org/redmine/login?back_url&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;https%3A%2F%2Fdit.gonzalonazareno.org%2Fredmine%2Fattachments%2Fdownload%2F1996%2Fid_rsa.pub
+Reusing existing connection to dit.gonzalonazareno.org:443.
+HTTP request sent, awaiting response&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; OK
+Length: unspecified &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;text/html&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+Saving to: ‘id_rsa.pub’
+
+id_rsa.pub                 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;                       &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;.08K  --.-KB/s    &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; 0s      
+
+&lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-11-16 &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;:05:02 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;102&lt;/span&gt; MB/s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; - ‘id_rsa.pub’ saved &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5199&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+debian@servidor-gninx:~$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
+id_rsa.pub
+&lt;span class=&quot;token comment&quot;&gt;#añadir a .ssh/authorized_keys para que pueda acceder nuestro profesor con su clave.&lt;/span&gt;
+debian@servidor-gninx:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; id_rsa.pub&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; .ssh/authorized_keys&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Primero instalaremos el servidor Gninx en nuestra maquina.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@servidor-gninx:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; nginx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Nos iremos al archivo default de sites-avaliable y le cambiaremos el server name para acceder a el desde afuera.&lt;/p&gt;
 &lt;h3 id=&quot;entrega-una-captura-de-pantalla-accediendo-a-ella&quot;&gt;&lt;a href=&quot;#entrega-una-captura-de-pantalla-accediendo-a-ella&quot; aria-label=&quot;entrega una captura de pantalla accediendo a ella permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Entrega una captura de pantalla accediendo a ella&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;images/servicios/nginx-2.png&quot; alt=&quot;PracticaImg&quot; title=&quot;Imagen de la practica&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/aeef775ba1dce985c4319f5d65e5cd70/d5c82/nginx-2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.579078455790786%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABdElEQVQoz3VRXY/BQBTtLyLbBysh9skj68Wjv7AJ+rkq9fs8SgRtCaI+upUVHtBpnZ0ZLO1mb+bk3OTOPffMHaFWq6FcLqNareK9VMJboYDXFxGZTAb5fB7ZbBapVCqGdDrNwXJRFJHL5VAsFlGpVCDoch26rkHTdCjNBhRZQltRYbTbME0ThmFAUWR0OiY+Wy006x9QpAYkWYYkSbSmQKa5qqpUQ4NASIAwJCCEUI5wPB7R7XbR7/c5bNvGdDpFr9fDYDAACQLgcqHngSiKaG/INQQkghVnsxnm8znn9XrNYVkWXHeJgAoGAcHpdML5fOYGWM89hOdJLNikyWTCXY3HYy7EXLIBjmNR8SU8b4PNxqPsU3hclAXT+HWYFGRijB3HobAxGo0wHLo0/8Ju943tNqBi/PWx/j+CzL7rulitVlgsFtyZ7/vcxeEQYb9nO7u+KAwf+b8OGV8/KORgO3ve0e32DfHemMNkIRmXxM8md3/nH2g1bwyPTl/DAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/aeef775ba1dce985c4319f5d65e5cd70/36727/nginx-2.png&quot;
+        srcset=&quot;/gatsbyjs/static/aeef775ba1dce985c4319f5d65e5cd70/acf4b/nginx-2.png 173w,
+/gatsbyjs/static/aeef775ba1dce985c4319f5d65e5cd70/fc834/nginx-2.png 345w,
+/gatsbyjs/static/aeef775ba1dce985c4319f5d65e5cd70/36727/nginx-2.png 690w,
+/gatsbyjs/static/aeef775ba1dce985c4319f5d65e5cd70/d5c82/nginx-2.png 803w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&quot;virtual-hosting&quot;&gt;&lt;a href=&quot;#virtual-hosting&quot; aria-label=&quot;virtual hosting permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Virtual Hosting&lt;/h1&gt;
 &lt;h2 id=&quot;tarea-2-2-puntoobligatorio-configura-la-resolución-estática-en-los-clientes-y-muestra-el-acceso-a-cada-una-de-las-páginas&quot;&gt;&lt;a href=&quot;#tarea-2-2-puntoobligatorio-configura-la-resoluci%C3%B3n-est%C3%A1tica-en-los-clientes-y-muestra-el-acceso-a-cada-una-de-las-p%C3%A1ginas&quot; aria-label=&quot;tarea 2 2 puntoobligatorio configura la resolución estática en los clientes y muestra el acceso a cada una de las páginas permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2 (2 punto)(Obligatorio): Configura la resolución estática en los clientes y muestra el acceso a cada una de las páginas.&lt;/h2&gt;
 &lt;p&gt;Copiaremos el archivo default para crear la base de nuestros dos sitios web.&lt;/p&gt;
@@ -1277,28 +1325,270 @@ debian@servidor-gninx:/etc/nginx/sites-available$ &lt;span class=&quot;token fun
 &lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.200.137  departamentos.iesgn.org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;He creado los respectivos directorios en &quot;/srv/www&quot; para añadir algo de contenido.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;www.iesgn.org:
-&lt;img src=&quot;images/servicios/nginx-3.png&quot; alt=&quot;PracticaImg&quot; title=&quot;Imagen de la practica&quot;&gt;&lt;/p&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 566px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e1ae0230eb3fc41a75bf62fb06b56904/7b273/nginx-3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.82685512367491%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAA50lEQVQoz+WP0U6DMBSG+0bARiLiWDuBYCLRCXFj4ruoccvISlck7gnda9h/Z73yXu52kq/9z2nynZTVdY2yLPBK9wsxnz8hSRJE4Q34dYirIADnHEIIBJRd14XneXAcx2YL9aPxGL7vg62WCxRFiaqqsHxe4PEhx32eI4kiZLcxYpLfZRlymqVpiojmQnBaGtslnJhOQsymE+pnYLvtJ2TbEhLNekN8YN9pNO9vUE0D3XWQUkJrDaWUzUq1OBy+7Wyv6Z0cvdriq+/Bfo5HDFnMmF8YYwaDna2DCs/HX+m/v4yB6wKFJ/sW+Jw/Mx1xAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/e1ae0230eb3fc41a75bf62fb06b56904/7b273/nginx-3.png&quot;
+        srcset=&quot;/gatsbyjs/static/e1ae0230eb3fc41a75bf62fb06b56904/acf4b/nginx-3.png 173w,
+/gatsbyjs/static/e1ae0230eb3fc41a75bf62fb06b56904/fc834/nginx-3.png 345w,
+/gatsbyjs/static/e1ae0230eb3fc41a75bf62fb06b56904/7b273/nginx-3.png 566w&quot;
+        sizes=&quot;(max-width: 566px) 100vw, 566px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;departamenots.iesgn.org:
-&lt;img src=&quot;images/servicios/nginx-4.png&quot; alt=&quot;PracticaImg&quot; title=&quot;Imagen de la practica&quot;&gt;&lt;/p&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 506px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/194e2bb0e3758c32ed80b3c3824326ef/26532/nginx-4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.533596837944664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABH0lEQVQoz92PzWrCQBSF540UXCRNYxQ0acCNqVC0ploKrqLYGJLufEk1O9+guDER/CFfxwHBRbtpXXXgY+69Z+acGREEAS+DAZ7n0ev18P0+j50OrVYLs1qlrhvc63douo4u0TQNwzCo1WpYlkWlUqFUKlEulxXi7XWI33+mI0263a409Hny2jKgTbPZxLXqPNgOtm2r/ozjOCrQdV0ajQZVGXw2N00TEYwGJLMxcfJBFEWEYch4NCKKQ8J3WQ+HJHGstCiakSSJqqfTKZPJhPl8rmaxPHO+K9brNYvFgjRNWa1Slssln5sN+W5HlmVkec52u1Wo/or8Srvo4nQ6sd/vOR6PHA4Htf9lie+GRVH8GvGTcDG+yQtv/uX/bfgFWynwKDxocYYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/194e2bb0e3758c32ed80b3c3824326ef/26532/nginx-4.png&quot;
+        srcset=&quot;/gatsbyjs/static/194e2bb0e3758c32ed80b3c3824326ef/acf4b/nginx-4.png 173w,
+/gatsbyjs/static/194e2bb0e3758c32ed80b3c3824326ef/fc834/nginx-4.png 345w,
+/gatsbyjs/static/194e2bb0e3758c32ed80b3c3824326ef/26532/nginx-4.png 506w&quot;
+        sizes=&quot;(max-width: 506px) 100vw, 506px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&quot;mapeo-de-url&quot;&gt;&lt;a href=&quot;#mapeo-de-url&quot; aria-label=&quot;mapeo de url permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mapeo de URL&lt;/h1&gt;
 &lt;p&gt;Cambia la configuración del sitio web www.iesgn.org para que se comporte de la siguiente forma:&lt;/p&gt;
 &lt;h2 id=&quot;tarea-3-1-puntoobligatorio-cuando-se-entre-a-la-dirección-wwwiesgnorg-se-redireccionará-automáticamente-a-wwwiesgnorgprincipal-donde-se-mostrará-el-mensaje-de-bienvenida-en-el-directorio-principal-no-se-permite-ver-la-lista-de-los-ficheros-no-se-permite-que-se-siga-los-enlaces-simbólicos-y-no-se-permite-negociación-de-contenido-muestra-al-profesor-el-funcionamiento&quot;&gt;&lt;a href=&quot;#tarea-3-1-puntoobligatorio-cuando-se-entre-a-la-direcci%C3%B3n-wwwiesgnorg-se-redireccionar%C3%A1-autom%C3%A1ticamente-a-wwwiesgnorgprincipal-donde-se-mostrar%C3%A1-el-mensaje-de-bienvenida-en-el-directorio-principal-no-se-permite-ver-la-lista-de-los-ficheros-no-se-permite-que-se-siga-los-enlaces-simb%C3%B3licos-y-no-se-permite-negociaci%C3%B3n-de-contenido-muestra-al-profesor-el-funcionamiento&quot; aria-label=&quot;tarea 3 1 puntoobligatorio cuando se entre a la dirección wwwiesgnorg se redireccionará automáticamente a wwwiesgnorgprincipal donde se mostrará el mensaje de bienvenida en el directorio principal no se permite ver la lista de los ficheros no se permite que se siga los enlaces simbólicos y no se permite negociación de contenido muestra al profesor el funcionamiento permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3 (1 punto)(Obligatorio): Cuando se entre a la dirección www.iesgn.org se redireccionará automáticamente a www.iesgn.org/principal, donde se mostrará el mensaje de bienvenida. En el directorio principal no se permite ver la lista de los ficheros, no se permite que se siga los enlaces simbólicos y no se permite negociación de contenido. Muestra al profesor el funcionamiento.&lt;/h2&gt;
-&lt;p&gt;Crearemos la carpeta /principal dentro de moveremos su index.html.&lt;br&gt;
-En iesgn:&lt;/p&gt;
+&lt;p&gt;Crearemos la carpeta /principal dentro de moveremos su index.html y la cambiare de propietario.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#cambio de propietario&lt;/span&gt;
+debian@servidor-gninx:/srv/www/iesgn$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; www-data:www-data principal/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En iesgn:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;location / &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;301&lt;/span&gt; /principal/index.html&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-                autoindex off&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;301&lt;/span&gt; http://www.iesgn.org/principal&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        location /principal &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
                 try_files &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt;/ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-                location /principal &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-                        disable_symlinks on&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-                        autoindex off&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                disable_symlinks on&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Creamos ficheros en el directorio principal para comprobar si los podemos ver.
-departamenots.iesgn.org:
-&lt;img src=&quot;images/servicios/nginx-5.png&quot; alt=&quot;PracticaImg&quot; title=&quot;Imagen de la practica&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Creamos ficheros en el directorio principal para comprobar si los podemos ver, reiniciamos el servicio para que se efectuen los cambios.&lt;/p&gt;
+&lt;p&gt;Cuando vamos a acceder a www.iesgn.org nos redirecciona a:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/38998aaff78e832ba6264206d33cf976/b9380/nginx-5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.32057416267943%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAAAWUlEQVQoz81MWwrAIAzrsQcD8dE6rzt/J82s4E7QjwVCkyaEwnlAhFHrBS4JnBIkxukrWmtg5pnL0iXnmYfl7W8d03Z3n+7e8YwBL9AWqupC8hr6BuGM/w++uwoQi3UctpsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/38998aaff78e832ba6264206d33cf976/36727/nginx-5.png&quot;
+        srcset=&quot;/gatsbyjs/static/38998aaff78e832ba6264206d33cf976/acf4b/nginx-5.png 173w,
+/gatsbyjs/static/38998aaff78e832ba6264206d33cf976/fc834/nginx-5.png 345w,
+/gatsbyjs/static/38998aaff78e832ba6264206d33cf976/36727/nginx-5.png 690w,
+/gatsbyjs/static/38998aaff78e832ba6264206d33cf976/b9380/nginx-5.png 836w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;tarea-4-1-puntoobligatorio-si-accedes-a-la-página-wwwiesgnorgprincipaldocumentos-se-visualizarán-los-documentos-que-hay-en-srvdoc-por-lo-tanto-se-permitirá-el-listado-de-fichero-y-el-seguimiento-de-enlaces-simbólicos-siempre-que-sean-a-ficheros-o-directorios-cuyo-dueño-sea-el-usuario-muestra-al-profesor-el-funcionamiento&quot;&gt;&lt;a href=&quot;#tarea-4-1-puntoobligatorio-si-accedes-a-la-p%C3%A1gina-wwwiesgnorgprincipaldocumentos-se-visualizar%C3%A1n-los-documentos-que-hay-en-srvdoc-por-lo-tanto-se-permitir%C3%A1-el-listado-de-fichero-y-el-seguimiento-de-enlaces-simb%C3%B3licos-siempre-que-sean-a-ficheros-o-directorios-cuyo-due%C3%B1o-sea-el-usuario-muestra-al-profesor-el-funcionamiento&quot; aria-label=&quot;tarea 4 1 puntoobligatorio si accedes a la página wwwiesgnorgprincipaldocumentos se visualizarán los documentos que hay en srvdoc por lo tanto se permitirá el listado de fichero y el seguimiento de enlaces simbólicos siempre que sean a ficheros o directorios cuyo dueño sea el usuario muestra al profesor el funcionamiento permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 4 (1 punto)(Obligatorio): Si accedes a la página www.iesgn.org/principal/documentos se visualizarán los documentos que hay en /srv/doc. Por lo tanto se permitirá el listado de fichero y el seguimiento de enlaces simbólicos siempre que sean a ficheros o directorios cuyo dueño sea el usuario. Muestra al profesor el funcionamiento.&lt;/h2&gt;
-&lt;h2 id=&quot;tarea-5-1-punto-en-todo-el-host-virtual-se-debe-redefinir-los-mensajes-de-error-de-objeto-no-encontrado-y-no-permitido-para-el-ello-se-crearan-dos-ficheros-html-dentro-del-directorio-error-entrega-las-modificaciones-necesarias-en-la-configuración-y-una-comprobación-del-buen-funcionamiento&quot;&gt;&lt;a href=&quot;#tarea-5-1-punto-en-todo-el-host-virtual-se-debe-redefinir-los-mensajes-de-error-de-objeto-no-encontrado-y-no-permitido-para-el-ello-se-crearan-dos-ficheros-html-dentro-del-directorio-error-entrega-las-modificaciones-necesarias-en-la-configuraci%C3%B3n-y-una-comprobaci%C3%B3n-del-buen-funcionamiento&quot; aria-label=&quot;tarea 5 1 punto en todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido para el ello se crearan dos ficheros html dentro del directorio error entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 5 (1 punto): En todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido. Para el ello se crearan dos ficheros html dentro del directorio error. Entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento.&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Ejercicio 6: Configuración de apache mediante archivo .htaccess ]]></title><description><![CDATA[Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</guid><category><![CDATA[.htaccess]]></category><pubDate>Sun, 01 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor?, ¿qué podemos hacer? Explica la directiva AllowOverride de apache2. Utilizando archivos .htaccess realiza las siguientes configuraciones:&lt;/p&gt;
+&lt;p&gt;Creamos el directorio y añadimos documentos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@servidor-gninx:/srv$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; doc
+debian@servidor-gninx:/srv$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; www-data:www-data doc/
+debian@servidor-gninx:/srv$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; doc
+debian@servidor-gninx:/srv/doc$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; texto1 texto2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;creamos el redirección:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;location /principal/documentos &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                try_files &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt;/ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; /srv/doc&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                disable_symlinks if_not_owner&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                autoindex on&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Comprobamos los cambios realizados:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/a394d2478dfdd6354943a4bd6e3fa46d/6ca41/nginx-6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.39715394566624%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABR0lEQVQoz4WQy2rCUBCGzyOZTYxIVm7q1rbgtj5CheZiEvHBDIp1IzQRfIJ2IxKj8RISLfr3zJRIK7388DFnLsw/HNFqPaDRaKDZbOL+7ha1Wg26qkErl6HrOqNpGiqVCsqypqoqlFIJJYmiKBypVq1WUa/fQNjGI7pdD47rwjae0LFtWO02XNeB53mMYRhypoterwen04FjfvZN04Qt5wnLshgRBCH6fR+z2QzhdIqXIMBgMEAgo+/7GI/HGA6HCMMQo9EIk8lE1p45PxwOIJ3P5wsiTbdYrWIkyQbbzQZxHDNJkmCxWMjeit+73Y4jsV6vmSzLeGme5xfE2+u7HMafOh6PmM/nzHK55EtIp9OJl1JOb0JEUS5dySnj5jXkmqYpoijiZcVlVKe43++/Xyh/gLwuDj9RXFTouvc1F1ezv6r49P/0AeIaII5S5GmUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/a394d2478dfdd6354943a4bd6e3fa46d/36727/nginx-6.png&quot;
+        srcset=&quot;/gatsbyjs/static/a394d2478dfdd6354943a4bd6e3fa46d/acf4b/nginx-6.png 173w,
+/gatsbyjs/static/a394d2478dfdd6354943a4bd6e3fa46d/fc834/nginx-6.png 345w,
+/gatsbyjs/static/a394d2478dfdd6354943a4bd6e3fa46d/36727/nginx-6.png 690w,
+/gatsbyjs/static/a394d2478dfdd6354943a4bd6e3fa46d/6ca41/nginx-6.png 773w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ahora crearemos enlaces simbolicos y los comprobaremos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@servidor-gninx:~$ &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; ficheroU
+debian@servidor-gninx:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /home/debian/ficheroU /srv/doc/
+debian@servidor-gninx:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; ficheroR
+debian@servidor-gninx:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /home/debian/ficheroR /srv/doc/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/a742e0323b89f20ba3d484748f206c96/0c787/nginx-7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08048993875766%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABnElEQVQoz42Ry2rCUBCG8yQ+gOINdKPSIKZFMLgQW920dSMIghvBd/A5xHjroq5VXAjtwsum0JVPYL0sYrxEzd+cUYMuYjvwZebMOWfmPxnu9eUZyWQST49xxGMxiJEIHoR7hMNhQhAECKEQAoEAfD4f4ff7Dc/yjHPM1apl1Gp1NJvvKJdKqFYqKEsSJJ1G401fS6hXK/j4+MRoNMJgMMBwyBieOMbH/BCcomyw2WygqioURcFqtYIsyxQzv1wqWK/X+K9x318KFnMVmrbH4XAwNljB8XiMn8mE1rvdjpoy2263pnCyrOqqtnrBA+bzBQqFAjKZDNLpNLLZLPL5PHK5HOVSqRSKxSL2+z0VZ7BGl3BHPRp9p9MpeJ6H1+uF1WqFzWaD3W6nmGGxWBDTB3fzyZqmGU+dzWaIRqMQRZE8mzJrwPN3NEWXy0Uq2R0zSOG5IFMYDAbposfjgdPphMPhoLXb7SaViUSCLtK7Tv5K4eUG+6m9Xg+tVgudTofodrsG7XYb/X7fKGZa0Kybmd06e6WQeTbBv7il8BcSh9dRQT/h5gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/a742e0323b89f20ba3d484748f206c96/36727/nginx-7.png&quot;
+        srcset=&quot;/gatsbyjs/static/a742e0323b89f20ba3d484748f206c96/acf4b/nginx-7.png 173w,
+/gatsbyjs/static/a742e0323b89f20ba3d484748f206c96/fc834/nginx-7.png 345w,
+/gatsbyjs/static/a742e0323b89f20ba3d484748f206c96/36727/nginx-7.png 690w,
+/gatsbyjs/static/a742e0323b89f20ba3d484748f206c96/17fa4/nginx-7.png 1035w,
+/gatsbyjs/static/a742e0323b89f20ba3d484748f206c96/0c787/nginx-7.png 1143w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/f7bd13cef4b1a3b086323657705f1241/ca9ca/nginx-8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30.411985018726597%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAp0lEQVQY05WPPwuDMBTE8/kSEmMGoX+GlPajZnMQV9fGCIJDyCSi10ZqUXDJwY/33l04CHk9H9Ba43674lIUkFmGPJdQSkFwhux7c85BKV0RQqxeREp5yBhjINa+Ya1FG2lbuK6Dcw7db257pO971HWNsixRVRWMMWiaZvW3NwSJGscR3nsMw4AQAqZpOuRkWRaksGme5/++z5ML98VnftKXz4r2ftQHxdStCvGcBQYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/f7bd13cef4b1a3b086323657705f1241/36727/nginx-8.png&quot;
+        srcset=&quot;/gatsbyjs/static/f7bd13cef4b1a3b086323657705f1241/acf4b/nginx-8.png 173w,
+/gatsbyjs/static/f7bd13cef4b1a3b086323657705f1241/fc834/nginx-8.png 345w,
+/gatsbyjs/static/f7bd13cef4b1a3b086323657705f1241/36727/nginx-8.png 690w,
+/gatsbyjs/static/f7bd13cef4b1a3b086323657705f1241/17fa4/nginx-8.png 1035w,
+/gatsbyjs/static/f7bd13cef4b1a3b086323657705f1241/ca9ca/nginx-8.png 1335w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Como podemos comprobar el fichero creado por root lo podemos descargar mientras que creado por el usuario nos da un error 404.&lt;/p&gt;
+&lt;h2 id=&quot;tarea-5-1-punto-en-todo-el-host-virtual-se-debe-redefinir-los-mensajes-de-error-de-objeto-no-encontrado-y-no-permitido-para-el-ello-se-crearan-dos-ficheros-html-dentro-del-directorio-error-entrega-las-modificaciones-necesarias-en-la-configuración-y-una-comprobación-del-buen-funcionamiento&quot;&gt;&lt;a href=&quot;#tarea-5-1-punto-en-todo-el-host-virtual-se-debe-redefinir-los-mensajes-de-error-de-objeto-no-encontrado-y-no-permitido-para-el-ello-se-crearan-dos-ficheros-html-dentro-del-directorio-error-entrega-las-modificaciones-necesarias-en-la-configuraci%C3%B3n-y-una-comprobaci%C3%B3n-del-buen-funcionamiento&quot; aria-label=&quot;tarea 5 1 punto en todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido para el ello se crearan dos ficheros html dentro del directorio error entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 5 (1 punto): En todo el host virtual se debe redefinir los mensajes de error de objeto no encontrado y no permitido. Para el ello se crearan dos ficheros html dentro del directorio error. Entrega las modificaciones necesarias en la configuración y una comprobación del buen funcionamiento.&lt;/h2&gt;
+&lt;p&gt;Creo un directorio donde guardar los errores:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@servidor-gninx:/srv/www/iesgn$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; error
+debian@servidor-gninx:/srv/www/iesgn/error$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; error403.html
+debian@servidor-gninx:/srv/www/iesgn/error$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; error404.html
+debian@servidor-gninx:/srv/www/iesgn/error$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
+error403.html  error404.html
+debian@servidor-gninx:/srv/www/iesgn/error$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; -R www-data:www-data /srv/www/iesgn/error/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En iesgn config:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;       error_page &lt;span class=&quot;token number&quot;&gt;403&lt;/span&gt; /error/error403.html&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                location /error/error403.html &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        internal&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+        error_page &lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt; /error/error404.html&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                location /error/error404.html &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        internal&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como podemos comprobar ahora nos salta a nuestro archivo de error indicado:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/c6f2672ea3d04d9187a122abc0ac36e3/164b6/nginx-9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.64102564102564%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAAs0lEQVQoz82PvQuDMBDF8y+JkDjoYEfHtODs2C9MNEn/Z4e6OSV5TVKEfmzFoQc/3jvucdyRruvAOUfbtjjsOepdjYoyMMZQVRXKsky+KIqkq8/zHFmWJSilKdc0DYi8HiFEj3FUGGWPYZCQpzO0UtBawxgT5gK3m0leSgElLyE/Bi+TRlTIRyXzfMc0TViWBdZ5WOsC9gvn3It/9p/EGcHGRbz32JK3hbFW/fnCzV/++4UPfBh+AlbUJWQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/c6f2672ea3d04d9187a122abc0ac36e3/36727/nginx-9.png&quot;
+        srcset=&quot;/gatsbyjs/static/c6f2672ea3d04d9187a122abc0ac36e3/acf4b/nginx-9.png 173w,
+/gatsbyjs/static/c6f2672ea3d04d9187a122abc0ac36e3/fc834/nginx-9.png 345w,
+/gatsbyjs/static/c6f2672ea3d04d9187a122abc0ac36e3/36727/nginx-9.png 690w,
+/gatsbyjs/static/c6f2672ea3d04d9187a122abc0ac36e3/164b6/nginx-9.png 780w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;autentificación-autorización-y-control-de-acceso&quot;&gt;&lt;a href=&quot;#autentificaci%C3%B3n-autorizaci%C3%B3n-y-control-de-acceso&quot; aria-label=&quot;autentificación autorización y control de acceso permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Autentificación, Autorización, y Control de Acceso&lt;/h1&gt;
+&lt;h2 id=&quot;tarea-6-1-puntoobligatorio-añade-al-escenario-otra-máquina-conectada-por-una-red-interna-al-servidor-a-la-url-departamentosiesgnorgintranet-sólo-se-debe-tener-acceso-desde-el-cliente-de-la-red-local-y-no-se-pueda-acceder-desde-la-anfitriona-por-la-red-pública-a-la-url-departamentosiesgnorginternet-sin-embargo-sólo-se-debe-tener-acceso-desde-la-anfitriona-por-la-red-pública-y-no-desde-la-red-local&quot;&gt;&lt;a href=&quot;#tarea-6-1-puntoobligatorio-a%C3%B1ade-al-escenario-otra-m%C3%A1quina-conectada-por-una-red-interna-al-servidor-a-la-url-departamentosiesgnorgintranet-s%C3%B3lo-se-debe-tener-acceso-desde-el-cliente-de-la-red-local-y-no-se-pueda-acceder-desde-la-anfitriona-por-la-red-p%C3%BAblica-a-la-url-departamentosiesgnorginternet-sin-embargo-s%C3%B3lo-se-debe-tener-acceso-desde-la-anfitriona-por-la-red-p%C3%BAblica-y-no-desde-la-red-local&quot; aria-label=&quot;tarea 6 1 puntoobligatorio añade al escenario otra máquina conectada por una red interna al servidor a la url departamentosiesgnorgintranet sólo se debe tener acceso desde el cliente de la red local y no se pueda acceder desde la anfitriona por la red pública a la url departamentosiesgnorginternet sin embargo sólo se debe tener acceso desde la anfitriona por la red pública y no desde la red local permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 6 (1 punto)(Obligatorio): Añade al escenario otra máquina conectada por una red interna al servidor. A la URL departamentos.iesgn.org/intranet sólo se debe tener acceso desde el cliente de la red local, y no se pueda acceder desde la anfitriona por la red pública. A la URL departamentos.iesgn.org/internet, sin embargo, sólo se debe tener acceso desde la anfitriona por la red pública, y no desde la red local.&lt;/h2&gt;
+&lt;h2 id=&quot;tarea-7-1-punto-autentificación-básica-limita-el-acceso-a-la-url-departamentosiesgnorgsecreto-comprueba-las-cabeceras-de-los-mensajes-http-que-se-intercambian-entre-el-servidor-y-el-cliente&quot;&gt;&lt;a href=&quot;#tarea-7-1-punto-autentificaci%C3%B3n-b%C3%A1sica-limita-el-acceso-a-la-url-departamentosiesgnorgsecreto-comprueba-las-cabeceras-de-los-mensajes-http-que-se-intercambian-entre-el-servidor-y-el-cliente&quot; aria-label=&quot;tarea 7 1 punto autentificación básica limita el acceso a la url departamentosiesgnorgsecreto comprueba las cabeceras de los mensajes http que se intercambian entre el servidor y el cliente permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 7 (1 punto): Autentificación básica. Limita el acceso a la URL departamentos.iesgn.org/secreto. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente.&lt;/h2&gt;
+&lt;h2 id=&quot;tarea-8-2-punto-vamos-a-combinar-el-control-de-acceso-tarea-6-y-la-autentificación-tarea-7-y-vamos-a-configurar-el-virtual-host-para-que-se-comporte-de-la-siguiente-manera-el-acceso-a-la-url-departamentosiesgnorgsecreto-se-hace-forma-directa-desde-la-intranet-desde-la-red-pública-te-pide-la-autentificación-muestra-el-resultado-al-profesor&quot;&gt;&lt;a href=&quot;#tarea-8-2-punto-vamos-a-combinar-el-control-de-acceso-tarea-6-y-la-autentificaci%C3%B3n-tarea-7-y-vamos-a-configurar-el-virtual-host-para-que-se-comporte-de-la-siguiente-manera-el-acceso-a-la-url-departamentosiesgnorgsecreto-se-hace-forma-directa-desde-la-intranet-desde-la-red-p%C3%BAblica-te-pide-la-autentificaci%C3%B3n-muestra-el-resultado-al-profesor&quot; aria-label=&quot;tarea 8 2 punto vamos a combinar el control de acceso tarea 6 y la autentificación tarea 7 y vamos a configurar el virtual host para que se comporte de la siguiente manera el acceso a la url departamentosiesgnorgsecreto se hace forma directa desde la intranet desde la red pública te pide la autentificación muestra el resultado al profesor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 8 (2 punto): Vamos a combinar el control de acceso (tarea 6) y la autentificación (tarea 7), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Ejercicio 6: Configuración de apache mediante archivo .htaccess ]]></title><description><![CDATA[Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</guid><category><![CDATA[.htaccess]]></category><pubDate>Sun, 01 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor?, ¿qué podemos hacer? Explica la directiva AllowOverride de apache2. Utilizando archivos .htaccess realiza las siguientes configuraciones:&lt;/p&gt;
 &lt;p&gt;Con 000webhost -&gt; &lt;a href=&quot;https://franmaduhtaccess.000webhostapp.com/&quot;&gt;https://franmaduhtaccess.000webhostapp.com/&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Habilita el listado de ficheros en la URL &lt;a href=&quot;http://host.dominio/nas&quot;&gt;http://host.dominio/nas&lt;/a&gt;.&lt;/li&gt;
