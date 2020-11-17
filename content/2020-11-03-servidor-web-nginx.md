@@ -16,25 +16,7 @@ Ip flotante de la maquina es ->  *172.22.200.137*
 
 Añadiremos la clave pública de nuestro profesor:
 ```shell
-#la descargaremos directamente desde redmine
-debian@servidor-gninx:~$ wget https://dit.gonzalonazareno.org/redmine/attachments/download/1996/id_rsa.pub
---2020-11-16 11:05:02--  https://dit.gonzalonazareno.org/redmine/attachments/download/1996/id_rsa.pub
-Resolving dit.gonzalonazareno.org (dit.gonzalonazareno.org)... 192.168.203.2
-Connecting to dit.gonzalonazareno.org (dit.gonzalonazareno.org)|192.168.203.2|:443... connected.
-HTTP request sent, awaiting response... 302 Found
-Location: https://dit.gonzalonazareno.org/redmine/login?back_url=https%3A%2F%2Fdit.gonzalonazareno.org%2Fredmine%2Fattachments%2Fdownload%2F1996%2Fid_rsa.pub [following]
---2020-11-16 11:05:02--  https://dit.gonzalonazareno.org/redmine/login?back_url=https%3A%2F%2Fdit.gonzalonazareno.org%2Fredmine%2Fattachments%2Fdownload%2F1996%2Fid_rsa.pub
-Reusing existing connection to dit.gonzalonazareno.org:443.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified [text/html]
-Saving to: ‘id_rsa.pub’
-
-id_rsa.pub                 [ <=>                       ]   5.08K  --.-KB/s    in 0s      
-
-2020-11-16 11:05:02 (102 MB/s) - ‘id_rsa.pub’ saved [5199]
-
-debian@servidor-gninx:~$ ls
-id_rsa.pub
+#la descargamos y pasamos por scp
 #añadir a .ssh/authorized_keys para que pueda acceder nuestro profesor con su clave.
 debian@servidor-gninx:~$ echo `cat id_rsa.pub` >> .ssh/authorized_keys
 ```
@@ -218,9 +200,118 @@ Como podemos comprobar ahora nos salta a nuestro archivo de error indicado:
 
 ## Tarea 6 (1 punto)(Obligatorio): Añade al escenario otra máquina conectada por una red interna al servidor. A la URL departamentos.iesgn.org/intranet sólo se debe tener acceso desde el cliente de la red local, y no se pueda acceder desde la anfitriona por la red pública. A la URL departamentos.iesgn.org/internet, sin embargo, sólo se debe tener acceso desde la anfitriona por la red pública, y no desde la red local.
 
+* Creamos una nueva maquina --> 172.22.200.109  
+* Le añadimos la clave del profesor.
+```shell
+fran@debian:~/Pardeclaves$ sudo scp -i pardeclaves2asir.pem id_rsa.pub debian@172.22.200.109:/home/debian
+id_rsa.pub     
+debian@servidor-nginx2:~$ echo `cat id_rsa.pub` >> .ssh/authorized_keys
+```
+* Crearemos los directorios de /intranet y /internet
+```shell
+debian@servidor-gninx:/srv/www/departamentos$ sudo mkdir internet
+debian@servidor-gninx:/srv/www/departamentos$ sudo mkdir intranet
+debian@servidor-gninx:/srv/www/departamentos$ sudo touch ficherointernet.txt /srv/www/departamentos/internet/
+debian@servidor-gninx:/srv/www/departamentos$ sudo touch ficherointranet.txt /srv/www/departamentos/intranet/     
+
+```
+* Modificaremos el archivo de configuración de departamentos
+```shell
+server {
+        listen 80;
+        listen [::]:80;
+
+        server_name departamentos.iesgn.org;
+
+        root /srv/www/departamentos;
+        index index.html;
+
+        location / {
+                try_files $uri $uri/ =404;
+        
+        location /intranet {
+                allow 172.22.200.0/24;
+                deny all;
+        }
+        location /internet {
+                deny 172.22.200.0/24;
+                allow all;
+                }
+        }
+}
+```
+Reiniciamos el servicio
+```shell
+debian@servidor-gninx:/etc/nginx/sites-available$ sudo systemctl restart nginx
+```
+y comprobamos los resultados:
+![PracticaImg](images/servicios/nginx-10.png "Imagen de la practica")
+![PracticaImg](images/servicios/nginx-11.png "Imagen de la practica")
+
+![PracticaImg](images/servicios/nginx-12.png "Imagen de la practica")
+![PracticaImg](images/servicios/nginx-13.png "Imagen de la practica")
 
 ## Tarea 7 (1 punto): Autentificación básica. Limita el acceso a la URL departamentos.iesgn.org/secreto. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente.
 
+Debemos descargarnos unas herramientas que son de apache:
+```shell
+debian@servidor-gninx:/etc/nginx/sites-available$ sudo apt install apache2-utils 
+```
+
+Creamos el directorio /secreto:
+```shell
+debian@servidor-gninx:/srv/www/departamentos$ sudo mkdir secreto
+debian@servidor-gninx:/srv/www/departamentos$ sudo nano secreto/index.html
+```
+
+Modificamos el archivo de configuración:
+```shell
+	location / {
+                autoindex on;
+                try_files $uri $uri/ =404;
+                location /intranet {
+                        allow 172.22.200.0/24;
+                        deny all;
+                }
+                location /internet {
+                        deny 172.22.200.0/24;
+                        allow all;
+                }
+                location /secreto {
+                        auth_basic "Entrada Secreta";
+                        auth_basic_user_file /etc/nginx/.htpasswd;
+                }
+        }
+}
+```
+Por ultimo creamos el fichero de contraseñas:
+```shell
+debian@servidor-gninx:/etc/nginx/sites-available$ sudo htpasswd -c /etc/nginx/.htpasswd user
+New password: 
+Re-type new password: 
+Adding password for user user
+```
+
+![PracticaImg](images/servicios/nginx-14.png "Imagen de la practica")
+![PracticaImg](images/servicios/nginx-15.png "Imagen de la practica")
 
 ## Tarea 8 (2 punto): Vamos a combinar el control de acceso (tarea 6) y la autentificación (tarea 7), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.
 
+Para esta combinación modificaremos las siguientes lineas de departamento:
+```shell
+#en /etc/nginx/sites-avaliables
+location /secreto {
+                        auth_basic "Entrada Secreta";
+                        auth_basic_user_file /etc/nginx/.htpasswd;
+                        satisfy any;
+                        allow 172.22.200.0/24;
+                        deny all;
+                }
+```
+Reiniciamos y comprobamos:
+
+Desde una ip externa:
+![PracticaImg](images/servicios/nginx-16.png "Imagen de la practica")
+
+Desde una ip interna:(No nos ha pedido indentificación)
+![PracticaImg](images/servicios/nginx-17.png "Imagen de la practica")

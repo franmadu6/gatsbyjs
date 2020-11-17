@@ -16,6 +16,7 @@ Añadir clave de los profesores:
 #con wget desde la pag de redmine.
 debian@valhalla:~/claves$ ls
 clave-openstack.pub  id_rsa.pub  nota.txt  rafa.pub
+#me ha dado fallos al descargarlas por wget asi que me las descargue desde mi maquina local y las pasé por scp como la mia.
 #la mia con scp
 root@debian:/home/fran/.ssh# scp maduovh.pub debian@valhalla.iesgn11.es:/home/debian/claves
 The authenticity of host 'valhalla.iesgn11.es (146.59.196.81)' can't be established.
