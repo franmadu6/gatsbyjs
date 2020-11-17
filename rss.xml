@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 16 Nov 2020 20:31:16 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Compilación de un kérnel linux a medida]]></title><description><![CDATA[Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</guid><category><![CDATA[Kernel]]></category><category><![CDATA[Linux]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es más sencilla de lo que parece gracias a las herramientas disponibles.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 17 Nov 2020 21:36:35 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Compilación de un kérnel linux a medida]]></title><description><![CDATA[Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</guid><category><![CDATA[Kernel]]></category><category><![CDATA[Linux]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es más sencilla de lo que parece gracias a las herramientas disponibles.&lt;/p&gt;
 &lt;p&gt;En esta tarea debes tratar de compilar un kérnel completamente funcional que reconozca todo el hardware básico de tu equipo y que sea a la vez lo más pequeño posible, es decir que incluya un vmlinuz lo más pequeño posible y que incorpore sólo los módulos imprescindibles. Para ello utiliza el método explicado en clase y entrega finalmente el fichero deb con el kérnel compilado por ti.&lt;/p&gt;
 &lt;p&gt;El hardware básico incluye como mínimo el teclado, la interfaz de red y la consola gráfica (texto).&lt;/p&gt;
 &lt;h3 id=&quot;pasos-a-seguir&quot;&gt;&lt;a href=&quot;#pasos-a-seguir&quot; aria-label=&quot;pasos a seguir permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pasos a seguir&lt;/h3&gt;
@@ -23,6 +23,7 @@ Crearemos una carpeta a donde trabajaremos con la compilación.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#con wget desde la pag de redmine.&lt;/span&gt;
 debian@valhalla:~/claves$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
 clave-openstack.pub  id_rsa.pub  nota.txt  rafa.pub
+&lt;span class=&quot;token comment&quot;&gt;#me ha dado fallos al descargarlas por wget asi que me las descargue desde mi maquina local y las pasé por scp como la mia.&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;#la mia con scp&lt;/span&gt;
 root@debian:/home/fran/.ssh&lt;span class=&quot;token comment&quot;&gt;# scp maduovh.pub debian@valhalla.iesgn11.es:/home/debian/claves&lt;/span&gt;
 The authenticity of &lt;span class=&quot;token function&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;valhalla.iesgn11.es (146.59.196.81)&apos;&lt;/span&gt; can&lt;span class=&quot;token string&quot;&gt;&apos;t be established.
@@ -1224,25 +1225,7 @@ rtt min/avg/max/mdev &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Añadiremos la clave pública de nuestro profesor:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#la descargaremos directamente desde redmine&lt;/span&gt;
-debian@servidor-gninx:~$ &lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; https://dit.gonzalonazareno.org/redmine/attachments/download/1996/id_rsa.pub
---2020-11-16 &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;:05:02--  https://dit.gonzalonazareno.org/redmine/attachments/download/1996/id_rsa.pub
-Resolving dit.gonzalonazareno.org &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dit.gonzalonazareno.org&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.203.2
-Connecting to dit.gonzalonazareno.org &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dit.gonzalonazareno.org&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.203.2&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;:443&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. connected.
-HTTP request sent, awaiting response&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. &lt;span class=&quot;token number&quot;&gt;302&lt;/span&gt; Found
-Location: https://dit.gonzalonazareno.org/redmine/login?back_url&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;https%3A%2F%2Fdit.gonzalonazareno.org%2Fredmine%2Fattachments%2Fdownload%2F1996%2Fid_rsa.pub &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;following&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
---2020-11-16 &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;:05:02--  https://dit.gonzalonazareno.org/redmine/login?back_url&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;https%3A%2F%2Fdit.gonzalonazareno.org%2Fredmine%2Fattachments%2Fdownload%2F1996%2Fid_rsa.pub
-Reusing existing connection to dit.gonzalonazareno.org:443.
-HTTP request sent, awaiting response&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; OK
-Length: unspecified &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;text/html&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-Saving to: ‘id_rsa.pub’
-
-id_rsa.pub                 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;                       &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;.08K  --.-KB/s    &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; 0s      
-
-&lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-11-16 &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;:05:02 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;102&lt;/span&gt; MB/s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; - ‘id_rsa.pub’ saved &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5199&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-
-debian@servidor-gninx:~$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
-id_rsa.pub
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#la descargamos y pasamos por scp&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;#añadir a .ssh/authorized_keys para que pueda acceder nuestro profesor con su clave.&lt;/span&gt;
 debian@servidor-gninx:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; id_rsa.pub&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; .ssh/authorized_keys&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Primero instalaremos el servidor Gninx en nuestra maquina.&lt;/p&gt;
@@ -1587,8 +1570,322 @@ debian@servidor-gninx:/srv/www/iesgn/error$ &lt;span class=&quot;token function&
     &lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&quot;autentificación-autorización-y-control-de-acceso&quot;&gt;&lt;a href=&quot;#autentificaci%C3%B3n-autorizaci%C3%B3n-y-control-de-acceso&quot; aria-label=&quot;autentificación autorización y control de acceso permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Autentificación, Autorización, y Control de Acceso&lt;/h1&gt;
 &lt;h2 id=&quot;tarea-6-1-puntoobligatorio-añade-al-escenario-otra-máquina-conectada-por-una-red-interna-al-servidor-a-la-url-departamentosiesgnorgintranet-sólo-se-debe-tener-acceso-desde-el-cliente-de-la-red-local-y-no-se-pueda-acceder-desde-la-anfitriona-por-la-red-pública-a-la-url-departamentosiesgnorginternet-sin-embargo-sólo-se-debe-tener-acceso-desde-la-anfitriona-por-la-red-pública-y-no-desde-la-red-local&quot;&gt;&lt;a href=&quot;#tarea-6-1-puntoobligatorio-a%C3%B1ade-al-escenario-otra-m%C3%A1quina-conectada-por-una-red-interna-al-servidor-a-la-url-departamentosiesgnorgintranet-s%C3%B3lo-se-debe-tener-acceso-desde-el-cliente-de-la-red-local-y-no-se-pueda-acceder-desde-la-anfitriona-por-la-red-p%C3%BAblica-a-la-url-departamentosiesgnorginternet-sin-embargo-s%C3%B3lo-se-debe-tener-acceso-desde-la-anfitriona-por-la-red-p%C3%BAblica-y-no-desde-la-red-local&quot; aria-label=&quot;tarea 6 1 puntoobligatorio añade al escenario otra máquina conectada por una red interna al servidor a la url departamentosiesgnorgintranet sólo se debe tener acceso desde el cliente de la red local y no se pueda acceder desde la anfitriona por la red pública a la url departamentosiesgnorginternet sin embargo sólo se debe tener acceso desde la anfitriona por la red pública y no desde la red local permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 6 (1 punto)(Obligatorio): Añade al escenario otra máquina conectada por una red interna al servidor. A la URL departamentos.iesgn.org/intranet sólo se debe tener acceso desde el cliente de la red local, y no se pueda acceder desde la anfitriona por la red pública. A la URL departamentos.iesgn.org/internet, sin embargo, sólo se debe tener acceso desde la anfitriona por la red pública, y no desde la red local.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Creamos una nueva maquina --&gt; 172.22.200.109  &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Le añadimos la clave del profesor.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Pardeclaves$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;scp&lt;/span&gt; -i pardeclaves2asir.pem id_rsa.pub debian@172.22.200.109:/home/debian
+id_rsa.pub     
+debian@servidor-nginx2:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; id_rsa.pub&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; .ssh/authorized_keys&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Crearemos los directorios de /intranet y /internet&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@servidor-gninx:/srv/www/departamentos$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; internet
+debian@servidor-gninx:/srv/www/departamentos$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; intranet
+debian@servidor-gninx:/srv/www/departamentos$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; ficherointernet.txt /srv/www/departamentos/internet/
+debian@servidor-gninx:/srv/www/departamentos$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; ficherointranet.txt /srv/www/departamentos/intranet/     &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* Modificaremos el archivo de configuración de departamentos
+```shell
+server {
+        listen 80;
+        listen [::]:80;
+
+        server_name departamentos.iesgn.org;
+
+        root /srv/www/departamentos;
+        index index.html;
+
+        location / {
+                try_files $uri $uri/ =404;
+        
+        location /intranet {
+                allow 172.22.200.0/24;
+                deny all;
+        }
+        location /internet {
+                deny 172.22.200.0/24;
+                allow all;
+                }
+        }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Reiniciamos el servicio&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@servidor-gninx:/etc/nginx/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart nginx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;y comprobamos los resultados:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/d90970db1edb21339a3b68c48b993eb2/3916b/nginx-10.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.03225806451613%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABLklEQVQoz62OTY6CQBCF+0YqCbLAkLhlx4weYTYaQEj8uZsb3DpD4lzA7RhlUDTy2/js6gQzLmZnJ1+q+lXVq2KDwQCWZWE4HOL9zUK/34euauiqXaiqCk3TYBgGdF2XuaIoaLVaaLfbkk6nI/VerwfTNMF8d4TFYo7ZbAZ/4mDiuvDHY8zFfzqdwvc92LYtog/P8zAWNXv0AcdxpE6RcMUcRRZ+fWK5XGKz+UYYhpLVKsB6vUYQBNhut6jrGlVVSTivUBNC45w/QXV2PieI4win00mSJAl+41hoMaIowuVyQVmWD0PKi6L4F7b7KbDbVchzLrbSFi63N5BJmqY4HA7Y7/c4Ho9ysDGmGuUNLMtKXK+5MMxlA8W/NBoNElmWPV3U9DwuxIsfu91ueCV3Yv4ihAPtPMsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/d90970db1edb21339a3b68c48b993eb2/36727/nginx-10.png&quot;
+        srcset=&quot;/gatsbyjs/static/d90970db1edb21339a3b68c48b993eb2/acf4b/nginx-10.png 173w,
+/gatsbyjs/static/d90970db1edb21339a3b68c48b993eb2/fc834/nginx-10.png 345w,
+/gatsbyjs/static/d90970db1edb21339a3b68c48b993eb2/36727/nginx-10.png 690w,
+/gatsbyjs/static/d90970db1edb21339a3b68c48b993eb2/3916b/nginx-10.png 775w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/296ec3266ab8eb6c934b91ae4fb39b34/332aa/nginx-11.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 29.335071707953063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABDklEQVQY042QS2uDQBSF/UNVJFAtFVy6yU7apj+hXQRfNRp/ZNQq6NYHuNNmIcHX6TjEILSUXvi4c2fOOcwMo6oqdq87vDw/QVEUPN4LkMQHCKIIQSBrSaKIZN5sNmDZOwJL4TgOPM/TM1mWsd1uwXxYJkzLgrHfQzc0aG/vMHUdpmnCMAzYtg3P8+Adj3AcFwdLg+ce4Lgu1VjEqxO9RXI0TQMzTRNmxmu/zeOIuYqiQBAEyLIMSZIgDAPEUYQ0TdG2LdWsfUzf95gZrvQrZkGe54jjGGVZIiJBYfiJ0+kE3/fRNA3VrD3M5XLBXyw3resaVVXhfP7CMAx0r+u6H3oG/6jlC+aguS/P+62+AaO7ht6dB2GcAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/296ec3266ab8eb6c934b91ae4fb39b34/36727/nginx-11.png&quot;
+        srcset=&quot;/gatsbyjs/static/296ec3266ab8eb6c934b91ae4fb39b34/acf4b/nginx-11.png 173w,
+/gatsbyjs/static/296ec3266ab8eb6c934b91ae4fb39b34/fc834/nginx-11.png 345w,
+/gatsbyjs/static/296ec3266ab8eb6c934b91ae4fb39b34/36727/nginx-11.png 690w,
+/gatsbyjs/static/296ec3266ab8eb6c934b91ae4fb39b34/332aa/nginx-11.png 767w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/cccdbdcfdd249cd72ec8523b756f5f94/640e4/nginx-12.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.1069330199765%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABzklEQVQoz6VSXXeiMBDl3/QoCZBAEohfi1ordVtBsau2/f+/YF+5OwHxqGf3aR/uucnMnTszAY8xBkLjE3POr2CMYzabIZ/PMRqPMZlMnQ6DwQDD4bDFoOPG6aMoanzf/+2NrG2yLIUxGo7jOIbNMszzHLPJGD+mI6Q6RsgZwiBALCWEiC4Q1JxBStmQIcgQnlAaoUyaKFbgQuLJZ/ClgV0UmG5qjF9/YVQcIKZrMBFDaoMwTuD0SluwQDQyMSA0xpjGCygZKkXQiLSGMFTgikyK7LWGKk5IN0fYzQcik4HTBkGvV52eu2ESjbKqaMI0IyODgAId1BXMrUSrcWJBJklmkdgRJBl3Gt2ahYrqCe/bLTw1sZCpabu5CW/hurtmjjV9GENvaogTa+90d4ZcqrZLO13PD3B5JpMrHvX9yq3hbRGPe1Z39381cfm/GLr3+z84M55cVmb0//Twb87uY9zmHuP+5XyFFJ1hVuyhX/YwLzWyom45XdeIlweKu/Meyao7q9UekuKObeE0NcL8A+GckNfYljt468M3nnefWFRn4jMW5RlL4tn7ifiL7kcsqy/Mt0es9p/Iy+9Wu9qdYJ4r8PEG4fQN4eQnTVjiD6mEi+m60aPnAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/cccdbdcfdd249cd72ec8523b756f5f94/36727/nginx-12.png&quot;
+        srcset=&quot;/gatsbyjs/static/cccdbdcfdd249cd72ec8523b756f5f94/acf4b/nginx-12.png 173w,
+/gatsbyjs/static/cccdbdcfdd249cd72ec8523b756f5f94/fc834/nginx-12.png 345w,
+/gatsbyjs/static/cccdbdcfdd249cd72ec8523b756f5f94/36727/nginx-12.png 690w,
+/gatsbyjs/static/cccdbdcfdd249cd72ec8523b756f5f94/640e4/nginx-12.png 851w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/2b1d85b46c424c2adb0cb4b6cbe10603/640e4/nginx-13.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.1069330199765%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABp0lEQVQoz52SbXOaQBSF+Tcd5WXZF3YBRQpaY6oVDNhak/z/X9CvnN5do4mN08zkwzPn7vFwuIzrBUEAYvBJwzC8YP2yLFHVNSbTKYqicN5oNMJ4PHaMRk4Hm4/jePB9/483yfMhy1IYo2FVSok8yzCvK3ydTVEWE5hEgccMLIoghQDnMcEhiDAMIIQYqBBUCI8nGkyoIZYJQi7wxQ/gixRZtUJx36Hc/ELxvYMvc/iMSrQBk8phnw0iPkhlIFU6GGMGjyUJmKZS0piUG0NqECoFvWyQbQ7I1z3iNHO/u7zjNNt8pDTlDdrdDp49XJNckGkKneeQJn3jv8+H9uto3jYNFcoX4wrtNKK3RsmJs/cOpf8pdMatLa8Lbm+nX3P/Lzxv+LF3o9Dg82in4cuf4goDuj9n/DdzyF/n4IZvs/Ya2bND8FNhRndN33Uwdz2y+95puuohF3vy7dxBLU9zsuwgyLdqs7NNCz7fg9U/waoeTfsAb7V/xreHR8x3R9Ij5u0RC9Jy+5v0ic4HLHZPqJsDlt0jqvb5ki3XW7BiDTb7QaxpwxZ/ASuyivi0AWmeAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/2b1d85b46c424c2adb0cb4b6cbe10603/36727/nginx-13.png&quot;
+        srcset=&quot;/gatsbyjs/static/2b1d85b46c424c2adb0cb4b6cbe10603/acf4b/nginx-13.png 173w,
+/gatsbyjs/static/2b1d85b46c424c2adb0cb4b6cbe10603/fc834/nginx-13.png 345w,
+/gatsbyjs/static/2b1d85b46c424c2adb0cb4b6cbe10603/36727/nginx-13.png 690w,
+/gatsbyjs/static/2b1d85b46c424c2adb0cb4b6cbe10603/640e4/nginx-13.png 851w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;tarea-7-1-punto-autentificación-básica-limita-el-acceso-a-la-url-departamentosiesgnorgsecreto-comprueba-las-cabeceras-de-los-mensajes-http-que-se-intercambian-entre-el-servidor-y-el-cliente&quot;&gt;&lt;a href=&quot;#tarea-7-1-punto-autentificaci%C3%B3n-b%C3%A1sica-limita-el-acceso-a-la-url-departamentosiesgnorgsecreto-comprueba-las-cabeceras-de-los-mensajes-http-que-se-intercambian-entre-el-servidor-y-el-cliente&quot; aria-label=&quot;tarea 7 1 punto autentificación básica limita el acceso a la url departamentosiesgnorgsecreto comprueba las cabeceras de los mensajes http que se intercambian entre el servidor y el cliente permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 7 (1 punto): Autentificación básica. Limita el acceso a la URL departamentos.iesgn.org/secreto. Comprueba las cabeceras de los mensajes HTTP que se intercambian entre el servidor y el cliente.&lt;/h2&gt;
-&lt;h2 id=&quot;tarea-8-2-punto-vamos-a-combinar-el-control-de-acceso-tarea-6-y-la-autentificación-tarea-7-y-vamos-a-configurar-el-virtual-host-para-que-se-comporte-de-la-siguiente-manera-el-acceso-a-la-url-departamentosiesgnorgsecreto-se-hace-forma-directa-desde-la-intranet-desde-la-red-pública-te-pide-la-autentificación-muestra-el-resultado-al-profesor&quot;&gt;&lt;a href=&quot;#tarea-8-2-punto-vamos-a-combinar-el-control-de-acceso-tarea-6-y-la-autentificaci%C3%B3n-tarea-7-y-vamos-a-configurar-el-virtual-host-para-que-se-comporte-de-la-siguiente-manera-el-acceso-a-la-url-departamentosiesgnorgsecreto-se-hace-forma-directa-desde-la-intranet-desde-la-red-p%C3%BAblica-te-pide-la-autentificaci%C3%B3n-muestra-el-resultado-al-profesor&quot; aria-label=&quot;tarea 8 2 punto vamos a combinar el control de acceso tarea 6 y la autentificación tarea 7 y vamos a configurar el virtual host para que se comporte de la siguiente manera el acceso a la url departamentosiesgnorgsecreto se hace forma directa desde la intranet desde la red pública te pide la autentificación muestra el resultado al profesor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 8 (2 punto): Vamos a combinar el control de acceso (tarea 6) y la autentificación (tarea 7), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Ejercicio 6: Configuración de apache mediante archivo .htaccess ]]></title><description><![CDATA[Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</guid><category><![CDATA[.htaccess]]></category><pubDate>Sun, 01 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor?, ¿qué podemos hacer? Explica la directiva AllowOverride de apache2. Utilizando archivos .htaccess realiza las siguientes configuraciones:&lt;/p&gt;
+&lt;p&gt;Debemos descargarnos unas herramientas que son de apache:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@servidor-gninx:/etc/nginx/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; apache2-utils &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Creamos el directorio /secreto:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@servidor-gninx:/srv/www/departamentos$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; secreto
+debian@servidor-gninx:/srv/www/departamentos$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; secreto/index.html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modificamos el archivo de configuración:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;	location / &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                autoindex on&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                try_files &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt;/ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                location /intranet &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        allow &lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.200.0/24&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                        deny all&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                location /internet &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        deny &lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.200.0/24&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                        allow all&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                location /secreto &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        auth_basic &lt;span class=&quot;token string&quot;&gt;&quot;Entrada Secreta&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                        auth_basic_user_file /etc/nginx/.htpasswd&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Por ultimo creamos el fichero de contraseñas:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@servidor-gninx:/etc/nginx/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; htpasswd -c /etc/nginx/.htpasswd user
+New password: 
+Re-type new password: 
+Adding password &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; user user&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/eb99fc0398bc9d0775e3fa4a59899118/9bac8/nginx-14.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.33406835722161%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAB90lEQVQ4y6WT227aQBCG/SiARLFj4pgWSrHNKQiJBoG4DFFVoRanF6gc7kCCxyhREBI3gGuOAgRC8HB/dpfYdSJaqe3F55mdmR3Pzu5wqqJAVVWkUimEQiHwPh8EnocgCBBFETzRvV4v3G43PG4XPB7PSSfS5XKxmEgkwnLQ/Vz5Swnlchnf7u+hE/m1VIKul5mtUqmgXq+j0WigWq2i9v20rtVqL6QT7rH3iG73BwaDAfr9ProPD+j1esTWxWQywX6/x263s9lut7Y8B/fTWMA0l1gsFozlcmkzn89hGAZGoxGD/mA6nTJp6a/hDJLQMOZ2Qic06Ww2szdbNqf/dRHcZrMGZbVanWW9Xr/AaT8Xy1nKZrP5b1hC+qGlmqZp9+ZfoPtpz7nD4YBOp4NwOIx4PA5N09ibUlUN6XQa+XyekEMul0M2m0WhUEAmk2Fx0WjUhr5FXddPCVutFm5uPiIQCECWZVxfJ1mQwh49gUhFibA1hW62dGqnMcFgEMVi8VeF1JlMJBCNxRD6oEF+G4IUCOLqD0jPyO/eg/df4e7TZ3DH4xHNZhOSJLHxo5UJFyIuRD8Zq9/D/P5Lhv9SgveND7e3zxW2221WstU/TSOwPp6kE8vPTpRMIkFOFSOnopTI2LJbpo+XTsJ4PP4rrAmiDIdDdtNPDNillWDhWxMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/eb99fc0398bc9d0775e3fa4a59899118/36727/nginx-14.png&quot;
+        srcset=&quot;/gatsbyjs/static/eb99fc0398bc9d0775e3fa4a59899118/acf4b/nginx-14.png 173w,
+/gatsbyjs/static/eb99fc0398bc9d0775e3fa4a59899118/fc834/nginx-14.png 345w,
+/gatsbyjs/static/eb99fc0398bc9d0775e3fa4a59899118/36727/nginx-14.png 690w,
+/gatsbyjs/static/eb99fc0398bc9d0775e3fa4a59899118/9bac8/nginx-14.png 907w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 525px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/9490c46bb9e1f4f700cdefd6a64d8511/b4523/nginx-15.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.523809523809526%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABHElEQVQoz82S30qEQBjF55msm1BXcf1zoUJeOEIE4jO0dBeF0kpO6eoDbjci3lQP0K6naWrDYpcu8qIDP2a+8w1nPoYhF4sF4jhGFEVIkkQQhhSu60KfabCUGVRVFSiKIjBNE5ZlQdd1yLIskCQJ0tExyPlZhIiGCIIAlFLQMMSp78HzfZiaDodjOw7M+VwEGYYBh9fvgZ7nwbZtzke4ppyALK8vcZdnKArGKXCbZsjTG5R1hSLjfpqiWq3AeK+ua5RlCcYY8jxH0zSoqkrA2D0ellcgT88vWK8f0fc92rZF13V43Www1jAMX+tuP67HHhm22++N8YHPep+GfT73yM/b/wo51Dg4xS8imFj/M3D8RJNNuAuddMIt/4JvgdpJbqRZYEEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/9490c46bb9e1f4f700cdefd6a64d8511/b4523/nginx-15.png&quot;
+        srcset=&quot;/gatsbyjs/static/9490c46bb9e1f4f700cdefd6a64d8511/acf4b/nginx-15.png 173w,
+/gatsbyjs/static/9490c46bb9e1f4f700cdefd6a64d8511/fc834/nginx-15.png 345w,
+/gatsbyjs/static/9490c46bb9e1f4f700cdefd6a64d8511/b4523/nginx-15.png 525w&quot;
+        sizes=&quot;(max-width: 525px) 100vw, 525px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tarea-8-2-punto-vamos-a-combinar-el-control-de-acceso-tarea-6-y-la-autentificación-tarea-7-y-vamos-a-configurar-el-virtual-host-para-que-se-comporte-de-la-siguiente-manera-el-acceso-a-la-url-departamentosiesgnorgsecreto-se-hace-forma-directa-desde-la-intranet-desde-la-red-pública-te-pide-la-autentificación-muestra-el-resultado-al-profesor&quot;&gt;&lt;a href=&quot;#tarea-8-2-punto-vamos-a-combinar-el-control-de-acceso-tarea-6-y-la-autentificaci%C3%B3n-tarea-7-y-vamos-a-configurar-el-virtual-host-para-que-se-comporte-de-la-siguiente-manera-el-acceso-a-la-url-departamentosiesgnorgsecreto-se-hace-forma-directa-desde-la-intranet-desde-la-red-p%C3%BAblica-te-pide-la-autentificaci%C3%B3n-muestra-el-resultado-al-profesor&quot; aria-label=&quot;tarea 8 2 punto vamos a combinar el control de acceso tarea 6 y la autentificación tarea 7 y vamos a configurar el virtual host para que se comporte de la siguiente manera el acceso a la url departamentosiesgnorgsecreto se hace forma directa desde la intranet desde la red pública te pide la autentificación muestra el resultado al profesor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 8 (2 punto): Vamos a combinar el control de acceso (tarea 6) y la autentificación (tarea 7), y vamos a configurar el virtual host para que se comporte de la siguiente manera: el acceso a la URL departamentos.iesgn.org/secreto se hace forma directa desde la intranet, desde la red pública te pide la autentificación. Muestra el resultado al profesor.&lt;/h2&gt;
+&lt;p&gt;Para esta combinación modificaremos las siguientes lineas de departamento:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#en /etc/nginx/sites-avaliables&lt;/span&gt;
+location /secreto &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        auth_basic &lt;span class=&quot;token string&quot;&gt;&quot;Entrada Secreta&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                        auth_basic_user_file /etc/nginx/.htpasswd&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                        satisfy any&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                        allow &lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.200.0/24&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                        deny all&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Reiniciamos y comprobamos:&lt;/p&gt;
+&lt;p&gt;Desde una ip externa:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/fedb84b5977d503ca4d5db55fcd3fea3/e198c/nginx-16.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 27.26161369193154%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA3ElEQVQY032QzW7DIBCEeRuDHUcYbMD4B0iU9FL30Pd/lTBdXFdye+jh0+ysZoQWJoR4NU0D0kyAc4Gq4pBSYpomeO8xzzPGcdz9sizoug4V56Xzw95t2/bFtm3D9rFlMvCjw9vjjtstIYQVMQakGBFDwLp++6KhEAph15UeoUy21oKlFHOkkvdjdnOCvX9C9QadPjP88b+ResjHnJkxZj/j+XxgWhNcekfdtKgvV9KD83zaCcqJI8vrC9qrBOv7HsMwwDkHQ2p6BaUK3T8o+kcJaw317L6jC6G1xhcOoaGVpRMOFQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/fedb84b5977d503ca4d5db55fcd3fea3/36727/nginx-16.png&quot;
+        srcset=&quot;/gatsbyjs/static/fedb84b5977d503ca4d5db55fcd3fea3/acf4b/nginx-16.png 173w,
+/gatsbyjs/static/fedb84b5977d503ca4d5db55fcd3fea3/fc834/nginx-16.png 345w,
+/gatsbyjs/static/fedb84b5977d503ca4d5db55fcd3fea3/36727/nginx-16.png 690w,
+/gatsbyjs/static/fedb84b5977d503ca4d5db55fcd3fea3/e198c/nginx-16.png 818w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Desde una ip interna:(No nos ha pedido indentificación)
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e6a024dab638f70ee5f2ce75f025e6fe/640e4/nginx-17.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.1069330199765%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABi0lEQVQoz62S0VLCMBBF+zdOadM2SZs0VKgFRBylFAuOov7/F/ia6yaIosODOj6cubs3N5vMJEEcx4gZs04ZYx+4vq5rNE2DqqowGo28F4YhBoOBJwy9WpfPssxGUfQaDI2xZVlCKQVjDKSUIA/TSYPmovaYUoNnKdIkgRQCnGcEhyDcMPIszzLQQATKDCGUtrkukQiJs4huLDSGkwXKi7lHjWeIpEGUcpdFJnOkBC8UQpZYt4+wSmsbFNU5pKkghxVYrpDkmlRjIApERzDvKzqsQCypl3tNyHO1W+vWawRM5BTK4fSwmLwHv/ADf9m2CL4HDqed5P1mxxzvaVer/UB26uRfcGKg+s+BGn/n8IjKP5ofGNP/ORAd1Yx/1vEJ32XdN3K9R3C07lHMdQ911UNfbWCuN17LxQZytiXf1T3y+b4u5j0E+U5ddnzbgU+3SCf3SJsN2o6+zWL7gsu7J0zXO9Idpt0OM9K6fSR9pv4Bs/UzJqsHzPsnNN3LR7a+aZGObpCOl16Xqw5vpY+JqMtfmWYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/e6a024dab638f70ee5f2ce75f025e6fe/36727/nginx-17.png&quot;
+        srcset=&quot;/gatsbyjs/static/e6a024dab638f70ee5f2ce75f025e6fe/acf4b/nginx-17.png 173w,
+/gatsbyjs/static/e6a024dab638f70ee5f2ce75f025e6fe/fc834/nginx-17.png 345w,
+/gatsbyjs/static/e6a024dab638f70ee5f2ce75f025e6fe/36727/nginx-17.png 690w,
+/gatsbyjs/static/e6a024dab638f70ee5f2ce75f025e6fe/640e4/nginx-17.png 851w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Ejercicio 6: Configuración de apache mediante archivo .htaccess ]]></title><description><![CDATA[Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/ejercicio-6-configuracion-de-apache-mediante-archivo-htaccess</guid><category><![CDATA[.htaccess]]></category><pubDate>Sun, 01 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Date de alta en un proveedor de hosting. ¿Si necesitamos configurar el servidor web que han configurado los administradores del proveedor?, ¿qué podemos hacer? Explica la directiva AllowOverride de apache2. Utilizando archivos .htaccess realiza las siguientes configuraciones:&lt;/p&gt;
 &lt;p&gt;Con 000webhost -&gt; &lt;a href=&quot;https://franmaduhtaccess.000webhostapp.com/&quot;&gt;https://franmaduhtaccess.000webhostapp.com/&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Habilita el listado de ficheros en la URL &lt;a href=&quot;http://host.dominio/nas&quot;&gt;http://host.dominio/nas&lt;/a&gt;.&lt;/li&gt;
