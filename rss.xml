@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 18 Nov 2020 20:00:00 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Compilación de un kérnel linux a medida]]></title><description><![CDATA[Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</guid><category><![CDATA[Kernel]]></category><category><![CDATA[Linux]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es más sencilla de lo que parece gracias a las herramientas disponibles.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 18 Nov 2020 20:46:00 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Compilación de un kérnel linux a medida]]></title><description><![CDATA[Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</guid><category><![CDATA[Kernel]]></category><category><![CDATA[Linux]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es más sencilla de lo que parece gracias a las herramientas disponibles.&lt;/p&gt;
 &lt;p&gt;En esta tarea debes tratar de compilar un kérnel completamente funcional que reconozca todo el hardware básico de tu equipo y que sea a la vez lo más pequeño posible, es decir que incluya un vmlinuz lo más pequeño posible y que incorpore sólo los módulos imprescindibles. Para ello utiliza el método explicado en clase y entrega finalmente el fichero deb con el kérnel compilado por ti.&lt;/p&gt;
 &lt;p&gt;El hardware básico incluye como mínimo el teclado, la interfaz de red y la consola gráfica (texto).&lt;/p&gt;
 &lt;h3 id=&quot;pasos-a-seguir&quot;&gt;&lt;a href=&quot;#pasos-a-seguir&quot; aria-label=&quot;pasos a seguir permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pasos a seguir&lt;/h3&gt;
@@ -52,8 +52,39 @@ Crearemos una carpeta a donde trabajaremos con la compilación.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;Creación de la red interna:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Nombre red interna de &lt;nombre de usuario&gt;&lt;/li&gt;
-&lt;li&gt;10.0.1.0/24&lt;/li&gt;
+&lt;li&gt;Nombre red interna de &amp;#x3C; nombre de usuario&gt;&lt;/li&gt;
+&lt;li&gt;10.0.1.0/24
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/09e83/escenario2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 3.046594982078853%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAKklEQVQI12P4+vXr/2/fvv3/+/cvCv79+/f/P3/+YOWD1MP4nz9/RlEHAHODTrt4hEW0AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/36727/escenario2.png&quot;
+        srcset=&quot;/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/acf4b/escenario2.png 173w,
+/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/fc834/escenario2.png 345w,
+/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/36727/escenario2.png 690w,
+/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/17fa4/escenario2.png 1035w,
+/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/a5044/escenario2.png 1380w,
+/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/09e83/escenario2.png 1674w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -80,7 +111,8 @@ Crearemos una carpeta a donde trabajaremos con la compilación.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;CentOS 7 sobre volumen de 10GB con sabor m1.mini&lt;/li&gt;
 &lt;li&gt;Conectada a la red interna&lt;/li&gt;
-&lt;li&gt;Accesible indirectamente a través de dulcinea&lt;/li&gt;
+&lt;li&gt;Accesible indirectamente a través de dulcinea
+&lt;img src=&quot;images/sistemas/escenario3.png&quot; alt=&quot;PracticaImg&quot; title=&quot;Imagen de la practica&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
