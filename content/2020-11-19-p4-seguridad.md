@@ -9,8 +9,6 @@ tags:
     - OpenSSL
 ---
 
-# Práctica: Certificados digitales. HTTPS 
-
 #### Certificado digital de persona física
 
 ## Tarea 1: Instalación del certificado
@@ -42,16 +40,16 @@ tags:
 
 * El alumno que hace de Autoridad Certificadora deberá entregar una documentación donde explique los siguientes puntos:
 
-1. Crear su autoridad certificadora (generar el certificado digital de la CA). Mostrar el fichero de configuración de la AC.
-2. Debe recibir el fichero CSR (Solicitud de Firmar un Certificado) de su compañero, debe firmarlo y enviar el certificado generado a su compañero.
-3. ¿Qué otra información debes aportar a tu compañero para que éste configure de forma adecuada su servidor web con el certificado generado?
+     1. Crear su autoridad certificadora (generar el certificado digital de la CA). Mostrar el fichero de configuración de la AC.
+     2. Debe recibir el fichero CSR (Solicitud de Firmar un Certificado) de su compañero, debe firmarlo y enviar el certificado generado a su compañero.
+     3. ¿Qué otra información debes aportar a tu compañero para que éste configure de forma adecuada su servidor web con el certificado generado?
 
 * El alumno que hace de administrador del servidor web, debe entregar una documentación que describa los siguientes puntos:
 
-1. Crea una clave privada RSA de 4096 bits para identificar el servidor.
-2. Utiliza la clave anterior para generar un CSR, considerando que deseas acceder al servidor con el FQDN (tunombre.iesgn.org).
-3. Envía la solicitud de firma a la entidad certificadora (su compañero).
-4. Recibe como respuesta un certificado X.509 para el servidor firmado y el certificado de la autoridad certificadora.
-5. Configura tu servidor web con https en el puerto 443, haciendo que las peticiones http se redireccionen a https (forzar https).
-6. Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.
+     1. Crea una clave privada RSA de 4096 bits para identificar el servidor.
+     2. Utiliza la clave anterior para generar un CSR, considerando que deseas acceder al servidor con el FQDN (tunombre.iesgn.org).
+     3. Envía la solicitud de firma a la entidad certificadora (su compañero).
+     4. Recibe como respuesta un certificado X.509 para el servidor firmado y el certificado de la autoridad certificadora.
+     5. Configura tu servidor web con https en el puerto 443, haciendo que las peticiones http se redireccionen a https (forzar https).
+     6. Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.
 
