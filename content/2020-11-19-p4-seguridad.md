@@ -10,6 +10,7 @@ tags:
 ---
 
 #### Certificado digital de persona física
+<hr>  
 
 ## Tarea 1: Instalación del certificado
 
@@ -33,7 +34,7 @@ tags:
 1. Utilizando tu certificado accede a alguna página de la administración pública )cita médica, becas, puntos del carnet,…). Entrega capturas de pantalla donde se demuestre el acceso a ellas.
 
 #### HTTPS / SSL
-
+<hr>
 <span style="background-color:red">Antes de hacer esta práctica vamos a crear una página web (puedes usar una página estática o instalar una aplicación web) en un servidor web apache2 que se acceda con el nombre tunombre.iesgn.org.</span>
 
 ## Tarea 1: Certificado autofirmado
