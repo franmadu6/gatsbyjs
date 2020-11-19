@@ -19,7 +19,7 @@ Pasos a realizar:
 
 1. Creación de la red interna:
     * Nombre red interna de < nombre de usuario>
-    * 10.0.1.0/24
+    * 10.0.1.0/24  
 ![PracticaImg](images/sistemas/escenario2.png "Imagen de la practica")
 2. Creación de las instancias
     * Dulcinea:
