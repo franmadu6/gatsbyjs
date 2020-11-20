@@ -27,13 +27,13 @@ Tomando en cuenta la imagen anterior, como podemos comprobar si seleccionamos la
 
 4. Investiga como exportar la clave pública de tu certificado.
 
-* Paso 1. Inicia el proceso de exportación. Accede a Herramientas>Opciones de Internet. Una vez allí selecciona la pestaña "Contenido". En el apartado de certificados haz clic en el botón de "Certificados" y, una vez en la nueva ventana, pulsa la pestaña "Personal". Aparecerá una relación de los certificados instalados en el navegador. Si aparece más de uno, selecciona el que te interesa y haz clic en "Exportar". 
+    * Paso 1. Inicia el proceso de exportación. Accede a Herramientas>Opciones de Internet. Una vez allí selecciona la pestaña "Contenido". En el apartado de certificados haz clic en el botón de "Certificados" y, una vez en la nueva ventana, pulsa la pestaña "Personal". Aparecerá una relación de los certificados instalados en el navegador. Si aparece más de uno, selecciona el que te interesa y haz clic en "Exportar". 
 
-* Paso 2. Elige si deseas exportar la clave privada o no. El asistente te preguntará si deseas exportar tu clave privada. Escoge con cuidado dependiendo del uso que vayas a dar al certificado exportado. Posteriormente, deja las opciones tal y como aparecen por defecto y pulsa "Siguiente". 
+    * Paso 2. Elige si deseas exportar la clave privada o no. El asistente te preguntará si deseas exportar tu clave privada. Escoge con cuidado dependiendo del uso que vayas a dar al certificado exportado. Posteriormente, deja las opciones tal y como aparecen por defecto y pulsa "Siguiente". 
 
-* Paso 3. Protege tu certificado. El sistema te pedirá una contraseña. Es necesario introducirla y hacer clic en "Siguiente". Conviene memorizar adecuadamente esta contraseña ya que, en caso de pérdida, no se puede recuperar. Una vez establecida la contraseña, indica la ruta y el nombre del archivo que contendrá el certificado. 
+    * Paso 3. Protege tu certificado. El sistema te pedirá una contraseña. Es necesario introducirla y hacer clic en "Siguiente". Conviene memorizar adecuadamente esta contraseña ya que, en caso de pérdida, no se puede recuperar. Una vez establecida la contraseña, indica la ruta y el nombre del archivo que contendrá el certificado. 
 
-* Paso 4. Comprueba las características del certificado. La ventana que se abre a continuación especifica dichas características. Si todo es correcto, pulsa "Finalizar" y, posteriormente, "Aceptar". Aparecerá un cuadro para informarte de que el certificado ha sido exportado con éxito. 
+    * Paso 4. Comprueba las características del certificado. La ventana que se abre a continuación especifica dichas características. Si todo es correcto, pulsa "Finalizar" y, posteriormente, "Aceptar". Aparecerá un cuadro para informarte de que el certificado ha sido exportado con éxito. 
 
 ## Tarea 2: Validación del certificado
 
