@@ -41,6 +41,16 @@ Pasos a realizar:
 
 3. Configuración de NAT en Dulcinea (Es necesario deshabilitar la seguridad en todos los puertos de dulcinea) [https://youtu.be/jqfILWzHrS0].
 
+Deshabilitar seguridad:
+```shell
+
+```
+
+Configuración de NAT
+```shell
+
+```
+
 4. Definición de contraseña en todas las instancias (para poder modificarla desde consola en caso necesario).
 
 5. Modificación de las instancias sancho y quijote para que usen direccionamiento estático y dulcinea como puerta de enlace.
