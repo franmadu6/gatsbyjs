@@ -41,7 +41,7 @@ Tomando en cuenta la imagen anterior, como podemos comprobar si seleccionamos la
 
 Enlace: https://ws024.juntadeandalucia.es/clienteafirma/autofirma/AutoFirma_v1_6_0_JAv01.deb
 
-![PracticaImg](images/seguridad/certificados2.png "Imagen de la practica")
+![PracticaImg](images/seguridad/certificados2.PNG "Imagen de la practica")
 
 ## Tarea 3: Firma electrónica
 
