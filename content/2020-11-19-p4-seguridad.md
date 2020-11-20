@@ -74,7 +74,7 @@ Enlace: https://ws024.juntadeandalucia.es/clienteafirma/autofirma/AutoFirma_v1_6
 
 * El alumno que hace de Autoridad Certificadora deberá entregar una documentación donde explique los siguientes puntos:
 
-     1. Crear su autoridad certificadora (generar el certificado digital de la CA). Mostrar el fichero de configuración de la AC.
+1. Crear su autoridad certificadora (generar el certificado digital de la CA). Mostrar el fichero de configuración de la AC.
 
 Lo primero que deberemos hacer es crear un espacio de directorios para poder trabajar:
 ```shell
@@ -167,7 +167,7 @@ policy = policy_match
 ```
 
 
-     2. Debe recibir el fichero CSR (Solicitud de Firmar un Certificado) de su compañero, debe firmarlo y enviar el certificado generado a su compañero.
+2. Debe recibir el fichero CSR (Solicitud de Firmar un Certificado) de su compañero, debe firmarlo y enviar el certificado generado a su compañero.
 
 ```shell
 root@madueno:/CA# openssl ca -cert /CA/certificados/camadu.crt -keyfile /CA/privado/ca.key -in ../home/fran/Descargas/
@@ -205,7 +205,7 @@ Write out database with 1 new entries
 Data Base Updated
 ```
 
-     3. ¿Qué otra información debes aportar a tu compañero para que éste configure de forma adecuada su servidor web con el certificado generado?
+3. ¿Qué otra información debes aportar a tu compañero para que éste configure de forma adecuada su servidor web con el certificado generado?
 
 Debemos aportar nuestro certificado de la identidad certificadora y el csr que certificamos de nuestro compañero.
 ```shell
@@ -215,7 +215,7 @@ camadu.crt
 
 * El alumno que hace de administrador del servidor web, debe entregar una documentación que describa los siguientes puntos:
 
-     1. Crea una clave privada RSA de 4096 bits para identificar el servidor.
+1. Crea una clave privada RSA de 4096 bits para identificar el servidor.
 ```shell
 root@madueno:~# ssh-keygen -b 4096
 Generating public/private rsa key pair.
@@ -244,7 +244,7 @@ fran@madueno:/var/www/madueno.iesgn.org$ ls
 claveapache_rsa  claveapache_rsa.pub  html
 ```
 
-     2. Utiliza la clave anterior para generar un CSR, considerando que deseas acceder al servidor con el FQDN (tunombre.iesgn.org).
+2. Utiliza la clave anterior para generar un CSR, considerando que deseas acceder al servidor con el FQDN (tunombre.iesgn.org).
 
 Añadimos los nombres alternativos en openssl.conf:
 ```shell
@@ -290,14 +290,14 @@ A challenge password []:fran
 An optional company name []:Patata Company SL
 ```
 
-     3. Envía la solicitud de firma a la entidad certificadora (su compañero).
+3. Envía la solicitud de firma a la entidad certificadora (su compañero).
 
 Le enviamos nuestra entidad a nuestro compañero y el nos la firmara convirtiéndola en crt.
 ```shell
 csrmadulora.crt
 ```
 
-     4. Recibe como respuesta un certificado X.509 para el servidor firmado y el certificado de la autoridad certificadora.
+4. Recibe como respuesta un certificado X.509 para el servidor firmado y el certificado de la autoridad certificadora.
 
 certificado X.509
 ```shell
@@ -309,7 +309,7 @@ Y el certificado de la autoridad.
 ca.crt
 ```
 
-     5. Configura tu servidor web con https en el puerto 443, haciendo que las peticiones http se redireccionen a https (forzar https).
+5. Configura tu servidor web con https en el puerto 443, haciendo que las peticiones http se redireccionen a https (forzar https).
 
 Una vez creado nuestro servidor deberemos de crear el archivo de configuración para el certificado ssl.
 ```shell
@@ -369,7 +369,7 @@ De esta manera podremos acceder con diferentes subnombres que nos redireccionara
 Añadiremos nuestro archivo ca.crt que genero nuestro compañero a nuestro navegador para ello accederemos a lo siguiente campos.
 Preferencias -> Seguridad&Privacidad -> Ver Certificados -> Importar -> Importamos nuestro archivo "ca.crt"
 
-     6. Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.
+6. Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.
 
 ```shell
 
