@@ -1,51 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 19 Nov 2020 10:12:34 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Práctica: Certificados digitales. HTTPS]]></title><description><![CDATA[Certificado digital de persona física Tarea 1: Instalación del certificado Una vez que hayas obtenido tu certificado, explica brevemente…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-certificados-digitales-https</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-certificados-digitales-https</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Wed, 18 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;certificado-digital-de-persona-física&quot;&gt;&lt;a href=&quot;#certificado-digital-de-persona-f%C3%ADsica&quot; aria-label=&quot;certificado digital de persona física permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Certificado digital de persona física&lt;/h4&gt;
-&lt;hr&gt;  
-&lt;h2 id=&quot;tarea-1-instalación-del-certificado&quot;&gt;&lt;a href=&quot;#tarea-1-instalaci%C3%B3n-del-certificado&quot; aria-label=&quot;tarea 1 instalación del certificado permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Instalación del certificado&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Una vez que hayas obtenido tu certificado, explica brevemente como se instala en tu navegador favorito.&lt;/li&gt;
-&lt;li&gt;Muestra una captura de pantalla donde se vea las preferencias del navegador donde se ve instalado tu certificado.&lt;/li&gt;
-&lt;li&gt;¿Cómo puedes hacer una copia de tu certificado?, ¿Como vas a realizar la copia de seguridad de tu certificado?. Razona la respuesta.&lt;/li&gt;
-&lt;li&gt;Investiga como exportar la clave pública de tu certificado.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;tarea-2-validación-del-certificado&quot;&gt;&lt;a href=&quot;#tarea-2-validaci%C3%B3n-del-certificado&quot; aria-label=&quot;tarea 2 validación del certificado permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Validación del certificado&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Instala en tu ordenador el software autofirma y desde la página de VALIDe valida tu certificado. Muestra capturas de pantalla donde se comprueba la validación.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;tarea-3-firma-electrónica&quot;&gt;&lt;a href=&quot;#tarea-3-firma-electr%C3%B3nica&quot; aria-label=&quot;tarea 3 firma electrónica permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Firma electrónica&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Utilizando la página VALIDe y el programa autofirma, firma un documento con tu certificado y envíalo por correo a un compañero.&lt;/li&gt;
-&lt;li&gt;Tu debes recibir otro documento firmado por un compañero y utilizando las herramientas anteriores debes visualizar la firma (Visualizar Firma) y (Verificar Firma). ¿Puedes verificar la firma aunque no tengas la clave pública de tu compañero?, ¿Es necesario estar conectado a internet para hacer la validación de la firma?. Razona tus respuestas.&lt;/li&gt;
-&lt;li&gt;Entre dos compañeros, firmar los dos un documento, verificar la firma para comprobar que está firmado por los dos.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;tarea-4-autentificación&quot;&gt;&lt;a href=&quot;#tarea-4-autentificaci%C3%B3n&quot; aria-label=&quot;tarea 4 autentificación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 4: Autentificación&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Utilizando tu certificado accede a alguna página de la administración pública )cita médica, becas, puntos del carnet,…). Entrega capturas de pantalla donde se demuestre el acceso a ellas.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&quot;https--ssl&quot;&gt;&lt;a href=&quot;#https--ssl&quot; aria-label=&quot;https  ssl permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTPS / SSL&lt;/h4&gt;
-&lt;hr&gt;
-&lt;span style=&quot;background-color:red&quot;&gt;Antes de hacer esta práctica vamos a crear una página web (puedes usar una página estática o instalar una aplicación web) en un servidor web apache2 que se acceda con el nombre tunombre.iesgn.org.&lt;/span&gt;
-&lt;h2 id=&quot;tarea-1-certificado-autofirmado&quot;&gt;&lt;a href=&quot;#tarea-1-certificado-autofirmado&quot; aria-label=&quot;tarea 1 certificado autofirmado permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Certificado autofirmado&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;El alumno que hace de Autoridad Certificadora deberá entregar una documentación donde explique los siguientes puntos:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Crear su autoridad certificadora (generar el certificado digital de la CA). Mostrar el fichero de configuración de la AC.&lt;/li&gt;
-&lt;li&gt;Debe recibir el fichero CSR (Solicitud de Firmar un Certificado) de su compañero, debe firmarlo y enviar el certificado generado a su compañero.&lt;/li&gt;
-&lt;li&gt;¿Qué otra información debes aportar a tu compañero para que éste configure de forma adecuada su servidor web con el certificado generado?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;El alumno que hace de administrador del servidor web, debe entregar una documentación que describa los siguientes puntos:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Crea una clave privada RSA de 4096 bits para identificar el servidor.&lt;/li&gt;
-&lt;li&gt;Utiliza la clave anterior para generar un CSR, considerando que deseas acceder al servidor con el FQDN (tunombre.iesgn.org).&lt;/li&gt;
-&lt;li&gt;Envía la solicitud de firma a la entidad certificadora (su compañero).&lt;/li&gt;
-&lt;li&gt;Recibe como respuesta un certificado X.509 para el servidor firmado y el certificado de la autoridad certificadora.&lt;/li&gt;
-&lt;li&gt;Configura tu servidor web con https en el puerto 443, haciendo que las peticiones http se redireccionen a https (forzar https).&lt;/li&gt;
-&lt;li&gt;Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Tarea OVH. Aplicaciones PHP]]></title><description><![CDATA[Instalación/migración de aplicaciones web PHP Realizar la migración de la aplicación drupal que tienes instalada en el entorno de desarrollo…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-aplicaciones-php</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-aplicaciones-php</guid><category><![CDATA[OVH]]></category><category><![CDATA[PHP]]></category><pubDate>Wed, 18 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;instalaciónmigración-de-aplicaciones-web-php&quot;&gt;&lt;a href=&quot;#instalaci%C3%B3nmigraci%C3%B3n-de-aplicaciones-web-php&quot; aria-label=&quot;instalaciónmigración de aplicaciones web php permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalación/migración de aplicaciones web PHP&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 20 Nov 2020 10:57:42 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Tarea OVH. Aplicaciones PHP]]></title><description><![CDATA[Instalación/migración de aplicaciones web PHP Realizar la migración de la aplicación drupal que tienes instalada en el entorno de desarrollo…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-aplicaciones-php</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-aplicaciones-php</guid><category><![CDATA[OVH]]></category><category><![CDATA[PHP]]></category><pubDate>Wed, 18 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;instalaciónmigración-de-aplicaciones-web-php&quot;&gt;&lt;a href=&quot;#instalaci%C3%B3nmigraci%C3%B3n-de-aplicaciones-web-php&quot; aria-label=&quot;instalaciónmigración de aplicaciones web php permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalación/migración de aplicaciones web PHP&lt;/h2&gt;
 &lt;hr&gt;
 &lt;p&gt;Realizar la migración de la aplicación drupal que tienes instalada en el entorno de desarrollo a nuestro entorno de producción, para ello ten en cuenta lo siguiente:&lt;/p&gt;
 &lt;ol&gt;
@@ -68,7 +21,534 @@ Password: pass_drupal&lt;/p&gt;
 &lt;li&gt;Instala la aplicación web Nextcloud en tu entorno de desarrollo.&lt;/li&gt;
 &lt;li&gt;Realiza la migración al servidor en producción, para que la aplicación sea accesible en la URL: www.iesgnXX.es/cloud&lt;/li&gt;
 &lt;li&gt;Instala en un ordenador el cliente de nextcloud y realiza la configuración adecuada para acceder a &quot;tu nube&quot;.&lt;/li&gt;
-&lt;/ol&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Compilación de un kérnel linux a medida]]></title><description><![CDATA[Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</guid><category><![CDATA[Kernel]]></category><category><![CDATA[Linux]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es más sencilla de lo que parece gracias a las herramientas disponibles.&lt;/p&gt;
+&lt;/ol&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica: Certificados digitales. HTTPS]]></title><description><![CDATA[Certificado digital de persona física Tarea 1: Instalación del certificado Una vez que hayas obtenido tu certificado, explica brevemente…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-certificados-digitales-https</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-certificados-digitales-https</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Wed, 18 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;certificado-digital-de-persona-física&quot;&gt;&lt;a href=&quot;#certificado-digital-de-persona-f%C3%ADsica&quot; aria-label=&quot;certificado digital de persona física permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Certificado digital de persona física&lt;/h4&gt;
+&lt;hr&gt;  
+&lt;h2 id=&quot;tarea-1-instalación-del-certificado&quot;&gt;&lt;a href=&quot;#tarea-1-instalaci%C3%B3n-del-certificado&quot; aria-label=&quot;tarea 1 instalación del certificado permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Instalación del certificado&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Una vez que hayas obtenido tu certificado, explica brevemente como se instala en tu navegador favorito.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Preferencias -&gt; Privacidad&amp;#x26;Seguridad -&gt; Ver Certificados... -&gt; Sus Certificados -&gt; Importar&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Muestra una captura de pantalla donde se vea las preferencias del navegador donde se ve instalado tu certificado.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/64ed7170ac1c11de479cab998284e041/4a38b/certificados1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.75324675324676%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABvElEQVQ4y6VT2U7DMBDMh0APjh6J06R1Yjtpc7S0RcAbEhKvSEj8/xcsnmld9RkeRrP2rmfX3nWU54UA2Rn5spSlx2plZLc7yuHwQgaOxxcpS+f9BWMCcB7xQJSmuVjjxNlKKg+9KiXLNIO0tlIUloyDYPjSdEn/YrEiWJDfn89TL5gbOb5/yevHt7x9/kjVv3lRI8bUXsz5iioKxfHiYuNwXTcSblfXLX2Pj3OJlFpK6ToxVS+23opxLcWsXZMDqqphNbOZYiUAklzb02nsK1S5tE0vXbuVtj3xet15eydd93TmHRmi8J3QinMb2qgQa6UyiaBuTMUNrY0kCbIqAnYcpxdgD4ewH+KCDT8rxBWwYW3NBpSl9e+iCa3R7ZKJ4EMDYQdgDT86j0STiX/D6TSR4fBOBoMx+a8Yjx9OTZnNEhmN7v8FCIIpGCoMuK709nZE3NwMyfDBDjGBIXZVoeJbAEmScTQwuGDn1uwkZg7vhHdE8zDkyk8HYtBUCE0mMRGhUxjU8APwfU5fqpDNppem2XJsIIzG9f2eA494xEI4/CIUxwoDkO16HbKiAjwNEGz4wbgVkuz3z7R/AUCOkcdgeOwdAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/64ed7170ac1c11de479cab998284e041/36727/certificados1.png&quot;
+        srcset=&quot;/gatsbyjs/static/64ed7170ac1c11de479cab998284e041/acf4b/certificados1.png 173w,
+/gatsbyjs/static/64ed7170ac1c11de479cab998284e041/fc834/certificados1.png 345w,
+/gatsbyjs/static/64ed7170ac1c11de479cab998284e041/36727/certificados1.png 690w,
+/gatsbyjs/static/64ed7170ac1c11de479cab998284e041/4a38b/certificados1.png 770w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;¿Cómo puedes hacer una copia de tu certificado?, ¿Como vas a realizar la copia de seguridad de tu certificado?. Razona la respuesta.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Tomando en cuenta la imagen anterior, como podemos comprobar si seleccionamos la firma podremos copiarla y añadirle una contraseña por seguridad para a la hora de añadirla en otro navegador o maquina.&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Investiga como exportar la clave pública de tu certificado.&lt;/li&gt;
+&lt;li&gt;Paso 1. Inicia el proceso de exportación. Accede a Herramientas&gt;Opciones de Internet. Una vez allí selecciona la pestaña &quot;Contenido&quot;. En el apartado de certificados haz clic en el botón de &quot;Certificados&quot; y, una vez en la nueva ventana, pulsa la pestaña &quot;Personal&quot;. Aparecerá una relación de los certificados instalados en el navegador. Si aparece más de uno, selecciona el que te interesa y haz clic en &quot;Exportar&quot;. &lt;/li&gt;
+&lt;li&gt;Paso 2. Elige si deseas exportar la clave privada o no. El asistente te preguntará si deseas exportar tu clave privada. Escoge con cuidado dependiendo del uso que vayas a dar al certificado exportado. Posteriormente, deja las opciones tal y como aparecen por defecto y pulsa &quot;Siguiente&quot;. &lt;/li&gt;
+&lt;li&gt;Paso 3. Protege tu certificado. El sistema te pedirá una contraseña. Es necesario introducirla y hacer clic en &quot;Siguiente&quot;. Conviene memorizar adecuadamente esta contraseña ya que, en caso de pérdida, no se puede recuperar. Una vez establecida la contraseña, indica la ruta y el nombre del archivo que contendrá el certificado. &lt;/li&gt;
+&lt;li&gt;Paso 4. Comprueba las características del certificado. La ventana que se abre a continuación especifica dichas características. Si todo es correcto, pulsa &quot;Finalizar&quot; y, posteriormente, &quot;Aceptar&quot;. Aparecerá un cuadro para informarte de que el certificado ha sido exportado con éxito. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;tarea-2-validación-del-certificado&quot;&gt;&lt;a href=&quot;#tarea-2-validaci%C3%B3n-del-certificado&quot; aria-label=&quot;tarea 2 validación del certificado permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Validación del certificado&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Instala en tu ordenador el software autofirma y desde la página de VALIDe valida tu certificado. Muestra capturas de pantalla donde se comprueba la validación.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enlace: &lt;a href=&quot;https://ws024.juntadeandalucia.es/clienteafirma/autofirma/AutoFirma_v1_6_0_JAv01.deb&quot;&gt;https://ws024.juntadeandalucia.es/clienteafirma/autofirma/AutoFirma_v1_6_0_JAv01.deb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;images/seguridad/certificados2.png&quot; alt=&quot;PracticaImg&quot; title=&quot;Imagen de la practica&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tarea-3-firma-electrónica&quot;&gt;&lt;a href=&quot;#tarea-3-firma-electr%C3%B3nica&quot; aria-label=&quot;tarea 3 firma electrónica permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Firma electrónica&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Utilizando la página VALIDe y el programa autofirma, firma un documento con tu certificado y envíalo por correo a un compañero.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/5c7ff/certificados4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.43554006968641%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAABzklEQVQoz2WSSW8UMRSE57dy4Ydw4q9w5YQUgUBwAAKKIsiIJRpmCLP1Zrvd3rsrZU86bN0qPc+o/b16ZS+ACP3jDYxoIbRG9fUKdrtBfqZxxDRNiCkhUTHGUotigHYT/PE9mpcPYa8eAMMnLDD2kD+fQTU1trsd1h/fYlhf48/HeQ8fQqnOeVjrWC0Gl+DqJeSHx0jrR4C5xoImYAPhlh8Ycw+RukXdtTjWNTohULFmDcOAxE0n1xFxAojgnKxcL6ZpRMeNh6pmZ1vGHMeEZrXB7nKJ4/oG1f6A468tZN1gEApO9TBSwfQaRrFKAduLsm+RM5L8s+0EDIEhxOLQCIlqcwNxqBhHC0X3msqT9J5i3qpig05CslqlS94FqDlGR0AG53wmvt4nKDXAuNwkwLz7DHv5DebiC/Tzc5jlCo6OnHf3GY+c7uSQ9ns9IMTsjjhmYXyN3uyZmYVmI/H0FcQZD+zFOfSTM1g2CPw28JBywzADx5LZeLomJOUc8nPoL7BpXkN2hu55pVJAFyzc3QGELP8b9hcwg2bN4MTji4Hifcv3L9JJzKMxEm/sqebfd/oPOIPm9U7u8X2/gmDoddNQLZq2K8rrnHeG/Au8BQ03AXl7bYBsAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/36727/certificados4.png&quot;
+        srcset=&quot;/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/acf4b/certificados4.png 173w,
+/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/fc834/certificados4.png 345w,
+/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/36727/certificados4.png 690w,
+/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/17fa4/certificados4.png 1035w,
+/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/5c7ff/certificados4.png 1148w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 646px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/06405283a483a0afff36f02dd64c83c8/cb0d3/certificados5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.79876160990712%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABJ0AAASdAHeZh94AAACL0lEQVQoz22TWXPaMBDH/f2/SyfTPHWmoUnaCYU05YoJGAz4vm18W7aBf1dKafvQh9/sSlrtag9Jl8sFfd8LfN+H73lwHRceScuyBK7rwLItOg/QNA3quhbySlmWqKsKXd1A4o5M04Bh6HDpkqlrsGnN6gqMvV/+l4ouXmGMiYewlsG3HHRRColv8shhlCGMcyJDfCyQZDXSvCHjFu1/6LoOQRDgcDgINF2HQ1lJeUGXkyMMp4JG2H4NJ6igHDKoRo66uTrof9OJNU91v99jNBrh6WlIZXKQpfRCfhhFEaWpQ9up0PYq1I2CNImQHSPEUYgoDJFnKY5JgiSOkZB9SK/LswwFcTqdRM15EOEwJqOK9SjqFnV7RtMB7QnoLwTeZcc5/93jenulP4vG8RoLhwlFVs0U47mFoWzi03cFD1Mdgx873D2rpGskt/i2sHD/84AvL5TqOsTjjGxeDtjYOfXBQ0mNIocMMTmcrl3cDla4+Srj5m6O28clPnye4OP9gnTaG8yIOQVTyYmOmcEwNxkmGoMW9fBcFwWNj8SLzFM24xprN4dixJBVB6u9jzdipUckPchbW0hFD7HWAtjHDl5OqWZnxGVPKbtijKRr+8s8Q1lkqMoCDc0gj7ZQTYwXa8h7mwbcxIaa5XsuDXGJguyLPKXGHIWu09gE9DEk3iHbtmm4Ldo0sFWpy8RW3WE8lfEwfMZo8orF4hXT6RTycondbvcHwzBg0m9SFEU4/QVj4TKBxlcOKAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/06405283a483a0afff36f02dd64c83c8/cb0d3/certificados5.png&quot;
+        srcset=&quot;/gatsbyjs/static/06405283a483a0afff36f02dd64c83c8/acf4b/certificados5.png 173w,
+/gatsbyjs/static/06405283a483a0afff36f02dd64c83c8/fc834/certificados5.png 345w,
+/gatsbyjs/static/06405283a483a0afff36f02dd64c83c8/cb0d3/certificados5.png 646w&quot;
+        sizes=&quot;(max-width: 646px) 100vw, 646px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Tu debes recibir otro documento firmado por un compañero y utilizando las herramientas anteriores debes visualizar la firma (Visualizar Firma) y (Verificar Firma). ¿Puedes verificar la firma aunque no tengas la clave pública de tu compañero?, ¿Es necesario estar conectado a internet para hacer la validación de la firma?. Razona tus respuestas.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 684px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/baa5351d340dea2ac9f253fe1a452f5d/238ba/certificados6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 40.643274853801174%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABJ0AAASdAHeZh94AAABGElEQVQoz4WRfU+DMBDG+ZJ+VT+D8S8TdHFmbso6ZONtFSj0Wvp4rWDUOKT55Z5e06d3XGTtCHIaxi83BsiwtjbEGU3EOYORz+0CEfg7JitUhzX29094WT0i2e5wFCneEoHXzTPrAzIhmBROExwZjn8TOXZV8Q7qdovm5gFtvAGVElScoYsaOq+DNpzze3/mNV0gggM0r5O5g0KPntvqegU1DKCR27Yz5lu8TGhZtgLX6yukeYxTVkKIPbIsA/F/02ysNT85TOhluGUXLqqhgVIKeZ6jqqqQs1yR8UPxA/GD8nq6GB5bMvTTrs+Sq+NBJAmKokBZlmxeom3bSVc/zHz8zZchkUbXqVBl0zSQ7xJSfuLzs/7P8AN992pe9QGyBgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/baa5351d340dea2ac9f253fe1a452f5d/238ba/certificados6.png&quot;
+        srcset=&quot;/gatsbyjs/static/baa5351d340dea2ac9f253fe1a452f5d/acf4b/certificados6.png 173w,
+/gatsbyjs/static/baa5351d340dea2ac9f253fe1a452f5d/fc834/certificados6.png 345w,
+/gatsbyjs/static/baa5351d340dea2ac9f253fe1a452f5d/238ba/certificados6.png 684w&quot;
+        sizes=&quot;(max-width: 684px) 100vw, 684px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/50a1c38d616a7e573052286a7b4acaff/4d248/certificados7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.15834348355664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABJ0AAASdAHeZh94AAACq0lEQVQ4y32UW2vUUBDH9yuJ38gHn8Q++NRSrRR8UsQLgiCooFIrVEsVpWu9Fe1la21rt9i9dLubTbLJ5p7N/ST5OznbVlewB35kMkn+Z2bOTEptYRZdcQ2KtAJZXIEiruKw+RUb64uYm3uOVy9foPZrGZa+CU3Z4Fj6FmxjGzZdzf4m3W9DV1YQ6LdQanW/QHdjhB6DP2AwTRdBECOKErCEEQncgY+BF8FxApiWB3Ijy4E0A6I4A6P7IIhgyrdRco3vKFa1u4OmWqc3Ac8P4HkhHNfnYmEYw7IHyPMc/1spI0GJBD1zC9+aFVyav4ixpxewtluBpjpotSW0DiV0BIVKoqLe6GJA4mmaIqGogZiIiLCQI188FEycPdz//ADnH57D2bEzWFieR0+Q0ajXcNA8wEGjgVaziXarhdp+DXvVKoSOgk8fB3j31sHrBRv7+zHfwBCLlM0fsCilyScTeFx+xMMPwxBRGFEdI24PObYD8jP0eoAkAaIIuC5VKotgFBHq6irMVh2R7SFLci7ieT4VOYDv+zy9jGqXZdkRQxtgf5FRAMHwUAx1DWptB1K3DZG2lAmtr8GxbTpxg4sylnDhURgnjod2GPpHgv11aKbHhWRJhtBuQ1UCsnNIYgZVTdEVUvK5MAwNfbVPPhWC0EWn06ZNTR71qKBmc0HTMOkUi75KTyIo7CHsFFIqkQfrWLCvOaju/kRP7vF0Tv94lKI3i41ty4TVu4OSpVd41xchM95fxco5+chh/KHoRd7MaUJBSIRMtXaHgppSofGh0QkZkdIDGsGA0bQUKWcnk/DvlARBSt2Q8HLp+gCW5VANaZZtdRaGskQsHlHmV1tbwuzMPYyPT2B6+iqmrlzG1NQkbly/hplnd+lnUIaplmH139O7H6D33iA0buI3esIQnvkd5wQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/50a1c38d616a7e573052286a7b4acaff/36727/certificados7.png&quot;
+        srcset=&quot;/gatsbyjs/static/50a1c38d616a7e573052286a7b4acaff/acf4b/certificados7.png 173w,
+/gatsbyjs/static/50a1c38d616a7e573052286a7b4acaff/fc834/certificados7.png 345w,
+/gatsbyjs/static/50a1c38d616a7e573052286a7b4acaff/36727/certificados7.png 690w,
+/gatsbyjs/static/50a1c38d616a7e573052286a7b4acaff/4d248/certificados7.png 821w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/50151/certificados8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.12035661218425%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABbklEQVQoz42S607CQBCFeScegNfhWqIvwIvpH42iiSjCD4gxBihCy5bWXii0XTjOLKFC2iZucrLbtPvNOTMtXbc1fA0HMKZT8Nrv9xAixmIRwzQjxHGsFEXHc5Ikaj8cDupbXp1OB+VyGZVKBaUrTYM+HsGczdRLviCED8PwCOjC8zwlx3GUgiBQu5SyCNjC53ufgEeHXNk0JSaThKAxXZIoWgzNALVGAx9vrxBz/SxygPncxXLJjvwMiIuycoHtZhPj3gtW+iytuloF1MOQooXYbjcqchiGcF1X9e8EzQW26nWMCHjucG1F5DIihzuC77DZRHQ5Ifg27dvp2wywUaui//iQAnkohvFDDj0C+tRPh+AuLMuB7/uwbVs5FUKo5yywWsXw+QnW9zyNYq8lQSVFluROUmRJkaUaEMdkcWFWBtis1TDodsnhH/C/KzcyA3v3dzQU/WKCdErPRSocSvf25uI/PAo4mc0zXQT8BaGqAl6DgIuSAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/36727/certificados8.png&quot;
+        srcset=&quot;/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/acf4b/certificados8.png 173w,
+/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/fc834/certificados8.png 345w,
+/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/36727/certificados8.png 690w,
+/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/17fa4/certificados8.png 1035w,
+/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/50151/certificados8.png 1346w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Entre dos compañeros, firmar los dos un documento, verificar la firma para comprobar que está firmado por los dos.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/a987b/certificados9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABN0lEQVQoz63RzW6CQBQFYB4Jl4L4s2AhVhkg8GjuGjVxUZL6QLSrGhMQGG2CRA3KcbiJTWNpE9ve5GYGMvPlTK5k2xYsi4ExEw+DAWzbhuu68DxPrB59M8bgOI44J86K/Wg0wnA4RL/fh67rtDJm0T+p1WpB0zTqZrOJx/EYb68vCKMISZKAc06dpiniOKYOwxCHwwGTyQSNRgOdTgeVU8HSFWu32wQ+z+d4X0cIggDL5RKr1QqRwLfbLfI8x36/R5ZlqGqxWECWZXS7XaiqCsMwvoJP06kA1+CbDV2ukhyPRxRFgfP5jLIsaV+V7/uU8GdwNkWWJihOJ9TVnaBC4I6nH5fr+u6EOzGAW+Rz1YGKotD060GefovVgb1ej0DTNP8HvCasARWa8u2T/5BQgT+biYT81+AForZxb1Ucge8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/36727/certificados9.png&quot;
+        srcset=&quot;/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/acf4b/certificados9.png 173w,
+/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/fc834/certificados9.png 345w,
+/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/36727/certificados9.png 690w,
+/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/17fa4/certificados9.png 1035w,
+/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/a5044/certificados9.png 1380w,
+/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/a987b/certificados9.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tarea-4-autentificación&quot;&gt;&lt;a href=&quot;#tarea-4-autentificaci%C3%B3n&quot; aria-label=&quot;tarea 4 autentificación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 4: Autentificación&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Utilizando tu certificado accede a alguna página de la administración pública )cita médica, becas, puntos del carnet,…). Entrega capturas de pantalla donde se demuestre el acceso a ellas.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/c080a1016c3964a4e98ff056f3e549de/793d9/certificados3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 81.41025641025641%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAAC/ElEQVQ4y3WUWU+aQRSGue1Nf4JRcUMBN3AnsrmDokVcqrKT9N60Vo2YJsYgxMvW2opLKWsFZKmAafrT3s458SMx1osn58x8M+/ZGGQarRb92hFotKNQKtVobZajubmZaW9XoKWlFXK5HI2NjWhoaEBTUxPa2trQ2dmJ/v5+DA8PY2BggFGr1ZBtLNvgfTsO36bAaYfP5ULA74PPH8DW5hu4nGvweLzCbsHrdsLt8cDtdos9N1zirEesvV7CC6fTCVn4wI/P714jdfIKsTM3zs8v8T16jWwyieCuE+GTICLhMKLRCxRLZeTvCigUi8jm8vgZjyORTCGeSAoSSGcykN1Eo4hHQ4hfH+FHLIqrWAqXN3HE4yl8u7hC9CqGWCKFRCqN9K9bpDJPST9CfuY2B1mxVEK19gfF33+RyZaQuyvhNldEOltArlBGMpNn7u/vUalUBPd4qNVQrVZRq1WFrfD64aGGYqEAWblcxtezL1hddcDhWBZ2FSsrK8J3YGPjLQKBAPyip2R9Ph88olfr6+t8bm1trX5+e3sb+XweMop0dHQErZj26OgoT21oaEhMTYvBwUHodGO8J33r6uoS029HR0cHW4VCwZM3GAzI5UTJVEZYNN1iscBmWxDYMD9vhclkhNFo5IOE2WzCyMgIB6ZAEhS8r68PCwsLTwWnp6dhtVqF2DyLT05OCiYwMzPDPl0kJBFJkLLu7e3lu3XBUCjEJRmNhseM9OyPjY3xPlnKjnxprdPpmPHxcWg0Gk7iWclWq4UjUdlUwuzsLKampjhDspSt2WxmSJgyo9eiVCr5bF0wEolwqUtLS3UWFxdht9vrUCC6NDExAb1ez0IvClKGUgbUS4IylnpJJVK/aCA9PT0sJPGiIInQ5tzcHPuUiclk4qZL/SOfBKhnZAkKQn8K9R7S7/D4+BgqtYoPEpQFRX2Oii+rVCp0d3ezIFnaowpZsCSeXiwWw/7BId7vHuCDYGcviI/7h9j5L0H+Tv5e8BP7+8Kenp7yS/kHVXquC+snz9QAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/c080a1016c3964a4e98ff056f3e549de/36727/certificados3.png&quot;
+        srcset=&quot;/gatsbyjs/static/c080a1016c3964a4e98ff056f3e549de/acf4b/certificados3.png 173w,
+/gatsbyjs/static/c080a1016c3964a4e98ff056f3e549de/fc834/certificados3.png 345w,
+/gatsbyjs/static/c080a1016c3964a4e98ff056f3e549de/36727/certificados3.png 690w,
+/gatsbyjs/static/c080a1016c3964a4e98ff056f3e549de/793d9/certificados3.png 936w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;https--ssl&quot;&gt;&lt;a href=&quot;#https--ssl&quot; aria-label=&quot;https  ssl permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTPS / SSL&lt;/h4&gt;
+&lt;hr&gt;
+&lt;span style=&quot;background-color:red&quot;&gt;Antes de hacer esta práctica vamos a crear una página web (puedes usar una página estática o instalar una aplicación web) en un servidor web apache2 que se acceda con el nombre tunombre.iesgn.org.&lt;/span&gt;
+&lt;h2 id=&quot;tarea-1-certificado-autofirmado&quot;&gt;&lt;a href=&quot;#tarea-1-certificado-autofirmado&quot; aria-label=&quot;tarea 1 certificado autofirmado permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Certificado autofirmado&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;El alumno que hace de Autoridad Certificadora deberá entregar una documentación donde explique los siguientes puntos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Crear su autoridad certificadora (generar el certificado digital de la CA). Mostrar el fichero de configuración de la AC.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lo primero que deberemos hacer es crear un espacio de directorios para poder trabajar:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; -m 0755 /CA
+&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; -m 0755 /CA/privado
+&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; -m 0755 /CA/certificados
+&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; -m 0755 /CA/nuevoscerts
+&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; -m 0755 /CA/crl&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Copiaremos nuestro default de openssl:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; /etc/ssl/openssl.cnf /CA
+&lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; 0600 /CA/openssl.cnf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Generaremos estos archivos para la base de datos de openssl:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /CA/index.txt
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;01&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; /CA/serial&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Crearemos nuestro certificado autofimado:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueno:/CA&lt;span class=&quot;token comment&quot;&gt;# openssl req -config openssl.cnf -new -x509 -extensions v3_ca -keyout privado/ca.key -out ./certificados/camadu.crt&lt;/span&gt;
+Generating a RSA private key
+.+++++
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;
+writing new private key to &lt;span class=&quot;token string&quot;&gt;&apos;privado/ca.key&apos;&lt;/span&gt;
+Enter PEM pass phrase:
+Verifying - Enter PEM pass phrase:
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter &lt;span class=&quot;token string&quot;&gt;&apos;.&apos;&lt;/span&gt;, the field will be left blank.
+-----
+Country Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; letter code&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;AU&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:ES
+State or Province Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;full name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Some-State&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:Sevilla
+Locality Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;eg, city&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:Dos Hermanas
+Organization Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;eg, company&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Internet Widgits Pty Ltd&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:Potato Company
+Organizational Unit Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;eg, section&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:Potato Company
+Common Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e.g. server FQDN or YOUR name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:CA                           
+Email Address &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:frandh1997@gmail.com
+
+root@madueno:/CA&lt;span class=&quot;token comment&quot;&gt;# tree&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+├── certificados
+│   └── camadu.crt
+├── crl
+├── index.txt
+├── nuevoscerts
+├── openssl.cnf
+├── privado
+│   └── ca.key
+└── serial&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;El certificado será de lectura para todo el mundo y en la clave privada restringiremos su uso:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; 0400 /CA/privado/ca.key&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modificaremos el archivo de configuracion de openssl para crear unos directorios personalizados:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;dir&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; /CA &lt;span class=&quot;token comment&quot;&gt;# Where everything is kept&lt;/span&gt;
+certs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$dir&lt;/span&gt;/certificados &lt;span class=&quot;token comment&quot;&gt;# Where the issued certs are kept&lt;/span&gt;
+crl_dir &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$dir&lt;/span&gt;/crl &lt;span class=&quot;token comment&quot;&gt;# Where the issued crl are kept&lt;/span&gt;
+database &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$dir&lt;/span&gt;/index.txt &lt;span class=&quot;token comment&quot;&gt;# database index file.&lt;/span&gt;
+new_certs_dir &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$dir&lt;/span&gt;/nuevoscerts &lt;span class=&quot;token comment&quot;&gt;# default place for new certs.&lt;/span&gt;
+
+certificate &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$dir&lt;/span&gt;/certificados/ca.crt &lt;span class=&quot;token comment&quot;&gt;# The CA certificate&lt;/span&gt;
+serial &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$dir&lt;/span&gt;/serial &lt;span class=&quot;token comment&quot;&gt;# The current serial number&lt;/span&gt;
+crl &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$dir&lt;/span&gt;/crl.pem &lt;span class=&quot;token comment&quot;&gt;# The current CRL&lt;/span&gt;
+private_key &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$dir&lt;/span&gt;/privado/ca.key&lt;span class=&quot;token comment&quot;&gt;# The private key&lt;/span&gt;
+RANDFILE &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$dir&lt;/span&gt;/privado/.rand
+x509_extensions &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; usr_cert &lt;span class=&quot;token comment&quot;&gt;# The extensions to add to the cert&lt;/span&gt;
+
+name_opt &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ca_default &lt;span class=&quot;token comment&quot;&gt;# Subject Name options&lt;/span&gt;
+cert_opt &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ca_default &lt;span class=&quot;token comment&quot;&gt;# Certificate field options&lt;/span&gt;
+
+default_days &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;365&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# how long to certify for&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;default_crl_days&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# how long before next CRL&lt;/span&gt;
+default_md &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; default &lt;span class=&quot;token comment&quot;&gt;# use public key default MD&lt;/span&gt;
+preserve &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; no &lt;span class=&quot;token comment&quot;&gt;# keep passed DN ordering&lt;/span&gt;
+
+policy &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; policy_match&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; 2. Debe recibir el fichero CSR (Solicitud de Firmar un Certificado) de su compañero, debe firmarlo y enviar el certificado generado a su compañero.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueno:/CA&lt;span class=&quot;token comment&quot;&gt;# openssl ca -cert /CA/certificados/camadu.crt -keyfile /CA/privado/ca.key -in ../home/fran/Descargas/&lt;/span&gt;
+Using configuration from /CA/openssl.cnf
+Enter pass phrase &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; /CA/privado/ca.key:
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;0x1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        Validity
+            Not Before: Nov &lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;:52:27 &lt;span class=&quot;token number&quot;&gt;2019&lt;/span&gt; GMT
+            Not After &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Nov &lt;span class=&quot;token number&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;:52:27 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; GMT
+        Subject:
+            countryName               &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ES
+            stateOrProvinceName       &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Sevilla
+            organizationName          &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Potato Company
+            organizationalUnitName    &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Potato Company
+            commonName                &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; www.manuelloraroman.iesgn.org
+            emailAddress              &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; manuelloraroman&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arroba&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;gmail.
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                5F:75:3D:B8:45:E4:C9:97:1F:3B:
+            X509v3 Authority Key Identifier: 
+                keyid:FE:E7:AA:87:09:A2:2C:AE:
+
+Certificate is to be certified &lt;span class=&quot;token keyword&quot;&gt;until&lt;/span&gt; Nov &lt;span class=&quot;token number&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;:52:27 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; GMT &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;365&lt;/span&gt; days&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Sign the certificate? &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;y/n&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:y
+
+&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; out of &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; certificate requests certified, commit? &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;y/n&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;y
+Write out database with &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; new entries
+Data Base Updated&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; 3. ¿Qué otra información debes aportar a tu compañero para que éste configure de forma adecuada su servidor web con el certificado generado?&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Debemos aportar nuestro certificado de la identidad certificadora y el csr que certificamos de nuestro compañero.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;server.crt
+camadu.crt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;El alumno que hace de administrador del servidor web, debe entregar una documentación que describa los siguientes puntos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Crea una clave privada RSA de 4096 bits para identificar el servidor.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueno:~&lt;span class=&quot;token comment&quot;&gt;# ssh-keygen -b 4096&lt;/span&gt;
+Generating public/private rsa key pair.
+Enter &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;which&lt;/span&gt; to save the key &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;/root/.ssh/id_rsa&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: /var/www/madueno.iesgn.org/claveapache_rsa
+Enter passphrase &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;empty &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; no passphrase&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: 
+Enter same passphrase again: 
+Your identification has been saved &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; /var/www/madueno.iesgn.org/claveapache_rsa.
+Your public key has been saved &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; /var/www/madueno.iesgn.org/claveapache_rsa.pub.
+The key fingerprint is:
+SHA256:VyOk3qd8tgQSWMad4GOg4HBD5xFSpRBSTto7afvf64M root@madueno.iesgn.org
+The keys randomart image is:
++---&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;RSA &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;----+
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;oo@o&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;oo.+o&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;     &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; X B + *.oo      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; + + &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; * &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; o    &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;   o   o + o &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;   &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;     S + &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;    &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; o     + +     &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;  &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;    &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;  o +    &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;  E&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;  + &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;   &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;    &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;+o  &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;    &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
++----&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SHA256&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;-----+
+root@madueno:~&lt;span class=&quot;token comment&quot;&gt;# exit&lt;/span&gt;
+cerrar sesión
+fran@madueno:/var/www/madueno.iesgn.org$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
+claveapache_rsa  claveapache_rsa.pub  html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Utiliza la clave anterior para generar un CSR, considerando que deseas acceder al servidor con el FQDN (tunombre.iesgn.org).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Añadimos los nombres alternativos en openssl.conf:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; req &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+default_bits            &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2048&lt;/span&gt;
+default_keyfile         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; privkey.pem
+distinguished_name      &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; req_distinguished_name
+attributes              &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; req_attributes
+x509_extensions &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; v3_ca &lt;span class=&quot;token comment&quot;&gt;# The extensions to add to the self signed cert&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;#Linea añadidda para nombres alternativos&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;alt_names&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+DNS.1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; madueno
+DNS.2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; patatacompany&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Generamos nuestro certificado y la key:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueno:/var/www/madueno.iesgn.org&lt;span class=&quot;token comment&quot;&gt;# openssl req -new -newkey rsa:4096 -nodes -keyout madueno.iesgn.org.key -out madueno.iesgn.org.csr&lt;/span&gt;
+Generating a RSA private key
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.++++
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.++++
+writing new private key to &lt;span class=&quot;token string&quot;&gt;&apos;madueno.iesgn.org.key&apos;&lt;/span&gt;
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter &lt;span class=&quot;token string&quot;&gt;&apos;.&apos;&lt;/span&gt;, the field will be left blank.
+-----
+Country Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; letter code&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;AU&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:ES
+State or Province Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;full name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Some-State&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:Sevilla
+Locality Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;eg, city&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:Dos Hermanas
+Organization Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;eg, company&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Internet Widgits Pty Ltd&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:Patata Company
+Organizational Unit Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;eg, section&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:Pat&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;co
+Common Name &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e.g. server FQDN or YOUR name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:madueno.iesgn.org
+Email Address &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:frandh1997@gmail.com
+
+Please enter the following &lt;span class=&quot;token string&quot;&gt;&apos;extra&apos;&lt;/span&gt; attributes
+to be sent with your certificate request
+A challenge password &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:fran
+An optional company name &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:Patata Company SL&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; 3. Envía la solicitud de firma a la entidad certificadora (su compañero).&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Le enviamos nuestra entidad a nuestro compañero y el nos la firmara convirtiéndola en crt.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;csrmadulora.crt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; 4. Recibe como respuesta un certificado X.509 para el servidor firmado y el certificado de la autoridad certificadora.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;certificado X.509&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;csrmadulora.crt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Y el certificado de la autoridad.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ca.crt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; 5. Configura tu servidor web con https en el puerto 443, haciendo que las peticiones http se redireccionen a https (forzar https).&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Una vez creado nuestro servidor deberemos de crear el archivo de configuración para el certificado ssl.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/etc/apache2/sites-available&lt;span class=&quot;token comment&quot;&gt;# cat 000-default-ssl.conf &lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;IfModule mod_ssl.c&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;VirtualHost _default_:44&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;3&lt;/span&gt;&gt;&lt;/span&gt;
+        ServerName madueno.iesgn.org
+        ServerAdmin webmaster@localhost
+
+        DocumentRoot &lt;span class=&quot;token string&quot;&gt;&quot;/var/www/html&quot;&lt;/span&gt; 
+        DirectoryIndex index.html        
+
+        ErrorLog &lt;span class=&quot;token variable&quot;&gt;${APACHE_LOG_DIR}&lt;/span&gt;/error.log
+        CustomLog &lt;span class=&quot;token variable&quot;&gt;${APACHE_LOG_DIR}&lt;/span&gt;/access.log combined
+
+        SSLEngine on
+
+        SSLCertificateFile &lt;span class=&quot;token string&quot;&gt;&quot;/etc/apache2/ssl/csrmadulora.crt&quot;&lt;/span&gt; 
+        SSLCertificateKeyFile &lt;span class=&quot;token string&quot;&gt;&quot;/etc/apache2/ssl/server.key&quot;&lt;/span&gt; 
+
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/VirtualHost&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/IfModule&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modificaremos nuestro archivo por defecto y añadiremos la linea Redirect permanent / &lt;a href=&quot;https://madueno.iesgn.org&quot;&gt;https://madueno.iesgn.org&lt;/a&gt; para forzar que la pagina se abra desde el puerto 443(https).&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/etc/apache2/sites-available&lt;span class=&quot;token comment&quot;&gt;# cat 000-default.conf &lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;VirtualHost *:8&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;0&lt;/span&gt;&gt;&lt;/span&gt;
+    ServerName madueno.iesgn.org
+
+    ServerAdmin webmaster@localhost
+    DocumentRoot &lt;span class=&quot;token string&quot;&gt;&quot;/var/www/html&quot;&lt;/span&gt; 
+    DirectoryIndex index.html
+
+    ErrorLog /var/log/apache2/error.log
+    CustomLog /var/log/apache2/access.log combined
+
+    Redirect permanent / https://madueno.iesgn.org
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/VirtualHost&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Para añadir algunos subnombres de manera manual me voy al archivo hosts de /etc y lo modifique de la siguiente manera:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/etc&lt;span class=&quot;token comment&quot;&gt;# cat hosts&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;127.0&lt;/span&gt;.0.1    madueno.iesgn.org
+&lt;span class=&quot;token number&quot;&gt;127.0&lt;/span&gt;.1.1    patatacompany.org
+&lt;span class=&quot;token number&quot;&gt;127.0&lt;/span&gt;.2.1    www.maduenopatata.com
+
+&lt;span class=&quot;token comment&quot;&gt;# The following lines are desirable for IPv6 capable hosts&lt;/span&gt;
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;De esta manera podremos acceder con diferentes subnombres que nos redireccionaran a madueno.iesgn,org&lt;/p&gt;
+&lt;p&gt;Añadiremos nuestro archivo ca.crt que genero nuestro compañero a nuestro navegador para ello accederemos a lo siguiente campos.
+Preferencias -&gt; Seguridad&amp;#x26;Privacidad -&gt; Ver Certificados -&gt; Importar -&gt; Importamos nuestro archivo &quot;ca.crt&quot;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; 6. Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Compilación de un kérnel linux a medida]]></title><description><![CDATA[Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</guid><category><![CDATA[Kernel]]></category><category><![CDATA[Linux]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es más sencilla de lo que parece gracias a las herramientas disponibles.&lt;/p&gt;
 &lt;p&gt;En esta tarea debes tratar de compilar un kérnel completamente funcional que reconozca todo el hardware básico de tu equipo y que sea a la vez lo más pequeño posible, es decir que incluya un vmlinuz lo más pequeño posible y que incorpore sólo los módulos imprescindibles. Para ello utiliza el método explicado en clase y entrega finalmente el fichero deb con el kérnel compilado por ti.&lt;/p&gt;
 &lt;p&gt;El hardware básico incluye como mínimo el teclado, la interfaz de red y la consola gráfica (texto).&lt;/p&gt;
 &lt;h3 id=&quot;pasos-a-seguir&quot;&gt;&lt;a href=&quot;#pasos-a-seguir&quot; aria-label=&quot;pasos a seguir permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pasos a seguir&lt;/h3&gt;
@@ -222,6 +702,12 @@ Crearemos una carpeta a donde trabajaremos con la compilación.&lt;/p&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;Configuración de NAT en Dulcinea (Es necesario deshabilitar la seguridad en todos los puertos de dulcinea) [https://youtu.be/jqfILWzHrS0].&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Deshabilitar seguridad:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Configuración de NAT&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;Definición de contraseña en todas las instancias (para poder modificarla desde consola en caso necesario).&lt;/li&gt;
 &lt;li&gt;Modificación de las instancias sancho y quijote para que usen direccionamiento estático y dulcinea como puerta de enlace.&lt;/li&gt;
 &lt;li&gt;Modificación de la subred de la red interna, deshabilitando el servidor DHCP.&lt;/li&gt;

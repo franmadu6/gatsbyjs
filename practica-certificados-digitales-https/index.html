@@ -40,29 +40,279 @@
         }
       }
     })
-  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-1692be4b1719d9b0583a.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-256ea88b7913782ee157.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/practica-certificados-digitales-https/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/empresa">Empresa<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/seguridad">Seguridad<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/servicios">Servicios<strong> (<!-- -->6<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sistemas">Sistemas<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Práctica: Certificados digitales. HTTPS</h1><p class="post-module--post-meta--1ci95">November 18, 2020<!-- --> — <!-- -->2<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/gpg"><span>Gpg</span></a><a href="/gatsbyjs/tags/open-ssl"><span>OpenSSL</span></a></div></div><div><h4 id="certificado-digital-de-persona-física"><a href="#certificado-digital-de-persona-f%C3%ADsica" aria-label="certificado digital de persona física permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Certificado digital de persona física</h4>
+  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-1692be4b1719d9b0583a.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-256ea88b7913782ee157.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/practica-certificados-digitales-https/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/empresa">Empresa<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->1<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/seguridad">Seguridad<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/servicios">Servicios<strong> (<!-- -->6<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sistemas">Sistemas<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Práctica: Certificados digitales. HTTPS</h1><p class="post-module--post-meta--1ci95">November 18, 2020<!-- --> — <!-- -->10<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/gpg"><span>Gpg</span></a><a href="/gatsbyjs/tags/open-ssl"><span>OpenSSL</span></a></div></div><div><h4 id="certificado-digital-de-persona-física"><a href="#certificado-digital-de-persona-f%C3%ADsica" aria-label="certificado digital de persona física permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Certificado digital de persona física</h4>
 <hr>  
 <h2 id="tarea-1-instalación-del-certificado"><a href="#tarea-1-instalaci%C3%B3n-del-certificado" aria-label="tarea 1 instalación del certificado permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 1: Instalación del certificado</h2>
 <ol>
 <li>Una vez que hayas obtenido tu certificado, explica brevemente como se instala en tu navegador favorito.</li>
-<li>Muestra una captura de pantalla donde se vea las preferencias del navegador donde se ve instalado tu certificado.</li>
+</ol>
+<p>Preferencias -> Privacidad&#x26;Seguridad -> Ver Certificados... -> Sus Certificados -> Importar</p>
+<ol start="2">
+<li>Muestra una captura de pantalla donde se vea las preferencias del navegador donde se ve instalado tu certificado.
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/64ed7170ac1c11de479cab998284e041/4a38b/certificados1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.75324675324676%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABvElEQVQ4y6VT2U7DMBDMh0APjh6J06R1Yjtpc7S0RcAbEhKvSEj8/xcsnmld9RkeRrP2rmfX3nWU54UA2Rn5spSlx2plZLc7yuHwQgaOxxcpS+f9BWMCcB7xQJSmuVjjxNlKKg+9KiXLNIO0tlIUloyDYPjSdEn/YrEiWJDfn89TL5gbOb5/yevHt7x9/kjVv3lRI8bUXsz5iioKxfHiYuNwXTcSblfXLX2Pj3OJlFpK6ToxVS+23opxLcWsXZMDqqphNbOZYiUAklzb02nsK1S5tE0vXbuVtj3xet15eydd93TmHRmi8J3QinMb2qgQa6UyiaBuTMUNrY0kCbIqAnYcpxdgD4ewH+KCDT8rxBWwYW3NBpSl9e+iCa3R7ZKJ4EMDYQdgDT86j0STiX/D6TSR4fBOBoMx+a8Yjx9OTZnNEhmN7v8FCIIpGCoMuK709nZE3NwMyfDBDjGBIXZVoeJbAEmScTQwuGDn1uwkZg7vhHdE8zDkyk8HYtBUCE0mMRGhUxjU8APwfU5fqpDNppem2XJsIIzG9f2eA494xEI4/CIUxwoDkO16HbKiAjwNEGz4wbgVkuz3z7R/AUCOkcdgeOwdAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/64ed7170ac1c11de479cab998284e041/36727/certificados1.png"
+        srcset="/gatsbyjs/static/64ed7170ac1c11de479cab998284e041/acf4b/certificados1.png 173w,
+/gatsbyjs/static/64ed7170ac1c11de479cab998284e041/fc834/certificados1.png 345w,
+/gatsbyjs/static/64ed7170ac1c11de479cab998284e041/36727/certificados1.png 690w,
+/gatsbyjs/static/64ed7170ac1c11de479cab998284e041/4a38b/certificados1.png 770w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
 <li>¿Cómo puedes hacer una copia de tu certificado?, ¿Como vas a realizar la copia de seguridad de tu certificado?. Razona la respuesta.</li>
+</ol>
+<p>Tomando en cuenta la imagen anterior, como podemos comprobar si seleccionamos la firma podremos copiarla y añadirle una contraseña por seguridad para a la hora de añadirla en otro navegador o maquina.</p>
+<ol start="4">
 <li>Investiga como exportar la clave pública de tu certificado.</li>
+<li>Paso 1. Inicia el proceso de exportación. Accede a Herramientas>Opciones de Internet. Una vez allí selecciona la pestaña "Contenido". En el apartado de certificados haz clic en el botón de "Certificados" y, una vez en la nueva ventana, pulsa la pestaña "Personal". Aparecerá una relación de los certificados instalados en el navegador. Si aparece más de uno, selecciona el que te interesa y haz clic en "Exportar". </li>
+<li>Paso 2. Elige si deseas exportar la clave privada o no. El asistente te preguntará si deseas exportar tu clave privada. Escoge con cuidado dependiendo del uso que vayas a dar al certificado exportado. Posteriormente, deja las opciones tal y como aparecen por defecto y pulsa "Siguiente". </li>
+<li>Paso 3. Protege tu certificado. El sistema te pedirá una contraseña. Es necesario introducirla y hacer clic en "Siguiente". Conviene memorizar adecuadamente esta contraseña ya que, en caso de pérdida, no se puede recuperar. Una vez establecida la contraseña, indica la ruta y el nombre del archivo que contendrá el certificado. </li>
+<li>Paso 4. Comprueba las características del certificado. La ventana que se abre a continuación especifica dichas características. Si todo es correcto, pulsa "Finalizar" y, posteriormente, "Aceptar". Aparecerá un cuadro para informarte de que el certificado ha sido exportado con éxito. </li>
 </ol>
 <h2 id="tarea-2-validación-del-certificado"><a href="#tarea-2-validaci%C3%B3n-del-certificado" aria-label="tarea 2 validación del certificado permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 2: Validación del certificado</h2>
 <ol>
 <li>Instala en tu ordenador el software autofirma y desde la página de VALIDe valida tu certificado. Muestra capturas de pantalla donde se comprueba la validación.</li>
 </ol>
+<p>Enlace: <a href="https://ws024.juntadeandalucia.es/clienteafirma/autofirma/AutoFirma_v1_6_0_JAv01.deb">https://ws024.juntadeandalucia.es/clienteafirma/autofirma/AutoFirma_v1_6_0_JAv01.deb</a></p>
+<p><img src="images/seguridad/certificados2.png" alt="PracticaImg" title="Imagen de la practica"></p>
 <h2 id="tarea-3-firma-electrónica"><a href="#tarea-3-firma-electr%C3%B3nica" aria-label="tarea 3 firma electrónica permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 3: Firma electrónica</h2>
 <ol>
 <li>Utilizando la página VALIDe y el programa autofirma, firma un documento con tu certificado y envíalo por correo a un compañero.</li>
+</ol>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/5c7ff/certificados4.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50.43554006968641%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAABzklEQVQoz2WSSW8UMRSE57dy4Ydw4q9w5YQUgUBwAAKKIsiIJRpmCLP1Zrvd3rsrZU86bN0qPc+o/b16ZS+ACP3jDYxoIbRG9fUKdrtBfqZxxDRNiCkhUTHGUotigHYT/PE9mpcPYa8eAMMnLDD2kD+fQTU1trsd1h/fYlhf48/HeQ8fQqnOeVjrWC0Gl+DqJeSHx0jrR4C5xoImYAPhlh8Ycw+RukXdtTjWNTohULFmDcOAxE0n1xFxAojgnKxcL6ZpRMeNh6pmZ1vGHMeEZrXB7nKJ4/oG1f6A468tZN1gEApO9TBSwfQaRrFKAduLsm+RM5L8s+0EDIEhxOLQCIlqcwNxqBhHC0X3msqT9J5i3qpig05CslqlS94FqDlGR0AG53wmvt4nKDXAuNwkwLz7DHv5DebiC/Tzc5jlCo6OnHf3GY+c7uSQ9ns9IMTsjjhmYXyN3uyZmYVmI/H0FcQZD+zFOfSTM1g2CPw28JBywzADx5LZeLomJOUc8nPoL7BpXkN2hu55pVJAFyzc3QGELP8b9hcwg2bN4MTji4Hifcv3L9JJzKMxEm/sqebfd/oPOIPm9U7u8X2/gmDoddNQLZq2K8rrnHeG/Au8BQ03AXl7bYBsAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/36727/certificados4.png"
+        srcset="/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/acf4b/certificados4.png 173w,
+/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/fc834/certificados4.png 345w,
+/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/36727/certificados4.png 690w,
+/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/17fa4/certificados4.png 1035w,
+/gatsbyjs/static/73a7e1a9b21c1c15109bcc57b4245ef2/5c7ff/certificados4.png 1148w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 646px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/06405283a483a0afff36f02dd64c83c8/cb0d3/certificados5.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 54.79876160990712%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABJ0AAASdAHeZh94AAACL0lEQVQoz22TWXPaMBDH/f2/SyfTPHWmoUnaCYU05YoJGAz4vm18W7aBf1dKafvQh9/sSlrtag9Jl8sFfd8LfN+H73lwHRceScuyBK7rwLItOg/QNA3quhbySlmWqKsKXd1A4o5M04Bh6HDpkqlrsGnN6gqMvV/+l4ouXmGMiYewlsG3HHRRColv8shhlCGMcyJDfCyQZDXSvCHjFu1/6LoOQRDgcDgINF2HQ1lJeUGXkyMMp4JG2H4NJ6igHDKoRo66uTrof9OJNU91v99jNBrh6WlIZXKQpfRCfhhFEaWpQ9up0PYq1I2CNImQHSPEUYgoDJFnKY5JgiSOkZB9SK/LswwFcTqdRM15EOEwJqOK9SjqFnV7RtMB7QnoLwTeZcc5/93jenulP4vG8RoLhwlFVs0U47mFoWzi03cFD1Mdgx873D2rpGskt/i2sHD/84AvL5TqOsTjjGxeDtjYOfXBQ0mNIocMMTmcrl3cDla4+Srj5m6O28clPnye4OP9gnTaG8yIOQVTyYmOmcEwNxkmGoMW9fBcFwWNj8SLzFM24xprN4dixJBVB6u9jzdipUckPchbW0hFD7HWAtjHDl5OqWZnxGVPKbtijKRr+8s8Q1lkqMoCDc0gj7ZQTYwXa8h7mwbcxIaa5XsuDXGJguyLPKXGHIWu09gE9DEk3iHbtmm4Ldo0sFWpy8RW3WE8lfEwfMZo8orF4hXT6RTycondbvcHwzBg0m9SFEU4/QVj4TKBxlcOKAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/06405283a483a0afff36f02dd64c83c8/cb0d3/certificados5.png"
+        srcset="/gatsbyjs/static/06405283a483a0afff36f02dd64c83c8/acf4b/certificados5.png 173w,
+/gatsbyjs/static/06405283a483a0afff36f02dd64c83c8/fc834/certificados5.png 345w,
+/gatsbyjs/static/06405283a483a0afff36f02dd64c83c8/cb0d3/certificados5.png 646w"
+        sizes="(max-width: 646px) 100vw, 646px"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ol start="2">
 <li>Tu debes recibir otro documento firmado por un compañero y utilizando las herramientas anteriores debes visualizar la firma (Visualizar Firma) y (Verificar Firma). ¿Puedes verificar la firma aunque no tengas la clave pública de tu compañero?, ¿Es necesario estar conectado a internet para hacer la validación de la firma?. Razona tus respuestas.</li>
+</ol>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 684px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/baa5351d340dea2ac9f253fe1a452f5d/238ba/certificados6.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 40.643274853801174%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABJ0AAASdAHeZh94AAABGElEQVQoz4WRfU+DMBDG+ZJ+VT+D8S8TdHFmbso6ZONtFSj0Wvp4rWDUOKT55Z5e06d3XGTtCHIaxi83BsiwtjbEGU3EOYORz+0CEfg7JitUhzX29094WT0i2e5wFCneEoHXzTPrAzIhmBROExwZjn8TOXZV8Q7qdovm5gFtvAGVElScoYsaOq+DNpzze3/mNV0gggM0r5O5g0KPntvqegU1DKCR27Yz5lu8TGhZtgLX6yukeYxTVkKIPbIsA/F/02ysNT85TOhluGUXLqqhgVIKeZ6jqqqQs1yR8UPxA/GD8nq6GB5bMvTTrs+Sq+NBJAmKokBZlmxeom3bSVc/zHz8zZchkUbXqVBl0zSQ7xJSfuLzs/7P8AN992pe9QGyBgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/baa5351d340dea2ac9f253fe1a452f5d/238ba/certificados6.png"
+        srcset="/gatsbyjs/static/baa5351d340dea2ac9f253fe1a452f5d/acf4b/certificados6.png 173w,
+/gatsbyjs/static/baa5351d340dea2ac9f253fe1a452f5d/fc834/certificados6.png 345w,
+/gatsbyjs/static/baa5351d340dea2ac9f253fe1a452f5d/238ba/certificados6.png 684w"
+        sizes="(max-width: 684px) 100vw, 684px"
+        loading="lazy"
+      />
+  </a>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/50a1c38d616a7e573052286a7b4acaff/4d248/certificados7.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 70.15834348355664%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABJ0AAASdAHeZh94AAACq0lEQVQ4y32UW2vUUBDH9yuJ38gHn8Q++NRSrRR8UsQLgiCooFIrVEsVpWu9Fe1la21rt9i9dLubTbLJ5p7N/ST5OznbVlewB35kMkn+Z2bOTEptYRZdcQ2KtAJZXIEiruKw+RUb64uYm3uOVy9foPZrGZa+CU3Z4Fj6FmxjGzZdzf4m3W9DV1YQ6LdQanW/QHdjhB6DP2AwTRdBECOKErCEEQncgY+BF8FxApiWB3Ijy4E0A6I4A6P7IIhgyrdRco3vKFa1u4OmWqc3Ac8P4HkhHNfnYmEYw7IHyPMc/1spI0GJBD1zC9+aFVyav4ixpxewtluBpjpotSW0DiV0BIVKoqLe6GJA4mmaIqGogZiIiLCQI188FEycPdz//ADnH57D2bEzWFieR0+Q0ajXcNA8wEGjgVaziXarhdp+DXvVKoSOgk8fB3j31sHrBRv7+zHfwBCLlM0fsCilyScTeFx+xMMPwxBRGFEdI24PObYD8jP0eoAkAaIIuC5VKotgFBHq6irMVh2R7SFLci7ieT4VOYDv+zy9jGqXZdkRQxtgf5FRAMHwUAx1DWptB1K3DZG2lAmtr8GxbTpxg4sylnDhURgnjod2GPpHgv11aKbHhWRJhtBuQ1UCsnNIYgZVTdEVUvK5MAwNfbVPPhWC0EWn06ZNTR71qKBmc0HTMOkUi75KTyIo7CHsFFIqkQfrWLCvOaju/kRP7vF0Tv94lKI3i41ty4TVu4OSpVd41xchM95fxco5+chh/KHoRd7MaUJBSIRMtXaHgppSofGh0QkZkdIDGsGA0bQUKWcnk/DvlARBSt2Q8HLp+gCW5VANaZZtdRaGskQsHlHmV1tbwuzMPYyPT2B6+iqmrlzG1NQkbly/hplnd+lnUIaplmH139O7H6D33iA0buI3esIQnvkd5wQAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/50a1c38d616a7e573052286a7b4acaff/36727/certificados7.png"
+        srcset="/gatsbyjs/static/50a1c38d616a7e573052286a7b4acaff/acf4b/certificados7.png 173w,
+/gatsbyjs/static/50a1c38d616a7e573052286a7b4acaff/fc834/certificados7.png 345w,
+/gatsbyjs/static/50a1c38d616a7e573052286a7b4acaff/36727/certificados7.png 690w,
+/gatsbyjs/static/50a1c38d616a7e573052286a7b4acaff/4d248/certificados7.png 821w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/50151/certificados8.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 53.12035661218425%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABbklEQVQoz42S607CQBCFeScegNfhWqIvwIvpH42iiSjCD4gxBihCy5bWXii0XTjOLKFC2iZucrLbtPvNOTMtXbc1fA0HMKZT8Nrv9xAixmIRwzQjxHGsFEXHc5Ikaj8cDupbXp1OB+VyGZVKBaUrTYM+HsGczdRLviCED8PwCOjC8zwlx3GUgiBQu5SyCNjC53ufgEeHXNk0JSaThKAxXZIoWgzNALVGAx9vrxBz/SxygPncxXLJjvwMiIuycoHtZhPj3gtW+iytuloF1MOQooXYbjcqchiGcF1X9e8EzQW26nWMCHjucG1F5DIihzuC77DZRHQ5Ifg27dvp2wywUaui//iQAnkohvFDDj0C+tRPh+AuLMuB7/uwbVs5FUKo5yywWsXw+QnW9zyNYq8lQSVFluROUmRJkaUaEMdkcWFWBtis1TDodsnhH/C/KzcyA3v3dzQU/WKCdErPRSocSvf25uI/PAo4mc0zXQT8BaGqAl6DgIuSAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/36727/certificados8.png"
+        srcset="/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/acf4b/certificados8.png 173w,
+/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/fc834/certificados8.png 345w,
+/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/36727/certificados8.png 690w,
+/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/17fa4/certificados8.png 1035w,
+/gatsbyjs/static/bdf2fccdefa11908c39e382a1de152ae/50151/certificados8.png 1346w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<ol start="3">
 <li>Entre dos compañeros, firmar los dos un documento, verificar la firma para comprobar que está firmado por los dos.</li>
 </ol>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/a987b/certificados9.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABN0lEQVQoz63RzW6CQBQFYB4Jl4L4s2AhVhkg8GjuGjVxUZL6QLSrGhMQGG2CRA3KcbiJTWNpE9ve5GYGMvPlTK5k2xYsi4ExEw+DAWzbhuu68DxPrB59M8bgOI44J86K/Wg0wnA4RL/fh67rtDJm0T+p1WpB0zTqZrOJx/EYb68vCKMISZKAc06dpiniOKYOwxCHwwGTyQSNRgOdTgeVU8HSFWu32wQ+z+d4X0cIggDL5RKr1QqRwLfbLfI8x36/R5ZlqGqxWECWZXS7XaiqCsMwvoJP06kA1+CbDV2ukhyPRxRFgfP5jLIsaV+V7/uU8GdwNkWWJihOJ9TVnaBC4I6nH5fr+u6EOzGAW+Rz1YGKotD060GefovVgb1ej0DTNP8HvCasARWa8u2T/5BQgT+biYT81+AForZxb1Ucge8AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/36727/certificados9.png"
+        srcset="/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/acf4b/certificados9.png 173w,
+/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/fc834/certificados9.png 345w,
+/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/36727/certificados9.png 690w,
+/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/17fa4/certificados9.png 1035w,
+/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/a5044/certificados9.png 1380w,
+/gatsbyjs/static/5d0c9a28dffbfbae8ba652567b20917b/a987b/certificados9.png 1920w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <h2 id="tarea-4-autentificación"><a href="#tarea-4-autentificaci%C3%B3n" aria-label="tarea 4 autentificación permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 4: Autentificación</h2>
 <ol>
 <li>Utilizando tu certificado accede a alguna página de la administración pública )cita médica, becas, puntos del carnet,…). Entrega capturas de pantalla donde se demuestre el acceso a ellas.</li>
 </ol>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/gatsbyjs/static/c080a1016c3964a4e98ff056f3e549de/793d9/certificados3.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 81.41025641025641%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAAC/ElEQVQ4y3WUWU+aQRSGue1Nf4JRcUMBN3AnsrmDokVcqrKT9N60Vo2YJsYgxMvW2opLKWsFZKmAafrT3s458SMx1osn58x8M+/ZGGQarRb92hFotKNQKtVobZajubmZaW9XoKWlFXK5HI2NjWhoaEBTUxPa2trQ2dmJ/v5+DA8PY2BggFGr1ZBtLNvgfTsO36bAaYfP5ULA74PPH8DW5hu4nGvweLzCbsHrdsLt8cDtdos9N1zirEesvV7CC6fTCVn4wI/P714jdfIKsTM3zs8v8T16jWwyieCuE+GTICLhMKLRCxRLZeTvCigUi8jm8vgZjyORTCGeSAoSSGcykN1Eo4hHQ4hfH+FHLIqrWAqXN3HE4yl8u7hC9CqGWCKFRCqN9K9bpDJPST9CfuY2B1mxVEK19gfF33+RyZaQuyvhNldEOltArlBGMpNn7u/vUalUBPd4qNVQrVZRq1WFrfD64aGGYqEAWblcxtezL1hddcDhWBZ2FSsrK8J3YGPjLQKBAPyip2R9Ph88olfr6+t8bm1trX5+e3sb+XweMop0dHQErZj26OgoT21oaEhMTYvBwUHodGO8J33r6uoS029HR0cHW4VCwZM3GAzI5UTJVEZYNN1iscBmWxDYMD9vhclkhNFo5IOE2WzCyMgIB6ZAEhS8r68PCwsLTwWnp6dhtVqF2DyLT05OCiYwMzPDPl0kJBFJkLLu7e3lu3XBUCjEJRmNhseM9OyPjY3xPlnKjnxprdPpmPHxcWg0Gk7iWclWq4UjUdlUwuzsLKampjhDspSt2WxmSJgyo9eiVCr5bF0wEolwqUtLS3UWFxdht9vrUCC6NDExAb1ez0IvClKGUgbUS4IylnpJJVK/aCA9PT0sJPGiIInQ5tzcHPuUiclk4qZL/SOfBKhnZAkKQn8K9R7S7/D4+BgqtYoPEpQFRX2Oii+rVCp0d3ezIFnaowpZsCSeXiwWw/7BId7vHuCDYGcviI/7h9j5L0H+Tv5e8BP7+8Kenp7yS/kHVXquC+snz9QAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="PracticaImg"
+        title="Imagen de la practica"
+        src="/gatsbyjs/static/c080a1016c3964a4e98ff056f3e549de/36727/certificados3.png"
+        srcset="/gatsbyjs/static/c080a1016c3964a4e98ff056f3e549de/acf4b/certificados3.png 173w,
+/gatsbyjs/static/c080a1016c3964a4e98ff056f3e549de/fc834/certificados3.png 345w,
+/gatsbyjs/static/c080a1016c3964a4e98ff056f3e549de/36727/certificados3.png 690w,
+/gatsbyjs/static/c080a1016c3964a4e98ff056f3e549de/793d9/certificados3.png 936w"
+        sizes="(max-width: 690px) 100vw, 690px"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <h4 id="https--ssl"><a href="#https--ssl" aria-label="https  ssl permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HTTPS / SSL</h4>
 <hr>
 <span style="background-color:red">Antes de hacer esta práctica vamos a crear una página web (puedes usar una página estática o instalar una aplicación web) en un servidor web apache2 que se acceda con el nombre tunombre.iesgn.org.</span>
@@ -72,22 +322,252 @@
 <p>El alumno que hace de Autoridad Certificadora deberá entregar una documentación donde explique los siguientes puntos:</p>
 <ol>
 <li>Crear su autoridad certificadora (generar el certificado digital de la CA). Mostrar el fichero de configuración de la AC.</li>
-<li>Debe recibir el fichero CSR (Solicitud de Firmar un Certificado) de su compañero, debe firmarlo y enviar el certificado generado a su compañero.</li>
-<li>¿Qué otra información debes aportar a tu compañero para que éste configure de forma adecuada su servidor web con el certificado generado?</li>
 </ol>
 </li>
+</ul>
+<p>Lo primero que deberemos hacer es crear un espacio de directorios para poder trabajar:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">mkdir</span> -m 0755 /CA
+<span class="token function">mkdir</span> -m 0755 /CA/privado
+<span class="token function">mkdir</span> -m 0755 /CA/certificados
+<span class="token function">mkdir</span> -m 0755 /CA/nuevoscerts
+<span class="token function">mkdir</span> -m 0755 /CA/crl</code></pre></div>
+<p>Copiaremos nuestro default de openssl:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">cp</span> /etc/ssl/openssl.cnf /CA
+<span class="token function">chmod</span> 0600 /CA/openssl.cnf</code></pre></div>
+<p>Generaremos estos archivos para la base de datos de openssl:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">nano</span> /CA/index.txt
+<span class="token builtin class-name">echo</span> <span class="token string">'01'</span> <span class="token operator">></span> /CA/serial</code></pre></div>
+<p>Crearemos nuestro certificado autofimado:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@madueno:/CA<span class="token comment"># openssl req -config openssl.cnf -new -x509 -extensions v3_ca -keyout privado/ca.key -out ./certificados/camadu.crt</span>
+Generating a RSA private key
+.+++++
+<span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span>
+writing new private key to <span class="token string">'privado/ca.key'</span>
+Enter PEM pass phrase:
+Verifying - Enter PEM pass phrase:
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter <span class="token string">'.'</span>, the field will be left blank.
+-----
+Country Name <span class="token punctuation">(</span><span class="token number">2</span> letter code<span class="token punctuation">)</span> <span class="token punctuation">[</span>AU<span class="token punctuation">]</span>:ES
+State or Province Name <span class="token punctuation">(</span>full name<span class="token punctuation">)</span> <span class="token punctuation">[</span>Some-State<span class="token punctuation">]</span>:Sevilla
+Locality Name <span class="token punctuation">(</span>eg, city<span class="token punctuation">)</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>:Dos Hermanas
+Organization Name <span class="token punctuation">(</span>eg, company<span class="token punctuation">)</span> <span class="token punctuation">[</span>Internet Widgits Pty Ltd<span class="token punctuation">]</span>:Potato Company
+Organizational Unit Name <span class="token punctuation">(</span>eg, section<span class="token punctuation">)</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>:Potato Company
+Common Name <span class="token punctuation">(</span>e.g. server FQDN or YOUR name<span class="token punctuation">)</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>:CA                           
+Email Address <span class="token punctuation">[</span><span class="token punctuation">]</span>:frandh1997@gmail.com
+
+root@madueno:/CA<span class="token comment"># tree</span>
+<span class="token builtin class-name">.</span>
+├── certificados
+│   └── camadu.crt
+├── crl
+├── index.txt
+├── nuevoscerts
+├── openssl.cnf
+├── privado
+│   └── ca.key
+└── serial</code></pre></div>
+<p>El certificado será de lectura para todo el mundo y en la clave privada restringiremos su uso:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">chmod</span> 0400 /CA/privado/ca.key</code></pre></div>
+<p>Modificaremos el archivo de configuracion de openssl para crear unos directorios personalizados:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">dir</span> <span class="token operator">=</span> /CA <span class="token comment"># Where everything is kept</span>
+certs <span class="token operator">=</span> <span class="token variable">$dir</span>/certificados <span class="token comment"># Where the issued certs are kept</span>
+crl_dir <span class="token operator">=</span> <span class="token variable">$dir</span>/crl <span class="token comment"># Where the issued crl are kept</span>
+database <span class="token operator">=</span> <span class="token variable">$dir</span>/index.txt <span class="token comment"># database index file.</span>
+new_certs_dir <span class="token operator">=</span> <span class="token variable">$dir</span>/nuevoscerts <span class="token comment"># default place for new certs.</span>
+
+certificate <span class="token operator">=</span> <span class="token variable">$dir</span>/certificados/ca.crt <span class="token comment"># The CA certificate</span>
+serial <span class="token operator">=</span> <span class="token variable">$dir</span>/serial <span class="token comment"># The current serial number</span>
+crl <span class="token operator">=</span> <span class="token variable">$dir</span>/crl.pem <span class="token comment"># The current CRL</span>
+private_key <span class="token operator">=</span> <span class="token variable">$dir</span>/privado/ca.key<span class="token comment"># The private key</span>
+RANDFILE <span class="token operator">=</span> <span class="token variable">$dir</span>/privado/.rand
+x509_extensions <span class="token operator">=</span> usr_cert <span class="token comment"># The extensions to add to the cert</span>
+
+name_opt <span class="token operator">=</span> ca_default <span class="token comment"># Subject Name options</span>
+cert_opt <span class="token operator">=</span> ca_default <span class="token comment"># Certificate field options</span>
+
+default_days <span class="token operator">=</span> <span class="token number">365</span> <span class="token comment"># how long to certify for</span>
+<span class="token assign-left variable">default_crl_days</span><span class="token operator">=</span> <span class="token number">30</span> <span class="token comment"># how long before next CRL</span>
+default_md <span class="token operator">=</span> default <span class="token comment"># use public key default MD</span>
+preserve <span class="token operator">=</span> no <span class="token comment"># keep passed DN ordering</span>
+
+policy <span class="token operator">=</span> policy_match</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> 2. Debe recibir el fichero CSR (Solicitud de Firmar un Certificado) de su compañero, debe firmarlo y enviar el certificado generado a su compañero.</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@madueno:/CA<span class="token comment"># openssl ca -cert /CA/certificados/camadu.crt -keyfile /CA/privado/ca.key -in ../home/fran/Descargas/</span>
+Using configuration from /CA/openssl.cnf
+Enter pass phrase <span class="token keyword">for</span> /CA/privado/ca.key:
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: <span class="token number">1</span> <span class="token punctuation">(</span>0x1<span class="token punctuation">)</span>
+        Validity
+            Not Before: Nov <span class="token number">13</span> <span class="token number">17</span>:52:27 <span class="token number">2019</span> GMT
+            Not After <span class="token builtin class-name">:</span> Nov <span class="token number">12</span> <span class="token number">17</span>:52:27 <span class="token number">2020</span> GMT
+        Subject:
+            countryName               <span class="token operator">=</span> ES
+            stateOrProvinceName       <span class="token operator">=</span> Sevilla
+            organizationName          <span class="token operator">=</span> Potato Company
+            organizationalUnitName    <span class="token operator">=</span> Potato Company
+            commonName                <span class="token operator">=</span> www.manuelloraroman.iesgn.org
+            emailAddress              <span class="token operator">=</span> manuelloraroman<span class="token punctuation">(</span>arroba<span class="token punctuation">)</span>gmail.
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                5F:75:3D:B8:45:E4:C9:97:1F:3B:
+            X509v3 Authority Key Identifier: 
+                keyid:FE:E7:AA:87:09:A2:2C:AE:
+
+Certificate is to be certified <span class="token keyword">until</span> Nov <span class="token number">12</span> <span class="token number">17</span>:52:27 <span class="token number">2020</span> GMT <span class="token punctuation">(</span><span class="token number">365</span> days<span class="token punctuation">)</span>
+Sign the certificate? <span class="token punctuation">[</span>y/n<span class="token punctuation">]</span>:y
+
+<span class="token number">1</span> out of <span class="token number">1</span> certificate requests certified, commit? <span class="token punctuation">[</span>y/n<span class="token punctuation">]</span>y
+Write out database with <span class="token number">1</span> new entries
+Data Base Updated</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> 3. ¿Qué otra información debes aportar a tu compañero para que éste configure de forma adecuada su servidor web con el certificado generado?</code></pre></div>
+<p>Debemos aportar nuestro certificado de la identidad certificadora y el csr que certificamos de nuestro compañero.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">server.crt
+camadu.crt</code></pre></div>
+<ul>
 <li>
 <p>El alumno que hace de administrador del servidor web, debe entregar una documentación que describa los siguientes puntos:</p>
 <ol>
-<li>Crea una clave privada RSA de 4096 bits para identificar el servidor.</li>
+<li>
+<p>Crea una clave privada RSA de 4096 bits para identificar el servidor.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@madueno:~<span class="token comment"># ssh-keygen -b 4096</span>
+Generating public/private rsa key pair.
+Enter <span class="token function">file</span> <span class="token keyword">in</span> <span class="token function">which</span> to save the key <span class="token punctuation">(</span>/root/.ssh/id_rsa<span class="token punctuation">)</span>: /var/www/madueno.iesgn.org/claveapache_rsa
+Enter passphrase <span class="token punctuation">(</span>empty <span class="token keyword">for</span> no passphrase<span class="token punctuation">)</span>: 
+Enter same passphrase again: 
+Your identification has been saved <span class="token keyword">in</span> /var/www/madueno.iesgn.org/claveapache_rsa.
+Your public key has been saved <span class="token keyword">in</span> /var/www/madueno.iesgn.org/claveapache_rsa.pub.
+The key fingerprint is:
+SHA256:VyOk3qd8tgQSWMad4GOg4HBD5xFSpRBSTto7afvf64M root@madueno.iesgn.org
+The keys randomart image is:
++---<span class="token punctuation">[</span>RSA <span class="token number">4096</span><span class="token punctuation">]</span>----+
+<span class="token operator">|</span>oo@o<span class="token operator">=</span>oo.+o<span class="token punctuation">..</span>     <span class="token operator">|</span>
+<span class="token operator">|</span> X B + *.oo      <span class="token operator">|</span>
+<span class="token operator">|</span><span class="token builtin class-name">.</span> + + <span class="token builtin class-name">.</span> * <span class="token builtin class-name">.</span> o    <span class="token operator">|</span>
+<span class="token operator">|</span>   o   o + o <span class="token builtin class-name">.</span>   <span class="token operator">|</span>
+<span class="token operator">|</span>  <span class="token operator">=</span>     S + <span class="token builtin class-name">.</span>    <span class="token operator">|</span>
+<span class="token operator">|</span> <span class="token builtin class-name">.</span> o     + +     <span class="token operator">|</span>
+<span class="token operator">|</span>  <span class="token builtin class-name">.</span>    <span class="token builtin class-name">.</span>  o +    <span class="token operator">|</span>
+<span class="token operator">|</span>   <span class="token builtin class-name">.</span>  E<span class="token punctuation">..</span>  + <span class="token builtin class-name">.</span>   <span class="token operator">|</span>
+<span class="token operator">|</span>    <span class="token punctuation">..</span><span class="token punctuation">..</span>+o  <span class="token builtin class-name">.</span>    <span class="token operator">|</span>
++----<span class="token punctuation">[</span>SHA256<span class="token punctuation">]</span>-----+
+root@madueno:~<span class="token comment"># exit</span>
+cerrar sesión
+fran@madueno:/var/www/madueno.iesgn.org$ <span class="token function">ls</span>
+claveapache_rsa  claveapache_rsa.pub  html</code></pre></div>
+</li>
 <li>Utiliza la clave anterior para generar un CSR, considerando que deseas acceder al servidor con el FQDN (tunombre.iesgn.org).</li>
-<li>Envía la solicitud de firma a la entidad certificadora (su compañero).</li>
-<li>Recibe como respuesta un certificado X.509 para el servidor firmado y el certificado de la autoridad certificadora.</li>
-<li>Configura tu servidor web con https en el puerto 443, haciendo que las peticiones http se redireccionen a https (forzar https).</li>
-<li>Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.</li>
 </ol>
 </li>
-</ul></div><hr/><img class="Bio-module--avatar--v_AB0" src="https://avatars0.githubusercontent.com/u/47178991?s=460&amp;u=a2a999b1e9dfa3489ddb4b97fea2cd9a69aad5fc&amp;v=4" alt="Fran Madueño"/><p>Escrito por <strong>Fran Madueño</strong> Estudiante de administración de sistemas operativos<br/>(Dos Hermanas, Sevilla).<!-- --> <div></div></p><div class="post-module--post-meta--1ci95"><div class="SocialLinks-module--social-links--1RDpJ"><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--reddit"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--reddit "><g><circle cx="32" cy="32" r="31" fill="#5f99cf"></circle></g><g><path d="m 52.8165,31.942362 c 0,-2.4803 -2.0264,-4.4965 -4.5169,-4.4965 -1.2155,0 -2.3171,0.4862 -3.128,1.2682 -3.077,-2.0247 -7.2403,-3.3133 -11.8507,-3.4782 l 2.5211,-7.9373 6.8272,1.5997 -0.0102,0.0986 c 0,2.0281 1.6575,3.6771 3.6958,3.6771 2.0366,0 3.6924,-1.649 3.6924,-3.6771 0,-2.0281 -1.6575,-3.6788 -3.6924,-3.6788 -1.564,0 -2.8968,0.9758 -3.4357,2.3443 l -7.3593,-1.7255 c -0.3213,-0.0782 -0.6477,0.1071 -0.748,0.4233 L 32,25.212062 c -4.8246,0.0578 -9.1953,1.3566 -12.41,3.4425 -0.8058,-0.7446 -1.8751,-1.2104 -3.0583,-1.2104 -2.4905,0 -4.5152,2.0179 -4.5152,4.4982 0,1.649 0.9061,3.0787 2.2389,3.8607 -0.0884,0.4794 -0.1462,0.9639 -0.1462,1.4569 0,6.6487 8.1736,12.0581 18.2223,12.0581 10.0487,0 18.224,-5.4094 18.224,-12.0581 0,-0.4658 -0.0493,-0.9248 -0.1275,-1.377 1.4144,-0.7599 2.3885,-2.2304 2.3885,-3.9406 z m -29.2808,3.0872 c 0,-1.4756 1.207,-2.6775 2.6894,-2.6775 1.4824,0 2.6877,1.2019 2.6877,2.6775 0,1.4756 -1.2053,2.6758 -2.6877,2.6758 -1.4824,0 -2.6894,-1.2002 -2.6894,-2.6758 z m 15.4037,7.9373 c -1.3549,1.3481 -3.4816,2.0043 -6.5008,2.0043 l -0.0221,-0.0051 -0.0221,0.0051 c -3.0209,0 -5.1476,-0.6562 -6.5008,-2.0043 -0.2465,-0.2448 -0.2465,-0.6443 0,-0.8891 0.2465,-0.2465 0.6477,-0.2465 0.8942,0 1.105,1.0999 2.9393,1.6337 5.6066,1.6337 l 0.0221,0.0051 0.0221,-0.0051 c 2.6673,0 4.5016,-0.5355 5.6066,-1.6354 0.2465,-0.2465 0.6477,-0.2448 0.8942,0 0.2465,0.2465 0.2465,0.6443 0,0.8908 z m -0.3213,-5.2615 c -1.4824,0 -2.6877,-1.2002 -2.6877,-2.6758 0,-1.4756 1.2053,-2.6775 2.6877,-2.6775 1.4824,0 2.6877,1.2019 2.6877,2.6775 0,1.4756 -1.2053,2.6758 -2.6877,2.6758 z" fill="white"></path></g></svg></div><div class="SocialMediaShareCount"><div class="SocialLinks-module--share-count--3wXKp"></div></div></div><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--twitter"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--twitter "><g><circle cx="32" cy="32" r="31" fill="#00aced"></circle></g><g><path d="M48,22.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6 C41.7,19.8,40,19,38.2,19c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5c-5.5-0.3-10.3-2.9-13.5-6.9c-0.6,1-0.9,2.1-0.9,3.3 c0,2.3,1.2,4.3,2.9,5.5c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1c2.9,1.9,6.4,2.9,10.1,2.9c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C46,24.5,47.1,23.4,48,22.1z" fill="white"></path></g></svg></div></div><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--facebook"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--facebook "><g><circle cx="32" cy="32" r="31" fill="#3b5998"></circle></g><g><path d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z" fill="white"></path></g></svg></div><div class="SocialMediaShareCount"><div class="SocialLinks-module--share-count--3wXKp"></div></div></div><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--linkedin"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--linkedin "><g><circle cx="32" cy="32" r="31" fill="#007fb1"></circle></g><g><path d="M20.4,44h5.4V26.6h-5.4V44z M23.1,18c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1 c1.7,0,3.1-1.4,3.1-3.1C26.2,19.4,24.8,18,23.1,18z M39.5,26.2c-2.6,0-4.4,1.4-5.1,2.8h-0.1v-2.4h-5.2V44h5.4v-8.6 c0-2.3,0.4-4.5,3.2-4.5c2.8,0,2.8,2.6,2.8,4.6V44H46v-9.5C46,29.8,45,26.2,39.5,26.2z" fill="white"></path></g></svg></div><div class="SocialMediaShareCount"><div class="SocialLinks-module--share-count--3wXKp"></div></div></div><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--telegram"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--telegram "><g><circle cx="32" cy="32" r="31" fill="#37aee2"></circle></g><g><path d="m45.90873,15.44335c-0.6901,-0.0281 -1.37668,0.14048 -1.96142,0.41265c-0.84989,0.32661 -8.63939,3.33986 -16.5237,6.39174c-3.9685,1.53296 -7.93349,3.06593 -10.98537,4.24067c-3.05012,1.1765 -5.34694,2.05098 -5.4681,2.09312c-0.80775,0.28096 -1.89996,0.63566 -2.82712,1.72788c-0.23354,0.27218 -0.46884,0.62161 -0.58825,1.10275c-0.11941,0.48114 -0.06673,1.09222 0.16682,1.5716c0.46533,0.96052 1.25376,1.35737 2.18443,1.71383c3.09051,0.99037 6.28638,1.93508 8.93263,2.8236c0.97632,3.44171 1.91401,6.89571 2.84116,10.34268c0.30554,0.69185 0.97105,0.94823 1.65764,0.95525l-0.00351,0.03512c0,0 0.53908,0.05268 1.06412,-0.07375c0.52679,-0.12292 1.18879,-0.42846 1.79109,-0.99212c0.662,-0.62161 2.45836,-2.38812 3.47683,-3.38552l7.6736,5.66477l0.06146,0.03512c0,0 0.84989,0.59703 2.09312,0.68132c0.62161,0.04214 1.4399,-0.07726 2.14229,-0.59176c0.70766,-0.51626 1.1765,-1.34683 1.396,-2.29506c0.65673,-2.86224 5.00979,-23.57745 5.75257,-27.00686l-0.02107,0.08077c0.51977,-1.93157 0.32837,-3.70159 -0.87096,-4.74991c-0.60054,-0.52152 -1.2924,-0.7498 -1.98425,-0.77965l0,0.00176zm-0.2072,3.29069c0.04741,0.0439 0.0439,0.0439 0.00351,0.04741c-0.01229,-0.00351 0.14048,0.2072 -0.15804,1.32576l-0.01229,0.04214l-0.00878,0.03863c-0.75858,3.50668 -5.15554,24.40802 -5.74203,26.96472c-0.08077,0.34417 -0.11414,0.31959 -0.09482,0.29852c-0.1756,-0.02634 -0.50045,-0.16506 -0.52679,-0.1756l-13.13468,-9.70175c4.4988,-4.33199 9.09945,-8.25307 13.744,-12.43229c0.8218,-0.41265 0.68483,-1.68573 -0.29852,-1.70681c-1.04305,0.24584 -1.92279,0.99564 -2.8798,1.47502c-5.49971,3.2626 -11.11882,6.13186 -16.55882,9.49279c-2.792,-0.97105 -5.57873,-1.77704 -8.15298,-2.57601c2.2336,-0.89555 4.00889,-1.55579 5.75608,-2.23009c3.05188,-1.1765 7.01687,-2.7042 10.98537,-4.24067c7.94051,-3.06944 15.92667,-6.16346 16.62028,-6.43037l0.05619,-0.02283l0.05268,-0.02283c0.19316,-0.0878 0.30378,-0.09658 0.35471,-0.10009c0,0 -0.01756,-0.05795 -0.00351,-0.04566l-0.00176,0zm-20.91715,22.0638l2.16687,1.60145c-0.93418,0.91311 -1.81743,1.77353 -2.45485,2.38812l0.28798,-3.98957" fill="white"></path></g></svg></div></div></div></div></div><nav><ul class="post-module--pagination--1F-V0"><li><a rel="prev" href="/gatsbyjs/practica-3-integridad-de-ficheros-unidad-1">← <!-- -->Práctica 3: Integridad de ficheros (Unidad 1)</a></li><li><a rel="next" href="/gatsbyjs/instalacion-y-configuracion-inicial-de-los-servidores">Instalación y configuración inicial de los servidores<!-- -->→</a></li></ul></nav></main><footer><div class="Footer-module--container--3Dvn1"><div><a href="https://twitter.com/franmadueo" target="_blank" rel="noopener noreferrer">Twitter</a><a href="https://github.com/franmadu6" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://github.com/franmadu6/gatsbyjs/rss.xml" target="_blank" rel="noopener noreferrer">RSS</a></div><div class="Footer-module--copyright--2uglW">Copyright © 2020. All rights reserved.</div></div></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+</ul>
+<p>Añadimos los nombres alternativos en openssl.conf:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token punctuation">[</span> req <span class="token punctuation">]</span>
+default_bits            <span class="token operator">=</span> <span class="token number">2048</span>
+default_keyfile         <span class="token operator">=</span> privkey.pem
+distinguished_name      <span class="token operator">=</span> req_distinguished_name
+attributes              <span class="token operator">=</span> req_attributes
+x509_extensions <span class="token operator">=</span> v3_ca <span class="token comment"># The extensions to add to the self signed cert</span>
+
+<span class="token comment">#Linea añadidda para nombres alternativos</span>
+<span class="token punctuation">[</span>alt_names<span class="token punctuation">]</span>
+DNS.1 <span class="token operator">=</span> madueno
+DNS.2 <span class="token operator">=</span> patatacompany</code></pre></div>
+<p>Generamos nuestro certificado y la key:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@madueno:/var/www/madueno.iesgn.org<span class="token comment"># openssl req -new -newkey rsa:4096 -nodes -keyout madueno.iesgn.org.key -out madueno.iesgn.org.csr</span>
+Generating a RSA private key
+<span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span>.++++
+<span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span>.++++
+writing new private key to <span class="token string">'madueno.iesgn.org.key'</span>
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter <span class="token string">'.'</span>, the field will be left blank.
+-----
+Country Name <span class="token punctuation">(</span><span class="token number">2</span> letter code<span class="token punctuation">)</span> <span class="token punctuation">[</span>AU<span class="token punctuation">]</span>:ES
+State or Province Name <span class="token punctuation">(</span>full name<span class="token punctuation">)</span> <span class="token punctuation">[</span>Some-State<span class="token punctuation">]</span>:Sevilla
+Locality Name <span class="token punctuation">(</span>eg, city<span class="token punctuation">)</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>:Dos Hermanas
+Organization Name <span class="token punctuation">(</span>eg, company<span class="token punctuation">)</span> <span class="token punctuation">[</span>Internet Widgits Pty Ltd<span class="token punctuation">]</span>:Patata Company
+Organizational Unit Name <span class="token punctuation">(</span>eg, section<span class="token punctuation">)</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>:Pat<span class="token operator">&amp;</span>co
+Common Name <span class="token punctuation">(</span>e.g. server FQDN or YOUR name<span class="token punctuation">)</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>:madueno.iesgn.org
+Email Address <span class="token punctuation">[</span><span class="token punctuation">]</span>:frandh1997@gmail.com
+
+Please enter the following <span class="token string">'extra'</span> attributes
+to be sent with your certificate request
+A challenge password <span class="token punctuation">[</span><span class="token punctuation">]</span>:fran
+An optional company name <span class="token punctuation">[</span><span class="token punctuation">]</span>:Patata Company SL</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> 3. Envía la solicitud de firma a la entidad certificadora (su compañero).</code></pre></div>
+<p>Le enviamos nuestra entidad a nuestro compañero y el nos la firmara convirtiéndola en crt.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">csrmadulora.crt</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> 4. Recibe como respuesta un certificado X.509 para el servidor firmado y el certificado de la autoridad certificadora.</code></pre></div>
+<p>certificado X.509</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">csrmadulora.crt</code></pre></div>
+<p>Y el certificado de la autoridad.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">ca.crt</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> 5. Configura tu servidor web con https en el puerto 443, haciendo que las peticiones http se redireccionen a https (forzar https).</code></pre></div>
+<p>Una vez creado nuestro servidor deberemos de crear el archivo de configuración para el certificado ssl.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/etc/apache2/sites-available<span class="token comment"># cat 000-default-ssl.conf </span>
+<span class="token operator">&lt;</span>IfModule mod_ssl.c<span class="token operator">></span>
+    <span class="token operator">&lt;</span>VirtualHost _default_:44<span class="token operator"><span class="token file-descriptor important">3</span>></span>
+        ServerName madueno.iesgn.org
+        ServerAdmin webmaster@localhost
+
+        DocumentRoot <span class="token string">"/var/www/html"</span> 
+        DirectoryIndex index.html        
+
+        ErrorLog <span class="token variable">${APACHE_LOG_DIR}</span>/error.log
+        CustomLog <span class="token variable">${APACHE_LOG_DIR}</span>/access.log combined
+
+        SSLEngine on
+
+        SSLCertificateFile <span class="token string">"/etc/apache2/ssl/csrmadulora.crt"</span> 
+        SSLCertificateKeyFile <span class="token string">"/etc/apache2/ssl/server.key"</span> 
+
+    <span class="token operator">&lt;</span>/VirtualHost<span class="token operator">></span>
+<span class="token operator">&lt;</span>/IfModule<span class="token operator">></span></code></pre></div>
+<p>Modificaremos nuestro archivo por defecto y añadiremos la linea Redirect permanent / <a href="https://madueno.iesgn.org">https://madueno.iesgn.org</a> para forzar que la pagina se abra desde el puerto 443(https).</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/etc/apache2/sites-available<span class="token comment"># cat 000-default.conf </span>
+<span class="token operator">&lt;</span>VirtualHost *:8<span class="token operator"><span class="token file-descriptor important">0</span>></span>
+    ServerName madueno.iesgn.org
+
+    ServerAdmin webmaster@localhost
+    DocumentRoot <span class="token string">"/var/www/html"</span> 
+    DirectoryIndex index.html
+
+    ErrorLog /var/log/apache2/error.log
+    CustomLog /var/log/apache2/access.log combined
+
+    Redirect permanent / https://madueno.iesgn.org
+
+<span class="token operator">&lt;</span>/VirtualHost<span class="token operator">></span></code></pre></div>
+<p>Para añadir algunos subnombres de manera manual me voy al archivo hosts de /etc y lo modifique de la siguiente manera:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@debian:/etc<span class="token comment"># cat hosts</span>
+<span class="token number">127.0</span>.0.1    madueno.iesgn.org
+<span class="token number">127.0</span>.1.1    patatacompany.org
+<span class="token number">127.0</span>.2.1    www.maduenopatata.com
+
+<span class="token comment"># The following lines are desirable for IPv6 capable hosts</span>
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters</code></pre></div>
+<p>De esta manera podremos acceder con diferentes subnombres que nos redireccionaran a madueno.iesgn,org</p>
+<p>Añadiremos nuestro archivo ca.crt que genero nuestro compañero a nuestro navegador para ello accederemos a lo siguiente campos.
+Preferencias -> Seguridad&#x26;Privacidad -> Ver Certificados -> Importar -> Importamos nuestro archivo "ca.crt"</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> 6. Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"></code></pre></div></div><hr/><img class="Bio-module--avatar--v_AB0" src="https://avatars0.githubusercontent.com/u/47178991?s=460&amp;u=a2a999b1e9dfa3489ddb4b97fea2cd9a69aad5fc&amp;v=4" alt="Fran Madueño"/><p>Escrito por <strong>Fran Madueño</strong> Estudiante de administración de sistemas operativos<br/>(Dos Hermanas, Sevilla).<!-- --> <div></div></p><div class="post-module--post-meta--1ci95"><div class="SocialLinks-module--social-links--1RDpJ"><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--reddit"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--reddit "><g><circle cx="32" cy="32" r="31" fill="#5f99cf"></circle></g><g><path d="m 52.8165,31.942362 c 0,-2.4803 -2.0264,-4.4965 -4.5169,-4.4965 -1.2155,0 -2.3171,0.4862 -3.128,1.2682 -3.077,-2.0247 -7.2403,-3.3133 -11.8507,-3.4782 l 2.5211,-7.9373 6.8272,1.5997 -0.0102,0.0986 c 0,2.0281 1.6575,3.6771 3.6958,3.6771 2.0366,0 3.6924,-1.649 3.6924,-3.6771 0,-2.0281 -1.6575,-3.6788 -3.6924,-3.6788 -1.564,0 -2.8968,0.9758 -3.4357,2.3443 l -7.3593,-1.7255 c -0.3213,-0.0782 -0.6477,0.1071 -0.748,0.4233 L 32,25.212062 c -4.8246,0.0578 -9.1953,1.3566 -12.41,3.4425 -0.8058,-0.7446 -1.8751,-1.2104 -3.0583,-1.2104 -2.4905,0 -4.5152,2.0179 -4.5152,4.4982 0,1.649 0.9061,3.0787 2.2389,3.8607 -0.0884,0.4794 -0.1462,0.9639 -0.1462,1.4569 0,6.6487 8.1736,12.0581 18.2223,12.0581 10.0487,0 18.224,-5.4094 18.224,-12.0581 0,-0.4658 -0.0493,-0.9248 -0.1275,-1.377 1.4144,-0.7599 2.3885,-2.2304 2.3885,-3.9406 z m -29.2808,3.0872 c 0,-1.4756 1.207,-2.6775 2.6894,-2.6775 1.4824,0 2.6877,1.2019 2.6877,2.6775 0,1.4756 -1.2053,2.6758 -2.6877,2.6758 -1.4824,0 -2.6894,-1.2002 -2.6894,-2.6758 z m 15.4037,7.9373 c -1.3549,1.3481 -3.4816,2.0043 -6.5008,2.0043 l -0.0221,-0.0051 -0.0221,0.0051 c -3.0209,0 -5.1476,-0.6562 -6.5008,-2.0043 -0.2465,-0.2448 -0.2465,-0.6443 0,-0.8891 0.2465,-0.2465 0.6477,-0.2465 0.8942,0 1.105,1.0999 2.9393,1.6337 5.6066,1.6337 l 0.0221,0.0051 0.0221,-0.0051 c 2.6673,0 4.5016,-0.5355 5.6066,-1.6354 0.2465,-0.2465 0.6477,-0.2448 0.8942,0 0.2465,0.2465 0.2465,0.6443 0,0.8908 z m -0.3213,-5.2615 c -1.4824,0 -2.6877,-1.2002 -2.6877,-2.6758 0,-1.4756 1.2053,-2.6775 2.6877,-2.6775 1.4824,0 2.6877,1.2019 2.6877,2.6775 0,1.4756 -1.2053,2.6758 -2.6877,2.6758 z" fill="white"></path></g></svg></div><div class="SocialMediaShareCount"><div class="SocialLinks-module--share-count--3wXKp"></div></div></div><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--twitter"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--twitter "><g><circle cx="32" cy="32" r="31" fill="#00aced"></circle></g><g><path d="M48,22.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6 C41.7,19.8,40,19,38.2,19c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5c-5.5-0.3-10.3-2.9-13.5-6.9c-0.6,1-0.9,2.1-0.9,3.3 c0,2.3,1.2,4.3,2.9,5.5c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1c2.9,1.9,6.4,2.9,10.1,2.9c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C46,24.5,47.1,23.4,48,22.1z" fill="white"></path></g></svg></div></div><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--facebook"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--facebook "><g><circle cx="32" cy="32" r="31" fill="#3b5998"></circle></g><g><path d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z" fill="white"></path></g></svg></div><div class="SocialMediaShareCount"><div class="SocialLinks-module--share-count--3wXKp"></div></div></div><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--linkedin"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--linkedin "><g><circle cx="32" cy="32" r="31" fill="#007fb1"></circle></g><g><path d="M20.4,44h5.4V26.6h-5.4V44z M23.1,18c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1 c1.7,0,3.1-1.4,3.1-3.1C26.2,19.4,24.8,18,23.1,18z M39.5,26.2c-2.6,0-4.4,1.4-5.1,2.8h-0.1v-2.4h-5.2V44h5.4v-8.6 c0-2.3,0.4-4.5,3.2-4.5c2.8,0,2.8,2.6,2.8,4.6V44H46v-9.5C46,29.8,45,26.2,39.5,26.2z" fill="white"></path></g></svg></div><div class="SocialMediaShareCount"><div class="SocialLinks-module--share-count--3wXKp"></div></div></div><div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--telegram"><div style="width:32px;height:32px"><svg viewBox="0 0 64 64" width="32" height="32" class="social-icon social-icon--telegram "><g><circle cx="32" cy="32" r="31" fill="#37aee2"></circle></g><g><path d="m45.90873,15.44335c-0.6901,-0.0281 -1.37668,0.14048 -1.96142,0.41265c-0.84989,0.32661 -8.63939,3.33986 -16.5237,6.39174c-3.9685,1.53296 -7.93349,3.06593 -10.98537,4.24067c-3.05012,1.1765 -5.34694,2.05098 -5.4681,2.09312c-0.80775,0.28096 -1.89996,0.63566 -2.82712,1.72788c-0.23354,0.27218 -0.46884,0.62161 -0.58825,1.10275c-0.11941,0.48114 -0.06673,1.09222 0.16682,1.5716c0.46533,0.96052 1.25376,1.35737 2.18443,1.71383c3.09051,0.99037 6.28638,1.93508 8.93263,2.8236c0.97632,3.44171 1.91401,6.89571 2.84116,10.34268c0.30554,0.69185 0.97105,0.94823 1.65764,0.95525l-0.00351,0.03512c0,0 0.53908,0.05268 1.06412,-0.07375c0.52679,-0.12292 1.18879,-0.42846 1.79109,-0.99212c0.662,-0.62161 2.45836,-2.38812 3.47683,-3.38552l7.6736,5.66477l0.06146,0.03512c0,0 0.84989,0.59703 2.09312,0.68132c0.62161,0.04214 1.4399,-0.07726 2.14229,-0.59176c0.70766,-0.51626 1.1765,-1.34683 1.396,-2.29506c0.65673,-2.86224 5.00979,-23.57745 5.75257,-27.00686l-0.02107,0.08077c0.51977,-1.93157 0.32837,-3.70159 -0.87096,-4.74991c-0.60054,-0.52152 -1.2924,-0.7498 -1.98425,-0.77965l0,0.00176zm-0.2072,3.29069c0.04741,0.0439 0.0439,0.0439 0.00351,0.04741c-0.01229,-0.00351 0.14048,0.2072 -0.15804,1.32576l-0.01229,0.04214l-0.00878,0.03863c-0.75858,3.50668 -5.15554,24.40802 -5.74203,26.96472c-0.08077,0.34417 -0.11414,0.31959 -0.09482,0.29852c-0.1756,-0.02634 -0.50045,-0.16506 -0.52679,-0.1756l-13.13468,-9.70175c4.4988,-4.33199 9.09945,-8.25307 13.744,-12.43229c0.8218,-0.41265 0.68483,-1.68573 -0.29852,-1.70681c-1.04305,0.24584 -1.92279,0.99564 -2.8798,1.47502c-5.49971,3.2626 -11.11882,6.13186 -16.55882,9.49279c-2.792,-0.97105 -5.57873,-1.77704 -8.15298,-2.57601c2.2336,-0.89555 4.00889,-1.55579 5.75608,-2.23009c3.05188,-1.1765 7.01687,-2.7042 10.98537,-4.24067c7.94051,-3.06944 15.92667,-6.16346 16.62028,-6.43037l0.05619,-0.02283l0.05268,-0.02283c0.19316,-0.0878 0.30378,-0.09658 0.35471,-0.10009c0,0 -0.01756,-0.05795 -0.00351,-0.04566l-0.00176,0zm-20.91715,22.0638l2.16687,1.60145c-0.93418,0.91311 -1.81743,1.77353 -2.45485,2.38812l0.28798,-3.98957" fill="white"></path></g></svg></div></div></div></div></div><nav><ul class="post-module--pagination--1F-V0"><li><a rel="prev" href="/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube-unidad-1">← <!-- -->Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube (unidad 1)</a></li><li><a rel="next" href="/gatsbyjs/tarea-ovh-aplicaciones-php">Tarea OVH. Aplicaciones PHP<!-- -->→</a></li></ul></nav></main><footer><div class="Footer-module--container--3Dvn1"><div><a href="https://twitter.com/franmadueo" target="_blank" rel="noopener noreferrer">Twitter</a><a href="https://github.com/franmadu6" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://github.com/franmadu6/gatsbyjs/rss.xml" target="_blank" rel="noopener noreferrer">RSS</a></div><div class="Footer-module--copyright--2uglW">Copyright © 2020. All rights reserved.</div></div></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
   
   
   if(true) {
