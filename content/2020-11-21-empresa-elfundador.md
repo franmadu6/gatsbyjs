@@ -1,6 +1,6 @@
 ---
 date: 2020-11-21
-title: "Comentario película "El fundador""
+title: "Comentario película 'El fundador'"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
     - Empresa
