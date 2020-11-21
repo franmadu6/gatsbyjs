@@ -371,6 +371,75 @@ Preferencias -> Seguridad&Privacidad -> Ver Certificados -> Importar -> Importam
 
 6. Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.
 
-```shell
+    * Paso 1: Generar la clave privada (.key)
+    ```shell
+    vagrant@buster:~$ cd /etc/ssl/
+    vagrant@buster:/etc/ssl$ sudo openssl genrsa -des3 -out tudominio.key 2048
+    Generating RSA private key, 2048 bit long modulus (2 primes)
+    ..................................................+++++
+    ...................+++++
+    e is 65537 (0x010001)
+    Enter pass phrase for tudominio.key:
+    Verifying - Enter pass phrase for tudominio.key:
+    ```
 
+    * Paso 2: Crear la solicitud de certificado (.csr)
+    ```shell
+    vagrant@buster:/etc/ssl$ sudo openssl req -new -newkey rsa:2048 -nodes -keyout tudominio.key -out tudominio.csr
+    Generating a RSA private key
+    ...............+++++
+    ......................................+++++
+    writing new private key to 'tudominio.key'
+    -----
+    You are about to be asked to enter information that will be incorporated
+    into your certificate request.
+    What you are about to enter is what is called a Distinguished Name or a DN.
+    There are quite a few fields but you can leave some blank
+    For some fields there will be a default value,
+    If you enter '.', the field will be left blank.
+    -----
+    Country Name (2 letter code) [AU]:ES
+    State or Province Name (full name) [Some-State]:Sevilla
+    Locality Name (eg, city) []:Dos Hermanas
+    Organization Name (eg, company) [Internet Widgits Pty Ltd]:IES Gonzalo Nazareno
+    Organizational Unit Name (eg, section) []:
+    Common Name (e.g. server FQDN or YOUR name) []:madu.iesgn.org
+    Email Address []:frandh1997@gmail.com
+
+    Please enter the following 'extra' attributes
+    to be sent with your certificate request
+    A challenge password []:
+    An optional company name []:
+    ```
+    * Paso 3: Generar los certificados intermedios (.crt)
+
+    Copia el contenido de todo el fichero CSR generado y pégalo/subelo a la autoridad certificadora. En mi caso lo hice con GoDaddy, ya que tenían los certificados a 5$. En este paso se generán dos certificados intermedios
+
+    * Paso 4: Contatenar los certificados intermedios (.crt)
+    ```shell
+    cat certificado1.crt certificado2.crt >> tudominio.crt
+    ```
+
+    * Paso 5: Configurar Nginx
+    ```shell
+    server {
+    listen 443;
+    server_name tudominio.com;
+
+    root /var/www/;
+    index index.html index.htm;
+
+    ssl on;
+    ssl_certificate /etc/ssl/tudominio.crt;
+    ssl_certificate_key /etc/ssl/tudominio.key;
+    }
+    ```
+Si además queremos que todo nuestro trafico http sea redireccionado a https añadimos lo siguiente:
+
+```shell
+    server {
+    listen 80;
+    server_name tudominio.com www.tudominio.com;
+    return 301 https://$host$request_uri;
+    }
 ```
