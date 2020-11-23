@@ -263,7 +263,7 @@ No manual entry for ylva
 ```
 Como hemos comprobado el desistalador funciona y borrar tanto la carpeta dentro de /bin como su manual.
 
-h4. Añadiremos algunas funcionalidades.
+### Añadiremos algunas funcionalidades.
 
 Dado que hemos tenido que instalar algunas dependencias podemos añadir en el README que ejecutaramos un script que añadiremos en el Makefile antes de realizar el make install donde instalar las dependencias necesarias:
 
