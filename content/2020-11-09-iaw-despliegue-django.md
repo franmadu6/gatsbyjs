@@ -11,13 +11,28 @@ tags:
 ## Tarea 1: Entorno de desarrollo
 Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de desarrollo para trabajar con la aplicación, para ello:
 
-* Clona el repositorio de GitHub: https://github.com/josedom24/django_tutorial.
+* Realiza un fork del repositorio de GitHub: https://github.com/josedom24/django_tutorial.
+
+Realizamos el fork y añadimos el repositorio a nuestros repositorios, luego lo clonamos a nuestra maquina.
+```shell
+fran@debian:~/GitHub/django_tutorial$ ls
+django_tutorial  manage.py  polls  README.md  requirements.txt
+```
+
 * Crea un entorno virtual de python3 e instala las dependencias necesarias para que funcione el proyecto (fichero requirements.txt).
+
+
+
 * Comprueba que vamos a trabajar con una base de datos sqlite (django_tutorial/settings.py). ¿Cómo se llama la base de datos que vamos a crear?
+
 * Crea la base de datos: python3 manage.py migrate. A partir del modelo de datos se crean las tablas de la base de datos.
+
 * Crea un usuario administrador: python3 manage.py createsuperuser.
+
 * Ejecuta el servidor web de desarrollo y entra en la zona de administración (\admin) para comprobar que los datos se han añadido correctamente.
+
 * Crea dos preguntas, con posibles respuestas.
+
 * Comprueba en el navegador que la aplicación está funcionando, accede a la url \polls.
 
 **En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (2 puntos)**

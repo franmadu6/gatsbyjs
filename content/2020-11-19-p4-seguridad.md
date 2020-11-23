@@ -370,6 +370,7 @@ Añadiremos nuestro archivo ca.crt que genero nuestro compañero a nuestro naveg
 Preferencias -> Seguridad&Privacidad -> Ver Certificados -> Importar -> Importamos nuestro archivo "ca.crt"
 
 6. Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.
+(Nota:  No la he llegado a hacer pero esta es su teoria)
 
     * Paso 1: Generar la clave privada (.key)
     ```shell
@@ -413,7 +414,7 @@ Preferencias -> Seguridad&Privacidad -> Ver Certificados -> Importar -> Importam
     ```
     * Paso 3: Generar los certificados intermedios (.crt)
 
-    Copia el contenido de todo el fichero CSR generado y pégalo/subelo a la autoridad certificadora. En mi caso lo hice con GoDaddy, ya que tenían los certificados a 5$. En este paso se generán dos certificados intermedios
+    Copia el contenido de todo el fichero CSR generado y pégalo/subelo a la autoridad certificadora.
 
     * Paso 4: Contatenar los certificados intermedios (.crt)
     ```shell
