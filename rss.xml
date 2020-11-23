@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sun, 22 Nov 2020 17:39:14 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Comentario película 'El fundador']]></title><description><![CDATA[Análisis El Fundador, es una película basada en la franquicia de McDonald's no nos cuenta la historia de los creadores en si, sino de Ray…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/comentario-pelicula-el-fundador</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/comentario-pelicula-el-fundador</guid><category><![CDATA[Análisis]]></category><category><![CDATA[El Fundador]]></category><pubDate>Fri, 20 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 23 Nov 2020 09:39:29 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Comentario película 'El fundador']]></title><description><![CDATA[Análisis El Fundador, es una película basada en la franquicia de McDonald's no nos cuenta la historia de los creadores en si, sino de Ray…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/comentario-pelicula-el-fundador</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/comentario-pelicula-el-fundador</guid><category><![CDATA[Análisis]]></category><category><![CDATA[El Fundador]]></category><pubDate>Fri, 20 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 620px;&quot;
     &gt;
@@ -614,7 +614,8 @@ ff02::2 ip6-allrouters&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 Preferencias -&gt; Seguridad&amp;#x26;Privacidad -&gt; Ver Certificados -&gt; Importar -&gt; Importamos nuestro archivo &quot;ca.crt&quot;&lt;/p&gt;
 &lt;ol start=&quot;6&quot;&gt;
 &lt;li&gt;
-&lt;p&gt;Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.&lt;/p&gt;
+&lt;p&gt;Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.
+(Nota:  No la he llegado a hacer pero esta es su teoria)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Paso 1: Generar la clave privada (.key)&lt;/p&gt;
@@ -657,7 +658,7 @@ A challenge password []:
 An optional company name []:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* Paso 3: Generar los certificados intermedios (.crt)
 
-Copia el contenido de todo el fichero CSR generado y pégalo/subelo a la autoridad certificadora. En mi caso lo hice con GoDaddy, ya que tenían los certificados a 5$. En este paso se generán dos certificados intermedios
+Copia el contenido de todo el fichero CSR generado y pégalo/subelo a la autoridad certificadora.
 
 * Paso 4: Contatenar los certificados intermedios (.crt)
 ```shell
@@ -1232,85 +1233,7 @@ Repositorio: &lt;a href=&quot;https://github.com/franmadu6/FlameOvh&quot;&gt;htt
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de aplicaciones python ]]></title><description><![CDATA[Tarea 1: Entorno de desarrollo Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</guid><category><![CDATA[Django]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-entorno-de-desarrollo&quot;&gt;&lt;a href=&quot;#tarea-1-entorno-de-desarrollo&quot; aria-label=&quot;tarea 1 entorno de desarrollo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Entorno de desarrollo&lt;/h2&gt;
-&lt;p&gt;Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de desarrollo para trabajar con la aplicación, para ello:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Clona el repositorio de GitHub: &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;https://github.com/josedom24/django_tutorial&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Crea un entorno virtual de python3 e instala las dependencias necesarias para que funcione el proyecto (fichero requirements.txt).&lt;/li&gt;
-&lt;li&gt;Comprueba que vamos a trabajar con una base de datos sqlite (django_tutorial/settings.py). ¿Cómo se llama la base de datos que vamos a crear?&lt;/li&gt;
-&lt;li&gt;Crea la base de datos: python3 manage.py migrate. A partir del modelo de datos se crean las tablas de la base de datos.&lt;/li&gt;
-&lt;li&gt;Crea un usuario administrador: python3 manage.py createsuperuser.&lt;/li&gt;
-&lt;li&gt;Ejecuta el servidor web de desarrollo y entra en la zona de administración (\admin) para comprobar que los datos se han añadido correctamente.&lt;/li&gt;
-&lt;li&gt;Crea dos preguntas, con posibles respuestas.&lt;/li&gt;
-&lt;li&gt;Comprueba en el navegador que la aplicación está funcionando, accede a la url \polls.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (2 puntos)&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;tarea-2-entorno-de-producción&quot;&gt;&lt;a href=&quot;#tarea-2-entorno-de-producci%C3%B3n&quot; aria-label=&quot;tarea 2 entorno de producción permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Entorno de producción&lt;/h2&gt;
-&lt;p&gt;Vamos a realizar el despliegue de nuestra aplicación en un entorno de producción, para ello vamos a utilizar una instancia del cloud, sigue los siguientes pasos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Instala en el servidor los servicios necesarios (apache2). Instala el módulo de apache2 para ejecutar código python.&lt;/li&gt;
-&lt;li&gt;Clona el repositorio en el DocumentRoot de tu virtualhost.&lt;/li&gt;
-&lt;li&gt;Crea un entorno virtual e instala las dependencias de tu aplicación.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Instala el módulo que permite que python trabaje con mysql:&lt;/p&gt;
-&lt;p&gt;  $ apt-get install python3-mysqldb&lt;/p&gt;
-&lt;p&gt;Y en el entorno virtual:&lt;/p&gt;
-&lt;p&gt;  (env)$ pip install mysql-connector-python&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Crea una base de datos y un usuario en mysql.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Configura la aplicación para trabajar con mysql, para ello modifica la configuración de la base de datos en el archivo settings.py:&lt;/p&gt;
-&lt;p&gt;  DATABASES = {
-&apos;default&apos;: {
-&apos;ENGINE&apos;: &apos;mysql.connector.django&apos;,
-&apos;NAME&apos;: &apos;myproject&apos;,
-&apos;USER&apos;: &apos;myprojectuser&apos;,
-&apos;PASSWORD&apos;: &apos;password&apos;,
-&apos;HOST&apos;: &apos;localhost&apos;,
-&apos;PORT&apos;: &apos;&apos;,
-}
-}&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Como en la tarea 1, realiza la migración de la base de datos que creará la estructura de datos necesrias. comprueba en mariadb que la base de datos y las tablas se han creado.&lt;/li&gt;
-&lt;li&gt;Crea un usuario administrador: python3 manage.py createsuperuser.&lt;/li&gt;
-&lt;li&gt;Configura un virtualhost en apache2 con la configuración adecuada para que funcione la aplicación. El punto de entrada de nuestro servidor será django&lt;em&gt;tutorial/django&lt;/em&gt;tutorial/wsgi.py. Puedes guiarte por el Ejercicio: Desplegando aplicaciones flask, por la documentación de django: How to use Django with Apache and mod_wsgi,…&lt;/li&gt;
-&lt;li&gt;Debes asegurarte que el contenido estático se está sirviendo: ¿Se muestra la imagen de fondo de la aplicación? ¿Se ve de forma adecuada la hoja de estilo de la zona de administración?. Para arreglarlo puedes encontrar documentación en How to use Django with Apache and mod_wsgi.&lt;/li&gt;
-&lt;li&gt;Desactiva en la configuración (fichero settings.py) el modo debug a False. Para que los errores de ejecución no den información sensible de la aplicación.&lt;/li&gt;
-&lt;li&gt;Muestra la página funcionando.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (4 puntos)&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;tarea-3-modificación-de-nuestra-aplicación&quot;&gt;&lt;a href=&quot;#tarea-3-modificaci%C3%B3n-de-nuestra-aplicaci%C3%B3n&quot; aria-label=&quot;tarea 3 modificación de nuestra aplicación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Modificación de nuestra aplicación&lt;/h2&gt;
-&lt;p&gt;Vamos a realizar cambios en el entorno de desarrollo y posteriormente vamos a subirlas a producción. Vamos a realizar tres modificaciones (entrega una captura de pantalla donde se ven cada una de ellas). Recuerda que primero lo haces en el entrono de desarrollo, y luego tendrás que llevar los cambios a producción:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Modifica la página inicial donde se ven las encuestas para que aparezca tu nombre: Para ello modifica el archivo django_tutorial/polls/templates/polls/index.html.
-Modifica la imagen de fondo que se ve la aplicación.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Vamos a crear una nueva tabla en la base de datos, para ello sigue los siguientes pasos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Añade un nuevo modelo al fichero polls/models.py:&lt;/p&gt;
-&lt;p&gt;  class Categoria(models.Model):
-Abr = models.CharField(max&lt;em&gt;length=4)
-Nombre = models.CharField(max&lt;/em&gt;length=50)&lt;/p&gt;
-&lt;p&gt;  	def &lt;strong&gt;str&lt;/strong&gt;(self):
-return self.Abr+&quot; - &quot;+self.Nombre 		&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Crea una nueva migración: python3 manage.py makemigrations.
-Y realiza la migración: python3 manage.py migrate&lt;/li&gt;
-&lt;li&gt;Añade el nuevo modelo al sitio de administración de django:&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Para ello cambia la siguiente línea en el fichero polls/admin.py:&lt;/p&gt;
-&lt;p&gt;   from .models import Choice, Question&lt;/p&gt;
-&lt;p&gt;Por esta otra:&lt;/p&gt;
-&lt;p&gt;   from .models import Choice, Question, Categoria&lt;/p&gt;
-&lt;p&gt;Y añade al final la siguiente línea:&lt;/p&gt;
-&lt;p&gt;   admin.site.register(Categoria)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Despliega el cambio producido al crear la nueva tabla en el entorno de producción.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Explica los cambios que has realizado en el entorno de desarrollo y cómo lo has desplegado en producción para cada una de las modificaciones (4 puntos).&lt;/strong&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Análisis imagen corporativa.]]></title><description><![CDATA[Añade una foto de la imagen de un comercio o negocio de la zona donde residas, realizando un análisis de la misma. Comenta qué tipo de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/analisis-imagen-corporativa</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/analisis-imagen-corporativa</guid><category><![CDATA[Imagen Corporativa]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;añade-una-foto-de-la-imagen-de-un-comercio-o-negocio-de-la-zona-donde-residas-realizando-un-análisis-de-la-misma-comenta-qué-tipo-de-información-te-aporta-si-tiene-relación-con-el-producto-o-servicio-que-oferta-si-te-parece-adecuada-o-añadiríaseliminarías-algo&quot;&gt;&lt;a href=&quot;#a%C3%B1ade-una-foto-de-la-imagen-de-un-comercio-o-negocio-de-la-zona-donde-residas-realizando-un-an%C3%A1lisis-de-la-misma-comenta-qu%C3%A9-tipo-de-informaci%C3%B3n-te-aporta-si-tiene-relaci%C3%B3n-con-el-producto-o-servicio-que-oferta-si-te-parece-adecuada-o-a%C3%B1adir%C3%ADaseliminar%C3%ADas-algo&quot; aria-label=&quot;añade una foto de la imagen de un comercio o negocio de la zona donde residas realizando un análisis de la misma comenta qué tipo de información te aporta si tiene relación con el producto o servicio que oferta si te parece adecuada o añadiríaseliminarías algo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Añade una foto de la imagen de un comercio o negocio de la zona donde residas, realizando un análisis de la misma. Comenta qué tipo de información te aporta, si tiene relación con el producto o servicio que oferta, si te parece adecuada o añadirías/eliminarías algo.&lt;/h2&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Análisis imagen corporativa.]]></title><description><![CDATA[Añade una foto de la imagen de un comercio o negocio de la zona donde residas, realizando un análisis de la misma. Comenta qué tipo de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/analisis-imagen-corporativa</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/analisis-imagen-corporativa</guid><category><![CDATA[Imagen Corporativa]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;añade-una-foto-de-la-imagen-de-un-comercio-o-negocio-de-la-zona-donde-residas-realizando-un-análisis-de-la-misma-comenta-qué-tipo-de-información-te-aporta-si-tiene-relación-con-el-producto-o-servicio-que-oferta-si-te-parece-adecuada-o-añadiríaseliminarías-algo&quot;&gt;&lt;a href=&quot;#a%C3%B1ade-una-foto-de-la-imagen-de-un-comercio-o-negocio-de-la-zona-donde-residas-realizando-un-an%C3%A1lisis-de-la-misma-comenta-qu%C3%A9-tipo-de-informaci%C3%B3n-te-aporta-si-tiene-relaci%C3%B3n-con-el-producto-o-servicio-que-oferta-si-te-parece-adecuada-o-a%C3%B1adir%C3%ADaseliminar%C3%ADas-algo&quot; aria-label=&quot;añade una foto de la imagen de un comercio o negocio de la zona donde residas realizando un análisis de la misma comenta qué tipo de información te aporta si tiene relación con el producto o servicio que oferta si te parece adecuada o añadiríaseliminarías algo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Añade una foto de la imagen de un comercio o negocio de la zona donde residas, realizando un análisis de la misma. Comenta qué tipo de información te aporta, si tiene relación con el producto o servicio que oferta, si te parece adecuada o añadirías/eliminarías algo.&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -1404,7 +1327,90 @@ Es la mayor red de tiendas especializadas de ciclismo de España. En nuestras ti
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 3: Integridad, firmas y autenticación ]]></title><description><![CDATA[Práctica: Integridad, firmas y autenticación Tarea 1: Firmas electrónicas (3 puntos) GPG   Manda un documento y la firma electrónica del…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Sat, 07 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-integridad-firmas-y-autenticación&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n&quot; aria-label=&quot;práctica integridad firmas y autenticación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Integridad, firmas y autenticación&lt;/h2&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de aplicaciones python ]]></title><description><![CDATA[Tarea 1: Entorno de desarrollo Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</guid><category><![CDATA[Django]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-entorno-de-desarrollo&quot;&gt;&lt;a href=&quot;#tarea-1-entorno-de-desarrollo&quot; aria-label=&quot;tarea 1 entorno de desarrollo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Entorno de desarrollo&lt;/h2&gt;
+&lt;p&gt;Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de desarrollo para trabajar con la aplicación, para ello:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Realiza un fork del repositorio de GitHub: &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;https://github.com/josedom24/django_tutorial&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Realizamos el fork y añadimos el repositorio a nuestros repositorios, luego lo clonamos a nuestra maquina.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/GitHub/django_tutorial$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
+django_tutorial  manage.py  polls  README.md  requirements.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Crea un entorno virtual de python3 e instala las dependencias necesarias para que funcione el proyecto (fichero requirements.txt).&lt;/li&gt;
+&lt;li&gt;Comprueba que vamos a trabajar con una base de datos sqlite (django_tutorial/settings.py). ¿Cómo se llama la base de datos que vamos a crear?&lt;/li&gt;
+&lt;li&gt;Crea la base de datos: python3 manage.py migrate. A partir del modelo de datos se crean las tablas de la base de datos.&lt;/li&gt;
+&lt;li&gt;Crea un usuario administrador: python3 manage.py createsuperuser.&lt;/li&gt;
+&lt;li&gt;Ejecuta el servidor web de desarrollo y entra en la zona de administración (\admin) para comprobar que los datos se han añadido correctamente.&lt;/li&gt;
+&lt;li&gt;Crea dos preguntas, con posibles respuestas.&lt;/li&gt;
+&lt;li&gt;Comprueba en el navegador que la aplicación está funcionando, accede a la url \polls.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (2 puntos)&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tarea-2-entorno-de-producción&quot;&gt;&lt;a href=&quot;#tarea-2-entorno-de-producci%C3%B3n&quot; aria-label=&quot;tarea 2 entorno de producción permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Entorno de producción&lt;/h2&gt;
+&lt;p&gt;Vamos a realizar el despliegue de nuestra aplicación en un entorno de producción, para ello vamos a utilizar una instancia del cloud, sigue los siguientes pasos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Instala en el servidor los servicios necesarios (apache2). Instala el módulo de apache2 para ejecutar código python.&lt;/li&gt;
+&lt;li&gt;Clona el repositorio en el DocumentRoot de tu virtualhost.&lt;/li&gt;
+&lt;li&gt;Crea un entorno virtual e instala las dependencias de tu aplicación.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Instala el módulo que permite que python trabaje con mysql:&lt;/p&gt;
+&lt;p&gt;  $ apt-get install python3-mysqldb&lt;/p&gt;
+&lt;p&gt;Y en el entorno virtual:&lt;/p&gt;
+&lt;p&gt;  (env)$ pip install mysql-connector-python&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Crea una base de datos y un usuario en mysql.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Configura la aplicación para trabajar con mysql, para ello modifica la configuración de la base de datos en el archivo settings.py:&lt;/p&gt;
+&lt;p&gt;  DATABASES = {
+&apos;default&apos;: {
+&apos;ENGINE&apos;: &apos;mysql.connector.django&apos;,
+&apos;NAME&apos;: &apos;myproject&apos;,
+&apos;USER&apos;: &apos;myprojectuser&apos;,
+&apos;PASSWORD&apos;: &apos;password&apos;,
+&apos;HOST&apos;: &apos;localhost&apos;,
+&apos;PORT&apos;: &apos;&apos;,
+}
+}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Como en la tarea 1, realiza la migración de la base de datos que creará la estructura de datos necesrias. comprueba en mariadb que la base de datos y las tablas se han creado.&lt;/li&gt;
+&lt;li&gt;Crea un usuario administrador: python3 manage.py createsuperuser.&lt;/li&gt;
+&lt;li&gt;Configura un virtualhost en apache2 con la configuración adecuada para que funcione la aplicación. El punto de entrada de nuestro servidor será django&lt;em&gt;tutorial/django&lt;/em&gt;tutorial/wsgi.py. Puedes guiarte por el Ejercicio: Desplegando aplicaciones flask, por la documentación de django: How to use Django with Apache and mod_wsgi,…&lt;/li&gt;
+&lt;li&gt;Debes asegurarte que el contenido estático se está sirviendo: ¿Se muestra la imagen de fondo de la aplicación? ¿Se ve de forma adecuada la hoja de estilo de la zona de administración?. Para arreglarlo puedes encontrar documentación en How to use Django with Apache and mod_wsgi.&lt;/li&gt;
+&lt;li&gt;Desactiva en la configuración (fichero settings.py) el modo debug a False. Para que los errores de ejecución no den información sensible de la aplicación.&lt;/li&gt;
+&lt;li&gt;Muestra la página funcionando.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (4 puntos)&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tarea-3-modificación-de-nuestra-aplicación&quot;&gt;&lt;a href=&quot;#tarea-3-modificaci%C3%B3n-de-nuestra-aplicaci%C3%B3n&quot; aria-label=&quot;tarea 3 modificación de nuestra aplicación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Modificación de nuestra aplicación&lt;/h2&gt;
+&lt;p&gt;Vamos a realizar cambios en el entorno de desarrollo y posteriormente vamos a subirlas a producción. Vamos a realizar tres modificaciones (entrega una captura de pantalla donde se ven cada una de ellas). Recuerda que primero lo haces en el entrono de desarrollo, y luego tendrás que llevar los cambios a producción:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Modifica la página inicial donde se ven las encuestas para que aparezca tu nombre: Para ello modifica el archivo django_tutorial/polls/templates/polls/index.html.
+Modifica la imagen de fondo que se ve la aplicación.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vamos a crear una nueva tabla en la base de datos, para ello sigue los siguientes pasos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Añade un nuevo modelo al fichero polls/models.py:&lt;/p&gt;
+&lt;p&gt;  class Categoria(models.Model):
+Abr = models.CharField(max&lt;em&gt;length=4)
+Nombre = models.CharField(max&lt;/em&gt;length=50)&lt;/p&gt;
+&lt;p&gt;  	def &lt;strong&gt;str&lt;/strong&gt;(self):
+return self.Abr+&quot; - &quot;+self.Nombre 		&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Crea una nueva migración: python3 manage.py makemigrations.
+Y realiza la migración: python3 manage.py migrate&lt;/li&gt;
+&lt;li&gt;Añade el nuevo modelo al sitio de administración de django:&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para ello cambia la siguiente línea en el fichero polls/admin.py:&lt;/p&gt;
+&lt;p&gt;   from .models import Choice, Question&lt;/p&gt;
+&lt;p&gt;Por esta otra:&lt;/p&gt;
+&lt;p&gt;   from .models import Choice, Question, Categoria&lt;/p&gt;
+&lt;p&gt;Y añade al final la siguiente línea:&lt;/p&gt;
+&lt;p&gt;   admin.site.register(Categoria)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Despliega el cambio producido al crear la nueva tabla en el entorno de producción.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Explica los cambios que has realizado en el entorno de desarrollo y cómo lo has desplegado en producción para cada una de las modificaciones (4 puntos).&lt;/strong&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 3: Integridad, firmas y autenticación ]]></title><description><![CDATA[Práctica: Integridad, firmas y autenticación Tarea 1: Firmas electrónicas (3 puntos) GPG   Manda un documento y la firma electrónica del…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Sat, 07 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-integridad-firmas-y-autenticación&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n&quot; aria-label=&quot;práctica integridad firmas y autenticación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Integridad, firmas y autenticación&lt;/h2&gt;
 &lt;h3 id=&quot;tarea-1-firmas-electrónicas-3-puntos&quot;&gt;&lt;a href=&quot;#tarea-1-firmas-electr%C3%B3nicas-3-puntos&quot; aria-label=&quot;tarea 1 firmas electrónicas 3 puntos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Firmas electrónicas (3 puntos)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;GPG&lt;/strong&gt;  &lt;/p&gt;
 &lt;h3 id=&quot;manda-un-documento-y-la-firma-electrónica-del-mismo-a-un-compañero-verifica-la-firma-que-tu-has-recibido&quot;&gt;&lt;a href=&quot;#manda-un-documento-y-la-firma-electr%C3%B3nica-del-mismo-a-un-compa%C3%B1ero-verifica-la-firma-que-tu-has-recibido&quot; aria-label=&quot;manda un documento y la firma electrónica del mismo a un compañero verifica la firma que tu has recibido permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Manda un documento y la firma electrónica del mismo a un compañero. Verifica la firma que tu has recibido.&lt;/h3&gt;

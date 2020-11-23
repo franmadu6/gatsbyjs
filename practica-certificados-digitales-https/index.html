@@ -601,7 +601,8 @@ ff02::2 ip6-allrouters</code></pre></div>
 Preferencias -> Seguridad&#x26;Privacidad -> Ver Certificados -> Importar -> Importamos nuestro archivo "ca.crt"</p>
 <ol start="6">
 <li>
-<p>Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.</p>
+<p>Instala ahora un servidor nginx, y realiza la misma configuración que anteriormente para que se sirva la página con HTTPS.
+(Nota:  No la he llegado a hacer pero esta es su teoria)</p>
 <ul>
 <li>
 <p>Paso 1: Generar la clave privada (.key)</p>
@@ -644,7 +645,7 @@ A challenge password []:
 An optional company name []:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">* Paso 3: Generar los certificados intermedios (.crt)
 
-Copia el contenido de todo el fichero CSR generado y pégalo/subelo a la autoridad certificadora. En mi caso lo hice con GoDaddy, ya que tenían los certificados a 5$. En este paso se generán dos certificados intermedios
+Copia el contenido de todo el fichero CSR generado y pégalo/subelo a la autoridad certificadora.
 
 * Paso 4: Contatenar los certificados intermedios (.crt)
 ```shell
