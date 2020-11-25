@@ -47,27 +47,81 @@ Successfully installed Django-3.1.3 asgiref-3.3.0 pytz-2020.4 sqlparse-0.4.1
 
 * Comprueba que vamos a trabajar con una base de datos sqlite (django_tutorial/settings.py). ¿Cómo se llama la base de datos que vamos a crear?
 
-
+Siguiendo el tutorial en django_tutorial/settings.py
 ```shell
-
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 ```
+Como podemos ver, la base de datos que vamos a crear se llama 'db.sqlite3'.
 
 * Crea la base de datos: python3 manage.py migrate. A partir del modelo de datos se crean las tablas de la base de datos.
 
+```shell
+(django) fran@debian:~/GitHub/django_tutorial$ python3 manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, polls, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying polls.0001_initial... OK
+  Applying sessions.0001_initial... OK
+```
+
 * Crea un usuario administrador: python3 manage.py createsuperuser.
+
+```shell
+(django) fran@debian:~/GitHub/django_tutorial$ python3 manage.py createsuperuser
+Username (leave blank to use 'fran'): admin
+Email address: frandh1997@gmail.com
+Password: 
+Password (again): 
+The password is too similar to the username.
+This password is too short. It must contain at least 8 characters.
+This password is too common.
+Bypass password validation and create user anyway? [y/N]: y       
+Superuser created successfully.
+(django) fran@debian:~/GitHub/dj
+```
+(admin,admin)
 
 * Ejecuta el servidor web de desarrollo y entra en la zona de administración (\admin) para comprobar que los datos se han añadido correctamente.
 
+```shell
+(django) fran@debian:~/GitHub/django_tutorial$ python manage.py runserver
+```
+![PracticaImg](images/iaw/django1.png "Imagen de la practica")
+![PracticaImg](images/iaw/django2.png "Imagen de la practica")
+
 * Crea dos preguntas, con posibles respuestas.
+
+![PracticaImg](images/iaw/django3.png "Imagen de la practica")
+
 
 * Comprueba en el navegador que la aplicación está funcionando, accede a la url \polls.
 
-```shell
-
-```
+![PracticaImg](images/iaw/django4.png "Imagen de la practica")
+![PracticaImg](images/iaw/django5.png "Imagen de la practica")
 
 **En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (2 puntos)**
-
 
 
 
@@ -75,8 +129,11 @@ Successfully installed Django-3.1.3 asgiref-3.3.0 pytz-2020.4 sqlparse-0.4.1
 Vamos a realizar el despliegue de nuestra aplicación en un entorno de producción, para ello vamos a utilizar una instancia del cloud, sigue los siguientes pasos:
 
 * Instala en el servidor los servicios necesarios (apache2). Instala el módulo de apache2 para ejecutar código python.
+
 * Clona el repositorio en el DocumentRoot de tu virtualhost.
+
 * Crea un entorno virtual e instala las dependencias de tu aplicación.
+
 * Instala el módulo que permite que python trabaje con mysql:
 
       $ apt-get install python3-mysqldb
@@ -101,10 +158,15 @@ Vamos a realizar el despliegue de nuestra aplicación en un entorno de producci�
       }
 
 * Como en la tarea 1, realiza la migración de la base de datos que creará la estructura de datos necesrias. comprueba en mariadb que la base de datos y las tablas se han creado.
+
 * Crea un usuario administrador: python3 manage.py createsuperuser.
+
 * Configura un virtualhost en apache2 con la configuración adecuada para que funcione la aplicación. El punto de entrada de nuestro servidor será django_tutorial/django_tutorial/wsgi.py. Puedes guiarte por el Ejercicio: Desplegando aplicaciones flask, por la documentación de django: How to use Django with Apache and mod_wsgi,…
+
 * Debes asegurarte que el contenido estático se está sirviendo: ¿Se muestra la imagen de fondo de la aplicación? ¿Se ve de forma adecuada la hoja de estilo de la zona de administración?. Para arreglarlo puedes encontrar documentación en How to use Django with Apache and mod_wsgi.
+
 * Desactiva en la configuración (fichero settings.py) el modo debug a False. Para que los errores de ejecución no den información sensible de la aplicación.
+
 * Muestra la página funcionando.
 
 **En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (4 puntos)**
