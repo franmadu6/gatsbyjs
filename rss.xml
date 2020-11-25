@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 23 Nov 2020 09:55:39 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Comentario película 'El fundador']]></title><description><![CDATA[Análisis El Fundador, es una película basada en la franquicia de McDonald's no nos cuenta la historia de los creadores en si, sino de Ray…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/comentario-pelicula-el-fundador</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/comentario-pelicula-el-fundador</guid><category><![CDATA[Análisis]]></category><category><![CDATA[El Fundador]]></category><pubDate>Fri, 20 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 25 Nov 2020 12:01:44 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Comentario película 'El fundador']]></title><description><![CDATA[Análisis El Fundador, es una película basada en la franquicia de McDonald's no nos cuenta la historia de los creadores en si, sino de Ray…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/comentario-pelicula-el-fundador</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/comentario-pelicula-el-fundador</guid><category><![CDATA[Análisis]]></category><category><![CDATA[El Fundador]]></category><pubDate>Fri, 20 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 620px;&quot;
     &gt;
@@ -707,28 +707,28 @@ Crearemos una carpeta a donde trabajaremos con la compilación.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación y configuración inicial de los servidores]]></title><description><![CDATA[En esta tarea se va a crear el escenario de trabajo que se va a usar durante todo el curso, que va a constar inicialmente de 3 instancias…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-los-servidores</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-los-servidores</guid><category><![CDATA[OpenStack]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Ubuntu]]></category><category><![CDATA[CentOS]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;En esta tarea se va a crear el escenario de trabajo que se va a usar durante todo el curso, que va a constar inicialmente de 3 instancias con nombres relacionados con el libro &quot;Don Quijote de la Mancha&quot;.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 628px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 647px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/38b5ddfeb64cb43b4820575cfbfd9721/83cbb/escenario.png&quot;
+    href=&quot;/gatsbyjs/static/ec5a3c4308b202b243346b41b3aba92a/374ce/escenario.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 85.98726114649682%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsSAAALEgHS3X78AAACRElEQVQ4y32Sa2/aMBSG+e39MmlTKYyJsgudtGnjktB1X9BI07F0Y3Tj0kAoKJBCG1gJgYqGJJCL7cxJylgB9cjykW09Psfv68DCAoKsOWuBkDvf9R1N9tcPD5EwFQACAUlZhOg23oJwdQyhhVeITSA+hzkEAVoGvgdAEKlGNEtz4Wi+4wII6bpuGIZpmg4E7h11whFOvFrw/8oQwX1234XlmfHsS0sxgDCQicxhq9Ws1Wr8VXNgaErpjdIgZVsfa9J4PsZD1uXJfCLpUrgS1i3dhZ9kW4PpQpDuXsffvozFgsEg26kMoDo+i465lAjUa0XsTXviTMSjP+v3lF6wHJzbc79twdfEsizcNp7v2+ZIWM840G6Vi5VSdTKaDP8M/bajbPT+zc9PvDdDTw9fT6wQTh3aPk846rD+k9oN7obCoWQyibdtYMfYmAuPZ8ar08t/7izd8BTqMbB7inOr2aCOKY7jeJ73rSJ5UrXUgLKwyEp/w2cP7jL2rziSLliaTKXTFEXRNO3DmXbGhSeaeVDobfwDv/J3eH2Gc1sQ4vED3DPDMD581DlSTXX15i1tX/0AlfdQ5ovZRJogSr9LNENzN1xj1MCfRLd1F37xdQNeqo0uPuM86neJNJH4mMgd50zHVEwlXPV8fgyup7HgW3/YyqrIYzDlO4cDevEAHimL/W+XW2HIptTzT5uVcewV927VW1zZeJptrKvtwXb53aT4wYPBGryT35GmUkA3YZ4TIbA3fYZDbnHTdNa7cqMgFubG/C81CKPx8lQdfQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 88.09891808346212%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAACmElEQVQ4y4WU+1PaQBDH/af7c3/pjNTpdEr1p3ZsGStaGB21jA8eLbWFKliLBAyRGATEKYYkiJZ3km8vd5EEkfFmbu6197ndvd2dAWmmacI9jtr92hrd8zGR8bszp1ctRPk6XeiGAYN065B1MrcOMn6YHW0CaJBzq0lNCdFylAGTYgP+wwqTxePN/PYC5l2dnjuPmSNg5jqDZX6ZAQ8lBYE0A17LMjiOg6ZpUFUVvW6XPbL/CvgnM7hhspdNx8xcI4eAEGDA9IWK1xEBtdYA0fQp3ni92NrchD/gx4H4CzlVgLz7DMXLBPimiPOWiOJNEWfNMxTUAko3JWyIG1gtrDLgAdFwNcU0vGt3kEgkEI/HkUqlqBpUme8vickyLAMvyhdQNRXtdhudbofey8pZrBRWHGAgXbWd/NB59qcQHw6KXzG4ymFt6R2Ca+uI7IURToYhNkRsi9sISSEH+NkGDnUDuq7Tbhi6ExJHH2DcMR/GohEsLi7C5/OB4zm6x8kcYuUYA55Umwjn/9phY47HoMlMxu+P6EtJdGs5RL4EkcvzqFYqqNVqVFTURMQq98DLJqKn9SeAPugas2IntAWPx4PZ2Vkc/zmme4IiOHF46PLh0DCmaqgrJfRuVUR2Q8hkTlAhGtbrTJGiVnQ0HPPhBND5FF36AbQqCAU/4e38Ahbm55FKp6go3+CxU9p5Gjj6lP05knpNOu/2+lAVBQrp/X7/8bBxA80HBYFlyhwJ0uuJ1LRP6S+PMoX68Giahmytxz3oqZf2tjGRy1bqLWWX7OJw7hSHacDe3nNoVWEEfFhtOIWD96eXAfOkfAWSgi1gjpl8f7l/8B639fJUoHQjIZgNMqAFGAyHjxRZ16e4s8ZVD917OpGx2n9+l0UXZBRQqwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PracticaImg&quot;
         title=&quot;Imagen de la practica&quot;
-        src=&quot;/gatsbyjs/static/38b5ddfeb64cb43b4820575cfbfd9721/83cbb/escenario.png&quot;
-        srcset=&quot;/gatsbyjs/static/38b5ddfeb64cb43b4820575cfbfd9721/acf4b/escenario.png 173w,
-/gatsbyjs/static/38b5ddfeb64cb43b4820575cfbfd9721/fc834/escenario.png 345w,
-/gatsbyjs/static/38b5ddfeb64cb43b4820575cfbfd9721/83cbb/escenario.png 628w&quot;
-        sizes=&quot;(max-width: 628px) 100vw, 628px&quot;
+        src=&quot;/gatsbyjs/static/ec5a3c4308b202b243346b41b3aba92a/374ce/escenario.png&quot;
+        srcset=&quot;/gatsbyjs/static/ec5a3c4308b202b243346b41b3aba92a/acf4b/escenario.png 173w,
+/gatsbyjs/static/ec5a3c4308b202b243346b41b3aba92a/fc834/escenario.png 345w,
+/gatsbyjs/static/ec5a3c4308b202b243346b41b3aba92a/374ce/escenario.png 647w&quot;
+        sizes=&quot;(max-width: 647px) 100vw, 647px&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -749,26 +749,26 @@ Crearemos una carpeta a donde trabajaremos con la compilación.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/09e83/escenario2.png&quot;
+    href=&quot;/gatsbyjs/static/69c3c73e9308ba94aeb9fb9828661ae2/5cc04/escenario2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 3.046594982078853%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAKklEQVQI12P4+vXr/2/fvv3/+/cvCv79+/f/P3/+YOWD1MP4nz9/RlEHAHODTrt4hEW0AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 5.512744516893894%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAQElEQVQI1x3KWwrAMAhE0e5/rwkStT5h2vgxcAfOI6qQ11BV6G4wM4ho/p2IICJgZnB36O9v773HZuY4PQeyFj5Mx02dXpECTgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PracticaImg&quot;
         title=&quot;Imagen de la practica&quot;
-        src=&quot;/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/36727/escenario2.png&quot;
-        srcset=&quot;/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/acf4b/escenario2.png 173w,
-/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/fc834/escenario2.png 345w,
-/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/36727/escenario2.png 690w,
-/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/17fa4/escenario2.png 1035w,
-/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/a5044/escenario2.png 1380w,
-/gatsbyjs/static/4ddf23512ba2f7b1fe2df077b88cd94c/09e83/escenario2.png 1674w&quot;
+        src=&quot;/gatsbyjs/static/69c3c73e9308ba94aeb9fb9828661ae2/36727/escenario2.png&quot;
+        srcset=&quot;/gatsbyjs/static/69c3c73e9308ba94aeb9fb9828661ae2/acf4b/escenario2.png 173w,
+/gatsbyjs/static/69c3c73e9308ba94aeb9fb9828661ae2/fc834/escenario2.png 345w,
+/gatsbyjs/static/69c3c73e9308ba94aeb9fb9828661ae2/36727/escenario2.png 690w,
+/gatsbyjs/static/69c3c73e9308ba94aeb9fb9828661ae2/17fa4/escenario2.png 1035w,
+/gatsbyjs/static/69c3c73e9308ba94aeb9fb9828661ae2/a5044/escenario2.png 1380w,
+/gatsbyjs/static/69c3c73e9308ba94aeb9fb9828661ae2/5cc04/escenario2.png 1687w&quot;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -811,26 +811,26 @@ Crearemos una carpeta a donde trabajaremos con la compilación.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/9b0a098bf0d5bd977c4d327c35c200b1/40805/escenario3.png&quot;
+    href=&quot;/gatsbyjs/static/e95ed14a04ab96f60126d13925d30d05/7d0a0/escenario3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 16.34958382877527%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAcUlEQVQI1zWOOQJEIQhDvf9RbdyQRQu+YYbiFYFAUojF1Y6f84OZg3uvs5qPOX2M4UTkZhb03kPDt/cOb3pKmP7PsIChteYiEnNVDeDL0NQJZvBjXjYaQeDBW87XqNbqa63XQCIVIAhHADvobIhH2fgDtXXpBhklkQwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 20.759193357058127%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAiklEQVQY002OWw5EIQhD3f9SjT8+wUfCeEi8mY8GqW1pGGNYKcWYtVZHSslExLnWms/eu+WcfQI8/D0OzVrLwhA11WlzTicIjDG6QVSveLiYA2jUue47YId/miCE3SDC9t5fk3OO8ceB/waY4V4AwPe4kEv1JueSfGAAvHWuL4wmcITCsT9w/LX+ASifNsDICNQyAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PracticaImg&quot;
         title=&quot;Imagen de la practica&quot;
-        src=&quot;/gatsbyjs/static/9b0a098bf0d5bd977c4d327c35c200b1/36727/escenario3.png&quot;
-        srcset=&quot;/gatsbyjs/static/9b0a098bf0d5bd977c4d327c35c200b1/acf4b/escenario3.png 173w,
-/gatsbyjs/static/9b0a098bf0d5bd977c4d327c35c200b1/fc834/escenario3.png 345w,
-/gatsbyjs/static/9b0a098bf0d5bd977c4d327c35c200b1/36727/escenario3.png 690w,
-/gatsbyjs/static/9b0a098bf0d5bd977c4d327c35c200b1/17fa4/escenario3.png 1035w,
-/gatsbyjs/static/9b0a098bf0d5bd977c4d327c35c200b1/a5044/escenario3.png 1380w,
-/gatsbyjs/static/9b0a098bf0d5bd977c4d327c35c200b1/40805/escenario3.png 1682w&quot;
+        src=&quot;/gatsbyjs/static/e95ed14a04ab96f60126d13925d30d05/36727/escenario3.png&quot;
+        srcset=&quot;/gatsbyjs/static/e95ed14a04ab96f60126d13925d30d05/acf4b/escenario3.png 173w,
+/gatsbyjs/static/e95ed14a04ab96f60126d13925d30d05/fc834/escenario3.png 345w,
+/gatsbyjs/static/e95ed14a04ab96f60126d13925d30d05/36727/escenario3.png 690w,
+/gatsbyjs/static/e95ed14a04ab96f60126d13925d30d05/17fa4/escenario3.png 1035w,
+/gatsbyjs/static/e95ed14a04ab96f60126d13925d30d05/a5044/escenario3.png 1380w,
+/gatsbyjs/static/e95ed14a04ab96f60126d13925d30d05/7d0a0/escenario3.png 1686w&quot;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -839,14 +839,227 @@ Crearemos una carpeta a donde trabajaremos con la compilación.&lt;/p&gt;
 &lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;Configuración de NAT en Dulcinea (Es necesario deshabilitar la seguridad en todos los puertos de dulcinea) [https://youtu.be/jqfILWzHrS0].&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Deshabilitar seguridad:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Configuración de NAT&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Deshabilitar los puertos de Dulcinea&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#remover grupo de seguridad y deshabilitar cortafuegos de ambas redes&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;openstackclient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/Documentos$ openstack server remove security group Dulcinea default
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;openstackclient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/Documentos$ openstack port list
++--------------------------------------+------+-------------------+--------------------------------------------------------------------------+--------+
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ID                                   &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Name &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; MAC Address       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Fixed IP Addresses                                                       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Status &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
++--------------------------------------+------+-------------------+--------------------------------------------------------------------------+--------+
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 280e513f-5016-44b5-a66e-fb6960e4f8fa &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:23:87:b2 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.1.7&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;b0fb0d9b-c8da-4790-888c-e190e588d551&apos;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 3148cbad-a46e-41ea-829e-5cfcd1f00f78 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:01:01:01 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.1.10&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;b0fb0d9b-c8da-4790-888c-e190e588d551&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 4ff047c4-14b4-43f4-8395-7f95b4023a6a &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:24:24:93 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.0.12&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;46cd68e1-2e88-4ba6-9970-431f6f53c13f&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 53665f0f-e35a-44d9-896a-313861310021 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:18:49:cd &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.0.1&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;46cd68e1-2e88-4ba6-9970-431f6f53c13f&apos;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 5f4ef06d-17cf-49e3-b30e-54bcd8a04465 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:36:da:86 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.0.2&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;46cd68e1-2e88-4ba6-9970-431f6f53c13f&apos;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 87e6c7e2-ea9a-4d17-8549-b51c78e7fd2a &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:30:7b:05 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.1.13&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;b0fb0d9b-c8da-4790-888c-e190e588d551&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
++--------------------------------------+------+-------------------+--------------------------------------------------------------------------+--------+
+
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;openstackclient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/Documentos$ openstack port &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; --disable-port-security 4ff047c4-14b4-43f4-8395-7f95b4023a6a
+
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;openstackclient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/Documentos$ openstack port &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; --disable-port-security 87e6c7e2-ea9a-4d17-8549-b51c78e7fd2a
+
+&lt;span class=&quot;token comment&quot;&gt;#Comprobación de acceso&lt;/span&gt;
+fran@debian:~/Pardeclaves$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ssh&lt;/span&gt; -i pardeclaves2asir.pem debian@172.22.201.13
+The authenticity of &lt;span class=&quot;token function&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;172.22.201.13 (172.22.201.13)&apos;&lt;/span&gt; can&lt;span class=&quot;token string&quot;&gt;&apos;t be established.
+ECDSA key fingerprint is SHA256:24bafQ0pMtYZxUMY0iq2SkQ4vLigux3MHHcqMEQdYKw.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added &apos;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.201.13&apos; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ECDSA&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; to the list of known hosts.
+Linux dulcinea &lt;span class=&quot;token number&quot;&gt;4.19&lt;/span&gt;.0-11-cloud-amd64 &lt;span class=&quot;token comment&quot;&gt;#1 SMP Debian 4.19.146-1 (2020-09-17) x86_64&lt;/span&gt;
+
+The programs included with the Debian GNU/Linux system are &lt;span class=&quot;token function&quot;&gt;free&lt;/span&gt; software&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+the exact distribution terms &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; each program are described &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; the
+individual files &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Nov &lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt; 07:58:06 &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt; from &lt;span class=&quot;token number&quot;&gt;172.23&lt;/span&gt;.0.94
+debian@dulcinea:~$ &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Configuración de NAT&lt;/strong&gt;
+(Dulcinea)Activamos el bit de enrutamiento en «/etc/sysctl.conf»:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Uncomment the next line to enable packet forwarding for IPv4&lt;/span&gt;
+net.ipv4.ip_forward&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Añadimos las reglas de iptable de postrouting y las guardamos con &lt;strong&gt;iptables-save&lt;/strong&gt;, para ponerlas de nuevo usaremos &lt;strong&gt;iptables-restore&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; iptables -t nat -A POSTROUTING -s &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.0/24 -o eth1 -j MASQUERADE
+
+debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; iptables-save
+&lt;span class=&quot;token comment&quot;&gt;# Generated by xtables-save v1.8.2 on Tue Nov 24 20:36:37 2020&lt;/span&gt;
+*nat
+:PREROUTING ACCEPT &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;:0&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+:INPUT ACCEPT &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;:0&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+:POSTROUTING ACCEPT &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;:0&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+:OUTPUT ACCEPT &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;:0&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+-A POSTROUTING -s &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.0/24 -o eth1 -j MASQUERADE
+COMMIT
+&lt;span class=&quot;token comment&quot;&gt;# Completed on Tue Nov 24 20:36:37 2020&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modificamos el fichero «/etc/network/interfaces»:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#tambien añadimos la ip estatica de dulcinea&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# The normal eth0&lt;/span&gt;
+allow-hotplug eth0
+iface eth0 inet dhcp
+ address &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.8
+ netmask &lt;span class=&quot;token number&quot;&gt;255.255&lt;/span&gt;.255.0
+ broadcast &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.255
+
+&lt;span class=&quot;token comment&quot;&gt;# Additional interfaces, just in case we&apos;re using&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# multiple networks&lt;/span&gt;
+allow-hotplug eth1
+iface eth1 inet dhcp
+ address &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.8
+ netmask &lt;span class=&quot;token number&quot;&gt;255.255&lt;/span&gt;.255.0
+ broadcast &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.255
+ gateway &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ahora si podemos reiniciar nuestro servicio de red y comprobamos su conectividad:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#reinicio de la maquina&lt;/span&gt;
+debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart networking
+&lt;span class=&quot;token comment&quot;&gt;#hacemos ping a la red 10.0.0.1 y maquinas&lt;/span&gt;
+debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.1
+PING &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.1 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;84&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; bytes of data.
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.1: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.539&lt;/span&gt; ms
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.1: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.759&lt;/span&gt; ms
+--- &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.1 &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; statistics ---
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; packets transmitted, &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; received, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% packet loss, &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; 3ms
+rtt min/avg/max/mdev &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.539&lt;/span&gt;/0.649/0.759/0.110 ms
+
+debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.6
+PING &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.6 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.6&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;84&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; bytes of data.
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.6: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.031&lt;/span&gt; ms
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.6: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.071&lt;/span&gt; ms
+^C
+--- &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.6 &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; statistics ---
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; packets transmitted, &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; received, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% packet loss, &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; 24ms
+rtt min/avg/max/mdev &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.031&lt;/span&gt;/0.051/0.071/0.020 ms
+debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.9
+PING &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.9 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.9&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;84&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; bytes of data.
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.9: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.035&lt;/span&gt; ms
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.9: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.062&lt;/span&gt; ms
+^C
+--- &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.0.9 &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; statistics ---
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; packets transmitted, &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; received, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% packet loss, &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; 15ms
+rtt min/avg/max/mdev &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.035&lt;/span&gt;/0.048/0.062/0.015 ms
+
+
+&lt;span class=&quot;token comment&quot;&gt;#conexion internet&lt;/span&gt;
+debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8.8&lt;/span&gt;.8.8
+PING &lt;span class=&quot;token number&quot;&gt;8.8&lt;/span&gt;.8.8 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8.8&lt;/span&gt;.8.8&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;84&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; bytes of data.
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;8.8&lt;/span&gt;.8.8: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;112&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;41.9&lt;/span&gt; ms
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;8.8&lt;/span&gt;.8.8: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;112&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;42.3&lt;/span&gt; ms
+^C
+--- &lt;span class=&quot;token number&quot;&gt;8.8&lt;/span&gt;.8.8 &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; statistics ---
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; packets transmitted, &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; received, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% packet loss, &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; 2ms
+rtt min/avg/max/mdev &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;41.870&lt;/span&gt;/42.062/42.255/0.281 ms
+
+debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; www.google.es
+PING www.google.es &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;216.58&lt;/span&gt;.209.67&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;84&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; bytes of data.
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from mad07s22-in-f3.1e100.net &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;216.58&lt;/span&gt;.209.67&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;113&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;42.2&lt;/span&gt; ms
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from mad07s22-in-f3.1e100.net &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;216.58&lt;/span&gt;.209.67&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;113&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;55.6&lt;/span&gt; ms
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from mad07s22-in-f3.1e100.net &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;216.58&lt;/span&gt;.209.67&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;113&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;77.5&lt;/span&gt; ms
+^C
+--- www.google.es &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; statistics ---
+&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; packets transmitted, &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; received, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% packet loss, &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; 5ms
+rtt min/avg/max/mdev &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;42.222&lt;/span&gt;/58.412/77.454/14.524 ms
+
+
+&lt;span class=&quot;token comment&quot;&gt;#hacemos ping a Sancho y Quijote&lt;/span&gt;
+debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.7
+PING &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.7 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.7&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;84&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; bytes of data.
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.7: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2.05&lt;/span&gt; ms
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.7: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.701&lt;/span&gt; ms
+^C
+--- &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.7 &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; statistics ---
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; packets transmitted, &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; received, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% packet loss, &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; 3ms
+rtt min/avg/max/mdev &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.701&lt;/span&gt;/1.375/2.050/0.675 ms
+debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.10
+PING &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.10 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.10&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;84&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; bytes of data.
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.10: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2.07&lt;/span&gt; ms
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.10: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.589&lt;/span&gt; ms
+&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; bytes from &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.10: &lt;span class=&quot;token assign-left variable&quot;&gt;icmp_seq&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ttl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.748&lt;/span&gt; ms
+^C
+--- &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.10 &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; statistics ---
+&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; packets transmitted, &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; received, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% packet loss, &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; 28ms
+rtt min/avg/max/mdev &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.589&lt;/span&gt;/1.134/2.065/0.661 ms&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;Definición de contraseña en todas las instancias (para poder modificarla desde consola en caso necesario).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#Dulcinea&lt;/span&gt;
+debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;passwd&lt;/span&gt;
+New password: 
+Retype new password: 
+passwd: password updated successfully
+debian@dulcinea:~$ 
+
+&lt;span class=&quot;token comment&quot;&gt;#Sancho&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Modificamos /etc/ssh/sshd_config:&lt;/span&gt;
+PermitRootLogin &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt;
+PasswordAuthentication &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt;
+
+ubuntu@sancho:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;passwd&lt;/span&gt;
+New password: 
+Retype new password: 
+passwd: password updated successfully
+
+&lt;span class=&quot;token comment&quot;&gt;#Quijote&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;centos@quijote ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;passwd&lt;/span&gt;
+Changing password &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; user root.
+New password: 
+BAD PASSWORD: The password is shorter than &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt; characters
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;centos@quijote ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;$&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;5&quot;&gt;
 &lt;li&gt;Modificación de las instancias sancho y quijote para que usen direccionamiento estático y dulcinea como puerta de enlace.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;En /etc/netplan/50-cloud-init.yaml: &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# This file is generated from information provided by the datasource.  Changes&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# to it will not persist across an instance reboot.  To disable cloud-init&apos;s&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# network configuration capabilities, write a file&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# network: {config: disable}&lt;/span&gt;
+
+network:
+  version: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+  renderer: networkd
+  ethernets:
+    ens3:
+      dhcp4: no
+      addresses:
+        - &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.7/24
+      gateway4: &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.8
+      nameservers:
+          addresses: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.202.2, &lt;span class=&quot;token number&quot;&gt;8.8&lt;/span&gt;.8.8, &lt;span class=&quot;token number&quot;&gt;8.8&lt;/span&gt;.4.4&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;6&quot;&gt;
 &lt;li&gt;Modificación de la subred de la red interna, deshabilitando el servidor DHCP.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/301567c5817083c0a3034507ca3c77f2/8f75f/escenario5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.76967930029155%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABuklEQVQoz4WSTUsjQRCG8xOFPQmytw0EgoYN9iQzk5leL/m+ecglmAmK4C/wspc9CEayiyHHRQ9KTEAYxpiJmY+8dvXYMrtu2IKXopvup97q6synnS/Y2skim8ujsLeLvUIBxWIRBZEZY+h0OnCOujg76eP0uI9erwdHqJeS4zjodrtgGkNmO8fwOV/CV6ZDL5dQLousJ2o2m3BdF3ePz7i69fDwFGNTRFGEVquFDLctHHALpmmIChq0N5mmKYGz2QzD3zOcXNzh6saVl4MgxHK5fFcQBPB9H622ANq2DcOsoKwb2GcaaM35N7GXACeTCfy5Rx4SJ3GMWCgMQymC0ZrAdD6jm5YEkiOmlaAbJixL7BkG6vU65vO5BIVRLGBrrNdrCfg7CFitVhOHnHNUKhUBM0S2pEsq0Gg0MJ1OsVgspJv4zZ0CEpykgMkbChjntoQouCpALXieJy8QRAE2AdvtduIwDUo7JiA5pMNpd/8C+sqhAihwGkgt07dR30Ip3X4UJfBo9UfLH0VAOrBarfC/oPnfuy9Jy5uANGma2mAwwHg8xmg0+qDhcIjrXz9x/uMSh2ffUavV8ArLV723ITkNmQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/301567c5817083c0a3034507ca3c77f2/36727/escenario5.png&quot;
+        srcset=&quot;/gatsbyjs/static/301567c5817083c0a3034507ca3c77f2/acf4b/escenario5.png 173w,
+/gatsbyjs/static/301567c5817083c0a3034507ca3c77f2/fc834/escenario5.png 345w,
+/gatsbyjs/static/301567c5817083c0a3034507ca3c77f2/36727/escenario5.png 690w,
+/gatsbyjs/static/301567c5817083c0a3034507ca3c77f2/17fa4/escenario5.png 1035w,
+/gatsbyjs/static/301567c5817083c0a3034507ca3c77f2/8f75f/escenario5.png 1372w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;7&quot;&gt;
 &lt;li&gt;Utilización de ssh-agent para acceder a las instancias.&lt;/li&gt;
 &lt;li&gt;Creación del usuario profesor en todas las instancias. Usuario que puede utilizar sudo sin contraseña.&lt;/li&gt;
 &lt;li&gt;Copia de las claves públicas de todos los profesores en las instancias para que puedan acceder con el usuario profesor.&lt;/li&gt;
@@ -1362,15 +1575,212 @@ Successfully installed Django-3.1.3 asgiref-3.3.0 pytz-2020.4 sqlparse-0.4.1&lt;
 &lt;ul&gt;
 &lt;li&gt;Comprueba que vamos a trabajar con una base de datos sqlite (django_tutorial/settings.py). ¿Cómo se llama la base de datos que vamos a crear?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Siguiendo el tutorial en django_tutorial/settings.py&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;DATABASES &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&apos;ENGINE&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;django.db.backends.sqlite3&apos;&lt;/span&gt;,
+        &lt;span class=&quot;token string&quot;&gt;&apos;NAME&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; BASE_DIR / &lt;span class=&quot;token string&quot;&gt;&apos;db.sqlite3&apos;&lt;/span&gt;,
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como podemos ver, la base de datos que vamos a crear se llama &apos;db.sqlite3&apos;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Crea la base de datos: python3 manage.py migrate. A partir del modelo de datos se crean las tablas de la base de datos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial$ python3 manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, polls, sessions
+Running migrations:
+  Applying contenttypes.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying admin.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying admin.0002_logentry_remove_auto_add&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying admin.0003_logentry_add_action_flag_choices&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying contenttypes.0002_remove_content_type_name&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0002_alter_permission_name_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0003_alter_user_email_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0004_alter_user_username_opts&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0005_alter_user_last_login_null&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0006_require_contenttypes_0002&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0007_alter_validators_add_error_messages&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0008_alter_user_username_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0009_alter_user_last_name_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0010_alter_group_name_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0011_update_proxy_permissions&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0012_alter_user_first_name_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying polls.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying sessions.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;Crea un usuario administrador: python3 manage.py createsuperuser.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial$ python3 manage.py createsuperuser
+Username &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;leave blank to use &lt;span class=&quot;token string&quot;&gt;&apos;fran&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: admin
+Email address: frandh1997@gmail.com
+Password: 
+Password &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;again&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: 
+The password is too similar to the username.
+This password is too short. It must contain at least &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt; characters.
+This password is too common.
+Bypass password validation and create user anyway? &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;y/N&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: y       
+Superuser created successfully.
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/dj&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;(admin,admin)&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Ejecuta el servidor web de desarrollo y entra en la zona de administración (\admin) para comprobar que los datos se han añadido correctamente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial$ python manage.py runserver&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/ae12b139fb4f084d92310955504a0d12/b938d/django1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.06743940990516%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAAB/UlEQVQ4y63SaU8TURQG4PlNUllsS7DS0BjToM5YRflCIlqkFKuYuPyDVvg5gBop5YPYYmhroXtRuk5bgrN0hc7rnTtAWiWEGE/y5JycO/PmJjPM1ORDPOBYPLJxsN60wGTUw2K+gbFRE8zXRzBiNMAwNIhr/VehHyAG+2EaNpC9nj7DjlsxOXEfE+T9O9ZbYLgnDnAzL2Gzu2B76sLtqVmwpN9V5+l5cPZ52GZcYKdnybmD7lWs/QXFEfeeLdCM8cdOMDqnB31zbo06E1ccbgw898C4sAjLOw9GX3tgfvMeY28XMfxqCUOuJeicbujmNH0nXc1iVvzf8TFAbEWoz9tRrBHrwRh8oRjWQ3EiAW9Q675wnJ4vB3awurVLrZB5ORChmHr7GJFsGdF8FTu5CtIVEZmqhGRZRIJIdkmRsxgv4KDWhlYK/ixm/0DEh8hP+Pd4fM3w2EyX8CVVhC+e7+GNZ/Fpdw+r4TTCuSpkSUKhWESJ5yGKEuRaHfV6A4zSOQY6R7hctU8AkhpYKECWZbRaLTQaDdqZ4q8afIk8NpIF2i+yQaxFc4iVDtEiAeVKBYIg0KBms6kF8kIN3mgW336UEcpWETyHut/e5+HP5LGZyiHJH/bcW1GUMwz+sbpDej6Kuuic6nTNF9BClJ7Qsxuet7yM01v+9dvgP9dveU90QrdqyiUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/ae12b139fb4f084d92310955504a0d12/36727/django1.png&quot;
+        srcset=&quot;/gatsbyjs/static/ae12b139fb4f084d92310955504a0d12/acf4b/django1.png 173w,
+/gatsbyjs/static/ae12b139fb4f084d92310955504a0d12/fc834/django1.png 345w,
+/gatsbyjs/static/ae12b139fb4f084d92310955504a0d12/36727/django1.png 690w,
+/gatsbyjs/static/ae12b139fb4f084d92310955504a0d12/b938d/django1.png 949w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/350d131a57b065ab0be6cc5d3fb8c2e7/4d600/django2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 36.96558915537018%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABGklEQVQoz52PS0sDMRSF87u0gq5EnApaLbWISin4R3QruHDh6y8oghvxBYIrX0sRNy5E28q0zSQzk5nJzDE3jGNdKGjg49wk95zcsEpjBZWlJiZrixibqWN0eh4jU1UMl+cKSqTOVz3kzFpK5ar1jNeW4Sw0MVFvgK0dXGB1/wykm8fX2Dq5wfbpLXbP77HzI3eF7uX1xtEV1g8vwVzfRUe0LFpHALIcDOjv67Un8PDSQavLwZ7f+3h8c/HU7sKTPjxPQPpGhQDnHCqKEMUxgjBEqBTCUFm1e0Ns7rjxCCltHxt8SWttDhNkWWbqFMoY6Yz2aZp+Q+ukqKUJ880QCQWm1JxDxr8u8lBYEAR2WvYZkuWB/4F+QdC0H1T/7X87GWpNAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/350d131a57b065ab0be6cc5d3fb8c2e7/36727/django2.png&quot;
+        srcset=&quot;/gatsbyjs/static/350d131a57b065ab0be6cc5d3fb8c2e7/acf4b/django2.png 173w,
+/gatsbyjs/static/350d131a57b065ab0be6cc5d3fb8c2e7/fc834/django2.png 345w,
+/gatsbyjs/static/350d131a57b065ab0be6cc5d3fb8c2e7/36727/django2.png 690w,
+/gatsbyjs/static/350d131a57b065ab0be6cc5d3fb8c2e7/17fa4/django2.png 1035w,
+/gatsbyjs/static/350d131a57b065ab0be6cc5d3fb8c2e7/a5044/django2.png 1380w,
+/gatsbyjs/static/350d131a57b065ab0be6cc5d3fb8c2e7/4d600/django2.png 1918w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Crea dos preguntas, con posibles respuestas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/108a30b8c89c26b66cc6bcbbc8d51d20/a987b/django3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.302083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAA/ElEQVQY052O207DMAyG+96IC64QQ5vGY4C4RQyxA+wlACHEJNiYytaJ9ZAmafLhtEzdbrHyxfZvJ3Z0cj3m+GrI0eWI05sRndsxncEDZ+LPBxN6wym9+0O6e/RHUy6E/vCR7t2EaJ0VxFshzVGVQrsC7RUOQ4XGy91g92g1J2yM4nn+wWLzTfQez3lavPGynJHmOVppdKkpCoUSjLY11rTo0hxos68Vr58x65+cCJmzM2MMy1VCrmRTrbHWkmYZSZLUeagHn2Zbyr/cWEOpCirxrqqInHM475FDJYKRiUHzItQ1Iei7uKkJzrd9QugJcf1hsJD813y9UPP+F9NYxB4wSlkkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/108a30b8c89c26b66cc6bcbbc8d51d20/36727/django3.png&quot;
+        srcset=&quot;/gatsbyjs/static/108a30b8c89c26b66cc6bcbbc8d51d20/acf4b/django3.png 173w,
+/gatsbyjs/static/108a30b8c89c26b66cc6bcbbc8d51d20/fc834/django3.png 345w,
+/gatsbyjs/static/108a30b8c89c26b66cc6bcbbc8d51d20/36727/django3.png 690w,
+/gatsbyjs/static/108a30b8c89c26b66cc6bcbbc8d51d20/17fa4/django3.png 1035w,
+/gatsbyjs/static/108a30b8c89c26b66cc6bcbbc8d51d20/a5044/django3.png 1380w,
+/gatsbyjs/static/108a30b8c89c26b66cc6bcbbc8d51d20/a987b/django3.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Comprueba en el navegador que la aplicación está funcionando, accede a la url \polls.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 607px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/83dbbe7e3d3b68ee48b2fa2de7365624/4d07d/django4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 42.50411861614497%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAB10lEQVQoz1VQy27TUBD1FyV7muahPGgkHGLatNR/wabbQnAa7ARV+QcWCMRHsAJBAaFKSRtACuqmxG/Hz8TR4c51E8FidM49M3Nm7gidTgft9kMcHOwzbOP+3h6azSYeiCJarRZKpRKPer2OarWKSqWCcrmMQqGAXC6HfD6PHAXjFIIsH+Pw8AjHsgz58RH2JQmS9AiS2IIoZoZkRIa1Wo0bNhoNrhVZrrBzD6XdHRSLRRa7EHrdpzjrKVCedzHonuJcPUNP6eLZyRO8UBWoqgpN0xhqHPv9PkajEQbaANpgCOo/1xQMhy95Xrgcf8TF+BXG03f4fv0W3yav8XXyBpPf7/Hr5gKGbsMwTHjeAo7jwnU9WJaN29s/XDdNm+kez9m2A2H6Y4yr2SdMZ19w+fMDrmefcTO/gu/78BYLLFgkyRJhGHGN657HBwRBwN4Bw5DzMIwhmAabYPuwDBeeEyCJUqQrMJMEURRx3PAoirkxGYRhiDiOuU6mxAmFbG2TrexkRUmM5TJhseRTqYF013X5tv+apWnK64iv12uOwnyu8/9vmqmACilJPNvAv9sw+s9stVpt60mnxQTLcu7uQYXJdip9k4yyGyZbA+Kb/MaMdLqrruv4CwjyRmNUv4WwAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/83dbbe7e3d3b68ee48b2fa2de7365624/4d07d/django4.png&quot;
+        srcset=&quot;/gatsbyjs/static/83dbbe7e3d3b68ee48b2fa2de7365624/acf4b/django4.png 173w,
+/gatsbyjs/static/83dbbe7e3d3b68ee48b2fa2de7365624/fc834/django4.png 345w,
+/gatsbyjs/static/83dbbe7e3d3b68ee48b2fa2de7365624/4d07d/django4.png 607w&quot;
+        sizes=&quot;(max-width: 607px) 100vw, 607px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 668px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/d747241bc4b9e8ed901e2e40c3fefc0c/cc651/django5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.00598802395209%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABMElEQVQoz5VPTW+CUBDkl/XUA1rReEAbtfUH2hASoDScm/Bx8YA0xFo54AGNkQok2gpMH6+1qURTnWSym92dySzT7/C463XR6fZwT2r/toV2u41WvU5rrVZDs9lEo9EAx3HgeZ72LMuCvb7CTbX63RNWKhUwovAARZYhiiIURYYqS3hSVTxKEgaDATRN+9kpEAQBEpmrZK/rOkz9GZZlwTRNSssywQTzORznBa7r4m06xetkAs/z4Ps+DMPAbDYjewej0QjD4RC2bSMIApwCk6UpwjDEdrvFJUiJ7hiZD2I0Ho9pks1mQxlFEZIkoQd5niPLsgMWs4IF9vU3YRJH5MUpFos5TRrHMZbLJVarFTXci8r8Oz8wLBKu1+/Y7T6PvlYW/AemLD6V5GzDc964BF+lHYoc567RXgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/d747241bc4b9e8ed901e2e40c3fefc0c/cc651/django5.png&quot;
+        srcset=&quot;/gatsbyjs/static/d747241bc4b9e8ed901e2e40c3fefc0c/acf4b/django5.png 173w,
+/gatsbyjs/static/d747241bc4b9e8ed901e2e40c3fefc0c/fc834/django5.png 345w,
+/gatsbyjs/static/d747241bc4b9e8ed901e2e40c3fefc0c/cc651/django5.png 668w&quot;
+        sizes=&quot;(max-width: 668px) 100vw, 668px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (2 puntos)&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;tarea-2-entorno-de-producción&quot;&gt;&lt;a href=&quot;#tarea-2-entorno-de-producci%C3%B3n&quot; aria-label=&quot;tarea 2 entorno de producción permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Entorno de producción&lt;/h2&gt;
 &lt;p&gt;Vamos a realizar el despliegue de nuestra aplicación en un entorno de producción, para ello vamos a utilizar una instancia del cloud, sigue los siguientes pasos:&lt;/p&gt;
