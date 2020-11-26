@@ -11,7 +11,7 @@ tags:
 
 Siguiendo las directrices del Marketing Mix, hemos de reflexionar sobre los cuatro puntos que lo componen:
 
-1. ## El producto, diseñándolo teniendo en cuenta sus dimensiones.
+## 1. El producto, diseñándolo teniendo en cuenta sus dimensiones.
 
 Mi empresa consta de varios productos a ofrecer siempre de manera digital el principal el desarrollo y diseño de paginas webs,
 pero tambien consta de marketing digital en el engloba (Posicionamiento SEO, Publicidad Online, Social Media Marketing y Vender en Amazon)
@@ -25,7 +25,7 @@ Tambien atendemos al mantenimiento de dichas plataformas tanto las creadas por n
 
 Crearemos una plataforma atractiva hacia nuevos clientes para negocios que quieran adentrarse en el mundo digital o hacer un lavado de cara al entorno que ya poseen.
 
-2. ## El precio, en este apartado estableceréis vuestra política de precios y muchos más aspectos a tener en cuenta. Recordad que no se recomienda la política de precios bajos.
+## 2. El precio, en este apartado estableceréis vuestra política de precios y muchos más aspectos a tener en cuenta. Recordad que no se recomienda la política de precios bajos.
 
 Los precios son indicativos en función de los servicios requeridos,su amplitud(Local, Nacional o Internacional), el tipo de tienda que desee,etc...
 
@@ -50,7 +50,7 @@ A su vez poner una tienda digital inicial costara sobre 300€ con los primeros 
 
 Las opciones sueltas deberán de acordarse con los clientes en una reunión en función de alcance o la maginitud de las mismas.
 
-3. ## La promoción, cómo os vais a dar a conocer vuestro producto o servicio. 
+## 3. La promoción, cómo os vais a dar a conocer vuestro producto o servicio. 
 
 El primer año en el que la empresa se forme todos los lotes estaran un 20% rebajados de su precio inicial con la función de atrer nuevos clientes y darnos a conocer.
 
@@ -62,7 +62,7 @@ Tambien asistiremos a cualquier charla o feria relacionada con nuestro sector re
 
 Nos moveremos por nuestro entorno cercano ofreciendo nuestro servicios a comercios locales(Boca a Boca).
 
-4. ## La distribución, cómo haréis llegar el producto a vuestros clientes.
+## 4. La distribución, cómo haréis llegar el producto a vuestros clientes.
 
 Nuesta empresa es practicamente digital, el contacto fisico unico es con el cliente es una **reunión** que tambien se puede realizar de manera online si se desea o se es imposible el desplazamiento.
 
