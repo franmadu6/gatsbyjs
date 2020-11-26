@@ -82,6 +82,7 @@ Nos pueden encontrar donde se ubica nuestra empresa o realizar una reunion donde
 También realizaremos un posicionamiento SEO optimo de nosotros mismo para que cuando alguien busque por internet aparezca nuestra empresa de las primeras.
 
 **Añadida**  
+
 Imagen de Empresa. (Marca – diseña el nombre y justifícalo con los principios básicos de la brandemia- , colores que os representan, es decir diseñad vuestra imagen corporativa, etc.)
 
 ![PracticaImg](images/empresa/empresa-icono-plandemarketing.png "Imagen de la practica")
@@ -91,3 +92,5 @@ Imagen de Empresa. (Marca – diseña el nombre y justifícalo con los principio
 
 **Nombre:**  
 En cuanto al nombre de la empresa es un poco los conceptos que tratamos en la misma, la union mediatica y social a traves de la web que da visibilidad y personalidad a tu empresa.
+
+La tipologia elegida en el logo refuerza mas el caracter de union(Unity) que posee nuestra empresa.
