@@ -81,7 +81,7 @@ Nuestros canales de contacto son o mediante el apartado de contactos que tendra 
 Nos pueden encontrar donde se ubica nuestra empresa o realizar una reunion donde se proponga con el cliente(sitio previamente acordado).
 También realizaremos un posicionamiento SEO optimo de nosotros mismo para que cuando alguien busque por internet aparezca nuestra empresa de las primeras.
 
-**Añadida**
+**Añadida**  
 Imagen de Empresa. (Marca – diseña el nombre y justifícalo con los principios básicos de la brandemia- , colores que os representan, es decir diseñad vuestra imagen corporativa, etc.)
 
 ![PracticaImg](images/empresa/empresa-icono-plandemarketing.png "Imagen de la practica")
