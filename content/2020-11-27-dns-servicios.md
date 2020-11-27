@@ -11,11 +11,13 @@ tags:
     - Dominio
 ---
 
-#### Escenario
+### Escenario
 
 1. En nuestra red local tenemos un servidor Web que sirve dos páginas web: www.iesgn.org, departamentos.iesgn.org
 2. Vamos a instalar en nuestra red local un servidor DNS (lo puedes instalar en el mismo equipo que tiene el servidor web)
 3. Voy a suponer en este documento que el nombre del servidor DNS va a ser pandora.iesgn.org. El nombre del servidor de tu prácticas será tunombre.iesgn.org.
+
+<hr>
 
 ## Servidor DNSmasq
 
@@ -25,6 +27,8 @@ Instala el servidor dns dnsmasq en pandora.iesgn.org y configúralo para que los
 
 * Tarea 1 (1 punto): Modifica los clientes para que utilicen el nuevo servidor dns. Realiza una consulta a www.iesgn.org, y a www.josedomingo.org. Realiza una prueba de funcionamiento para comprobar que el servidor dnsmasq funciona como cache dns. Muestra el fichero hosts del cliente para demostrar que no estás utilizando resolución estática. Realiza una consulta directa al servidor dnsmasq. ¿Se puede realizar resolución inversa?. Documenta la tarea en redmine.
 </div>
+
+<hr>
 
 ## Servidor bind9
 
@@ -51,6 +55,8 @@ Desinstala el servidor dnsmasq del ejercicio anterior e instala un servidor dns 
     * La dirección IP de www.josedomingo.org
     * Una resolución inversa
 </div>
+
+<hr>
 
 ## Servidor DNS esclavo
 
@@ -79,6 +85,8 @@ El servidor DNS actual funciona como DNS maestro. Vamos a instalar un nuevo serv
     * Realiza una consulta desde el cliente y comprueba que servidor está respondiendo.
     * Posteriormente apaga el servidor maestro y vuelve a realizar una consulta desde el cliente ¿quién responde?
 </div>
+
+<hr>
 
 ## Delegación de dominios
 
