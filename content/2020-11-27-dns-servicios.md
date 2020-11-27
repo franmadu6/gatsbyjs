@@ -40,6 +40,9 @@ Desinstala el servidor dnsmasq del ejercicio anterior e instala un servidor dns 
 <div style="background-color:#ff5733; border-radius:1em;  border-color: black;">
 
 * Tarea 2 (1 puntos): Realiza la instalación y configuración del servidor bind9 con las características anteriomente señaladas. Entrega las zonas que has definido. Muestra al profesor su funcionamiento.
+</div>
+
+<div style="background-color:#ff5733; border-radius:1em;  border-color: black;">
 
 * Tarea 3 (1 puntos): Realiza las consultas dig/nslookup desde los clientes preguntando por los siguientes:
     * Dirección de pandora.iesgn.org, www.iesgn.org, ftp.iesgn.org
@@ -60,10 +63,18 @@ El servidor DNS actual funciona como DNS maestro. Vamos a instalar un nuevo serv
     * Comprueba si la configuración de named.conf tiene algún error con el comando adecuado.
     * Reinicia los servidores y comprueba en los logs si hay algún error. No olvides incrementar el número de serie en el registro SOA si has modificado la zona en el maestro.
     * Muestra la salida del log donde se demuestra que se ha realizado la transferencia de zona.
+</div>
+
+<div style="background-color:#ff5733; border-radius:1em; border-color: black;">
+
 * Tarea 5 (1 punto): Documenta los siguientes apartados:
     * Configura un cliente para que utilice los dos servidores como servidores DNS.
     * Realiza una consulta con dig tanto al maestro como al esclavo para comprobar que las respuestas son autorizadas. ¿En qué te tienes que fijar?
     * Solicita una copia completa de la zona desde el cliente ¿qué tiene que ocurrir?. Solicita una copia completa desde el esclavo ¿qué tiene que ocurrir?
+</div>
+
+<div style="background-color:#ff5733; border-radius:1em; border-color: black;">
+
 * Tarea 6 (1 punto): Muestra al profesor el funcionamiento del DNS esclavo:
     * Realiza una consulta desde el cliente y comprueba que servidor está respondiendo.
     * Posteriormente apaga el servidor maestro y vuelve a realizar una consulta desde el cliente ¿quién responde?
@@ -81,9 +92,13 @@ Los nombres que vamos a tener en ese subdominio son los siguientes:
 * www.informatica.iesgn.org corresponde a un sitio web que está alojado en el servidor web del departamento de informática.
 * Vamos a suponer que tenemos un servidor ftp que se llame ftp.informatica.iesgn.org y que está en la misma máquina.
 * Vamos a suponer que tenemos un servidor para recibir los correos que se llame correo.informatica.iesgn.org.
+
 <div style="background-color:#ff5733; border-radius:1em; border-color: black;">
 
 * Tarea 7 (2 puntos): Realiza la instalación y configuración del nuevo servidor dns con las características anteriormente señaladas. Muestra el resultado al profesor.
+</div>
+
+<div style="background-color:#ff5733; border-radius:1em; border-color: black;">
 
 * Tarea 8 (1 punto): Realiza las consultas dig/neslookup desde los clientes preguntando por los siguientes:
     * Dirección de www.informatica.iesgn.org, ftp.informatica.iesgn.org
