@@ -48,6 +48,7 @@ Desinstala el servidor dnsmasq del ejercicio anterior e instala un servidor dns 
     * La dirección IP de www.josedomingo.org
     * Una resolución inversa
 </div>
+
 ## Servidor DNS esclavo
 
 El servidor DNS actual funciona como DNS maestro. Vamos a instalar un nuevo servidor DNS que va a estar configurado como DNS esclavo del anterior, donde se van a ir copiando periódicamente las zonas del DNS maestro. Suponemos que el nombre del servidor DNS esclavo se va llamar afrodita.iesgn.org.
@@ -67,6 +68,7 @@ El servidor DNS actual funciona como DNS maestro. Vamos a instalar un nuevo serv
     * Realiza una consulta desde el cliente y comprueba que servidor está respondiendo.
     * Posteriormente apaga el servidor maestro y vuelve a realizar una consulta desde el cliente ¿quién responde?
 </div>
+
 ## Delegación de dominios
 
 Tenemos un servidor DNS que gestiona la zona correspondiente al nombre de dominio iesgn.org, en esta ocasión queremos delegar el subdominio informatica.iesgn.org para que lo gestione otro servidor DNS. Por lo tanto tenemos un escenario con dos servidores DNS:
