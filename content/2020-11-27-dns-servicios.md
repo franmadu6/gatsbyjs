@@ -21,7 +21,8 @@ tags:
 
 Instala el servidor dns dnsmasq en pandora.iesgn.org y configúralo para que los clientes puedan conocer los nombres necesarios.
 
-<div style="background-color:#ff5733; border-radius:1em;  border-color: black;">
+<div style="background-color:#ff5733; border-radius:0.5em;  border-color: black;">
+
 * Tarea 1 (1 punto): Modifica los clientes para que utilicen el nuevo servidor dns. Realiza una consulta a www.iesgn.org, y a www.josedomingo.org. Realiza una prueba de funcionamiento para comprobar que el servidor dnsmasq funciona como cache dns. Muestra el fichero hosts del cliente para demostrar que no estás utilizando resolución estática. Realiza una consulta directa al servidor dnsmasq. ¿Se puede realizar resolución inversa?. Documenta la tarea en redmine.
 </div>
 
