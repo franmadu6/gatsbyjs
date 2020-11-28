@@ -365,7 +365,7 @@ Dependency Installed:
 Complete!
 ```
 
-Con estos requisitos cumplidos comenzaremos nuestra **actualización** a centos8.
+## Con estos requisitos cumplidos comenzaremos nuestra **actualización** a CentOS8.
 
 ```shell
 [centos@quijote ~]$ sudo dnf upgrade -y
@@ -407,7 +407,7 @@ Upgraded:
 Complete!
 ```
 
-Habilitamos los repositorios de centOS8:
+Habilitamos los repositorios de CentOS8:
 ```shell
 [centos@quijote ~]$ sudo dnf install http://mirror.centos.org/centos/8/BaseOS/x86_64/os/Packages/centos-repos-8.2-2.2004.0.1.el8.x86_64.rpm http://mirror.centos.org/centos/8/BaseOS/x86_64/os/Packages/centos-release-8.2-2.2004.0.1.el8.x86_64.rpm http://mirror.centos.org/centos/8/BaseOS/x86_64/os/Packages/centos-gpg-keys-8.2-2.2004.0.1.el8.noarch.rpm
 Extra Packages for Enterprise Linux 7 - x86_64            7.3 MB/s |  16 MB     00:02    
@@ -507,7 +507,7 @@ Upgraded:
 Complete!
 ```
 
-nueva cache:
+Crea cache de metadatos:
 ```shell
 [centos@quijote ~]$ dnf makecache
 Extra Packages for Enterprise Linux 8 - x86_64            5.4 MB/s | 8.4 MB     00:01    
@@ -541,8 +541,8 @@ Nos salian varios errores atribuibles a librerias python para solucionarlo actua
 [centos@quijote ~]$ sudo rpm -e --justdb --nodeps python3-pip-9.0.3-8.el7.noarch
 [centos@quijote ~]$ sudo rpm -e --justdb --nodeps vim-minimal
 ```
-Ahora nos da error por el paquete yum ya que estoy usando rpm no sera necesario conservarlo lo eliminaremos:
 
+Ahora nos da error por el paquete yum ya que estoy usando rpm no sera necesario conservarlo lo eliminaremos:
 ```shell
 [centos@quijote ~]$ sudo dnf -y remove yum yum-metadata-parser
 Dependencies resolved.
@@ -2201,3 +2201,5 @@ CENTOS_MANTISBT_PROJECT_VERSION="8"
 REDHAT_SUPPORT_PRODUCT="centos"
 REDHAT_SUPPORT_PRODUCT_VERSION="8"
 ```
+
+Listo ya tenemos actualizado nuestro sistema de CentOS7 a CentOS8!.
