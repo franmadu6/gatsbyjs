@@ -1628,8 +1628,576 @@ Complete!
 
 Realizaremos las instalacion minimal del sistema:
 ```shell
- [centos@quijote ~]$ sudo dnf -y groupupdate "Core" "Minimal Install" --allowerasing --skip-broken
+[centos@quijote ~]$ sudo dnf -y groupupdate "Core" "Minimal Install" --allowerasing --skip-broken
+error: rpmdb: BDB0113 Thread/process 18468/139693280139072 failed: BDB1507 Thread died in Berkeley DB library
+error: db5 error(-30973) from dbenv->failchk: BDB0087 DB_RUNRECOVERY: Fatal error, run database recovery
+error: cannot open Packages index using db5 -  (-30973)
+error: cannot open Packages database in /var/lib/rpm
+Error: Error: rpmdb open failed
 ```
-Al realizar el comando la maquina se paro al hacer running transantion, no puedo acceder a Horizon para verificar mi maquina cuando vuelva a estar operativo procedere a terminar la practica.
 
-Basicamente quedaba reiniciarla y una vez echo eso comprobar el resultado que deberia ser su correcta actualización.
+Solución:
+```shell
+[centos@quijote ~]$ sudo mkdir /var/lib/rpm/backup
+[centos@quijote ~]$ sudo cp -a /var/lib/rpm/__db* /var/lib/rpm/backup/
+[centos@quijote ~]$ sudo rm -f /var/lib/rpm/__db.[0-9][0-9]*
+[centos@quijote ~]$ sudo rpm --quiet -qa
+```
+
+Volvemos a realizar la instalación:
+```shell
+centos@quijote ~]$ sudo dnf -y groupupdate "Core" "Minimal Install" --allowerasing --skip-broken
+Last metadata expiration check: 0:57:10 ago on Sat 28 Nov 2020 05:13:36 PM UTC.
+Dependencies resolved.
+===========================================================================================================================================================================
+ Package                                         Architecture                  Version                                              Repository                        Size
+===========================================================================================================================================================================
+Upgrading:
+ basesystem                                      noarch                        11-5.el8                                             BaseOS                            10 k
+ bash                                            x86_64                        4.4.19-10.el8                                        BaseOS                           1.5 M
+ coreutils                                       x86_64                        8.30-7.el8_2.1                                       BaseOS                           1.2 M
+ cronie                                          x86_64                        1.5.2-4.el8                                          BaseOS                           118 k
+ cronie-anacron                                  x86_64                        1.5.2-4.el8                                          BaseOS                            41 k
+ curl                                            x86_64                        7.61.1-12.el8                                        BaseOS                           353 k
+ dracut                                          x86_64                        049-70.git20200228.el8                               BaseOS                           365 k
+ dracut-config-generic                           x86_64                        049-70.git20200228.el8                               BaseOS                            52 k
+ dracut-config-rescue                            x86_64                        049-70.git20200228.el8                               BaseOS                            54 k
+ dracut-network                                  x86_64                        049-70.git20200228.el8                               BaseOS                           100 k
+ e2fsprogs                                       x86_64                        1.45.4-3.el8                                         BaseOS                           1.0 M
+ e2fsprogs-libs                                  x86_64                        1.45.4-3.el8                                         BaseOS                           231 k
+ filesystem                                      x86_64                        3.8-2.el8                                            BaseOS                           1.1 M
+ glib2                                           x86_64                        2.56.4-8.el8                                         BaseOS                           2.5 M
+ hostname                                        x86_64                        3.20-6.el8                                           BaseOS                            32 k
+ iproute                                         x86_64                        5.3.0-1.el8                                          BaseOS                           656 k
+ iputils                                         x86_64                        20180629-2.el8                                       BaseOS                           148 k
+ kbd                                             x86_64                        2.0.4-8.el8                                          BaseOS                           392 k
+ kbd-legacy                                      noarch                        2.0.4-8.el8                                          BaseOS                           481 k
+ kbd-misc                                        noarch                        2.0.4-8.el8                                          BaseOS                           1.4 M
+ kernel-tools                                    x86_64                        4.18.0-193.28.1.el8_2                                BaseOS                           3.0 M
+ kernel-tools-libs                               x86_64                        4.18.0-193.28.1.el8_2                                BaseOS                           2.8 M
+ kexec-tools                                     x86_64                        2.0.20-14.el8                                        BaseOS                           485 k
+ kmod-libs                                       x86_64                        25-16.el8                                            BaseOS                            68 k
+ less                                            x86_64                        530-1.el8                                            BaseOS                           164 k
+ libcom_err                                      x86_64                        1.45.4-3.el8                                         BaseOS                            49 k
+ libcurl                                         x86_64                        7.61.1-12.el8                                        BaseOS                           298 k
+ libss                                           x86_64                        1.45.4-3.el8                                         BaseOS                            53 k
+ libsysfs                                        x86_64                        2.1.0-24.el8                                         BaseOS                            53 k
+ lshw                                            x86_64                        B.02.18-23.el8                                       BaseOS                           322 k
+ microcode_ctl                                   x86_64                        4:20191115-4.20200609.1.el8_2                        BaseOS                           2.7 M
+ passwd                                          x86_64                        0.80-3.el8                                           BaseOS                           115 k
+ procps-ng                                       x86_64                        3.3.15-1.el8                                         BaseOS                           329 k
+ rootfiles                                       noarch                        8.1-22.el8                                           BaseOS                            13 k
+ rsyslog                                         x86_64                        8.1911.0-3.el8                                       AppStream                        730 k
+ setup                                           noarch                        2.12.2-5.el8                                         BaseOS                           180 k
+ shadow-utils                                    x86_64                        2:4.6-8.el8                                          BaseOS                           1.2 M
+Installing group/module packages:
+ NetworkManager                                  x86_64                        1:1.22.8-5.el8_2                                     BaseOS                           2.3 M
+ NetworkManager-team                             x86_64                        1:1.22.8-5.el8_2                                     BaseOS                           136 k
+ NetworkManager-tui                              x86_64                        1:1.22.8-5.el8_2                                     BaseOS                           306 k
+ biosdevname                                     x86_64                        0.7.3-2.el8                                          BaseOS                            44 k
+ dnf-plugins-core                                noarch                        4.0.12-4.el8_2                                       BaseOS                            64 k
+ iprutils                                        x86_64                        2.4.18.1-1.el8                                       BaseOS                           256 k
+ iwl100-firmware                                 noarch                        39.31.5.1-97.el8.1                                   BaseOS                           167 k
+ iwl1000-firmware                                noarch                        1:39.31.5.1-97.el8.1                                 BaseOS                           230 k
+ iwl105-firmware                                 noarch                        18.168.6.1-97.el8.1                                  BaseOS                           251 k
+ iwl135-firmware                                 noarch                        18.168.6.1-97.el8.1                                  BaseOS                           260 k
+ iwl2000-firmware                                noarch                        18.168.6.1-97.el8.1                                  BaseOS                           254 k
+ iwl2030-firmware                                noarch                        18.168.6.1-97.el8.1                                  BaseOS                           262 k
+ iwl3160-firmware                                noarch                        1:25.30.13.0-97.el8.1                                BaseOS                           1.7 M
+ iwl3945-firmware                                noarch                        15.32.2.9-97.el8.1                                   BaseOS                           105 k
+ iwl4965-firmware                                noarch                        228.61.2.24-97.el8.1                                 BaseOS                           118 k
+ iwl5000-firmware                                noarch                        8.83.5.1_1-97.el8.1                                  BaseOS                           311 k
+ iwl5150-firmware                                noarch                        8.24.2.2-97.el8.1                                    BaseOS                           163 k
+ iwl6000-firmware                                noarch                        9.221.4.1-97.el8.1                                   BaseOS                           184 k
+ iwl6000g2a-firmware                             noarch                        18.168.6.1-97.el8.1                                  BaseOS                           326 k
+ iwl6050-firmware                                noarch                        41.28.5.1-97.el8.1                                   BaseOS                           259 k
+ iwl7260-firmware                                noarch                        1:25.30.13.0-97.el8.1                                BaseOS                            10 M
+ lsscsi                                          x86_64                        0.30-1.el8                                           BaseOS                            69 k
+ plymouth                                        x86_64                        0.9.3-16.el8                                         AppStream                        114 k
+ prefixdevname                                   x86_64                        0.1.0-6.el8                                          BaseOS                           466 k
+ rng-tools                                       x86_64                        6.8-3.el8                                            BaseOS                            59 k
+ yum                                             noarch                        4.2.17-7.el8_2                                       BaseOS                           191 k
+Installing dependencies:
+ NetworkManager-libnm                            x86_64                        1:1.22.8-5.el8_2                                     BaseOS                           1.7 M
+ brotli                                          x86_64                        1.0.6-1.el8                                          BaseOS                           323 k
+ coreutils-common                                x86_64                        8.30-7.el8_2.1                                       BaseOS                           2.0 M
+ dracut-squash                                   x86_64                        049-70.git20200228.el8                               BaseOS                            54 k
+ fuse-libs                                       x86_64                        2.9.7-12.el8                                         BaseOS                           102 k
+ libkcapi                                        x86_64                        1.1.1-16_1.el8                                       BaseOS                            47 k
+ libkcapi-hmaccalc                               x86_64                        1.1.1-16_1.el8                                       BaseOS                            30 k
+ libmetalink                                     x86_64                        0.1.3-7.el8                                          BaseOS                            32 k
+ libnghttp2                                      x86_64                        1.33.0-3.el8_2.1                                     BaseOS                            77 k
+ libpsl                                          x86_64                        0.20.2-5.el8                                         BaseOS                            61 k
+ libssh                                          x86_64                        0.9.0-4.el8                                          BaseOS                           243 k
+ libssh-config                                   noarch                        0.9.0-4.el8                                          BaseOS                            18 k
+ plymouth-core-libs                              x86_64                        0.9.3-16.el8                                         AppStream                        115 k
+ plymouth-scripts                                x86_64                        0.9.3-16.el8                                         AppStream                         42 k
+ publicsuffix-list-dafsa                         noarch                        20180723-1.el8                                       BaseOS                            56 k
+ python3-dateutil                                noarch                        1:2.6.1-6.el8                                        BaseOS                           251 k
+ python3-dnf-plugins-core                        noarch                        4.0.12-4.el8_2                                       BaseOS                           204 k
+ squashfs-tools                                  x86_64                        4.3-19.el8                                           BaseOS                           165 k
+Installing weak dependencies:
+ pigz                                            x86_64                        2.4-4.el8                                            BaseOS                            79 k
+Installing Environment Groups:
+ Minimal Install                                                                                                                                                          
+Installing Groups:
+ Core                                                                                                                                                                     
+
+Transaction Summary
+===========================================================================================================================================================================
+Install  45 Packages
+Upgrade  37 Packages
+
+Total size: 48 M
+Downloading Packages:
+[SKIPPED] plymouth-0.9.3-16.el8.x86_64.rpm: Already downloaded                                                                                                            
+[SKIPPED] plymouth-core-libs-0.9.3-16.el8.x86_64.rpm: Already downloaded                                                                                                  
+[SKIPPED] plymouth-scripts-0.9.3-16.el8.x86_64.rpm: Already downloaded                                                                                                    
+[SKIPPED] NetworkManager-1.22.8-5.el8_2.x86_64.rpm: Already downloaded                                                                                                    
+[SKIPPED] NetworkManager-libnm-1.22.8-5.el8_2.x86_64.rpm: Already downloaded                                                                                              
+[SKIPPED] NetworkManager-team-1.22.8-5.el8_2.x86_64.rpm: Already downloaded                                                                                               
+[SKIPPED] NetworkManager-tui-1.22.8-5.el8_2.x86_64.rpm: Already downloaded                                                                                                
+[SKIPPED] biosdevname-0.7.3-2.el8.x86_64.rpm: Already downloaded                                                                                                          
+[SKIPPED] brotli-1.0.6-1.el8.x86_64.rpm: Already downloaded                                                                                                               
+[SKIPPED] coreutils-common-8.30-7.el8_2.1.x86_64.rpm: Already downloaded                                                                                                  
+[SKIPPED] dnf-plugins-core-4.0.12-4.el8_2.noarch.rpm: Already downloaded                                                                                                  
+[SKIPPED] dracut-squash-049-70.git20200228.el8.x86_64.rpm: Already downloaded                                                                                             
+[SKIPPED] fuse-libs-2.9.7-12.el8.x86_64.rpm: Already downloaded                                                                                                           
+[SKIPPED] iprutils-2.4.18.1-1.el8.x86_64.rpm: Already downloaded                                                                                                          
+[SKIPPED] iwl100-firmware-39.31.5.1-97.el8.1.noarch.rpm: Already downloaded                                                                                               
+[SKIPPED] iwl1000-firmware-39.31.5.1-97.el8.1.noarch.rpm: Already downloaded                                                                                              
+[SKIPPED] iwl105-firmware-18.168.6.1-97.el8.1.noarch.rpm: Already downloaded                                                                                              
+[SKIPPED] iwl135-firmware-18.168.6.1-97.el8.1.noarch.rpm: Already downloaded                                                                                              
+[SKIPPED] iwl2000-firmware-18.168.6.1-97.el8.1.noarch.rpm: Already downloaded                                                                                             
+[SKIPPED] iwl2030-firmware-18.168.6.1-97.el8.1.noarch.rpm: Already downloaded                                                                                             
+[SKIPPED] iwl3160-firmware-25.30.13.0-97.el8.1.noarch.rpm: Already downloaded                                                                                             
+[SKIPPED] iwl3945-firmware-15.32.2.9-97.el8.1.noarch.rpm: Already downloaded                                                                                              
+[SKIPPED] iwl4965-firmware-228.61.2.24-97.el8.1.noarch.rpm: Already downloaded                                                                                            
+[SKIPPED] iwl5000-firmware-8.83.5.1_1-97.el8.1.noarch.rpm: Already downloaded                                                                                             
+[SKIPPED] iwl5150-firmware-8.24.2.2-97.el8.1.noarch.rpm: Already downloaded                                                                                               
+[SKIPPED] iwl6000-firmware-9.221.4.1-97.el8.1.noarch.rpm: Already downloaded                                                                                              
+[SKIPPED] iwl6000g2a-firmware-18.168.6.1-97.el8.1.noarch.rpm: Already downloaded                                                                                          
+[SKIPPED] iwl6050-firmware-41.28.5.1-97.el8.1.noarch.rpm: Already downloaded                                                                                              
+[SKIPPED] iwl7260-firmware-25.30.13.0-97.el8.1.noarch.rpm: Already downloaded                                                                                             
+[SKIPPED] libkcapi-1.1.1-16_1.el8.x86_64.rpm: Already downloaded                                                                                                          
+[SKIPPED] libkcapi-hmaccalc-1.1.1-16_1.el8.x86_64.rpm: Already downloaded                                                                                                 
+[SKIPPED] libmetalink-0.1.3-7.el8.x86_64.rpm: Already downloaded                                                                                                          
+[SKIPPED] libnghttp2-1.33.0-3.el8_2.1.x86_64.rpm: Already downloaded                                                                                                      
+[SKIPPED] libpsl-0.20.2-5.el8.x86_64.rpm: Already downloaded                                                                                                              
+[SKIPPED] libssh-0.9.0-4.el8.x86_64.rpm: Already downloaded                                                                                                               
+[SKIPPED] libssh-config-0.9.0-4.el8.noarch.rpm: Already downloaded                                                                                                        
+[SKIPPED] lsscsi-0.30-1.el8.x86_64.rpm: Already downloaded                                                                                                                
+[SKIPPED] pigz-2.4-4.el8.x86_64.rpm: Already downloaded                                                                                                                   
+[SKIPPED] prefixdevname-0.1.0-6.el8.x86_64.rpm: Already downloaded                                                                                                        
+[SKIPPED] publicsuffix-list-dafsa-20180723-1.el8.noarch.rpm: Already downloaded                                                                                           
+[SKIPPED] python3-dateutil-2.6.1-6.el8.noarch.rpm: Already downloaded                                                                                                     
+[SKIPPED] python3-dnf-plugins-core-4.0.12-4.el8_2.noarch.rpm: Already downloaded                                                                                          
+[SKIPPED] rng-tools-6.8-3.el8.x86_64.rpm: Already downloaded                                                                                                              
+[SKIPPED] squashfs-tools-4.3-19.el8.x86_64.rpm: Already downloaded                                                                                                        
+[SKIPPED] yum-4.2.17-7.el8_2.noarch.rpm: Already downloaded                                                                                                               
+[SKIPPED] rsyslog-8.1911.0-3.el8.x86_64.rpm: Already downloaded                                                                                                           
+[SKIPPED] basesystem-11-5.el8.noarch.rpm: Already downloaded                                                                                                              
+[SKIPPED] bash-4.4.19-10.el8.x86_64.rpm: Already downloaded                                                                                                               
+[SKIPPED] coreutils-8.30-7.el8_2.1.x86_64.rpm: Already downloaded                                                                                                         
+[SKIPPED] cronie-1.5.2-4.el8.x86_64.rpm: Already downloaded                                                                                                               
+[SKIPPED] cronie-anacron-1.5.2-4.el8.x86_64.rpm: Already downloaded                                                                                                       
+[SKIPPED] curl-7.61.1-12.el8.x86_64.rpm: Already downloaded                                                                                                               
+[SKIPPED] dracut-049-70.git20200228.el8.x86_64.rpm: Already downloaded                                                                                                    
+[SKIPPED] dracut-config-generic-049-70.git20200228.el8.x86_64.rpm: Already downloaded                                                                                     
+[SKIPPED] dracut-config-rescue-049-70.git20200228.el8.x86_64.rpm: Already downloaded                                                                                      
+[SKIPPED] dracut-network-049-70.git20200228.el8.x86_64.rpm: Already downloaded                                                                                            
+[SKIPPED] e2fsprogs-1.45.4-3.el8.x86_64.rpm: Already downloaded                                                                                                           
+[SKIPPED] e2fsprogs-libs-1.45.4-3.el8.x86_64.rpm: Already downloaded                                                                                                      
+[SKIPPED] filesystem-3.8-2.el8.x86_64.rpm: Already downloaded                                                                                                             
+[SKIPPED] glib2-2.56.4-8.el8.x86_64.rpm: Already downloaded                                                                                                               
+[SKIPPED] hostname-3.20-6.el8.x86_64.rpm: Already downloaded                                                                                                              
+[SKIPPED] iproute-5.3.0-1.el8.x86_64.rpm: Already downloaded                                                                                                              
+[SKIPPED] iputils-20180629-2.el8.x86_64.rpm: Already downloaded                                                                                                           
+[SKIPPED] kbd-2.0.4-8.el8.x86_64.rpm: Already downloaded                                                                                                                  
+[SKIPPED] kbd-legacy-2.0.4-8.el8.noarch.rpm: Already downloaded                                                                                                           
+[SKIPPED] kbd-misc-2.0.4-8.el8.noarch.rpm: Already downloaded                                                                                                             
+[SKIPPED] kernel-tools-4.18.0-193.28.1.el8_2.x86_64.rpm: Already downloaded                                                                                               
+[SKIPPED] kernel-tools-libs-4.18.0-193.28.1.el8_2.x86_64.rpm: Already downloaded                                                                                          
+[SKIPPED] kexec-tools-2.0.20-14.el8.x86_64.rpm: Already downloaded                                                                                                        
+[SKIPPED] kmod-libs-25-16.el8.x86_64.rpm: Already downloaded                                                                                                              
+[SKIPPED] less-530-1.el8.x86_64.rpm: Already downloaded                                                                                                                   
+[SKIPPED] libcom_err-1.45.4-3.el8.x86_64.rpm: Already downloaded                                                                                                          
+[SKIPPED] libcurl-7.61.1-12.el8.x86_64.rpm: Already downloaded                                                                                                            
+[SKIPPED] libss-1.45.4-3.el8.x86_64.rpm: Already downloaded                                                                                                               
+[SKIPPED] libsysfs-2.1.0-24.el8.x86_64.rpm: Already downloaded                                                                                                            
+[SKIPPED] lshw-B.02.18-23.el8.x86_64.rpm: Already downloaded                                                                                                              
+[SKIPPED] microcode_ctl-20191115-4.20200609.1.el8_2.x86_64.rpm: Already downloaded                                                                                        
+[SKIPPED] passwd-0.80-3.el8.x86_64.rpm: Already downloaded                                                                                                                
+[SKIPPED] procps-ng-3.3.15-1.el8.x86_64.rpm: Already downloaded                                                                                                           
+[SKIPPED] rootfiles-8.1-22.el8.noarch.rpm: Already downloaded                                                                                                             
+[SKIPPED] setup-2.12.2-5.el8.noarch.rpm: Already downloaded                                                                                                               
+[SKIPPED] shadow-utils-4.6-8.el8.x86_64.rpm: Already downloaded                                                                                                           
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Running scriptlet: filesystem-3.8-2.el8.x86_64                                                                                                                       1/1 
+warning: Unable to get systemd shutdown inhibition lock: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+
+  Preparing        :                                                                                                                                                   1/1 
+  Running scriptlet: libcom_err-1.45.4-3.el8.x86_64                                                                                                                    1/1 
+  Upgrading        : libcom_err-1.45.4-3.el8.x86_64                                                                                                                  1/119 
+  Running scriptlet: libcom_err-1.45.4-3.el8.x86_64                                                                                                                  1/119 
+  Upgrading        : setup-2.12.2-5.el8.noarch                                                                                                                       2/119 
+warning: /etc/group created as /etc/group.rpmnew
+warning: /etc/gshadow created as /etc/gshadow.rpmnew
+warning: /etc/passwd created as /etc/passwd.rpmnew
+warning: /etc/shadow created as /etc/shadow.rpmnew
+
+  Running scriptlet: setup-2.12.2-5.el8.noarch                                                                                                                       2/119 
+  Upgrading        : filesystem-3.8-2.el8.x86_64                                                                                                                     3/119 
+  Upgrading        : bash-4.4.19-10.el8.x86_64                                                                                                                       4/119 
+  Running scriptlet: bash-4.4.19-10.el8.x86_64                                                                                                                       4/119 
+  Upgrading        : glib2-2.56.4-8.el8.x86_64                                                                                                                       5/119 
+  Installing       : NetworkManager-libnm-1:1.22.8-5.el8_2.x86_64                                                                                                    6/119 
+  Running scriptlet: NetworkManager-libnm-1:1.22.8-5.el8_2.x86_64                                                                                                    6/119 
+  Installing       : coreutils-common-8.30-7.el8_2.1.x86_64                                                                                                          7/119 
+  Running scriptlet: coreutils-common-8.30-7.el8_2.1.x86_64                                                                                                          7/119 
+  Upgrading        : coreutils-8.30-7.el8_2.1.x86_64                                                                                                                 8/119 
+  Upgrading        : cronie-1.5.2-4.el8.x86_64                                                                                                                       9/119 
+  Running scriptlet: cronie-1.5.2-4.el8.x86_64                                                                                                                       9/119 
+  Upgrading        : cronie-anacron-1.5.2-4.el8.x86_64                                                                                                              10/119 
+  Running scriptlet: cronie-anacron-1.5.2-4.el8.x86_64                                                                                                              10/119 
+  Upgrading        : iproute-5.3.0-1.el8.x86_64                                                                                                                     11/119 
+  Upgrading        : iputils-20180629-2.el8.x86_64                                                                                                                  12/119 
+  Running scriptlet: iputils-20180629-2.el8.x86_64                                                                                                                  12/119 
+  Upgrading        : kernel-tools-libs-4.18.0-193.28.1.el8_2.x86_64                                                                                                 13/119 
+  Running scriptlet: kernel-tools-libs-4.18.0-193.28.1.el8_2.x86_64                                                                                                 13/119 
+  Upgrading        : e2fsprogs-libs-1.45.4-3.el8.x86_64                                                                                                             14/119 
+  Running scriptlet: e2fsprogs-libs-1.45.4-3.el8.x86_64                                                                                                             14/119 
+  Upgrading        : libss-1.45.4-3.el8.x86_64                                                                                                                      15/119 
+  Running scriptlet: libss-1.45.4-3.el8.x86_64                                                                                                                      15/119 
+  Upgrading        : procps-ng-3.3.15-1.el8.x86_64                                                                                                                  16/119 
+  Upgrading        : libsysfs-2.1.0-24.el8.x86_64                                                                                                                   17/119 
+  Running scriptlet: libsysfs-2.1.0-24.el8.x86_64                                                                                                                   17/119 
+  Upgrading        : kmod-libs-25-16.el8.x86_64                                                                                                                     18/119 
+  Running scriptlet: kmod-libs-25-16.el8.x86_64                                                                                                                     18/119 
+  Upgrading        : kbd-misc-2.0.4-8.el8.noarch                                                                                                                    19/119 
+  Upgrading        : kbd-legacy-2.0.4-8.el8.noarch                                                                                                                  20/119 
+  Installing       : squashfs-tools-4.3-19.el8.x86_64                                                                                                               21/119 
+  Installing       : python3-dateutil-1:2.6.1-6.el8.noarch                                                                                                          22/119 
+  Installing       : python3-dnf-plugins-core-4.0.12-4.el8_2.noarch                                                                                                 23/119 
+  Installing       : publicsuffix-list-dafsa-20180723-1.el8.noarch                                                                                                  24/119 
+  Installing       : libpsl-0.20.2-5.el8.x86_64                                                                                                                     25/119 
+  Installing       : pigz-2.4-4.el8.x86_64                                                                                                                          26/119 
+  Installing       : libssh-config-0.9.0-4.el8.noarch                                                                                                               27/119 
+  Installing       : libssh-0.9.0-4.el8.x86_64                                                                                                                      28/119 
+  Installing       : libnghttp2-1.33.0-3.el8_2.1.x86_64                                                                                                             29/119 
+  Installing       : libmetalink-0.1.3-7.el8.x86_64                                                                                                                 30/119 
+  Installing       : libkcapi-1.1.1-16_1.el8.x86_64                                                                                                                 31/119 
+  Installing       : libkcapi-hmaccalc-1.1.1-16_1.el8.x86_64                                                                                                        32/119 
+  Upgrading        : dracut-049-70.git20200228.el8.x86_64                                                                                                           33/119 
+  Installing       : dracut-squash-049-70.git20200228.el8.x86_64                                                                                                    34/119 
+  Upgrading        : dracut-network-049-70.git20200228.el8.x86_64                                                                                                   35/119 
+  Installing       : fuse-libs-2.9.7-12.el8.x86_64                                                                                                                  36/119 
+  Running scriptlet: fuse-libs-2.9.7-12.el8.x86_64                                                                                                                  36/119 
+  Installing       : brotli-1.0.6-1.el8.x86_64                                                                                                                      37/119 
+  Upgrading        : libcurl-7.61.1-12.el8.x86_64                                                                                                                   38/119 
+  Running scriptlet: NetworkManager-1:1.22.8-5.el8_2.x86_64                                                                                                         39/119 
+  Installing       : NetworkManager-1:1.22.8-5.el8_2.x86_64                                                                                                         39/119 
+  Running scriptlet: NetworkManager-1:1.22.8-5.el8_2.x86_64                                                                                                         39/119 
+  Installing       : plymouth-core-libs-0.9.3-16.el8.x86_64                                                                                                         40/119 
+  Running scriptlet: plymouth-core-libs-0.9.3-16.el8.x86_64                                                                                                         40/119 
+  Installing       : plymouth-scripts-0.9.3-16.el8.x86_64                                                                                                           41/119 
+  Installing       : plymouth-0.9.3-16.el8.x86_64                                                                                                                   42/119 
+  Installing       : NetworkManager-team-1:1.22.8-5.el8_2.x86_64                                                                                                    43/119 
+  Installing       : NetworkManager-tui-1:1.22.8-5.el8_2.x86_64                                                                                                     44/119 
+  Running scriptlet: rng-tools-6.8-3.el8.x86_64                                                                                                                     45/119 
+  Installing       : rng-tools-6.8-3.el8.x86_64                                                                                                                     45/119 
+  Running scriptlet: rng-tools-6.8-3.el8.x86_64                                                                                                                     45/119 
+  Upgrading        : rsyslog-8.1911.0-3.el8.x86_64                                                                                                                  46/119 
+  Running scriptlet: rsyslog-8.1911.0-3.el8.x86_64                                                                                                                  46/119 
+  Upgrading        : curl-7.61.1-12.el8.x86_64                                                                                                                      47/119 
+  Upgrading        : e2fsprogs-1.45.4-3.el8.x86_64                                                                                                                  48/119 
+  Upgrading        : kexec-tools-2.0.20-14.el8.x86_64                                                                                                               49/119 
+  Running scriptlet: kexec-tools-2.0.20-14.el8.x86_64                                                                                                               49/119 
+  Upgrading        : dracut-config-generic-049-70.git20200228.el8.x86_64                                                                                            50/119 
+  Upgrading        : dracut-config-rescue-049-70.git20200228.el8.x86_64                                                                                             51/119 
+  Installing       : dnf-plugins-core-4.0.12-4.el8_2.noarch                                                                                                         52/119 
+  Upgrading        : kbd-2.0.4-8.el8.x86_64                                                                                                                         53/119 
+  Upgrading        : kernel-tools-4.18.0-193.28.1.el8_2.x86_64                                                                                                      54/119 
+  Upgrading        : microcode_ctl-4:20191115-4.20200609.1.el8_2.x86_64                                                                                             55/119 
+  Running scriptlet: microcode_ctl-4:20191115-4.20200609.1.el8_2.x86_64                                                                                             55/119 
+logger: socket /dev/log: Connection refused
+
+  Upgrading        : shadow-utils-2:4.6-8.el8.x86_64                                                                                                                56/119 
+  Upgrading        : passwd-0.80-3.el8.x86_64                                                                                                                       57/119 
+  Installing       : iprutils-2.4.18.1-1.el8.x86_64                                                                                                                 58/119 
+  Running scriptlet: iprutils-2.4.18.1-1.el8.x86_64                                                                                                                 58/119 
+  Installing       : prefixdevname-0.1.0-6.el8.x86_64                                                                                                               59/119 
+  Upgrading        : hostname-3.20-6.el8.x86_64                                                                                                                     60/119 
+  Running scriptlet: hostname-3.20-6.el8.x86_64                                                                                                                     60/119 
+  Upgrading        : less-530-1.el8.x86_64                                                                                                                          61/119 
+  Upgrading        : basesystem-11-5.el8.noarch                                                                                                                     62/119 
+  Upgrading        : rootfiles-8.1-22.el8.noarch                                                                                                                    63/119 
+  Upgrading        : lshw-B.02.18-23.el8.x86_64                                                                                                                     64/119 
+  Installing       : yum-4.2.17-7.el8_2.noarch                                                                                                                      65/119 
+  Installing       : lsscsi-0.30-1.el8.x86_64                                                                                                                       66/119 
+  Installing       : iwl7260-firmware-1:25.30.13.0-97.el8.1.noarch                                                                                                  67/119 
+  Installing       : iwl6050-firmware-41.28.5.1-97.el8.1.noarch                                                                                                     68/119 
+  Installing       : iwl6000g2a-firmware-18.168.6.1-97.el8.1.noarch                                                                                                 69/119 
+  Installing       : iwl6000-firmware-9.221.4.1-97.el8.1.noarch                                                                                                     70/119 
+  Installing       : iwl5150-firmware-8.24.2.2-97.el8.1.noarch                                                                                                      71/119 
+  Installing       : iwl5000-firmware-8.83.5.1_1-97.el8.1.noarch                                                                                                    72/119 
+  Installing       : iwl4965-firmware-228.61.2.24-97.el8.1.noarch                                                                                                   73/119 
+  Installing       : iwl3945-firmware-15.32.2.9-97.el8.1.noarch                                                                                                     74/119 
+  Installing       : iwl3160-firmware-1:25.30.13.0-97.el8.1.noarch                                                                                                  75/119 
+  Installing       : iwl2030-firmware-18.168.6.1-97.el8.1.noarch                                                                                                    76/119 
+  Installing       : iwl2000-firmware-18.168.6.1-97.el8.1.noarch                                                                                                    77/119 
+  Installing       : iwl135-firmware-18.168.6.1-97.el8.1.noarch                                                                                                     78/119 
+  Installing       : iwl105-firmware-18.168.6.1-97.el8.1.noarch                                                                                                     79/119 
+  Installing       : iwl1000-firmware-1:39.31.5.1-97.el8.1.noarch                                                                                                   80/119 
+  Installing       : iwl100-firmware-39.31.5.1-97.el8.1.noarch                                                                                                      81/119 
+  Installing       : biosdevname-0.7.3-2.el8.x86_64                                                                                                                 82/119 
+  Running scriptlet: microcode_ctl-2:2.1-73.2.el7_9.x86_64                                                                                                          83/119 
+  Cleanup          : microcode_ctl-2:2.1-73.2.el7_9.x86_64                                                                                                          83/119 
+  Running scriptlet: microcode_ctl-2:2.1-73.2.el7_9.x86_64                                                                                                          83/119 
+  Running scriptlet: kexec-tools-2.0.15-51.el7_9.1.x86_64                                                                                                           84/119 
+  Cleanup          : kexec-tools-2.0.15-51.el7_9.1.x86_64                                                                                                           84/119 
+  Running scriptlet: kexec-tools-2.0.15-51.el7_9.1.x86_64                                                                                                           84/119 
+  Cleanup          : e2fsprogs-1.42.9-19.el7.x86_64                                                                                                                 85/119 
+  Running scriptlet: cronie-1.4.11-23.el7.x86_64                                                                                                                    86/119 
+  Cleanup          : cronie-1.4.11-23.el7.x86_64                                                                                                                    86/119 
+  Running scriptlet: cronie-1.4.11-23.el7.x86_64                                                                                                                    86/119 
+  Cleanup          : dracut-network-033-572.el7.x86_64                                                                                                              87/119 
+  Running scriptlet: iputils-20160308-10.el7.x86_64                                                                                                                 88/119 
+  Cleanup          : iputils-20160308-10.el7.x86_64                                                                                                                 88/119 
+  Running scriptlet: iputils-20160308-10.el7.x86_64                                                                                                                 88/119 
+  Cleanup          : kernel-tools-3.10.0-1160.6.1.el7.x86_64                                                                                                        89/119 
+  Running scriptlet: kernel-tools-3.10.0-1160.6.1.el7.x86_64                                                                                                        89/119 
+  Running scriptlet: rsyslog-8.24.0-57.el7_9.x86_64                                                                                                                 90/119 
+  Cleanup          : rsyslog-8.24.0-57.el7_9.x86_64                                                                                                                 90/119 
+  Running scriptlet: rsyslog-8.24.0-57.el7_9.x86_64                                                                                                                 90/119 
+  Cleanup          : dracut-config-rescue-033-572.el7.x86_64                                                                                                        91/119 
+  Cleanup          : basesystem-10.0-7.el7.centos.noarch                                                                                                            92/119 
+  Cleanup          : cronie-anacron-1.4.11-23.el7.x86_64                                                                                                            93/119 
+  Cleanup          : shadow-utils-2:4.6-5.el7.x86_64                                                                                                                94/119 
+  Cleanup          : kbd-1.15.5-15.el7.x86_64                                                                                                                       95/119 
+  Cleanup          : iproute-4.11.0-30.el7.x86_64                                                                                                                   96/119 
+  Cleanup          : e2fsprogs-libs-1.42.9-19.el7.x86_64                                                                                                            97/119 
+  Running scriptlet: e2fsprogs-libs-1.42.9-19.el7.x86_64                                                                                                            97/119 
+  Cleanup          : libss-1.42.9-19.el7.x86_64                                                                                                                     98/119 
+  Running scriptlet: libss-1.42.9-19.el7.x86_64                                                                                                                     98/119 
+  Cleanup          : passwd-0.79-6.el7.x86_64                                                                                                                       99/119 
+  Cleanup          : glib2-2.56.1-8.el7.x86_64                                                                                                                     100/119 
+  Running scriptlet: glib2-2.56.1-8.el7.x86_64                                                                                                                     100/119 
+  Cleanup          : curl-7.29.0-59.el7_9.1.x86_64                                                                                                                 101/119 
+  Cleanup          : dracut-config-generic-033-572.el7.x86_64                                                                                                      102/119 
+  Cleanup          : dracut-033-572.el7.x86_64                                                                                                                     103/119 
+  Running scriptlet: dracut-033-572.el7.x86_64                                                                                                                     103/119 
+  Cleanup          : filesystem-3.2-25.el7.x86_64                                                                                                                  104/119 
+  Running scriptlet: coreutils-8.22-24.el7_9.2.x86_64                                                                                                              105/119 
+  Cleanup          : coreutils-8.22-24.el7_9.2.x86_64                                                                                                              105/119 
+  Cleanup          : libcurl-7.29.0-59.el7_9.1.x86_64                                                                                                              106/119 
+  Running scriptlet: libcurl-7.29.0-59.el7_9.1.x86_64                                                                                                              106/119 
+  Cleanup          : less-458-9.el7.x86_64                                                                                                                         107/119 
+  Cleanup          : setup-2.8.71-11.el7.noarch                                                                                                                    108/119 
+  Cleanup          : kbd-legacy-1.15.5-15.el7.noarch                                                                                                               109/119 
+  Cleanup          : kbd-misc-1.15.5-15.el7.noarch                                                                                                                 110/119 
+  Cleanup          : rootfiles-8.1-11.el7.noarch                                                                                                                   111/119 
+  Cleanup          : bash-4.2.46-34.el7.x86_64                                                                                                                     112/119 
+  Running scriptlet: bash-4.2.46-34.el7.x86_64                                                                                                                     112/119 
+  Cleanup          : libcom_err-1.42.9-19.el7.x86_64                                                                                                               113/119 
+  Running scriptlet: libcom_err-1.42.9-19.el7.x86_64                                                                                                               113/119 
+  Cleanup          : procps-ng-3.3.10-28.el7.x86_64                                                                                                                114/119 
+  Running scriptlet: procps-ng-3.3.10-28.el7.x86_64                                                                                                                114/119 
+  Cleanup          : kernel-tools-libs-3.10.0-1160.6.1.el7.x86_64                                                                                                  115/119 
+  Cleanup          : lshw-B.02.18-17.el7.x86_64                                                                                                                    116/119 
+  Cleanup          : libsysfs-2.1.0-16.el7.x86_64                                                                                                                  117/119 
+  Running scriptlet: libsysfs-2.1.0-16.el7.x86_64                                                                                                                  117/119 
+  Cleanup          : kmod-libs-20-28.el7.x86_64                                                                                                                    118/119 
+  Running scriptlet: kmod-libs-20-28.el7.x86_64                                                                                                                    118/119 
+  Cleanup          : hostname-3.13-3.el7_7.1.x86_64                                                                                                                119/119 
+  Running scriptlet: filesystem-3.8-2.el8.x86_64                                                                                                                   119/119 
+  Running scriptlet: microcode_ctl-4:20191115-4.20200609.1.el8_2.x86_64                                                                                            119/119 
+  Running scriptlet: rootfiles-8.1-22.el8.noarch                                                                                                                   119/119 
+  Running scriptlet: hostname-3.13-3.el7_7.1.x86_64                                                                                                                119/119 
+  Running scriptlet: glib2-2.56.4-8.el8.x86_64                                                                                                                     119/119 
+  Verifying        : plymouth-0.9.3-16.el8.x86_64                                                                                                                    1/119 
+  Verifying        : plymouth-core-libs-0.9.3-16.el8.x86_64                                                                                                          2/119 
+  Verifying        : plymouth-scripts-0.9.3-16.el8.x86_64                                                                                                            3/119 
+  Verifying        : NetworkManager-1:1.22.8-5.el8_2.x86_64                                                                                                          4/119 
+  Verifying        : NetworkManager-libnm-1:1.22.8-5.el8_2.x86_64                                                                                                    5/119 
+  Verifying        : NetworkManager-team-1:1.22.8-5.el8_2.x86_64                                                                                                     6/119 
+  Verifying        : NetworkManager-tui-1:1.22.8-5.el8_2.x86_64                                                                                                      7/119 
+  Verifying        : biosdevname-0.7.3-2.el8.x86_64                                                                                                                  8/119 
+  Verifying        : brotli-1.0.6-1.el8.x86_64                                                                                                                       9/119 
+  Verifying        : coreutils-common-8.30-7.el8_2.1.x86_64                                                                                                         10/119 
+  Verifying        : dnf-plugins-core-4.0.12-4.el8_2.noarch                                                                                                         11/119 
+  Verifying        : dracut-squash-049-70.git20200228.el8.x86_64                                                                                                    12/119 
+  Verifying        : fuse-libs-2.9.7-12.el8.x86_64                                                                                                                  13/119 
+  Verifying        : iprutils-2.4.18.1-1.el8.x86_64                                                                                                                 14/119 
+  Verifying        : iwl100-firmware-39.31.5.1-97.el8.1.noarch                                                                                                      15/119 
+  Verifying        : iwl1000-firmware-1:39.31.5.1-97.el8.1.noarch                                                                                                   16/119 
+  Verifying        : iwl105-firmware-18.168.6.1-97.el8.1.noarch                                                                                                     17/119 
+  Verifying        : iwl135-firmware-18.168.6.1-97.el8.1.noarch                                                                                                     18/119 
+  Verifying        : iwl2000-firmware-18.168.6.1-97.el8.1.noarch                                                                                                    19/119 
+  Verifying        : iwl2030-firmware-18.168.6.1-97.el8.1.noarch                                                                                                    20/119 
+  Verifying        : iwl3160-firmware-1:25.30.13.0-97.el8.1.noarch                                                                                                  21/119 
+  Verifying        : iwl3945-firmware-15.32.2.9-97.el8.1.noarch                                                                                                     22/119 
+  Verifying        : iwl4965-firmware-228.61.2.24-97.el8.1.noarch                                                                                                   23/119 
+  Verifying        : iwl5000-firmware-8.83.5.1_1-97.el8.1.noarch                                                                                                    24/119 
+  Verifying        : iwl5150-firmware-8.24.2.2-97.el8.1.noarch                                                                                                      25/119 
+  Verifying        : iwl6000-firmware-9.221.4.1-97.el8.1.noarch                                                                                                     26/119 
+  Verifying        : iwl6000g2a-firmware-18.168.6.1-97.el8.1.noarch                                                                                                 27/119 
+  Verifying        : iwl6050-firmware-41.28.5.1-97.el8.1.noarch                                                                                                     28/119 
+  Verifying        : iwl7260-firmware-1:25.30.13.0-97.el8.1.noarch                                                                                                  29/119 
+  Verifying        : libkcapi-1.1.1-16_1.el8.x86_64                                                                                                                 30/119 
+  Verifying        : libkcapi-hmaccalc-1.1.1-16_1.el8.x86_64                                                                                                        31/119 
+  Verifying        : libmetalink-0.1.3-7.el8.x86_64                                                                                                                 32/119 
+  Verifying        : libnghttp2-1.33.0-3.el8_2.1.x86_64                                                                                                             33/119 
+  Verifying        : libpsl-0.20.2-5.el8.x86_64                                                                                                                     34/119 
+  Verifying        : libssh-0.9.0-4.el8.x86_64                                                                                                                      35/119 
+  Verifying        : libssh-config-0.9.0-4.el8.noarch                                                                                                               36/119 
+  Verifying        : lsscsi-0.30-1.el8.x86_64                                                                                                                       37/119 
+  Verifying        : pigz-2.4-4.el8.x86_64                                                                                                                          38/119 
+  Verifying        : prefixdevname-0.1.0-6.el8.x86_64                                                                                                               39/119 
+  Verifying        : publicsuffix-list-dafsa-20180723-1.el8.noarch                                                                                                  40/119 
+  Verifying        : python3-dateutil-1:2.6.1-6.el8.noarch                                                                                                          41/119 
+  Verifying        : python3-dnf-plugins-core-4.0.12-4.el8_2.noarch                                                                                                 42/119 
+  Verifying        : rng-tools-6.8-3.el8.x86_64                                                                                                                     43/119 
+  Verifying        : squashfs-tools-4.3-19.el8.x86_64                                                                                                               44/119 
+  Verifying        : yum-4.2.17-7.el8_2.noarch                                                                                                                      45/119 
+  Verifying        : rsyslog-8.1911.0-3.el8.x86_64                                                                                                                  46/119 
+  Verifying        : rsyslog-8.24.0-57.el7_9.x86_64                                                                                                                 47/119 
+  Verifying        : basesystem-11-5.el8.noarch                                                                                                                     48/119 
+  Verifying        : basesystem-10.0-7.el7.centos.noarch                                                                                                            49/119 
+  Verifying        : bash-4.4.19-10.el8.x86_64                                                                                                                      50/119 
+  Verifying        : bash-4.2.46-34.el7.x86_64                                                                                                                      51/119 
+  Verifying        : coreutils-8.30-7.el8_2.1.x86_64                                                                                                                52/119 
+  Verifying        : coreutils-8.22-24.el7_9.2.x86_64                                                                                                               53/119 
+  Verifying        : cronie-1.5.2-4.el8.x86_64                                                                                                                      54/119 
+  Verifying        : cronie-1.4.11-23.el7.x86_64                                                                                                                    55/119 
+  Verifying        : cronie-anacron-1.5.2-4.el8.x86_64                                                                                                              56/119 
+  Verifying        : cronie-anacron-1.4.11-23.el7.x86_64                                                                                                            57/119 
+  Verifying        : curl-7.61.1-12.el8.x86_64                                                                                                                      58/119 
+  Verifying        : curl-7.29.0-59.el7_9.1.x86_64                                                                                                                  59/119 
+  Verifying        : dracut-049-70.git20200228.el8.x86_64                                                                                                           60/119 
+  Verifying        : dracut-033-572.el7.x86_64                                                                                                                      61/119 
+  Verifying        : dracut-config-generic-049-70.git20200228.el8.x86_64                                                                                            62/119 
+  Verifying        : dracut-config-generic-033-572.el7.x86_64                                                                                                       63/119 
+  Verifying        : dracut-config-rescue-049-70.git20200228.el8.x86_64                                                                                             64/119 
+  Verifying        : dracut-config-rescue-033-572.el7.x86_64                                                                                                        65/119 
+  Verifying        : dracut-network-049-70.git20200228.el8.x86_64                                                                                                   66/119 
+  Verifying        : dracut-network-033-572.el7.x86_64                                                                                                              67/119 
+  Verifying        : e2fsprogs-1.45.4-3.el8.x86_64                                                                                                                  68/119 
+  Verifying        : e2fsprogs-1.42.9-19.el7.x86_64                                                                                                                 69/119 
+  Verifying        : e2fsprogs-libs-1.45.4-3.el8.x86_64                                                                                                             70/119 
+  Verifying        : e2fsprogs-libs-1.42.9-19.el7.x86_64                                                                                                            71/119 
+  Verifying        : filesystem-3.8-2.el8.x86_64                                                                                                                    72/119 
+  Verifying        : filesystem-3.2-25.el7.x86_64                                                                                                                   73/119 
+  Verifying        : glib2-2.56.4-8.el8.x86_64                                                                                                                      74/119 
+  Verifying        : glib2-2.56.1-8.el7.x86_64                                                                                                                      75/119 
+  Verifying        : hostname-3.20-6.el8.x86_64                                                                                                                     76/119 
+  Verifying        : hostname-3.13-3.el7_7.1.x86_64                                                                                                                 77/119 
+  Verifying        : iproute-5.3.0-1.el8.x86_64                                                                                                                     78/119 
+  Verifying        : iproute-4.11.0-30.el7.x86_64                                                                                                                   79/119 
+  Verifying        : iputils-20180629-2.el8.x86_64                                                                                                                  80/119 
+  Verifying        : iputils-20160308-10.el7.x86_64                                                                                                                 81/119 
+  Verifying        : kbd-2.0.4-8.el8.x86_64                                                                                                                         82/119 
+  Verifying        : kbd-1.15.5-15.el7.x86_64                                                                                                                       83/119 
+  Verifying        : kbd-legacy-2.0.4-8.el8.noarch                                                                                                                  84/119 
+  Verifying        : kbd-legacy-1.15.5-15.el7.noarch                                                                                                                85/119 
+  Verifying        : kbd-misc-2.0.4-8.el8.noarch                                                                                                                    86/119 
+  Verifying        : kbd-misc-1.15.5-15.el7.noarch                                                                                                                  87/119 
+  Verifying        : kernel-tools-4.18.0-193.28.1.el8_2.x86_64                                                                                                      88/119 
+  Verifying        : kernel-tools-3.10.0-1160.6.1.el7.x86_64                                                                                                        89/119 
+  Verifying        : kernel-tools-libs-4.18.0-193.28.1.el8_2.x86_64                                                                                                 90/119 
+  Verifying        : kernel-tools-libs-3.10.0-1160.6.1.el7.x86_64                                                                                                   91/119 
+  Verifying        : kexec-tools-2.0.20-14.el8.x86_64                                                                                                               92/119 
+  Verifying        : kexec-tools-2.0.15-51.el7_9.1.x86_64                                                                                                           93/119 
+  Verifying        : kmod-libs-25-16.el8.x86_64                                                                                                                     94/119 
+  Verifying        : kmod-libs-20-28.el7.x86_64                                                                                                                     95/119 
+  Verifying        : less-530-1.el8.x86_64                                                                                                                          96/119 
+  Verifying        : less-458-9.el7.x86_64                                                                                                                          97/119 
+  Verifying        : libcom_err-1.45.4-3.el8.x86_64                                                                                                                 98/119 
+  Verifying        : libcom_err-1.42.9-19.el7.x86_64                                                                                                                99/119 
+  Verifying        : libcurl-7.61.1-12.el8.x86_64                                                                                                                  100/119 
+  Verifying        : libcurl-7.29.0-59.el7_9.1.x86_64                                                                                                              101/119 
+  Verifying        : libss-1.45.4-3.el8.x86_64                                                                                                                     102/119 
+  Verifying        : libss-1.42.9-19.el7.x86_64                                                                                                                    103/119 
+  Verifying        : libsysfs-2.1.0-24.el8.x86_64                                                                                                                  104/119 
+  Verifying        : libsysfs-2.1.0-16.el7.x86_64                                                                                                                  105/119 
+  Verifying        : lshw-B.02.18-23.el8.x86_64                                                                                                                    106/119 
+  Verifying        : lshw-B.02.18-17.el7.x86_64                                                                                                                    107/119 
+  Verifying        : microcode_ctl-4:20191115-4.20200609.1.el8_2.x86_64                                                                                            108/119 
+  Verifying        : microcode_ctl-2:2.1-73.2.el7_9.x86_64                                                                                                         109/119 
+  Verifying        : passwd-0.80-3.el8.x86_64                                                                                                                      110/119 
+  Verifying        : passwd-0.79-6.el7.x86_64                                                                                                                      111/119 
+  Verifying        : procps-ng-3.3.15-1.el8.x86_64                                                                                                                 112/119 
+  Verifying        : procps-ng-3.3.10-28.el7.x86_64                                                                                                                113/119 
+  Verifying        : rootfiles-8.1-22.el8.noarch                                                                                                                   114/119 
+  Verifying        : rootfiles-8.1-11.el7.noarch                                                                                                                   115/119 
+  Verifying        : setup-2.12.2-5.el8.noarch                                                                                                                     116/119 
+  Verifying        : setup-2.8.71-11.el7.noarch                                                                                                                    117/119 
+  Verifying        : shadow-utils-2:4.6-8.el8.x86_64                                                                                                               118/119 
+  Verifying        : shadow-utils-2:4.6-5.el7.x86_64                                                                                                               119/119 
+
+Upgraded:
+  basesystem-11-5.el8.noarch                              bash-4.4.19-10.el8.x86_64                                coreutils-8.30-7.el8_2.1.x86_64                        
+  cronie-1.5.2-4.el8.x86_64                               cronie-anacron-1.5.2-4.el8.x86_64                        curl-7.61.1-12.el8.x86_64                              
+  dracut-049-70.git20200228.el8.x86_64                    dracut-config-generic-049-70.git20200228.el8.x86_64      dracut-config-rescue-049-70.git20200228.el8.x86_64     
+  dracut-network-049-70.git20200228.el8.x86_64            e2fsprogs-1.45.4-3.el8.x86_64                            e2fsprogs-libs-1.45.4-3.el8.x86_64                     
+  filesystem-3.8-2.el8.x86_64                             glib2-2.56.4-8.el8.x86_64                                hostname-3.20-6.el8.x86_64                             
+  iproute-5.3.0-1.el8.x86_64                              iputils-20180629-2.el8.x86_64                            kbd-2.0.4-8.el8.x86_64                                 
+  kbd-legacy-2.0.4-8.el8.noarch                           kbd-misc-2.0.4-8.el8.noarch                              kernel-tools-4.18.0-193.28.1.el8_2.x86_64              
+  kernel-tools-libs-4.18.0-193.28.1.el8_2.x86_64          kexec-tools-2.0.20-14.el8.x86_64                         kmod-libs-25-16.el8.x86_64                             
+  less-530-1.el8.x86_64                                   libcom_err-1.45.4-3.el8.x86_64                           libcurl-7.61.1-12.el8.x86_64                           
+  libss-1.45.4-3.el8.x86_64                               libsysfs-2.1.0-24.el8.x86_64                             lshw-B.02.18-23.el8.x86_64                             
+  microcode_ctl-4:20191115-4.20200609.1.el8_2.x86_64      passwd-0.80-3.el8.x86_64                                 procps-ng-3.3.15-1.el8.x86_64                          
+  rootfiles-8.1-22.el8.noarch                             rsyslog-8.1911.0-3.el8.x86_64                            setup-2.12.2-5.el8.noarch                              
+  shadow-utils-2:4.6-8.el8.x86_64                        
+
+Installed:
+  NetworkManager-1:1.22.8-5.el8_2.x86_64                  NetworkManager-libnm-1:1.22.8-5.el8_2.x86_64            NetworkManager-team-1:1.22.8-5.el8_2.x86_64             
+  NetworkManager-tui-1:1.22.8-5.el8_2.x86_64              biosdevname-0.7.3-2.el8.x86_64                          brotli-1.0.6-1.el8.x86_64                               
+  coreutils-common-8.30-7.el8_2.1.x86_64                  dnf-plugins-core-4.0.12-4.el8_2.noarch                  dracut-squash-049-70.git20200228.el8.x86_64             
+  fuse-libs-2.9.7-12.el8.x86_64                           iprutils-2.4.18.1-1.el8.x86_64                          iwl100-firmware-39.31.5.1-97.el8.1.noarch               
+  iwl1000-firmware-1:39.31.5.1-97.el8.1.noarch            iwl105-firmware-18.168.6.1-97.el8.1.noarch              iwl135-firmware-18.168.6.1-97.el8.1.noarch              
+  iwl2000-firmware-18.168.6.1-97.el8.1.noarch             iwl2030-firmware-18.168.6.1-97.el8.1.noarch             iwl3160-firmware-1:25.30.13.0-97.el8.1.noarch           
+  iwl3945-firmware-15.32.2.9-97.el8.1.noarch              iwl4965-firmware-228.61.2.24-97.el8.1.noarch            iwl5000-firmware-8.83.5.1_1-97.el8.1.noarch             
+  iwl5150-firmware-8.24.2.2-97.el8.1.noarch               iwl6000-firmware-9.221.4.1-97.el8.1.noarch              iwl6000g2a-firmware-18.168.6.1-97.el8.1.noarch          
+  iwl6050-firmware-41.28.5.1-97.el8.1.noarch              iwl7260-firmware-1:25.30.13.0-97.el8.1.noarch           libkcapi-1.1.1-16_1.el8.x86_64                          
+  libkcapi-hmaccalc-1.1.1-16_1.el8.x86_64                 libmetalink-0.1.3-7.el8.x86_64                          libnghttp2-1.33.0-3.el8_2.1.x86_64                      
+  libpsl-0.20.2-5.el8.x86_64                              libssh-0.9.0-4.el8.x86_64                               libssh-config-0.9.0-4.el8.noarch                        
+  lsscsi-0.30-1.el8.x86_64                                pigz-2.4-4.el8.x86_64                                   plymouth-0.9.3-16.el8.x86_64                            
+  plymouth-core-libs-0.9.3-16.el8.x86_64                  plymouth-scripts-0.9.3-16.el8.x86_64                    prefixdevname-0.1.0-6.el8.x86_64                        
+  publicsuffix-list-dafsa-20180723-1.el8.noarch           python3-dateutil-1:2.6.1-6.el8.noarch                   python3-dnf-plugins-core-4.0.12-4.el8_2.noarch          
+  rng-tools-6.8-3.el8.x86_64                              squashfs-tools-4.3-19.el8.x86_64                        yum-4.2.17-7.el8_2.noarch                               
+
+Skipped:
+  grubby-8.40-38.el8.x86_64                                                                                                                                                
+
+Complete!
+```
+
+Reiniciamos el sistema y comprobamos:
+```shell
+[centos@quijote ~]$ cat /etc/redhat-release
+CentOS Linux release 8.2.2004 (Core)
+[centos@quijote ~]$ rpm --query centos-release
+centos-release-8.2-2.2004.0.1.el8.x86_64
+[centos@quijote ~]$ cat /etc/os-release 
+NAME="CentOS Linux"
+VERSION="8 (Core)"
+ID="centos"
+ID_LIKE="rhel fedora"
+VERSION_ID="8"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="CentOS Linux 8 (Core)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:centos:centos:8"
+HOME_URL="https://www.centos.org/"
+BUG_REPORT_URL="https://bugs.centos.org/"
+
+CENTOS_MANTISBT_PROJECT="CentOS-8"
+CENTOS_MANTISBT_PROJECT_VERSION="8"
+REDHAT_SUPPORT_PRODUCT="centos"
+REDHAT_SUPPORT_PRODUCT_VERSION="8"
+```
