@@ -3,7 +3,7 @@ date: 2020-11-30
 title: "Instalación y configuración de Servidores y Clientes"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Base de datos
+    - ABD
 tags:
     - Servidores
     - Clientes
