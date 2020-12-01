@@ -26,9 +26,19 @@ Se aportará el código de las aplicaciones realizadas y prueba de funcionamient
 El trabajo constará de las siguientes partes:
 
 * Leer bien el enunciado y comprobar que se entiende lo que se pide.
+
 * Instalación de un servidor de ORACLE 19c sobre Linux
+
+
+
+
+
+
 * Instalación de un servidor MongoDB y configuración para permitir el acceso remoto desde la red local.
+
 * Prueba desde un cliente remoto del intérprete de comandos de MySQL.
+
 * Realización de una aplicación web en cualquier lenguaje que conecte con el servidor ORACLE tras autenticarse y muestre alguna información almacenada en el mismo.
+
 * Instalación de una herramienta de administración web para MySQL y prueba desde un cliente remoto.
 
