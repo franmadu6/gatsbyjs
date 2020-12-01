@@ -29,9 +29,7 @@ El trabajo constará de las siguientes partes:
 
 * Instalación de un servidor de ORACLE 19c sobre Linux
 
-
-
-
+Nos descargamos la version zip de la web oficial de Oracle → https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox
 
 
 * Instalación de un servidor MongoDB y configuración para permitir el acceso remoto desde la red local.

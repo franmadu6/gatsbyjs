@@ -10,7 +10,7 @@ const About = () => (
         <li type="disc">ABD → Administración de Sistemas Gestores de Bases de Datos </li>
         <li type="disc">ASO → Administración de Sistemas Operativos </li>
         <li type="disc">EIE → Empresa e iniciativa emprendedora (Grado superior) </li>
-        <li type="disc">HLC → Cloud Computing (Hora de libre configuración)</li>
+        <li type="disc">HLC → Cloud Computing (Hora de libre configuración)Cloud Computing</li>
         <li type="disc">IAW → Implantación de Aplicaciones Web </li>
         <li type="disc">SAD → Seguridad y alta disponibilidad </li>
         <li type="disc">SRI → Servicios de Red e Internet </li>
