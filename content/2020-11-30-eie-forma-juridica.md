@@ -1,6 +1,6 @@
 ---
 date: 2020-11-30
-title: "ELECCIÓN DE FORMA JURÍDICA"
+title: "Elección de Forma Jurídica"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
     - ABD
