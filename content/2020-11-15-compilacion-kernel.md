@@ -3,7 +3,7 @@ date: 2020-11-15
 title: "Compilación de un kérnel linux a medida"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Sistemas
+    - ASO
 tags:
     - Kernel
     - Linux 

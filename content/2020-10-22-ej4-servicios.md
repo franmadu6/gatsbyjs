@@ -3,7 +3,7 @@ date: 2020-10-22
 title: "Ejercicio 4: Mapear URL a ubicaciones de un sistema de ficheros"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Servicios
+    - SRI
 tags:
     - Mapeo
     - URL

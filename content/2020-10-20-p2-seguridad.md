@@ -3,7 +3,7 @@ date: 2020-10-20
 title: "Práctica 2: Cifrado asimétrico con gpg y openssl"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Seguridad
+    - SAD
 tags:
     - GPG
     - OpenSSL

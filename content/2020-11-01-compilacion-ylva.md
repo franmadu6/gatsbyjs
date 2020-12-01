@@ -3,7 +3,7 @@ date: 2020-11-01
 title: "Compilación de un programa en C utilizando un Makefile"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Sistemas
+    - ASO
 tags:
     - Compilacion
 ---

@@ -3,7 +3,7 @@ date: 2020-11-08
 title: "Práctica 3: Integridad, firmas y autenticación "
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Seguridad
+    - SAD
 tags:
     - Gpg
     - OpenSSL

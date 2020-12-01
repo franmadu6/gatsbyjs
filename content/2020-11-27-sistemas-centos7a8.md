@@ -3,7 +3,7 @@ date: 2020-11-27
 title: "Actualización de quijote a CentOS8"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Sistemas
+    - ASO
 tags:
     - OpenStack
     - CentOS

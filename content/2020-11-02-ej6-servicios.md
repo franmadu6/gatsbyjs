@@ -3,7 +3,7 @@ date: 2020-11-02
 title: "Ejercicio 6: Configuración de apache mediante archivo .htaccess "
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Servicios
+    - SRI
 tags:
     - .htaccess
 ---

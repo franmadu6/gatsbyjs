@@ -3,7 +3,7 @@ date: 2020-11-26
 title: "Plan de Marketing."
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Empresa
+    - EIE
 tags:
     - Planificación
     - Marketing

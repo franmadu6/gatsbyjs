@@ -3,7 +3,7 @@ date: 2020-11-19
 title: "Práctica: Certificados digitales. HTTPS"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Seguridad
+    - SAD
 tags:
     - Gpg
     - OpenSSL

@@ -3,7 +3,7 @@ date: 2020-10-08
 title: "Práctica 3: Integridad de ficheros (Unidad 1)"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Seguridad
+    - SAD
 tags:
     - Integridad
 ---

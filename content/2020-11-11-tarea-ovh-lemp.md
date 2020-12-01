@@ -3,7 +3,7 @@ date: 2020-11-11
 title: "Tarea OVH. Lemp"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Servicios
+    - SRI
 tags:
     - OVH
     - Lemp

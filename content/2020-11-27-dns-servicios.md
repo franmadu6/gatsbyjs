@@ -3,7 +3,7 @@ date: 2020-11-27
 title: "Práctica: Servidor DNS"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Servicios
+    - SRI
 tags:
     - DNS
     - Bind9

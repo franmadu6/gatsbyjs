@@ -3,7 +3,7 @@ date: 2020-10-20
 title: "Ejercicio 3: VirtualHosting con Apache"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - Servicios
+    - SRI
 tags:
     - Apache
     - VirtualHosting
