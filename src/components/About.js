@@ -3,12 +3,12 @@ import React from 'react'
 const About = () => (
   <>
     <h1>Sobre Mí</h1>
-    <p>todavía no esta acabada</p>
+    <p>Estudiante de sysadmin en IES Gonzalo Nazareno (Dos Hermanas, Sevilla).</p>
 
     <div id="trabajos">
       <div id="escultor">
         Pagina web diseñada y desarrollada para un Imaginero-Escultor de Sevilla, Alojada en Comvive.
-        <p>Web creada fundamentalmente con Html,Css y JavaScript añadiendo librerias.<br>
+        <p>HTML,CSS y JavaScript +Lib<br>
         </br><a href="https://www.imagineromarianosanchezdelpino.es/" target="_blank">https://www.imagineromarianosanchezdelpino.es/</a></p>
       </div>
 
