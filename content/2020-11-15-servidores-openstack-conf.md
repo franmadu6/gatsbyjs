@@ -326,10 +326,10 @@ debian@dulcinea:~/.ssh$ ssh-add -l
 Para utilizar el reenvio de angentes, modificamos los ficheros /etc/ssh/ssh_config y /etc/ssh/sshd_config:
 ```shell
 #en ssh/ssh_config
-#   ForwardAgent yes
+ForwardAgent yes
 
 #en ssh/sshd_config
-#   AllowAgentForwarding yes
+AllowAgentForwarding yes
 ```
 
 Comprobamos para ambas maquinas:

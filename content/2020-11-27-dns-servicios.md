@@ -57,6 +57,8 @@ Intalamos dnsmasq:
 vagrant@servidor:~$ sudo apt-get install dnsmasq
 ```
 
+**Creamos las paginas www.iesgn.org y departamentos.iesgn.org con apache2**
+
 Modificamos /etc/hosts:
 ```shell
 192.168.100.155 www.iesgn.org
@@ -69,10 +71,136 @@ strict-order
 interface=eth2
 ```
 
+En /etc/resolv.conf
+```shell
+nameserver 192.168.100.1
+```
+
 Reiniciamos servicios
 ```shell
 sudo systemctl restart dnsmasq.service
 ```
+
+__Configuración del cliente:__
+
+Instralamos la paqueteria:
+```shell
+vagrant@cliente:~$ sudo apt-get install dnsutils
+```
+
+En /etc/resolv.conf
+```shell
+nameserver 192.168.100.1
+```
+
+Comprobación:
+```shell
+vagrant@cliente:~$ dig www.josedomingo.org
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> www.josedomingo.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57262
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 5, ADDITIONAL: 6
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 79aa374f36939b00c83fb1ce5fc8992c80d0da518c9221f2 (good)
+;; QUESTION SECTION:
+;www.josedomingo.org.		IN	A
+
+;; ANSWER SECTION:
+www.josedomingo.org.	56	IN	CNAME	playerone.josedomingo.org.
+playerone.josedomingo.org. 717	IN	A	137.74.161.90
+
+;; AUTHORITY SECTION:
+josedomingo.org.	35965	IN	NS	ns5.cdmondns-01.com.
+josedomingo.org.	35965	IN	NS	ns3.cdmon.net.
+josedomingo.org.	35965	IN	NS	ns2.cdmon.net.
+josedomingo.org.	35965	IN	NS	ns1.cdmon.net.
+josedomingo.org.	35965	IN	NS	ns4.cdmondns-01.org.
+
+;; ADDITIONAL SECTION:
+ns1.cdmon.net.		106292	IN	A	35.189.106.232
+ns2.cdmon.net.		106292	IN	A	35.195.57.29
+ns3.cdmon.net.		106292	IN	A	35.157.47.125
+ns4.cdmondns-01.org.	35965	IN	A	52.58.66.183
+ns5.cdmondns-01.com.	106292	IN	A	52.59.146.62
+
+;; Query time: 1 msec
+;; SERVER: 192.168.100.1#53(192.168.100.1)
+;; WHEN: Thu Dec 03 07:52:12 UTC 2020
+;; MSG SIZE  rcvd: 322
+
+vagrant@cliente:~$ dig www.iesgn.org
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> www.iesgn.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65398
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;www.iesgn.org.			IN	A
+
+;; ANSWER SECTION:
+www.iesgn.org.		0	IN	A	192.168.100.155
+
+;; Query time: 0 msec
+;; SERVER: 192.168.100.1#53(192.168.100.1)
+;; WHEN: Thu Dec 03 07:52:54 UTC 2020
+;; MSG SIZE  rcvd: 58
+
+vagrant@cliente:~$ dig departamentos.iesgn.org
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> departamentos.iesgn.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7942
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;departamentos.iesgn.org.	IN	A
+
+;; ANSWER SECTION:
+departamentos.iesgn.org. 0	IN	A	192.168.100.155
+
+;; Query time: 0 msec
+;; SERVER: 192.168.100.1#53(192.168.100.1)
+;; WHEN: Thu Dec 03 07:53:33 UTC 2020
+;; MSG SIZE  rcvd: 68
+```
+
+Consulta directa al servidor dnsmasq:
+```shell
+vagrant@cliente:~$ dig -x 192.168.100.155
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> -x 192.168.100.155
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62390
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;155.100.168.192.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+155.100.168.192.in-addr.arpa. 0	IN	PTR	www.iesgn.org.
+
+;; Query time: 0 msec
+;; SERVER: 192.168.100.1#53(192.168.100.1)
+;; WHEN: Thu Dec 03 07:54:13 UTC 2020
+;; MSG SIZE  rcvd: 84
+```
+
+¿Se puede realizar resolución inversa?
+No, no es capaz de realizar preguntas recursivas.
 
 <hr>
 

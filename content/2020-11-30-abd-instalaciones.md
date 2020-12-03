@@ -31,6 +31,18 @@ El trabajo constará de las siguientes partes:
 
 Nos descargamos la version zip de la web oficial de Oracle → https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox
 
+Lo descomprimimos dentro de un directorio:
+```shell
+fran@debian:~$ unzip ../Descargas/LINUX.X64_193000_db_home.zip /oracle
+```
+Ejecutamos sun instalador:
+```shell
+fran@debian:~$ . runInstaller
+```
+![PracticaImg](images/abd/oracleinst1.png "Imagen de la practica")
+![PracticaImg](images/abd/oracleinst2.png "Imagen de la practica")
+![PracticaImg](images/abd/oracleinst3.png "Imagen de la practica")
+![PracticaImg](images/abd/oracleinst4.png "Imagen de la practica")
 
 * Instalación de un servidor MongoDB y configuración para permitir el acceso remoto desde la red local.
 
