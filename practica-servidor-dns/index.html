@@ -282,14 +282,14 @@ departamentos   IN      CNAME   madu</code></pre></div>
 </li>
 <li>
 <p>Dirección de pandora.iesgn.org, www.iesgn.org, ftp.iesgn.org</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@cliente:~$ <span class="token function">dig</span> madu.iesgn.org</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment">#vagrant@cliente:~$ dig madu.iesgn.org</span>
+<span class="token punctuation">;</span> <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> DiG <span class="token number">9.11</span>.5-P4-5.1+deb10u2-Debian <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> madu.iesgn.org
+<span class="token punctuation">;</span><span class="token punctuation">;</span> global options: +cmd
+<span class="token punctuation">;</span><span class="token punctuation">;</span> Got answer:
+<span class="token punctuation">;</span><span class="token punctuation">;</span> -<span class="token operator">>></span>HEADER<span class="token operator">&lt;&lt;-</span> opcode: QUERY, status: NOERROR, id: <span class="token number">26578</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> flags: qr aa rd ra<span class="token punctuation">;</span> QUERY: <span class="token number">1</span>, ANSWER: <span class="token number">1</span>, AUTHORITY: <span class="token number">1</span>, ADDITIONAL: <span class="token number">1</span></code></pre></div>
 </li>
 </ul>
-<p>; &#x3C;&#x3C;>> DiG 9.11.5-P4-5.1+deb10u2-Debian &#x3C;&#x3C;>> madu.iesgn.org
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER&#x3C;&#x3C;- opcode: QUERY, status: NOERROR, id: 26578
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1</p>
 <p>;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 4096
 ; COOKIE: 456d9ca9940c96f34291b0355fc8ab94100afc289509f5a6 (good)
@@ -304,8 +304,7 @@ iesgn.org.		604800	IN	NS	madu.iesgn.org.</p>
 ;; WHEN: Thu Dec 03 09:10:44 UTC 2020
 ;; MSG SIZE  rcvd: 101</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">```shell
-vagrant@cliente:~$ dig www.iesgn.org
-
+#vagrant@cliente:~$ dig www.iesgn.org
 ; &lt;&lt;&gt;&gt; DiG 9.11.5-P4-5.1+deb10u2-Debian &lt;&lt;&gt;&gt; www.iesgn.org
 ;; global options: +cmd
 ;; Got answer:
@@ -329,8 +328,7 @@ iesgn.org.		604800	IN	NS	madu.iesgn.org.
 ;; SERVER: 192.168.100.155#53(192.168.100.155)
 ;; WHEN: Thu Dec 03 09:10:59 UTC 2020
 ;; MSG SIZE  rcvd: 119</code></pre></div>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@cliente:~$ <span class="token function">dig</span> ftp.iesgn.org
-
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment">#vagrant@cliente:~$ dig ftp.iesgn.org</span>
 <span class="token punctuation">;</span> <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> DiG <span class="token number">9.11</span>.5-P4-5.1+deb10u2-Debian <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> ftp.iesgn.org
 <span class="token punctuation">;</span><span class="token punctuation">;</span> global options: +cmd
 <span class="token punctuation">;</span><span class="token punctuation">;</span> Got answer:
@@ -359,14 +357,14 @@ madu.iesgn.org.		<span class="token number">604800</span>	IN	A	<span class="toke
 <ul>
 <li>
 <p>El servidor DNS con autoridad sobre la zona del dominio iesgn.org</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@cliente:~$ <span class="token function">dig</span> ns iesgn.org</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment">#vagrant@cliente:~$ dig ns iesgn.org</span>
+<span class="token punctuation">;</span> <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> DiG <span class="token number">9.11</span>.5-P4-5.1+deb10u2-Debian <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> ns iesgn.org
+<span class="token punctuation">;</span><span class="token punctuation">;</span> global options: +cmd
+<span class="token punctuation">;</span><span class="token punctuation">;</span> Got answer:
+<span class="token punctuation">;</span><span class="token punctuation">;</span> -<span class="token operator">>></span>HEADER<span class="token operator">&lt;&lt;-</span> opcode: QUERY, status: NOERROR, id: <span class="token number">12731</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> flags: qr aa rd ra<span class="token punctuation">;</span> QUERY: <span class="token number">1</span>, ANSWER: <span class="token number">1</span>, AUTHORITY: <span class="token number">0</span>, ADDITIONAL: <span class="token number">2</span></code></pre></div>
 </li>
 </ul>
-<p>; &#x3C;&#x3C;>> DiG 9.11.5-P4-5.1+deb10u2-Debian &#x3C;&#x3C;>> ns iesgn.org
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER&#x3C;&#x3C;- opcode: QUERY, status: NOERROR, id: 12731
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 2</p>
 <p>;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 4096
 ; COOKIE: 61af9aa291d6c5065fa57b805fc8a9371b402da74c8a0967 (good)
@@ -382,8 +380,7 @@ madu.iesgn.org.		604800	IN	A	192.168.100.155</p>
 ;; MSG SIZE  rcvd: 101</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">* El servidor de correo configurado para iesgn.org
 ```shell
-vagrant@cliente:~$ dig mx iesgn.org
-
+#vagrant@cliente:~$ dig mx iesgn.org
 ; &lt;&lt;&gt;&gt; DiG 9.11.5-P4-5.1+deb10u2-Debian &lt;&lt;&gt;&gt; mx iesgn.org
 ;; global options: +cmd
 ;; Got answer:
@@ -413,7 +410,7 @@ madu.iesgn.org.		604800	IN	A	192.168.100.155
 <ul>
 <li>
 <p>La dirección IP de www.josedomingo.org</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@cliente:~$ <span class="token function">dig</span> www.josedomingo.org
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment">#vagrant@cliente:~$ dig www.josedomingo.org</span>
 <span class="token punctuation">;</span> <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> DiG <span class="token number">9.11</span>.5-P4-5.1+deb10u2-Debian <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> www.josedomingo.org
 <span class="token punctuation">;</span><span class="token punctuation">;</span> global options: +cmd
 <span class="token punctuation">;</span><span class="token punctuation">;</span> Got answer:
@@ -464,7 +461,7 @@ ns5.cdmondns-01.com.	172630	IN	A	52.59.146.62</p>
 ;; MSG SIZE  rcvd: 145</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">* Una resolución inversa
 ```shell
-vagrant@cliente:~$ dig -x 192.168.100.155
+#vagrant@cliente:~$ dig -x 192.168.100.155
 ; &lt;&lt;&gt;&gt; DiG 9.11.5-P4-5.1+deb10u2-Debian &lt;&lt;&gt;&gt; -x 192.168.100.155
 ;; global options: +cmd
 ;; Got answer:
