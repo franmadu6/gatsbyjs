@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 03 Dec 2020 12:27:45 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Elección de Forma Jurídica]]></title><description><![CDATA[¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta. Descargar archivo Sociedades.odt La forma jurídica elegida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</guid><category><![CDATA[Forma Jurídica]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 03 Dec 2020 12:37:12 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Elección de Forma Jurídica]]></title><description><![CDATA[¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta. Descargar archivo Sociedades.odt La forma jurídica elegida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</guid><category><![CDATA[Forma Jurídica]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/gatsbyjs/3448904c8dfde8472ac0c47331328f23/sociedades.ods&quot;&gt;Descargar archivo Sociedades.odt&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La forma jurídica elegida es &lt;strong&gt;Sociedad Limitada&lt;/strong&gt; razones:&lt;/p&gt;
 &lt;ol&gt;
@@ -2521,56 +2521,57 @@ departamentos   IN      CNAME   madu&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Dirección de pandora.iesgn.org, www.iesgn.org, ftp.iesgn.org&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#vagrant@cliente:~$ dig madu.iesgn.org&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; madu.iesgn.org
+&lt;li&gt;Dirección de pandora.iesgn.org, www.iesgn.org, ftp.iesgn.org&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;vagrant@cliente:~$ dig madu.iesgn.org&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; madu.iesgn.org
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NOERROR, id: &lt;span class=&quot;token number&quot;&gt;26578&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr aa rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 4096
-; COOKIE: 456d9ca9940c96f34291b0355fc8ab94100afc289509f5a6 (good)
-;; QUESTION SECTION:
-;madu.iesgn.org.			IN	A&lt;/p&gt;
-&lt;p&gt;;; ANSWER SECTION:
-madu.iesgn.org.		604800	IN	A	192.168.100.155&lt;/p&gt;
-&lt;p&gt;;; AUTHORITY SECTION:
-iesgn.org.		604800	IN	NS	madu.iesgn.org.&lt;/p&gt;
-&lt;p&gt;;; Query time: 1 msec
-;; SERVER: 192.168.100.155#53(192.168.100.155)
-;; WHEN: Thu Dec 03 09:10:44 UTC 2020
-;; MSG SIZE  rcvd: 101&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;```shell
-#vagrant@cliente:~$ dig www.iesgn.org
-; &amp;lt;&amp;lt;&amp;gt;&amp;gt; DiG 9.11.5-P4-5.1+deb10u2-Debian &amp;lt;&amp;lt;&amp;gt;&amp;gt; www.iesgn.org
-;; global options: +cmd
-;; Got answer:
-;; -&amp;gt;&amp;gt;HEADER&amp;lt;&amp;lt;- opcode: QUERY, status: NOERROR, id: 56855
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr aa rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
 
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 4096
-; COOKIE: 8754ac6311b386f3ecc6ecc15fc8aba36e540a3a0b1a0a00 (good)
-;; QUESTION SECTION:
-;www.iesgn.org.			IN	A
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; OPT PSEUDOSECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; EDNS: version: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, flags:&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; udp: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; COOKIE: 456d9ca9940c96f34291b0355fc8ab94100afc289509f5a6 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;good&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUESTION SECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;madu.iesgn.org.			IN	A
 
-;; ANSWER SECTION:
-www.iesgn.org.		604800	IN	CNAME	madu.iesgn.org.
-madu.iesgn.org.		604800	IN	A	192.168.100.155
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ANSWER SECTION:
+madu.iesgn.org.		&lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155
 
-;; AUTHORITY SECTION:
-iesgn.org.		604800	IN	NS	madu.iesgn.org.
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; AUTHORITY SECTION:
+iesgn.org.		&lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt;	IN	NS	madu.iesgn.org.
 
-;; Query time: 1 msec
-;; SERVER: 192.168.100.155#53(192.168.100.155)
-;; WHEN: Thu Dec 03 09:10:59 UTC 2020
-;; MSG SIZE  rcvd: 119&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#vagrant@cliente:~$ dig ftp.iesgn.org&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; ftp.iesgn.org
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Query time: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; msec
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; SERVER: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155&lt;span class=&quot;token comment&quot;&gt;#53(192.168.100.155)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Thu Dec 03 09:10:44 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;101&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;vagrant@cliente:~$ dig www.iesgn.org&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; www.iesgn.org
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NOERROR, id: &lt;span class=&quot;token number&quot;&gt;56855&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr aa rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; OPT PSEUDOSECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; EDNS: version: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, flags:&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; udp: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; COOKIE: 8754ac6311b386f3ecc6ecc15fc8aba36e540a3a0b1a0a00 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;good&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUESTION SECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;www.iesgn.org.			IN	A
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ANSWER SECTION:
+www.iesgn.org.		&lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt;	IN	CNAME	madu.iesgn.org.
+madu.iesgn.org.		&lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; AUTHORITY SECTION:
+iesgn.org.		&lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt;	IN	NS	madu.iesgn.org.
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Query time: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; msec
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; SERVER: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155&lt;span class=&quot;token comment&quot;&gt;#53(192.168.100.155)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Thu Dec 03 09:10:59 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;119&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;vagrant@cliente:~$ dig ftp.iesgn.org&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; ftp.iesgn.org
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NOERROR, id: &lt;span class=&quot;token number&quot;&gt;26408&lt;/span&gt;
@@ -2596,135 +2597,148 @@ madu.iesgn.org.		&lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt;	
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Thu Dec 03 09:11:31 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;121&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;El servidor DNS con autoridad sobre la zona del dominio iesgn.org&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#vagrant@cliente:~$ dig ns iesgn.org&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; ns iesgn.org
+&lt;li&gt;El servidor DNS con autoridad sobre la zona del dominio iesgn.org&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;vagrant@cliente:~$ dig ns iesgn.org&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; ns iesgn.org
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NOERROR, id: &lt;span class=&quot;token number&quot;&gt;12731&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr aa rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 4096
-; COOKIE: 61af9aa291d6c5065fa57b805fc8a9371b402da74c8a0967 (good)
-;; QUESTION SECTION:
-;iesgn.org.			IN	NS&lt;/p&gt;
-&lt;p&gt;;; ANSWER SECTION:
-iesgn.org.		604800	IN	NS	madu.iesgn.org.&lt;/p&gt;
-&lt;p&gt;;; ADDITIONAL SECTION:
-madu.iesgn.org.		604800	IN	A	192.168.100.155&lt;/p&gt;
-&lt;p&gt;;; Query time: 0 msec
-;; SERVER: 192.168.100.155#53(192.168.100.155)
-;; WHEN: Thu Dec 03 09:00:39 UTC 2020
-;; MSG SIZE  rcvd: 101&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* El servidor de correo configurado para iesgn.org
-```shell
-#vagrant@cliente:~$ dig mx iesgn.org
-; &amp;lt;&amp;lt;&amp;gt;&amp;gt; DiG 9.11.5-P4-5.1+deb10u2-Debian &amp;lt;&amp;lt;&amp;gt;&amp;gt; mx iesgn.org
-;; global options: +cmd
-;; Got answer:
-;; -&amp;gt;&amp;gt;HEADER&amp;lt;&amp;lt;- opcode: QUERY, status: NOERROR, id: 62841
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 3
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr aa rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
 
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 4096
-; COOKIE: 96301209c19d659f053a80a55fc8a9cb30a6df7f4f8eed52 (good)
-;; QUESTION SECTION:
-;iesgn.org.			IN	MX
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; OPT PSEUDOSECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; EDNS: version: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, flags:&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; udp: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; COOKIE: 61af9aa291d6c5065fa57b805fc8a9371b402da74c8a0967 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;good&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUESTION SECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;iesgn.org.			IN	NS
 
-;; ANSWER SECTION:
-iesgn.org.		604800	IN	MX	10 correo.iesgn.org.
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ANSWER SECTION:
+iesgn.org.		&lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt;	IN	NS	madu.iesgn.org.
 
-;; AUTHORITY SECTION:
-iesgn.org.		604800	IN	NS	madu.iesgn.org.
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ADDITIONAL SECTION:
+madu.iesgn.org.		&lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155
 
-;; ADDITIONAL SECTION:
-correo.iesgn.org.	604800	IN	A	192.168.100.200
-madu.iesgn.org.		604800	IN	A	192.168.100.155
-
-;; Query time: 0 msec
-;; SERVER: 192.168.100.155#53(192.168.100.155)
-;; WHEN: Thu Dec 03 09:03:07 UTC 2020
-;; MSG SIZE  rcvd: 140&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Query time: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; msec
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; SERVER: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155&lt;span class=&quot;token comment&quot;&gt;#53(192.168.100.155)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Thu Dec 03 09:00:39 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;101&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;La dirección IP de www.josedomingo.org&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#vagrant@cliente:~$ dig www.josedomingo.org&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; www.josedomingo.org
+&lt;li&gt;El servidor de correo configurado para iesgn.org&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;vagrant@cliente:~$ dig mx iesgn.org&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; mx iesgn.org
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NOERROR, id: &lt;span class=&quot;token number&quot;&gt;62841&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr aa rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; OPT PSEUDOSECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; EDNS: version: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, flags:&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; udp: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; COOKIE: 96301209c19d659f053a80a55fc8a9cb30a6df7f4f8eed52 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;good&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUESTION SECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;iesgn.org.			IN	MX
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ANSWER SECTION:
+iesgn.org.		&lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt;	IN	MX	&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; correo.iesgn.org.
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; AUTHORITY SECTION:
+iesgn.org.		&lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt;	IN	NS	madu.iesgn.org.
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ADDITIONAL SECTION:
+correo.iesgn.org.	&lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.200
+madu.iesgn.org.		&lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Query time: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; msec
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; SERVER: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155&lt;span class=&quot;token comment&quot;&gt;#53(192.168.100.155)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Thu Dec 03 09:03:07 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;140&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;La dirección IP de www.josedomingo.org&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;vagrant@cliente:~$ dig www.josedomingo.org&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; www.josedomingo.org
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
 &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NOERROR, id: &lt;span class=&quot;token number&quot;&gt;271&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; OPT PSEUDOSECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; EDNS: version: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, flags:&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; udp: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; COOKIE: 5f6397d74751cd384eb020055fc8abffc2f4212bab4159dc &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;good&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUESTION SECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;www.josedomingo.org.		IN	A
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ANSWER SECTION:
+www.josedomingo.org.	&lt;span class=&quot;token number&quot;&gt;731&lt;/span&gt;	IN	CNAME	playerone.josedomingo.org.
+playerone.josedomingo.org. &lt;span class=&quot;token number&quot;&gt;731&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;137.74&lt;/span&gt;.161.90
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; AUTHORITY SECTION:
+josedomingo.org.	&lt;span class=&quot;token number&quot;&gt;86229&lt;/span&gt;	IN	NS	ns4.cdmondns-01.org.
+josedomingo.org.	&lt;span class=&quot;token number&quot;&gt;86229&lt;/span&gt;	IN	NS	ns3.cdmon.net.
+josedomingo.org.	&lt;span class=&quot;token number&quot;&gt;86229&lt;/span&gt;	IN	NS	ns2.cdmon.net.
+josedomingo.org.	&lt;span class=&quot;token number&quot;&gt;86229&lt;/span&gt;	IN	NS	ns1.cdmon.net.
+josedomingo.org.	&lt;span class=&quot;token number&quot;&gt;86229&lt;/span&gt;	IN	NS	ns5.cdmondns-01.com.
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ADDITIONAL SECTION:
+ns1.cdmon.net.		&lt;span class=&quot;token number&quot;&gt;172630&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;35.189&lt;/span&gt;.106.232
+ns2.cdmon.net.		&lt;span class=&quot;token number&quot;&gt;172630&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;35.195&lt;/span&gt;.57.29
+ns3.cdmon.net.		&lt;span class=&quot;token number&quot;&gt;172630&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;35.157&lt;/span&gt;.47.125
+ns4.cdmondns-01.org.	&lt;span class=&quot;token number&quot;&gt;86229&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;52.58&lt;/span&gt;.66.183
+ns5.cdmondns-01.com.	&lt;span class=&quot;token number&quot;&gt;172630&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;52.59&lt;/span&gt;.146.62
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Query time: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; msec
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; SERVER: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155&lt;span class=&quot;token comment&quot;&gt;#53(192.168.100.155)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Thu Dec 03 09:12:31 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;322&lt;/span&gt;
+
+
+vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;dig&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;137.74&lt;/span&gt;.161.90
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;137.74&lt;/span&gt;.161.90
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NXDOMAIN, id: &lt;span class=&quot;token number&quot;&gt;7972&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr rd ra ad&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; OPT PSEUDOSECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; EDNS: version: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, flags:&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; udp: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; COOKIE: f77f48ef60509bc623c9faa85fc8abfc0c9e5e107b71e286 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;good&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUESTION SECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;137.74&lt;/span&gt;.161.90.			IN	A
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; AUTHORITY SECTION:
+&lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;			&lt;span class=&quot;token number&quot;&gt;10660&lt;/span&gt;	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. &lt;span class=&quot;token number&quot;&gt;2020120300&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1800&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;900&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;86400&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Query time: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; msec
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; SERVER: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155&lt;span class=&quot;token comment&quot;&gt;#53(192.168.100.155)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Thu Dec 03 09:12:28 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;145&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Una resolución inversa&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 4096
-; COOKIE: 5f6397d74751cd384eb020055fc8abffc2f4212bab4159dc (good)
-;; QUESTION SECTION:
-;www.josedomingo.org.		IN	A&lt;/p&gt;
-&lt;p&gt;;; ANSWER SECTION:
-www.josedomingo.org.	731	IN	CNAME	playerone.josedomingo.org.
-playerone.josedomingo.org. 731	IN	A	137.74.161.90&lt;/p&gt;
-&lt;p&gt;;; AUTHORITY SECTION:
-josedomingo.org.	86229	IN	NS	ns4.cdmondns-01.org.
-josedomingo.org.	86229	IN	NS	ns3.cdmon.net.
-josedomingo.org.	86229	IN	NS	ns2.cdmon.net.
-josedomingo.org.	86229	IN	NS	ns1.cdmon.net.
-josedomingo.org.	86229	IN	NS	ns5.cdmondns-01.com.&lt;/p&gt;
-&lt;p&gt;;; ADDITIONAL SECTION:
-ns1.cdmon.net.		172630	IN	A	35.189.106.232
-ns2.cdmon.net.		172630	IN	A	35.195.57.29
-ns3.cdmon.net.		172630	IN	A	35.157.47.125
-ns4.cdmondns-01.org.	86229	IN	A	52.58.66.183
-ns5.cdmondns-01.com.	172630	IN	A	52.59.146.62&lt;/p&gt;
-&lt;p&gt;;; Query time: 1 msec
-;; SERVER: 192.168.100.155#53(192.168.100.155)
-;; WHEN: Thu Dec 03 09:12:31 UTC 2020
-;; MSG SIZE  rcvd: 322&lt;/p&gt;
-&lt;p&gt;vagrant@cliente:~$ dig 137.74.161.90&lt;/p&gt;
-&lt;p&gt;; &amp;#x3C;&amp;#x3C;&gt;&gt; DiG 9.11.5-P4-5.1+deb10u2-Debian &amp;#x3C;&amp;#x3C;&gt;&gt; 137.74.161.90
-;; global options: +cmd
-;; Got answer:
-;; -&gt;&gt;HEADER&amp;#x3C;&amp;#x3C;- opcode: QUERY, status: NXDOMAIN, id: 7972
-;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1&lt;/p&gt;
-&lt;p&gt;;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 4096
-; COOKIE: f77f48ef60509bc623c9faa85fc8abfc0c9e5e107b71e286 (good)
-;; QUESTION SECTION:
-;137.74.161.90.			IN	A&lt;/p&gt;
-&lt;p&gt;;; AUTHORITY SECTION:
-.			10660	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2020120300 1800 900 604800 86400&lt;/p&gt;
-&lt;p&gt;;; Query time: 0 msec
-;; SERVER: 192.168.100.155#53(192.168.100.155)
-;; WHEN: Thu Dec 03 09:12:28 UTC 2020
-;; MSG SIZE  rcvd: 145&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* Una resolución inversa
-```shell
-#vagrant@cliente:~$ dig -x 192.168.100.155
-; &amp;lt;&amp;lt;&amp;gt;&amp;gt; DiG 9.11.5-P4-5.1+deb10u2-Debian &amp;lt;&amp;lt;&amp;gt;&amp;gt; -x 192.168.100.155
-;; global options: +cmd
-;; Got answer:
-;; -&amp;gt;&amp;gt;HEADER&amp;lt;&amp;lt;- opcode: QUERY, status: NOERROR, id: 8828
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+&lt;p&gt;vagrant@cliente:~$ dig -x 192.168.100.155&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; -x &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NOERROR, id: &lt;span class=&quot;token number&quot;&gt;8828&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr aa rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
 
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 4096
-; COOKIE: ead6683541c9828cc51219125fc8aa51aefab226d59fd5d8 (good)
-;; QUESTION SECTION:
-;155.100.168.192.in-addr.arpa.	IN	PTR
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; OPT PSEUDOSECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; EDNS: version: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, flags:&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; udp: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; COOKIE: ead6683541c9828cc51219125fc8aa51aefab226d59fd5d8 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;good&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUESTION SECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;155.100&lt;/span&gt;.168.192.in-addr.arpa.	IN	PTR
 
-;; ANSWER SECTION:
-155.100.168.192.in-addr.arpa. 86400 IN	PTR	departamentos.iesgn.org.
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ANSWER SECTION:
+&lt;span class=&quot;token number&quot;&gt;155.100&lt;/span&gt;.168.192.in-addr.arpa. &lt;span class=&quot;token number&quot;&gt;86400&lt;/span&gt; IN	PTR	departamentos.iesgn.org.
 
-;; AUTHORITY SECTION:
-100.168.192.in-addr.arpa. 86400	IN	NS	madu.iesgn.orgg.
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; AUTHORITY SECTION:
+&lt;span class=&quot;token number&quot;&gt;100.168&lt;/span&gt;.192.in-addr.arpa. &lt;span class=&quot;token number&quot;&gt;86400&lt;/span&gt;	IN	NS	madu.iesgn.orgg.
 
-;; Query time: 0 msec
-;; SERVER: 192.168.100.155#53(192.168.100.155)
-;; WHEN: Thu Dec 03 09:05:21 UTC 2020
-;; MSG SIZE  rcvd: 151&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Query time: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; msec
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; SERVER: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155&lt;span class=&quot;token comment&quot;&gt;#53(192.168.100.155)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Thu Dec 03 09:05:21 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;151&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;servidor-dns-esclavo&quot;&gt;&lt;a href=&quot;#servidor-dns-esclavo&quot; aria-label=&quot;servidor dns esclavo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Servidor DNS esclavo&lt;/h2&gt;
 &lt;p&gt;El servidor DNS actual funciona como DNS maestro. Vamos a instalar un nuevo servidor DNS que va a estar configurado como DNS esclavo del anterior, donde se van a ir copiando periódicamente las zonas del DNS maestro. Suponemos que el nombre del servidor DNS esclavo se va llamar afrodita.iesgn.org.&lt;/p&gt;
