@@ -309,7 +309,7 @@ vagrant@cliente:~$ dig madu.iesgn.org
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26578
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
-
+#
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 4096
 ; COOKIE: 456d9ca9940c96f34291b0355fc8ab94100afc289509f5a6 (good)
@@ -328,14 +328,17 @@ iesgn.org.		604800	IN	NS	madu.iesgn.org.
 ;; MSG SIZE  rcvd: 101
 ```
 
+
+```shell
 vagrant@cliente:~$ dig www.iesgn.org
+```
 ```shell
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> www.iesgn.org
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56855
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
-
+#
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 4096
 ; COOKIE: 8754ac6311b386f3ecc6ecc15fc8aba36e540a3a0b1a0a00 (good)
@@ -355,7 +358,9 @@ iesgn.org.		604800	IN	NS	madu.iesgn.org.
 ;; MSG SIZE  rcvd: 119
 ```
 
+```shell
 vagrant@cliente:~$ dig ftp.iesgn.org
+```
 ```shell
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> ftp.iesgn.org
 ;; global options: +cmd
@@ -386,14 +391,16 @@ madu.iesgn.org.		604800	IN	A	192.168.100.155
 
 * El servidor DNS con autoridad sobre la zona del dominio iesgn.org
 
+```shell
 vagrant@cliente:~$ dig ns iesgn.org
+```
 ```shell
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> ns iesgn.org
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12731
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 2
-
+#
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 4096
 ; COOKIE: 61af9aa291d6c5065fa57b805fc8a9371b402da74c8a0967 (good)
@@ -414,14 +421,16 @@ madu.iesgn.org.		604800	IN	A	192.168.100.155
 
 * El servidor de correo configurado para iesgn.org
 
+```shell
 vagrant@cliente:~$ dig mx iesgn.org
+```
 ```shell
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> mx iesgn.org
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62841
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 3
-
+#
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 4096
 ; COOKIE: 96301209c19d659f053a80a55fc8a9cb30a6df7f4f8eed52 (good)
@@ -446,14 +455,16 @@ madu.iesgn.org.		604800	IN	A	192.168.100.155
 
 * La dirección IP de www.josedomingo.org
 
+```shell
 vagrant@cliente:~$ dig www.josedomingo.org
+```
 ```shell
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> www.josedomingo.org
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 271
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 5, ADDITIONAL: 6
-
+#
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 4096
 ; COOKIE: 5f6397d74751cd384eb020055fc8abffc2f4212bab4159dc (good)
@@ -509,14 +520,16 @@ vagrant@cliente:~$ dig 137.74.161.90
 
 * Una resolución inversa
 
+```shell
 vagrant@cliente:~$ dig -x 192.168.100.155
+```
 ```shell
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> -x 192.168.100.155
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8828
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
-
+#
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 4096
 ; COOKIE: ead6683541c9828cc51219125fc8aa51aefab226d59fd5d8 (good)
