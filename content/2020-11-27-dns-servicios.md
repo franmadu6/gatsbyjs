@@ -301,8 +301,7 @@ $ORIGIN 100.168.192.in-addr.arpa.
 
 * Dirección de pandora.iesgn.org, www.iesgn.org, ftp.iesgn.org
 ```shell
-vagrant@cliente:~$ dig madu.iesgn.org
-
+#vagrant@cliente:~$ dig madu.iesgn.org
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> madu.iesgn.org
 ;; global options: +cmd
 ;; Got answer:
@@ -327,8 +326,7 @@ iesgn.org.		604800	IN	NS	madu.iesgn.org.
 ;; MSG SIZE  rcvd: 101
 ```
 ```shell
-vagrant@cliente:~$ dig www.iesgn.org
-
+#vagrant@cliente:~$ dig www.iesgn.org
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> www.iesgn.org
 ;; global options: +cmd
 ;; Got answer:
@@ -354,8 +352,7 @@ iesgn.org.		604800	IN	NS	madu.iesgn.org.
 ;; MSG SIZE  rcvd: 119
 ```
 ```shell
-vagrant@cliente:~$ dig ftp.iesgn.org
-
+#vagrant@cliente:~$ dig ftp.iesgn.org
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> ftp.iesgn.org
 ;; global options: +cmd
 ;; Got answer:
@@ -385,8 +382,7 @@ madu.iesgn.org.		604800	IN	A	192.168.100.155
 
 * El servidor DNS con autoridad sobre la zona del dominio iesgn.org
 ```shell
-vagrant@cliente:~$ dig ns iesgn.org
-
+#vagrant@cliente:~$ dig ns iesgn.org
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> ns iesgn.org
 ;; global options: +cmd
 ;; Got answer:
@@ -413,8 +409,7 @@ madu.iesgn.org.		604800	IN	A	192.168.100.155
 
 * El servidor de correo configurado para iesgn.org
 ```shell
-vagrant@cliente:~$ dig mx iesgn.org
-
+#vagrant@cliente:~$ dig mx iesgn.org
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> mx iesgn.org
 ;; global options: +cmd
 ;; Got answer:
@@ -445,7 +440,7 @@ madu.iesgn.org.		604800	IN	A	192.168.100.155
 
 * La dirección IP de www.josedomingo.org
 ```shell
-vagrant@cliente:~$ dig www.josedomingo.org
+#vagrant@cliente:~$ dig www.josedomingo.org
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> www.josedomingo.org
 ;; global options: +cmd
 ;; Got answer:
@@ -507,7 +502,7 @@ vagrant@cliente:~$ dig 137.74.161.90
 
 * Una resolución inversa
 ```shell
-vagrant@cliente:~$ dig -x 192.168.100.155
+#vagrant@cliente:~$ dig -x 192.168.100.155
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> -x 192.168.100.155
 ;; global options: +cmd
 ;; Got answer:
