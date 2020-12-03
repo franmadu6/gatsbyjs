@@ -293,19 +293,21 @@ departamentos   IN      CNAME   madu</code></pre></div>
 <span class="token punctuation">;</span> EDNS: version: <span class="token number">0</span>, flags:<span class="token punctuation">;</span> udp: <span class="token number">4096</span>
 <span class="token punctuation">;</span> COOKIE: 456d9ca9940c96f34291b0355fc8ab94100afc289509f5a6 <span class="token punctuation">(</span>good<span class="token punctuation">)</span>
 <span class="token punctuation">;</span><span class="token punctuation">;</span> QUESTION SECTION:
-<span class="token punctuation">;</span>madu.iesgn.org.			IN	A</code></pre></div>
+<span class="token punctuation">;</span>madu.iesgn.org.			IN	A
+<span class="token comment">#</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> ANSWER SECTION:
+madu.iesgn.org.		<span class="token number">604800</span>	IN	A	<span class="token number">192.168</span>.100.155
+<span class="token comment">#</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> AUTHORITY SECTION:
+iesgn.org.		<span class="token number">604800</span>	IN	NS	madu.iesgn.org.
+<span class="token comment">#</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> Query time: <span class="token number">1</span> msec
+<span class="token punctuation">;</span><span class="token punctuation">;</span> SERVER: <span class="token number">192.168</span>.100.155<span class="token comment">#53(192.168.100.155)</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> WHEN: Thu Dec 03 09:10:44 UTC <span class="token number">2020</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> MSG SIZE  rcvd: <span class="token number">101</span></code></pre></div>
 </li>
 </ul>
-<p>;; ANSWER SECTION:
-madu.iesgn.org.		604800	IN	A	192.168.100.155</p>
-<p>;; AUTHORITY SECTION:
-iesgn.org.		604800	IN	NS	madu.iesgn.org.</p>
-<p>;; Query time: 1 msec
-;; SERVER: 192.168.100.155#53(192.168.100.155)
-;; WHEN: Thu Dec 03 09:10:44 UTC 2020
-;; MSG SIZE  rcvd: 101</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">```shell
-vagrant@cliente:~$ dig www.iesgn.org</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@cliente:~$ <span class="token function">dig</span> www.iesgn.org</code></pre></div>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token punctuation">;</span> <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> DiG <span class="token number">9.11</span>.5-P4-5.1+deb10u2-Debian <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> www.iesgn.org
 <span class="token punctuation">;</span><span class="token punctuation">;</span> global options: +cmd
 <span class="token punctuation">;</span><span class="token punctuation">;</span> Got answer:
