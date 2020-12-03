@@ -446,7 +446,6 @@ madu.iesgn.org.		604800	IN	A	192.168.100.155
 * La dirección IP de www.josedomingo.org
 ```shell
 vagrant@cliente:~$ dig www.josedomingo.org
-
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> www.josedomingo.org
 ;; global options: +cmd
 ;; Got answer:
