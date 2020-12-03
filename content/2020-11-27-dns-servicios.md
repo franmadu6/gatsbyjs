@@ -315,13 +315,13 @@ vagrant@cliente:~$ dig madu.iesgn.org
 ; COOKIE: 456d9ca9940c96f34291b0355fc8ab94100afc289509f5a6 (good)
 ;; QUESTION SECTION:
 ;madu.iesgn.org.			IN	A
-
+#
 ;; ANSWER SECTION:
 madu.iesgn.org.		604800	IN	A	192.168.100.155
-
+#
 ;; AUTHORITY SECTION:
 iesgn.org.		604800	IN	NS	madu.iesgn.org.
-
+#
 ;; Query time: 1 msec
 ;; SERVER: 192.168.100.155#53(192.168.100.155)
 ;; WHEN: Thu Dec 03 09:10:44 UTC 2020
