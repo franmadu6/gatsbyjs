@@ -220,6 +220,75 @@ Desinstala el servidor dnsmasq del ejercicio anterior e instala un servidor dns 
 * Tarea 2 (1 puntos): Realiza la instalación y configuración del servidor bind9 con las características anteriomente señaladas. Entrega las zonas que has definido. Muestra al profesor su funcionamiento.
 </div>
 
+**Configuración en el Servidor:**
+
+Instalamos paquetería:
+```shell
+vagrant@servidorDNS:~$ sudo apt-get install bind9
+```
+**Recuerda apagar o desistalar el servidor DNSMasq anteriormente instalado**
+```shell
+vagrant@servidorDNS:~$ sudo systemctl stop dnsmasq.service
+```
+
+Resolución directa:(en  /etc/bind/named.conf.local)
+```shell
+zone "iesgn.org" {
+type master;
+file "db.iesgn.org";
+};
+
+zone "100.168.192.in-addr.arpa" {
+type master;
+file "db.192.168.100";
+};
+```
+
+Vamos a crear dos ficheros:
+
+El fichero /var/cache/bind/db.iesgn.org
+
+```shell
+;
+; BIND data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     madu.iesgn.org.   frandh1997.gmail.com. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      madu.iesgn.org.
+@       IN      MX 10   correo.iesgn.org.
+
+$ORIGIN iesgn.org.
+madu            IN      A       192.168.100.155
+correo          IN      A       192.168.100.200
+ftp             IN      A       192.168.100.201
+www             IN      CNAME   madu
+departamentos   IN      CNAME   madu
+```
+
+Y el fichero /var/cache/bind/db.192.168.100
+
+```shell
+$TTL 86400 ; 1 day
+@ IN SOA madu.iesgn.org. frandh1997.gmail.com. (
+ 12998 ; serial
+ 21600 ; refresh (6 hours)
+ 3600 ; retry (1 hour)
+ 604800 ; expire (1 week)
+ 21600 ; minimum (6 hours)
+ )
+@ IN NS madu.iesgn.orgg.
+
+$ORIGIN 100.168.192.in-addr.arpa.
+155 IN PTR www.iesgn.org.
+155 IN PTR departamentos.iesgn.org.
+```
+
 <div style="background-color:#ff5733; border-radius:1em;  border-color: black;">
 
 * Tarea 3 (1 puntos): Realiza las consultas dig/nslookup desde los clientes preguntando por los siguientes:
@@ -229,6 +298,242 @@ Desinstala el servidor dnsmasq del ejercicio anterior e instala un servidor dns 
     * La dirección IP de www.josedomingo.org
     * Una resolución inversa
 </div>
+
+* Dirección de pandora.iesgn.org, www.iesgn.org, ftp.iesgn.org
+```shell
+vagrant@cliente:~$ dig madu.iesgn.org
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> madu.iesgn.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26578
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 456d9ca9940c96f34291b0355fc8ab94100afc289509f5a6 (good)
+;; QUESTION SECTION:
+;madu.iesgn.org.			IN	A
+
+;; ANSWER SECTION:
+madu.iesgn.org.		604800	IN	A	192.168.100.155
+
+;; AUTHORITY SECTION:
+iesgn.org.		604800	IN	NS	madu.iesgn.org.
+
+;; Query time: 1 msec
+;; SERVER: 192.168.100.155#53(192.168.100.155)
+;; WHEN: Thu Dec 03 09:10:44 UTC 2020
+;; MSG SIZE  rcvd: 101
+```
+```shell
+vagrant@cliente:~$ dig www.iesgn.org
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> www.iesgn.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56855
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 8754ac6311b386f3ecc6ecc15fc8aba36e540a3a0b1a0a00 (good)
+;; QUESTION SECTION:
+;www.iesgn.org.			IN	A
+
+;; ANSWER SECTION:
+www.iesgn.org.		604800	IN	CNAME	madu.iesgn.org.
+madu.iesgn.org.		604800	IN	A	192.168.100.155
+
+;; AUTHORITY SECTION:
+iesgn.org.		604800	IN	NS	madu.iesgn.org.
+
+;; Query time: 1 msec
+;; SERVER: 192.168.100.155#53(192.168.100.155)
+;; WHEN: Thu Dec 03 09:10:59 UTC 2020
+;; MSG SIZE  rcvd: 119
+```
+```shell
+vagrant@cliente:~$ dig ftp.iesgn.org
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> ftp.iesgn.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26408
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 2
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: aad1f238f65f5bb32ad1a9d35fc8abc30da5ac8de9d64c51 (good)
+;; QUESTION SECTION:
+;ftp.iesgn.org.			IN	A
+
+;; ANSWER SECTION:
+ftp.iesgn.org.		604800	IN	A	192.168.100.201
+
+;; AUTHORITY SECTION:
+iesgn.org.		604800	IN	NS	madu.iesgn.org.
+
+;; ADDITIONAL SECTION:
+madu.iesgn.org.		604800	IN	A	192.168.100.155
+
+;; Query time: 0 msec
+;; SERVER: 192.168.100.155#53(192.168.100.155)
+;; WHEN: Thu Dec 03 09:11:31 UTC 2020
+;; MSG SIZE  rcvd: 121
+```
+
+* El servidor DNS con autoridad sobre la zona del dominio iesgn.org
+```shell
+vagrant@cliente:~$ dig ns iesgn.org
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> ns iesgn.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12731
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 2
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 61af9aa291d6c5065fa57b805fc8a9371b402da74c8a0967 (good)
+;; QUESTION SECTION:
+;iesgn.org.			IN	NS
+
+;; ANSWER SECTION:
+iesgn.org.		604800	IN	NS	madu.iesgn.org.
+
+;; ADDITIONAL SECTION:
+madu.iesgn.org.		604800	IN	A	192.168.100.155
+
+;; Query time: 0 msec
+;; SERVER: 192.168.100.155#53(192.168.100.155)
+;; WHEN: Thu Dec 03 09:00:39 UTC 2020
+;; MSG SIZE  rcvd: 101
+```
+
+* El servidor de correo configurado para iesgn.org
+```shell
+vagrant@cliente:~$ dig mx iesgn.org
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> mx iesgn.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62841
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 3
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 96301209c19d659f053a80a55fc8a9cb30a6df7f4f8eed52 (good)
+;; QUESTION SECTION:
+;iesgn.org.			IN	MX
+
+;; ANSWER SECTION:
+iesgn.org.		604800	IN	MX	10 correo.iesgn.org.
+
+;; AUTHORITY SECTION:
+iesgn.org.		604800	IN	NS	madu.iesgn.org.
+
+;; ADDITIONAL SECTION:
+correo.iesgn.org.	604800	IN	A	192.168.100.200
+madu.iesgn.org.		604800	IN	A	192.168.100.155
+
+;; Query time: 0 msec
+;; SERVER: 192.168.100.155#53(192.168.100.155)
+;; WHEN: Thu Dec 03 09:03:07 UTC 2020
+;; MSG SIZE  rcvd: 140
+```
+
+* La dirección IP de www.josedomingo.org
+```shell
+vagrant@cliente:~$ dig www.josedomingo.org
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> www.josedomingo.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 271
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 5, ADDITIONAL: 6
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 5f6397d74751cd384eb020055fc8abffc2f4212bab4159dc (good)
+;; QUESTION SECTION:
+;www.josedomingo.org.		IN	A
+
+;; ANSWER SECTION:
+www.josedomingo.org.	731	IN	CNAME	playerone.josedomingo.org.
+playerone.josedomingo.org. 731	IN	A	137.74.161.90
+
+;; AUTHORITY SECTION:
+josedomingo.org.	86229	IN	NS	ns4.cdmondns-01.org.
+josedomingo.org.	86229	IN	NS	ns3.cdmon.net.
+josedomingo.org.	86229	IN	NS	ns2.cdmon.net.
+josedomingo.org.	86229	IN	NS	ns1.cdmon.net.
+josedomingo.org.	86229	IN	NS	ns5.cdmondns-01.com.
+
+;; ADDITIONAL SECTION:
+ns1.cdmon.net.		172630	IN	A	35.189.106.232
+ns2.cdmon.net.		172630	IN	A	35.195.57.29
+ns3.cdmon.net.		172630	IN	A	35.157.47.125
+ns4.cdmondns-01.org.	86229	IN	A	52.58.66.183
+ns5.cdmondns-01.com.	172630	IN	A	52.59.146.62
+
+;; Query time: 1 msec
+;; SERVER: 192.168.100.155#53(192.168.100.155)
+;; WHEN: Thu Dec 03 09:12:31 UTC 2020
+;; MSG SIZE  rcvd: 322
+
+
+vagrant@cliente:~$ dig 137.74.161.90
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> 137.74.161.90
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7972
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: f77f48ef60509bc623c9faa85fc8abfc0c9e5e107b71e286 (good)
+;; QUESTION SECTION:
+;137.74.161.90.			IN	A
+
+;; AUTHORITY SECTION:
+.			10660	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2020120300 1800 900 604800 86400
+
+;; Query time: 0 msec
+;; SERVER: 192.168.100.155#53(192.168.100.155)
+;; WHEN: Thu Dec 03 09:12:28 UTC 2020
+;; MSG SIZE  rcvd: 145
+```
+
+* Una resolución inversa
+```shell
+vagrant@cliente:~$ dig -x 192.168.100.155
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> -x 192.168.100.155
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8828
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: ead6683541c9828cc51219125fc8aa51aefab226d59fd5d8 (good)
+;; QUESTION SECTION:
+;155.100.168.192.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+155.100.168.192.in-addr.arpa. 86400 IN	PTR	departamentos.iesgn.org.
+
+;; AUTHORITY SECTION:
+100.168.192.in-addr.arpa. 86400	IN	NS	madu.iesgn.orgg.
+
+;; Query time: 0 msec
+;; SERVER: 192.168.100.155#53(192.168.100.155)
+;; WHEN: Thu Dec 03 09:05:21 UTC 2020
+;; MSG SIZE  rcvd: 151
+```
+
 
 <hr>
 
