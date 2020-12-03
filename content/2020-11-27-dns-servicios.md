@@ -508,7 +508,6 @@ vagrant@cliente:~$ dig 137.74.161.90
 * Una resolución inversa
 ```shell
 vagrant@cliente:~$ dig -x 192.168.100.155
-
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> -x 192.168.100.155
 ;; global options: +cmd
 ;; Got answer:
