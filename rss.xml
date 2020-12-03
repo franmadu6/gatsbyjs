@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 01 Dec 2020 09:59:16 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Instalación y configuración de Servidores y Clientes]]></title><description><![CDATA[ABD PRÁCTICA 2. Instalación de Servidores y Clientes. Tipo D Con esta práctica aprenderéis la instalación y configuración de distintos…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-de-servidores-y-clientes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-de-servidores-y-clientes</guid><category><![CDATA[Servidores]]></category><category><![CDATA[Clientes]]></category><category><![CDATA[Oracle]]></category><category><![CDATA[MongoDB]]></category><category><![CDATA[MySQL]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;abd-práctica-2&quot;&gt;&lt;a href=&quot;#abd-pr%C3%A1ctica-2&quot; aria-label=&quot;abd práctica 2 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ABD PRÁCTICA 2.&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 03 Dec 2020 07:56:38 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Elección de Forma Jurídica]]></title><description><![CDATA[¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta. Descargar archivo Sociedades.odt La forma jurídica elegida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</guid><category><![CDATA[Forma Jurídica]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/gatsbyjs/3448904c8dfde8472ac0c47331328f23/sociedades.ods&quot;&gt;Descargar archivo Sociedades.odt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La forma jurídica elegida es &lt;strong&gt;Sociedad Limitada&lt;/strong&gt; razones:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Responsabilidad limitada a lo aportado&lt;/strong&gt;, mi patrimonio personal queda salvaguardado en caso de quiebra.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;El capital social minimo&lt;/strong&gt;, 3.000€.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Los gastos de constitución&lt;/strong&gt;, actualmente por 300€ se puede crear una sociedad limitada, siempre que se tramite por Internet y con el capital mínimo (3.000€), además al hacerlo por Internet, se reduce los tiempos de constitución, en menos de una semana podremos tenerlo todo listo para funcionar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mi sociedad limitada puedo crearla yo solo&lt;/strong&gt;, puedo actuar como socio y administrador unico de mi empresa si el capital me permite hacerlo y la opción de si vas creciendo aumentar el capital de la misma.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Da una imagen mas profesional&lt;/strong&gt;, la imagen de una empresa como sociedad limitada refuerza la percepción del cliente de organización y de equipo.&lt;/li&gt;
+&lt;/ol&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación y configuración de Servidores y Clientes]]></title><description><![CDATA[ABD PRÁCTICA 2. Instalación de Servidores y Clientes. Tipo D Con esta práctica aprenderéis la instalación y configuración de distintos…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-de-servidores-y-clientes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-de-servidores-y-clientes</guid><category><![CDATA[Servidores]]></category><category><![CDATA[Clientes]]></category><category><![CDATA[Oracle]]></category><category><![CDATA[MongoDB]]></category><category><![CDATA[MySQL]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;abd-práctica-2&quot;&gt;&lt;a href=&quot;#abd-pr%C3%A1ctica-2&quot; aria-label=&quot;abd práctica 2 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ABD PRÁCTICA 2.&lt;/h2&gt;
 &lt;h3 id=&quot;instalación-de-servidores-y-clientes&quot;&gt;&lt;a href=&quot;#instalaci%C3%B3n-de-servidores-y-clientes&quot; aria-label=&quot;instalación de servidores y clientes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalación de Servidores y Clientes.&lt;/h3&gt;
 &lt;h4 id=&quot;tipo-d&quot;&gt;&lt;a href=&quot;#tipo-d&quot; aria-label=&quot;tipo d permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tipo D&lt;/h4&gt;
 &lt;p&gt;Con esta práctica aprenderéis la instalación y configuración de distintos servidores y clientes de bases de datos.
@@ -13,179 +22,131 @@ Se aportará el código de las aplicaciones realizadas y prueba de funcionamient
 &lt;li&gt;Instalación de un servidor de ORACLE 19c sobre Linux&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Nos descargamos la version zip de la web oficial de Oracle → &lt;a href=&quot;https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox&quot;&gt;https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lo descomprimimos dentro de un directorio:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;unzip&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;/Descargas/LINUX.X64_193000_db_home.zip /oracle&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ejecutamos sun instalador:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; runInstaller&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/75e77767e59cfa47096a91bc0bc71243/c1e1e/oracleinst1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 76.22377622377623%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACJklEQVQ4y42Ta28SQRSG+ZOSUiAsRuA/mCZNjLaIttoW09Zq/B9+sOIlKi1QFgqU63JbLrtQkHujeT2z01mLtLYfnpyZMzPvvnPmrGXZZoXDvgSHwwanYxlOp91Eklzwej3weB5Q9MLn88Htvg+XSzKQJAn3rFbYCI/dATdhqVcS0FpZ6K08OloJXb2MXreGfq+BQb+F4UDHaHiO8biP6WSI2XSMKWMywu9fM3z6HEI0dAj9+AjjigJLo5YksYyB1kyj3UiZ87vQ1bLQ2lmodFbXc0wwYYoxWurprTTrPIozDJ1FMjPnkLnrtM9wMakTNczGxKhKscojcUE5ts7W2F4uyA0xDVOQJZj9VOIL9vdeYH93E28OtvDu7c4cB69fYm93wxjXK3FTVJgyBZm7XieP8Lf38K8/hH9tBc8Dj/Aq+AzbW34EdwIIbgfwdH0Va09WsLnxGPmzMK/hdYI8mUZFkTEdRnCuychlwijmwnTwB5TCMQrZsFG70U8Fg16R9sZudiiSxdyRUXT2WEohgkophnIxSteTjVsIanRdll8QbNbnBUv5iOGECbNYoJhJfcdp4ivS8iHS8Q+QT0I4iX5ErRz/v6BoG+ZOJRqXqGJelTk0ZueE0NX2WRAUrXMbNzW6KcgeRDjkwnegeYXLnCEovsgSTRLkjhf5143IMQOdNp9blEKMXjNKNUoadeG/Vepa/tY2CbWaMPaqRj1TUIoxaqM4/gC1sBS4j0tBbwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/75e77767e59cfa47096a91bc0bc71243/36727/oracleinst1.png&quot;
+        srcset=&quot;/gatsbyjs/static/75e77767e59cfa47096a91bc0bc71243/acf4b/oracleinst1.png 173w,
+/gatsbyjs/static/75e77767e59cfa47096a91bc0bc71243/fc834/oracleinst1.png 345w,
+/gatsbyjs/static/75e77767e59cfa47096a91bc0bc71243/36727/oracleinst1.png 690w,
+/gatsbyjs/static/75e77767e59cfa47096a91bc0bc71243/c1e1e/oracleinst1.png 1001w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/b0a7edbd467ff7fae819d9c1c13fff17/0896d/oracleinst2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 76.17617617617617%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACGklEQVQ4y5WUW3PSUBDH8w21pfAilPrigwW+odoibaWC5EpIyIU7SbgjyrTjzN/dEwOotYMPv9nDOWcv/z0bpLPUCzDpsxNk0qdIp1OC8/MsisUCLi/fClsqlVAoFIgiLi5eI5fLIZ/P4+UJ+Z2m8OZVFtlMBpLvNuA5Mjq+jl7XhO+q6JOdzwZYLQOsVxE2X2f4tlkQK2y3Gzw+bvHw8B3AD1yXP0CplLHWFHifqxSw30fb89FyfNiuB8+twzLvYOo3MI0b6EoZTb0Cq3mHdusTgqGOadjCJDAFi4mNKLQwnTvQyUfqdTT4XoOQMehRlR1ZODpWFY59j673RcCBkiCHROMmopGB1awtkkvB0MB4oJKDJojGJniPA4R0cUkXmTlVwswi6y+44vXChaF+hDQeGBj2FeHMGVmmplxDbVxBlWOriPWVWHM7XKqcVcS2Cpv2OtSqRu09JFEykUjgC02tInrIvWtRAl5bzVuRjJ0Zz6lh1Ncw6Cr0iLKIISRzuQksl20sz/oNlpbYZyUnlYmAv5r8VPOfg32WMycOmIzAYcDDvWNgZUsaGyOR/K+Ax1do7iucBOy8z5QE/B846Gq+k8zVxfBBOGrush4L+yymNNgySQ7HFoKgTXItcRBShcnL/Un8qjQFuxffVyhemcZN0gwZdVWBbdMfhFvDsKfSl6M/ybCniHO33YBt1Wn+NPF70NMEtft3+AnYCR5Jl7FeUwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/b0a7edbd467ff7fae819d9c1c13fff17/36727/oracleinst2.png&quot;
+        srcset=&quot;/gatsbyjs/static/b0a7edbd467ff7fae819d9c1c13fff17/acf4b/oracleinst2.png 173w,
+/gatsbyjs/static/b0a7edbd467ff7fae819d9c1c13fff17/fc834/oracleinst2.png 345w,
+/gatsbyjs/static/b0a7edbd467ff7fae819d9c1c13fff17/36727/oracleinst2.png 690w,
+/gatsbyjs/static/b0a7edbd467ff7fae819d9c1c13fff17/0896d/oracleinst2.png 999w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/5865a8c0319f3b5b3353d09a4292078d/b12db/oracleinst3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.55331991951711%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAAB40lEQVQ4y72Ua28SQRSG94faNNFYFGqaWBIwfmmBv2XiB02rArKw7BX2AsvustBLatRStI8zC6uY0DSpiR+enLNnZt68czmrPH/2hGLxqWCPUqlAqVjg4GCfcvkl9doRx8dH1Os1Go06tZqMDarVVxwelqlUquzs7vL40Q6VvQKv91+ghF6HOOgS+RpRoDMZG1xdTrj+Nmfx/ZybxSXLmy/8WH7l9uc13C6A5TpCt9vCVltcOQbLaITiDn30nk2/a5OGAb7Xptd5i9l/j+t8YmB9YGhLPmbRNk9wrFMCt5URj3uEIxU/6JAkBooXmFhOj4GrMU1MIdLkc/MNuvYO2zjJsHQhYp5m0VrXvEETfyhF24SBykSQhBpKMtFEopJGQlAgB+XizJFwKF3K3BUCm1E6l8jxULgb+x0i4VYI9onDHmlsMEtWXMwdzmf2vVzMV/EstdaYKPOpSU4qxNJY/y38EJQ8kYKztWCeb9a3fW+ayVHyCdsEty24j/8r+M9nKG86F3woytlUihnZlUvhaXT3La9ewR/+GlvXlDgySWILGeOwj3yXs2T7lnMXqzdnM8uOZjVX1jKHPb1Lq6tiOCaeqwqH/TscmozFTyRwO6LlRLeIfk5EQ8Shlu3KG7YZ+Sq/ACeVKa122N/tAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/5865a8c0319f3b5b3353d09a4292078d/36727/oracleinst3.png&quot;
+        srcset=&quot;/gatsbyjs/static/5865a8c0319f3b5b3353d09a4292078d/acf4b/oracleinst3.png 173w,
+/gatsbyjs/static/5865a8c0319f3b5b3353d09a4292078d/fc834/oracleinst3.png 345w,
+/gatsbyjs/static/5865a8c0319f3b5b3353d09a4292078d/36727/oracleinst3.png 690w,
+/gatsbyjs/static/5865a8c0319f3b5b3353d09a4292078d/b12db/oracleinst3.png 994w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/ec8261a4c73b8dc8db13f99ef3e2f837/0896d/oracleinst4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.77577577577577%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACpklEQVQ4y41TWVPTYBTNPwVfUBQQfXDsOPUNC/wrBRXoQtskTdPs+9amZShUZJzj+VIoy4wzPpzc5H655567fNL21ga2t15iZ2eTeI23O2+wu7uN2scP2G/sofFlD/v7DRweHqDRaODg4AD1+mfUajXaOtbWX2BjbR2fXm2i/u49pNDrw3d6iPwBIk9FHGrIUwuLqwLzywxX8wKL6ykWiwvc/Jrj5maO29/XFYBbtDunsNQeLi0df8ocUqwp8Jsd+K1z5L4Oy2hCU79jIB/D1E/h2y0Yyjd4xgmyoIvU6yB224idFkKriTJRUMQyTJ4H9EuhqcNVFDiKCs+z4FhtmKMzHjI4UpCGMjzzDK7RQhrIyCMVZaZjVhgVpvkIeTyANfxZJZeiUEEQ9BAzOGHwUP0BufsVav8I1h3xQDlBr3uCgdpEwNZkbMlk7GJSLDHObXhOFxETShnZhZIi1TDOhvDsDhyzxb52MMl1FPQp/eMKwp9SYRIuk8dBnwnP+d5HWehVvCQejzHSqEQ+gsvSBalvt5lEQZm7uJyF/MdGEpmEgSL3MJummJYRVZqEAUkoq5AtrUMCm0pEqQEJY6eJzO9gmiq4yFRkkQyxGQJpRBG5KNlh6Q6TmUuF9+UKG7EMm5MWExY9tEbNavI+V0oEz8pghenEJ7yKrEgGVfwTwjyhSkL07jmWLbmr5hHGVay2atlTQloxpOdBDxj+EyvCVaY7hcI+KPp/3PNIE8qtkC8drtXiNeyRnAOIlWqlslhd4f77uX9FmMRDxPGIi61zFXhbzHPeGAdh4CKJQ0SRjzD0+O3xvwBJEtK/tMIf8zyivZiVRAapJ7dx2m5B1mQYozayxOA0Pa6RU021EOC7QMC77rtcflfnemlIE5u3RsCBaw+5CUP8BfgpKVEn112MAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/ec8261a4c73b8dc8db13f99ef3e2f837/36727/oracleinst4.png&quot;
+        srcset=&quot;/gatsbyjs/static/ec8261a4c73b8dc8db13f99ef3e2f837/acf4b/oracleinst4.png 173w,
+/gatsbyjs/static/ec8261a4c73b8dc8db13f99ef3e2f837/fc834/oracleinst4.png 345w,
+/gatsbyjs/static/ec8261a4c73b8dc8db13f99ef3e2f837/36727/oracleinst4.png 690w,
+/gatsbyjs/static/ec8261a4c73b8dc8db13f99ef3e2f837/0896d/oracleinst4.png 999w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Instalación de un servidor MongoDB y configuración para permitir el acceso remoto desde la red local.&lt;/li&gt;
 &lt;li&gt;Prueba desde un cliente remoto del intérprete de comandos de MySQL.&lt;/li&gt;
 &lt;li&gt;Realización de una aplicación web en cualquier lenguaje que conecte con el servidor ORACLE tras autenticarse y muestre alguna información almacenada en el mismo.&lt;/li&gt;
 &lt;li&gt;Instalación de una herramienta de administración web para MySQL y prueba desde un cliente remoto.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Elección de Forma Jurídica]]></title><description><![CDATA[¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta. Descargar archivo Sociedades.odt La forma jurídica elegida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</guid><category><![CDATA[Forma Jurídica]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/gatsbyjs/3448904c8dfde8472ac0c47331328f23/sociedades.ods&quot;&gt;Descargar archivo Sociedades.odt&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;La forma jurídica elegida es &lt;strong&gt;Sociedad Limitada&lt;/strong&gt; razones:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Responsabilidad limitada a lo aportado&lt;/strong&gt;, mi patrimonio personal queda salvaguardado en caso de quiebra.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;El capital social minimo&lt;/strong&gt;, 3.000€.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Los gastos de constitución&lt;/strong&gt;, actualmente por 300€ se puede crear una sociedad limitada, siempre que se tramite por Internet y con el capital mínimo (3.000€), además al hacerlo por Internet, se reduce los tiempos de constitución, en menos de una semana podremos tenerlo todo listo para funcionar.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mi sociedad limitada puedo crearla yo solo&lt;/strong&gt;, puedo actuar como socio y administrador unico de mi empresa si el capital me permite hacerlo y la opción de si vas creciendo aumentar el capital de la misma.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Da una imagen mas profesional&lt;/strong&gt;, la imagen de una empresa como sociedad limitada refuerza la percepción del cliente de organización y de equipo.&lt;/li&gt;
-&lt;/ol&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica: Servidor DNS]]></title><description><![CDATA[Escenario En nuestra red local tenemos un servidor Web que sirve dos páginas web: www.iesgn.org, departamentos.iesgn.org Vamos a instalar en…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-servidor-dns</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-servidor-dns</guid><category><![CDATA[DNS]]></category><category><![CDATA[Bind9]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Dominio]]></category><pubDate>Thu, 26 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;escenario&quot;&gt;&lt;a href=&quot;#escenario&quot; aria-label=&quot;escenario permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Escenario&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;En nuestra red local tenemos un servidor Web que sirve dos páginas web: www.iesgn.org, departamentos.iesgn.org&lt;/li&gt;
-&lt;li&gt;Vamos a instalar en nuestra red local un servidor DNS (lo puedes instalar en el mismo equipo que tiene el servidor web)&lt;/li&gt;
-&lt;li&gt;Voy a suponer en este documento que el nombre del servidor DNS va a ser pandora.iesgn.org. El nombre del servidor de tu prácticas será tunombre.iesgn.org.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# -*- mode: ruby -*-&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# vi: set ft=ruby :&lt;/span&gt;
-
-Vagrant.configure&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;2&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;config&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
-
-        config.vm.define :servidordns &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;servidordns&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
-                servidordns.vm.box &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;generic/debian10&quot;&lt;/span&gt;
-                servidordns.vm.hostname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;servidorDNS&quot;&lt;/span&gt;
-                servidordns.vm.network :public_network,:bridge&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;wlo1&quot;&lt;/span&gt;
-                servidordns.vm.network :private_network, ip: &lt;span class=&quot;token string&quot;&gt;&quot;192.168.100.155&quot;&lt;/span&gt;
-        end
-
-        config.vm.define :cliente &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;cliente&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
-                cliente.vm.box &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;generic/debian10&quot;&lt;/span&gt;
-                cliente.vm.hostname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;cliente&quot;&lt;/span&gt;
-                cliente.vm.network :public_network,:bridge&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;wlo1&quot;&lt;/span&gt;
-                cliente.vm.network :private_network, ip: &lt;span class=&quot;token string&quot;&gt;&quot;192.168.100.156&quot;&lt;/span&gt;
-        end
-end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;servidor-dnsmasq&quot;&gt;&lt;a href=&quot;#servidor-dnsmasq&quot; aria-label=&quot;servidor dnsmasq permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Servidor DNSmasq&lt;/h2&gt;
-&lt;p&gt;Instala el servidor dns dnsmasq en pandora.iesgn.org y configúralo para que los clientes puedan conocer los nombres necesarios.&lt;/p&gt;
-&lt;div style=&quot;background-color:#ff5733; border-radius:0.5em;  border-color: black;&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Tarea 1 (1 punto): Modifica los clientes para que utilicen el nuevo servidor dns. Realiza una consulta a www.iesgn.org, y a www.josedomingo.org. Realiza una prueba de funcionamiento para comprobar que el servidor dnsmasq funciona como cache dns. Muestra el fichero hosts del cliente para demostrar que no estás utilizando resolución estática. Realiza una consulta directa al servidor dnsmasq. ¿Se puede realizar resolución inversa?. Documenta la tarea en redmine.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Configuración del Servidor:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Intalamos dnsmasq:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@servidor:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; dnsmasq&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Modificamos /etc/hosts:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155 www.iesgn.org
-&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155 departamentos.iesgn.org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Modificamos el fichero /etc/dnsmasq.conf:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;strict-order
-&lt;span class=&quot;token assign-left variable&quot;&gt;interface&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;eth2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Reiniciamos servicios&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart dnsmasq.service&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;servidor-bind9&quot;&gt;&lt;a href=&quot;#servidor-bind9&quot; aria-label=&quot;servidor bind9 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Servidor bind9&lt;/h2&gt;
-&lt;p&gt;Desinstala el servidor dnsmasq del ejercicio anterior e instala un servidor dns bind9. Las características del servidor DNS que queremos instalar son las siguientes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;El servidor DNS se llama pandora.iesgn.org y por supuesto, va a ser el servidor con autoridad para la zona iesgn.org.&lt;/li&gt;
-&lt;li&gt;Vamos a suponer que tenemos un servidor para recibir los correos que se llame correo.iesgn.org y que está en la dirección x.x.x.200 (esto es ficticio).&lt;/li&gt;
-&lt;li&gt;Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.org y que está en x.x.x.201 (esto es ficticio)&lt;/li&gt;
-&lt;li&gt;Además queremos nombrar a los clientes.&lt;/li&gt;
-&lt;li&gt;También hay que nombrar a los virtual hosts de apache: www.iesgn.org y departementos.iesgn.org&lt;/li&gt;
-&lt;li&gt;Se tienen que configurar la zona de resolución inversa.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div style=&quot;background-color:#ff5733; border-radius:1em;  border-color: black;&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Tarea 2 (1 puntos): Realiza la instalación y configuración del servidor bind9 con las características anteriomente señaladas. Entrega las zonas que has definido. Muestra al profesor su funcionamiento.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div style=&quot;background-color:#ff5733; border-radius:1em;  border-color: black;&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Tarea 3 (1 puntos): Realiza las consultas dig/nslookup desde los clientes preguntando por los siguientes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Dirección de pandora.iesgn.org, www.iesgn.org, ftp.iesgn.org&lt;/li&gt;
-&lt;li&gt;El servidor DNS con autoridad sobre la zona del dominio iesgn.org&lt;/li&gt;
-&lt;li&gt;El servidor de correo configurado para iesgn.org&lt;/li&gt;
-&lt;li&gt;La dirección IP de www.josedomingo.org&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Una resolución inversa&lt;/p&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;servidor-dns-esclavo&quot;&gt;&lt;a href=&quot;#servidor-dns-esclavo&quot; aria-label=&quot;servidor dns esclavo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Servidor DNS esclavo&lt;/h2&gt;
-&lt;p&gt;El servidor DNS actual funciona como DNS maestro. Vamos a instalar un nuevo servidor DNS que va a estar configurado como DNS esclavo del anterior, donde se van a ir copiando periódicamente las zonas del DNS maestro. Suponemos que el nombre del servidor DNS esclavo se va llamar afrodita.iesgn.org.&lt;/p&gt;
-&lt;div style=&quot;background-color:#ff5733; border-radius:1em;  border-color: black;&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Tarea 4 (2 puntos): Realiza la instalación del servidor DNS esclavo. Documenta los siguientes apartados:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Entrega la configuración de las zonas del maestro y del esclavo.&lt;/li&gt;
-&lt;li&gt;Comprueba si las zonas definidas en el maestro tienen algún error con el comando adecuado.&lt;/li&gt;
-&lt;li&gt;Comprueba si la configuración de named.conf tiene algún error con el comando adecuado.&lt;/li&gt;
-&lt;li&gt;Reinicia los servidores y comprueba en los logs si hay algún error. No olvides incrementar el número de serie en el registro SOA si has modificado la zona en el maestro.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Muestra la salida del log donde se demuestra que se ha realizado la transferencia de zona.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div style=&quot;background-color:#ff5733; border-radius:1em; border-color: black;&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Tarea 5 (1 punto): Documenta los siguientes apartados:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Configura un cliente para que utilice los dos servidores como servidores DNS.&lt;/li&gt;
-&lt;li&gt;Realiza una consulta con dig tanto al maestro como al esclavo para comprobar que las respuestas son autorizadas. ¿En qué te tienes que fijar?&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Solicita una copia completa de la zona desde el cliente ¿qué tiene que ocurrir?. Solicita una copia completa desde el esclavo ¿qué tiene que ocurrir?&lt;/p&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div style=&quot;background-color:#ff5733; border-radius:1em; border-color: black;&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Tarea 6 (1 punto): Muestra al profesor el funcionamiento del DNS esclavo:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Realiza una consulta desde el cliente y comprueba que servidor está respondiendo.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Posteriormente apaga el servidor maestro y vuelve a realizar una consulta desde el cliente ¿quién responde?&lt;/p&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;delegación-de-dominios&quot;&gt;&lt;a href=&quot;#delegaci%C3%B3n-de-dominios&quot; aria-label=&quot;delegación de dominios permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Delegación de dominios&lt;/h2&gt;
-&lt;p&gt;Tenemos un servidor DNS que gestiona la zona correspondiente al nombre de dominio iesgn.org, en esta ocasión queremos delegar el subdominio informatica.iesgn.org para que lo gestione otro servidor DNS. Por lo tanto tenemos un escenario con dos servidores DNS:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;pandora.iesgn.org, es servidor DNS autorizado para la zona iesgn.org.&lt;/li&gt;
-&lt;li&gt;ns.informatica.iesgn.org, es el servidor DNS para la zona informatica.iesgn.org y, está instalado en otra máquina.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Los nombres que vamos a tener en ese subdominio son los siguientes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;www.informatica.iesgn.org corresponde a un sitio web que está alojado en el servidor web del departamento de informática.&lt;/li&gt;
-&lt;li&gt;Vamos a suponer que tenemos un servidor ftp que se llame ftp.informatica.iesgn.org y que está en la misma máquina.&lt;/li&gt;
-&lt;li&gt;Vamos a suponer que tenemos un servidor para recibir los correos que se llame correo.informatica.iesgn.org.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div style=&quot;background-color:#ff5733; border-radius:1em; border-color: black;&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Tarea 7 (2 puntos): Realiza la instalación y configuración del nuevo servidor dns con las características anteriormente señaladas. Muestra el resultado al profesor.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div style=&quot;background-color:#ff5733; border-radius:1em; border-color: black;&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Tarea 8 (1 punto): Realiza las consultas dig/neslookup desde los clientes preguntando por los siguientes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Dirección de www.informatica.iesgn.org, ftp.informatica.iesgn.org&lt;/li&gt;
-&lt;li&gt;El servidor DNS que tiene configurado la zona del dominio informatica.iesgn.org. ¿Es el mismo que el servidor DNS con autoridad para la zona iesgn.org?&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;El servidor de correo configurado para informatica.iesgn.org&lt;/p&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Actualización de quijote a CentOS8]]></title><description><![CDATA[Actualiza la instancia quijote a CentOS 8 garantizando que todos los servicios previos continúen funcionando y detalla en la tarea los…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/actualizacion-de-quijote-a-cent-os-8</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/actualizacion-de-quijote-a-cent-os-8</guid><category><![CDATA[OpenStack]]></category><category><![CDATA[CentOS]]></category><category><![CDATA[Actualización]]></category><pubDate>Thu, 26 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;actualiza-la-instancia-quijote-a-centos-8-garantizando-que-todos-los-servicios-previos-continúen-funcionando-y-detalla-en-la-tarea-los-aspectos-más-relevantes&quot;&gt;&lt;a href=&quot;#actualiza-la-instancia-quijote-a-centos-8-garantizando-que-todos-los-servicios-previos-contin%C3%BAen-funcionando-y-detalla-en-la-tarea-los-aspectos-m%C3%A1s-relevantes&quot; aria-label=&quot;actualiza la instancia quijote a centos 8 garantizando que todos los servicios previos continúen funcionando y detalla en la tarea los aspectos más relevantes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Actualiza la instancia quijote a CentOS 8 garantizando que todos los servicios previos continúen funcionando y detalla en la tarea los aspectos más relevantes.&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;En el caso de que la instancia no sea recuperable en algún punto, se tiene que volver a crear una instancia de CentOS 7 y realizar la actualización de nuevo. Lo recomendable en este caso sería crear una instantánea de volumen antes de comenzar y en el caso de tener un error irrecuperable, crear un nuevo volumen a partir de la instantánea, eliminar la instancia quijote y crear una nueva con el nuevo volumen. Una vez arrancada la nueva instancia se puede eliminar el antiguo volumen y las instantáneas asociadas.&lt;/li&gt;
@@ -2320,7 +2281,276 @@ centos-release-8.2-2.2004.0.1.el8.x86_64
 &lt;span class=&quot;token assign-left variable&quot;&gt;CENTOS_MANTISBT_PROJECT_VERSION&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;8&quot;&lt;/span&gt;
 &lt;span class=&quot;token assign-left variable&quot;&gt;REDHAT_SUPPORT_PRODUCT&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;centos&quot;&lt;/span&gt;
 &lt;span class=&quot;token assign-left variable&quot;&gt;REDHAT_SUPPORT_PRODUCT_VERSION&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;8&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Listo ya tenemos actualizado nuestro sistema de CentOS7 a CentOS8!.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Plan de Marketing.]]></title><description><![CDATA[Siguiendo las directrices del Marketing Mix, hemos de reflexionar sobre los cuatro puntos que lo componen: 1. El producto, diseñándolo…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/plan-de-marketing</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/plan-de-marketing</guid><category><![CDATA[Planificación]]></category><category><![CDATA[Marketing]]></category><pubDate>Wed, 25 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Siguiendo las directrices del Marketing Mix, hemos de reflexionar sobre los cuatro puntos que lo componen:&lt;/p&gt;
+&lt;p&gt;Listo ya tenemos actualizado nuestro sistema de CentOS7 a CentOS8!.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica: Servidor DNS]]></title><description><![CDATA[Escenario En nuestra red local tenemos un servidor Web que sirve dos páginas web: www.iesgn.org, departamentos.iesgn.org Vamos a instalar en…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-servidor-dns</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-servidor-dns</guid><category><![CDATA[DNS]]></category><category><![CDATA[Bind9]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Dominio]]></category><pubDate>Thu, 26 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;escenario&quot;&gt;&lt;a href=&quot;#escenario&quot; aria-label=&quot;escenario permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Escenario&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;En nuestra red local tenemos un servidor Web que sirve dos páginas web: www.iesgn.org, departamentos.iesgn.org&lt;/li&gt;
+&lt;li&gt;Vamos a instalar en nuestra red local un servidor DNS (lo puedes instalar en el mismo equipo que tiene el servidor web)&lt;/li&gt;
+&lt;li&gt;Voy a suponer en este documento que el nombre del servidor DNS va a ser pandora.iesgn.org. El nombre del servidor de tu prácticas será tunombre.iesgn.org.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# -*- mode: ruby -*-&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# vi: set ft=ruby :&lt;/span&gt;
+
+Vagrant.configure&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;2&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;config&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+
+        config.vm.define :servidordns &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;servidordns&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+                servidordns.vm.box &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;generic/debian10&quot;&lt;/span&gt;
+                servidordns.vm.hostname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;servidorDNS&quot;&lt;/span&gt;
+                servidordns.vm.network :public_network,:bridge&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;wlo1&quot;&lt;/span&gt;
+                servidordns.vm.network :private_network, ip: &lt;span class=&quot;token string&quot;&gt;&quot;192.168.100.155&quot;&lt;/span&gt;
+        end
+
+        config.vm.define :cliente &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;cliente&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+                cliente.vm.box &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;generic/debian10&quot;&lt;/span&gt;
+                cliente.vm.hostname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;cliente&quot;&lt;/span&gt;
+                cliente.vm.network :public_network,:bridge&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;wlo1&quot;&lt;/span&gt;
+                cliente.vm.network :private_network, ip: &lt;span class=&quot;token string&quot;&gt;&quot;192.168.100.156&quot;&lt;/span&gt;
+        end
+end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;servidor-dnsmasq&quot;&gt;&lt;a href=&quot;#servidor-dnsmasq&quot; aria-label=&quot;servidor dnsmasq permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Servidor DNSmasq&lt;/h2&gt;
+&lt;p&gt;Instala el servidor dns dnsmasq en pandora.iesgn.org y configúralo para que los clientes puedan conocer los nombres necesarios.&lt;/p&gt;
+&lt;div style=&quot;background-color:#ff5733; border-radius:0.5em;  border-color: black;&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tarea 1 (1 punto): Modifica los clientes para que utilicen el nuevo servidor dns. Realiza una consulta a www.iesgn.org, y a www.josedomingo.org. Realiza una prueba de funcionamiento para comprobar que el servidor dnsmasq funciona como cache dns. Muestra el fichero hosts del cliente para demostrar que no estás utilizando resolución estática. Realiza una consulta directa al servidor dnsmasq. ¿Se puede realizar resolución inversa?. Documenta la tarea en redmine.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Configuración del Servidor:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Intalamos dnsmasq:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@servidor:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; dnsmasq&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Creamos las paginas www.iesgn.org y departamentos.iesgn.org con apache2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Modificamos /etc/hosts:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155 www.iesgn.org
+&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155 departamentos.iesgn.org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modificamos el fichero /etc/dnsmasq.conf:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;strict-order
+&lt;span class=&quot;token assign-left variable&quot;&gt;interface&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;eth2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En /etc/resolv.conf&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;nameserver &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Reiniciamos servicios&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart dnsmasq.service&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Configuración del cliente:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Instralamos la paqueteria:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; dnsutils&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En /etc/resolv.conf&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;nameserver &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Comprobación:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;dig&lt;/span&gt; www.josedomingo.org
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; www.josedomingo.org
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NOERROR, id: &lt;span class=&quot;token number&quot;&gt;57262&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; OPT PSEUDOSECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; EDNS: version: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, flags:&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; udp: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; COOKIE: 79aa374f36939b00c83fb1ce5fc8992c80d0da518c9221f2 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;good&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUESTION SECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;www.josedomingo.org.		IN	A
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ANSWER SECTION:
+www.josedomingo.org.	&lt;span class=&quot;token number&quot;&gt;56&lt;/span&gt;	IN	CNAME	playerone.josedomingo.org.
+playerone.josedomingo.org. &lt;span class=&quot;token number&quot;&gt;717&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;137.74&lt;/span&gt;.161.90
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; AUTHORITY SECTION:
+josedomingo.org.	&lt;span class=&quot;token number&quot;&gt;35965&lt;/span&gt;	IN	NS	ns5.cdmondns-01.com.
+josedomingo.org.	&lt;span class=&quot;token number&quot;&gt;35965&lt;/span&gt;	IN	NS	ns3.cdmon.net.
+josedomingo.org.	&lt;span class=&quot;token number&quot;&gt;35965&lt;/span&gt;	IN	NS	ns2.cdmon.net.
+josedomingo.org.	&lt;span class=&quot;token number&quot;&gt;35965&lt;/span&gt;	IN	NS	ns1.cdmon.net.
+josedomingo.org.	&lt;span class=&quot;token number&quot;&gt;35965&lt;/span&gt;	IN	NS	ns4.cdmondns-01.org.
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ADDITIONAL SECTION:
+ns1.cdmon.net.		&lt;span class=&quot;token number&quot;&gt;106292&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;35.189&lt;/span&gt;.106.232
+ns2.cdmon.net.		&lt;span class=&quot;token number&quot;&gt;106292&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;35.195&lt;/span&gt;.57.29
+ns3.cdmon.net.		&lt;span class=&quot;token number&quot;&gt;106292&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;35.157&lt;/span&gt;.47.125
+ns4.cdmondns-01.org.	&lt;span class=&quot;token number&quot;&gt;35965&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;52.58&lt;/span&gt;.66.183
+ns5.cdmondns-01.com.	&lt;span class=&quot;token number&quot;&gt;106292&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;52.59&lt;/span&gt;.146.62
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Query time: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; msec
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; SERVER: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1&lt;span class=&quot;token comment&quot;&gt;#53(192.168.100.1)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Thu Dec 03 07:52:12 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;322&lt;/span&gt;
+
+vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;dig&lt;/span&gt; www.iesgn.org
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; www.iesgn.org
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NOERROR, id: &lt;span class=&quot;token number&quot;&gt;65398&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr aa rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; OPT PSEUDOSECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; EDNS: version: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, flags:&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; udp: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUESTION SECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;www.iesgn.org.			IN	A
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ANSWER SECTION:
+www.iesgn.org.		&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Query time: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; msec
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; SERVER: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1&lt;span class=&quot;token comment&quot;&gt;#53(192.168.100.1)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Thu Dec 03 07:52:54 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;58&lt;/span&gt;
+
+vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;dig&lt;/span&gt; departamentos.iesgn.org
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; departamentos.iesgn.org
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NOERROR, id: &lt;span class=&quot;token number&quot;&gt;7942&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr aa rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; OPT PSEUDOSECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; EDNS: version: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, flags:&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; udp: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUESTION SECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;departamentos.iesgn.org.	IN	A
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ANSWER SECTION:
+departamentos.iesgn.org. &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;	IN	A	&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Query time: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; msec
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; SERVER: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1&lt;span class=&quot;token comment&quot;&gt;#53(192.168.100.1)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Thu Dec 03 07:53:33 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;68&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Consulta directa al servidor dnsmasq:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;dig&lt;/span&gt; -x &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; -x &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NOERROR, id: &lt;span class=&quot;token number&quot;&gt;62390&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr aa rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; OPT PSEUDOSECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; EDNS: version: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, flags:&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; udp: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUESTION SECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;155.100&lt;/span&gt;.168.192.in-addr.arpa.	IN	PTR
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; ANSWER SECTION:
+&lt;span class=&quot;token number&quot;&gt;155.100&lt;/span&gt;.168.192.in-addr.arpa. &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;	IN	PTR	www.iesgn.org.
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Query time: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; msec
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; SERVER: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1&lt;span class=&quot;token comment&quot;&gt;#53(192.168.100.1)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Thu Dec 03 07:54:13 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;84&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;¿Se puede realizar resolución inversa?
+No, no es capaz de realizar preguntas recursivas.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;servidor-bind9&quot;&gt;&lt;a href=&quot;#servidor-bind9&quot; aria-label=&quot;servidor bind9 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Servidor bind9&lt;/h2&gt;
+&lt;p&gt;Desinstala el servidor dnsmasq del ejercicio anterior e instala un servidor dns bind9. Las características del servidor DNS que queremos instalar son las siguientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;El servidor DNS se llama pandora.iesgn.org y por supuesto, va a ser el servidor con autoridad para la zona iesgn.org.&lt;/li&gt;
+&lt;li&gt;Vamos a suponer que tenemos un servidor para recibir los correos que se llame correo.iesgn.org y que está en la dirección x.x.x.200 (esto es ficticio).&lt;/li&gt;
+&lt;li&gt;Vamos a suponer que tenemos un servidor ftp que se llame ftp.iesgn.org y que está en x.x.x.201 (esto es ficticio)&lt;/li&gt;
+&lt;li&gt;Además queremos nombrar a los clientes.&lt;/li&gt;
+&lt;li&gt;También hay que nombrar a los virtual hosts de apache: www.iesgn.org y departementos.iesgn.org&lt;/li&gt;
+&lt;li&gt;Se tienen que configurar la zona de resolución inversa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&quot;background-color:#ff5733; border-radius:1em;  border-color: black;&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tarea 2 (1 puntos): Realiza la instalación y configuración del servidor bind9 con las características anteriomente señaladas. Entrega las zonas que has definido. Muestra al profesor su funcionamiento.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&quot;background-color:#ff5733; border-radius:1em;  border-color: black;&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tarea 3 (1 puntos): Realiza las consultas dig/nslookup desde los clientes preguntando por los siguientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dirección de pandora.iesgn.org, www.iesgn.org, ftp.iesgn.org&lt;/li&gt;
+&lt;li&gt;El servidor DNS con autoridad sobre la zona del dominio iesgn.org&lt;/li&gt;
+&lt;li&gt;El servidor de correo configurado para iesgn.org&lt;/li&gt;
+&lt;li&gt;La dirección IP de www.josedomingo.org&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Una resolución inversa&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;servidor-dns-esclavo&quot;&gt;&lt;a href=&quot;#servidor-dns-esclavo&quot; aria-label=&quot;servidor dns esclavo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Servidor DNS esclavo&lt;/h2&gt;
+&lt;p&gt;El servidor DNS actual funciona como DNS maestro. Vamos a instalar un nuevo servidor DNS que va a estar configurado como DNS esclavo del anterior, donde se van a ir copiando periódicamente las zonas del DNS maestro. Suponemos que el nombre del servidor DNS esclavo se va llamar afrodita.iesgn.org.&lt;/p&gt;
+&lt;div style=&quot;background-color:#ff5733; border-radius:1em;  border-color: black;&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tarea 4 (2 puntos): Realiza la instalación del servidor DNS esclavo. Documenta los siguientes apartados:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Entrega la configuración de las zonas del maestro y del esclavo.&lt;/li&gt;
+&lt;li&gt;Comprueba si las zonas definidas en el maestro tienen algún error con el comando adecuado.&lt;/li&gt;
+&lt;li&gt;Comprueba si la configuración de named.conf tiene algún error con el comando adecuado.&lt;/li&gt;
+&lt;li&gt;Reinicia los servidores y comprueba en los logs si hay algún error. No olvides incrementar el número de serie en el registro SOA si has modificado la zona en el maestro.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Muestra la salida del log donde se demuestra que se ha realizado la transferencia de zona.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&quot;background-color:#ff5733; border-radius:1em; border-color: black;&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tarea 5 (1 punto): Documenta los siguientes apartados:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Configura un cliente para que utilice los dos servidores como servidores DNS.&lt;/li&gt;
+&lt;li&gt;Realiza una consulta con dig tanto al maestro como al esclavo para comprobar que las respuestas son autorizadas. ¿En qué te tienes que fijar?&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Solicita una copia completa de la zona desde el cliente ¿qué tiene que ocurrir?. Solicita una copia completa desde el esclavo ¿qué tiene que ocurrir?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&quot;background-color:#ff5733; border-radius:1em; border-color: black;&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tarea 6 (1 punto): Muestra al profesor el funcionamiento del DNS esclavo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Realiza una consulta desde el cliente y comprueba que servidor está respondiendo.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Posteriormente apaga el servidor maestro y vuelve a realizar una consulta desde el cliente ¿quién responde?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;delegación-de-dominios&quot;&gt;&lt;a href=&quot;#delegaci%C3%B3n-de-dominios&quot; aria-label=&quot;delegación de dominios permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Delegación de dominios&lt;/h2&gt;
+&lt;p&gt;Tenemos un servidor DNS que gestiona la zona correspondiente al nombre de dominio iesgn.org, en esta ocasión queremos delegar el subdominio informatica.iesgn.org para que lo gestione otro servidor DNS. Por lo tanto tenemos un escenario con dos servidores DNS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pandora.iesgn.org, es servidor DNS autorizado para la zona iesgn.org.&lt;/li&gt;
+&lt;li&gt;ns.informatica.iesgn.org, es el servidor DNS para la zona informatica.iesgn.org y, está instalado en otra máquina.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los nombres que vamos a tener en ese subdominio son los siguientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;www.informatica.iesgn.org corresponde a un sitio web que está alojado en el servidor web del departamento de informática.&lt;/li&gt;
+&lt;li&gt;Vamos a suponer que tenemos un servidor ftp que se llame ftp.informatica.iesgn.org y que está en la misma máquina.&lt;/li&gt;
+&lt;li&gt;Vamos a suponer que tenemos un servidor para recibir los correos que se llame correo.informatica.iesgn.org.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&quot;background-color:#ff5733; border-radius:1em; border-color: black;&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tarea 7 (2 puntos): Realiza la instalación y configuración del nuevo servidor dns con las características anteriormente señaladas. Muestra el resultado al profesor.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&quot;background-color:#ff5733; border-radius:1em; border-color: black;&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tarea 8 (1 punto): Realiza las consultas dig/neslookup desde los clientes preguntando por los siguientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dirección de www.informatica.iesgn.org, ftp.informatica.iesgn.org&lt;/li&gt;
+&lt;li&gt;El servidor DNS que tiene configurado la zona del dominio informatica.iesgn.org. ¿Es el mismo que el servidor DNS con autoridad para la zona iesgn.org?&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El servidor de correo configurado para informatica.iesgn.org&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Plan de Marketing.]]></title><description><![CDATA[Siguiendo las directrices del Marketing Mix, hemos de reflexionar sobre los cuatro puntos que lo componen: 1. El producto, diseñándolo…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/plan-de-marketing</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/plan-de-marketing</guid><category><![CDATA[Planificación]]></category><category><![CDATA[Marketing]]></category><pubDate>Wed, 25 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Siguiendo las directrices del Marketing Mix, hemos de reflexionar sobre los cuatro puntos que lo componen:&lt;/p&gt;
 &lt;h2 id=&quot;1-el-producto-diseñándolo-teniendo-en-cuenta-sus-dimensiones&quot;&gt;&lt;a href=&quot;#1-el-producto-dise%C3%B1%C3%A1ndolo-teniendo-en-cuenta-sus-dimensiones&quot; aria-label=&quot;1 el producto diseñándolo teniendo en cuenta sus dimensiones permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. El producto, diseñándolo teniendo en cuenta sus dimensiones.&lt;/h2&gt;
 &lt;p&gt;Mi empresa consta de varios productos a ofrecer siempre de manera digital el principal el desarrollo y diseño de paginas webs,
 pero tambien consta de marketing digital en el engloba (Posicionamiento SEO, Publicidad Online, Social Media Marketing y Vender en Amazon)&lt;/p&gt;
@@ -3167,7 +3397,27 @@ ssl&lt;/em&gt;certificate_key /etc/ssl/tudominio.key;
     listen &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     server_name tudominio.com www.tudominio.com&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;301&lt;/span&gt; https://&lt;span class=&quot;token variable&quot;&gt;$host&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$request_uri&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación y configuración inicial de los servidores]]></title><description><![CDATA[En esta tarea se va a crear el escenario de trabajo que se va a usar durante todo el curso, que va a constar inicialmente de 3 instancias…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-los-servidores</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-los-servidores</guid><category><![CDATA[OpenStack]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Ubuntu]]></category><category><![CDATA[CentOS]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;En esta tarea se va a crear el escenario de trabajo que se va a usar durante todo el curso, que va a constar inicialmente de 3 instancias con nombres relacionados con el libro &quot;Don Quijote de la Mancha&quot;.&lt;/p&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Compilación de un kérnel linux a medida]]></title><description><![CDATA[Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</guid><category><![CDATA[Kernel]]></category><category><![CDATA[Linux]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es más sencilla de lo que parece gracias a las herramientas disponibles.&lt;/p&gt;
+&lt;p&gt;En esta tarea debes tratar de compilar un kérnel completamente funcional que reconozca todo el hardware básico de tu equipo y que sea a la vez lo más pequeño posible, es decir que incluya un vmlinuz lo más pequeño posible y que incorpore sólo los módulos imprescindibles. Para ello utiliza el método explicado en clase y entrega finalmente el fichero deb con el kérnel compilado por ti.&lt;/p&gt;
+&lt;p&gt;El hardware básico incluye como mínimo el teclado, la interfaz de red y la consola gráfica (texto).&lt;/p&gt;
+&lt;h3 id=&quot;pasos-a-seguir&quot;&gt;&lt;a href=&quot;#pasos-a-seguir&quot; aria-label=&quot;pasos a seguir permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pasos a seguir&lt;/h3&gt;
+&lt;p&gt;Con el fin de compilar nuestro kernel de la mejor manera posible dividiremos las tareas en pasos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Instalamos la paqueteria correspondiente, en este caso linux-source al ser un metapaquete si instalará la version indicada para nuestro linux.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; linux-source&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Creacion del entorno:&lt;br&gt;
+Crearemos una carpeta a donde trabajaremos con la compilación.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;/home/fran/kernel/comp/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Descomprimimos el codigo fuente del kernel:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación y configuración inicial de los servidores]]></title><description><![CDATA[En esta tarea se va a crear el escenario de trabajo que se va a usar durante todo el curso, que va a constar inicialmente de 3 instancias…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-los-servidores</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-los-servidores</guid><category><![CDATA[OpenStack]]></category><category><![CDATA[Debian]]></category><category><![CDATA[Ubuntu]]></category><category><![CDATA[CentOS]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;En esta tarea se va a crear el escenario de trabajo que se va a usar durante todo el curso, que va a constar inicialmente de 3 instancias con nombres relacionados con el libro &quot;Don Quijote de la Mancha&quot;.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 647px;&quot;
@@ -3608,10 +3858,10 @@ debian@dulcinea:~/.ssh$ ssh-add -l
 &lt;span class=&quot;token number&quot;&gt;2048&lt;/span&gt; SHA256:JRwFzvnkuNHJV3VxpVpVrJU7d2hFG+H+wzSbB62NdsQ pardeclaves2asir.pem &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;RSA&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Para utilizar el reenvio de angentes, modificamos los ficheros /etc/ssh/ssh&lt;em&gt;config y /etc/ssh/sshd&lt;/em&gt;config:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#en ssh/ssh_config&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;#   ForwardAgent yes&lt;/span&gt;
+ForwardAgent &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;#en ssh/sshd_config&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;#   AllowAgentForwarding yes&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+AllowAgentForwarding &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Comprobamos para ambas maquinas:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;ssh&lt;/span&gt; ubuntu@sancho
 Welcome to Ubuntu &lt;span class=&quot;token number&quot;&gt;20.04&lt;/span&gt;.1 LTS &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;GNU/Linux &lt;span class=&quot;token number&quot;&gt;5.4&lt;/span&gt;.0-48-generic x86_64&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
@@ -3997,27 +4247,7 @@ server &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;.europe.pool.ntp
 &lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt; Nov &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;:46:17 ntpdate&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2325&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: adjust &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; server &lt;span class=&quot;token number&quot;&gt;147.156&lt;/span&gt;.7.26 offset -0.008066 sec&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Comprobación:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; ntpdate -u pool.ntp.org
-&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt; Nov &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;:46:17 ntpdate&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2325&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: adjust &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; server &lt;span class=&quot;token number&quot;&gt;147.156&lt;/span&gt;.7.26 offset -0.008066 sec&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Compilación de un kérnel linux a medida]]></title><description><![CDATA[Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</guid><category><![CDATA[Kernel]]></category><category><![CDATA[Linux]]></category><pubDate>Sat, 14 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Al ser linux un kérnel libre, es posible descargar el código fuente, configurarlo y comprimirlo. Además, esta tarea a priori compleja, es más sencilla de lo que parece gracias a las herramientas disponibles.&lt;/p&gt;
-&lt;p&gt;En esta tarea debes tratar de compilar un kérnel completamente funcional que reconozca todo el hardware básico de tu equipo y que sea a la vez lo más pequeño posible, es decir que incluya un vmlinuz lo más pequeño posible y que incorpore sólo los módulos imprescindibles. Para ello utiliza el método explicado en clase y entrega finalmente el fichero deb con el kérnel compilado por ti.&lt;/p&gt;
-&lt;p&gt;El hardware básico incluye como mínimo el teclado, la interfaz de red y la consola gráfica (texto).&lt;/p&gt;
-&lt;h3 id=&quot;pasos-a-seguir&quot;&gt;&lt;a href=&quot;#pasos-a-seguir&quot; aria-label=&quot;pasos a seguir permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pasos a seguir&lt;/h3&gt;
-&lt;p&gt;Con el fin de compilar nuestro kernel de la mejor manera posible dividiremos las tareas en pasos:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Instalamos la paqueteria correspondiente, en este caso linux-source al ser un metapaquete si instalará la version indicada para nuestro linux.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; linux-source&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Creacion del entorno:&lt;br&gt;
-Crearemos una carpeta a donde trabajaremos con la compilación.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;/home/fran/kernel/comp/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Descomprimimos el codigo fuente del kernel:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Tarea OVH. Lemp]]></title><description><![CDATA[Configuración inicial de OVH Añadir clave de los profesores: Resolución de nombres Reiniciamos la maquina. Accedemos y verificamos su nombre…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</guid><category><![CDATA[OVH]]></category><category><![CDATA[Lemp]]></category><pubDate>Tue, 10 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-inicial-de-ovh&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-inicial-de-ovh&quot; aria-label=&quot;configuración inicial de ovh permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración inicial de OVH&lt;/h2&gt;
+&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt; Nov &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;:46:17 ntpdate&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2325&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: adjust &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; server &lt;span class=&quot;token number&quot;&gt;147.156&lt;/span&gt;.7.26 offset -0.008066 sec&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Tarea OVH. Lemp]]></title><description><![CDATA[Configuración inicial de OVH Añadir clave de los profesores: Resolución de nombres Reiniciamos la maquina. Accedemos y verificamos su nombre…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/tarea-ovh-lemp</guid><category><![CDATA[OVH]]></category><category><![CDATA[Lemp]]></category><pubDate>Tue, 10 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configuración-inicial-de-ovh&quot;&gt;&lt;a href=&quot;#configuraci%C3%B3n-inicial-de-ovh&quot; aria-label=&quot;configuración inicial de ovh permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuración inicial de OVH&lt;/h2&gt;
 &lt;p&gt;Añadir clave de los profesores:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#con wget desde la pag de redmine.&lt;/span&gt;
 debian@valhalla:~/claves$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;

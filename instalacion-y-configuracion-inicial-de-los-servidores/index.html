@@ -481,10 +481,10 @@ debian@dulcinea:~/.ssh$ ssh-add -l
 <span class="token number">2048</span> SHA256:JRwFzvnkuNHJV3VxpVpVrJU7d2hFG+H+wzSbB62NdsQ pardeclaves2asir.pem <span class="token punctuation">(</span>RSA<span class="token punctuation">)</span></code></pre></div>
 <p>Para utilizar el reenvio de angentes, modificamos los ficheros /etc/ssh/ssh<em>config y /etc/ssh/sshd</em>config:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment">#en ssh/ssh_config</span>
-<span class="token comment">#   ForwardAgent yes</span>
+ForwardAgent <span class="token function">yes</span>
 
 <span class="token comment">#en ssh/sshd_config</span>
-<span class="token comment">#   AllowAgentForwarding yes</span></code></pre></div>
+AllowAgentForwarding <span class="token function">yes</span></code></pre></div>
 <p>Comprobamos para ambas maquinas:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">debian@dulcinea:~$ <span class="token function">ssh</span> ubuntu@sancho
 Welcome to Ubuntu <span class="token number">20.04</span>.1 LTS <span class="token punctuation">(</span>GNU/Linux <span class="token number">5.4</span>.0-48-generic x86_64<span class="token punctuation">)</span>
