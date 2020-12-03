@@ -300,8 +300,9 @@ $ORIGIN 100.168.192.in-addr.arpa.
 </div>
 
 * Dirección de pandora.iesgn.org, www.iesgn.org, ftp.iesgn.org
-
+```shell
 vagrant@cliente:~$ dig madu.iesgn.org
+```
 ```shell
 ; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> madu.iesgn.org
 ;; global options: +cmd
