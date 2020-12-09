@@ -130,38 +130,215 @@ Vamos a realizar el despliegue de nuestra aplicación en un entorno de producci�
 
 * Instala en el servidor los servicios necesarios (apache2). Instala el módulo de apache2 para ejecutar código python.
 
+Tras crear una máquina Debian Buster en el cloud, se accede a ella y se añaden los siguientes paquetes:
+
+```shell
+debian@tareadjango:~$ sudo apt-get install libapache2-mod-wsgi
+debian@tareadjango:~$ sudo apt-get install apache2
+```
+
 * Clona el repositorio en el DocumentRoot de tu virtualhost.
+
+```shell
+debian@tareadjango:~$ sudo apt-get install git
+debian@tareadjango:~$ git clone https://github.com/josedom24/django_tutorial
+debian@tareadjango:~$ sudo mkdir /var/www/app-python
+debian@tareadjango:~$ sudo cp -R django_tutorial/ /var/www/app-python/
+```
 
 * Crea un entorno virtual e instala las dependencias de tu aplicación.
 
+```shell
+debian@tareadjango:~$ sudo apt-get install python-virtualenv virtualenv
+debian@tareadjango:~$ virtualenv django -p python3
+debian@tareadjango:~$ source ~/django/bin/activate
+(django) debian@tareadjango:~$ python -m pip install Django
+(django) debian@tareadjango:/var/www/app-python/django_tutorial$ pip install -r requirements.txt
+Requirement already satisfied: pytz==2020.4 in /home/debian/django/lib/python3.7/site-packages (from -r requirements.txt (line 3)) (2020.4)
+Requirement already satisfied: sqlparse==0.4.1 in /home/debian/django/lib/python3.7/site-packages (from -r requirements.txt (line 4)) (0.4.1)
+Collecting asgiref==3.3.0
+  Downloading asgiref-3.3.0-py3-none-any.whl (19 kB)
+Collecting Django==3.1.3
+  Downloading Django-3.1.3-py3-none-any.whl (7.8 MB)
+     |████████████████████████████████| 7.8 MB 12.0 MB/s 
+Requirement already satisfied: pytz==2020.4 in /home/debian/django/lib/python3.7/site-packages (from -r requirements.txt (line 3)) (2020.4)
+Requirement already satisfied: sqlparse==0.4.1 in /home/debian/django/lib/python3.7/site-packages (from -r requirements.txt (line 4)) (0.4.1)
+Installing collected packages: asgiref, Django
+  Attempting uninstall: asgiref
+    Found existing installation: asgiref 3.3.1
+    Uninstalling asgiref-3.3.1:
+      Successfully uninstalled asgiref-3.3.1
+  Attempting uninstall: Django
+    Found existing installation: Django 3.1.4
+    Uninstalling Django-3.1.4:
+      Successfully uninstalled Django-3.1.4
+Successfully installed Django-3.1.3 asgiref-3.3.0
+```
+
 * Instala el módulo que permite que python trabaje con mysql:
 
-      $ apt-get install python3-mysqldb
+```shell
+(django) debian@tareadjango:/var/www/app-python/django_tutorial$ sudo apt-get install python3-mysqldb
 
-    Y en el entorno virtual:
-
-      (env)$ pip install mysql-connector-python
+(django) debian@tareadjango:/var/www/app-python/django_tutorial$ pip install mysql-connector-python
+Collecting mysql-connector-python
+  Downloading mysql_connector_python-8.0.22-cp37-cp37m-manylinux1_x86_64.whl (18.0 MB)
+     |████████████████████████████████| 18.0 MB 11.3 MB/s 
+Collecting protobuf>=3.0.0
+  Downloading protobuf-3.14.0-cp37-cp37m-manylinux1_x86_64.whl (1.0 MB)
+     |████████████████████████████████| 1.0 MB 5.1 MB/s 
+Collecting six>=1.9
+  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
+Installing collected packages: six, protobuf, mysql-connector-python
+Successfully installed mysql-connector-python-8.0.22 protobuf-3.14.0 six-1.15.0
+```
 
 *  Crea una base de datos y un usuario en mysql.
 
+```shell
+(django) debian@tareadjango:/var/www/app-python/django_tutorial$ sudo apt-get install default-mysql-server
+
+(django) debian@tareadjango:/var/www/app-python/django_tutorial$ sudo mysql -u root -p
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 49
+Server version: 10.3.23-MariaDB-0+deb10u1 Debian 10
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> create database django;
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [(none)]>  create user django@localhost identified by 'root';
+Query OK, 0 rows affected (0.001 sec)
+
+MariaDB [(none)]> grant all privileges on django.* to django@localhost;
+Query OK, 0 rows affected (0.001 sec)
+```
+
+
 * Configura la aplicación para trabajar con mysql, para ello modifica la configuración de la base de datos en el archivo settings.py:
 
-      DATABASES = {
+```shell
+(django) debian@tareadjango:/var/www/app-python/django_tutorial/django_tutorial$ sudo nano settings.py 
+
+# Database
+# https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+
+DATABASES = {
           'default': {
               'ENGINE': 'mysql.connector.django',
-              'NAME': 'myproject',
-              'USER': 'myprojectuser',
-              'PASSWORD': 'password',
+              'NAME': 'django',
+              'USER': 'django',
+              'PASSWORD': 'root',
               'HOST': 'localhost',
               'PORT': '',
           }
       }
+```
 
 * Como en la tarea 1, realiza la migración de la base de datos que creará la estructura de datos necesrias. comprueba en mariadb que la base de datos y las tablas se han creado.
 
+```shell
+(django) debian@tareadjango:/var/www/app-python/django_tutorial$ python3 manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, polls, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying polls.0001_initial... OK
+  Applying sessions.0001_initial... OK
+```
+
+Comprobamos la base de datos:
+```shell
+MariaDB [django]> show tables;
++----------------------------+
+| Tables_in_django           |
++----------------------------+
+| auth_group                 |
+| auth_group_permissions     |
+| auth_permission            |
+| auth_user                  |
+| auth_user_groups           |
+| auth_user_user_permissions |
+| django_admin_log           |
+| django_content_type        |
+| django_migrations          |
+| django_session             |
+| polls_choice               |
+| polls_question             |
++----------------------------+
+12 rows in set (0.001 sec)
+```
+
 * Crea un usuario administrador: python3 manage.py createsuperuser.
 
+```shell
+(django) debian@tareadjango:/var/www/app-python/django_tutorial$ python3 manage.py createsuperuser
+Username (leave blank to use 'debian'): django
+Email address: frandh1997@gmail.com
+Password: 
+Password (again): 
+This password is too short. It must contain at least 8 characters.
+This password is too common.
+Bypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
+```
+(django,root)
+
+
 * Configura un virtualhost en apache2 con la configuración adecuada para que funcione la aplicación. El punto de entrada de nuestro servidor será django_tutorial/django_tutorial/wsgi.py. Puedes guiarte por el Ejercicio: Desplegando aplicaciones flask, por la documentación de django: How to use Django with Apache and mod_wsgi,…
+
+
+```shell
+(django) debian@tareadjango:/etc/apache2/sites-available$ sudo cp 000-default.conf app-python.conf
+(django) debian@tareadjango:/etc/apache2/sites-available$ sudo nano app-python.conf 
+<VirtualHost *:80>
+        ServerName www.app-python.org
+
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/app-python
+
+        WSGIDaemonProcess django user=www-data group=www-data processes=1 threads=5 python-path=/var$
+        WSGIScriptAlias / /var/www/app-python/django_tutorial/django_tutorial/wsgi.py
+
+        <Directory /var/www/app-python/django_tutorial/django_tutorial>
+                WSGIProcessGroup django
+                WSGIApplicationGroup %{GLOBAL}
+                Require all granted
+        </Directory>
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+(django) debian@tareadjango:/etc/apache2/sites-available$ sudo a2ensite app-python.conf
+#en /var/www/app-python/django_tutorial/django_tutorial/settings.py
+ALLOWED_HOSTS = ['*']
+```
+Ahora si ejecutamos:
+```shell
+from app import app as application
+```
+Añadieremos nuestra pagina al /etc/hosts de nuestra maquina local y comprobaremos el resultado:
+
 
 * Debes asegurarte que el contenido estático se está sirviendo: ¿Se muestra la imagen de fondo de la aplicación? ¿Se ve de forma adecuada la hoja de estilo de la zona de administración?. Para arreglarlo puedes encontrar documentación en How to use Django with Apache and mod_wsgi.
 
