@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 03 Dec 2020 12:51:11 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Elección de Forma Jurídica]]></title><description><![CDATA[¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta. Descargar archivo Sociedades.odt La forma jurídica elegida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</guid><category><![CDATA[Forma Jurídica]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 09 Dec 2020 08:12:14 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Elección de Forma Jurídica]]></title><description><![CDATA[¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta. Descargar archivo Sociedades.odt La forma jurídica elegida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</guid><category><![CDATA[Forma Jurídica]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/gatsbyjs/3448904c8dfde8472ac0c47331328f23/sociedades.ods&quot;&gt;Descargar archivo Sociedades.odt&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La forma jurídica elegida es &lt;strong&gt;Sociedad Limitada&lt;/strong&gt; razones:&lt;/p&gt;
 &lt;ol&gt;
@@ -4896,7 +4896,101 @@ Repositorio: &lt;a href=&quot;https://github.com/franmadu6/FlameOvh&quot;&gt;htt
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de aplicaciones python ]]></title><description><![CDATA[Tarea 1: Entorno de desarrollo Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</guid><category><![CDATA[Django]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-entorno-de-desarrollo&quot;&gt;&lt;a href=&quot;#tarea-1-entorno-de-desarrollo&quot; aria-label=&quot;tarea 1 entorno de desarrollo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Entorno de desarrollo&lt;/h2&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Análisis imagen corporativa.]]></title><description><![CDATA[Añade una foto de la imagen de un comercio o negocio de la zona donde residas, realizando un análisis de la misma. Comenta qué tipo de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/analisis-imagen-corporativa</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/analisis-imagen-corporativa</guid><category><![CDATA[Imagen Corporativa]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;añade-una-foto-de-la-imagen-de-un-comercio-o-negocio-de-la-zona-donde-residas-realizando-un-análisis-de-la-misma-comenta-qué-tipo-de-información-te-aporta-si-tiene-relación-con-el-producto-o-servicio-que-oferta-si-te-parece-adecuada-o-añadiríaseliminarías-algo&quot;&gt;&lt;a href=&quot;#a%C3%B1ade-una-foto-de-la-imagen-de-un-comercio-o-negocio-de-la-zona-donde-residas-realizando-un-an%C3%A1lisis-de-la-misma-comenta-qu%C3%A9-tipo-de-informaci%C3%B3n-te-aporta-si-tiene-relaci%C3%B3n-con-el-producto-o-servicio-que-oferta-si-te-parece-adecuada-o-a%C3%B1adir%C3%ADaseliminar%C3%ADas-algo&quot; aria-label=&quot;añade una foto de la imagen de un comercio o negocio de la zona donde residas realizando un análisis de la misma comenta qué tipo de información te aporta si tiene relación con el producto o servicio que oferta si te parece adecuada o añadiríaseliminarías algo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Añade una foto de la imagen de un comercio o negocio de la zona donde residas, realizando un análisis de la misma. Comenta qué tipo de información te aporta, si tiene relación con el producto o servicio que oferta, si te parece adecuada o añadirías/eliminarías algo.&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/d6728/imagenempresa.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.046904315197%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAUtzKAJQ/8QAGRABAAMBAQAAAAAAAAAAAAAAAQIDEhEA/9oACAEBAAEFArLBkZIM7O58dy2I/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8BpX//xAAbEAABBAMAAAAAAAAAAAAAAAAAAREhMRAiYv/aAAgBAQAGPwLVYOi8XIzH/8QAGxAAAgMBAQEAAAAAAAAAAAAAAAERITFBYcH/2gAIAQEAAT8hkFHGhZsT2yW+xV0rJaZwaGx6f//aAAwDAQACAAMAAAAQO9//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EHEsKf/EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxBSwv/EABsQAQEAAgMBAAAAAAAAAAAAAAERADFBUYGR/9oACAEBAAE/EL5iACr2hk4euDO6hz7lIorYQHhnG+zE2s6WINYGCqOP/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/8c996/imagenempresa.jpg&quot;
+        srcset=&quot;/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/6f483/imagenempresa.jpg 173w,
+/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/0fa0d/imagenempresa.jpg 345w,
+/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/8c996/imagenempresa.jpg 690w,
+/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/c8cd5/imagenempresa.jpg 1035w,
+/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/00650/imagenempresa.jpg 1380w,
+/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/d6728/imagenempresa.jpg 1599w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;nazarbike&quot;&gt;&lt;a href=&quot;#nazarbike&quot; aria-label=&quot;nazarbike permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Nazarbike&lt;/h1&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 495px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/ef628d41d958b748481b91ecc7e1ce85/fa082/logoemp.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.80808080808081%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAADS0lEQVQoz0WSbUzVZRjG7///fxDhJJz0IJRBIqapW6nQicVI5jAUOVBHXo4eAW1AjgGrAQ6N8IWjA3dEAYnDO8d84Z0FCuEBvxjOJmmuD61Wq7VW68W10azWRr8enVsfrj0fnuv6Pfd175HjhQ48bzvwVu/i/EkH/Q2ZjDY7mfC6mGxzcb07n5HGHBJjo+lryGFupJiJzv2Mt+9joDmPXs9e3q91cfqQC3fZbqSu2M65Kju+WjuDnnSuNjuYacvmRo+Lj30ubl3I5Xb/PmKiniQiLATvsTRujxRyrTeXq+17GWzaTe8pJy3HsvEczELOlCbTcSiZQfc2/GdSuOndyd2edD6/nM1XQ06+/zCH36bzyE97HpMu6LrGaKOdz4Zz8XfnMNaapVo56Dn5Oi3VGciFIwlcaUhgtj2Re802vu2wcf9iPPOjW3gwlcqf/gx6quJoq9jE5rXLEBEK0mK4P+FgzmfnRkcak02pDNWn4Du6DWkt3Uh/1YvMuF/gi4bnmG9fBn2hLFxZBbPr+GlwNdV5kaQnWNm4ejHBQQb1hc/CzS383BfP12qAuSYb0/U2ho++hDQVbcBXsp7xyjV8enw5D1oELgv/jgcydWIJ5w6YOZgZyo44M2M1FrISzeqxMFD653wwv7Ra+PK0lU/cTzFxOBppdlrx7Q/DXx7KvRoTv59QwH7hVqPOpXcXU7ErmILXAtkRa6KrNIiilEXM1hksDChft/BHo/BdnXC3RrhWbkIupgoDbwiT+Rp3SoR5rxlmQpj2aPQcDuaD6ifwFJnYFK2z9hkTWa8YjFYFMFmlQ5fw9ynhhyPCnUphWuVlzilc3y74XxW+eVPnr04L860h/Di0CO97SxhreAgP5NdLGraVBnEKOvKWghZo4BEWalWuTJjaI3SmakjJGiEzQsgKF3IjNdo3qP3tVHXOKojfzLA7iI8qDGbe0ShL0jmQFEilql2mJu1MEtw2oXidykcJ9hXaw18g/C8dS4BGS6xGlzKWx+skPq0RZ9GxKW2N0Hk5TCduuc5mq/7IL6I9Ph8zVoaoyzCDpYEahq49MliDdJJXGGwNN0iKMNgeabAnxiBnlYFTKSNKJ10pOECBNI0Is8H6pQbhQRr/ASov+e3fSZoiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/ef628d41d958b748481b91ecc7e1ce85/fa082/logoemp.png&quot;
+        srcset=&quot;/gatsbyjs/static/ef628d41d958b748481b91ecc7e1ce85/acf4b/logoemp.png 173w,
+/gatsbyjs/static/ef628d41d958b748481b91ecc7e1ce85/fc834/logoemp.png 345w,
+/gatsbyjs/static/ef628d41d958b748481b91ecc7e1ce85/fa082/logoemp.png 495w&quot;
+        sizes=&quot;(max-width: 495px) 100vw, 495px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nazarbike&lt;/strong&gt; es un taller de bicicletas y a su vez franquicia de BiciMarket, su logo ya nos deja ver el tipo de sector en el que esta envuelta la actividad de la empresa. En cuanto a la fachada de la tienda es bastante vistosa ya que tiene varios muestrarios donde enseñan cajas de cambio, frenos, camisetas o mallots de cliclimos, cadenas, manguitos y demas articulos relacionados a la bicicleta. Tambien tienen una bici despiezada puesta en la pared donde se puede diferenciar bien sus partes. A pesar de ser una franquicia, al ser un pequeño negocio se ve bastante acogedor y cercano. Al ser franquicia con BiciMarket puede llegar a tener precios mas competitivos en temas de recambios y piezas, y además es punto de recogida de los productos de las misma que se encarga o bien online o bien en la misma tienda, tambien se pueden pedir bicicletas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bicimarket&lt;/strong&gt;:&lt;br&gt;
+Es la mayor red de tiendas especializadas de ciclismo de España. En nuestras tiendas encontrarás todas las ventajas de la tienda online, como es nuestro catálogo de más de 20.000 referencias con precios sin competencia, junto a las propias de una tienda física; asesoramiento de personal especializado, servicio técnico profesional y la posibilidad de realizar tu compra online desde la tienda desde casa y recogerla en tu tienda Bicimarket.com más cercana, sin pagar portes y pudiendo ver y tocar el producto antes de llevártelo.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Mapa de empatía.]]></title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/mapa-de-empatia</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/mapa-de-empatia</guid><category><![CDATA[Mapa Empatía]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/2bcdc/Plantilla-Mapa-de-Empat%C3%ADa.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.854961832061065%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAC4jAAAuIwF4pT92AAABvklEQVQoz0WSO3PTQBSF9TNpaRmGih+RgaGiYKiZSUMKmpROZgA7D0tay44lYhs9LNkSemv1sB4rmWMJkltIO7t7z7n3u8vVdc0Ya9v22EdVlne3t6IgiKJARHG1WhFCFEU5HA447boOdxlrhuCO/wNb+Pq+T4ioqart/NENY2/bmqYVRYG0IXmIIYWLosi2bcuysizrnQ+U0iwvLj5/OHv1YiPP4yRJKW1btt/vd7tdEARPfhxqe1gspNlM17Q4jqEVhaHved/evR69fzm5/HoyRFdtJ0nSfC7puv7srKpqEPhhGDi27Tg2tGmSuK5/9ent+subH5cXuNSyBo2il/Vm7XkeGP1LhgxkB2asjySJl7IyOv94f3529320+a1WVdkdu6apG9aA17NzD/CkhHrRk+M4As9Pxj+nApk9KITMFos5ukjTNM+yAeoTMw7Y4Ykz8Hh8/GWaZhRGoBL4Pn5JHAMkWOwsC9jRFITyPKtQTFlycEPC9fXVzc1kOp0ahtGP7VQLQEDRMk1QWC6Xk/FYlmWe513XHerlQA8mlCYwr+sKjyFNKdZItixzu91i8uCPfVhh4HhUxSlyXPgLP0UkZuC7nA8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/36727/Plantilla-Mapa-de-Empat%C3%ADa.png&quot;
+        srcset=&quot;/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/acf4b/Plantilla-Mapa-de-Empat%C3%ADa.png 173w,
+/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/fc834/Plantilla-Mapa-de-Empat%C3%ADa.png 345w,
+/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/36727/Plantilla-Mapa-de-Empat%C3%ADa.png 690w,
+/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/17fa4/Plantilla-Mapa-de-Empat%C3%ADa.png 1035w,
+/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/2bcdc/Plantilla-Mapa-de-Empat%C3%ADa.png 1310w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Reflexión vídeo OLIGOPOLY.]]></title><description><![CDATA[Sobre el vídeo del programa Salvados: Oligopoly (https://www.dailymotion.com/video/xwsb54), realiza una reflexión reflejando tus impresiones…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/reflexion-video-oligopoly</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/reflexion-video-oligopoly</guid><category><![CDATA[Oligopoly]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;sobre-el-vídeo-del-programa-salvados-oligopoly-httpswwwdailymotioncomvideoxwsb54-realiza-una-reflexión-reflejando-tus-impresiones-del-visionado-oligopolios-sectores-energético-y-petrolífero-afectación-de-la-ciudadanía-etc&quot;&gt;&lt;a href=&quot;#sobre-el-v%C3%ADdeo-del-programa-salvados-oligopoly-httpswwwdailymotioncomvideoxwsb54-realiza-una-reflexi%C3%B3n-reflejando-tus-impresiones-del-visionado-oligopolios-sectores-energ%C3%A9tico-y-petrol%C3%ADfero-afectaci%C3%B3n-de-la-ciudadan%C3%ADa-etc&quot; aria-label=&quot;sobre el vídeo del programa salvados oligopoly httpswwwdailymotioncomvideoxwsb54 realiza una reflexión reflejando tus impresiones del visionado oligopolios sectores energético y petrolífero afectación de la ciudadanía etc permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sobre el vídeo del programa Salvados: Oligopoly (&lt;a href=&quot;https://www.dailymotion.com/video/xwsb54&quot;&gt;https://www.dailymotion.com/video/xwsb54&lt;/a&gt;), realiza una reflexión reflejando tus impresiones del visionado: oligopolios, sectores energético y petrolífero, afectación de la ciudadanía, etc...&lt;/h2&gt;
+&lt;h3 id=&quot;oligopoly&quot;&gt;&lt;a href=&quot;#oligopoly&quot; aria-label=&quot;oligopoly permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Oligopoly&lt;/h3&gt;
+&lt;p&gt;En este programa nos hablan sobre los Oligopolios y el poder que pueden llegar a generar, sea cual sea el sector es común una cosa el control completo del mercado repartido entre varias empresa, esto hace que la competencia se practicamente nula(aunque pueden llegar a generar falsas competencias de cara a la población) esto repercute directamente hacia nosotros los consumidores puesto que la regulación por parte del Estado es practicamente nula. Como algunos ejemplos de control del sector nos ponen a las petroleras que controlan todos los puntos de venta de petroleo o las electricas que ellas mismas son las que se autocompran sus propios bienes(lonja) el poder que llegan a generar sobre el gobierno son tales que ni los propios politicos se atreven a ir en su contra. Para finalizar esta reflexión y dar una solución desde mi punto de vista me ha parecido curioso la propuesta de &quot;Alfredo&quot; del sector pretolífero, el expone que la mejor idea seria empezar desde 0 a crear nuevas bases sobres las leyes establecidad actualmente, a mi me parece un buena idea puesto que las actuales tienen demasiados puntos muertos donde las grandes compañias nos exprimen hasta la ultima gota y nosotros como consumidores no tenemos el mas minimo poder para defendernos.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de aplicaciones python ]]></title><description><![CDATA[Tarea 1: Entorno de desarrollo Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-aplicaciones-python</guid><category><![CDATA[Django]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-1-entorno-de-desarrollo&quot;&gt;&lt;a href=&quot;#tarea-1-entorno-de-desarrollo&quot; aria-label=&quot;tarea 1 entorno de desarrollo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Entorno de desarrollo&lt;/h2&gt;
 &lt;p&gt;Vamos a desarrollar la aplicación del tutorial de django 3.1. Vamos a configurar tu equipo como entorno de desarrollo para trabajar con la aplicación, para ello:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Realiza un fork del repositorio de GitHub: &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;https://github.com/josedom24/django_tutorial&lt;/a&gt;.&lt;/li&gt;
@@ -5142,31 +5236,189 @@ Superuser created successfully.
 &lt;p&gt;Vamos a realizar el despliegue de nuestra aplicación en un entorno de producción, para ello vamos a utilizar una instancia del cloud, sigue los siguientes pasos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Instala en el servidor los servicios necesarios (apache2). Instala el módulo de apache2 para ejecutar código python.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tras crear una máquina Debian Buster en el cloud, se accede a ella y se añaden los siguientes paquetes:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@tareadjango:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; libapache2-mod-wsgi
+debian@tareadjango:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; apache2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;Clona el repositorio en el DocumentRoot de tu virtualhost.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@tareadjango:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt;
+debian@tareadjango:~$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/josedom24/django_tutorial
+debian@tareadjango:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; /var/www/app-python
+debian@tareadjango:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; -R django_tutorial/ /var/www/app-python/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;Crea un entorno virtual e instala las dependencias de tu aplicación.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Instala el módulo que permite que python trabaje con mysql:&lt;/p&gt;
-&lt;p&gt;  $ apt-get install python3-mysqldb&lt;/p&gt;
-&lt;p&gt;Y en el entorno virtual:&lt;/p&gt;
-&lt;p&gt;  (env)$ pip install mysql-connector-python&lt;/p&gt;
-&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@tareadjango:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; python-virtualenv virtualenv
+debian@tareadjango:~$ virtualenv django -p python3
+debian@tareadjango:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; ~/django/bin/activate
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:~$ python -m pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; Django
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/var/www/app-python/django_tutorial$ pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -r requirements.txt
+Requirement already satisfied: &lt;span class=&quot;token assign-left variable&quot;&gt;pytz&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2020.4&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; /home/debian/django/lib/python3.7/site-packages &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2020.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Requirement already satisfied: &lt;span class=&quot;token assign-left variable&quot;&gt;sqlparse&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;.1 &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; /home/debian/django/lib/python3.7/site-packages &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;.1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;asgiref&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.3&lt;/span&gt;.0
+  Downloading asgiref-3.3.0-py3-none-any.whl &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt; kB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;Django&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.1&lt;/span&gt;.3
+  Downloading Django-3.1.3-py3-none-any.whl &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;7.8&lt;/span&gt; MB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+     &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;████████████████████████████████&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7.8&lt;/span&gt; MB &lt;span class=&quot;token number&quot;&gt;12.0&lt;/span&gt; MB/s 
+Requirement already satisfied: &lt;span class=&quot;token assign-left variable&quot;&gt;pytz&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2020.4&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; /home/debian/django/lib/python3.7/site-packages &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2020.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Requirement already satisfied: &lt;span class=&quot;token assign-left variable&quot;&gt;sqlparse&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;.1 &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; /home/debian/django/lib/python3.7/site-packages &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;.1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Installing collected packages: asgiref, Django
+  Attempting uninstall: asgiref
+    Found existing installation: asgiref &lt;span class=&quot;token number&quot;&gt;3.3&lt;/span&gt;.1
+    Uninstalling asgiref-3.3.1:
+      Successfully uninstalled asgiref-3.3.1
+  Attempting uninstall: Django
+    Found existing installation: Django &lt;span class=&quot;token number&quot;&gt;3.1&lt;/span&gt;.4
+    Uninstalling Django-3.1.4:
+      Successfully uninstalled Django-3.1.4
+Successfully installed Django-3.1.3 asgiref-3.3.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Instala el módulo que permite que python trabaje con mysql:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/var/www/app-python/django_tutorial$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; python3-mysqldb
+
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/var/www/app-python/django_tutorial$ pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; mysql-connector-python
+Collecting mysql-connector-python
+  Downloading mysql_connector_python-8.0.22-cp37-cp37m-manylinux1_x86_64.whl &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;18.0&lt;/span&gt; MB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+     &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;████████████████████████████████&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;18.0&lt;/span&gt; MB &lt;span class=&quot;token number&quot;&gt;11.3&lt;/span&gt; MB/s 
+Collecting protobuf&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.0&lt;/span&gt;.0
+  Downloading protobuf-3.14.0-cp37-cp37m-manylinux1_x86_64.whl &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt; MB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+     &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;████████████████████████████████&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt; MB &lt;span class=&quot;token number&quot;&gt;5.1&lt;/span&gt; MB/s 
+Collecting six&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.9&lt;/span&gt;
+  Downloading six-1.15.0-py2.py3-none-any.whl &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; kB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Installing collected packages: six, protobuf, mysql-connector-python
+Successfully installed mysql-connector-python-8.0.22 protobuf-3.14.0 six-1.15.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;Crea una base de datos y un usuario en mysql.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Configura la aplicación para trabajar con mysql, para ello modifica la configuración de la base de datos en el archivo settings.py:&lt;/p&gt;
-&lt;p&gt;  DATABASES = {
-&apos;default&apos;: {
-&apos;ENGINE&apos;: &apos;mysql.connector.django&apos;,
-&apos;NAME&apos;: &apos;myproject&apos;,
-&apos;USER&apos;: &apos;myprojectuser&apos;,
-&apos;PASSWORD&apos;: &apos;password&apos;,
-&apos;HOST&apos;: &apos;localhost&apos;,
-&apos;PORT&apos;: &apos;&apos;,
-}
-}&lt;/p&gt;
-&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/var/www/app-python/django_tutorial$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; default-mysql-server
+
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/var/www/app-python/django_tutorial$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; mysql -u root -p
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; or &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;g.
+Your MariaDB connection &lt;span class=&quot;token function&quot;&gt;id&lt;/span&gt; is &lt;span class=&quot;token number&quot;&gt;49&lt;/span&gt;
+Server version: &lt;span class=&quot;token number&quot;&gt;10.3&lt;/span&gt;.23-MariaDB-0+deb10u1 Debian &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;
+
+Copyright &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2000&lt;/span&gt;, &lt;span class=&quot;token number&quot;&gt;2018&lt;/span&gt;, Oracle, MariaDB Corporation Ab and others.
+
+Type &lt;span class=&quot;token string&quot;&gt;&apos;help;&apos;&lt;/span&gt; or &lt;span class=&quot;token string&quot;&gt;&apos;\h&apos;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; help. Type &lt;span class=&quot;token string&quot;&gt;&apos;&lt;span class=&quot;token entity&quot; title=&quot;\c&quot;&gt;\c&lt;/span&gt;&apos;&lt;/span&gt; to &lt;span class=&quot;token function&quot;&gt;clear&lt;/span&gt; the current input statement.
+
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; create database django&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; row affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;  create user django@localhost identified by &lt;span class=&quot;token string&quot;&gt;&apos;root&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; rows affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; grant all privileges on django.* to django@localhost&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; rows affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Configura la aplicación para trabajar con mysql, para ello modifica la configuración de la base de datos en el archivo settings.py:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/var/www/app-python/django_tutorial/django_tutorial$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; settings.py 
+
+&lt;span class=&quot;token comment&quot;&gt;# Database&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# https://docs.djangoproject.com/en/3.1/ref/settings/#databases&lt;/span&gt;
+
+DATABASES &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+              &lt;span class=&quot;token string&quot;&gt;&apos;ENGINE&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;mysql.connector.django&apos;&lt;/span&gt;,
+              &lt;span class=&quot;token string&quot;&gt;&apos;NAME&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;django&apos;&lt;/span&gt;,
+              &lt;span class=&quot;token string&quot;&gt;&apos;USER&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;django&apos;&lt;/span&gt;,
+              &lt;span class=&quot;token string&quot;&gt;&apos;PASSWORD&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;root&apos;&lt;/span&gt;,
+              &lt;span class=&quot;token string&quot;&gt;&apos;HOST&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;localhost&apos;&lt;/span&gt;,
+              &lt;span class=&quot;token string&quot;&gt;&apos;PORT&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;,
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;Como en la tarea 1, realiza la migración de la base de datos que creará la estructura de datos necesrias. comprueba en mariadb que la base de datos y las tablas se han creado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/var/www/app-python/django_tutorial$ python3 manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, polls, sessions
+Running migrations:
+  Applying contenttypes.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying admin.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying admin.0002_logentry_remove_auto_add&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying admin.0003_logentry_add_action_flag_choices&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying contenttypes.0002_remove_content_type_name&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0002_alter_permission_name_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0003_alter_user_email_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0004_alter_user_username_opts&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0005_alter_user_last_login_null&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0006_require_contenttypes_0002&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0007_alter_validators_add_error_messages&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0008_alter_user_username_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0009_alter_user_last_name_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0010_alter_group_name_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0011_update_proxy_permissions&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0012_alter_user_first_name_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying polls.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying sessions.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Comprobamos la base de datos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; show tables&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
++----------------------------+
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Tables_in_django           &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
++----------------------------+
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; auth_group                 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; auth_group_permissions     &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; auth_permission            &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; auth_user                  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; auth_user_groups           &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; auth_user_user_permissions &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; django_admin_log           &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; django_content_type        &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; django_migrations          &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; django_session             &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; polls_choice               &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; polls_question             &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
++----------------------------+
+&lt;span class=&quot;token number&quot;&gt;12&lt;/span&gt; rows &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;Crea un usuario administrador: python3 manage.py createsuperuser.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/var/www/app-python/django_tutorial$ python3 manage.py createsuperuser
+Username &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;leave blank to use &lt;span class=&quot;token string&quot;&gt;&apos;debian&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: django
+Email address: frandh1997@gmail.com
+Password: 
+Password &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;again&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: 
+This password is too short. It must contain at least &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt; characters.
+This password is too common.
+Bypass password validation and create user anyway? &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;y/N&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: y
+Superuser created successfully.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;(django,root)&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Configura un virtualhost en apache2 con la configuración adecuada para que funcione la aplicación. El punto de entrada de nuestro servidor será django&lt;em&gt;tutorial/django&lt;/em&gt;tutorial/wsgi.py. Puedes guiarte por el Ejercicio: Desplegando aplicaciones flask, por la documentación de django: How to use Django with Apache and mod_wsgi,…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; 000-default.conf app-python.conf
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; app-python.conf 
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;VirtualHost *:8&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;0&lt;/span&gt;&gt;&lt;/span&gt;
+        ServerName www.app-python.org
+
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/app-python
+
+        WSGIDaemonProcess django &lt;span class=&quot;token assign-left variable&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;www-data &lt;span class=&quot;token assign-left variable&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;www-data &lt;span class=&quot;token assign-left variable&quot;&gt;processes&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;threads&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; python-path&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/var$
+        WSGIScriptAlias / /var/www/app-python/django_tutorial/django_tutorial/wsgi.py
+
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory /var/www/app-python/django_tutorial/django_tutorial&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                WSGIProcessGroup django
+                WSGIApplicationGroup %&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;GLOBAL&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                Require all granted
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+        ErrorLog &lt;span class=&quot;token variable&quot;&gt;${APACHE_LOG_DIR}&lt;/span&gt;/error.log
+        CustomLog &lt;span class=&quot;token variable&quot;&gt;${APACHE_LOG_DIR}&lt;/span&gt;/access.log combined
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/VirtualHost&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; a2ensite app-python.conf
+&lt;span class=&quot;token comment&quot;&gt;#en /var/www/app-python/django_tutorial/django_tutorial/settings.py&lt;/span&gt;
+ALLOWED_HOSTS &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;*&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ahora si ejecutamos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;from app &lt;span class=&quot;token function&quot;&gt;import&lt;/span&gt; app as application&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Añadieremos nuestra pagina al /etc/hosts de nuestra maquina local y comprobaremos el resultado:&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Debes asegurarte que el contenido estático se está sirviendo: ¿Se muestra la imagen de fondo de la aplicación? ¿Se ve de forma adecuada la hoja de estilo de la zona de administración?. Para arreglarlo puedes encontrar documentación en How to use Django with Apache and mod_wsgi.&lt;/li&gt;
 &lt;li&gt;Desactiva en la configuración (fichero settings.py) el modo debug a False. Para que los errores de ejecución no den información sensible de la aplicación.&lt;/li&gt;
 &lt;li&gt;Muestra la página funcionando.&lt;/li&gt;
@@ -5203,101 +5455,7 @@ Y realiza la migración: python3 manage.py migrate&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Explica los cambios que has realizado en el entorno de desarrollo y cómo lo has desplegado en producción para cada una de las modificaciones (4 puntos).&lt;/strong&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Análisis imagen corporativa.]]></title><description><![CDATA[Añade una foto de la imagen de un comercio o negocio de la zona donde residas, realizando un análisis de la misma. Comenta qué tipo de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/analisis-imagen-corporativa</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/analisis-imagen-corporativa</guid><category><![CDATA[Imagen Corporativa]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;añade-una-foto-de-la-imagen-de-un-comercio-o-negocio-de-la-zona-donde-residas-realizando-un-análisis-de-la-misma-comenta-qué-tipo-de-información-te-aporta-si-tiene-relación-con-el-producto-o-servicio-que-oferta-si-te-parece-adecuada-o-añadiríaseliminarías-algo&quot;&gt;&lt;a href=&quot;#a%C3%B1ade-una-foto-de-la-imagen-de-un-comercio-o-negocio-de-la-zona-donde-residas-realizando-un-an%C3%A1lisis-de-la-misma-comenta-qu%C3%A9-tipo-de-informaci%C3%B3n-te-aporta-si-tiene-relaci%C3%B3n-con-el-producto-o-servicio-que-oferta-si-te-parece-adecuada-o-a%C3%B1adir%C3%ADaseliminar%C3%ADas-algo&quot; aria-label=&quot;añade una foto de la imagen de un comercio o negocio de la zona donde residas realizando un análisis de la misma comenta qué tipo de información te aporta si tiene relación con el producto o servicio que oferta si te parece adecuada o añadiríaseliminarías algo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Añade una foto de la imagen de un comercio o negocio de la zona donde residas, realizando un análisis de la misma. Comenta qué tipo de información te aporta, si tiene relación con el producto o servicio que oferta, si te parece adecuada o añadirías/eliminarías algo.&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/d6728/imagenempresa.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 75.046904315197%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAUtzKAJQ/8QAGRABAAMBAQAAAAAAAAAAAAAAAQIDEhEA/9oACAEBAAEFArLBkZIM7O58dy2I/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8BpX//xAAbEAABBAMAAAAAAAAAAAAAAAAAAREhMRAiYv/aAAgBAQAGPwLVYOi8XIzH/8QAGxAAAgMBAQEAAAAAAAAAAAAAAAERITFBYcH/2gAIAQEAAT8hkFHGhZsT2yW+xV0rJaZwaGx6f//aAAwDAQACAAMAAAAQO9//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EHEsKf/EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxBSwv/EABsQAQEAAgMBAAAAAAAAAAAAAAERADFBUYGR/9oACAEBAAE/EL5iACr2hk4euDO6hz7lIorYQHhnG+zE2s6WINYGCqOP/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;Imagen de la practica&quot;
-        src=&quot;/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/8c996/imagenempresa.jpg&quot;
-        srcset=&quot;/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/6f483/imagenempresa.jpg 173w,
-/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/0fa0d/imagenempresa.jpg 345w,
-/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/8c996/imagenempresa.jpg 690w,
-/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/c8cd5/imagenempresa.jpg 1035w,
-/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/00650/imagenempresa.jpg 1380w,
-/gatsbyjs/static/0e9724ecd84651e7e0e71d5829143b82/d6728/imagenempresa.jpg 1599w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h1 id=&quot;nazarbike&quot;&gt;&lt;a href=&quot;#nazarbike&quot; aria-label=&quot;nazarbike permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Nazarbike&lt;/h1&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 495px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/ef628d41d958b748481b91ecc7e1ce85/fa082/logoemp.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 60.80808080808081%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAADS0lEQVQoz0WSbUzVZRjG7///fxDhJJz0IJRBIqapW6nQicVI5jAUOVBHXo4eAW1AjgGrAQ6N8IWjA3dEAYnDO8d84Z0FCuEBvxjOJmmuD61Wq7VW68W10azWRr8enVsfrj0fnuv6Pfd175HjhQ48bzvwVu/i/EkH/Q2ZjDY7mfC6mGxzcb07n5HGHBJjo+lryGFupJiJzv2Mt+9joDmPXs9e3q91cfqQC3fZbqSu2M65Kju+WjuDnnSuNjuYacvmRo+Lj30ubl3I5Xb/PmKiniQiLATvsTRujxRyrTeXq+17GWzaTe8pJy3HsvEczELOlCbTcSiZQfc2/GdSuOndyd2edD6/nM1XQ06+/zCH36bzyE97HpMu6LrGaKOdz4Zz8XfnMNaapVo56Dn5Oi3VGciFIwlcaUhgtj2Re802vu2wcf9iPPOjW3gwlcqf/gx6quJoq9jE5rXLEBEK0mK4P+FgzmfnRkcak02pDNWn4Du6DWkt3Uh/1YvMuF/gi4bnmG9fBn2hLFxZBbPr+GlwNdV5kaQnWNm4ejHBQQb1hc/CzS383BfP12qAuSYb0/U2ho++hDQVbcBXsp7xyjV8enw5D1oELgv/jgcydWIJ5w6YOZgZyo44M2M1FrISzeqxMFD653wwv7Ra+PK0lU/cTzFxOBppdlrx7Q/DXx7KvRoTv59QwH7hVqPOpXcXU7ErmILXAtkRa6KrNIiilEXM1hksDChft/BHo/BdnXC3RrhWbkIupgoDbwiT+Rp3SoR5rxlmQpj2aPQcDuaD6ifwFJnYFK2z9hkTWa8YjFYFMFmlQ5fw9ynhhyPCnUphWuVlzilc3y74XxW+eVPnr04L860h/Di0CO97SxhreAgP5NdLGraVBnEKOvKWghZo4BEWalWuTJjaI3SmakjJGiEzQsgKF3IjNdo3qP3tVHXOKojfzLA7iI8qDGbe0ShL0jmQFEilql2mJu1MEtw2oXidykcJ9hXaw18g/C8dS4BGS6xGlzKWx+skPq0RZ9GxKW2N0Hk5TCduuc5mq/7IL6I9Ph8zVoaoyzCDpYEahq49MliDdJJXGGwNN0iKMNgeabAnxiBnlYFTKSNKJ10pOECBNI0Is8H6pQbhQRr/ASov+e3fSZoiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;Imagen de la practica&quot;
-        src=&quot;/gatsbyjs/static/ef628d41d958b748481b91ecc7e1ce85/fa082/logoemp.png&quot;
-        srcset=&quot;/gatsbyjs/static/ef628d41d958b748481b91ecc7e1ce85/acf4b/logoemp.png 173w,
-/gatsbyjs/static/ef628d41d958b748481b91ecc7e1ce85/fc834/logoemp.png 345w,
-/gatsbyjs/static/ef628d41d958b748481b91ecc7e1ce85/fa082/logoemp.png 495w&quot;
-        sizes=&quot;(max-width: 495px) 100vw, 495px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Nazarbike&lt;/strong&gt; es un taller de bicicletas y a su vez franquicia de BiciMarket, su logo ya nos deja ver el tipo de sector en el que esta envuelta la actividad de la empresa. En cuanto a la fachada de la tienda es bastante vistosa ya que tiene varios muestrarios donde enseñan cajas de cambio, frenos, camisetas o mallots de cliclimos, cadenas, manguitos y demas articulos relacionados a la bicicleta. Tambien tienen una bici despiezada puesta en la pared donde se puede diferenciar bien sus partes. A pesar de ser una franquicia, al ser un pequeño negocio se ve bastante acogedor y cercano. Al ser franquicia con BiciMarket puede llegar a tener precios mas competitivos en temas de recambios y piezas, y además es punto de recogida de los productos de las misma que se encarga o bien online o bien en la misma tienda, tambien se pueden pedir bicicletas.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bicimarket&lt;/strong&gt;:&lt;br&gt;
-Es la mayor red de tiendas especializadas de ciclismo de España. En nuestras tiendas encontrarás todas las ventajas de la tienda online, como es nuestro catálogo de más de 20.000 referencias con precios sin competencia, junto a las propias de una tienda física; asesoramiento de personal especializado, servicio técnico profesional y la posibilidad de realizar tu compra online desde la tienda desde casa y recogerla en tu tienda Bicimarket.com más cercana, sin pagar portes y pudiendo ver y tocar el producto antes de llevártelo.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Mapa de empatía.]]></title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/mapa-de-empatia</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/mapa-de-empatia</guid><category><![CDATA[Mapa Empatía]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/2bcdc/Plantilla-Mapa-de-Empat%C3%ADa.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 48.854961832061065%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAC4jAAAuIwF4pT92AAABvklEQVQoz0WSO3PTQBSF9TNpaRmGih+RgaGiYKiZSUMKmpROZgA7D0tay44lYhs9LNkSemv1sB4rmWMJkltIO7t7z7n3u8vVdc0Ya9v22EdVlne3t6IgiKJARHG1WhFCFEU5HA447boOdxlrhuCO/wNb+Pq+T4ioqart/NENY2/bmqYVRYG0IXmIIYWLosi2bcuysizrnQ+U0iwvLj5/OHv1YiPP4yRJKW1btt/vd7tdEARPfhxqe1gspNlM17Q4jqEVhaHved/evR69fzm5/HoyRFdtJ0nSfC7puv7srKpqEPhhGDi27Tg2tGmSuK5/9ent+subH5cXuNSyBo2il/Vm7XkeGP1LhgxkB2asjySJl7IyOv94f3529320+a1WVdkdu6apG9aA17NzD/CkhHrRk+M4As9Pxj+nApk9KITMFos5ukjTNM+yAeoTMw7Y4Ykz8Hh8/GWaZhRGoBL4Pn5JHAMkWOwsC9jRFITyPKtQTFlycEPC9fXVzc1kOp0ahtGP7VQLQEDRMk1QWC6Xk/FYlmWe513XHerlQA8mlCYwr+sKjyFNKdZItixzu91i8uCPfVhh4HhUxSlyXPgLP0UkZuC7nA8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;Imagen de la practica&quot;
-        src=&quot;/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/36727/Plantilla-Mapa-de-Empat%C3%ADa.png&quot;
-        srcset=&quot;/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/acf4b/Plantilla-Mapa-de-Empat%C3%ADa.png 173w,
-/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/fc834/Plantilla-Mapa-de-Empat%C3%ADa.png 345w,
-/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/36727/Plantilla-Mapa-de-Empat%C3%ADa.png 690w,
-/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/17fa4/Plantilla-Mapa-de-Empat%C3%ADa.png 1035w,
-/gatsbyjs/static/b1a09f3d1b5f3e029ba644a64df246c3/2bcdc/Plantilla-Mapa-de-Empat%C3%ADa.png 1310w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Reflexión vídeo OLIGOPOLY.]]></title><description><![CDATA[Sobre el vídeo del programa Salvados: Oligopoly (https://www.dailymotion.com/video/xwsb54), realiza una reflexión reflejando tus impresiones…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/reflexion-video-oligopoly</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/reflexion-video-oligopoly</guid><category><![CDATA[Oligopoly]]></category><pubDate>Sun, 08 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;sobre-el-vídeo-del-programa-salvados-oligopoly-httpswwwdailymotioncomvideoxwsb54-realiza-una-reflexión-reflejando-tus-impresiones-del-visionado-oligopolios-sectores-energético-y-petrolífero-afectación-de-la-ciudadanía-etc&quot;&gt;&lt;a href=&quot;#sobre-el-v%C3%ADdeo-del-programa-salvados-oligopoly-httpswwwdailymotioncomvideoxwsb54-realiza-una-reflexi%C3%B3n-reflejando-tus-impresiones-del-visionado-oligopolios-sectores-energ%C3%A9tico-y-petrol%C3%ADfero-afectaci%C3%B3n-de-la-ciudadan%C3%ADa-etc&quot; aria-label=&quot;sobre el vídeo del programa salvados oligopoly httpswwwdailymotioncomvideoxwsb54 realiza una reflexión reflejando tus impresiones del visionado oligopolios sectores energético y petrolífero afectación de la ciudadanía etc permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sobre el vídeo del programa Salvados: Oligopoly (&lt;a href=&quot;https://www.dailymotion.com/video/xwsb54&quot;&gt;https://www.dailymotion.com/video/xwsb54&lt;/a&gt;), realiza una reflexión reflejando tus impresiones del visionado: oligopolios, sectores energético y petrolífero, afectación de la ciudadanía, etc...&lt;/h2&gt;
-&lt;h3 id=&quot;oligopoly&quot;&gt;&lt;a href=&quot;#oligopoly&quot; aria-label=&quot;oligopoly permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Oligopoly&lt;/h3&gt;
-&lt;p&gt;En este programa nos hablan sobre los Oligopolios y el poder que pueden llegar a generar, sea cual sea el sector es común una cosa el control completo del mercado repartido entre varias empresa, esto hace que la competencia se practicamente nula(aunque pueden llegar a generar falsas competencias de cara a la población) esto repercute directamente hacia nosotros los consumidores puesto que la regulación por parte del Estado es practicamente nula. Como algunos ejemplos de control del sector nos ponen a las petroleras que controlan todos los puntos de venta de petroleo o las electricas que ellas mismas son las que se autocompran sus propios bienes(lonja) el poder que llegan a generar sobre el gobierno son tales que ni los propios politicos se atreven a ir en su contra. Para finalizar esta reflexión y dar una solución desde mi punto de vista me ha parecido curioso la propuesta de &quot;Alfredo&quot; del sector pretolífero, el expone que la mejor idea seria empezar desde 0 a crear nuevas bases sobres las leyes establecidad actualmente, a mi me parece un buena idea puesto que las actuales tienen demasiados puntos muertos donde las grandes compañias nos exprimen hasta la ultima gota y nosotros como consumidores no tenemos el mas minimo poder para defendernos.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 3: Integridad, firmas y autenticación ]]></title><description><![CDATA[Práctica: Integridad, firmas y autenticación Tarea 1: Firmas electrónicas (3 puntos) GPG   Manda un documento y la firma electrónica del…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Sat, 07 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-integridad-firmas-y-autenticación&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n&quot; aria-label=&quot;práctica integridad firmas y autenticación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Integridad, firmas y autenticación&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Explica los cambios que has realizado en el entorno de desarrollo y cómo lo has desplegado en producción para cada una de las modificaciones (4 puntos).&lt;/strong&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 3: Integridad, firmas y autenticación ]]></title><description><![CDATA[Práctica: Integridad, firmas y autenticación Tarea 1: Firmas electrónicas (3 puntos) GPG   Manda un documento y la firma electrónica del…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Sat, 07 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-integridad-firmas-y-autenticación&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n&quot; aria-label=&quot;práctica integridad firmas y autenticación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Integridad, firmas y autenticación&lt;/h2&gt;
 &lt;h3 id=&quot;tarea-1-firmas-electrónicas-3-puntos&quot;&gt;&lt;a href=&quot;#tarea-1-firmas-electr%C3%B3nicas-3-puntos&quot; aria-label=&quot;tarea 1 firmas electrónicas 3 puntos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Firmas electrónicas (3 puntos)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;GPG&lt;/strong&gt;  &lt;/p&gt;
 &lt;h3 id=&quot;manda-un-documento-y-la-firma-electrónica-del-mismo-a-un-compañero-verifica-la-firma-que-tu-has-recibido&quot;&gt;&lt;a href=&quot;#manda-un-documento-y-la-firma-electr%C3%B3nica-del-mismo-a-un-compa%C3%B1ero-verifica-la-firma-que-tu-has-recibido&quot; aria-label=&quot;manda un documento y la firma electrónica del mismo a un compañero verifica la firma que tu has recibido permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Manda un documento y la firma electrónica del mismo a un compañero. Verifica la firma que tu has recibido.&lt;/h3&gt;
