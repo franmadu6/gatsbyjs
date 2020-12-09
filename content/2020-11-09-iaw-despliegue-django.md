@@ -315,9 +315,9 @@ Superuser created successfully.
         ServerName www.app-python.org
 
         ServerAdmin webmaster@localhost
-        DocumentRoot /var/www/app-python
+        DocumentRoot /var/www/app-python/django_tutorial
 
-        WSGIDaemonProcess app-python user=www-data group=www-data processes=1 threads=5 python-path=/var/www/app-python:/home/debian/django/lib/python3.7/site-packages
+        WSGIDaemonProcess app-python user=www-data group=www-data processes=1 threads=5 python-path=/var/www/app-python/django_tutorial:/home/debian/django/lib/python3.7/site-packages
         WSGIScriptAlias / /var/www/app-python/django_tutorial/django_tutorial/wsgi.py
 
         <Directory /var/www/app-python/django_tutorial/django_tutorial>
@@ -333,55 +333,148 @@ Superuser created successfully.
 #en /var/www/app-python/django_tutorial/django_tutorial/settings.py
 ALLOWED_HOSTS = ['www.app-python.org']
 ```
-
 Añadieremos nuestra pagina al /etc/hosts de nuestra maquina local y comprobaremos el resultado:
 
-!foto
+![PracticaImg](images/iaw/django6.png "Imagen de la practica")
+![PracticaImg](images/iaw/django7.png "Imagen de la practica")
 
 * Debes asegurarte que el contenido estático se está sirviendo: ¿Se muestra la imagen de fondo de la aplicación? ¿Se ve de forma adecuada la hoja de estilo de la zona de administración?. Para arreglarlo puedes encontrar documentación en How to use Django with Apache and mod_wsgi.
 
+Como nos indica el manual deberemos utilizar un alias para enlazar nuestro directorio /static/ con el proporcionado en el entorno virtual.
+```shell
+        Alias /static/ /home/debian/django/lib/python3.7/site-packages/django/contrib/admin/static/
+        <Directory /home/debian/django/lib/python3.7/site-packages/django/contrib/admin/static>
+                Require all granted
+        </Directory>
+```
+
+Como podemos comprobar nuestra pagina ya hace uso de hojas de estilo:
+![PracticaImg](images/iaw/django8.png "Imagen de la practica")
+
 * Desactiva en la configuración (fichero settings.py) el modo debug a False. Para que los errores de ejecución no den información sensible de la aplicación.
 
-* Muestra la página funcionando.
+Modificaremos el modo debug a false:
+```shell
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
+```
+
+* Muestra la página funcionando. En la zona de administración se debe ver de forma adecuada la hoja de estilo.
+
+![PracticaImg](images/iaw/django9.png "Imagen de la practica")
 
 **En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (4 puntos)**
+
+
 
 ## Tarea 3: Modificación de nuestra aplicación
 
 Vamos a realizar cambios en el entorno de desarrollo y posteriormente vamos a subirlas a producción. Vamos a realizar tres modificaciones (entrega una captura de pantalla donde se ven cada una de ellas). Recuerda que primero lo haces en el entrono de desarrollo, y luego tendrás que llevar los cambios a producción:
 
-* Modifica la página inicial donde se ven las encuestas para que aparezca tu nombre: Para ello modifica el archivo django_tutorial/polls/templates/polls/index.html.
-    Modifica la imagen de fondo que se ve la aplicación.
+* Modifica la página inicial donde se ven las encuestas para que aparezca tu nombre: Para ello modifica el archivo <span style="background-color:#ff5733; border-radius:1em;"> django_tutorial/polls/templates/polls/index.html.</span> 
+
+```shell
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+<h1>Francisco Javier Madueño Jurado</h1>
+
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+    <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+```
+
+![PracticaImg](images/iaw/django11.png "Imagen de la practica")
+
+* Modifica la imagen de fondo que se ve la aplicación.
+
+```shell
+(django) debian@tareadjango:~/django/lib/python3.7/site-packages/django/contrib/admin/static/admin/css$ sudo nano base.css 
+#modificamos el color del backgroud
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    color: #333;
+    background: #fb5858;
+}
+```
+
+![PracticaImg](images/iaw/django10.png "Imagen de la practica")
 
 * Vamos a crear una nueva tabla en la base de datos, para ello sigue los siguientes pasos:
-
     * Añade un nuevo modelo al fichero polls/models.py:
-
-        
+        ```shell
+        (django) debian@tareadjango:/var/www/app-python/django_tutorial/polls$ sudo nano models.py 
           class Categoria(models.Model):	
           	Abr = models.CharField(max_length=4)
           	Nombre = models.CharField(max_length=50)
 
           	def __str__(self):
           		return self.Abr+" - "+self.Nombre 		
-        
+        ```
     *  Crea una nueva migración: python3 manage.py makemigrations.
         Y realiza la migración: python3 manage.py migrate
+
+```shell
+(django) debian@tareadjango:/var/www/app-python/django_tutorial$ python3 manage.py makemigrations
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    main()
+  File "manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/home/debian/django/lib/python3.7/site-packages/django/core/management/__init__.py", line 401, in execute_from_command_line
+    utility.execute()
+  File "/home/debian/django/lib/python3.7/site-packages/django/core/management/__init__.py", line 377, in execute
+    django.setup()
+  File "/home/debian/django/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/debian/django/lib/python3.7/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/home/debian/django/lib/python3.7/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/home/debian/django/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/app-python/django_tutorial/polls/models.py", line 30
+    django_tutorial/polls$ sudo nano models.py
+                         ^
+SyntaxError: invalid syntax
+```
 
     *  Añade el nuevo modelo al sitio de administración de django:
 
     *  Para ello cambia la siguiente línea en el fichero polls/admin.py:
-        
+        ```shell
            from .models import Choice, Question
-        
+        ```
         Por esta otra:
-        
+        ```shell
            from .models import Choice, Question, Categoria
-        
+        ```
         Y añade al final la siguiente línea:
-        
+        ```shell
            admin.site.register(Categoria)
-        
+        ```
+
+
     *  Despliega el cambio producido al crear la nueva tabla en el entorno de producción.
+
+
 
 **Explica los cambios que has realizado en el entorno de desarrollo y cómo lo has desplegado en producción para cada una de las modificaciones (4 puntos).**
