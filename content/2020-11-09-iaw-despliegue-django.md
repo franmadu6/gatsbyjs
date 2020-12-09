@@ -133,7 +133,7 @@ Vamos a realizar el despliegue de nuestra aplicación en un entorno de producci�
 Tras crear una máquina Debian Buster en el cloud, se accede a ella y se añaden los siguientes paquetes:
 
 ```shell
-debian@tareadjango:~$ sudo apt-get install libapache2-mod-wsgi
+debian@tareadjango:~$ sudo apt-get install libapache2-mod-wsgi-py3
 debian@tareadjango:~$ sudo apt-get install apache2
 ```
 
@@ -317,11 +317,11 @@ Superuser created successfully.
         ServerAdmin webmaster@localhost
         DocumentRoot /var/www/app-python
 
-        WSGIDaemonProcess django user=www-data group=www-data processes=1 threads=5 python-path=/var$
+        WSGIDaemonProcess app-python user=www-data group=www-data processes=1 threads=5 python-path=/var/www/app-python:/home/debian/django/lib/python3.7/site-packages
         WSGIScriptAlias / /var/www/app-python/django_tutorial/django_tutorial/wsgi.py
 
         <Directory /var/www/app-python/django_tutorial/django_tutorial>
-                WSGIProcessGroup django
+                WSGIProcessGroup app-python
                 WSGIApplicationGroup %{GLOBAL}
                 Require all granted
         </Directory>
@@ -331,14 +331,12 @@ Superuser created successfully.
 </VirtualHost>
 (django) debian@tareadjango:/etc/apache2/sites-available$ sudo a2ensite app-python.conf
 #en /var/www/app-python/django_tutorial/django_tutorial/settings.py
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['www.app-python.org']
 ```
-Ahora si ejecutamos:
-```shell
-from app import app as application
-```
+
 Añadieremos nuestra pagina al /etc/hosts de nuestra maquina local y comprobaremos el resultado:
 
+!foto
 
 * Debes asegurarte que el contenido estático se está sirviendo: ¿Se muestra la imagen de fondo de la aplicación? ¿Se ve de forma adecuada la hoja de estilo de la zona de administración?. Para arreglarlo puedes encontrar documentación en How to use Django with Apache and mod_wsgi.
 
