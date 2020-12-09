@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 09 Dec 2020 12:57:30 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[LDAPs]]></title><description><![CDATA[Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Frestón]]></category><category><![CDATA[x509]]></category><pubDate>Tue, 08 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configura-el-servidor-ldap-de-frestón-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-práctica-de-https-o-solicitando-el-correspondiente-a-través-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frestón-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot;&gt;&lt;a href=&quot;#configura-el-servidor-ldap-de-frest%C3%B3n-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-pr%C3%A1ctica-de-https-o-solicitando-el-correspondiente-a-trav%C3%A9s-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frest%C3%B3n-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot; aria-label=&quot;configura el servidor ldap de frestón para que utilice el protocolo ldaps a la vez que el ldap utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona. Realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps://&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 09 Dec 2020 20:34:02 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[LDAPs]]></title><description><![CDATA[Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Frestón]]></category><category><![CDATA[x509]]></category><pubDate>Tue, 08 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configura-el-servidor-ldap-de-frestón-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-práctica-de-https-o-solicitando-el-correspondiente-a-través-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frestón-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot;&gt;&lt;a href=&quot;#configura-el-servidor-ldap-de-frest%C3%B3n-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-pr%C3%A1ctica-de-https-o-solicitando-el-correspondiente-a-trav%C3%A9s-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frest%C3%B3n-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot; aria-label=&quot;configura el servidor ldap de frestón para que utilice el protocolo ldaps a la vez que el ldap utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona. Realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps://&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación y configuración inicial de OpenLDAP]]></title><description><![CDATA[Realiza la instalación y configuración básica de OpenLDAP en frestón utilizando como base el nombre DNS asignado.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-open-ldap</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-open-ldap</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Iniciación]]></category><pubDate>Tue, 08 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;realiza-la-instalación-y-configuración-básica-de-openldap-en-frestón-utilizando-como-base-el-nombre-dns-asignado&quot;&gt;&lt;a href=&quot;#realiza-la-instalaci%C3%B3n-y-configuraci%C3%B3n-b%C3%A1sica-de-openldap-en-frest%C3%B3n-utilizando-como-base-el-nombre-dns-asignado&quot; aria-label=&quot;realiza la instalación y configuración básica de openldap en frestón utilizando como base el nombre dns asignado permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Realiza la instalación y configuración básica de OpenLDAP en frestón utilizando como base el nombre DNS asignado.&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Elección de Forma Jurídica]]></title><description><![CDATA[¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta. Descargar archivo Sociedades.odt La forma jurídica elegida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</guid><category><![CDATA[Forma Jurídica]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/gatsbyjs/3448904c8dfde8472ac0c47331328f23/sociedades.ods&quot;&gt;Descargar archivo Sociedades.odt&lt;/a&gt;&lt;/p&gt;
@@ -5400,9 +5400,9 @@ Superuser created successfully.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         ServerName www.app-python.org
 
         ServerAdmin webmaster@localhost
-        DocumentRoot /var/www/app-python
+        DocumentRoot /var/www/app-python/django_tutorial
 
-        WSGIDaemonProcess app-python &lt;span class=&quot;token assign-left variable&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;www-data &lt;span class=&quot;token assign-left variable&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;www-data &lt;span class=&quot;token assign-left variable&quot;&gt;processes&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;threads&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; python-path&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/var/www/app-python:/home/debian/django/lib/python3.7/site-packages
+        WSGIDaemonProcess app-python &lt;span class=&quot;token assign-left variable&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;www-data &lt;span class=&quot;token assign-left variable&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;www-data &lt;span class=&quot;token assign-left variable&quot;&gt;processes&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;threads&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; python-path&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/var/www/app-python/django_tutorial:/home/debian/django/lib/python3.7/site-packages
         WSGIScriptAlias / /var/www/app-python/django_tutorial/django_tutorial/wsgi.py
 
         &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory /var/www/app-python/django_tutorial/django_tutorial&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
@@ -5418,44 +5418,302 @@ Superuser created successfully.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;span class=&quot;token comment&quot;&gt;#en /var/www/app-python/django_tutorial/django_tutorial/settings.py&lt;/span&gt;
 ALLOWED_HOSTS &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;www.app-python.org&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Añadieremos nuestra pagina al /etc/hosts de nuestra maquina local y comprobaremos el resultado:&lt;/p&gt;
-&lt;p&gt;!foto&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/2433f413efc81e0787a620fe630f7952/6b5c3/django6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.79194630872483%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABU0lEQVQoz4WPQU/CQBCF9zeRCFUhcpbgCUk8SGHbauVfakyMHDQhQiBWaRdoqELbIGAobJ9LAQMGdZIvb2Y282aWUEVFLpdDPp/HqSCTySCbPcGx0ANJwuFeAgmh6aM0UqkUkskkJFEnpH3E4/FvYrFYBNG1AsrlS+hlHRotQb2g0EoyLhSRawpUlS5VoF/pUBQFcuEctHAGSimKxaLQEmRZjiBGrQXzuQP2asNmPbRbNoy6hVazDdPoomP2xHsXLw2GN6cPz/PgugN4At/3o3qN73sgVm2Axr2N6jWDWXuH8dBD9cZC/a6DRqUL47GHZsXG0y2D74zxX5DxZISB28fkcyTKcMU6FjnfGuCcIwzDXyGO44AxJr7ggc/nmAXBillEIPKFCefLgWhNGG4t2ewT33PRZhY+hsOoEV3wk40Ldhlu9gjncwTTaWT0V+wy2XXhF060Hu80NKk4AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/2433f413efc81e0787a620fe630f7952/36727/django6.png&quot;
+        srcset=&quot;/gatsbyjs/static/2433f413efc81e0787a620fe630f7952/acf4b/django6.png 173w,
+/gatsbyjs/static/2433f413efc81e0787a620fe630f7952/fc834/django6.png 345w,
+/gatsbyjs/static/2433f413efc81e0787a620fe630f7952/36727/django6.png 690w,
+/gatsbyjs/static/2433f413efc81e0787a620fe630f7952/6b5c3/django6.png 745w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 591px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/807d0fdf4e5d0fb9173de08caa419c5b/a615a/django7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 107.27580372250422%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsSAAALEgHS3X78AAAC9klEQVQ4y6WTf09TVxzG+45G4pZBRoBRzco6qzJgYS9A9378x8y5lEJ/iCzEf3GpYMRglIJaRSst9Je0pffSXm5v6f318duLEI1BBzvJk3Nzcs7nPM/5fq/v6rU/GJ+YYHR0lMnJScbGxggGf+Fi6CKhS5fw+/30f9/rqbevl8HBQU8DAwP09/fT19fHuW+/45ueHnpEvt9/G+dXgV2+fIXx8QmuhEKEQgIUaGhkhJ+DQc7/OMwF/3mGh/0EfgowEhiRS4MEAgFvbWjgB4aGDi/yhf+6TiIRIX47RiwRJXzrJrH4FLHoFJFbf5K4Eycan2F2LkFiNsb0zBRx2ReNRolEIoTDYWb+vkE8FmV6egZfLd9iO12nXtKpbjXRGyZKuUXhlSJrLUpvVKrbGrX8PoUNxZvVdy1OGr7C613WkjnSywVW72UpZVQyq2VSySyvVgo8W8rxNlX09HJ5i821Eq+fFLFNU467OI7ziXyN5h5qo46mNymW8+S2s+iagaGZtJpt9JZLeQdqddhVoFIFdc+hVnMolRwsy/XArnson6JIJNml6y3qdUU2ldCaOkqtSUPR0Pc7VCptqlUDVbFoCKyl2+zvu2ha16HrRe3CvMiPH69w9+48Gxsv6X7Pzt4mmfyXuX/usHBvgcXF+8zPz7G0lJT1Bdpt/cNrucfvdgTzgIZho6odcWjSlIiaxN3ba2MYbcxOh4ODjkAO6HQOZ9t26J4/ingEO3ZoGPD8ucPDhxbLyzaPHtkS2+VL42NHn1W5WLR58MCUuBZraxbr65bEtzHNTx/7JEefAVXVIZWy2NlxxKnN5uahvnbwRIf1uks+75DN2qysWGxt2VJV12uLs0B9lUrHg3S1u2tLQRwBWijKUTz3dMB0ep0XL1ZJp1MCfSvzMynQorznU6nwwekdlsvvpGlrUtky3W9Dym5ZltcmZ4rc/TPyefnlcjkymYz0Wvs/t8gJVValADVPhUJBGlw/Bp3J4Wkb96vA0zbumRz+n/Ee5ArxbrgkLmAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/807d0fdf4e5d0fb9173de08caa419c5b/a615a/django7.png&quot;
+        srcset=&quot;/gatsbyjs/static/807d0fdf4e5d0fb9173de08caa419c5b/acf4b/django7.png 173w,
+/gatsbyjs/static/807d0fdf4e5d0fb9173de08caa419c5b/fc834/django7.png 345w,
+/gatsbyjs/static/807d0fdf4e5d0fb9173de08caa419c5b/a615a/django7.png 591w&quot;
+        sizes=&quot;(max-width: 591px) 100vw, 591px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Debes asegurarte que el contenido estático se está sirviendo: ¿Se muestra la imagen de fondo de la aplicación? ¿Se ve de forma adecuada la hoja de estilo de la zona de administración?. Para arreglarlo puedes encontrar documentación en How to use Django with Apache and mod_wsgi.&lt;/li&gt;
-&lt;li&gt;Desactiva en la configuración (fichero settings.py) el modo debug a False. Para que los errores de ejecución no den información sensible de la aplicación.&lt;/li&gt;
-&lt;li&gt;Muestra la página funcionando.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Como nos indica el manual deberemos utilizar un alias para enlazar nuestro directorio /static/ con el proporcionado en el entorno virtual.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;        Alias /static/ /home/debian/django/lib/python3.7/site-packages/django/contrib/admin/static/
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory /home/debian/django/lib/python3.7/site-packages/django/contrib/admin/static&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                Require all granted
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como podemos comprobar nuestra pagina ya hace uso de hojas de estilo:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/d42ee95e871164ca754c801beaa84e33/5b907/django8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.64595103578155%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABkklEQVQoz5WQ6UsCURTF5/9qIXWixYL60Ab1ocWCIKJF+69aULCCvgWVoaHmVkZaI7hijs6Ms+jpzpuyIiW68OOee9+88w7DLS3MY3F+DrPTU5ghnLwDI/YhTI6NMEZ5G+wDfbAR9kGrW7r/276fnZkzN7G5h/H1bYbTtQV+fQ+21X0MLe+S9sC2sgO7yZobDpcbPOFY28cwnTFNDG8ckPawHXcejOAsGGVchOM4CyXhDyZxGkqx7mfd0r7bBI5uYjgJJHAciDPNuP6CS+QqiAllxIl0UUS6JCJVeCNqjAfikfbJfA0VSYVV7Q9+F3eVzuE+V8Y9GUaFEiIvJdxlix2CmTyu01lcJjN4yFchSRJeBQGFYhFivY4GzUqzCaPVgm60wDVkBbqu/8D4xDCg6RrkpgRJlkgbkGUZAhmKoghVVdmsaZqVu90G5ws/w0v4Ihn4wr/xMp5xGHpCKFtCu2WwlJ9Gpqn5cMew2lCg0stm3G6olFRWFUiKgqZmoFeZZuwf4p9lXuxGJ2GvD/662Gv/Dvohq67MEqZPAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/d42ee95e871164ca754c801beaa84e33/36727/django8.png&quot;
+        srcset=&quot;/gatsbyjs/static/d42ee95e871164ca754c801beaa84e33/acf4b/django8.png 173w,
+/gatsbyjs/static/d42ee95e871164ca754c801beaa84e33/fc834/django8.png 345w,
+/gatsbyjs/static/d42ee95e871164ca754c801beaa84e33/36727/django8.png 690w,
+/gatsbyjs/static/d42ee95e871164ca754c801beaa84e33/17fa4/django8.png 1035w,
+/gatsbyjs/static/d42ee95e871164ca754c801beaa84e33/5b907/django8.png 1062w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Desactiva en la configuración (fichero settings.py) el modo debug a False. Para que los errores de ejecución no den información sensible de la aplicación.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Modificaremos el modo debug a false:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# SECURITY WARNING: don&apos;t run with debug turned on in production!&lt;/span&gt;
+DEBUG &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; False&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Muestra la página funcionando. En la zona de administración se debe ver de forma adecuada la hoja de estilo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/b6dd2ccf668b48417e37c07fcff5c201/a987b/django9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.416666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABI0lEQVQoz52Oz0rDQBDG97W0ItSL0lZpTUttEWkRfA7Fa/HiQS0+goJ48l8O4klFr8WLJyltsU263TUx2c3n7jbBHETQgR/fN7MzO0OsxhZKG5vIVdeRLdaQXa1jfqWCTKGM2byFTL6MueWKYaZgxbVvXShWsbjWQK7exFKtCbJ7amP75Bo7Svcv7nFw+YDDq0e07We0b55wpEj0J47tqe6d36F1dgvi8BFGvI+hQsoAQBSDlP4eXWeCztsAfYeCvA4cdLrveOkNMWYcY0rBOQdV6roufN9HEATwPA+e8n7Mh84V+o3SCZia+VSepDcJIUyDlBJCob2uSRmZXKbQdSGF8Ywxc0QYhiCmMYoM/4lIzenPkmuJ3pA8/JVkzlwrptd+ATYS7OgrVgVRAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/b6dd2ccf668b48417e37c07fcff5c201/36727/django9.png&quot;
+        srcset=&quot;/gatsbyjs/static/b6dd2ccf668b48417e37c07fcff5c201/acf4b/django9.png 173w,
+/gatsbyjs/static/b6dd2ccf668b48417e37c07fcff5c201/fc834/django9.png 345w,
+/gatsbyjs/static/b6dd2ccf668b48417e37c07fcff5c201/36727/django9.png 690w,
+/gatsbyjs/static/b6dd2ccf668b48417e37c07fcff5c201/17fa4/django9.png 1035w,
+/gatsbyjs/static/b6dd2ccf668b48417e37c07fcff5c201/a5044/django9.png 1380w,
+/gatsbyjs/static/b6dd2ccf668b48417e37c07fcff5c201/a987b/django9.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;En este momento, muestra al profesor la aplicación funcionando. Entrega una documentación resumida donde expliques los pasos fundamentales para realizar esta tarea. (4 puntos)&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;tarea-3-modificación-de-nuestra-aplicación&quot;&gt;&lt;a href=&quot;#tarea-3-modificaci%C3%B3n-de-nuestra-aplicaci%C3%B3n&quot; aria-label=&quot;tarea 3 modificación de nuestra aplicación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Modificación de nuestra aplicación&lt;/h2&gt;
 &lt;p&gt;Vamos a realizar cambios en el entorno de desarrollo y posteriormente vamos a subirlas a producción. Vamos a realizar tres modificaciones (entrega una captura de pantalla donde se ven cada una de ellas). Recuerda que primero lo haces en el entrono de desarrollo, y luego tendrás que llevar los cambios a producción:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Modifica la página inicial donde se ven las encuestas para que aparezca tu nombre: Para ello modifica el archivo django_tutorial/polls/templates/polls/index.html.
-Modifica la imagen de fondo que se ve la aplicación.&lt;/li&gt;
+&lt;li&gt;Modifica la página inicial donde se ven las encuestas para que aparezca tu nombre: Para ello modifica el archivo &lt;span style=&quot;background-color:#ff5733; border-radius:1em;&quot;&gt; django_tutorial/polls/templates/polls/index.html.&lt;/span&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% load static %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;link &lt;span class=&quot;token assign-left variable&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;text/css&quot;&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;{% static &apos;polls/style.css&apos; %}&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;1&lt;/span&gt;&gt;&lt;/span&gt;Francisco Javier Madueño Jurado&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/h&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;1&lt;/span&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; latest_question_list %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;question&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; latest_question_list %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;a &lt;span class=&quot;token assign-left variable&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;{% url &apos;polls:detail&apos; question.id %}&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; question.question_text &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% endfor %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;No polls are available.&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% endif %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/d797b58a8035b0f57ae045b18634044a/a18dd/django11.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.63021420518602%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABBElEQVQoz62PUWqDQABE90apJilGC+Jn89GgNJ6mVXfVVoXmYFqRBo3eICdoP4w6XaV+lNaUQgYeOzCzsyzZbO6w3d5jvb7FzWoFeXkNWVGgqioUfkqSBEEQcDWbYT4XsVgsIYrigCzL0DQNuq7DMAyYpgni+z485sKlDqhtgVkWPM8DYwyUUriuC8ah9gOo8wjbcfDE7wTB8xcBoihCGIbY7V5ADocc+/0byqpCxXlNU1RliaIokCQJ4jgefJ7nyLIMKc/rusaUyPFY4+O9Qde1aJpmoOu6Iex927YDY9b7Pp+CnE4dL31/ZQyndHaQx33lbOk3xuEfX/6r8F8RXFgXH/wEbKN7ibZywjIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/d797b58a8035b0f57ae045b18634044a/36727/django11.png&quot;
+        srcset=&quot;/gatsbyjs/static/d797b58a8035b0f57ae045b18634044a/acf4b/django11.png 173w,
+/gatsbyjs/static/d797b58a8035b0f57ae045b18634044a/fc834/django11.png 345w,
+/gatsbyjs/static/d797b58a8035b0f57ae045b18634044a/36727/django11.png 690w,
+/gatsbyjs/static/d797b58a8035b0f57ae045b18634044a/a18dd/django11.png 887w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Modifica la imagen de fondo que se ve la aplicación.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:~/django/lib/python3.7/site-packages/django/contrib/admin/static/admin/css$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; base.css 
+&lt;span class=&quot;token comment&quot;&gt;#modificamos el color del backgroud&lt;/span&gt;
+body &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    margin: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    padding: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    font-size: 14px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    font-family: &lt;span class=&quot;token string&quot;&gt;&quot;Roboto&quot;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&quot;Lucida Grande&quot;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&quot;DejaVu Sans&quot;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&quot;Bitstream Vera Sans&quot;&lt;/span&gt;,Verdana,Arial,sans-serif&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    color: &lt;span class=&quot;token comment&quot;&gt;#333;&lt;/span&gt;
+    background: &lt;span class=&quot;token comment&quot;&gt;#fb5858;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/840c010b562c91d9968fa48099fc00ad/995af/django10.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.25972660357519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABxElEQVQoz53Q30uTURzH8effqqyYGIaZQ2yb7lm/u+jWq1C0y1ltC7uviG6MINZ0F5pexEIoJ0yY1k0UiMQiRbYn9/w653n3fZ5pYHSxOvDi8/0eDl/OOcbI1VvEzWsMJNLEEhli5g3Opq7QI/WpS0IyrE8nL9MjTibMw32TEyNpzkj2ZW5y/vptBoQxNbfE9ItFpl8uk33wlPyd++Qm8xTEw8lClL9N5I/1+YnwTJ7ZqQKPJO/dncVo7H9np/mNnb1trGdPUMUifrlMMD+PKr2OkoWFjvJfUs7axRKfHz+nPvcK40vjBx8bu3z6us3e4hKWUvwEWkEQsaX2hCvah2n/0TtiVwU0fY2B1kTL9/FXVrCbLbTrohwH27JwDw6i/mjvKEO+3Y5637ax9vexW00MLYPCkbptoysV/mcpYfkKR14UDQxX4HnyZyX0xgZ6awu9udmVQKh6HadWwxVGoFRnYPjqmRm8oSH80VG8ZLJrfiiVitJQcjMt/xg+28tmceJxnLExHDngCucfGcc+I5eD4WHIZCCd7jDNTh9mF4za2geq1Spr6+u8Hx9n9VwflcGLvBOrgxd429/Pm1iM5W709vILPm6wt6wuB9MAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/840c010b562c91d9968fa48099fc00ad/36727/django10.png&quot;
+        srcset=&quot;/gatsbyjs/static/840c010b562c91d9968fa48099fc00ad/acf4b/django10.png 173w,
+/gatsbyjs/static/840c010b562c91d9968fa48099fc00ad/fc834/django10.png 345w,
+/gatsbyjs/static/840c010b562c91d9968fa48099fc00ad/36727/django10.png 690w,
+/gatsbyjs/static/840c010b562c91d9968fa48099fc00ad/17fa4/django10.png 1035w,
+/gatsbyjs/static/840c010b562c91d9968fa48099fc00ad/a5044/django10.png 1380w,
+/gatsbyjs/static/840c010b562c91d9968fa48099fc00ad/995af/django10.png 1902w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Vamos a crear una nueva tabla en la base de datos, para ello sigue los siguientes pasos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Añade un nuevo modelo al fichero polls/models.py:&lt;/p&gt;
-&lt;p&gt;  class Categoria(models.Model):
-Abr = models.CharField(max&lt;em&gt;length=4)
-Nombre = models.CharField(max&lt;/em&gt;length=50)&lt;/p&gt;
-&lt;p&gt;  	def &lt;strong&gt;str&lt;/strong&gt;(self):
-return self.Abr+&quot; - &quot;+self.Nombre 		&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/var/www/app-python/django_tutorial/polls$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; models.py 
+  class Categoria&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;models.Model&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:	
+  	Abr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; models.CharField&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;max_length&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  	Nombre &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; models.CharField&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;max_length&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+  	def __str__&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;self&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:
+  		&lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; self.Abr+&lt;span class=&quot;token string&quot;&gt;&quot; - &quot;&lt;/span&gt;+self.Nombre 		&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;Crea una nueva migración: python3 manage.py makemigrations.
 Y realiza la migración: python3 manage.py migrate&lt;/li&gt;
-&lt;li&gt;Añade el nuevo modelo al sitio de administración de django:&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Para ello cambia la siguiente línea en el fichero polls/admin.py:&lt;/p&gt;
-&lt;p&gt;   from .models import Choice, Question&lt;/p&gt;
-&lt;p&gt;Por esta otra:&lt;/p&gt;
-&lt;p&gt;   from .models import Choice, Question, Categoria&lt;/p&gt;
-&lt;p&gt;Y añade al final la siguiente línea:&lt;/p&gt;
-&lt;p&gt;   admin.site.register(Categoria)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Despliega el cambio producido al crear la nueva tabla en el entorno de producción.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; debian@tareadjango:/var/www/app-python/django_tutorial$ python3 manage.py makemigrations
+Traceback &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;most recent call last&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:
+  File &lt;span class=&quot;token string&quot;&gt;&quot;manage.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;22&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;module&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    main&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  File &lt;span class=&quot;token string&quot;&gt;&quot;manage.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;18&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; main
+    execute_from_command_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sys.argv&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  File &lt;span class=&quot;token string&quot;&gt;&quot;/home/debian/django/lib/python3.7/site-packages/django/core/management/__init__.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;401&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; execute_from_command_line
+    utility.execute&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  File &lt;span class=&quot;token string&quot;&gt;&quot;/home/debian/django/lib/python3.7/site-packages/django/core/management/__init__.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;377&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; execute
+    django.setup&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  File &lt;span class=&quot;token string&quot;&gt;&quot;/home/debian/django/lib/python3.7/site-packages/django/__init__.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;24&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; setup
+    apps.populate&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;settings.INSTALLED_APPS&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  File &lt;span class=&quot;token string&quot;&gt;&quot;/home/debian/django/lib/python3.7/site-packages/django/apps/registry.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;114&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; populate
+    app_config.import_models&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  File &lt;span class=&quot;token string&quot;&gt;&quot;/home/debian/django/lib/python3.7/site-packages/django/apps/config.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;211&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; import_models
+    self.models_module &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; import_module&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;models_module_name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  File &lt;span class=&quot;token string&quot;&gt;&quot;/home/debian/django/lib/python3.7/importlib/__init__.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;127&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; import_module
+    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; _bootstrap._gcd_import&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;level:&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;, package, level&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  File &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;frozen importlib._bootstrap&gt;&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;1006&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; _gcd_import
+  File &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;frozen importlib._bootstrap&gt;&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;983&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; _find_and_load
+  File &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;frozen importlib._bootstrap&gt;&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;967&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; _find_and_load_unlocked
+  File &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;frozen importlib._bootstrap&gt;&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;677&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; _load_unlocked
+  File &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;frozen importlib._bootstrap_external&gt;&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;724&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; exec_module
+  File &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;frozen importlib._bootstrap_external&gt;&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;860&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; get_code
+  File &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;frozen importlib._bootstrap_external&gt;&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;791&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; source_to_code
+  File &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;frozen importlib._bootstrap&gt;&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;219&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; _call_with_frames_removed
+  File &lt;span class=&quot;token string&quot;&gt;&quot;/var/www/app-python/django_tutorial/polls/models.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;
+    django_tutorial/polls$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; models.py
+                         ^
+SyntaxError: invalid syntax&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;*  Añade el nuevo modelo al sitio de administración de django:
+
+*  Para ello cambia la siguiente línea en el fichero polls/admin.py:
+    ```shell
+       from .models import Choice, Question
+    ```
+    Por esta otra:
+    ```shell
+       from .models import Choice, Question, Categoria
+    ```
+    Y añade al final la siguiente línea:
+    ```shell
+       admin.site.register(Categoria)
+    ```
+
+
+*  Despliega el cambio producido al crear la nueva tabla en el entorno de producción.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Explica los cambios que has realizado en el entorno de desarrollo y cómo lo has desplegado en producción para cada una de las modificaciones (4 puntos).&lt;/strong&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 3: Integridad, firmas y autenticación ]]></title><description><![CDATA[Práctica: Integridad, firmas y autenticación Tarea 1: Firmas electrónicas (3 puntos) GPG   Manda un documento y la firma electrónica del…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</guid><category><![CDATA[Gpg]]></category><category><![CDATA[OpenSSL]]></category><pubDate>Sat, 07 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-integridad-firmas-y-autenticación&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-integridad-firmas-y-autenticaci%C3%B3n&quot; aria-label=&quot;práctica integridad firmas y autenticación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Integridad, firmas y autenticación&lt;/h2&gt;
 &lt;h3 id=&quot;tarea-1-firmas-electrónicas-3-puntos&quot;&gt;&lt;a href=&quot;#tarea-1-firmas-electr%C3%B3nicas-3-puntos&quot; aria-label=&quot;tarea 1 firmas electrónicas 3 puntos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Firmas electrónicas (3 puntos)&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;GPG&lt;/strong&gt;  &lt;/p&gt;
