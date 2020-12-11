@@ -564,6 +564,9 @@ El servidor DNS actual funciona como DNS maestro. Vamos a instalar un nuevo serv
     * Muestra la salida del log donde se demuestra que se ha realizado la transferencia de zona.
 </div>
 
+
+
+
 <div style="background-color:#ff5733; border-radius:1em; border-color: black;">
 
 * Tarea 5 (1 punto): Documenta los siguientes apartados:
