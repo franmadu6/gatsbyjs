@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 09 Dec 2020 20:34:02 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[LDAPs]]></title><description><![CDATA[Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Frestón]]></category><category><![CDATA[x509]]></category><pubDate>Tue, 08 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configura-el-servidor-ldap-de-frestón-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-práctica-de-https-o-solicitando-el-correspondiente-a-través-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frestón-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot;&gt;&lt;a href=&quot;#configura-el-servidor-ldap-de-frest%C3%B3n-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-pr%C3%A1ctica-de-https-o-solicitando-el-correspondiente-a-trav%C3%A9s-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frest%C3%B3n-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot; aria-label=&quot;configura el servidor ldap de frestón para que utilice el protocolo ldaps a la vez que el ldap utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona. Realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps://&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 11 Dec 2020 15:12:38 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Modificación del escenario de OpenStack]]></title><description><![CDATA[Vamos a modificar el escenario que tenemos actualmente en OpenStack para que se adecúe a la realización de todas las prácticas en todos los…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/modificacion-del-escenario-de-open-stack</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/modificacion-del-escenario-de-open-stack</guid><category><![CDATA[OpenStack]]></category><category><![CDATA[DMZ]]></category><pubDate>Wed, 09 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Vamos a modificar el escenario que tenemos actualmente en OpenStack para que se adecúe a la realización de todas las prácticas en todos los módulos de 2º, en particular para que tenga una estructura más real a la de varios equipos detrás de un cortafuegos, separando los servidores en dos redes: red interna y DMZ. Para ello vamos a reutilizar todo lo hecho hasta ahora y añadiremos una máquina más: Frestón&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/6e99fcbd86851b25ba96e9f794875f57/2d493/escenariodmz.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.90291262135922%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAC4jAAAuIwF4pT92AAAB+0lEQVQ4y4WTW3eaQBSF/f//wpc+1ipp0mZVNDFJQY3xFoyxYhSlXkIKQVQuw+4wIBVoV89aLIaZMx/7zD6TO++qSARx4Q+/0LcHn376vs+mb+Y30A86G/uex97beh32bBbORXm5QluFob+h2WpBUWZw39eAxNEEkgBeK9dZoCDAnk7DOUJYbu5DXcFyo6FQLEG4rcHXZPj9Alv8P1CE/fKCSGII/JwuOVD2dJEp+V8KHUWJgazkUnvBBq4XlejsgcEZ5SaBV8pVDCRHoEjPsNOB1G6D53ksFgvkiikgXBsYVzNnKKgijIMRVxGE1e+DjGW0qDn5fB7D4RC5b9KSLXokAngO/On3UCGFERJu7m16MPY69taO/tNmubteDw6FjCQJHMdBluUkMBxQhVMB6bhfP+DxbYAL/hKfqIFr04Q7+gFntQq3eaGAuORThRhdwvg5RoUvQ6wLGAwa+PpYxK/NHIYyx6TbxV7XsWs24ahq0hQuDQzOsP8RnrFE674JkTq5W65ReTqHtqI9Z1r0MeHTst8rlWxjl1JAuIewbVJRU2+hu2bocrTZCm5K1Id/BbIFCgRVE5hCTkypnfQh8dw/fZhVqGYU2t0CA54mlidlaJaW6EPz7g5baszx6jHg2cMsCaSmbDvFWMURWJ1U8Wq+JoGNBvTn5wTwN1bOJ4cJiNhNAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/6e99fcbd86851b25ba96e9f794875f57/36727/escenariodmz.png&quot;
+        srcset=&quot;/gatsbyjs/static/6e99fcbd86851b25ba96e9f794875f57/acf4b/escenariodmz.png 173w,
+/gatsbyjs/static/6e99fcbd86851b25ba96e9f794875f57/fc834/escenariodmz.png 345w,
+/gatsbyjs/static/6e99fcbd86851b25ba96e9f794875f57/36727/escenariodmz.png 690w,
+/gatsbyjs/static/6e99fcbd86851b25ba96e9f794875f57/2d493/escenariodmz.png 1030w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Creación de la red DMZ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nombre: DMZ de &lt;nombre de usuario&gt;&lt;/li&gt;
+&lt;li&gt;10.0.2.0/24&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Creación de las instancias:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;freston:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Debian Buster sobre volumen de 10GB con sabor m1.mini&lt;/li&gt;
+&lt;li&gt;Conectada a la red interna&lt;/li&gt;
+&lt;li&gt;Accesible indirectamente a través de dulcinea&lt;/li&gt;
+&lt;li&gt;IP estática&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Modificación de la ubicación de quijote&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pasa de la red interna a la DMZ y su direccionamiento tiene que modificarse apropiadamente&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[LDAPs]]></title><description><![CDATA[Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Frestón]]></category><category><![CDATA[x509]]></category><pubDate>Tue, 08 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configura-el-servidor-ldap-de-frestón-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-práctica-de-https-o-solicitando-el-correspondiente-a-través-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frestón-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot;&gt;&lt;a href=&quot;#configura-el-servidor-ldap-de-frest%C3%B3n-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-pr%C3%A1ctica-de-https-o-solicitando-el-correspondiente-a-trav%C3%A9s-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frest%C3%B3n-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot; aria-label=&quot;configura el servidor ldap de frestón para que utilice el protocolo ldaps a la vez que el ldap utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona. Realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps://&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación y configuración inicial de OpenLDAP]]></title><description><![CDATA[Realiza la instalación y configuración básica de OpenLDAP en frestón utilizando como base el nombre DNS asignado.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-open-ldap</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-open-ldap</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Iniciación]]></category><pubDate>Tue, 08 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;realiza-la-instalación-y-configuración-básica-de-openldap-en-frestón-utilizando-como-base-el-nombre-dns-asignado&quot;&gt;&lt;a href=&quot;#realiza-la-instalaci%C3%B3n-y-configuraci%C3%B3n-b%C3%A1sica-de-openldap-en-frest%C3%B3n-utilizando-como-base-el-nombre-dns-asignado&quot; aria-label=&quot;realiza la instalación y configuración básica de openldap en frestón utilizando como base el nombre dns asignado permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Realiza la instalación y configuración básica de OpenLDAP en frestón utilizando como base el nombre DNS asignado.&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Elección de Forma Jurídica]]></title><description><![CDATA[¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta. Descargar archivo Sociedades.odt La forma jurídica elegida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</guid><category><![CDATA[Forma Jurídica]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/gatsbyjs/3448904c8dfde8472ac0c47331328f23/sociedades.ods&quot;&gt;Descargar archivo Sociedades.odt&lt;/a&gt;&lt;/p&gt;
@@ -21,7 +79,9 @@ Se aportará el código de las aplicaciones realizadas y prueba de funcionamient
 &lt;p&gt;El trabajo constará de las siguientes partes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Leer bien el enunciado y comprobar que se entiende lo que se pide.&lt;/li&gt;
-&lt;li&gt;Instalación de un servidor de ORACLE 19c sobre Linux&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&quot;instalación-de-un-servidor-de-oracle-19c-sobre-linux&quot;&gt;&lt;a href=&quot;#instalaci%C3%B3n-de-un-servidor-de-oracle-19c-sobre-linux&quot; aria-label=&quot;instalación de un servidor de oracle 19c sobre linux permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalación de un servidor de ORACLE 19c sobre Linux&lt;/h2&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Nos descargamos la version zip de la web oficial de Oracle → &lt;a href=&quot;https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox&quot;&gt;https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Lo descomprimimos dentro de un directorio:&lt;/p&gt;
@@ -145,10 +205,307 @@ Se aportará el código de las aplicaciones realizadas y prueba de funcionamient
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Instalación de un servidor MongoDB y configuración para permitir el acceso remoto desde la red local.&lt;/li&gt;
-&lt;li&gt;Prueba desde un cliente remoto del intérprete de comandos de MySQL.&lt;/li&gt;
-&lt;li&gt;Realización de una aplicación web en cualquier lenguaje que conecte con el servidor ORACLE tras autenticarse y muestre alguna información almacenada en el mismo.&lt;/li&gt;
-&lt;li&gt;Instalación de una herramienta de administración web para MySQL y prueba desde un cliente remoto.&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&quot;instalación-de-un-servidor-mongodb-y-configuración-para-permitir-el-acceso-remoto-desde-la-red-local&quot;&gt;&lt;a href=&quot;#instalaci%C3%B3n-de-un-servidor-mongodb-y-configuraci%C3%B3n-para-permitir-el-acceso-remoto-desde-la-red-local&quot; aria-label=&quot;instalación de un servidor mongodb y configuración para permitir el acceso remoto desde la red local permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalación de un servidor MongoDB y configuración para permitir el acceso remoto desde la red local.&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;requisitos&quot;&gt;&lt;a href=&quot;#requisitos&quot; aria-label=&quot;requisitos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Requisitos:&lt;/h3&gt;
+&lt;hr&gt;
+Instalamos herramientas:
+```shell
+sudo apt install -y gnupg
+```
+&lt;p&gt;Como los paquetes del repositorio que vamos a añadir están firmados, tenemos que importar la clave pública del certificado con que se firman:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Descargas$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; https://www.mongodb.org/static/pgp/server-4.4.asc -qO- &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; apt-key &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; -
+OK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ahora debemos añadir un nuevo repositorio a la configuración de apt:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/apt/sources.list.d/mongodb-org.list
+
+deb http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 main&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;comenzamos-la-instalación&quot;&gt;&lt;a href=&quot;#comenzamos-la-instalaci%C3%B3n&quot; aria-label=&quot;comenzamos la instalación permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Comenzamos la instalación&lt;/h3&gt;
+&lt;hr&gt;
+```shell
+fran@debian:~$ sudo apt update
+Obj:1 http://deb.debian.org/debian buster InRelease
+Obj:2 http://deb.debian.org/debian buster-updates InRelease                              
+Obj:3 http://security.debian.org/debian-security buster/updates InRelease                
+Obj:4 http://dl.google.com/linux/chrome/deb stable InRelease                             
+Des:5 http://packages.microsoft.com/repos/vscode stable InRelease [3.959 B]              
+Obj:6 https://download.virtualbox.org/virtualbox/debian buster InRelease                 
+Ign:7 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 InRelease          
+Des:8 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 Release [1.488 B]
+Des:9 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 Release.gpg [801 B]
+Des:10 http://packages.microsoft.com/repos/vscode stable/main amd64 Packages [216 kB]
+Des:11 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4/main amd64 Packages [7.912 B]
+Descargados 230 kB en 1s (228 kB/s)                     
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Todos los paquetes están actualizados.
+```
+&lt;p&gt;El paquete que necesitamos instalar es mongodb-org, así que usaremos el comando apt para hacerlo:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -y mongodb-org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como el nuevo servicio de MongoDB no queda en ejecución ni habilitado, lo arrancaremos de forma manual la primera vez, y lo habilitaremos para que inicie automáticamente en cada arranque de Debian 10:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl &lt;span class=&quot;token builtin class-name&quot;&gt;enable&lt;/span&gt; --now mongod
+Created symlink /etc/systemd/system/multi-user.target.wants/mongod.service → /lib/systemd/system/mongod.service.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Comprobamos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ systemctl status mongod
+● mongod.service - MongoDB Database Server
+   Loaded: loaded &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;/lib/systemd/system/mongod.service&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; enabled&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; vendor preset: enabled&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   Active: active &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;running&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; since Thu &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-12-10 &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:31:00 CET&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 13s ago
+     Docs: https://docs.mongodb.org/manual
+ Main PID: &lt;span class=&quot;token number&quot;&gt;11344&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mongod&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   Memory: &lt;span class=&quot;token number&quot;&gt;62&lt;/span&gt;.0M
+   CGroup: /system.slice/mongod.service
+           └─11344 /usr/bin/mongod --config /etc/mongod.conf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;permitir-acceso-remoto&quot;&gt;&lt;a href=&quot;#permitir-acceso-remoto&quot; aria-label=&quot;permitir acceso remoto permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Permitir acceso remoto:&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Conectar a la BD.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ mongo --port &lt;span class=&quot;token number&quot;&gt;27017&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Crear usuario administrador.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; use admin
+switched to db admin
+&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; db.createUser&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.   &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.     user: &lt;span class=&quot;token string&quot;&gt;&quot;admin&quot;&lt;/span&gt;,
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.     pwd: &lt;span class=&quot;token string&quot;&gt;&quot;123&quot;&lt;/span&gt;,
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.     roles: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; role: &lt;span class=&quot;token string&quot;&gt;&quot;root&quot;&lt;/span&gt;, db: &lt;span class=&quot;token string&quot;&gt;&quot;admin&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Successfully added user: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;token string&quot;&gt;&quot;user&quot;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;admin&quot;&lt;/span&gt;,
+&lt;span class=&quot;token string&quot;&gt;&quot;roles&quot;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;token string&quot;&gt;&quot;role&quot;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;root&quot;&lt;/span&gt;,
+		&lt;span class=&quot;token string&quot;&gt;&quot;db&quot;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;admin&quot;&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Habilitar la autenticación y abrir el acceso a MongoDB a todas las IPs.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/mongod.conf
+&lt;span class=&quot;token comment&quot;&gt;# network interfaces&lt;/span&gt;
+net:
+port: &lt;span class=&quot;token number&quot;&gt;27017&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#  bindIp: 127.0.0.1  &amp;lt;- comentamos esta linea&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;añadimos-en-security-la-siguiente-lineadescomentamos-securitys&quot;&gt;&lt;a href=&quot;#a%C3%B1adimos-en-security-la-siguiente-lineadescomentamos-securitys&quot; aria-label=&quot;añadimos en security la siguiente lineadescomentamos securitys permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Añadimos en security la siguiente linea.(descomentamos securitys)&lt;/h1&gt;
+&lt;p&gt;security:
+authorization: &apos;enabled&apos;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;4. Reiniciamos MongoDB.
+```shell
+fran@debian:~$ sudo service mongod restart&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Conéctate a la BD de manera local con tu cuenta de admin.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;mongo --port &lt;span class=&quot;token number&quot;&gt;27017&lt;/span&gt; -u &lt;span class=&quot;token string&quot;&gt;&quot;admin&quot;&lt;/span&gt; -p &lt;span class=&quot;token string&quot;&gt;&quot;123&quot;&lt;/span&gt; --authenticationDatabase &lt;span class=&quot;token string&quot;&gt;&quot;admin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Abrir puertos en el servidor para el acceso remoto.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; iptables -A INPUT -p tcp --dport &lt;span class=&quot;token number&quot;&gt;27017&lt;/span&gt; -j ACCEPT&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Prueba de conexión remota&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/vagrant/compilacion$ mongo -u admin -p &lt;span class=&quot;token number&quot;&gt;123&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.2.15
+MongoDB shell version v4.4.2
+connecting to: mongodb://10.0.2.15:27017/test?compressors&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;disabled&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;gssapiServiceName&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;mongodb
+Implicit session: session &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;id&quot;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; UUID&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;979d89ec-26cc-4701-912e-6c749f906ccd&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+MongoDB server version: &lt;span class=&quot;token number&quot;&gt;4.4&lt;/span&gt;.2
+&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&quot;prueba-desde-un-cliente-remoto-del-intérprete-de-comandos-de-mysql&quot;&gt;&lt;a href=&quot;#prueba-desde-un-cliente-remoto-del-int%C3%A9rprete-de-comandos-de-mysql&quot; aria-label=&quot;prueba desde un cliente remoto del intérprete de comandos de mysql permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Prueba desde un cliente remoto del intérprete de comandos de MySQL.&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&quot;realización-de-una-aplicación-web-en-cualquier-lenguaje-que-conecte-con-el-servidor-oracle-tras-autenticarse-y-muestre-alguna-información-almacenada-en-el-mismo&quot;&gt;&lt;a href=&quot;#realizaci%C3%B3n-de-una-aplicaci%C3%B3n-web-en-cualquier-lenguaje-que-conecte-con-el-servidor-oracle-tras-autenticarse-y-muestre-alguna-informaci%C3%B3n-almacenada-en-el-mismo&quot; aria-label=&quot;realización de una aplicación web en cualquier lenguaje que conecte con el servidor oracle tras autenticarse y muestre alguna información almacenada en el mismo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Realización de una aplicación web en cualquier lenguaje que conecte con el servidor ORACLE tras autenticarse y muestre alguna información almacenada en el mismo.&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&quot;instalación-de-una-herramienta-de-administración-web-para-mysql-y-prueba-desde-un-cliente-remoto&quot;&gt;&lt;a href=&quot;#instalaci%C3%B3n-de-una-herramienta-de-administraci%C3%B3n-web-para-mysql-y-prueba-desde-un-cliente-remoto&quot; aria-label=&quot;instalación de una herramienta de administración web para mysql y prueba desde un cliente remoto permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalación de una herramienta de administración web para MySQL y prueba desde un cliente remoto.&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;La herramienta que utilizare para la administración web de mysql sera PhpMyAdmin comenzaremos con los pasos para su instalación.&lt;/p&gt;
+&lt;h4 id=&quot;requisitos-1&quot;&gt;&lt;a href=&quot;#requisitos-1&quot; aria-label=&quot;requisitos 1 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Requisitos:&lt;/h4&gt;
+&lt;p&gt;Instalar módulos de PHP:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; php
+fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; -y &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; php-bz2 php-mbstring php-zip
+fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; libapache2-mod-php
+fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl reload apache2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Nos vamos a la pagina principal de PhpMyAdmin y nos descargaremos la ultima versión, descomprimimos y movemos la carpeta a donde la vamos a utilizar:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/Descargas$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mv&lt;/span&gt; phpMyAdmin-4.9.7-all-languages/ /var/www/html/phpmyadmin&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Concederemos la propiedad de este directorio al usuario con que corre el servidor web, para que pueda escribir en él:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; www-data /var/www/html/phpmyadmin/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Por ultimo nos instalaremos mysql en nuestra terminal:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:/var/www/phpmyadmin$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; default-mysql-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;preparación-de-la-base-de-datos-de-phpmyadmin&quot;&gt;&lt;a href=&quot;#preparaci%C3%B3n-de-la-base-de-datos-de-phpmyadmin&quot; aria-label=&quot;preparación de la base de datos de phpmyadmin permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Preparación de la base de datos de PhpMyAdmin.&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:/var/www/phpmyadmin$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; mysql -u root -p
+&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; create user fran@localhost identified by &lt;span class=&quot;token string&quot;&gt;&apos;fran&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; grant all privileges on phpmyadmin.* to fran@localhost&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; GRANT ALL PRIVILEGES ON * &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; * TO &lt;span class=&quot;token string&quot;&gt;&apos;fran&apos;&lt;/span&gt;@&lt;span class=&quot;token string&quot;&gt;&apos;localhost&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; FLUSH PRIVILEGES&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;exit&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Para inicializar la base de datos necesaria utilizaremos desde consola un archivo SQL previsto al efecto:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:/var/www/phpmyadmin$ &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; /var/www/html/phpmyadmin/sql/create_tables.sql &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; mysql -u fran -p
+Enter password: &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;configurar-phpmyadmin-en-debian-10-buster&quot;&gt;&lt;a href=&quot;#configurar-phpmyadmin-en-debian-10-buster&quot; aria-label=&quot;configurar phpmyadmin en debian 10 buster permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configurar phpMyAdmin en Debian 10 Buster.&lt;/h3&gt;
+&lt;p&gt;Crearemos una pagina desde apache donde le daremos la función:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; a2ensite pypmyadmin.conf 
+Enabling site pypmyadmin.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
+fran@debian:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl reload apache2
+fran@debian:/etc/apache2/sites-available$ &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Deberemos añadir la ip a nuestro archivo /etc/hosts de nuestra maquina local.&lt;/p&gt;
+&lt;p&gt;Como podemos comprobar estamos usando el cliente de phpmyadmin de mi maquina vagrant desde mi maquina local.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/919f75e6a6b85cf8fc90cb6c3ec1a6d1/441e4/phpmyadmin1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 90.53627760252365%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAADC0lEQVQ4y3VU7U4jRxD0K3FSEpDg+MUfJJRLIpTkyYLuostBjC9vk8R4je399n7P7OwaY9CFCCrVs7Yv4S6WSj0zu1tT3V3t3o8/fI+vX32LV998h6OjI7zc3cPLgwMcEPv7+9jb28Pu7i6++vILvHixg52dDnJ+eHiIk5MTnJ6e2nh8fIze2zevMXh3hsEvZ/j59Rne/HSG396/x2AwwOXl5RoD/Hr+Fpf9C/T73Pf7uLi4wPn5uUWf+/76rKdUi2UxwUMboCpS5EWJpmlhTIO2bfH4+Njh6Ynxya6fuH54+BuLmxssFgt8+PAX5Hd/f49elmWYuj6yQkEpDa0VRld/YHg1RJLEqKqCKNf4uC7LwqIoc5T2nPuqQq8sS8RRRFUGDRXpukYcB3DdKaIogOfN4PsugsDdrqPQJ1nekTAqiUXWESqlkKapTa9tFyTUCEMPztiB44xYAn6gqk6ZxDWU7iBrEWXPKMYq9DyPJCEfVNDGUIWH4WiEK0fgYCiRe2c8xoj70fUEw+spfncmcKYupp4PNwh4gUZPlFWU2jZdE2oS5pVCmGTISo2qbi1KbZ6hQaEM6mbB5iwtGmbYu729hWC1Wm0JpQQ+b5UoGRRFAVMb23ljzBaN7Hle6xq1RKK3XC4hEFJpinwUJgXG/hzXfmKj48aYhClTn+DPK6Y88TCLC0xDOiTqMIvYbVV3CjeEG4VSyyTLkaQZ5glVsgSatysq+Qjzr9hBxHyWUFKNohAhCy0Qsy/EBVJnQsy8QcN9Y+vfWOv9h3CTcpIktvMC13UxTwvWp6bpta2nvCdkN2xENwx6XcPPpCyEGRUGvk/Dh6g4DZqpdUqMdUSR59D0r6Fnjam3+B9CgzjNMQvn8OIUcVbB9UNMZ64dUWd8Tc9F9KWDYJ7ZBvrznDG3Sp8RLuzopaXCPK8QE1FWIuSHQZwwUnk8R8QLJcZ8lvAdeT8jRMwnhDI+mmkLVN2g0mJezrj8A9HEYmR5Ztoutqzl3Yo+XvN82hTW6u5utTb7GrcdtkPwLG68LPgHfNIGQPai8TwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/919f75e6a6b85cf8fc90cb6c3ec1a6d1/36727/phpmyadmin1.png&quot;
+        srcset=&quot;/gatsbyjs/static/919f75e6a6b85cf8fc90cb6c3ec1a6d1/acf4b/phpmyadmin1.png 173w,
+/gatsbyjs/static/919f75e6a6b85cf8fc90cb6c3ec1a6d1/fc834/phpmyadmin1.png 345w,
+/gatsbyjs/static/919f75e6a6b85cf8fc90cb6c3ec1a6d1/36727/phpmyadmin1.png 690w,
+/gatsbyjs/static/919f75e6a6b85cf8fc90cb6c3ec1a6d1/441e4/phpmyadmin1.png 951w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Usar configuración por defecto&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Para ello copia el archivo de configuración mínima de muestra presente en la carpeta de phpMyAdmin:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@servidorBDD:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; /var/www/html/phpmyadmin/config.sample.inc.php /var/www/html/phpmyadmin/config.inc.php&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Editaremos este archivo para establecer un par de ajustes necesarios:&lt;/p&gt;
+&lt;p&gt;Se trata de una clave para cifrar las cookies de sesión. Especificaremos como valor una cadena de 32 caracteres aleatorios:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+&lt;span class=&quot;token variable&quot;&gt;$cfg&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;blowfish_secret&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;qweqweqweqweqweqweqweqweqweqweqwe&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Y activaremos las líneas del usuario y la contraseña, especificando la contraseña:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$cfg&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Servers&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;controluser&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;fran&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;$cfg&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Servers&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;controlpass&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;fran&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;También activaremos todas las variables de la sección «Storage and tables«:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+/* Storage database and tables */
+&lt;span class=&quot;token variable&quot;&gt;$cfg&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Servers&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;pmadb&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;phpmyadmin&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;$cfg&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Servers&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;bookmarktable&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;pma__bookmark&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+&lt;span class=&quot;token variable&quot;&gt;$cfg&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Servers&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;designer_settings&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;pma__designer_settings&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;$cfg&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Servers&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;export_templates&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;pma__export_templates&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Guardamos los cambios y cerramos el archivo.&lt;/p&gt;
+&lt;p&gt;Al existir ya un archivo de configuración, el configurador queda bloqueado:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/4631560d6e338700468d3cf442c5998e/b37e5/phpmyadmin2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 42.661034846884895%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8klEQVQoz82OX0vCYBjF36/URRbRkqaw3EVBGwgKTfEfmwO9qRu986vkW302ZZu5TS/CX+9WXmgkVDdd/DiH5xwOj7ip1bit17myLE6LRTTDQDNNzisVzpQ/KZcplEoU9MvcH11oHOt63jFsG6vhYDcbXKsNs1pFPA+HyMEA6blI1+Wp08mR7TaPrRYvvR5T5WXz7uO+zRXZfdvNdKr6YjMew2QC9w8wGrFR4ZvjQLcLvg+eB/2+wv/Uw4hgNiOcz4nCkCgICBcLgijiNY5J12vS1eowex2RpCk5SbKLGoyXS+JMf4D4Lkh+ifjy2R/5/4PvM69eZWJ88coAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/4631560d6e338700468d3cf442c5998e/36727/phpmyadmin2.png&quot;
+        srcset=&quot;/gatsbyjs/static/4631560d6e338700468d3cf442c5998e/acf4b/phpmyadmin2.png 173w,
+/gatsbyjs/static/4631560d6e338700468d3cf442c5998e/fc834/phpmyadmin2.png 345w,
+/gatsbyjs/static/4631560d6e338700468d3cf442c5998e/36727/phpmyadmin2.png 690w,
+/gatsbyjs/static/4631560d6e338700468d3cf442c5998e/b37e5/phpmyadmin2.png 947w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+Justo lo que pretendíamos, bloqueamos el configurador, pero phpMyAdmin funciona perfectamente con los valores por defecto.&lt;/p&gt;
+&lt;p&gt;Con esto mejoraremos la seguridad de nuestra base de datos.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/6bb5fd92aaf2d1d640f3d7a26cc8e740/bd128/phpmyadmin3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 94.47983014861995%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAAC6klEQVQ4y51U224SURTlt6Clti8amz4RitFPMA2Fto99UeODpt5i/CWB1nIZ7reZAQaGuUGHO6Gy3PsoDVUSk55kZZ85nL3O2jc8L54/QyAQQCAYwuMnT+H3+vBoZwd7e3vY3d2F3+/H9vY2trZ88Hm98Pp8tN8S5/v7+wgGgwiFQjg8PMTBwQE8Xz59xIeLC3x7f46vhM/v3uLV6zc4OzvD6ckJTgjRaBTho5eIho9wfHyMcDgsbCQSETgVdyJ0FoZnMJxArldhyldwzSIGro1KtY74jxQhiWQmi6tkBslUGvHrFGJXSaQyEi6TaSTTWaTp98R1Ghkpi5SUg8cwutD1DlrtLiynj65hIpvNIZvLQyIr5XLI5QsoFAr0TU5ELJEz30kkLhGPJ/A9FkcsFqPvBDztdhv1eh2KIsOyTFi2TXsVitqE2mxBabTQ6egwuvxwF47TQ6/Xg9ZqoZDPI0/gx9iWSiUKeTDACuPxGLbtwDBN9Mmp3+9jNBpiPp/DdV0MRyNMplNMJhMMh0OwGF3X0aXHGHzHwz8wmJCt7TiUwypqtRqqZP9GuVxGsVikh21ByGccodrQxNk9hSNSwAqLpTIqlQqBnUvkVIMsy8KRCTg0dm42KS2qKqxG5CZFdk/hb0Kb5BvCOqTWHQwxm83FHQ51+ifkm5sbaJqGRqMhHuI9n/1DaJFCvd2CSQViUtM0qAiOyM8qEs4t+zAJK+Q8GoYhzjYQ2qKaOqnU2jo6rJaU8uvrd5mgRZVmUs4lh83fG0NmMrvXh0lqLWoTdy3PK7AySZKoH7PIZDIC3D4bCB2xXy5/4vZ2QbjFYrG4Bz7jPLKqVbH4Ae7PjSGPqB//t7g4HKqqKnekG0MWhGR5LZfLjeDFQ8AVlpWGyLll0yBsrjITju8I19c64Ww2E9PRpPHkAk2nE+H/YEIm4SZXKFweAi4IT9GDCS3LEhPDY8hE5XJJ5PHBhFyUJvVpnf6VTMuh/LmivX4BaXJOnpQdb2MAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/6bb5fd92aaf2d1d640f3d7a26cc8e740/36727/phpmyadmin3.png&quot;
+        srcset=&quot;/gatsbyjs/static/6bb5fd92aaf2d1d640f3d7a26cc8e740/acf4b/phpmyadmin3.png 173w,
+/gatsbyjs/static/6bb5fd92aaf2d1d640f3d7a26cc8e740/fc834/phpmyadmin3.png 345w,
+/gatsbyjs/static/6bb5fd92aaf2d1d640f3d7a26cc8e740/36727/phpmyadmin3.png 690w,
+/gatsbyjs/static/6bb5fd92aaf2d1d640f3d7a26cc8e740/bd128/phpmyadmin3.png 942w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inserción de datos&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Debe crearse una base de datos con al menos tres tablas o colecciones y poblarse de datos adecuadamente.:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/07452b5a4fc518fb3dbb496ede2ab13e/a987b/phpmyadmin4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABfElEQVQoz62RyVLCQBCG81KAGA4UOeIbWPqekBCiR0oPFmdRE5bsy2TRJITfngELpTwpXfVVT/d0df89I93eXONqOIQsy+j1erjsXqAr6Ao6nQ467TbaRKvdEl6cWy3IVNfv96EoCpTBAANCeprpeHyYQTfuMTXuoE+n0HQdY20CbaJD/eZ5TtU0qKqK0VjFmOD5kaphQjWGYUCKYoYgirFcbxCGEfLiHVleIGEpGBEnKUJRkyCm2CfPshzb7RZVXe+patTkuUnz+RzL5QovFmGu8LrawFyt8fy2hGVacD0fpmVhsVhgYzvw/ABpmqJpml+RLCq2bRuO68Hx9sV5nhE5yvIDdVUhzzKkjOG9KEhNSWoq7HbNCTuBVFCR7bgwSWUYH9ai1fkAPwgR0Jk/SUgEYSxifs/vjkRCeZIwSHwyX8v2qUkQC7/xQqzdQPiv+EgkcqesHV8Mkhg1ZLTmuUw05FKbwxv8l71Ctld4lob8VwN62LIsfzT9q30CAAEcPnA4r0gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/07452b5a4fc518fb3dbb496ede2ab13e/36727/phpmyadmin4.png&quot;
+        srcset=&quot;/gatsbyjs/static/07452b5a4fc518fb3dbb496ede2ab13e/acf4b/phpmyadmin4.png 173w,
+/gatsbyjs/static/07452b5a4fc518fb3dbb496ede2ab13e/fc834/phpmyadmin4.png 345w,
+/gatsbyjs/static/07452b5a4fc518fb3dbb496ede2ab13e/36727/phpmyadmin4.png 690w,
+/gatsbyjs/static/07452b5a4fc518fb3dbb496ede2ab13e/17fa4/phpmyadmin4.png 1035w,
+/gatsbyjs/static/07452b5a4fc518fb3dbb496ede2ab13e/a5044/phpmyadmin4.png 1380w,
+/gatsbyjs/static/07452b5a4fc518fb3dbb496ede2ab13e/a987b/phpmyadmin4.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Actualización de quijote a CentOS8]]></title><description><![CDATA[Actualiza la instancia quijote a CentOS 8 garantizando que todos los servicios previos continúen funcionando y detalla en la tarea los…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/actualizacion-de-quijote-a-cent-os-8</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/actualizacion-de-quijote-a-cent-os-8</guid><category><![CDATA[OpenStack]]></category><category><![CDATA[CentOS]]></category><category><![CDATA[Actualización]]></category><pubDate>Thu, 26 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;actualiza-la-instancia-quijote-a-centos-8-garantizando-que-todos-los-servicios-previos-continúen-funcionando-y-detalla-en-la-tarea-los-aspectos-más-relevantes&quot;&gt;&lt;a href=&quot;#actualiza-la-instancia-quijote-a-centos-8-garantizando-que-todos-los-servicios-previos-contin%C3%BAen-funcionando-y-detalla-en-la-tarea-los-aspectos-m%C3%A1s-relevantes&quot; aria-label=&quot;actualiza la instancia quijote a centos 8 garantizando que todos los servicios previos continúen funcionando y detalla en la tarea los aspectos más relevantes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Actualiza la instancia quijote a CentOS 8 garantizando que todos los servicios previos continúen funcionando y detalla en la tarea los aspectos más relevantes.&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;En el caso de que la instancia no sea recuperable en algún punto, se tiene que volver a crear una instancia de CentOS 7 y realizar la actualización de nuevo. Lo recomendable en este caso sería crear una instantánea de volumen antes de comenzar y en el caso de tener un error irrecuperable, crear un nuevo volumen a partir de la instantánea, eliminar la instancia quijote y crear una nueva con el nuevo volumen. Una vez arrancada la nueva instancia se puede eliminar el antiguo volumen y las instantáneas asociadas.&lt;/li&gt;
