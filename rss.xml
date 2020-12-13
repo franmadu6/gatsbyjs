@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 11 Dec 2020 15:12:38 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Modificación del escenario de OpenStack]]></title><description><![CDATA[Vamos a modificar el escenario que tenemos actualmente en OpenStack para que se adecúe a la realización de todas las prácticas en todos los…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/modificacion-del-escenario-de-open-stack</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/modificacion-del-escenario-de-open-stack</guid><category><![CDATA[OpenStack]]></category><category><![CDATA[DMZ]]></category><pubDate>Wed, 09 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Vamos a modificar el escenario que tenemos actualmente en OpenStack para que se adecúe a la realización de todas las prácticas en todos los módulos de 2º, en particular para que tenga una estructura más real a la de varios equipos detrás de un cortafuegos, separando los servidores en dos redes: red interna y DMZ. Para ello vamos a reutilizar todo lo hecho hasta ahora y añadiremos una máquina más: Frestón&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sun, 13 Dec 2020 20:02:47 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Modificación del escenario de OpenStack]]></title><description><![CDATA[Vamos a modificar el escenario que tenemos actualmente en OpenStack para que se adecúe a la realización de todas las prácticas en todos los…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/modificacion-del-escenario-de-open-stack</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/modificacion-del-escenario-de-open-stack</guid><category><![CDATA[OpenStack]]></category><category><![CDATA[DMZ]]></category><pubDate>Wed, 09 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Vamos a modificar el escenario que tenemos actualmente en OpenStack para que se adecúe a la realización de todas las prácticas en todos los módulos de 2º, en particular para que tenga una estructura más real a la de varios equipos detrás de un cortafuegos, separando los servidores en dos redes: red interna y DMZ. Para ello vamos a reutilizar todo lo hecho hasta ahora y añadiremos una máquina más: Frestón&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -33,7 +33,38 @@
 &lt;p&gt;Creación de la red DMZ:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Nombre: DMZ de &lt;nombre de usuario&gt;&lt;/li&gt;
-&lt;li&gt;10.0.2.0/24&lt;/li&gt;
+&lt;li&gt;10.0.2.0/24
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/2997dadf9a1f51db271a6f3d295808b0/27aa4/escenariodmz2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 4.761904761904762%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAO0lEQVQI1x2LWwoAMAjDdv+7KgwfOBU69Cs0oeeq471EVcHdQUTL7l6KCDITZoaIgKquZ+Z10+Y7fvYHRsdNldkAPoAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/2997dadf9a1f51db271a6f3d295808b0/36727/escenariodmz2.png&quot;
+        srcset=&quot;/gatsbyjs/static/2997dadf9a1f51db271a6f3d295808b0/acf4b/escenariodmz2.png 173w,
+/gatsbyjs/static/2997dadf9a1f51db271a6f3d295808b0/fc834/escenariodmz2.png 345w,
+/gatsbyjs/static/2997dadf9a1f51db271a6f3d295808b0/36727/escenariodmz2.png 690w,
+/gatsbyjs/static/2997dadf9a1f51db271a6f3d295808b0/17fa4/escenariodmz2.png 1035w,
+/gatsbyjs/static/2997dadf9a1f51db271a6f3d295808b0/a5044/escenariodmz2.png 1380w,
+/gatsbyjs/static/2997dadf9a1f51db271a6f3d295808b0/27aa4/escenariodmz2.png 1680w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -45,18 +76,87 @@
 &lt;li&gt;Debian Buster sobre volumen de 10GB con sabor m1.mini&lt;/li&gt;
 &lt;li&gt;Conectada a la red interna&lt;/li&gt;
 &lt;li&gt;Accesible indirectamente a través de dulcinea&lt;/li&gt;
-&lt;li&gt;IP estática&lt;/li&gt;
+&lt;li&gt;IP estática
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/4486484d57b3ec1934cee10925d4a5d9/f475c/escenariodmz3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 4.531902206320812%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAO0lEQVQI1x2MuQ0AMQzDsv+u/s+Ac40CuSBYiNAxD3Q3MhNVBTPDzODeH1EfVBURsbj7dkRE1uy58YN+IkVMn6Qkwu0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/4486484d57b3ec1934cee10925d4a5d9/36727/escenariodmz3.png&quot;
+        srcset=&quot;/gatsbyjs/static/4486484d57b3ec1934cee10925d4a5d9/acf4b/escenariodmz3.png 173w,
+/gatsbyjs/static/4486484d57b3ec1934cee10925d4a5d9/fc834/escenariodmz3.png 345w,
+/gatsbyjs/static/4486484d57b3ec1934cee10925d4a5d9/36727/escenariodmz3.png 690w,
+/gatsbyjs/static/4486484d57b3ec1934cee10925d4a5d9/17fa4/escenariodmz3.png 1035w,
+/gatsbyjs/static/4486484d57b3ec1934cee10925d4a5d9/a5044/escenariodmz3.png 1380w,
+/gatsbyjs/static/4486484d57b3ec1934cee10925d4a5d9/f475c/escenariodmz3.png 1677w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Desde el cliente de openstack deshabilitamos la seguridad.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$  &lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; ~/.virtualenvs/openstackclient/bin/activate
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;openstackclient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/Documentos$ &lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; Proyecto&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; de&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; francisco.madu-openrc.sh 
+Please enter your OpenStack Password &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; project Proyecto de francisco.madu as user francisco.madu: 
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;openstackclient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/Documentos$ openstack server remove security group Freston default
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;openstackclient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/Documentos$ openstack port list
++--------------------------------------+----------------------------------------+-------------------+--------------------------------------------------------------------------+--------+
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ID                                   &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Name                                   &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; MAC Address       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Fixed IP Addresses                                                       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Status &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
++--------------------------------------+----------------------------------------+-------------------+--------------------------------------------------------------------------+--------+
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 00f11b41-5147-43b4-96b4-b4afbc541eaf &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;                                        &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:79:4a:4f &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.2.10&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;be50df48-1769-4b53-9886-7f5352bc086f&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 280e513f-5016-44b5-a66e-fb6960e4f8fa &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;                                        &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:23:87:b2 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.1.7&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;b0fb0d9b-c8da-4790-888c-e190e588d551&apos;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 3148cbad-a46e-41ea-829e-5cfcd1f00f78 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;                                        &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:01:01:01 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.1.10&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;b0fb0d9b-c8da-4790-888c-e190e588d551&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 3d001afd-f6d2-4348-abb0-70b8babaf005 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;                                        &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:8a:5c:d5 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.0.8&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;46cd68e1-2e88-4ba6-9970-431f6f53c13f&apos;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 4e921875-0585-4258-b7e9-d8c63e23c5c4 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;                                        &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:fc:a2:8c &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.1.8&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;b0fb0d9b-c8da-4790-888c-e190e588d551&apos;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 53665f0f-e35a-44d9-896a-313861310021 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;                                        &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:18:49:cd &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.0.1&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;46cd68e1-2e88-4ba6-9970-431f6f53c13f&apos;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 5f4ef06d-17cf-49e3-b30e-54bcd8a04465 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;                                        &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:36:da:86 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.0.2&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;46cd68e1-2e88-4ba6-9970-431f6f53c13f&apos;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; b4099ac2-bcb7-401f-997c-e826f949e117 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; escenario1-r1_network_ext-wajhseltwj2t &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:71:9a:c3 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.0.12&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;46cd68e1-2e88-4ba6-9970-431f6f53c13f&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; f3fcc1b8-40fa-45b8-86f3-f98793d75800 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;                                        &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fa:16:3e:68:b4:c0 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ip_address&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;10.0.0.3&apos;&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;subnet_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;46cd68e1-2e88-4ba6-9970-431f6f53c13f&apos;&lt;/span&gt;  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; ACTIVE &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
++--------------------------------------+----------------------------------------+-------------------+--------------------------------------------------------------------------+--------+
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;openstackclient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/Documentos$ openstack port &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; --disable-port-security 00f11b41-5147-43b4-96b4-b4afbc541eaf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Modificación de la ubicación de quijote&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Pasa de la red interna a la DMZ y su direccionamiento tiene que modificarse apropiadamente&lt;/li&gt;
+&lt;li&gt;Pasa de la red interna a la DMZ y su direccionamiento tiene que modificarse apropiadamente.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[LDAPs]]></title><description><![CDATA[Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Frestón]]></category><category><![CDATA[x509]]></category><pubDate>Tue, 08 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configura-el-servidor-ldap-de-frestón-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-práctica-de-https-o-solicitando-el-correspondiente-a-través-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frestón-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot;&gt;&lt;a href=&quot;#configura-el-servidor-ldap-de-frest%C3%B3n-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-pr%C3%A1ctica-de-https-o-solicitando-el-correspondiente-a-trav%C3%A9s-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frest%C3%B3n-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot; aria-label=&quot;configura el servidor ldap de frestón para que utilice el protocolo ldaps a la vez que el ldap utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona. Realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps://&lt;/h2&gt;
+&lt;/ul&gt;
+&lt;p&gt;Añadiremos la nueva interfaz a Dulcinea por OpenStacks y seguido modificamos el fichero de Dulcinea /etc/network/interfaces:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/network/interfaces
+
+auto eth2
+iface eth2 inet static
+ address &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.2.10
+ netmask &lt;span class=&quot;token number&quot;&gt;255.255&lt;/span&gt;.255.0
+ broadcast &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.2.255
+ gateway &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.2.1
+
+debian@dulcinea:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart networking&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Añadimos nueva reglas a nuestro cortafuegos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;iptables -t nat -A POSTROUTING -s &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.2.0/24 -o eth2 -j MASQUERADE&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Antes de meter a Freston en la nueva red, la incorporamos en nuestra red a la que se le puede asignar una IP Flotante, para poder añadirle una contraseña al usuario debian.&lt;/p&gt;
+&lt;p&gt;Una vez configurado esto, la quitamos de la red, y la metemos en la red anteriormente creada.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[LDAPs]]></title><description><![CDATA[Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Frestón]]></category><category><![CDATA[x509]]></category><pubDate>Tue, 08 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configura-el-servidor-ldap-de-frestón-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-práctica-de-https-o-solicitando-el-correspondiente-a-través-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frestón-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot;&gt;&lt;a href=&quot;#configura-el-servidor-ldap-de-frest%C3%B3n-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-pr%C3%A1ctica-de-https-o-solicitando-el-correspondiente-a-trav%C3%A9s-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frest%C3%B3n-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot; aria-label=&quot;configura el servidor ldap de frestón para que utilice el protocolo ldaps a la vez que el ldap utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona. Realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps://&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación y configuración inicial de OpenLDAP]]></title><description><![CDATA[Realiza la instalación y configuración básica de OpenLDAP en frestón utilizando como base el nombre DNS asignado.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-open-ldap</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-open-ldap</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Iniciación]]></category><pubDate>Tue, 08 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;realiza-la-instalación-y-configuración-básica-de-openldap-en-frestón-utilizando-como-base-el-nombre-dns-asignado&quot;&gt;&lt;a href=&quot;#realiza-la-instalaci%C3%B3n-y-configuraci%C3%B3n-b%C3%A1sica-de-openldap-en-frest%C3%B3n-utilizando-como-base-el-nombre-dns-asignado&quot; aria-label=&quot;realiza la instalación y configuración básica de openldap en frestón utilizando como base el nombre dns asignado permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Realiza la instalación y configuración básica de OpenLDAP en frestón utilizando como base el nombre DNS asignado.&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Elección de Forma Jurídica]]></title><description><![CDATA[¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta. Descargar archivo Sociedades.odt La forma jurídica elegida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</guid><category><![CDATA[Forma Jurídica]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/gatsbyjs/3448904c8dfde8472ac0c47331328f23/sociedades.ods&quot;&gt;Descargar archivo Sociedades.odt&lt;/a&gt;&lt;/p&gt;
@@ -3119,6 +3219,47 @@ vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;dig&lt;/span&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Añadimos una nueva maquina a nuestro escenario de Vagrant.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;        config.vm.define :svesclavo &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;svesclavo&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+                svesclavo.vm.box &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;generic/debian10&quot;&lt;/span&gt;
+                svesclavo.vm.hostname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;svesclavo&quot;&lt;/span&gt;
+                svesclavo.vm.network :public_network,:bridge&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;wlo1&quot;&lt;/span&gt;
+                svesclavo.vm.network :private_network, ip: &lt;span class=&quot;token string&quot;&gt;&quot;192.168.100.157&quot;&lt;/span&gt;
+        end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;En nuestro servidor maestro:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;En /etc/bind/named-conf.options&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@servidorDNS:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/bind/named.conf.options 
+ allow-transfer &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.157&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        notify &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En /var/cache/bind/db.iesgn.org&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@servidorDNS:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /var/cache/bind/db.iesgn.org
+@               IN      NS      madu-esclavo.iesgn.org.
+madu-esclavo IN      A       &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.157&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En nuestro archivo de resolución inversa.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@servidorDNS:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /var/cache/bind/db.192.168.100 
+@       IN      NS      madu-esclavo.iesgn.org.
+&lt;span class=&quot;token number&quot;&gt;157&lt;/span&gt;       IN      PTR     mady-esclavo.iesgn.org.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;En nuestro servidor esclavo:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Instamos bind9&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@svesclavo:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; bind9&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En /etc/bind/named.conf.options &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@svesclavo:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/bind/named.conf.options 
+allow-transfer &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; none&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En /etc/bind/named.conf.local&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@svesclavo:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/bind/named.conf.local
+zone &lt;span class=&quot;token string&quot;&gt;&quot;iesgn.org&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;db.iesgn.org&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; slave&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  masters &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+zone &lt;span class=&quot;token string&quot;&gt;&quot;100.168.192.in-addr.arpa&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;db.100.168.192&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; slave&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  masters &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div style=&quot;background-color:#ff5733; border-radius:1em; border-color: black;&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -3132,7 +3273,46 @@ vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;dig&lt;/span&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Configura un cliente para que utilice los dos servidores como servidores DNS.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;En /etc/resolv.conf&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;nameserver &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155
+nameserver &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.157&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Realiza una consulta con dig tanto al maestro como al esclavo para comprobar que las respuestas son autorizadas. ¿En qué te tienes que fijar?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;dig&lt;/span&gt; @192.168.100.155 ftp.iesgn.org
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; @192.168.100.155 ftp.iesgn.org
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; server found&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Got answer:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; -&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;HEADER&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;-&lt;/span&gt; opcode: QUERY, status: NXDOMAIN, id: &lt;span class=&quot;token number&quot;&gt;23190&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; flags: qr rd ra&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUERY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ANSWER: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, AUTHORITY: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, ADDITIONAL: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; OPT PSEUDOSECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; EDNS: version: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, flags:&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; udp: &lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; QUESTION SECTION:
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;ftp.iesgn.org.			IN	A
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; AUTHORITY SECTION:
+org.			&lt;span class=&quot;token number&quot;&gt;852&lt;/span&gt;	IN	SOA	a0.org.afilias-nst.info. noc.afilias-nst.info. &lt;span class=&quot;token number&quot;&gt;2014179997&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1800&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;900&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;86400&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Query time: &lt;span class=&quot;token number&quot;&gt;344&lt;/span&gt; msec
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; SERVER: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.155&lt;span class=&quot;token comment&quot;&gt;#53(192.168.100.155)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; WHEN: Sun Dec &lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;:44:26 UTC &lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; MSG SIZE  rcvd: &lt;span class=&quot;token number&quot;&gt;105&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Solicita una copia completa de la zona desde el cliente ¿qué tiene que ocurrir?. Solicita una copia completa desde el esclavo ¿qué tiene que ocurrir?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;dig&lt;/span&gt; @192.168.100.155 iesgn.org axfr
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; DiG &lt;span class=&quot;token number&quot;&gt;9.11&lt;/span&gt;.5-P4-5.1+deb10u2-Debian &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; @192.168.100.155 iesgn.org axfr
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; server found&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; global options: +cmd
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; Transfer failed.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div style=&quot;background-color:#ff5733; border-radius:1em; border-color: black;&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -3166,6 +3346,42 @@ vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;dig&lt;/span&gt;
 &lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Añadiremos una nueva maquina a la configuración.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;        config.vm.define :svt7 &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;svt7&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+                svt7.vm.box &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;generic/debian10&quot;&lt;/span&gt;
+                svt7.vm.hostname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;sv7&quot;&lt;/span&gt;
+                svt7.vm.network :public_network,:bridge&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;wlo1&quot;&lt;/span&gt;
+                svt7.vm.network :private_network, ip: &lt;span class=&quot;token string&quot;&gt;&quot;192.168.100.158&quot;&lt;/span&gt;
+        end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Configuración Servidor Maestro:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$ORIGIN&lt;/span&gt; nuevazona.iesgn.org.
+
+@               IN    NS    madu-sub
+madu-sub	IN    A     &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.158&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Configuración Servidor t7:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Volvemos a crear un servidor de dns con bind9 y modificamos lo siguiente:&lt;/p&gt;
+&lt;p&gt;En /etc/bind/named.conf.local&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;zone &lt;span class=&quot;token string&quot;&gt;&quot;nuevazona.iesgn.org&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; master&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;db.nuevazona.iesgn.org&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En /var/cache/bind/db.nuevazona.iesgn.org&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$TTL&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;86400&lt;/span&gt;              &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; day
+@                               IN SOA madu-sub.nuevazona.iesgn.org. madu.iesgn.org. &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+                                        &lt;span class=&quot;token number&quot;&gt;12998&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; serial
+                                        &lt;span class=&quot;token number&quot;&gt;21600&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; refresh &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt; hours&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                                        &lt;span class=&quot;token number&quot;&gt;3600&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; retry &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; hour&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                                        &lt;span class=&quot;token number&quot;&gt;604800&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; expire &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; week&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                                        &lt;span class=&quot;token number&quot;&gt;21600&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; minimum &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt; hours&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                                        &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+@       IN      NS      madu-sub.nuevazona.iesgn.org.
+@       IN      MX  &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;  correo.nuevazona.iesgn.org.
+
+&lt;span class=&quot;token variable&quot;&gt;$ORIGIN&lt;/span&gt; nuevazona.iesgn.org.
+
+madu-sub	IN      A        &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.158&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div style=&quot;background-color:#ff5733; border-radius:1em; border-color: black;&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;

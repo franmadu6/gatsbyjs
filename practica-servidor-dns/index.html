@@ -40,7 +40,7 @@
         }
       }
     })
-  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-ac5466880dc982a22a5f.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-c0076ae1df6698f1eb05.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/practica-servidor-dns/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/abd">ABD<strong> (<!-- -->2<!-- -->)</strong></a></li><li><a href="/gatsbyjs/aso">ASO<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/eie">EIE<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sad">SAD<strong> (<!-- -->6<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sri">SRI<strong> (<!-- -->7<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Práctica: Servidor DNS</h1><p class="post-module--post-meta--1ci95">November 26, 2020<!-- --> — <!-- -->14<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/dns"><span>DNS</span></a><a href="/gatsbyjs/tags/bind-9"><span>Bind9</span></a><a href="/gatsbyjs/tags/servidor"><span>Servidor</span></a><a href="/gatsbyjs/tags/dominio"><span>Dominio</span></a></div></div><div><h3 id="escenario"><a href="#escenario" aria-label="escenario permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Escenario</h3>
+  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-ac5466880dc982a22a5f.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-c0076ae1df6698f1eb05.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/practica-servidor-dns/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">Fran Madueño Blog</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/abd">ABD<strong> (<!-- -->2<!-- -->)</strong></a></li><li><a href="/gatsbyjs/aso">ASO<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/eie">EIE<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->3<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sad">SAD<strong> (<!-- -->6<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sri">SRI<strong> (<!-- -->7<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Práctica: Servidor DNS</h1><p class="post-module--post-meta--1ci95">November 26, 2020<!-- --> — <!-- -->17<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/dns"><span>DNS</span></a><a href="/gatsbyjs/tags/bind-9"><span>Bind9</span></a><a href="/gatsbyjs/tags/servidor"><span>Servidor</span></a><a href="/gatsbyjs/tags/dominio"><span>Dominio</span></a></div></div><div><h3 id="escenario"><a href="#escenario" aria-label="escenario permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Escenario</h3>
 <ol>
 <li>En nuestra red local tenemos un servidor Web que sirve dos páginas web: www.iesgn.org, departamentos.iesgn.org</li>
 <li>Vamos a instalar en nuestra red local un servidor DNS (lo puedes instalar en el mismo equipo que tiene el servidor web)</li>
@@ -519,6 +519,47 @@ vagrant@cliente:~$ <span class="token function">dig</span> <span class="token nu
 </ul>
 </li>
 </ul>
+<p>Añadimos una nueva maquina a nuestro escenario de Vagrant.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">        config.vm.define :svesclavo <span class="token keyword">do</span> <span class="token operator">|</span>svesclavo<span class="token operator">|</span>
+                svesclavo.vm.box <span class="token operator">=</span> <span class="token string">"generic/debian10"</span>
+                svesclavo.vm.hostname <span class="token operator">=</span> <span class="token string">"svesclavo"</span>
+                svesclavo.vm.network :public_network,:bridge<span class="token operator">=</span><span class="token operator">></span><span class="token string">"wlo1"</span>
+                svesclavo.vm.network :private_network, ip: <span class="token string">"192.168.100.157"</span>
+        end</code></pre></div>
+<p><strong>En nuestro servidor maestro:</strong></p>
+<p>En /etc/bind/named-conf.options</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@servidorDNS:~$ <span class="token function">sudo</span> <span class="token function">nano</span> /etc/bind/named.conf.options 
+ allow-transfer <span class="token punctuation">{</span> <span class="token number">192.168</span>.100.157<span class="token punctuation">;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+        notify <span class="token function">yes</span><span class="token punctuation">;</span></code></pre></div>
+<p>En /var/cache/bind/db.iesgn.org</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@servidorDNS:~$ <span class="token function">sudo</span> <span class="token function">nano</span> /var/cache/bind/db.iesgn.org
+@               IN      NS      madu-esclavo.iesgn.org.
+madu-esclavo IN      A       <span class="token number">192.168</span>.100.157</code></pre></div>
+<p>En nuestro archivo de resolución inversa.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@servidorDNS:~$ <span class="token function">sudo</span> <span class="token function">nano</span> /var/cache/bind/db.192.168.100 
+@       IN      NS      madu-esclavo.iesgn.org.
+<span class="token number">157</span>       IN      PTR     mady-esclavo.iesgn.org.</code></pre></div>
+<p><strong>En nuestro servidor esclavo:</strong></p>
+<p>Instamos bind9</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@svesclavo:~$ <span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> bind9</code></pre></div>
+<p>En /etc/bind/named.conf.options </p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@svesclavo:~$ <span class="token function">sudo</span> <span class="token function">nano</span> /etc/bind/named.conf.options 
+allow-transfer <span class="token punctuation">{</span> none<span class="token punctuation">;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
+<p>En /etc/bind/named.conf.local</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@svesclavo:~$ <span class="token function">sudo</span> <span class="token function">nano</span> /etc/bind/named.conf.local
+zone <span class="token string">"iesgn.org"</span>
+<span class="token punctuation">{</span>
+  <span class="token function">file</span> <span class="token string">"db.iesgn.org"</span><span class="token punctuation">;</span>
+  <span class="token builtin class-name">type</span> slave<span class="token punctuation">;</span>
+  masters <span class="token punctuation">{</span> <span class="token number">192.168</span>.100.155<span class="token punctuation">;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+zone <span class="token string">"100.168.192.in-addr.arpa"</span>
+<span class="token punctuation">{</span>
+  <span class="token function">file</span> <span class="token string">"db.100.168.192"</span><span class="token punctuation">;</span>
+  <span class="token builtin class-name">type</span> slave<span class="token punctuation">;</span>
+  masters <span class="token punctuation">{</span> <span class="token number">192.168</span>.100.155<span class="token punctuation">;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
 <div style="background-color:#ff5733; border-radius:1em; border-color: black;">
 <ul>
 <li>
@@ -532,7 +573,46 @@ vagrant@cliente:~$ <span class="token function">dig</span> <span class="token nu
 </li>
 </ul>
 </li>
+<li>Configura un cliente para que utilice los dos servidores como servidores DNS.</li>
 </ul>
+<p>En /etc/resolv.conf</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">nameserver <span class="token number">192.168</span>.100.155
+nameserver <span class="token number">192.168</span>.100.157</code></pre></div>
+<ul>
+<li>Realiza una consulta con dig tanto al maestro como al esclavo para comprobar que las respuestas son autorizadas. ¿En qué te tienes que fijar?</li>
+</ul>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@cliente:~$ <span class="token function">dig</span> @192.168.100.155 ftp.iesgn.org
+
+<span class="token punctuation">;</span> <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> DiG <span class="token number">9.11</span>.5-P4-5.1+deb10u2-Debian <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> @192.168.100.155 ftp.iesgn.org
+<span class="token punctuation">;</span> <span class="token punctuation">(</span><span class="token number">1</span> server found<span class="token punctuation">)</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> global options: +cmd
+<span class="token punctuation">;</span><span class="token punctuation">;</span> Got answer:
+<span class="token punctuation">;</span><span class="token punctuation">;</span> -<span class="token operator">>></span>HEADER<span class="token operator">&lt;&lt;-</span> opcode: QUERY, status: NXDOMAIN, id: <span class="token number">23190</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> flags: qr rd ra<span class="token punctuation">;</span> QUERY: <span class="token number">1</span>, ANSWER: <span class="token number">0</span>, AUTHORITY: <span class="token number">1</span>, ADDITIONAL: <span class="token number">1</span>
+
+<span class="token punctuation">;</span><span class="token punctuation">;</span> OPT PSEUDOSECTION:
+<span class="token punctuation">;</span> EDNS: version: <span class="token number">0</span>, flags:<span class="token punctuation">;</span> udp: <span class="token number">4096</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> QUESTION SECTION:
+<span class="token punctuation">;</span>ftp.iesgn.org.			IN	A
+
+<span class="token punctuation">;</span><span class="token punctuation">;</span> AUTHORITY SECTION:
+org.			<span class="token number">852</span>	IN	SOA	a0.org.afilias-nst.info. noc.afilias-nst.info. <span class="token number">2014179997</span> <span class="token number">1800</span> <span class="token number">900</span> <span class="token number">604800</span> <span class="token number">86400</span>
+
+<span class="token punctuation">;</span><span class="token punctuation">;</span> Query time: <span class="token number">344</span> msec
+<span class="token punctuation">;</span><span class="token punctuation">;</span> SERVER: <span class="token number">192.168</span>.100.155<span class="token comment">#53(192.168.100.155)</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> WHEN: Sun Dec <span class="token number">13</span> <span class="token number">19</span>:44:26 UTC <span class="token number">2020</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> MSG SIZE  rcvd: <span class="token number">105</span></code></pre></div>
+<ul>
+<li>Solicita una copia completa de la zona desde el cliente ¿qué tiene que ocurrir?. Solicita una copia completa desde el esclavo ¿qué tiene que ocurrir?</li>
+</ul>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@cliente:~$ <span class="token function">dig</span> @192.168.100.155 iesgn.org axfr
+
+<span class="token punctuation">;</span> <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> DiG <span class="token number">9.11</span>.5-P4-5.1+deb10u2-Debian <span class="token operator">&lt;&lt;</span><span class="token operator">>></span> @192.168.100.155 iesgn.org axfr
+<span class="token punctuation">;</span> <span class="token punctuation">(</span><span class="token number">1</span> server found<span class="token punctuation">)</span>
+<span class="token punctuation">;</span><span class="token punctuation">;</span> global options: +cmd
+<span class="token punctuation">;</span> Transfer failed.</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"></code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"></code></pre></div>
 <div style="background-color:#ff5733; border-radius:1em; border-color: black;">
 <ul>
 <li>
@@ -566,6 +646,42 @@ vagrant@cliente:~$ <span class="token function">dig</span> <span class="token nu
 </div>
 </li>
 </ul>
+<p>Añadiremos una nueva maquina a la configuración.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">        config.vm.define :svt7 <span class="token keyword">do</span> <span class="token operator">|</span>svt7<span class="token operator">|</span>
+                svt7.vm.box <span class="token operator">=</span> <span class="token string">"generic/debian10"</span>
+                svt7.vm.hostname <span class="token operator">=</span> <span class="token string">"sv7"</span>
+                svt7.vm.network :public_network,:bridge<span class="token operator">=</span><span class="token operator">></span><span class="token string">"wlo1"</span>
+                svt7.vm.network :private_network, ip: <span class="token string">"192.168.100.158"</span>
+        end</code></pre></div>
+<p><strong>Configuración Servidor Maestro:</strong></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token variable">$ORIGIN</span> nuevazona.iesgn.org.
+
+@               IN    NS    madu-sub
+madu-sub	IN    A     <span class="token number">192.168</span>.100.158</code></pre></div>
+<p><strong>Configuración Servidor t7:</strong></p>
+<p>Volvemos a crear un servidor de dns con bind9 y modificamos lo siguiente:</p>
+<p>En /etc/bind/named.conf.local</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">zone <span class="token string">"nuevazona.iesgn.org"</span>
+<span class="token punctuation">{</span>
+  <span class="token builtin class-name">type</span> master<span class="token punctuation">;</span>
+  <span class="token function">file</span> <span class="token string">"db.nuevazona.iesgn.org"</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
+<p>En /var/cache/bind/db.nuevazona.iesgn.org</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token variable">$TTL</span> <span class="token number">86400</span>              <span class="token punctuation">;</span> <span class="token number">1</span> day
+@                               IN SOA madu-sub.nuevazona.iesgn.org. madu.iesgn.org. <span class="token punctuation">(</span>
+                                        <span class="token number">12998</span> <span class="token punctuation">;</span> serial
+                                        <span class="token number">21600</span> <span class="token punctuation">;</span> refresh <span class="token punctuation">(</span><span class="token number">6</span> hours<span class="token punctuation">)</span>
+                                        <span class="token number">3600</span> <span class="token punctuation">;</span> retry <span class="token punctuation">(</span><span class="token number">1</span> hour<span class="token punctuation">)</span>
+                                        <span class="token number">604800</span> <span class="token punctuation">;</span> expire <span class="token punctuation">(</span><span class="token number">1</span> week<span class="token punctuation">)</span>
+                                        <span class="token number">21600</span> <span class="token punctuation">;</span> minimum <span class="token punctuation">(</span><span class="token number">6</span> hours<span class="token punctuation">)</span>
+                                        <span class="token punctuation">)</span>
+
+@       IN      NS      madu-sub.nuevazona.iesgn.org.
+@       IN      MX  <span class="token number">10</span>  correo.nuevazona.iesgn.org.
+
+<span class="token variable">$ORIGIN</span> nuevazona.iesgn.org.
+
+madu-sub	IN      A        <span class="token number">192.168</span>.100.158</code></pre></div>
 <div style="background-color:#ff5733; border-radius:1em; border-color: black;">
 <ul>
 <li>
