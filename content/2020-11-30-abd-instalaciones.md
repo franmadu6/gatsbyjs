@@ -187,6 +187,9 @@ MongoDB server version: 4.4.2
 
 * ## Realización de una aplicación web en cualquier lenguaje que conecte con el servidor ORACLE tras autenticarse y muestre alguna información almacenada en el mismo.
 
+
+
+
 * ## Instalación de una herramienta de administración web para MySQL y prueba desde un cliente remoto.
 
 La herramienta que utilizare para la administración web de mysql sera PhpMyAdmin comenzaremos con los pasos para su instalación.

@@ -564,6 +564,69 @@ El servidor DNS actual funciona como DNS maestro. Vamos a instalar un nuevo serv
     * Muestra la salida del log donde se demuestra que se ha realizado la transferencia de zona.
 </div>
 
+Añadimos una nueva maquina a nuestro escenario de Vagrant.
+```shell
+        config.vm.define :svesclavo do |svesclavo|
+                svesclavo.vm.box = "generic/debian10"
+                svesclavo.vm.hostname = "svesclavo"
+                svesclavo.vm.network :public_network,:bridge=>"wlo1"
+                svesclavo.vm.network :private_network, ip: "192.168.100.157"
+        end
+```
+
+**En nuestro servidor maestro:**
+
+En /etc/bind/named-conf.options
+```shell
+vagrant@servidorDNS:~$ sudo nano /etc/bind/named.conf.options 
+ allow-transfer { 192.168.100.157; };
+        notify yes;
+```
+
+En /var/cache/bind/db.iesgn.org
+```shell
+vagrant@servidorDNS:~$ sudo nano /var/cache/bind/db.iesgn.org
+@               IN      NS      madu-esclavo.iesgn.org.
+madu-esclavo IN      A       192.168.100.157
+```
+
+En nuestro archivo de resolución inversa.
+```shell
+vagrant@servidorDNS:~$ sudo nano /var/cache/bind/db.192.168.100 
+@       IN      NS      madu-esclavo.iesgn.org.
+157       IN      PTR     mady-esclavo.iesgn.org.
+```
+
+**En nuestro servidor esclavo:**
+
+Instamos bind9
+```shell
+vagrant@svesclavo:~$ sudo apt-get install bind9
+```
+
+En /etc/bind/named.conf.options 
+```shell
+vagrant@svesclavo:~$ sudo nano /etc/bind/named.conf.options 
+allow-transfer { none; };
+```
+
+En /etc/bind/named.conf.local
+```shell
+vagrant@svesclavo:~$ sudo nano /etc/bind/named.conf.local
+zone "iesgn.org"
+{
+  file "db.iesgn.org";
+  type slave;
+  masters { 192.168.100.155; };
+};
+
+zone "100.168.192.in-addr.arpa"
+{
+  file "db.100.168.192";
+  type slave;
+  masters { 192.168.100.155; };
+}
+```
 
 
 
@@ -574,6 +637,57 @@ El servidor DNS actual funciona como DNS maestro. Vamos a instalar un nuevo serv
     * Realiza una consulta con dig tanto al maestro como al esclavo para comprobar que las respuestas son autorizadas. ¿En qué te tienes que fijar?
     * Solicita una copia completa de la zona desde el cliente ¿qué tiene que ocurrir?. Solicita una copia completa desde el esclavo ¿qué tiene que ocurrir?
 </div>
+
+* Configura un cliente para que utilice los dos servidores como servidores DNS.
+
+En /etc/resolv.conf
+```shell
+nameserver 192.168.100.155
+nameserver 192.168.100.157
+```
+
+* Realiza una consulta con dig tanto al maestro como al esclavo para comprobar que las respuestas son autorizadas. ¿En qué te tienes que fijar?
+
+```shell
+vagrant@cliente:~$ dig @192.168.100.155 ftp.iesgn.org
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> @192.168.100.155 ftp.iesgn.org
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 23190
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;ftp.iesgn.org.			IN	A
+
+;; AUTHORITY SECTION:
+org.			852	IN	SOA	a0.org.afilias-nst.info. noc.afilias-nst.info. 2014179997 1800 900 604800 86400
+
+;; Query time: 344 msec
+;; SERVER: 192.168.100.155#53(192.168.100.155)
+;; WHEN: Sun Dec 13 19:44:26 UTC 2020
+;; MSG SIZE  rcvd: 105
+```
+
+* Solicita una copia completa de la zona desde el cliente ¿qué tiene que ocurrir?. Solicita una copia completa desde el esclavo ¿qué tiene que ocurrir?
+
+```shell
+vagrant@cliente:~$ dig @192.168.100.155 iesgn.org axfr
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> @192.168.100.155 iesgn.org axfr
+; (1 server found)
+;; global options: +cmd
+; Transfer failed.
+```
+```shell
+
+```
+```shell
+
+```
 
 <div style="background-color:#ff5733; border-radius:1em; border-color: black;">
 
@@ -601,6 +715,57 @@ Los nombres que vamos a tener en ese subdominio son los siguientes:
 
 * Tarea 7 (2 puntos): Realiza la instalación y configuración del nuevo servidor dns con las características anteriormente señaladas. Muestra el resultado al profesor.
 </div>
+
+Añadiremos una nueva maquina a la configuración.
+```shell
+        config.vm.define :svt7 do |svt7|
+                svt7.vm.box = "generic/debian10"
+                svt7.vm.hostname = "sv7"
+                svt7.vm.network :public_network,:bridge=>"wlo1"
+                svt7.vm.network :private_network, ip: "192.168.100.158"
+        end
+```
+
+**Configuración Servidor Maestro:**
+
+
+```shell
+$ORIGIN nuevazona.iesgn.org.
+
+@               IN    NS    madu-sub
+madu-sub	IN    A     192.168.100.158
+```
+**Configuración Servidor t7:**
+
+Volvemos a crear un servidor de dns con bind9 y modificamos lo siguiente:
+
+En /etc/bind/named.conf.local
+```shell
+zone "nuevazona.iesgn.org"
+{
+  type master;
+  file "db.nuevazona.iesgn.org";
+};
+```
+
+En /var/cache/bind/db.nuevazona.iesgn.org
+```shell
+$TTL 86400              ; 1 day
+@                               IN SOA madu-sub.nuevazona.iesgn.org. madu.iesgn.org. (
+                                        12998 ; serial
+                                        21600 ; refresh (6 hours)
+                                        3600 ; retry (1 hour)
+                                        604800 ; expire (1 week)
+                                        21600 ; minimum (6 hours)
+                                        )
+
+@       IN      NS      madu-sub.nuevazona.iesgn.org.
+@       IN      MX  10  correo.nuevazona.iesgn.org.
+
+$ORIGIN nuevazona.iesgn.org.
+
+madu-sub	IN      A        192.168.100.158
+```
 
 <div style="background-color:#ff5733; border-radius:1em; border-color: black;">
 
