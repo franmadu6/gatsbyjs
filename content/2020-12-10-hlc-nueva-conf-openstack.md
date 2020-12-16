@@ -63,9 +63,9 @@ Añadiremos la nueva interfaz a Dulcinea por OpenStacks y seguido modificamos el
 ```shell
 debian@dulcinea:~$ sudo nano /etc/network/interfaces
 
-auto eth2
+allow-hotplug eth2
 iface eth2 inet static
- address 10.0.2.10
+ address 10.0.2.7
  netmask 255.255.255.0
  broadcast 10.0.2.255
  gateway 10.0.2.1
@@ -73,15 +73,67 @@ iface eth2 inet static
 debian@dulcinea:~$ sudo systemctl restart networking
 ```
 
-```shell
 
+Añadimos nueva reglas a nuestro cortafuegos en este caso usaré ntfs y ademas la añadire al fichero /etc/ntfstables.conf para que de esta manera nos podamos olvidar de estar añadiendolas cada vez que reiniciemos.
+```shell
+#Descargar el paquete de ntftable
+sudo apt install nftables
+#Habilitar ntftables
+debian@francisco-madu:~$ sudo systemctl enable  nftables.service
+Created symlink /etc/systemd/system/sysinit.target.wants/nftables.service → /lib/systemd/system/nftables.service.
+#Añadir la nueva regla
+nft add rule inet nat postrouting oifname "eth2" ip saddr 10.0.2.0/24 counter masquerade 
+#Añadir la regla del ejercicios pasado
+nft add rule inet nat postrouting oifname "eth1" ip saddr 10.0.1.0/24 counter masquerade 
+#Mostrar las reglas
+debian@francisco-madu:~$ sudo nft list ruleset
+table ip nat {
+	chain PREROUTING {
+		type nat hook prerouting priority -100; policy accept;
+	}
+
+	chain INPUT {
+		type nat hook input priority 100; policy accept;
+	}
+
+	chain POSTROUTING {
+		type nat hook postrouting priority 100; policy accept;
+		oifname "eth0" ip saddr 10.0.1.0/24 counter packets 12 bytes 902 masquerade 
+		oifname "eth2" ip saddr 10.0.2.0/24 counter packets 0 bytes 0 masquerade 
+		oifname "eth1" ip saddr 10.0.1.0/24 counter packets 2034 bytes 143017 masquerade 
+	}
+
+	chain OUTPUT {
+		type nat hook output priority -100; policy accept;
+	}
+}
+
+#Guardarlo en /etc/ntfstables.conf
 ```
 
-Añadimos nueva reglas a nuestro cortafuegos:
+Le añadimos claves para el usuario debian y root.
 ```shell
-iptables -t nat -A POSTROUTING -s 10.0.2.0/24 -o eth2 -j MASQUERADE
+debian@freston:~$ sudo passwd debian
+New password: 
+Retype new password: 
+passwd: password updated successfully
+debian@freston:~$ sudo passwd root
+New password: 
+Retype new password: 
+passwd: password updated successfully
 ```
-
-Antes de meter a Freston en la nueva red, la incorporamos en nuestra red a la que se le puede asignar una IP Flotante, para poder añadirle una contraseña al usuario debian.
-
 Una vez configurado esto, la quitamos de la red, y la metemos en la red anteriormente creada.
+
+Configuramos la ip estatica en freston:
+```shell
+# The normal eth0
+allow-hotplug eth0
+iface eth0 inet dhcp
+ address 10.0.1.14
+ netmask 255.255.255.0
+ broadcast 10.0.1.255
+ gateway 10.0.1.8
+ ```
+
+ Reiniciamos el servicio networking y comprobamos la conectividad a las máquinas:
+

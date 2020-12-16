@@ -108,7 +108,7 @@ Modificamos el fichero «/etc/network/interfaces»:
 #tambien añadimos la ip estatica de dulcinea
 # The normal eth0
 allow-hotplug eth0
-iface eth0 inet dhcp
+iface eth0 inet static
  address 10.0.0.8
  netmask 255.255.255.0
  broadcast 10.0.0.255
@@ -116,7 +116,7 @@ iface eth0 inet dhcp
 # Additional interfaces, just in case we're using
 # multiple networks
 allow-hotplug eth1
-iface eth1 inet dhcp
+iface eth1 inet static
  address 10.0.1.8
  netmask 255.255.255.0
  broadcast 10.0.1.255
