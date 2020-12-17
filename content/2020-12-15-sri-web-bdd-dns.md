@@ -48,10 +48,182 @@ vista dmz(10.0.2.0/24)
 
 ## Servidor DNS
 
-****
+**Instalación de Bind9**
 ```shell
-
+debian@freston:~$ sudo apt-get install bind9
 ```
+
+**Configuración del BInd9**
+
+En /etc/bind/named.conf.local
+```shell
+view interna {
+    match-clients { 10.0.1.0/24; };
+    allow-recursion { any; };
+
+        zone "madu.gonzalonazareno.org"
+        {
+                type master;
+                file "db.interna.gonzalonazareno.org";
+        };
+        zone "1.0.10.in-addr.arpa"
+        {
+                type master;
+                file "db.1.0.10";
+        };
+        zone "2.0.10.in-addr.arpa"
+        {
+                type master;
+                file "db.2.0.10";
+        };
+        include "/etc/bind/zones.rfc1918";
+        include "/etc/bind/named.conf.default-zones";
+};
+
+view externa {
+    match-clients { 172.22.0.0/15; 192.168.202.2;};
+    allow-recursion { any; };
+
+        zone "madu.gonzalonazareno.org"
+        {
+                type master;
+                file "db.externa.gonzalonazareno.org";
+        };
+        include "/etc/bind/zones.rfc1918";
+        include "/etc/bind/named.conf.default-zones";
+};
+
+view dmz {
+    match-clients { 10.0.2.0/24; };
+    allow-recursion { any; };
+
+        zone "madu.gonzalonazareno.org"
+        {
+                type master;
+                file "db.dmz.gonzalonazareno.org";
+        };
+        zone "2.0.10.in-addr.arpa"
+        {
+                type master;
+                file "db.2.0.10";
+        };
+        zone "1.0.10.in-addr.arpa"
+        {
+                type master;
+                file "db.1.0.10";
+        };
+        include "/etc/bind/zones.rfc1918";
+        include "/etc/bind/named.conf.default-zones";
+};
+```
+En /etc/bind/named.conf:
+```shell
+#comentar
+// include "/etc/bind/named.conf.default-zones";
+```
+
+Creamos las zonas en /var/cache/bind
+```shell
+#fichero db.interna.gonzalonazareno.org
+$TTL    86400
+@   IN  SOA freston.madu.gonzalonazareno.org. frandh1997.gonzalonazareno.org. {
+                  1     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+              86400 )   ; Negative Cache TTL
+;
+@               IN  NS  freston.madu.gonzalonazareno.org.
+
+$ORIGIN madu.gonzalonazareno.org.
+dulcinea        IN      A       10.0.1.8
+sancho          IN      A       10.0.1.7
+freston         IN      A       10.0.1.14
+quijote         IN      A       10.0.2.3
+www             IN      CNAME   quijote
+bd              IN      CNAME   sancho
+```
+
+```shell
+#fichero db.externa.gonzalonazareno.org
+$TTL    86400
+@   IN  SOA freston.madu.gonzalonazareno.org. frandh1997.gonzalonazareno.org. {
+                  1     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+              86400 )   ; Negative Cache TTL
+;
+@               IN      NS      dulcinea.madu.gonzalonazareno.org.
+
+$ORIGIN madu.gonzalonazareno.org.
+dulcinea        IN      A       172.22.201.13
+www             IN      CNAME   dulcinea
+```
+
+```shell
+#fichero db.dmz.gonzalonazareno.org
+$TTL    86400
+@   IN  SOA freston.madu.gonzalonazareno.org. frandh1997.gonzalonazareno.org. {
+                  1     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+              86400 )   ; Negative Cache TTL
+;
+@               IN      NS      freston.madu.gonzalonazareno.org.
+
+$ORIGIN madu.gonzalonazareno.org.
+dulcinea        IN      A       10.0.2.7
+sancho          IN      A       10.0.1.7
+freston         IN      A       10.0.1.14
+quijote         IN      A       10.0.2.3
+www             IN      CNAME   quijote
+bd              IN      CNAME   sancho
+```
+
+```shell
+#fichero db.1.0.10
+$TTL    86400
+@   IN  SOA freston.madu.gonzalonazareno.org. frandh1997.gonzalonazareno.org. {
+                  1     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+              86400 )   ; Negative Cache TTL
+;
+@                       IN      NS  freston.madu.gonzalonazareno.org.
+
+$ORIGIN 1.0.10.in-addr.arpa.
+8       IN      PTR     dulcinea.madu.gonzalonazareno.org.
+7      IN      PTR     sancho.madu.gonzalonazareno.org.
+14      IN      PTR     freston.madu.gonzalonazareno.org.
+```
+
+```shell
+#fichero db.2.0.10
+$TTL    86400
+@   IN  SOA freston.madu.gonzalonazareno.org. frandh1997.gonzalonazareno.org. {
+                  1     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+              86400 )   ; Negative Cache TTL
+;
+@                       IN      NS  freston.madu.gonzalonazareno.org.
+
+$ORIGIN 2.0.10.in-addr.arpa.
+3      IN      PTR     quijote.madu.gonzalonazareno.org.
+7      IN      PTR     dulcinea.madu.gonzalonazareno.org.
+```
+
+Reglas DNAT en Dulcinea.
+```shell
+debian@dulcinea:~$ sudo iptables -t nat -A PREROUTING -p udp --dport 53 -i eth1 -j DNAT --to 10.0.1.10
+debian@dulcinea:~$ sudo iptables -t nat -A PREROUTING -p tcp --dport 53 -i eth1 -j DNAT --to 10.0.1.10
+```
+
+
 
 
 ## Servidor Web
