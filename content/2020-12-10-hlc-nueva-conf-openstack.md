@@ -52,12 +52,7 @@ Please enter your OpenStack Password for project Proyecto de francisco.madu as u
 
 * Modificación de la ubicación de quijote
     * Pasa de la red interna a la DMZ y su direccionamiento tiene que modificarse apropiadamente.
-
-
-
-
-
-
+<hr>
 
 Añadiremos la nueva interfaz a Dulcinea por OpenStacks y seguido modificamos el fichero de Dulcinea /etc/network/interfaces:
 ```shell
@@ -73,7 +68,6 @@ iface eth2 inet static
 debian@dulcinea:~$ sudo systemctl restart networking
 ```
 
-
 Añadimos nueva reglas a nuestro cortafuegos en este caso usaré ntfs y ademas la añadire al fichero /etc/ntfstables.conf para que de esta manera nos podamos olvidar de estar añadiendolas cada vez que reiniciemos.
 ```shell
 #Descargar el paquete de ntftable
@@ -82,7 +76,7 @@ sudo apt install nftables
 debian@francisco-madu:~$ sudo systemctl enable  nftables.service
 Created symlink /etc/systemd/system/sysinit.target.wants/nftables.service → /lib/systemd/system/nftables.service.
 #Añadir la nueva regla
-nft add rule inet nat postrouting oifname "eth2" ip saddr 10.0.2.0/24 counter masquerade 
+nft add rule inet nat postrouting oifname "eth1" ip saddr 10.0.2.0/24 counter masquerade 
 #Añadir la regla del ejercicios pasado
 nft add rule inet nat postrouting oifname "eth1" ip saddr 10.0.1.0/24 counter masquerade 
 #Mostrar las reglas
@@ -98,9 +92,9 @@ table ip nat {
 
 	chain POSTROUTING {
 		type nat hook postrouting priority 100; policy accept;
-		oifname "eth0" ip saddr 10.0.1.0/24 counter packets 12 bytes 902 masquerade 
-		oifname "eth2" ip saddr 10.0.2.0/24 counter packets 0 bytes 0 masquerade 
-		oifname "eth1" ip saddr 10.0.1.0/24 counter packets 2034 bytes 143017 masquerade 
+		oifname "eth1" ip saddr 10.0.1.0/24 counter packets 2034 bytes 143017 masquerade
+		oifname "eth1" ip saddr 10.0.2.0/24 counter packets 0 bytes 0 masquerade 
+		
 	}
 
 	chain OUTPUT {
@@ -128,7 +122,7 @@ Configuramos la ip estatica en freston:
 ```shell
 # The normal eth0
 allow-hotplug eth0
-iface eth0 inet dhcp
+iface eth0 inet static
  address 10.0.1.14
  netmask 255.255.255.0
  broadcast 10.0.1.255
@@ -137,3 +131,100 @@ iface eth0 inet dhcp
 
  Reiniciamos el servicio networking y comprobamos la conectividad a las máquinas:
 
+ ```shell
+ #dulcinea a freston
+ debian@francisco-madu:~$ ping 10.0.1.14
+PING 10.0.1.14 (10.0.1.14) 56(84) bytes of data.
+64 bytes from 10.0.1.14: icmp_seq=1 ttl=64 time=1.44 ms
+64 bytes from 10.0.1.14: icmp_seq=2 ttl=64 time=0.858 ms
+^C
+--- 10.0.1.14 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 3ms
+rtt min/avg/max/mdev = 0.858/1.146/1.435/0.290 ms
+
+#freston a sancho
+debian@freston:~$ ping 10.0.1.7
+PING 10.0.1.7 (10.0.1.7) 56(84) bytes of data.
+64 bytes from 10.0.1.7: icmp_seq=1 ttl=64 time=2.44 ms
+64 bytes from 10.0.1.7: icmp_seq=2 ttl=64 time=0.904 ms
+^C
+--- 10.0.1.7 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 3ms
+rtt min/avg/max/mdev = 0.904/1.671/2.438/0.767 ms
+
+#freston a quijote
+debian@freston:~$ ping 10.0.1.10
+PING 10.0.1.10 (10.0.1.10) 56(84) bytes of data.
+64 bytes from 10.0.1.10: icmp_seq=1 ttl=64 time=2.57 ms
+64 bytes from 10.0.1.10: icmp_seq=2 ttl=64 time=0.583 ms
+64 bytes from 10.0.1.10: icmp_seq=3 ttl=64 time=0.790 ms
+^C
+--- 10.0.1.10 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 14ms
+rtt min/avg/max/mdev = 0.583/1.312/2.565/0.890 ms
+
+#hacia internet
+debian@freston:~$ ping 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=42.8 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=42.7 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=42.4 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=111 time=42.5 ms
+^C
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 7ms
+rtt min/avg/max/mdev = 42.437/42.623/42.803/0.254 ms
+
+```
+
+Ahora tenemos conectado correctamente **freston** a nuestra red.
+
+### Quijote
+
+Para comenzar le añadimos la nueva red DMZ y le quitamos su antigua red.
+
+Accederemos desde Horizon y modificaremos su bridge.
+En /etc/sysconfig/network-scripts/ifcfg-eth0
+```shell
+# Created by cloud-init on instance boot automatically, do not edit.
+#
+DEVICE="eth0"
+BOOTPROTO="static"
+IPADDR="10.0.2.3"
+NETMASK="255.255.255.0"
+NETWORK="10.0.2.0"
+GATEWAY="10.0.2.7"
+ONBOOT="yes"
+TYPE="Ethernet"
+```
+
+**Pruebas de conexión**
+
+```shell
+#dulcinea a quijote
+debian@francisco-madu:~$ ping 10.0.2.3
+PING 10.0.2.3 (10.0.2.3) 56(84) bytes of data.
+64 bytes from 10.0.2.3: icmp_seq=1 ttl=64 time=2.84 ms
+64 bytes from 10.0.2.3: icmp_seq=2 ttl=64 time=0.685 ms
+^C
+--- 10.0.2.3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 2ms
+rtt min/avg/max/mdev = 0.685/1.760/2.835/1.075 ms
+
+#quijote dulcinea
+[centos@quijote ~]$ ping 10.0.2.7
+PING 10.0.2.7 (10.0.2.7) 56(84) bytes of data.
+64 bytes from 10.0.2.7: icmp_seq=1 ttl=64 time=0.798 ms
+64 bytes from 10.0.2.7: icmp_seq=2 ttl=64 time=0.763 ms
+64 bytes from 10.0.2.7: icmp_seq=3 ttl=64 time=0.872 ms
+^C
+--- 10.0.2.7 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 4ms
+rtt min/avg/max/mdev = 0.763/0.811/0.872/0.045 ms
+
+#quijote sancho
+
+#quijote freston
+
+
+```
