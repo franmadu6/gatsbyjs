@@ -13,39 +13,6 @@ tags:
 
 https://dit.gonzalonazareno.org/redmine/projects/asir2/wiki/Servidores_Web_y_DNS
 
-vista externa (172.22.0.0/15)
-    zona resolución directa
-        dulcinea 172.22.x.x
-        www cname dulcinea
-    zona resolucón inversa
-        no tiene
-
-vista interna (10.0.1.0/24)
-    zona resolución directa
-        dulcinea 10.0.1.X
-        sancho 10.0.1.X
-        quijote 10.0.2.X
-        www cname quijote
-        bd cname sancho
-
-    zona resolución inversa
-        2 zonas : una para 10.0.1.0/24 y otra para 10.0.2.0/24
-
-vista dmz(10.0.2.0/24)
-    zona resolución directa
-        NS freston
-        dulcinea 10.0.2.X
-        sancho 10.0.1.X
-        quijote 10.0.2.X
-        www cname quijote
-        bd cname sancho
-
-
-1 configuro bind con vistas
-2 regla dnat en dulcinea para redirigir trafico dns a freston
-3 pruebo bind con clientes en las distintas redes
-
-
 ## Servidor DNS
 
 **Instalación de Bind9**
@@ -53,7 +20,13 @@ vista dmz(10.0.2.0/24)
 debian@freston:~$ sudo apt-get install bind9
 ```
 
-**Configuración del BInd9**
+**Configuración del Bind9**
+
+En /etc/bind/named.conf:
+```shell
+#comentar
+// include "/etc/bind/named.conf.default-zones";
+```
 
 En /etc/bind/named.conf.local
 ```shell
@@ -81,7 +54,7 @@ view interna {
 };
 
 view externa {
-    match-clients { 172.22.0.0/15; 192.168.202.2;};
+    match-clients { 172.22.0.0/15;  192.168.202.2;};
     allow-recursion { any; };
 
         zone "madu.gonzalonazareno.org"
@@ -115,11 +88,6 @@ view dmz {
         include "/etc/bind/zones.rfc1918";
         include "/etc/bind/named.conf.default-zones";
 };
-```
-En /etc/bind/named.conf:
-```shell
-#comentar
-// include "/etc/bind/named.conf.default-zones";
 ```
 
 Creamos las zonas en /var/cache/bind
@@ -223,6 +191,64 @@ debian@dulcinea:~$ sudo iptables -t nat -A PREROUTING -p udp --dport 53 -i eth1 
 debian@dulcinea:~$ sudo iptables -t nat -A PREROUTING -p tcp --dport 53 -i eth1 -j DNAT --to 10.0.1.10
 ```
 
+**Comprobaciones**
+
+```shell
+#red interna
+debian@francisco-madu:~$ dig sancho.madu.gonzalonazareno.org
+
+debian@francisco-madu:~$ dig quijote.madu.gonzalonazareno.org
+
+debian@francisco-madu:~$ dig freston.madu.gonzalonazareno.org
+```
+
+```shell
+#red externa
+fran@debian:~$ dig @10.0.0.8 dulcinea.madu.gonzalonazareno.org
+
+```
+
+```shell
+#dmz
+[centos@quijote ~]$ dig dulcinea.madu.gonzalonazareno.org
+
+
+
+```
+
+```shell
+#resoluciones inversas
+[centos@quijote]$ dig -x 10.0.1.7
+
+debian@francisco-madu:~$ dig -x 10.0.1.14
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Modificación del FQDN y el DNS.**
+
+Delegación de zona a Papion.
 
 
 
@@ -231,6 +257,7 @@ En quijote (CentOs)(Servidor que está en la DMZ) vamos a instalar un servidor w
 
 **Instalación del servidor.**
 ```shell
+[centos@quijote ~]$ sudo yum install mariadb-server
 
 ```
 
@@ -315,5 +342,29 @@ MariaDB [world]> select * from city;
 
 **Prueba de funcionamiento.**
 ```shell
+[centos@quijote ~]$ sudo yum install mariadb-server
+[centos@quijote ~]$ sudo systemctl status mariadb
+● mariadb.service - MariaDB 10.3 database server
+   Loaded: loaded (/usr/lib/systemd/system/mariadb.service; disabled; vendor preset: disabled)
+   Active: inactive (dead)
+     Docs: man:mysqld(8)
+           https://mariadb.com/kb/en/library/systemd/
+[centos@quijote ~]$ sudo systemctl start mariadb
+[centos@quijote ~]$ sudo systemctl status mariadb
+● mariadb.service - MariaDB 10.3 database server
+   Loaded: loaded (/usr/lib/systemd/system/mariadb.service; disabled; vendor preset: disabled)
+   Active: active (running) since Thu 2020-12-17 12:32:10 UTC; 4s ago
+     Docs: man:mysqld(8)
+           https://mariadb.com/kb/en/library/systemd/
+  Process: 16693 ExecStartPost=/usr/libexec/mysql-check-upgrade (code=exited, status=0/SUCCESS)
+  Process: 16558 ExecStartPre=/usr/libexec/mysql-prepare-db-dir mariadb.service (code=exited, status=0/SUCCESS)
+  Process: 16534 ExecStartPre=/usr/libexec/mysql-check-socket (code=exited, status=0/SUCCESS)
+ Main PID: 16661 (mysqld)
+   Status: "Taking your SQL requests now..."
+    Tasks: 30 (limit: 2812)
+   Memory: 99.8M
+   CGroup: /system.slice/mariadb.service
+           └─16661 /usr/libexec/mysqld --basedir=/usr
+
 
 ```

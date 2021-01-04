@@ -44,6 +44,9 @@ Pasos a realizar:
 
 Deshabilitar los puertos de Dulcinea
 ```shell
+fran@debian:~/Documentos$ source ~/.virtualenvs/openstackclient/bin/activate
+(openstackclient) fran@debian:~/Documentos$ source Proyecto\ de\ francisco.madu-openrc.sh
+Please enter your OpenStack Password for project Proyecto de francisco.madu as user francisco.madu: 
 #remover grupo de seguridad y deshabilitar cortafuegos de ambas redes
 (openstackclient) fran@debian:~/Documentos$ openstack server remove security group Dulcinea default
 (openstackclient) fran@debian:~/Documentos$ openstack port list
@@ -63,11 +66,15 @@ Deshabilitar los puertos de Dulcinea
 (openstackclient) fran@debian:~/Documentos$ openstack port set --disable-port-security 87e6c7e2-ea9a-4d17-8549-b51c78e7fd2a
 
 #Comprobación de acceso
-fran@debian:~/Pardeclaves$ sudo ssh -i pardeclaves2asir.pem debian@172.22.201.13
-The authenticity of host '172.22.201.13 (172.22.201.13)' can't be established.
-ECDSA key fingerprint is SHA256:24bafQ0pMtYZxUMY0iq2SkQ4vLigux3MHHcqMEQdYKw.
+fran@debian:~$ sudo chmod 600 .ssh/pardeclaves2asir.pem         
+fran@debian:~$ sudo chmod 755 ~/.ssh/
+fran@debian:~$ ssh-add ~/.ssh/pardeclaves2asir.pem 
+Identity added: /home/fran/.ssh/pardeclaves2asir.pem (/home/fran/.ssh/pardeclaves2asir.pem)
+fran@debian:~$ ssh -A debian@dulcinea
+The authenticity of host 'dulcinea (172.22.201.13)' can't be established.
+ECDSA key fingerprint is SHA256:kxEjSjlT9uApP+DC3hKpZvg36u2qPgcUSQgFXG4idHA.
 Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '172.22.201.13' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'dulcinea' (ECDSA) to the list of known hosts.
 Linux dulcinea 4.19.0-11-cloud-amd64 #1 SMP Debian 4.19.146-1 (2020-09-17) x86_64
 
 The programs included with the Debian GNU/Linux system are free software;
@@ -76,7 +83,6 @@ individual files in /usr/share/doc/*/copyright.
 
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
-Last login: Wed Nov 25 07:58:06 2020 from 172.23.0.94
 debian@dulcinea:~$ 
 ```
 
@@ -108,19 +114,20 @@ Modificamos el fichero «/etc/network/interfaces»:
 #tambien añadimos la ip estatica de dulcinea
 # The normal eth0
 allow-hotplug eth0
-iface eth0 inet static
- address 10.0.0.8
+iface eth0 inet dhcp
+ address 10.0.0.11
  netmask 255.255.255.0
  broadcast 10.0.0.255
 
 # Additional interfaces, just in case we're using
 # multiple networks
 allow-hotplug eth1
-iface eth1 inet static
- address 10.0.1.8
+iface eth1 inet dhcp
+ address 10.0.1.7 
  netmask 255.255.255.0
  broadcast 10.0.1.255
  gateway 10.0.1.1
+
 ```
 
 
@@ -201,7 +208,7 @@ rtt min/avg/max/mdev = 0.589/1.134/2.065/0.661 ms
 
 ```shell
 #Dulcinea
-debian@dulcinea:~$ sudo passwd
+debian@dulcinea:~$ sudo passwd debian
 New password: 
 Retype new password: 
 passwd: password updated successfully
@@ -212,13 +219,13 @@ debian@dulcinea:~$
 PermitRootLogin yes
 PasswordAuthentication yes
 
-ubuntu@sancho:~$ sudo passwd
+ubuntu@sancho:~$ sudo passwd ubuntu
 New password: 
 Retype new password: 
 passwd: password updated successfully
 
 #Quijote
-[centos@quijote ~]$ sudo passwd
+[centos@quijote ~]$ sudo passwd centos
 Changing password for user root.
 New password: 
 BAD PASSWORD: The password is shorter than 8 characters
@@ -240,18 +247,19 @@ En /etc/netplan/50-cloud-init.yaml:
 # network configuration capabilities, write a file
 # /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
 # network: {config: disable}
-
 network:
-  version: 2
-  renderer: networkd
-  ethernets:
-    ens3:
-      dhcp4: no
-      addresses:
-        - 10.0.1.7/24
-      gateway4: 10.0.1.8
-      nameservers:
-          addresses: [192.168.202.2, 8.8.8.8, 8.8.4.4]
+    version: 2
+    ethernets:
+        ens3:
+            dhcp4: false
+            match:
+                macaddress: fa:16:3e:23:87:b2
+            mtu: 8950
+            set-name: ens3
+            addresses: [10.0.1.7/24]
+            gateway4: 10.0.1.10
+            nameservers:
+                addresses: [192.168.202.2, 192.168.200.2, 8.8.8.8]
 ```
 Comprobamos su conectividad:
 ```shell
@@ -375,36 +383,34 @@ Last login: Wed Nov 25 19:08:57 2020 from gateway
 8. Creación del usuario profesor en todas las instancias. Usuario que puede utilizar sudo sin contraseña.
 
 ```shell
-debian@dulcinea:~$ sudo adduser profesor
-Adding user `profesor' ...
-Adding new group `profesor' (1001) ...
-Adding new user `profesor' (1001) with group `profesor' ...
-Creating home directory `/home/profesor' ...
-Copying files from `/etc/skel' ...
-New password: 
-Retype new password: 
-passwd: password updated successfully
-Changing the user information for profesor
-Enter the new value, or press ENTER for the default
-	Full Name []: profesor
-	Room Number []: 
-	Work Phone []: 
-	Home Phone []: 
-	Other []: 
-Is the information correct? [Y/n] y
-debian@dulcinea:~$ 
+root@dulcinea:~# useradd profesor -m -s /bin/bash
+root@dulcinea:~# su - profesor
 ```
-(pwd:profesor)
+
 
 El siguiente paso es añadirlo al grupo de super usuarios en /etc/sudoers:
 ```shell
-# User privilege specification
-root    ALL=(ALL:ALL) ALL
-profesor ALL=(ALL:ALL) NOPASSWD:ALL
+root@dulcinea:~# echo "profesor ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 ```
+
+Añadimos las claves de los profesores a la carpeta .ssh y le damos permiso a las carpetas.
+```shell
+profesor@dulcinea:~$ mkdir .ssh
+profesor@dulcinea:~$ nano .ssh/authorized_keys
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCfk9mRtOHM3T1KpmGi0KiN2uAM6CDXM3WFcm1wkzKXx7RaLtf9pX+KCuVqHdy/N/9d9wtH7iSmLFX/4gQKQVG00jHiGf3ABufWeIpjmHtT1WaI0+vV47fofEIjDDfSZPlI3p5/c7tefHsIAK6GbQn31yepAcFYy9ZfqAh8H/Y5eLpf3egPZn9Czsvx+lm0I8Q+e/HSayRaiAPUukF57N2nnw7yhPZCHSZJqFbXyK3fVQ/UQVBeNS2ayp0my8X9sIBZnNkcYHFLIWBqJYdnu1ZFhnbu3yy94jmJdmELy3+54hqiwFEfjZAjUYSl8eGPixOfdTgc8ObbHbkHyIrQ91Kz rafa@eco
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmjoVIoZCx4QFXvljqozXGqxxlSvO7V2aizqyPgMfGqnyl0J9YXo6zrcWYwyWMnMdRdwYZgHqfiiFCUn2QDm6ZuzC4Lcx0K3ZwO2lgL4XaATykVLneHR1ib6RNroFcClN69cxWsdwQW6dpjpiBDXf8m6/qxVP3EHwUTsP8XaOV7WkcCAqfYAMvpWLISqYme6e+6ZGJUIPkDTxavu5JTagDLwY+py1WB53eoDWsG99gmvyit2O1Eo+jRWN+mgRHIxJTrFtLS6o4iWeshPZ6LvCZ/Pum12Oj4B4bjGSHzrKjHZgTwhVJ/LDq3v71/PP4zaI3gVB9ZalemSxqomgbTlnT jose@debian
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3AUDWjyPANntK+qwHmlJihKQZ1H+AGN02k06dzRHmkvWiNgou/VcCgowhMTGR+0I6nWVwgRSWKJEUEaMu1r9rEeL63GRtUSepCWpClHJG1CuySuJKVGtRdUq+/szDntpJnJW207a78hTeQLjQsyPvbOqkbulQG7xTRCycdT3bH2UO4JI2d+341gkOlxSG/stPQ52Dsbfb274oMRom5r5f2apD3wbfxE9A6qwm4m70G9NYS7T3uKgCiXegO/3GTJD4UbK0ylGUamG5obdS5yD8Ib12vRCCXWav23SAj/4f9MzAnXX8U4ATM/du2FHZBiIzWVH12LYvIEZpUIVYKPSf alberto@roma
+
+profesor@dulcinea:~$ chmod 700 .ssh/
+profesor@dulcinea:~$ chmod 600 .ssh/authorized_keys
+```
+
+
+
 En Ubuntu:
 ```shell
-ubuntu@sancho:~$ sudo adduser profesor
+ubuntu@sancho:~$ sudo useradd profesor -m -s /bin/bash
 Adding user `profesor' ...
 Adding new group `profesor' (1001) ...
 Adding new user `profesor' (1001) with group `profesor' ...
@@ -431,7 +437,7 @@ En CentOS:
 ```shell
 debian@dulcinea:~$ ssh centos@quijote
 Last login: Wed Nov 25 19:10:05 2020 from gateway
-[centos@quijote ~]$ sudo adduser profesor
+[centos@quijote ~]$ sudo useradd profesor -m -s /bin/bash
 [centos@quijote ~]$ sudo passwd profesor
 Changing password for user profesor.
 New password: 
