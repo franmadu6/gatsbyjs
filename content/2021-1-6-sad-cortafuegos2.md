@@ -19,7 +19,6 @@ Realiza la configuración necesaria para que el cortafuegos sea consistente.
 1. Permite poder hacer conexiones ssh al exterior desde la máquina cortafuegos.
 ```shell
 nft add rule ip FILTER OUTPUT oif eth0 tcp dport 22 counter accept
-
 nft add rule ip FILTER INPUT ct state established,related counter accept
 ```
 
@@ -61,7 +60,6 @@ nft add rule ip FILTER INPUT ct state established,related counter accept
 9. Permite poder hacer conexiones ssh desde exterior a la LAN
 ```shell
 nft add rule ip FILTER INPUT iif eth0 tcp dport 22 counter accept
-
 nft add rule ip FILTER OUTPUT ct state established,related counter accept
 ```
 
