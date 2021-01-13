@@ -30,20 +30,95 @@ El trabajo constará de las siguientes partes:
 
 * ## Instalación de un servidor de ORACLE 19c sobre Linux
 
-Nos descargamos la version zip de la web oficial de Oracle → https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox
+Lo instalaremos en Centos8.
 
-Lo descomprimimos dentro de un directorio:
+Para comenzar nos lo descargaremos de la web oficial de Oracle → https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox
+
+Instalación del paquete.
 ```shell
-fran@debian:~$ unzip ../Descargas/LINUX.X64_193000_db_home.zip /oracle
+dnf install https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/oracle-database-preinstall-19c-1.0-1.el8.x86_64.rpm
 ```
-Ejecutamos sun instalador:
+
+Instalación del fichero rpm.
 ```shell
-fran@debian:~$ . runInstaller
+rpm -Uhv oracle-database-ee-19c-1.0-1.x86_64.rpm
 ```
-![PracticaImg](images/abd/oracleinst1.png "Imagen de la practica")
-![PracticaImg](images/abd/oracleinst2.png "Imagen de la practica")
-![PracticaImg](images/abd/oracleinst3.png "Imagen de la practica")
-![PracticaImg](images/abd/oracleinst4.png "Imagen de la practica")
+
+```shell
+cat /etc/sysconfig/oracledb_ORCLCDB-19c.conf
+```
+
+Creación de base de datos de ejemplo.
+```shell
+/etc/init.d/oracledb_ORCLCDB-19c configure
+```
+
+Usuario Oracle.
+```shell
+su - oracle
+vi ~/.bash_profile
+
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
+umask 022
+export ORACLE_SID=ORCLCDB
+export ORACLE_BASE=/opt/oracle/oradata
+export ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
+export PATH=$PATH:$ORACLE_HOME/bin
+```
+
+```shell
+source ~/.bash_profile
+```
+
+```shell
+sqlplus / as sysdba 
+ 
+SQL*Plus: Release 19.0.0.0.0 - Production on Tue Dec 21 09:11:12 2020
+Version 19.3.0.0.0
+ 
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+ 
+Connected to an idle instance.
+ 
+SQL>
+```
+
+Usuario
+```shell
+SQL> CREATE USER c##fran IDENTIFIED BY fran;
+SQL> GRANT ALL PRIVILEGES TO c##fran;
+```
+
+```shell
+SQL> DISCONNECT
+Desconectado de Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+#
+SQL> CONNECT c##fran/fran
+Conectado.
+```
+
+```shell
+SQL> SELECT * FROM cat;
+
+TABLE_NAME
+--------------------------------------------------------------------------------
+
+TABLE_TYPE
+-----------
+
+HOTELES
+TABLE
+
+EMPLEADOS
+TABLE
+
+HABITACIONES
+TABLE
+```
 
 * ## Instalación de un servidor MongoDB y configuración para permitir el acceso remoto desde la red local.
 
