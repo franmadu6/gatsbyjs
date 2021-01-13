@@ -16,6 +16,28 @@ Realizar la migración de la aplicación drupal que tienes instalada en el entor
 
 1. La aplicación se tendrá que migrar a un nuevo virtualhost al que se accederá con el nombre portal.iesgnXX.es.
 
+```shell
+server {
+        listen 80;
+        listen [::]:80;
+        
+	root /var/www/portal;
+        
+	index index.php index.html;
+        
+	server_name portal.iesgn11.es;
+        
+	location / {
+                try_files $uri $uri/ =404;
+        }
+
+	location ~ \.php$ {
+                include snippets/fastcgi-php.conf;
+                fastcgi_pass unix:/var/run/php/php7.3-fpm.sock;
+        }
+}
+```
+
 2. Vamos a nombrar el servicio de base de datos que tenemos en producción. Como es un servicio interno no la vamos a nombrar en la zona DNS, la vamos a nombrar usando resolución estática. El nombre del servicio de base de datos se debe llamar: bd.iesgnXX.es.
 
 3. Por lo tanto los recursos que deberás crear en la base de datos serán (respeta los nombres):
