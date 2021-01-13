@@ -56,127 +56,64 @@ Se aportará el código de las aplicaciones realizadas y prueba de funcionamient
 <h2 id="instalación-de-un-servidor-de-oracle-19c-sobre-linux"><a href="#instalaci%C3%B3n-de-un-servidor-de-oracle-19c-sobre-linux" aria-label="instalación de un servidor de oracle 19c sobre linux permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instalación de un servidor de ORACLE 19c sobre Linux</h2>
 </li>
 </ul>
-<p>Nos descargamos la version zip de la web oficial de Oracle → <a href="https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox">https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox</a></p>
-<p>Lo descomprimimos dentro de un directorio:</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~$ <span class="token function">unzip</span> <span class="token punctuation">..</span>/Descargas/LINUX.X64_193000_db_home.zip /oracle</code></pre></div>
-<p>Ejecutamos sun instalador:</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~$ <span class="token builtin class-name">.</span> runInstaller</code></pre></div>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/gatsbyjs/static/75e77767e59cfa47096a91bc0bc71243/c1e1e/oracleinst1.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 76.22377622377623%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACJklEQVQ4y42Ta28SQRSG+ZOSUiAsRuA/mCZNjLaIttoW09Zq/B9+sOIlKi1QFgqU63JbLrtQkHujeT2z01mLtLYfnpyZMzPvvnPmrGXZZoXDvgSHwwanYxlOp91Eklzwej3weB5Q9MLn88Htvg+XSzKQJAn3rFbYCI/dATdhqVcS0FpZ6K08OloJXb2MXreGfq+BQb+F4UDHaHiO8biP6WSI2XSMKWMywu9fM3z6HEI0dAj9+AjjigJLo5YksYyB1kyj3UiZ87vQ1bLQ2lmodFbXc0wwYYoxWurprTTrPIozDJ1FMjPnkLnrtM9wMakTNczGxKhKscojcUE5ts7W2F4uyA0xDVOQJZj9VOIL9vdeYH93E28OtvDu7c4cB69fYm93wxjXK3FTVJgyBZm7XieP8Lf38K8/hH9tBc8Dj/Aq+AzbW34EdwIIbgfwdH0Va09WsLnxGPmzMK/hdYI8mUZFkTEdRnCuychlwijmwnTwB5TCMQrZsFG70U8Fg16R9sZudiiSxdyRUXT2WEohgkophnIxSteTjVsIanRdll8QbNbnBUv5iOGECbNYoJhJfcdp4ivS8iHS8Q+QT0I4iX5ErRz/v6BoG+ZOJRqXqGJelTk0ZueE0NX2WRAUrXMbNzW6KcgeRDjkwnegeYXLnCEovsgSTRLkjhf5143IMQOdNp9blEKMXjNKNUoadeG/Vepa/tY2CbWaMPaqRj1TUIoxaqM4/gC1sBS4j0tBbwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="PracticaImg"
-        title="Imagen de la practica"
-        src="/gatsbyjs/static/75e77767e59cfa47096a91bc0bc71243/36727/oracleinst1.png"
-        srcset="/gatsbyjs/static/75e77767e59cfa47096a91bc0bc71243/acf4b/oracleinst1.png 173w,
-/gatsbyjs/static/75e77767e59cfa47096a91bc0bc71243/fc834/oracleinst1.png 345w,
-/gatsbyjs/static/75e77767e59cfa47096a91bc0bc71243/36727/oracleinst1.png 690w,
-/gatsbyjs/static/75e77767e59cfa47096a91bc0bc71243/c1e1e/oracleinst1.png 1001w"
-        sizes="(max-width: 690px) 100vw, 690px"
-        loading="lazy"
-      />
-  </a>
-    </span>
-<span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/gatsbyjs/static/b0a7edbd467ff7fae819d9c1c13fff17/0896d/oracleinst2.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 76.17617617617617%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACGklEQVQ4y5WUW3PSUBDH8w21pfAilPrigwW+odoibaWC5EpIyIU7SbgjyrTjzN/dEwOotYMPv9nDOWcv/z0bpLPUCzDpsxNk0qdIp1OC8/MsisUCLi/fClsqlVAoFIgiLi5eI5fLIZ/P4+UJ+Z2m8OZVFtlMBpLvNuA5Mjq+jl7XhO+q6JOdzwZYLQOsVxE2X2f4tlkQK2y3Gzw+bvHw8B3AD1yXP0CplLHWFHifqxSw30fb89FyfNiuB8+twzLvYOo3MI0b6EoZTb0Cq3mHdusTgqGOadjCJDAFi4mNKLQwnTvQyUfqdTT4XoOQMehRlR1ZODpWFY59j673RcCBkiCHROMmopGB1awtkkvB0MB4oJKDJojGJniPA4R0cUkXmTlVwswi6y+44vXChaF+hDQeGBj2FeHMGVmmplxDbVxBlWOriPWVWHM7XKqcVcS2Cpv2OtSqRu09JFEykUjgC02tInrIvWtRAl5bzVuRjJ0Zz6lh1Ncw6Cr0iLKIISRzuQksl20sz/oNlpbYZyUnlYmAv5r8VPOfg32WMycOmIzAYcDDvWNgZUsaGyOR/K+Ax1do7iucBOy8z5QE/B846Gq+k8zVxfBBOGrush4L+yymNNgySQ7HFoKgTXItcRBShcnL/Un8qjQFuxffVyhemcZN0gwZdVWBbdMfhFvDsKfSl6M/ybCniHO33YBt1Wn+NPF70NMEtft3+AnYCR5Jl7FeUwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="PracticaImg"
-        title="Imagen de la practica"
-        src="/gatsbyjs/static/b0a7edbd467ff7fae819d9c1c13fff17/36727/oracleinst2.png"
-        srcset="/gatsbyjs/static/b0a7edbd467ff7fae819d9c1c13fff17/acf4b/oracleinst2.png 173w,
-/gatsbyjs/static/b0a7edbd467ff7fae819d9c1c13fff17/fc834/oracleinst2.png 345w,
-/gatsbyjs/static/b0a7edbd467ff7fae819d9c1c13fff17/36727/oracleinst2.png 690w,
-/gatsbyjs/static/b0a7edbd467ff7fae819d9c1c13fff17/0896d/oracleinst2.png 999w"
-        sizes="(max-width: 690px) 100vw, 690px"
-        loading="lazy"
-      />
-  </a>
-    </span>
-<span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/gatsbyjs/static/5865a8c0319f3b5b3353d09a4292078d/b12db/oracleinst3.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 75.55331991951711%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAAB40lEQVQ4y72Ua28SQRSG94faNNFYFGqaWBIwfmmBv2XiB02rArKw7BX2AsvustBLatRStI8zC6uY0DSpiR+enLNnZt68czmrPH/2hGLxqWCPUqlAqVjg4GCfcvkl9doRx8dH1Os1Go06tZqMDarVVxwelqlUquzs7vL40Q6VvQKv91+ghF6HOOgS+RpRoDMZG1xdTrj+Nmfx/ZybxSXLmy/8WH7l9uc13C6A5TpCt9vCVltcOQbLaITiDn30nk2/a5OGAb7Xptd5i9l/j+t8YmB9YGhLPmbRNk9wrFMCt5URj3uEIxU/6JAkBooXmFhOj4GrMU1MIdLkc/MNuvYO2zjJsHQhYp5m0VrXvEETfyhF24SBykSQhBpKMtFEopJGQlAgB+XizJFwKF3K3BUCm1E6l8jxULgb+x0i4VYI9onDHmlsMEtWXMwdzmf2vVzMV/EstdaYKPOpSU4qxNJY/y38EJQ8kYKztWCeb9a3fW+ayVHyCdsEty24j/8r+M9nKG86F3woytlUihnZlUvhaXT3La9ewR/+GlvXlDgySWILGeOwj3yXs2T7lnMXqzdnM8uOZjVX1jKHPb1Lq6tiOCaeqwqH/TscmozFTyRwO6LlRLeIfk5EQ8Shlu3KG7YZ+Sq/ACeVKa122N/tAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="PracticaImg"
-        title="Imagen de la practica"
-        src="/gatsbyjs/static/5865a8c0319f3b5b3353d09a4292078d/36727/oracleinst3.png"
-        srcset="/gatsbyjs/static/5865a8c0319f3b5b3353d09a4292078d/acf4b/oracleinst3.png 173w,
-/gatsbyjs/static/5865a8c0319f3b5b3353d09a4292078d/fc834/oracleinst3.png 345w,
-/gatsbyjs/static/5865a8c0319f3b5b3353d09a4292078d/36727/oracleinst3.png 690w,
-/gatsbyjs/static/5865a8c0319f3b5b3353d09a4292078d/b12db/oracleinst3.png 994w"
-        sizes="(max-width: 690px) 100vw, 690px"
-        loading="lazy"
-      />
-  </a>
-    </span>
-<span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/gatsbyjs/static/ec8261a4c73b8dc8db13f99ef3e2f837/0896d/oracleinst4.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 75.77577577577577%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACpklEQVQ4y41TWVPTYBTNPwVfUBQQfXDsOPUNC/wrBRXoQtskTdPs+9amZShUZJzj+VIoy4wzPpzc5H655567fNL21ga2t15iZ2eTeI23O2+wu7uN2scP2G/sofFlD/v7DRweHqDRaODg4AD1+mfUajXaOtbWX2BjbR2fXm2i/u49pNDrw3d6iPwBIk9FHGrIUwuLqwLzywxX8wKL6ykWiwvc/Jrj5maO29/XFYBbtDunsNQeLi0df8ocUqwp8Jsd+K1z5L4Oy2hCU79jIB/D1E/h2y0Yyjd4xgmyoIvU6yB224idFkKriTJRUMQyTJ4H9EuhqcNVFDiKCs+z4FhtmKMzHjI4UpCGMjzzDK7RQhrIyCMVZaZjVhgVpvkIeTyANfxZJZeiUEEQ9BAzOGHwUP0BufsVav8I1h3xQDlBr3uCgdpEwNZkbMlk7GJSLDHObXhOFxETShnZhZIi1TDOhvDsDhyzxb52MMl1FPQp/eMKwp9SYRIuk8dBnwnP+d5HWehVvCQejzHSqEQ+gsvSBalvt5lEQZm7uJyF/MdGEpmEgSL3MJummJYRVZqEAUkoq5AtrUMCm0pEqQEJY6eJzO9gmiq4yFRkkQyxGQJpRBG5KNlh6Q6TmUuF9+UKG7EMm5MWExY9tEbNavI+V0oEz8pghenEJ7yKrEgGVfwTwjyhSkL07jmWLbmr5hHGVay2atlTQloxpOdBDxj+EyvCVaY7hcI+KPp/3PNIE8qtkC8drtXiNeyRnAOIlWqlslhd4f77uX9FmMRDxPGIi61zFXhbzHPeGAdh4CKJQ0SRjzD0+O3xvwBJEtK/tMIf8zyivZiVRAapJ7dx2m5B1mQYozayxOA0Pa6RU021EOC7QMC77rtcflfnemlIE5u3RsCBaw+5CUP8BfgpKVEn112MAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="PracticaImg"
-        title="Imagen de la practica"
-        src="/gatsbyjs/static/ec8261a4c73b8dc8db13f99ef3e2f837/36727/oracleinst4.png"
-        srcset="/gatsbyjs/static/ec8261a4c73b8dc8db13f99ef3e2f837/acf4b/oracleinst4.png 173w,
-/gatsbyjs/static/ec8261a4c73b8dc8db13f99ef3e2f837/fc834/oracleinst4.png 345w,
-/gatsbyjs/static/ec8261a4c73b8dc8db13f99ef3e2f837/36727/oracleinst4.png 690w,
-/gatsbyjs/static/ec8261a4c73b8dc8db13f99ef3e2f837/0896d/oracleinst4.png 999w"
-        sizes="(max-width: 690px) 100vw, 690px"
-        loading="lazy"
-      />
-  </a>
-    </span></p>
+<p>Lo instalaremos en Centos8.</p>
+<p>Para comenzar nos lo descargaremos de la web oficial de Oracle → <a href="https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox">https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox</a></p>
+<p>Instalación del paquete.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dnf <span class="token function">install</span> https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/oracle-database-preinstall-19c-1.0-1.el8.x86_64.rpm</code></pre></div>
+<p>Instalación del fichero rpm.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">rpm</span> -Uhv oracle-database-ee-19c-1.0-1.x86_64.rpm</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">cat</span> /etc/sysconfig/oracledb_ORCLCDB-19c.conf</code></pre></div>
+<p>Creación de base de datos de ejemplo.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">/etc/init.d/oracledb_ORCLCDB-19c configure</code></pre></div>
+<p>Usuario Oracle.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">su</span> - oracle
+<span class="token function">vi</span> ~/.bash_profile
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> -f ~/.bashrc <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+        <span class="token builtin class-name">.</span> ~/.bashrc
+<span class="token keyword">fi</span>
+
+<span class="token builtin class-name">umask</span> 022
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">ORACLE_SID</span><span class="token operator">=</span>ORCLCDB
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">ORACLE_BASE</span><span class="token operator">=</span>/opt/oracle/oradata
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">ORACLE_HOME</span><span class="token operator">=</span>/opt/oracle/product/19c/dbhome_1
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span><span class="token builtin class-name">:</span><span class="token variable">$ORACLE_HOME</span>/bin</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token builtin class-name">source</span> ~/.bash_profile</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">sqlplus / as sysdba 
+ 
+SQL*Plus: Release <span class="token number">19.0</span>.0.0.0 - Production on Tue Dec <span class="token number">21</span> 09:11:12 <span class="token number">2020</span>
+Version <span class="token number">19.3</span>.0.0.0
+ 
+Copyright <span class="token punctuation">(</span>c<span class="token punctuation">)</span> <span class="token number">1982</span>, <span class="token number">2019</span>, Oracle.  All rights reserved.
+ 
+Connected to an idle instance.
+ 
+SQL<span class="token operator">></span></code></pre></div>
+<p>Usuario</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> CREATE <span class="token environment constant">USER</span> c<span class="token comment">##fran IDENTIFIED BY fran;</span>
+SQL<span class="token operator">></span> GRANT ALL PRIVILEGES TO c<span class="token comment">##fran;</span></code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> DISCONNECT
+Desconectado de Oracle Database 19c Enterprise Edition Release <span class="token number">19.0</span>.0.0.0 - Production
+Version <span class="token number">19.3</span>.0.0.0
+<span class="token comment">#</span>
+SQL<span class="token operator">></span> CONNECT c<span class="token comment">##fran/fran</span>
+Conectado.</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> SELECT * FROM <span class="token function">cat</span><span class="token punctuation">;</span>
+
+TABLE_NAME
+--------------------------------------------------------------------------------
+
+TABLE_TYPE
+-----------
+
+HOTELES
+TABLE
+
+EMPLEADOS
+TABLE
+
+HABITACIONES
+TABLE</code></pre></div>
 <ul>
 <li>
 <h2 id="instalación-de-un-servidor-mongodb-y-configuración-para-permitir-el-acceso-remoto-desde-la-red-local"><a href="#instalaci%C3%B3n-de-un-servidor-mongodb-y-configuraci%C3%B3n-para-permitir-el-acceso-remoto-desde-la-red-local" aria-label="instalación de un servidor mongodb y configuración para permitir el acceso remoto desde la red local permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instalación de un servidor MongoDB y configuración para permitir el acceso remoto desde la red local.</h2>
