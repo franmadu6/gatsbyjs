@@ -350,9 +350,10 @@ $CONFIG = array (
 En este archivo modificaremos las lineas:
 
 * <span style="background-color:#ff5733; border-radius:0.3em; border-color: black;"> 'maintenance' => true, </span> ➜ <span style="background-color:#16ca5e; border-radius:0.3em; border-color: black;"> 'maintenance' => false,</span>
-para que la pagina deje de estar en mantenimeinto.
+<p>Para que la pagina deje de estar en mantenimeinto.</p>
 
 * <span style="background-color:#ff5733; border-radius:0.3em; border-color: black;"> 'dbhost' => 'localhost',</span> ➜ <span style="background-color:#16ca5e; border-radius:0.3em; border-color: black;"> 'dbhost' => '127.0.1.1',</span>
+<p>Nombre del servidor host</p>
 
 ![PracticaImg](images/iaw/nextcloud2.png "Imagen de la practica")
 
