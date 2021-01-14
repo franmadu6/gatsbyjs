@@ -356,6 +356,8 @@ En este archivo modificaremos las lineas:
 <p>Nombre del servidor host</p>
 
 ![PracticaImg](images/iaw/nextcloud2.png "Imagen de la practica")
+Con estos pasos ya estaria instalado y en funcionamiento nuestro servidor con NextCloud.
+
 
 3. Instala en un ordenador el cliente de nextcloud y realiza la configuración adecuada para acceder a "tu nube".
 
