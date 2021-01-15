@@ -361,3 +361,10 @@ Con estos pasos ya estaria instalado y en funcionamiento nuestro servidor con Ne
 
 3. Instala en un ordenador el cliente de nextcloud y realiza la configuración adecuada para acceder a "tu nube".
 
+La instalación es sencilla y rapida, en windows nos bajaremos la aplicación desde su pagina web. La configuración es siguiente, siguiente, etc... Nos deberemos de parar en el servidor que queramos usar en nuestro caso http://www.iesgn11.es/nextcloud 
+
+![PracticaImg](images/iaw/nextcloudcap.PNG "Imagen de la practica")
+
+![PracticaImg](images/iaw/nextcloudcap2.PNG "Imagen de la practica")
+
+![PracticaImg](images/iaw/nextcloudcap3.PNG "Imagen de la practica")
