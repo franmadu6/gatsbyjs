@@ -36,11 +36,11 @@ En nuestro caso CertBot, es fácil de usar, funciona en muchos sistemas operativ
 * ¿Qué configuración se realiza en el servidor web?
 <p>Los datos enviados usando HTTPS están asegurados por el protocolo TLS (Transport Layer Security), que ofrece 3 capas de protección fundamentales:
 
-Cifrado . El cifrado de los datos intercambiados los mantiene seguros de miradas indiscretas. Eso significa que mientras el usuario está navegando en un sitio web, nadie puede " escuchar" a sus conversaciones , realizar un seguimiento de sus actividades a través de múltiples páginas o robar su información.
+**Cifrado** ➜ El cifrado de los datos intercambiados los mantiene seguros de miradas indiscretas. Eso significa que mientras el usuario está navegando en un sitio web, nadie puede " escuchar" a sus conversaciones , realizar un seguimiento de sus actividades a través de múltiples páginas o robar su información.
 
-Integridad de los datos. Los datos no puede ser modificado o dañado durante la transferencia, intencionadamente o no, sin ser detectado.
+**Integridad de los datos** ➜ Los datos no puede ser modificado o dañado durante la transferencia, intencionadamente o no, sin ser detectado.
 
-Autenticación. Demuestra que los usuarios se comunican con la página web deseada. Protege contra los ataques y construye la confianza del usuario, lo que se traduce en más beneficios para el negocio.</p>
+**Autenticación** ➜ Demuestra que los usuarios se comunican con la página web deseada. Protege contra los ataques y construye la confianza del usuario, lo que se traduce en más beneficios para el negocio.</p>
 
 * ¿Qué pruebas realiza Let's Encrypt para asegurar que somos los administrados del sitio web?
 <p>Let’s Encrypt indentifica el administrador del servidor por llave pública. La primera vez que el software del agente interactúa con Let’s Encrypt, genera un nuevo par de llaves y demuestra al Let’s Encrypt CA que el servidor controla uno o más dominios. Esto es similar al proceso tradicional de un AC de crear una cuenta y agregar dominios a esa cuenta.</p>
