@@ -171,6 +171,9 @@ A continuación vamos a configurar la integración continúa para que cada vez q
 
 ### Crea el pipeline en el sistema de CI/CD para que pase automáticamente los tests. Muestra el fichero de configuración y una captura de pantalla con un resultado exitoso de la IC y otro con un error.
 
+
+<hr>
+
 A continuación vamos a realziar el despliegue coontinuo en un servicio de hosting, por ejemplo heroku.
 
 ### Entrega un breve descripción de los pasos más importantes para realizar el despliegue desde el sistema de CI/CS y entrega una prueba de funcionamiento donde se compruebe cómo se hace el despliegue automático.
