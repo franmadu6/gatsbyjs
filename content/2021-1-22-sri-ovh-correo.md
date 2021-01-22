@@ -11,9 +11,6 @@ tags:
 
 <center><img src="https://feedyourweb.com/wp-content/uploads/2017/12/Postfix_logo.png"/></center>
 
-![PracticaImg](https://feedyourweb.com/wp-content/uploads/2017/12/Postfix_logo.png "Imagen de la practica")
-
-
 ## Práctica: Servidor de correos
 
 ### Instala y configura de manera adecuada el servidor de correos en tu máquina de OVH, para tu dominio iesgnXX.es. El nombre del servidor de correo será mail.iesgnXX.es (Este es el nombre que deberá aparecer en el registro MX)
