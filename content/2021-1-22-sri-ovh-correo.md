@@ -17,7 +17,7 @@ tags:
 
 <hr>
 
-Gestión de correos desde el servidor
+#### Gestión de correos desde el servidor
 
 * Tarea 1: Documenta una prueba de funcionamiento, donde envíes desde tu servidor local al exterior. Muestra el log donde se vea el envío. Muestra el correo que has recibido. Muestra el registro SPF.
 
@@ -25,3 +25,14 @@ Gestión de correos desde el servidor
 
 
 <hr>
+
+#### Uso de alias y redirecciones
+
+
+* Tarea 3 (No obligatoria): Uso de alias y redirecciones.
+
+<hr>
+
+#### Para asegurar el envío
+
+* Tarea 4 (No obligatoria): Configura de manera adecuada DKIM es tu sistema de correos. Comprueba el registro DKIM en la página https://mxtoolbox.com/dkim.aspx. Configura postfix para que firme los correos que envía. Manda un correo y comprueba la verificación de las firmas en ellos.
