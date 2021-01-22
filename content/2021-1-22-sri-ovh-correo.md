@@ -9,9 +9,8 @@ tags:
     - Servidor de Correo
 ---
 
-<center>https://feedyourweb.com/wp-content/uploads/2017/12/Postfix_logo.png</center>
 
-![PracticaImg](https://feedyourweb.com/wp-content/uploads/2017/12/Postfix_logo.png "Imagen de la practica")
+<center>![PracticaImg](https://feedyourweb.com/wp-content/uploads/2017/12/Postfix_logo.png "Imagen de la practica")</center>
 
 
 ## Práctica: Servidor de correos
