@@ -10,7 +10,7 @@ tags:
 ---
 
 
-![PracticaImg](https://archeando.files.wordpress.com/2013/12/email-logo.jpg "Imagen de la practica")
+![PracticaImg](https://feedyourweb.com/wp-content/uploads/2017/12/Postfix_logo.png "Imagen de la practica")
 
 
 ## Práctica: Servidor de correos
