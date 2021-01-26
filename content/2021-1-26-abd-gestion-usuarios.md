@@ -132,9 +132,29 @@ Los roles son muy similares pero puesto a que MySQL los ha implementado hacer mu
 
 
 **11. Averigua si existe el concepto de perfil como conjunto de límites sobre el uso de recursos o sobre la contraseña en MySQL y señala las diferencias con los perfiles de ORACLE.**
-```shell
 
-```
+**MySQL:**
+
+Una forma de limitar los recursos de los servidores MySQL es asignar a la variable de sistema max_user_connections un valor distinto de cero. Sin embargo,este método es estrictamente global, y no está permitido para la administración de cuentas individuales. Además, limita sólo el número de conexiones simultáneas hechas usando una sóla cuenta, y no lo que un cliente puede hacer una vez conectado. Ambos tipos de control son interesantes para muchos administradores de MySQL, particularmente aquéllos que trabajan en ISPs.
+
+MySQL puede limitar:
+
+- Número de consultas que un usuario pueda hacer cada hora.
+- Número de updates que un usuario puede hacer cada hora.
+- Número de veces que un usuario puede acceder al servidor a la hora.
+- Número de conexiones simultaneas permitidas para cada usuario (como max_user_connections pero a nivel individual en lugar de global).
+
+
+**Oracle:**
+
+Un perfil de usuario es una forma de limitar los recursos que puede utilizar un usuario, cada usuario puede tener un único perfil, antes de asignar un perfil a un usuario es necesario que este perfil exista en la base de datos, un perfil se asigna en la creación de un usuario CREATE USER o modificándolo ALTER USER. 
+
+- Los recursos que limitamos son recursos del kernel: uso de la CPU, duración de sesion,...
+- Y tambien limites de uso de las claves de acceso (passwords): duración, intentos de acceso, reuso, ... 
+
+En este caso nos volvemos a encontrar con el mismo problema aunque ambos tengan un sistema para poder controlar el uso de recursos de los usuarios, MySQL se queda muy atrás en opciones de configuración.
+
+En Orcle la configuración es mucho mas detallada y te permite controlar prácticamente cualquier recurso utilizado por el usuario.
 
 **12. Realiza consultas al diccionario de datos de MySQL para averiguar todos los privilegios que tiene un usuario concreto.**
 ```shell
