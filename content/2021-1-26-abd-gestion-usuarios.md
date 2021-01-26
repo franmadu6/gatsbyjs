@@ -58,7 +58,7 @@ tags:
 
 # MySQL:
 
-Antes de comenzar crearemos una base de datos y un usuario de prueba:
+Antes de comenzar crearemos una base de datos y un usuario de prueba para la realización de ejercicios:
 ```shell
 MariaDB [(none)]> create database testdeusuarios;
 Query OK, 1 row affected (0.000 sec)
@@ -90,6 +90,7 @@ Query OK, 0 rows affected (0.004 sec)
 
 <center><img alt="Privilegios" src="https://wiki.cifprodolfoucha.es/images/b/b3/Mysql_seguridad_20.jpg"/></center>
 Como asignar privilegios:
+
 ```shell
 GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP
     -> ON mitabla.*
@@ -124,6 +125,7 @@ MariaDB [testdeusuarios]> SHOW GRANTS FOR 'permisosuser'@'localhost';
 ```
 
 **10. Averigua si existe el concepto de rol en MySQL y señala las diferencias con los roles de ORACLE.**
+
 Si, en MySQL existen los roles, e identifican un conjunto de permisos, a partir de la versión 8 de MySQL ya están disponibles.
 
 Los roles son muy similares pero puesto a que MySQL los ha implementado hacer muy poco están algo menos desarrollados que en Oracle, por ejemplo, en Oracle existen roles que se utilizan para el uso de aplicaciones, también existen roles locales, externos o globales, y además se puede aumentar la seguridad del uso de roles añadiendoles contraseñas que permiten concretar aún más las funciones del rol que queramos crear.
