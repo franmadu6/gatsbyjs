@@ -1,5 +1,5 @@
 ---
-date: 2021-01-22
+date: 2021-01-26
 title: "[ABD] - Gestión de Usuarios"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
@@ -15,12 +15,12 @@ tags:
 
 **1. (ORACLE, Postgres, MySQL) Crea un usuario llamado Becario y, sin usar los roles de ORACLE, dale los siguientes privilegios:**
 
-    ◦ Conectarse a la base de datos.
-    ◦ Modificar el número de errores en la introducción de la contraseña de cualquier usuario.
-    ◦ Modificar índices en cualquier esquema (este privilegio podrá pasarlo a quien quiera)
-    ◦ Insertar filas en scott.emp (este privilegio podrá pasarlo a quien quiera)
-    ◦ Crear objetos en cualquier tablespace.
-    ◦ Gestión completa de usuarios, privilegios y roles.
+* Conectarse a la base de datos.
+* Modificar el número de errores en la introducción de la contraseña de cualquier usuario.
+* Modificar índices en cualquier esquema (este privilegio podrá pasarlo a quien quiera)
+* Insertar filas en scott.emp (este privilegio podrá pasarlo a quien quiera)
+* Crear objetos en cualquier tablespace.
+* Gestión completa de usuarios, privilegios y roles.
 
 **2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.**
 
