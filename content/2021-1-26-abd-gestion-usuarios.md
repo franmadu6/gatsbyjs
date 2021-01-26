@@ -22,7 +22,21 @@ tags:
 * Crear objetos en cualquier tablespace.
 * Gestión completa de usuarios, privilegios y roles.
 
+**Oracle**
 ```shell
+
+```
+
+**Postgres**
+```shell
+
+```
+
+**MySQL**
+```shell
+MariaDB [(none)]> create user Becario;
+Query OK, 0 rows affected (0.001 sec)
+
 
 ```
 
@@ -172,5 +186,11 @@ MariaDB [testdeusuarios]> SHOW GRANTS FOR 'permisosuser'@'localhost';
 
 **13. Realiza consultas al diccionario de datos en MySQL para averiguar qué usuarios pueden consultar una tabla concreta.**
 ```shell
-
+MariaDB [testdeusuarios]> SELECT user, table_name FROM mysql.tables_priv;
++--------------+------------+
+| user         | table_name |
++--------------+------------+
+| permisosuser | mitabla    |
++--------------+------------+
+1 row in set (0.000 sec)
 ```
