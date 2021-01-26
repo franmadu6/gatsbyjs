@@ -7,9 +7,10 @@ categories:
 tags:
     - OVH
     - Servidor de Correo
+    - Postfix
 ---
 
-<center><img src="https://feedyourweb.com/wp-content/uploads/2017/12/Postfix_logo.png"/></center>
+<center><img alt="Postfix" src="https://feedyourweb.com/wp-content/uploads/2017/12/Postfix_logo.png"/></center>
 
 ## Práctica: Servidor de correos
 
@@ -22,7 +23,13 @@ tags:
 
 * Tarea 2: Documenta una prueba de funcionamiento, donde envíes un correo desde el exterior (gmail, hotmail,…) a tu servidor local. Muestra el log donde se vea el envío. Muestra cómo has leído el correo. Muestra el registro MX de tu dominio.
 
+Lo primero que debemos hacer es añadir el registro de mail.iesgn11.es en OVH.
+![PracticaImg](images/servicios/ovh-postfix1.png "Imagen de la practica")
 
+Y ahora comenzaremos la instalación de mi servidor de correos.
+```shell
+apt install postfix
+```
 #### Uso de alias y redirecciones
 <hr>
 

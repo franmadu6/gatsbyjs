@@ -153,20 +153,20 @@ root@freston:~# nano /var/cache/bind/db.madu.externa
 ```
 ```shell
 $TTL    86400
-@       IN      SOA     freston.madu.gonzalonazareno.org. admin.madu.gonzalonazareno.org. (
+@       IN      SOA     dulcinea.madu.gonzalonazareno.org. admin.madu.gonzalonazareno.org. (
                        20121501         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
                           86400 )       ; Negative Cache TTL
 ;
-@       IN      NS      freston.madu.gonzalonazareno.org.
+@       IN      NS      dulcinea.madu.gonzalonazareno.org.
 
 $ORIGIN madu.gonzalonazareno.org.
 
 dulcinea        IN      A       172.22.201.38
 www     IN      CNAME   dulcinea
-
+test    IN      CNAME   dulcinea
 ```
 
 ### Resoluciones inversas:

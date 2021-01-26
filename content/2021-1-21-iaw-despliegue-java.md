@@ -10,7 +10,7 @@ tags:
     - GUACAMOLE
 ---
 
-![PracticaImg](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAA14R3Xh139iog_yTHZ-e_okq_DS4AX0hOQ&usqp=CAU "Imagen de la practica")
+<center><img alt="Guacamole" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAA14R3Xh139iog_yTHZ-e_okq_DS4AX0hOQ&usqp=CAU"/></center>
 
 ### En esta práctica vamos a desplegar un CMS escrito en java. Puedes escoger la aplicación que vas a desplegar de CMS escritos en Java o de Aplicaciones Java en Bitnami.
 
