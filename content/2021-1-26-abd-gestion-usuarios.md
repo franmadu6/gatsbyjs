@@ -157,8 +157,17 @@ En este caso nos volvemos a encontrar con el mismo problema aunque ambos tengan 
 En Orcle la configuración es mucho mas detallada y te permite controlar prácticamente cualquier recurso utilizado por el usuario.
 
 **12. Realiza consultas al diccionario de datos de MySQL para averiguar todos los privilegios que tiene un usuario concreto.**
-```shell
 
+Le añadiremos varios privilegios a un usuario y procederemos a ver todos los privilegios que utiliza:
+```shell
+MariaDB [testdeusuarios]> SHOW GRANTS FOR 'permisosuser'@'localhost';
++---------------------------------------------------------------------------------------------------------------------+
+| Grants for permisosuser@localhost                                                                                   |
++---------------------------------------------------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO `permisosuser`@`localhost` IDENTIFIED BY PASSWORD '*C21820D07C10B6E384D073EBC018312F95E2848E' |
+| GRANT SELECT, INSERT, DELETE ON `testdeusuarios`.`mitabla` TO `permisosuser`@`localhost`                            |
++---------------------------------------------------------------------------------------------------------------------+
+2 rows in set (0.000 sec)
 ```
 
 **13. Realiza consultas al diccionario de datos en MySQL para averiguar qué usuarios pueden consultar una tabla concreta.**
