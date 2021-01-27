@@ -69,19 +69,6 @@ grant grant any role to Becario;
 ```
 
 
-**Postgres**
-```shell
-
-```
-
-**MySQL**
-```shell
-MariaDB [(none)]> create user Becario;
-Query OK, 0 rows affected (0.001 sec)
-
-
-```
-
 **2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.**
 ```shell
 
