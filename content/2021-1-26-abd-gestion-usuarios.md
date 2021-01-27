@@ -30,10 +30,8 @@ grant create profile to Becario;
 Create profile Limitepasswd LIMIT
 FAILED_LOGIN_ATTEMPTS 5
 ;
-
 #Ahora le damos al usuario becarios la posibilidad de dar dicho perfil
 grant alter user to Becario;
-
 #Y ahora este usuario podría dar el perfil a diferentes usuarios
 Alter user {USUARIO} profile Limitepasswd;
 ```
