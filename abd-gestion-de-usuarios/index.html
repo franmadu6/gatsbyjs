@@ -88,13 +88,8 @@ grant drop user to Becario<span class="token punctuation">;</span></code></pre><
 grant drop any role to Becario;
 grant alter any role to Becario;
 grant grant any role to Becario;</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">**Postgres**
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">**2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.**
 ```shell</code></pre></div>
-<p><strong>MySQL</strong></p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">MariaDB <span class="token punctuation">[</span><span class="token punctuation">(</span>none<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token operator">></span> create user Becario<span class="token punctuation">;</span>
-Query OK, <span class="token number">0</span> rows affected <span class="token punctuation">(</span><span class="token number">0.001</span> sec<span class="token punctuation">)</span></code></pre></div>
-<p><strong>2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.</strong></p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"></code></pre></div>
 <p><strong>3. Realiza un procedimiento llamado MostrarPrivilegiosdelRol que reciba el nombre de un rol y muestre los privilegios de sistema y los privilegios sobre objetos que lo componen.</strong></p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">Create or replace procedure MostrarPrivilegiosdelRol<span class="token punctuation">(</span>p_user varchar2<span class="token punctuation">)</span>
 is
