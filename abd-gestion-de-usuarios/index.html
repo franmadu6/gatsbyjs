@@ -78,18 +78,18 @@ Alter user <span class="token punctuation">{</span>USUARIO<span class="token pun
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment">#Usuarios</span>
 grant create user to Becario<span class="token punctuation">;</span>
 grant alter user to Becario<span class="token punctuation">;</span>
-grant drop user to Becario<span class="token punctuation">;</span></code></pre></div>
+grant drop user to Becario<span class="token punctuation">;</span>
+<span class="token comment">#Privilegios</span>
+grant grant any privilege to Becario<span class="token punctuation">;</span>
+<span class="token comment">#Roles</span>
+grant create role to Becario<span class="token punctuation">;</span>
+grant drop any role to Becario<span class="token punctuation">;</span>
+grant alter any role to Becario<span class="token punctuation">;</span>
+grant grant any role to Becario<span class="token punctuation">;</span></code></pre></div>
 </li>
 </ul>
-<h1 id="privilegios"><a href="#privilegios" aria-label="privilegios permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Privilegios</h1>
-<p>grant grant any privilege to Becario;</p>
-<h1 id="roles"><a href="#roles" aria-label="roles permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Roles</h1>
-<p>grant create role to Becario;
-grant drop any role to Becario;
-grant alter any role to Becario;
-grant grant any role to Becario;</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">**2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.**
-```shell</code></pre></div>
+<p><strong>2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.</strong></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"></code></pre></div>
 <p><strong>3. Realiza un procedimiento llamado MostrarPrivilegiosdelRol que reciba el nombre de un rol y muestre los privilegios de sistema y los privilegios sobre objetos que lo componen.</strong></p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">Create or replace procedure MostrarPrivilegiosdelRol<span class="token punctuation">(</span>p_user varchar2<span class="token punctuation">)</span>
 is
