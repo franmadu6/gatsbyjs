@@ -35,6 +35,7 @@ Lo instalaremos en Centos8.
 Para comenzar nos lo descargaremos de la web oficial de Oracle → https://www.oracle.com/es/database/technologies/oracle19c-linux-downloads.html#license-lightbox
 
 Instalación del paquete.
+
 ```shell
 dnf install https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/oracle-database-preinstall-19c-1.0-1.el8.x86_64.rpm
 ```
@@ -125,6 +126,7 @@ TABLE
 ### Requisitos:
 <hr>
 Instalamos herramientas:
+
 ```shell
 sudo apt install -y gnupg
 ```
@@ -144,6 +146,7 @@ deb http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 main
 
 ### Comenzamos la instalación
 <hr>
+
 ```shell
 fran@debian:~$ sudo apt update
 Obj:1 http://deb.debian.org/debian buster InRelease
