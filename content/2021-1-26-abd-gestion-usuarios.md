@@ -95,9 +95,7 @@ Create or replace procedure MostrarPrivilegiosdelRol(p_user varchar2)
 is
 	USERNAME=p_user;
 begin
-	select privilege
-    from dba_sys_privs
-    where grantee = 'RESOURCE'
+	SELECT * FROM USER_ROLE_PRIVS; 
 	if p_user=0 then
 		raise_application_error(-20001,'Ese usuario no existe');
 	end if;
