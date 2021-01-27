@@ -91,7 +91,18 @@ Query OK, 0 rows affected (0.001 sec)
 
 **3. Realiza un procedimiento llamado MostrarPrivilegiosdelRol que reciba el nombre de un rol y muestre los privilegios de sistema y los privilegios sobre objetos que lo componen.**
 ```shell
-https://ajpdsoft.com/modules.php?name=Foros&file=viewtopic&t=672
+Create or replace procedure MostrarPrivilegiosdelRol(p_user varchar2)
+is
+	USERNAME=p_user;
+begin
+	select privilege
+    from dba_sys_privs
+    where grantee = 'RESOURCE'
+	if p_user=0 then
+		raise_application_error(-20001,'Ese usuario no existe');
+	end if;
+end;
+/
 ```
 
 **4. Realiza un procedimiento llamado PermisosdeAsobreB que reciba dos nombres de usuario y muestre los permisos que tiene el primero de ellos sobre objetos del segundo.**
@@ -106,54 +117,53 @@ https://ajpdsoft.com/modules.php?name=Foros&file=viewtopic&t=672
 
 **6. (ORACLE, Postgres) Realiza un procedimiento que reciba un nombre de usuario y nos muestre cuántas sesiones tiene abiertas en este momento. Además, para cada una de dichas sesiones nos mostrará la hora de comienzo y el nombre de la máquina, sistema operativo y programa desde el que fue abierta.**
 ```shell
-Create or replace procedure MostrarExcepciones(p_user varchar2)
+Create or replace procedure ver.excepciones(p_user varchar2)
 is
-	v_existe number(1):=0;
+	si.existe number(1):=0;
 begin
-	Select count(*) into v_existe
+	Select count(*) into si.existe
 	from dba_users
 	where USERNAME=p_user;
-	if v_existe=0 then
-		raise_application_error(-20001,'Ese usuario no existe');
+	if si.existe=0 then
+		raise_application_error(-20001,'El usuario que buscas no existe');
 	end if;
 end;
 /
 
-#El nombre del sistema operativo no está disponible para buscar en Oracle, lo máximo que se puede hacer es buscar el usuario del sistema que está usando, pero no su sistema operativo.
+#El nombre del sistema operativo no está disponible para buscar en Oracle, una solución que se puede hacer es buscar el usuario del sistema que está usando, pero no un sistema operativo.
 
-Create or replace procedure MostrarSesiones(p_user varchar2)
+Create or replace procedure ver.sesiones(p_user varchar2)
 is
-	cursor c_sesiones is
+	cursor c.sesiones is
 	select MACHINE as maquina,to_char(LOGON_TIME,'YYYY/MM/DD HH24:MI') as comienzo,program as programa
 	from v$session 
 	where USERNAME=p_user;
-	v_contador number(2):=1;
+	contador number(2):=1;
 begin
-	for v_sesiones in c_sesiones loop
-		dbms_output.put_line('Sesion '||v_contador||'->');
-		dbms_output.put_line('Hora de comienzo: '||v_sesiones.comienzo);
-		dbms_output.put_line('El nombre de su máquina es: '||v_sesiones.maquina);
-		dbms_output.put_line('El nombre del programa es: '||v_sesiones.programa);
-		v_contador:=v_contador+1;
+	for v.sesiones in c.sesiones loop
+		dbms_output.put_line('Sesion '||contador||'->');
+		dbms_output.put_line('Hora de comienzo: '||v.sesiones.comienzo);
+		dbms_output.put_line('Nombre Máquina: '||v.sesiones.maquina);
+		dbms_output.put_line('Nombre Programa: '||v.sesiones.programa);
+		contador:=contador+1;
 	end loop;
 end;
 /
 
-Create or replace procedure ExaminarConexiones(p_user varchar2)
+Create or replace procedure ver.conexiones(p_user varchar2)
 is
 begin
 	dbms_output.put_line('Usuario: '||p_user);
-	dbms_output.put_line('------------------');
-	MostrarExcepciones(p_user);
-	MostrarSesionesAbiertas(p_user);
-	MostrarSesiones(p_user);
+	ver.excepciones(p_user);
+	ver.sesiones.abiertas(p_user);
+	ver.sesiones(p_user);
 end;
 /
 ```
 
 **7. (ORACLE) Realiza un procedimiento que muestre los usuarios que pueden conceder privilegios de sistema a otros usuarios y cuales son dichos privilegios.**
 ```shell
-Create or replace procedure verusuariorolsimple(p_rol varchar2,p_privilegio varchar2)
+Create or replace procedure ver_usuario_simple(p_rol varchar2,p_privilegio varchar2)
 is
 	cursor c_usuarios is
 	Select GRANTEE
@@ -168,7 +178,7 @@ begin
 end;
 /
 
-Create or replace procedure verusuariorolcompuesto(p_rol varchar2,p_privilegio varchar2)
+Create or replace procedure ver_usuario_compuesto(p_rol varchar2,p_privilegio varchar2)
 is
 	cursor c_compuesto is
 	select GRANTEE
@@ -183,15 +193,15 @@ begin
 	and PRIVILEGE=p_privilegio;
 	if v_analizarprivilegio != 0 then
 		for v_compuesto in c_compuesto loop
-			verusuariorolsimple(v_compuesto.GRANTEE,p_privilegio);
+			ver_usuario_simple(v_compuesto.GRANTEE,p_privilegio);
 		end loop;
 	else
-		verusuariorolsimple(p_rol,p_privilegio);
+		ver_usuario_simple(p_rol,p_privilegio);
 	end if;
 end;
 /
 
-Create or replace procedure privilegiossuperusuariorol
+Create or replace procedure privilegios_superusuario_rol
 is
 	cursor c_privs is
 	Select GRANTEE,PRIVILEGE
@@ -207,16 +217,16 @@ begin
 		FROM DBA_ROLE_PRIVS
 		where GRANTED_ROLE=v_privs.GRANTEE;
 		if v_compuesto=0 then
-			verusuariorolsimple(v_privs.GRANTEE,v_privs.PRIVILEGE);
+			ver_usuario_simple(v_privs.GRANTEE,v_privs.PRIVILEGE);
 		else
-			verusuariorolcompuesto(v_privs.GRANTEE,v_privs.PRIVILEGE);
+			ver_usuario_compuesto(v_privs.GRANTEE,v_privs.PRIVILEGE);
 		end if;
 	end loop;
 end;
 /
 
 
-Create or replace procedure privilegiossuperusuariodirecto
+Create or replace procedure privilegios_superusuario_directo
 is
 	cursor c_privsd is
 	Select GRANTEE,PRIVILEGE
@@ -233,14 +243,13 @@ begin
 end;
 /
 
-Create or replace procedure privilegiossuperusuario
+Create or replace procedure privilegios_superusuario
 is
 	
 begin
-	dbms_output.put_line('Usuarios que pueden conceder privilegios');
-	dbms_output.put_line('----------------------------------------');
-	privilegiossuperusuariodirecto;
-	privilegiossuperusuariorol;
+	dbms_output.put_line('Usuarios que pueden dar privilegios');
+	privilegios_superusuariodirecto;
+	privilegios_superusuariorol;
 end;
 /
 ```
