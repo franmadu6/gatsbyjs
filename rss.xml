@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 27 Jan 2021 17:39:10 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] - Gestión de Usuarios]]></title><description><![CDATA[PRÁCTICA TEMA 3: USUARIOS ORACLE: 1. (ORACLE, Postgres, MySQL) Crea un usuario llamado Becario y, sin usar los roles de ORACLE, dale los…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-gestion-de-usuarios</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-gestion-de-usuarios</guid><category><![CDATA[Gestión]]></category><category><![CDATA[Usuarios]]></category><pubDate>Mon, 25 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-tema-3-usuarios&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-tema-3-usuarios&quot; aria-label=&quot;práctica tema 3 usuarios permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PRÁCTICA TEMA 3: USUARIOS&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 27 Jan 2021 18:49:44 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] - Gestión de Usuarios]]></title><description><![CDATA[PRÁCTICA TEMA 3: USUARIOS ORACLE: 1. (ORACLE, Postgres, MySQL) Crea un usuario llamado Becario y, sin usar los roles de ORACLE, dale los…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-gestion-de-usuarios</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-gestion-de-usuarios</guid><category><![CDATA[Gestión]]></category><category><![CDATA[Usuarios]]></category><pubDate>Mon, 25 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-tema-3-usuarios&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-tema-3-usuarios&quot; aria-label=&quot;práctica tema 3 usuarios permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PRÁCTICA TEMA 3: USUARIOS&lt;/h2&gt;
 &lt;h1 id=&quot;oracle&quot;&gt;&lt;a href=&quot;#oracle&quot; aria-label=&quot;oracle permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ORACLE:&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;1. (ORACLE, Postgres, MySQL) Crea un usuario llamado Becario y, sin usar los roles de ORACLE, dale los siguientes privilegios:&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Create user Becario identified by Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -54,57 +54,67 @@ Query OK, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; rows affecte
 &lt;p&gt;&lt;strong&gt;2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;3. Realiza un procedimiento llamado MostrarPrivilegiosdelRol que reciba el nombre de un rol y muestre los privilegios de sistema y los privilegios sobre objetos que lo componen.&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;https://ajpdsoft.com/modules.php?name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Foros&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;viewtopic&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;672&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Create or replace procedure MostrarPrivilegiosdelRol&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+is
+	&lt;span class=&quot;token assign-left variable&quot;&gt;USERNAME&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;p_user&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+begin
+	&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; privilege
+    from dba_sys_privs
+    where grantee &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;RESOURCE&apos;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;p_user&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+		raise_application_error&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;-20001,&lt;span class=&quot;token string&quot;&gt;&apos;Ese usuario no existe&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;4. Realiza un procedimiento llamado PermisosdeAsobreB que reciba dos nombres de usuario y muestre los permisos que tiene el primero de ellos sobre objetos del segundo.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;5. Realiza un procedimiento llamado MostrarInfoPerfil que reciba el nombre de un perfil y muestre su composición y los usuarios que lo tienen asignado.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;6. (ORACLE, Postgres) Realiza un procedimiento que reciba un nombre de usuario y nos muestre cuántas sesiones tiene abiertas en este momento. Además, para cada una de dichas sesiones nos mostrará la hora de comienzo y el nombre de la máquina, sistema operativo y programa desde el que fue abierta.&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Create or replace procedure MostrarExcepciones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Create or replace procedure ver.excepciones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 is
-	v_existe number&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	si.existe number&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 begin
-	Select count&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;*&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; into v_existe
+	Select count&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;*&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; into si.existe
 	from dba_users
 	where &lt;span class=&quot;token assign-left variable&quot;&gt;USERNAME&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;p_user&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;v_existe&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-		raise_application_error&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;-20001,&lt;span class=&quot;token string&quot;&gt;&apos;Ese usuario no existe&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; si.existe&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+		raise_application_error&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;-20001,&lt;span class=&quot;token string&quot;&gt;&apos;El usuario que buscas no existe&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 	end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /
 
-&lt;span class=&quot;token comment&quot;&gt;#El nombre del sistema operativo no está disponible para buscar en Oracle, lo máximo que se puede hacer es buscar el usuario del sistema que está usando, pero no su sistema operativo.&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#El nombre del sistema operativo no está disponible para buscar en Oracle, una solución que se puede hacer es buscar el usuario del sistema que está usando, pero no un sistema operativo.&lt;/span&gt;
 
-Create or replace procedure MostrarSesiones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Create or replace procedure ver.sesiones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 is
-	cursor c_sesiones is
+	cursor c.sesiones is
 	&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; MACHINE as maquina,to_char&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;LOGON_TIME,&lt;span class=&quot;token string&quot;&gt;&apos;YYYY/MM/DD HH24:MI&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; as comienzo,program as programa
 	from &lt;span class=&quot;token function&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$session&lt;/span&gt; 
 	where &lt;span class=&quot;token assign-left variable&quot;&gt;USERNAME&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;p_user&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	v_contador number&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	contador number&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 begin
-	&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;v_sesiones&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; c_sesiones loop
-		dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Sesion &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;v_contador&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;-&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-		dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Hora de comienzo: &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;v_sesiones.comienzo&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-		dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;El nombre de su máquina es: &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;v_sesiones.maquina&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-		dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;El nombre del programa es: &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;v_sesiones.programa&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-		v_contador:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;v_contador+1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; v.sesiones &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; c.sesiones loop
+		dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Sesion &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;contador&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;-&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+		dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Hora de comienzo: &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;v.sesiones.comienzo&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+		dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Nombre Máquina: &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;v.sesiones.maquina&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+		dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Nombre Programa: &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;v.sesiones.programa&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+		contador:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;contador+1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 	end loop&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /
 
-Create or replace procedure ExaminarConexiones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Create or replace procedure ver.conexiones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 is
 begin
 	dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Usuario: &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;p_user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;------------------&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	MostrarExcepciones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	MostrarSesionesAbiertas&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	MostrarSesiones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	ver.excepciones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	ver.sesiones.abiertas&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	ver.sesiones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;7. (ORACLE) Realiza un procedimiento que muestre los usuarios que pueden conceder privilegios de sistema a otros usuarios y cuales son dichos privilegios.&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Create or replace procedure verusuariorolsimple&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol varchar2,p_privilegio varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Create or replace procedure ver_usuario_simple&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol varchar2,p_privilegio varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 is
 	cursor c_usuarios is
 	Select GRANTEE
@@ -119,7 +129,7 @@ begin
 end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /
 
-Create or replace procedure verusuariorolcompuesto&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol varchar2,p_privilegio varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Create or replace procedure ver_usuario_compuesto&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol varchar2,p_privilegio varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 is
 	cursor c_compuesto is
 	&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; GRANTEE
@@ -134,15 +144,15 @@ begin
 	and &lt;span class=&quot;token assign-left variable&quot;&gt;PRIVILEGE&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;p_privilegio&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 	&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; v_analizarprivilegio &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
 		&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;v_compuesto&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; c_compuesto loop
-			verusuariorolsimple&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;v_compuesto.GRANTEE,p_privilegio&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+			ver_usuario_simple&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;v_compuesto.GRANTEE,p_privilegio&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 		end loop&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 	&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
-		verusuariorolsimple&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol,p_privilegio&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+		ver_usuario_simple&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol,p_privilegio&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 	end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /
 
-Create or replace procedure privilegiossuperusuariorol
+Create or replace procedure privilegios_superusuario_rol
 is
 	cursor c_privs is
 	Select GRANTEE,PRIVILEGE
@@ -158,16 +168,16 @@ begin
 		FROM DBA_ROLE_PRIVS
 		where &lt;span class=&quot;token assign-left variable&quot;&gt;GRANTED_ROLE&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;v_privs.GRANTEE&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 		&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;v_compuesto&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-			verusuariorolsimple&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;v_privs.GRANTEE,v_privs.PRIVILEGE&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+			ver_usuario_simple&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;v_privs.GRANTEE,v_privs.PRIVILEGE&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 		&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
-			verusuariorolcompuesto&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;v_privs.GRANTEE,v_privs.PRIVILEGE&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+			ver_usuario_compuesto&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;v_privs.GRANTEE,v_privs.PRIVILEGE&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 		end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 	end loop&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /
 
 
-Create or replace procedure privilegiossuperusuariodirecto
+Create or replace procedure privilegios_superusuario_directo
 is
 	cursor c_privsd is
 	Select GRANTEE,PRIVILEGE
@@ -184,14 +194,13 @@ begin
 end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /
 
-Create or replace procedure privilegiossuperusuario
+Create or replace procedure privilegios_superusuario
 is
 	
 begin
-	dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Usuarios que pueden conceder privilegios&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;----------------------------------------&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	privilegiossuperusuariodirecto&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	privilegiossuperusuariorol&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Usuarios que pueden dar privilegios&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	privilegios_superusuariodirecto&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	privilegios_superusuariorol&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h1 id=&quot;mysql&quot;&gt;&lt;a href=&quot;#mysql&quot; aria-label=&quot;mysql permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;MySQL:&lt;/h1&gt;
