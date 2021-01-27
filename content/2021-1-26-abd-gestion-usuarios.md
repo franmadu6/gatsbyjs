@@ -26,7 +26,7 @@ grant create session to Becario;
 * Modificar el número de errores en la introducción de la contraseña de cualquier usuario.
 ```shell
 grant create profile to Becario;
-
+#
 Create profile Limitepasswd LIMIT
 FAILED_LOGIN_ATTEMPTS 5
 ;
