@@ -100,9 +100,7 @@ Query OK, <span class="token number">0</span> rows affected <span class="token p
 is
 	<span class="token assign-left variable">USERNAME</span><span class="token operator">=</span>p_user<span class="token punctuation">;</span>
 begin
-	<span class="token keyword">select</span> privilege
-    from dba_sys_privs
-    where grantee <span class="token operator">=</span> <span class="token string">'RESOURCE'</span>
+	SELECT * FROM USER_ROLE_PRIVS<span class="token punctuation">;</span> 
 	<span class="token keyword">if</span> <span class="token assign-left variable">p_user</span><span class="token operator">=</span><span class="token number">0</span> <span class="token keyword">then</span>
 		raise_application_error<span class="token punctuation">(</span>-20001,<span class="token string">'Ese usuario no existe'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 	end <span class="token keyword">if</span><span class="token punctuation">;</span>
