@@ -57,10 +57,8 @@ grant unlimited tablespace to Becario;
 grant create user to Becario;
 grant alter user to Becario;
 grant drop user to Becario;
-
 #Privilegios
 grant grant any privilege to Becario;
-
 #Roles
 grant create role to Becario;
 grant drop any role to Becario;
