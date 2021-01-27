@@ -3,7 +3,7 @@ date: 2020-11-30
 title: "Elección de Forma Jurídica"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - ABD
+    - EIE
 tags:
     - Forma Jurídica
 ---
