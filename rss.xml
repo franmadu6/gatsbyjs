@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 28 Jan 2021 09:22:58 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Sistemas de ficheros 'avanzados' ZFS/Btrfs]]></title><description><![CDATA[Elige uno de los dos sistemas de ficheros "avanzados". Esta tarea se puede realizar en una instancia de OpenStack y documentarla como…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</guid><category><![CDATA[ZFS/Btrfs]]></category><category><![CDATA[Sistemas de ficheros avanzados]]></category><pubDate>Tue, 26 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Elige uno de los dos sistemas de ficheros &quot;avanzados&quot;.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 28 Jan 2021 09:35:05 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Sistemas de ficheros 'avanzados' ZFS/Btrfs]]></title><description><![CDATA[Elige uno de los dos sistemas de ficheros "avanzados". Esta tarea se puede realizar en una instancia de OpenStack y documentarla como…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</guid><category><![CDATA[ZFS/Btrfs]]></category><category><![CDATA[Sistemas de ficheros avanzados]]></category><pubDate>Tue, 26 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Elige uno de los dos sistemas de ficheros &quot;avanzados&quot;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Crea un escenario que incluya una máquina y varios discos asociados a ella.
 Instala si es necesario el software de ZFS/Btrfs
 Gestiona los discos adicionales con ZFS/Btrfs
@@ -461,7 +461,6 @@ Executing: /lib/systemd/systemd-sysv-install &lt;span class=&quot;token builtin 
 root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# systemctl restart tomcat9 guacd&lt;/span&gt;
 root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# mkdir /etc/guacamole&lt;/span&gt;
 root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# nano  /etc/guacamole/guacamole.properties&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;# Hostname and port of guacamole proxy&lt;/span&gt;
 guacd-hostname: localhost
 guacd-port:     &lt;span class=&quot;token number&quot;&gt;4822&lt;/span&gt;
@@ -485,14 +484,13 @@ root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# nano /
                         &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;param &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;username&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;fran&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/param&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
                 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/connection&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
         &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/authorize&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/user-mapping&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
-vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/user-mapping&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Permisos&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/
 vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt; /etc/guacamole/user-mapping.xml
 vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; tomcat:tomcat /etc/guacamole/user-mapping.xml
-&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
 root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# systemctl restart tomcat9 guacd&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;En &lt;strong&gt;Apache2&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Configuración del fichero de Apache2&lt;/strong&gt;:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# a2enmod proxy proxy_http headers proxy_wstunnel&lt;/span&gt;
 root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# nano /etc/apache2/sites-available/guacamole.conf&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
@@ -525,24 +523,26 @@ root@guacamole:/etc/apache2/sites-available&lt;span class=&quot;token comment&qu
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/e1ed5/guaca1.png&quot;
+    href=&quot;/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/bcaba/guaca1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 81.96544276457884%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAABh0lEQVQ4y61Uy07CQBTtB9kmBCSyhSWBEPUTXLv0NwpCW7qQjZC4AQkkfoFbJfhMgKCACQsNAnVR+jpOh5Y0CPLQSU7uY05vz53eDnN4sI9oNIp4LIZwOIw9fwABvx+B3QBCoRB8Ph84jgPLsuDYHerbuWAwSPcjkQji8TgSiQT1GUlIIZvNQhYFyJKIDJ+EJIqQJIlCEASIxKZPUxDSSRITTiYzzROeDVmWCbLUZ/DPi7FME5ZlzWDasZsj1nR80/G98D7nglmU/At+tGwnXbsKXv6s5UXnME9yW/6Ns7TgIoXevXl1KxV6yYZhUKt8jfHcuIeh61SpTuzaLc8XtNfD0x2OT46gaxMab1zQ5Wiajna7g5d2D7XbR7Rar+j332cjs0HBKWmifuKtc43hoIbxsI7Bxw3x60Sh6rx07TOcqrRMFZraJ7HqwG5ZJ0ehbaew2+2hULjAZbmKSvUKxWIZpVIFiqJs9pXdmWs2G+B5HrncGfL5c3oB2BfGaDTabmyWrd/+lG+Cd6CClN+uvAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 51.43453312467396%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAAt0lEQVQoz62S3wqDIBTGe2V1ZA1qybbHCl9iW+w6ErzpqghC+9aCwNGfxdqBI8dPzs/viN71coZIEhzDED7nCIIA3PfB+5oxNknCKGifQ00IDpTiFMcQQiCKInj4c3hdB3T9sjcd4JYGC2vtJvDiyO7Nj+yG7Hmf6LMjrwHf0bYtyrJEVVcwxnyc/QRUSiFNU0gpobXeD2yaBkVRIM/zoZ4DjvvVN1xysuRu1L86nPseLtTVjTV4AdNh+CU4kPybAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PracticaImg&quot;
         title=&quot;Imagen de la practica&quot;
-        src=&quot;/gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/36727/guaca1.png&quot;
-        srcset=&quot;/gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/acf4b/guaca1.png 173w,
-/gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/fc834/guaca1.png 345w,
-/gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/36727/guaca1.png 690w,
-/gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/e1ed5/guaca1.png 926w&quot;
+        src=&quot;/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/36727/guaca1.png&quot;
+        srcset=&quot;/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/acf4b/guaca1.png 173w,
+/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/fc834/guaca1.png 345w,
+/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/36727/guaca1.png 690w,
+/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/17fa4/guaca1.png 1035w,
+/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/a5044/guaca1.png 1380w,
+/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/bcaba/guaca1.png 1917w&quot;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;

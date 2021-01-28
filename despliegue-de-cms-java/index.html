@@ -68,7 +68,6 @@ Executing: /lib/systemd/systemd-sysv-install <span class="token builtin class-na
 root@guacamole:/home/vagrant<span class="token comment"># systemctl restart tomcat9 guacd</span>
 root@guacamole:/home/vagrant<span class="token comment"># mkdir /etc/guacamole</span>
 root@guacamole:/home/vagrant<span class="token comment"># nano  /etc/guacamole/guacamole.properties</span>
-<span class="token comment">#</span>
 <span class="token comment"># Hostname and port of guacamole proxy</span>
 guacd-hostname: localhost
 guacd-port:     <span class="token number">4822</span>
@@ -92,14 +91,13 @@ root@guacamole:/home/vagrant<span class="token comment"># nano /etc/guacamole/us
                         <span class="token operator">&lt;</span>param <span class="token assign-left variable">name</span><span class="token operator">=</span><span class="token string">"username"</span><span class="token operator">></span>fran<span class="token operator">&lt;</span>/param<span class="token operator">></span>
                 <span class="token operator">&lt;</span>/connection<span class="token operator">></span>
         <span class="token operator">&lt;</span>/authorize<span class="token operator">></span>
-<span class="token operator">&lt;</span>/user-mapping<span class="token operator">></span>
-<span class="token comment">#</span>
-vagrant@guacamole:~$ <span class="token function">sudo</span> <span class="token function">ln</span> -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/
+<span class="token operator">&lt;</span>/user-mapping<span class="token operator">></span></code></pre></div>
+<p><strong>Permisos</strong></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@guacamole:~$ <span class="token function">sudo</span> <span class="token function">ln</span> -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/
 vagrant@guacamole:~$ <span class="token function">sudo</span> <span class="token function">chmod</span> <span class="token number">600</span> /etc/guacamole/user-mapping.xml
 vagrant@guacamole:~$ <span class="token function">sudo</span> <span class="token function">chown</span> tomcat:tomcat /etc/guacamole/user-mapping.xml
-<span class="token comment">#</span>
 root@guacamole:/home/vagrant<span class="token comment"># systemctl restart tomcat9 guacd</span></code></pre></div>
-<p>En <strong>Apache2</strong>:</p>
+<p><strong>Configuración del fichero de Apache2</strong>:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@guacamole:/home/vagrant<span class="token comment"># a2enmod proxy proxy_http headers proxy_wstunnel</span>
 root@guacamole:/home/vagrant<span class="token comment"># nano /etc/apache2/sites-available/guacamole.conf</span>
 <span class="token comment">#</span>
@@ -132,24 +130,26 @@ root@guacamole:/etc/apache2/sites-available<span class="token comment"># systemc
     >
       <a
     class="gatsby-resp-image-link"
-    href="/gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/e1ed5/guaca1.png"
+    href="/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/bcaba/guaca1.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 81.96544276457884%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAABh0lEQVQ4y61Uy07CQBTtB9kmBCSyhSWBEPUTXLv0NwpCW7qQjZC4AQkkfoFbJfhMgKCACQsNAnVR+jpOh5Y0CPLQSU7uY05vz53eDnN4sI9oNIp4LIZwOIw9fwABvx+B3QBCoRB8Ph84jgPLsuDYHerbuWAwSPcjkQji8TgSiQT1GUlIIZvNQhYFyJKIDJ+EJIqQJIlCEASIxKZPUxDSSRITTiYzzROeDVmWCbLUZ/DPi7FME5ZlzWDasZsj1nR80/G98D7nglmU/At+tGwnXbsKXv6s5UXnME9yW/6Ns7TgIoXevXl1KxV6yYZhUKt8jfHcuIeh61SpTuzaLc8XtNfD0x2OT46gaxMab1zQ5Wiajna7g5d2D7XbR7Rar+j332cjs0HBKWmifuKtc43hoIbxsI7Bxw3x60Sh6rx07TOcqrRMFZraJ7HqwG5ZJ0ehbaew2+2hULjAZbmKSvUKxWIZpVIFiqJs9pXdmWs2G+B5HrncGfL5c3oB2BfGaDTabmyWrd/+lG+Cd6CClN+uvAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    style="padding-bottom: 51.43453312467396%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAAt0lEQVQoz62S3wqDIBTGe2V1ZA1qybbHCl9iW+w6ErzpqghC+9aCwNGfxdqBI8dPzs/viN71coZIEhzDED7nCIIA3PfB+5oxNknCKGifQ00IDpTiFMcQQiCKInj4c3hdB3T9sjcd4JYGC2vtJvDiyO7Nj+yG7Hmf6LMjrwHf0bYtyrJEVVcwxnyc/QRUSiFNU0gpobXeD2yaBkVRIM/zoZ4DjvvVN1xysuRu1L86nPseLtTVjTV4AdNh+CU4kPybAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
   ></span>
   <img
         class="gatsby-resp-image-image"
         alt="PracticaImg"
         title="Imagen de la practica"
-        src="/gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/36727/guaca1.png"
-        srcset="/gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/acf4b/guaca1.png 173w,
-/gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/fc834/guaca1.png 345w,
-/gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/36727/guaca1.png 690w,
-/gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/e1ed5/guaca1.png 926w"
+        src="/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/36727/guaca1.png"
+        srcset="/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/acf4b/guaca1.png 173w,
+/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/fc834/guaca1.png 345w,
+/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/36727/guaca1.png 690w,
+/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/17fa4/guaca1.png 1035w,
+/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/a5044/guaca1.png 1380w,
+/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/bcaba/guaca1.png 1917w"
         sizes="(max-width: 690px) 100vw, 690px"
         loading="lazy"
       />
