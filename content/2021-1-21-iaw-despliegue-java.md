@@ -15,6 +15,7 @@ tags:
 ### En esta práctica vamos a desplegar un CMS escrito en java. Puedes escoger la aplicación que vas a desplegar de CMS escritos en Java o de Aplicaciones Java en Bitnami.
 
 ## GUACAMOLE
+Guacamole es un proyecto de escritorio remoto desarrollado por la Apache Software Foundation. Es un sistema compuesto por una parte cliente y una parte servidor. La aplicación servidor es la que se encarga de la autenticación y precisa de la instalación en infraestructura propia o acogerse la un servicio de terceros y estar accesible desde la parte cliente.
 
 <hr>
 
@@ -59,6 +60,11 @@ guacd-port:     4822
 # Auth provider class (authenticates user/pass combination, needed if using the provided $
 user-mapping: /etc/guacamole/user-mapping.xml
 auth-provider: net.sourceforge.guacamole.net.basic.BasicFileAuthenticationProvider
+
+vagrant@guacamole:~$ sudo ln -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/
+```
+
+```shell
 basic-user-mapping: /etc/guacamole/user-mapping.xml
 #
 root@guacamole:/home/vagrant# nano /etc/guacamole/user-mapping.xml
@@ -78,9 +84,8 @@ root@guacamole:/home/vagrant# nano /etc/guacamole/user-mapping.xml
 </user-mapping>
 ```
 
-**Permisos**
+**Permisos necesarios a Tomcat**
 ```shell
-vagrant@guacamole:~$ sudo ln -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/
 vagrant@guacamole:~$ sudo chmod 600 /etc/guacamole/user-mapping.xml
 vagrant@guacamole:~$ sudo chown tomcat:tomcat /etc/guacamole/user-mapping.xml
 root@guacamole:/home/vagrant# systemctl restart tomcat9 guacd
