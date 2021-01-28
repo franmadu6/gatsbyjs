@@ -30,6 +30,67 @@ Y ahora comenzaremos la instalación de mi servidor de correos.
 ```shell
 apt install postfix
 ```
+
+**Configuración**
+Configuración previa para enviar correos electrónicos e-mail usando servidor SMTP externo en Linux
+
+Donde:
+
+smtp.gmail.com: será la dirección del servidor de correo.
+587: será el puerto de conexión al servidor de mail.
+practica.postfix@gmail.com: nombre de usuario (normalmente el correo electrónico) con el que nos conectaremos al servidor de correo.
+fran: contraseña del usuario/cuenta anterior.
+
+```shell
+vagrant@guacamole:~$ sudo nano /etc/postfix/sasl_passwd
+vagrant@guacamole:~$ sudo cat /etc/postfix/sasl_passwd
+[smtp.gmail.com]:587 practica.postfix@gmail.com:fran
+vagrant@guacamole:~$ sudo chmod 600 /etc/postfix/sasl_passwd
+vagrant@guacamole:~$ sudo chown root:root /etc/postfix/sasl_passwd
+```
+
+Crearemos el fichero donde estableceremos el tipo de conexión con el servidor:
+```shell
+vagrant@guacamole:~$ sudo nano /etc/postfix/tls_policy
+vagrant@guacamole:~$ sudo cat /etc/postfix/tls_policy
+[smtp.gmail.com]:587 encrypt
+vagrant@guacamole:~$ sudo chmod 600 /etc/postfix/tls_policy
+vagrant@guacamole:~$ sudo chown root:root /etc/postfix/tls_policy
+```
+
+Convertiremos los dos ficheros a hash con los comandos:
+```shell
+vagrant@guacamole:~$ sudo postmap /etc/postfix/sasl_passwd
+vagrant@guacamole:~$ sudo postmap /etc/postfix/tls_policy
+```
+
+Por ultimo editaremos el fichero de conf de Postfix:
+```shell
+vagrant@guacamole:~$ sudo nano /etc/postfix/main.cf 
+#myhostname = pcoracle
+relayhost = [smtp.gmail.com]:587
+smtp_sasl_auth_enable = yes
+smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+smtp_tls_policy_maps = hash:/etc/postfix/tls_policy
+smtp_sasl_security_options = noanonymous
+smtp_use_tls = yes
+#smtp_tls_CAfile = /etc/pki/tls/cert.pem
+smtp_tls_security_level = encrypt
+```
+```shell
+vagrant@guacamole:~$ sudo /etc/init.d/postfix restart
+[ ok ] Restarting postfix (via systemctl): postfix.service.
+```
+
+Prueba
+```shell
+vagrant@guacamole:~$ sudo apt-get install bsd-mailx
+vagrant@guacamole:~$ echo «Prueba de envío de mail usando Postfix.» | mail -s «Prueba envío mail» frandh1997@gmail.com
+
+
+```
+
+
 #### Uso de alias y redirecciones
 <hr>
 
