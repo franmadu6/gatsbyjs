@@ -77,7 +77,7 @@ guacd-port:     <span class="token number">4822</span>
 user-mapping: /etc/guacamole/user-mapping.xml
 auth-provider: net.sourceforge.guacamole.net.basic.BasicFileAuthenticationProvider
 basic-user-mapping: /etc/guacamole/user-mapping.xml
-<span class="token comment">#</span>
+
 vagrant@guacamole:~$ <span class="token function">sudo</span> <span class="token function">ln</span> -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/</code></pre></div>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@guacamole:/home/vagrant<span class="token comment"># nano /etc/guacamole/user-mapping.xml</span>
 <span class="token comment">#</span>
@@ -101,7 +101,7 @@ root@guacamole:/home/vagrant<span class="token comment"># systemctl restart tomc
 <p><strong>Configuración del fichero de Apache2</strong>:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@guacamole:/home/vagrant<span class="token comment"># a2enmod proxy proxy_http headers proxy_wstunnel</span>
 root@guacamole:/home/vagrant<span class="token comment"># nano /etc/apache2/sites-available/guacamole.conf</span>
-<span class="token comment">#</span>
+
 <span class="token operator">&lt;</span>VirtualHost *:8<span class="token operator"><span class="token file-descriptor important">0</span>></span>
       ServerName guacamole.madu.com
 
@@ -122,7 +122,7 @@ root@guacamole:/home/vagrant<span class="token comment"># nano /etc/apache2/site
 
      Header always <span class="token builtin class-name">unset</span> X-Frame-Options
 <span class="token operator">&lt;</span>/VirtualHost<span class="token operator">></span>
-<span class="token comment">#</span>
+
 root@guacamole:/etc/apache2/sites-available<span class="token comment"># a2ensite guacamole.conf </span>
 root@guacamole:/etc/apache2/sites-available<span class="token comment"># systemctl reload apache2</span></code></pre></div>
 <p><strong>Pruebas de acceso</strong></p>
