@@ -1,6 +1,6 @@
 ---
 date: 2021-01-27
-title: "Sistemas de ficheros "avanzados" ZFS/Btrfs"
+title: "Sistemas de ficheros 'avanzados' ZFS/Btrfs"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
     - HLC
