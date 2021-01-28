@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 28 Jan 2021 08:28:52 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Sistemas de ficheros 'avanzados' ZFS/Btrfs]]></title><description><![CDATA[Elige uno de los dos sistemas de ficheros "avanzados". Esta tarea se puede realizar en una instancia de OpenStack y documentarla como…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</guid><category><![CDATA[ZFS/Btrfs]]></category><category><![CDATA[Sistemas de ficheros avanzados]]></category><pubDate>Tue, 26 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Elige uno de los dos sistemas de ficheros &quot;avanzados&quot;.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 28 Jan 2021 08:55:45 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Sistemas de ficheros 'avanzados' ZFS/Btrfs]]></title><description><![CDATA[Elige uno de los dos sistemas de ficheros "avanzados". Esta tarea se puede realizar en una instancia de OpenStack y documentarla como…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</guid><category><![CDATA[ZFS/Btrfs]]></category><category><![CDATA[Sistemas de ficheros avanzados]]></category><pubDate>Tue, 26 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Elige uno de los dos sistemas de ficheros &quot;avanzados&quot;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Crea un escenario que incluya una máquina y varios discos asociados a ella.
 Instala si es necesario el software de ZFS/Btrfs
 Gestiona los discos adicionales con ZFS/Btrfs
@@ -435,20 +435,12 @@ MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;testdeusua
 &lt;li&gt;Tarea 13 (No obligatoria): Prueba de envío de correo. En esta página tenemos una herramienta completa y fácil de usar a la que podemos enviar un correo para que verifique y puntúe el correo que enviamos. Captura la pantalla y muestra la puntuación que has sacado.&lt;/li&gt;
 &lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de CMS java]]></title><description><![CDATA[En esta práctica vamos a desplegar un CMS escrito en java. Puedes escoger la aplicación que vas a desplegar de CMS escritos en Java o de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-cms-java</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-cms-java</guid><category><![CDATA[CMS]]></category><category><![CDATA[JAVA]]></category><category><![CDATA[GUACAMOLE]]></category><pubDate>Wed, 20 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Guacamole&quot; src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAA14R3Xh139iog_yTHZ-e_okq_DS4AX0hOQ&amp;amp;usqp=CAU&quot;&gt;&lt;/center&gt;
 &lt;h3 id=&quot;en-esta-práctica-vamos-a-desplegar-un-cms-escrito-en-java-puedes-escoger-la-aplicación-que-vas-a-desplegar-de-cms-escritos-en-java-o-de-aplicaciones-java-en-bitnami&quot;&gt;&lt;a href=&quot;#en-esta-pr%C3%A1ctica-vamos-a-desplegar-un-cms-escrito-en-java-puedes-escoger-la-aplicaci%C3%B3n-que-vas-a-desplegar-de-cms-escritos-en-java-o-de-aplicaciones-java-en-bitnami&quot; aria-label=&quot;en esta práctica vamos a desplegar un cms escrito en java puedes escoger la aplicación que vas a desplegar de cms escritos en java o de aplicaciones java en bitnami permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;En esta práctica vamos a desplegar un CMS escrito en java. Puedes escoger la aplicación que vas a desplegar de CMS escritos en Java o de Aplicaciones Java en Bitnami.&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Indica la aplicación escogida y su funcionalidad.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Escribe una guía de los pasas fundamentales para realizar la instalación.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;¿Has necesitado instalar alguna librería?¿Has necesitado instalar un conector de una base de datos?&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Entrega una captura de pantalla donde se vea la aplicación funcionando.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Realiza la configuración necesaria en apache2 y tomcat (utilizando el protocolo AJP) para que la aplicación sea servida por el servidor web.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Entrega una captura de pantalla donde se vea la aplicación funcionando servida por apache2.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
 &lt;h2 id=&quot;guacamole&quot;&gt;&lt;a href=&quot;#guacamole&quot; aria-label=&quot;guacamole permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GUACAMOLE&lt;/h2&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Instalación de la paqueteria necesaria.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@guacamole:~&lt;span class=&quot;token comment&quot;&gt;# apt-get install tomcat9 &amp;amp;&amp;amp; apt-get install apache2&lt;/span&gt;
 root@guacamole:~&lt;span class=&quot;token comment&quot;&gt;# apt-get install libcairo2-dev libjpeg62-turbo-dev libpng-dev libossp-uuid-dev libtool&lt;/span&gt;
+root@guacamole:~&lt;span class=&quot;token comment&quot;&gt;# apt-get install libavutil-dev libswscale-dev libpango1.0-dev libssh2-1-dev libtelnet-dev libvncserver-dev libpulse-dev libssl-dev libvorbis-dev libwebp-dev &lt;/span&gt;
 root@guacamole:~&lt;span class=&quot;token comment&quot;&gt;# wget http://archive.apache.org/dist/guacamole/1.2.0/source/guacamole-server-1.2.0.tar.gz&lt;/span&gt;
 root@guacamole:~&lt;span class=&quot;token comment&quot;&gt;# wget http://archive.apache.org/dist/guacamole/1.2.0/binary/guacamole-1.2.0.war&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Descomprimimos el archivo de guacamole-server y procedemos al montaje.&lt;/strong&gt;&lt;/p&gt;
@@ -470,29 +462,34 @@ root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# system
 root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# mkdir /etc/guacamole&lt;/span&gt;
 root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# nano  /etc/guacamole/guacamole.properties&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Hostname and port of guacamole proxy&lt;/span&gt;
 guacd-hostname: localhost
 guacd-port:     &lt;span class=&quot;token number&quot;&gt;4822&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Auth provider class (authenticates user/pass combination, needed if using the provided $&lt;/span&gt;
+user-mapping: /etc/guacamole/user-mapping.xml
 auth-provider: net.sourceforge.guacamole.net.basic.BasicFileAuthenticationProvider
 basic-user-mapping: /etc/guacamole/user-mapping.xml
 &lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
 root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# nano /etc/guacamole/user-mapping.xml&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;user-mapping&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;authorize
-            &lt;span class=&quot;token assign-left variable&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;fran&quot;&lt;/span&gt;
-            &lt;span class=&quot;token assign-left variable&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;2c20cb5558626540a1704b1fe524ea9a&quot;&lt;/span&gt;
-            &lt;span class=&quot;token assign-left variable&quot;&gt;encoding&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;md5&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-        
-        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;connection &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;SSH&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;protocol&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;vnc&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/protocol&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;param &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hostname&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;7&lt;/span&gt;&amp;lt;&lt;/span&gt;/param&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;param &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;port&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;2&lt;/span&gt;&amp;lt;&lt;/span&gt;/param&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;param &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;username&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;vagrant&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/param&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;param &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;password&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;fran&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/param&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/connection&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/authorize&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;authorize 
+         &lt;span class=&quot;token assign-left variable&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;vagrant&quot;&lt;/span&gt; 
+         &lt;span class=&quot;token assign-left variable&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;2c20cb5558626540a1704b1fe524ea9a&quot;&lt;/span&gt;
+         &lt;span class=&quot;token assign-left variable&quot;&gt;encoding&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;md5&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;connection &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;SSH&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;protocol&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;ssh&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/protocol&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;param &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hostname&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.15&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;8&lt;/span&gt;&amp;lt;&lt;/span&gt;/param&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;param &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;port&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;2&lt;/span&gt;&amp;lt;&lt;/span&gt;/param&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;param &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;username&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;fran&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/param&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/connection&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/authorize&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/user-mapping&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/
+vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt; /etc/guacamole/user-mapping.xml
+vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; tomcat:tomcat /etc/guacamole/user-mapping.xml
 &lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
 root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# systemctl restart tomcat9 guacd&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;En &lt;strong&gt;Apache2&lt;/strong&gt;:&lt;/p&gt;
@@ -500,7 +497,7 @@ root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# system
 root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# nano /etc/apache2/sites-available/guacamole.conf&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;VirtualHost *:8&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;0&lt;/span&gt;&gt;&lt;/span&gt;
-      ServerName guacamole.test.org
+      ServerName guacamole.madu.com
 
       ErrorLog &lt;span class=&quot;token variable&quot;&gt;${APACHE_LOG_DIR}&lt;/span&gt;/guacamole_error.log
       CustomLog &lt;span class=&quot;token variable&quot;&gt;${APACHE_LOG_DIR}&lt;/span&gt;/guacamole_access.log combined
@@ -546,6 +543,36 @@ root@guacamole:/etc/apache2/sites-available&lt;span class=&quot;token comment&qu
 /gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/fc834/guaca1.png 345w,
 /gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/36727/guaca1.png 690w,
 /gatsbyjs/static/b580097a5474812d7c5abf004f999e8d/e1ed5/guaca1.png 926w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/393c1/guaca2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.775119617224878%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAAj0lEQVQY062OzQrCMBCEN6e+j8VutgWjSfpDi8fmEN//OcZNEAURTz18zM7MsizlnPFQUtqR9h33bcMcI0IImKcJ67piVF9RP44Ry7Jg0tl7X/eKOueUC6gEN3eF2A7ctqoWIgJmRt8L+mEAn0+1t1YUWyk9c/eau3dGxhg0TQMiOoqPKcd/8q/7gg78rPIEhOqCJJqcZzsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Imagen de la practica&quot;
+        src=&quot;/gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/36727/guaca2.png&quot;
+        srcset=&quot;/gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/acf4b/guaca2.png 173w,
+/gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/fc834/guaca2.png 345w,
+/gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/36727/guaca2.png 690w,
+/gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/17fa4/guaca2.png 1035w,
+/gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/393c1/guaca2.png 1045w&quot;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
