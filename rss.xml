@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 28 Jan 2021 12:09:42 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Plan de financiación]]></title><description><![CDATA[TABLA DE INVERSIONES Y GASTOS DE MI EMPRESA El plan de financiación: Debemos realizar un cuadro con las inversiones y los gastos que se…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/plan-de-financiacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/plan-de-financiacion</guid><category><![CDATA[Puesto de trabajo]]></category><category><![CDATA[Análisis]]></category><pubDate>Wed, 27 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;TABLA DE INVERSIONES Y GASTOS DE MI EMPRESA&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 28 Jan 2021 18:52:57 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Plan de financiación]]></title><description><![CDATA[TABLA DE INVERSIONES Y GASTOS DE MI EMPRESA El plan de financiación: Debemos realizar un cuadro con las inversiones y los gastos que se…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/plan-de-financiacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/plan-de-financiacion</guid><category><![CDATA[Puesto de trabajo]]></category><category><![CDATA[Análisis]]></category><pubDate>Wed, 27 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;TABLA DE INVERSIONES Y GASTOS DE MI EMPRESA&lt;/p&gt;
 &lt;p&gt;El plan de financiación:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Debemos realizar un cuadro con las inversiones y los gastos que se preveen para la constitución de la empresa. Parecido a la práctica de clase.&lt;/li&gt;
@@ -14,7 +14,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Alquiler del local 500€/Mes&lt;/td&gt;
-&lt;td&gt;Equipo informatico 8000€&lt;/td&gt;
+&lt;td&gt;Equipo informatico 2000€&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Constitucion de la empresa 300€&lt;/td&gt;
@@ -22,23 +22,42 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Gastos de gestoria 400€&lt;/td&gt;
-&lt;td&gt;Acondicionamiento del local 5000€&lt;/td&gt;
+&lt;td&gt;Acondicionamiento del local 2000€&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Agua,Luz,Internet... 100€&lt;/td&gt;
+&lt;td&gt;Mobiliario 1000€&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;span style=&quot;background-color:#37c449; border-radius:0.3em; border-color: black;&quot;&gt;
-Total: 14.700€
+&lt;span style=&quot;background-color:#2cb33d; border-radius:0.3em; border-color: black;&quot;&gt;
+Total: 6.800€
 &lt;/span&gt;
 &lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;Realizar un cuadro con las fuentes de financiación que necesito.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;¿de dónde voy a obtener el dinero? INVERSIÓN&lt;/p&gt;
-&lt;p&gt;Tengo varias opciones bastante viables que podre utilizar en conjunto con el dinero adquirido:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Mediante dinero prestado.&lt;/li&gt;
-&lt;li&gt;Ayudas de las Administraciones públicas.&lt;/li&gt;
-&lt;li&gt;Subvenciones. Busqueda de diferentes tipos de ayudas disponibles a nuevos emprendedores, jovenes emprendedores, emprendedores, etc. &lt;/li&gt;
-&lt;/ol&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Sistemas de ficheros 'avanzados' ZFS/Btrfs]]></title><description><![CDATA[Elige uno de los dos sistemas de ficheros "avanzados". Esta tarea se puede realizar en una instancia de OpenStack y documentarla como…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</guid><category><![CDATA[ZFS/Btrfs]]></category><category><![CDATA[Sistemas de ficheros avanzados]]></category><pubDate>Tue, 26 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Elige uno de los dos sistemas de ficheros &quot;avanzados&quot;.&lt;/p&gt;
+&lt;p&gt;Subvenciones. Busqueda de diferentes tipos de ayudas disponibles a nuevos emprendedores, jovenes emprendedores, emprendedores, etc. &lt;/p&gt;
+&lt;p&gt;Subvención por el establecimiento como trabajador por cuenta propia&lt;/p&gt;
+&lt;p&gt;Esta subvención está dotada con hasta 10.000 euros para desempleados en general y jóvenes menores de 30 años. Ese dinero se destinará exclusivamente a cubrir los gastos de iniciar la actividad e incluye un requisito que no hay que perder de vista: es necesario mantener la actividad por lo menos durante 3 años.&lt;/p&gt;
+&lt;p&gt;Esta subvención está acompañada por una subvención financiera que incluye la reducción de hasta 4 puntos del interés del préstamo del banco destinado a poner en marcha el negocio por hasta 10.000 euros.&lt;/p&gt;
+&lt;p&gt;También se suma la subvención para asistencia técnica por los servicios externos para poner en marcha la empresa y también para la formación en gestión empresarial y nuevas tecnologías. La subvención es del 75% del coste de los servicios hasta un máximo de 2.000 euros para el primero y de 3.000 euros para el segundo.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] - Instalación de aplicación web python en OpenStack]]></title><description><![CDATA[Instalación de aplicación web python En esta tarea vamos a desplegar un CMS python. Tienes que realizar la instalación de un CMS python…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-instalacion-de-aplicacion-web-python-en-open-stack</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-instalacion-de-aplicacion-web-python-en-open-stack</guid><category><![CDATA[CMS]]></category><category><![CDATA[PYTHON]]></category><pubDate>Wed, 27 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;django cms&quot; src=&quot;https://docs.django-cms.org/en/latest/_images/django-cms-logo.png&quot;&gt;&lt;/center&gt;
+&lt;p&gt;Instalación de aplicación web python&lt;/p&gt;
+&lt;p&gt;En esta tarea vamos a desplegar un CMS python. Tienes que realizar la instalación de un CMS python basado en django (puedes encontrar varios en el siguiente enlace: &lt;a href=&quot;https://djangopackages.org/grids/g/cms/&quot;&gt;https://djangopackages.org/grids/g/cms/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Instala el CMS en el entorno de desarrollo. Debes utilizar un entorno virtual.
+Personaliza la página (cambia el nombre al blog y pon tu nombre) y añade contenido (algún artículo con alguna imagen).&lt;/li&gt;
+&lt;li&gt;Guarda los ficheros generados durante la instalación en un repositorio github. Guarda también en ese repositorio la copia de seguridad de la bese de datos. Te en cuenta que en el entorno de desarrolla vas a tener una base de datos sqlite, y en el entorno de producción una mariadb, por lo tanto es recomendable para hacer la copia de seguridad y recuperarla los comandos: python manage.py dumpdata y python manage.py loaddata, para más información: &lt;a href=&quot;https://coderwall.com/p/mvsoyg/django-dumpdata-and-loaddata&quot;&gt;https://coderwall.com/p/mvsoyg/django-dumpdata-and-loaddata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Realiza el despliegue de la aplicación en tu entorno de producción (servidor web y servidor de base de datos en el cloud). Utiliza un entorno virtual. Como servidor de aplicación puedes usar gunicorn o uwsgi (crea una unidad systemd para gestionar este servicio). El contenido estático debe servirlo el servidor web. La aplicación será accesible en la url python.tunombre.gonzalonazareno.org.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica Umbral de Rentabilidad]]></title><description><![CDATA[Práctica Umbral de Rentabilidad En esta práctica se propone hacer una estimación de los costes de la empresa para calcular el umbral de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-umbral-de-rentabilidad</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-umbral-de-rentabilidad</guid><category><![CDATA[Umbral de Rentabilidad]]></category><pubDate>Wed, 27 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Práctica Umbral de Rentabilidad&lt;/p&gt;
+&lt;p&gt;En esta práctica se propone hacer una estimación de los costes de la empresa para calcular el umbral de rentabilidad.  En este sentido, entendemos que es un ejercicio práctico y en la realidad estos datos están sujetos a muchas más variables ya que los datos son siempre dinámicos.&lt;/p&gt;
+&lt;p&gt;En esta práctica se trata pues de recoger los siguientes datos:&lt;/p&gt;
+&lt;p&gt;Costes Fijos&lt;/p&gt;
+&lt;p&gt;Costes Variables&lt;/p&gt;
+&lt;p&gt;Costes Totales&lt;/p&gt;
+&lt;p&gt;Coste Marginal&lt;/p&gt;
+&lt;p&gt;Umbral de rentabilidad&lt;/p&gt;
+&lt;p&gt;Tras el cálculo de rentabilidad, debemos responder a la pregunta: ¿Con qué nivel de producción la empresa produce beneficios? ¿Y pérdidas? &lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Sistemas de ficheros 'avanzados' ZFS/Btrfs]]></title><description><![CDATA[Elige uno de los dos sistemas de ficheros "avanzados". Esta tarea se puede realizar en una instancia de OpenStack y documentarla como…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</guid><category><![CDATA[ZFS/Btrfs]]></category><category><![CDATA[Sistemas de ficheros avanzados]]></category><pubDate>Tue, 26 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Elige uno de los dos sistemas de ficheros &quot;avanzados&quot;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Crea un escenario que incluya una máquina y varios discos asociados a ella.
 Instala si es necesario el software de ZFS/Btrfs
 Gestiona los discos adicionales con ZFS/Btrfs
@@ -434,6 +453,43 @@ MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;testdeusua
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Y ahora comenzaremos la instalación de mi servidor de correos.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; postfix&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Configuración&lt;/strong&gt;
+Configuración previa para enviar correos electrónicos e-mail usando servidor SMTP externo en Linux&lt;/p&gt;
+&lt;p&gt;Donde:&lt;/p&gt;
+&lt;p&gt;smtp.gmail.com: será la dirección del servidor de correo.
+587: será el puerto de conexión al servidor de mail.
+practica.postfix@gmail.com: nombre de usuario (normalmente el correo electrónico) con el que nos conectaremos al servidor de correo.
+fran: contraseña del usuario/cuenta anterior.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/postfix/sasl_passwd
+vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; /etc/postfix/sasl_passwd
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;smtp.gmail.com&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:587 practica.postfix@gmail.com:fran
+vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt; /etc/postfix/sasl_passwd
+vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; root:root /etc/postfix/sasl_passwd&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Crearemos el fichero donde estableceremos el tipo de conexión con el servidor:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/postfix/tls_policy
+vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; /etc/postfix/tls_policy
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;smtp.gmail.com&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:587 encrypt
+vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt; /etc/postfix/tls_policy
+vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; root:root /etc/postfix/tls_policy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Convertiremos los dos ficheros a hash con los comandos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; postmap /etc/postfix/sasl_passwd
+vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; postmap /etc/postfix/tls_policy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Por ultimo editaremos el fichero de conf de Postfix:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/postfix/main.cf 
+&lt;span class=&quot;token comment&quot;&gt;#myhostname = pcoracle&lt;/span&gt;
+relayhost &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;smtp.gmail.com&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:587
+smtp_sasl_auth_enable &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt;
+smtp_sasl_password_maps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hash:/etc/postfix/sasl_passwd
+smtp_tls_policy_maps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hash:/etc/postfix/tls_policy
+smtp_sasl_security_options &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; noanonymous
+smtp_use_tls &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#smtp_tls_CAfile = /etc/pki/tls/cert.pem&lt;/span&gt;
+smtp_tls_security_level &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; encrypt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; /etc/init.d/postfix restart
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; ok &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Restarting postfix &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;via systemctl&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: postfix.service.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Prueba&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; bsd-mailx
+vagrant@guacamole:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; «Prueba de envío de mail usando Postfix.» &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; mail -s «Prueba envío mail» frandh1997@gmail.com&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&quot;uso-de-alias-y-redirecciones&quot;&gt;&lt;a href=&quot;#uso-de-alias-y-redirecciones&quot; aria-label=&quot;uso de alias y redirecciones permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Uso de alias y redirecciones&lt;/h4&gt;
 &lt;hr&gt;
 &lt;ul&gt;
