@@ -28,6 +28,8 @@ Agua,Luz,Internet... 100€ | Mobiliario 1000€
 Total: 6.800€
 </span>
 
+
+
 2. Realizar un cuadro con las fuentes de financiación que necesito.
 
 ¿de dónde voy a obtener el dinero? INVERSIÓN
