@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 28 Jan 2021 09:41:07 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Sistemas de ficheros 'avanzados' ZFS/Btrfs]]></title><description><![CDATA[Elige uno de los dos sistemas de ficheros "avanzados". Esta tarea se puede realizar en una instancia de OpenStack y documentarla como…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</guid><category><![CDATA[ZFS/Btrfs]]></category><category><![CDATA[Sistemas de ficheros avanzados]]></category><pubDate>Tue, 26 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Elige uno de los dos sistemas de ficheros &quot;avanzados&quot;.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 28 Jan 2021 09:44:52 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Sistemas de ficheros 'avanzados' ZFS/Btrfs]]></title><description><![CDATA[Elige uno de los dos sistemas de ficheros "avanzados". Esta tarea se puede realizar en una instancia de OpenStack y documentarla como…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</guid><category><![CDATA[ZFS/Btrfs]]></category><category><![CDATA[Sistemas de ficheros avanzados]]></category><pubDate>Tue, 26 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Elige uno de los dos sistemas de ficheros &quot;avanzados&quot;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Crea un escenario que incluya una máquina y varios discos asociados a ella.
 Instala si es necesario el software de ZFS/Btrfs
 Gestiona los discos adicionales con ZFS/Btrfs
@@ -438,9 +438,10 @@ MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;testdeusua
 &lt;h2 id=&quot;guacamole&quot;&gt;&lt;a href=&quot;#guacamole&quot; aria-label=&quot;guacamole permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GUACAMOLE&lt;/h2&gt;
 &lt;p&gt;Guacamole es un proyecto de escritorio remoto desarrollado por la Apache Software Foundation. Es un sistema compuesto por una parte cliente y una parte servidor. La aplicación servidor es la que se encarga de la autenticación y precisa de la instalación en infraestructura propia o acogerse la un servicio de terceros y estar accesible desde la parte cliente.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Instalación de la paqueteria necesaria.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instalación de la paqueteria necesaria y opcional.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@guacamole:~&lt;span class=&quot;token comment&quot;&gt;# apt-get install tomcat9 &amp;amp;&amp;amp; apt-get install apache2&lt;/span&gt;
 root@guacamole:~&lt;span class=&quot;token comment&quot;&gt;# apt-get install libcairo2-dev libjpeg62-turbo-dev libpng-dev libossp-uuid-dev libtool&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#opcional&lt;/span&gt;
 root@guacamole:~&lt;span class=&quot;token comment&quot;&gt;# apt-get install libavutil-dev libswscale-dev libpango1.0-dev libssh2-1-dev libtelnet-dev libvncserver-dev libpulse-dev libssl-dev libvorbis-dev libwebp-dev &lt;/span&gt;
 root@guacamole:~&lt;span class=&quot;token comment&quot;&gt;# wget http://archive.apache.org/dist/guacamole/1.2.0/source/guacamole-server-1.2.0.tar.gz&lt;/span&gt;
 root@guacamole:~&lt;span class=&quot;token comment&quot;&gt;# wget http://archive.apache.org/dist/guacamole/1.2.0/binary/guacamole-1.2.0.war&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -465,15 +466,13 @@ root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# nano  
 &lt;span class=&quot;token comment&quot;&gt;# Hostname and port of guacamole proxy&lt;/span&gt;
 guacd-hostname: localhost
 guacd-port:     &lt;span class=&quot;token number&quot;&gt;4822&lt;/span&gt;
-
 &lt;span class=&quot;token comment&quot;&gt;# Auth provider class (authenticates user/pass combination, needed if using the provided $&lt;/span&gt;
 user-mapping: /etc/guacamole/user-mapping.xml
 auth-provider: net.sourceforge.guacamole.net.basic.BasicFileAuthenticationProvider
-
-vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;basic-user-mapping: /etc/guacamole/user-mapping.xml
+basic-user-mapping: /etc/guacamole/user-mapping.xml
 &lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
-root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# nano /etc/guacamole/user-mapping.xml&lt;/span&gt;
+vagrant@guacamole:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# nano /etc/guacamole/user-mapping.xml&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;user-mapping&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
         &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;authorize 
@@ -519,6 +518,7 @@ root@guacamole:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# nano /
 &lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
 root@guacamole:/etc/apache2/sites-available&lt;span class=&quot;token comment&quot;&gt;# a2ensite guacamole.conf &lt;/span&gt;
 root@guacamole:/etc/apache2/sites-available&lt;span class=&quot;token comment&quot;&gt;# systemctl reload apache2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Pruebas de acceso&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -537,7 +537,7 @@ root@guacamole:/etc/apache2/sites-available&lt;span class=&quot;token comment&qu
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PracticaImg&quot;
-        title=&quot;Imagen de la practica&quot;
+        title=&quot;Prueba de acceso a guacamole&quot;
         src=&quot;/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/36727/guaca1.png&quot;
         srcset=&quot;/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/acf4b/guaca1.png 173w,
 /gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/fc834/guaca1.png 345w,
@@ -568,7 +568,7 @@ root@guacamole:/etc/apache2/sites-available&lt;span class=&quot;token comment&qu
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PracticaImg&quot;
-        title=&quot;Imagen de la practica&quot;
+        title=&quot;Prueba de acceso a una terminal desde guacamole&quot;
         src=&quot;/gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/36727/guaca2.png&quot;
         srcset=&quot;/gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/acf4b/guaca2.png 173w,
 /gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/fc834/guaca2.png 345w,

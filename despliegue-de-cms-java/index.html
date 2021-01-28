@@ -45,9 +45,10 @@
 <h2 id="guacamole"><a href="#guacamole" aria-label="guacamole permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GUACAMOLE</h2>
 <p>Guacamole es un proyecto de escritorio remoto desarrollado por la Apache Software Foundation. Es un sistema compuesto por una parte cliente y una parte servidor. La aplicación servidor es la que se encarga de la autenticación y precisa de la instalación en infraestructura propia o acogerse la un servicio de terceros y estar accesible desde la parte cliente.</p>
 <hr>
-<p><strong>Instalación de la paqueteria necesaria.</strong></p>
+<p><strong>Instalación de la paqueteria necesaria y opcional.</strong></p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@guacamole:~<span class="token comment"># apt-get install tomcat9 &amp;&amp; apt-get install apache2</span>
 root@guacamole:~<span class="token comment"># apt-get install libcairo2-dev libjpeg62-turbo-dev libpng-dev libossp-uuid-dev libtool</span>
+<span class="token comment">#opcional</span>
 root@guacamole:~<span class="token comment"># apt-get install libavutil-dev libswscale-dev libpango1.0-dev libssh2-1-dev libtelnet-dev libvncserver-dev libpulse-dev libssl-dev libvorbis-dev libwebp-dev </span>
 root@guacamole:~<span class="token comment"># wget http://archive.apache.org/dist/guacamole/1.2.0/source/guacamole-server-1.2.0.tar.gz</span>
 root@guacamole:~<span class="token comment"># wget http://archive.apache.org/dist/guacamole/1.2.0/binary/guacamole-1.2.0.war</span></code></pre></div>
@@ -72,15 +73,13 @@ root@guacamole:/home/vagrant<span class="token comment"># nano  /etc/guacamole/g
 <span class="token comment"># Hostname and port of guacamole proxy</span>
 guacd-hostname: localhost
 guacd-port:     <span class="token number">4822</span>
-
 <span class="token comment"># Auth provider class (authenticates user/pass combination, needed if using the provided $</span>
 user-mapping: /etc/guacamole/user-mapping.xml
 auth-provider: net.sourceforge.guacamole.net.basic.BasicFileAuthenticationProvider
-
-vagrant@guacamole:~$ <span class="token function">sudo</span> <span class="token function">ln</span> -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/</code></pre></div>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">basic-user-mapping: /etc/guacamole/user-mapping.xml
+basic-user-mapping: /etc/guacamole/user-mapping.xml
 <span class="token comment">#</span>
-root@guacamole:/home/vagrant<span class="token comment"># nano /etc/guacamole/user-mapping.xml</span>
+vagrant@guacamole:~$ <span class="token function">sudo</span> <span class="token function">ln</span> -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@guacamole:/home/vagrant<span class="token comment"># nano /etc/guacamole/user-mapping.xml</span>
 <span class="token comment">#</span>
 <span class="token operator">&lt;</span>user-mapping<span class="token operator">></span>
         <span class="token operator">&lt;</span>authorize 
@@ -126,6 +125,7 @@ root@guacamole:/home/vagrant<span class="token comment"># nano /etc/apache2/site
 <span class="token comment">#</span>
 root@guacamole:/etc/apache2/sites-available<span class="token comment"># a2ensite guacamole.conf </span>
 root@guacamole:/etc/apache2/sites-available<span class="token comment"># systemctl reload apache2</span></code></pre></div>
+<p><strong>Pruebas de acceso</strong></p>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
@@ -144,7 +144,7 @@ root@guacamole:/etc/apache2/sites-available<span class="token comment"># systemc
   <img
         class="gatsby-resp-image-image"
         alt="PracticaImg"
-        title="Imagen de la practica"
+        title="Prueba de acceso a guacamole"
         src="/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/36727/guaca1.png"
         srcset="/gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/acf4b/guaca1.png 173w,
 /gatsbyjs/static/2d36afc768dd1331e0c51fcdc1fdfd3a/fc834/guaca1.png 345w,
@@ -175,7 +175,7 @@ root@guacamole:/etc/apache2/sites-available<span class="token comment"># systemc
   <img
         class="gatsby-resp-image-image"
         alt="PracticaImg"
-        title="Imagen de la practica"
+        title="Prueba de acceso a una terminal desde guacamole"
         src="/gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/36727/guaca2.png"
         srcset="/gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/acf4b/guaca2.png 173w,
 /gatsbyjs/static/5c08ab29cd6fd0f764d0eefb96533a69/fc834/guaca2.png 345w,
