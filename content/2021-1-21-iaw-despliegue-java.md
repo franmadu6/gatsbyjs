@@ -52,7 +52,6 @@ root@guacamole:/home/vagrant# mv guacamole-1.2.0.war /var/lib/tomcat9/webapps/gu
 root@guacamole:/home/vagrant# systemctl restart tomcat9 guacd
 root@guacamole:/home/vagrant# mkdir /etc/guacamole
 root@guacamole:/home/vagrant# nano  /etc/guacamole/guacamole.properties
-#
 # Hostname and port of guacamole proxy
 guacd-hostname: localhost
 guacd-port:     4822
@@ -77,15 +76,17 @@ root@guacamole:/home/vagrant# nano /etc/guacamole/user-mapping.xml
                 </connection>
         </authorize>
 </user-mapping>
-#
+```
+
+**Permisos**
+```shell
 vagrant@guacamole:~$ sudo ln -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/
 vagrant@guacamole:~$ sudo chmod 600 /etc/guacamole/user-mapping.xml
 vagrant@guacamole:~$ sudo chown tomcat:tomcat /etc/guacamole/user-mapping.xml
-#
 root@guacamole:/home/vagrant# systemctl restart tomcat9 guacd
 ```
 
-En **Apache2**:
+**Configuración del fichero de Apache2**:
 ```shell
 root@guacamole:/home/vagrant# a2enmod proxy proxy_http headers proxy_wstunnel
 root@guacamole:/home/vagrant# nano /etc/apache2/sites-available/guacamole.conf
@@ -116,6 +117,5 @@ root@guacamole:/etc/apache2/sites-available# systemctl reload apache2
 ```
 
 ![PracticaImg](images/iaw/guaca1.png "Imagen de la practica")
-
 
 ![PracticaImg](images/iaw/guaca2.png "Imagen de la practica")
