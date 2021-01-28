@@ -69,18 +69,28 @@ grant grant any role to Becario;
 
 **2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.**
 ```shell
-
+create or replace function funciondeVerificacion (
+    username VARCHAR2, 
+    pass VARCHAR2, 
+    old_password VARCHAR2)
+return varchar2   IS 
+begin
+	if length(pass) < 6 then return 'FALSE';
+	elsif (pass = old_password) then return 'FALSE';
+	else return 'TRUE';
+    end if;
+end;
 ```
 
 **3. Realiza un procedimiento llamado MostrarPrivilegiosdelRol que reciba el nombre de un rol y muestre los privilegios de sistema y los privilegios sobre objetos que lo componen.**
 ```shell
-Create or replace procedure MostrarPrivilegiosdelRol(p_user varchar2)
+create or replace procedure MostrarPrivilegiosdelRol(p_rol varchar2)
 is
-	USERNAME=p_user;
 begin
-	SELECT * FROM USER_ROLE_PRIVS; 
-	if p_user=0 then
-		raise_application_error(-20001,'Ese usuario no existe');
+	select grantee, privilege from dba_sys_privs
+	where privilege=p_rol; 
+	if p_rol=0 then
+		raise_application_error(-20001,'Ese rol no existe');
 	end if;
 end;
 /
@@ -92,8 +102,21 @@ end;
 ```
 
 **5. Realiza un procedimiento llamado MostrarInfoPerfil que reciba el nombre de un perfil y muestre su composición y los usuarios que lo tienen asignado.**
-```shell
 
+(Para que los perfiles funcionen, el parámetro de la base de datos resource_limit, deberá tener el valor a true.)
+
+```shell
+Create or replace procedure MostrarInfoPerfil(p.name varchar2)
+is
+begin
+	select profile, username, default_tablespace, temporary_tablespace
+    from   dba_users
+    where  profile = p.name; 
+	if p.name=0 then
+		raise_application_error(-20001,'Ese perfil no existe');
+	end if;
+end;
+/
 ```
 
 **6. (ORACLE, Postgres) Realiza un procedimiento que reciba un nombre de usuario y nos muestre cuántas sesiones tiene abiertas en este momento. Además, para cada una de dichas sesiones nos mostrará la hora de comienzo y el nombre de la máquina, sistema operativo y programa desde el que fue abierta.**
