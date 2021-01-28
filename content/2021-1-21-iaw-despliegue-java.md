@@ -19,10 +19,11 @@ Guacamole es un proyecto de escritorio remoto desarrollado por la Apache Softwar
 
 <hr>
 
-**Instalación de la paqueteria necesaria.**
+**Instalación de la paqueteria necesaria y opcional.**
 ```shell
 root@guacamole:~# apt-get install tomcat9 && apt-get install apache2
 root@guacamole:~# apt-get install libcairo2-dev libjpeg62-turbo-dev libpng-dev libossp-uuid-dev libtool
+#opcional
 root@guacamole:~# apt-get install libavutil-dev libswscale-dev libpango1.0-dev libssh2-1-dev libtelnet-dev libvncserver-dev libpulse-dev libssl-dev libvorbis-dev libwebp-dev 
 root@guacamole:~# wget http://archive.apache.org/dist/guacamole/1.2.0/source/guacamole-server-1.2.0.tar.gz
 root@guacamole:~# wget http://archive.apache.org/dist/guacamole/1.2.0/binary/guacamole-1.2.0.war
@@ -56,17 +57,15 @@ root@guacamole:/home/vagrant# nano  /etc/guacamole/guacamole.properties
 # Hostname and port of guacamole proxy
 guacd-hostname: localhost
 guacd-port:     4822
-
 # Auth provider class (authenticates user/pass combination, needed if using the provided $
 user-mapping: /etc/guacamole/user-mapping.xml
 auth-provider: net.sourceforge.guacamole.net.basic.BasicFileAuthenticationProvider
-
+basic-user-mapping: /etc/guacamole/user-mapping.xml
+#
 vagrant@guacamole:~$ sudo ln -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/
 ```
 
 ```shell
-basic-user-mapping: /etc/guacamole/user-mapping.xml
-#
 root@guacamole:/home/vagrant# nano /etc/guacamole/user-mapping.xml
 #
 <user-mapping>
@@ -121,6 +120,8 @@ root@guacamole:/etc/apache2/sites-available# a2ensite guacamole.conf
 root@guacamole:/etc/apache2/sites-available# systemctl reload apache2
 ```
 
-![PracticaImg](images/iaw/guaca1.png "Imagen de la practica")
+**Pruebas de acceso**
 
-![PracticaImg](images/iaw/guaca2.png "Imagen de la practica")
+![PracticaImg](images/iaw/guaca1.png "Prueba de acceso a guacamole")
+
+![PracticaImg](images/iaw/guaca2.png "Prueba de acceso a una terminal desde guacamole")
