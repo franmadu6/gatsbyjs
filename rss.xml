@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 28 Jan 2021 09:46:32 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Sistemas de ficheros 'avanzados' ZFS/Btrfs]]></title><description><![CDATA[Elige uno de los dos sistemas de ficheros "avanzados". Esta tarea se puede realizar en una instancia de OpenStack y documentarla como…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</guid><category><![CDATA[ZFS/Btrfs]]></category><category><![CDATA[Sistemas de ficheros avanzados]]></category><pubDate>Tue, 26 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Elige uno de los dos sistemas de ficheros &quot;avanzados&quot;.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 28 Jan 2021 12:09:42 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Plan de financiación]]></title><description><![CDATA[TABLA DE INVERSIONES Y GASTOS DE MI EMPRESA El plan de financiación: Debemos realizar un cuadro con las inversiones y los gastos que se…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/plan-de-financiacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/plan-de-financiacion</guid><category><![CDATA[Puesto de trabajo]]></category><category><![CDATA[Análisis]]></category><pubDate>Wed, 27 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;TABLA DE INVERSIONES Y GASTOS DE MI EMPRESA&lt;/p&gt;
+&lt;p&gt;El plan de financiación:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Debemos realizar un cuadro con las inversiones y los gastos que se preveen para la constitución de la empresa. Parecido a la práctica de clase.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Con este cuadro se debe responer a la siguiente pregunta: ¿cuánto dinero necesito para montar mi empresa?&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Gastos&lt;/th&gt;
+&lt;th&gt;Inversiones&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Alquiler del local 500€/Mes&lt;/td&gt;
+&lt;td&gt;Equipo informatico 8000€&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Constitucion de la empresa 300€&lt;/td&gt;
+&lt;td&gt;Software 500€&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Gastos de gestoria 400€&lt;/td&gt;
+&lt;td&gt;Acondicionamiento del local 5000€&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;span style=&quot;background-color:#37c449; border-radius:0.3em; border-color: black;&quot;&gt;
+Total: 14.700€
+&lt;/span&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Realizar un cuadro con las fuentes de financiación que necesito.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;¿de dónde voy a obtener el dinero? INVERSIÓN&lt;/p&gt;
+&lt;p&gt;Tengo varias opciones bastante viables que podre utilizar en conjunto con el dinero adquirido:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Mediante dinero prestado.&lt;/li&gt;
+&lt;li&gt;Ayudas de las Administraciones públicas.&lt;/li&gt;
+&lt;li&gt;Subvenciones. Busqueda de diferentes tipos de ayudas disponibles a nuevos emprendedores, jovenes emprendedores, emprendedores, etc. &lt;/li&gt;
+&lt;/ol&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Sistemas de ficheros 'avanzados' ZFS/Btrfs]]></title><description><![CDATA[Elige uno de los dos sistemas de ficheros "avanzados". Esta tarea se puede realizar en una instancia de OpenStack y documentarla como…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</guid><category><![CDATA[ZFS/Btrfs]]></category><category><![CDATA[Sistemas de ficheros avanzados]]></category><pubDate>Tue, 26 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Elige uno de los dos sistemas de ficheros &quot;avanzados&quot;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Crea un escenario que incluya una máquina y varios discos asociados a ella.
 Instala si es necesario el software de ZFS/Btrfs
 Gestiona los discos adicionales con ZFS/Btrfs
