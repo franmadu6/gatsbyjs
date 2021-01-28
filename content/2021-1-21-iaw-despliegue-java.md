@@ -14,22 +14,7 @@ tags:
 
 ### En esta práctica vamos a desplegar un CMS escrito en java. Puedes escoger la aplicación que vas a desplegar de CMS escritos en Java o de Aplicaciones Java en Bitnami.
 
-1. **Indica la aplicación escogida y su funcionalidad.**
-
-2. **Escribe una guía de los pasas fundamentales para realizar la instalación.**
-
-3. **¿Has necesitado instalar alguna librería?¿Has necesitado instalar un conector de una base de datos?**
-
-4. **Entrega una captura de pantalla donde se vea la aplicación funcionando.**
-
-5. **Realiza la configuración necesaria en apache2 y tomcat (utilizando el protocolo AJP) para que la aplicación sea servida por el servidor web.**
-
-6. **Entrega una captura de pantalla donde se vea la aplicación funcionando servida por apache2.**
-
--------------------------------------------------------
 ## GUACAMOLE
-
-
 
 <hr>
 
@@ -37,6 +22,7 @@ tags:
 ```shell
 root@guacamole:~# apt-get install tomcat9 && apt-get install apache2
 root@guacamole:~# apt-get install libcairo2-dev libjpeg62-turbo-dev libpng-dev libossp-uuid-dev libtool
+root@guacamole:~# apt-get install libavutil-dev libswscale-dev libpango1.0-dev libssh2-1-dev libtelnet-dev libvncserver-dev libpulse-dev libssl-dev libvorbis-dev libwebp-dev 
 root@guacamole:~# wget http://archive.apache.org/dist/guacamole/1.2.0/source/guacamole-server-1.2.0.tar.gz
 root@guacamole:~# wget http://archive.apache.org/dist/guacamole/1.2.0/binary/guacamole-1.2.0.war
 ```
@@ -67,29 +53,34 @@ root@guacamole:/home/vagrant# systemctl restart tomcat9 guacd
 root@guacamole:/home/vagrant# mkdir /etc/guacamole
 root@guacamole:/home/vagrant# nano  /etc/guacamole/guacamole.properties
 #
+# Hostname and port of guacamole proxy
 guacd-hostname: localhost
 guacd-port:     4822
+
+# Auth provider class (authenticates user/pass combination, needed if using the provided $
+user-mapping: /etc/guacamole/user-mapping.xml
 auth-provider: net.sourceforge.guacamole.net.basic.BasicFileAuthenticationProvider
 basic-user-mapping: /etc/guacamole/user-mapping.xml
 #
 root@guacamole:/home/vagrant# nano /etc/guacamole/user-mapping.xml
 #
 <user-mapping>
-    <authorize
-            username="fran"
-            password="2c20cb5558626540a1704b1fe524ea9a"
-            encoding="md5">
-        
-        <connection name="SSH">
-            <protocol>vnc</protocol>
-            <param name="hostname">192.168.100.17</param>
-            <param name="port">22</param>
-            <param name="username">vagrant</param>
-            <param name="password">fran</param>
-        </connection>
-    </authorize>
-
+        <authorize 
+         username="vagrant" 
+         password="2c20cb5558626540a1704b1fe524ea9a"
+         encoding="md5">
+                <connection name="SSH">
+                        <protocol>ssh</protocol>
+                        <param name="hostname">192.168.100.158</param>
+                        <param name="port">22</param>
+                        <param name="username">fran</param>
+                </connection>
+        </authorize>
 </user-mapping>
+#
+vagrant@guacamole:~$ sudo ln -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/
+vagrant@guacamole:~$ sudo chmod 600 /etc/guacamole/user-mapping.xml
+vagrant@guacamole:~$ sudo chown tomcat:tomcat /etc/guacamole/user-mapping.xml
 #
 root@guacamole:/home/vagrant# systemctl restart tomcat9 guacd
 ```
@@ -100,7 +91,7 @@ root@guacamole:/home/vagrant# a2enmod proxy proxy_http headers proxy_wstunnel
 root@guacamole:/home/vagrant# nano /etc/apache2/sites-available/guacamole.conf
 #
 <VirtualHost *:80>
-      ServerName guacamole.test.org
+      ServerName guacamole.madu.com
 
       ErrorLog ${APACHE_LOG_DIR}/guacamole_error.log
       CustomLog ${APACHE_LOG_DIR}/guacamole_access.log combined
@@ -127,3 +118,4 @@ root@guacamole:/etc/apache2/sites-available# systemctl reload apache2
 ![PracticaImg](images/iaw/guaca1.png "Imagen de la practica")
 
 
+![PracticaImg](images/iaw/guaca2.png "Imagen de la practica")
