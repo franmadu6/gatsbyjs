@@ -61,7 +61,7 @@ guacd-port:     4822
 user-mapping: /etc/guacamole/user-mapping.xml
 auth-provider: net.sourceforge.guacamole.net.basic.BasicFileAuthenticationProvider
 basic-user-mapping: /etc/guacamole/user-mapping.xml
-#
+
 vagrant@guacamole:~$ sudo ln -s /etc/guacamole/guacamole.properties /usr/share/tomcat9/.guacamole/
 ```
 
@@ -94,7 +94,7 @@ root@guacamole:/home/vagrant# systemctl restart tomcat9 guacd
 ```shell
 root@guacamole:/home/vagrant# a2enmod proxy proxy_http headers proxy_wstunnel
 root@guacamole:/home/vagrant# nano /etc/apache2/sites-available/guacamole.conf
-#
+
 <VirtualHost *:80>
       ServerName guacamole.madu.com
 
@@ -115,7 +115,7 @@ root@guacamole:/home/vagrant# nano /etc/apache2/sites-available/guacamole.conf
 
      Header always unset X-Frame-Options
 </VirtualHost>
-#
+
 root@guacamole:/etc/apache2/sites-available# a2ensite guacamole.conf 
 root@guacamole:/etc/apache2/sites-available# systemctl reload apache2
 ```
