@@ -75,13 +75,12 @@ package-cleanup --orphans</code></pre></div>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dnf -y upgrade https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm</code></pre></div>
 <p>Eliminamos los ficheros temporales.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dnf clean all</code></pre></div>
+<hr>
 <p><strong>Eliminamos el viejo kernel para CentOS7 e instalaremos el nuevo kernel para CentOS8</strong></p>
-<p>y ahora eliminamos el núcleo antiguo del kernel de CentOS 7 (si en este paso tenemos errores, realmente seguirá instalado el kernel de centos 7 y no habremos instalado el kernel de centos 8):
-<code class="language-text"></code>shell
-rpm -e <code class="language-text">rpm -q kernel</code></p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Eliminamos paquetes conflictivos (como las herramientas systemv):
-```shell
-rpm -e --nodeps sysvinit-tools</code></pre></div>
+<p>y ahora eliminamos el núcleo antiguo del kernel de CentOS 7 (si en este paso tenemos errores, realmente seguirá instalado el kernel de centos 7 y no habremos instalado el kernel de centos 8):</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">rpm</span> -e <span class="token variable"><span class="token variable">`</span><span class="token function">rpm</span> -q kernel<span class="token variable">`</span></span></code></pre></div>
+<p>Eliminamos paquetes conflictivos (como las herramientas systemv):</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">rpm</span> -e --nodeps sysvinit-tools</code></pre></div>
 <p>Si recibimos errores al ejecutar el comando anterior para eliminar el kernel :</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">rpm</span> -e <span class="token variable"><span class="token variable">`</span><span class="token function">rpm</span> -q kernel<span class="token variable">`</span></span></code></pre></div>
 <p>comprobamos si seguimos teniendo errores y conflictos en paquetes; si es así, procuraremos eliminarlos para evitar los problemas (aunque en algunos casos esto es una solución muy arriesgada, sobre todo en servidores en producción).</p>
@@ -89,11 +88,13 @@ rpm -e --nodeps sysvinit-tools</code></pre></div>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dnf remove --oldinstallonly --setopt <span class="token assign-left variable">installonly_limit</span><span class="token operator">=</span><span class="token number">1</span> kernel</code></pre></div>
 <p>o simplemente así:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dnf remove kernel</code></pre></div>
+<hr>
 <p><strong>Comenzamos la actualización a Centos8</strong></p>
 <p>Lanzamos actualización del sistema a Centos8:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dnf -y --releasever<span class="token operator">=</span><span class="token number">8</span> --allowerasing --setopt<span class="token operator">=</span>deltarpm<span class="token operator">=</span>false distro-sync</code></pre></div>
 <p>Si nos encontramos con algunos errores tambien podemos ejecutar:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dnf -y --releasever<span class="token operator">=</span><span class="token number">8</span> --allowerasing --skip-broken --setopt<span class="token operator">=</span>deltarpm<span class="token operator">=</span>false distro-sync</code></pre></div>
+<hr>
 <p><strong>Instalamos el nuevo kernel para Centos8</strong></p>
 <p>Ejecutamos instalación del kernel</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dnf -y <span class="token function">install</span> kernel-core</code></pre></div>
@@ -103,11 +104,13 @@ dnf -y <span class="token function">install</span> kernel-core</code></pre></div
 <p>Si nuevamente tenemos problemas ejecutaremos:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dnf -y <span class="token function">install</span> kernel-core --best --allowerasing --skip-broken</code></pre></div>
 <p>Si no hemos hemos ejecutado los comandos y no hemos tenido mas problemas daremos por hecho que el kernel que tenemos ahora es de Centos8.</p>
+<hr>
 <p><strong>Instalamos el paquete minimal de CentOS8 y actualizamos grupos</strong></p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dnf -y groupupdate <span class="token string">"Core"</span> <span class="token string">"Minimal Install"</span></code></pre></div>
 <p>Si tuvimos problemas:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dnf -y groupupdate <span class="token string">"Core"</span> <span class="token string">"Minimal Install"</span> --allowerasing --skip-broken</code></pre></div>
 <p>Si tenemos problemas con los paquetes de yum en este punto deberemos volver atras, en la parte donde borramos <strong>yum</strong>. Al borrarlo este error desaparecerá.</p>
+<hr>
 <p><strong>Comprobación de que Centos8 y su kernel están instalados correctamente</strong></p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token punctuation">[</span>centos@quijote ~<span class="token punctuation">]</span>$ <span class="token function">cat</span> /etc/os-release
 <span class="token assign-left variable">NAME</span><span class="token operator">=</span><span class="token string">"CentOS Linux"</span>
