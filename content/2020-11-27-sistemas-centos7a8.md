@@ -89,10 +89,12 @@ Eliminamos los ficheros temporales.
 dnf clean all
 ```
 
+<hr>
+
 **Eliminamos el viejo kernel para CentOS7 e instalaremos el nuevo kernel para CentOS8**
 
 y ahora eliminamos el núcleo antiguo del kernel de CentOS 7 (si en este paso tenemos errores, realmente seguirá instalado el kernel de centos 7 y no habremos instalado el kernel de centos 8):
-``shell
+```shell
 rpm -e `rpm -q kernel`
 ```
 
@@ -118,6 +120,8 @@ o simplemente así:
 dnf remove kernel
 ```
 
+<hr>
+
 **Comenzamos la actualización a Centos8**
 
 Lanzamos actualización del sistema a Centos8:
@@ -129,6 +133,8 @@ Si nos encontramos con algunos errores tambien podemos ejecutar:
 ```shell
 dnf -y --releasever=8 --allowerasing --skip-broken --setopt=deltarpm=false distro-sync
 ```
+
+<hr>
 
 **Instalamos el nuevo kernel para Centos8**
 
@@ -150,6 +156,8 @@ dnf -y install kernel-core --best --allowerasing --skip-broken
 
 Si no hemos hemos ejecutado los comandos y no hemos tenido mas problemas daremos por hecho que el kernel que tenemos ahora es de Centos8.
 
+<hr>
+
 **Instalamos el paquete minimal de CentOS8 y actualizamos grupos**
 ```shell
 dnf -y groupupdate "Core" "Minimal Install"
@@ -161,6 +169,8 @@ dnf -y groupupdate "Core" "Minimal Install" --allowerasing --skip-broken
 ```
 
 Si tenemos problemas con los paquetes de yum en este punto deberemos volver atras, en la parte donde borramos **yum**. Al borrarlo este error desaparecerá.
+
+<hr>
 
 **Comprobación de que Centos8 y su kernel están instalados correctamente**
 
