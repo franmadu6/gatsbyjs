@@ -66,7 +66,7 @@ debian@dulcinea:~$ sudo nano /etc/network/interfaces
 # The normal eth0
 allow-hotplug eth0
 iface eth0 inet static
- address 10.0.0.8
+ address 10.0.0.11
  netmask 255.255.255.0
  broadcast 10.0.0.255
 
@@ -74,14 +74,14 @@ iface eth0 inet static
 # multiple networks
 allow-hotplug eth1
 iface eth1 inet static
- address 10.0.1.12
+ address 10.0.1.7
  netmask 255.255.255.0
  broadcast 10.0.1.255
  gateway 10.0.1.1
 
 allow-hotplug eth2
 iface eth2 inet static
- address 10.0.2.9
+ address 10.0.2.6
  netmask 255.255.255.0
  broadcast 10.0.2.255
  gateway 10.0.2.1
@@ -162,10 +162,10 @@ Configuramos la ip estatica en freston:
 # The normal eth0
 allow-hotplug eth0
 iface eth0 inet static
- address 10.0.1.14
+ address 10.0.1.3
  netmask 255.255.255.0
  broadcast 10.0.1.255
- gateway 10.0.1.10
+ gateway 10.0.1.7
  ```
 
  Reiniciamos el servicio networking y comprobamos la conectividad a las máquinas:
@@ -229,10 +229,10 @@ En /etc/sysconfig/network-scripts/ifcfg-eth0
 #
 DEVICE="eth0"
 BOOTPROTO="static"
-IPADDR="10.0.2.3"
+IPADDR="10.0.2.4"
 NETMASK="255.255.255.0"
 NETWORK="10.0.2.0"
-GATEWAY="10.0.2.9"
+GATEWAY="10.0.2.6"
 ONBOOT="yes"
 TYPE="Ethernet"
 ```
