@@ -104,7 +104,7 @@ root@freston:~# nano /var/cache/bind/db.madu.interna
 ```shell
 $TTL    86400
 @       IN      SOA     freston.madu.gonzalonazareno.org. admin.madu.gonzalonazareno.org. (
-                       20121501         ; Serial
+                              1         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -129,7 +129,7 @@ root@freston:~# nano /var/cache/bind/db.madu.dmz
 ```shell
 $TTL    86400
 @       IN      SOA     freston.madu.gonzalonazareno.org. admin.madu.gonzalonazareno.org. (
-                       20121501         ; Serial
+                              1         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -154,7 +154,7 @@ root@freston:~# nano /var/cache/bind/db.madu.externa
 ```shell
 $TTL    86400
 @       IN      SOA     dulcinea.madu.gonzalonazareno.org. admin.madu.gonzalonazareno.org. (
-                       20121501         ; Serial
+                              1         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -178,7 +178,7 @@ root@freston:~# nano /var/cache/bind/db.1.0.10
 ```shell
 $TTL    86400
 @       IN      SOA     freston.madu.gonzalonazareno.org. admin.madu.gonzalonazareno.org. (
-                       20121501         ; Serial
+                              1         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -201,7 +201,7 @@ root@freston:~# nano /var/cache/bind/db.2.0.10
 ```shell
 $TTL    86400
 @       IN      SOA     freston.madu.gonzalonazareno.org. admin.madu.gonzalonazareno.org. (
-                       20121501         ; Serial
+                               1         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -488,139 +488,257 @@ dulcinea.2.0.10.in-addr.arpa.
 
 Desde Externa:
 ```shell
+debian@ansiblepruebas:~$ dig +short @192.168.202.2 dulcinea.madu.gonzalonazareno.org
+172.22.201.38
+debian@ansiblepruebas:~$ dig dulcinea.madu.gonzalonazareno.org
 
+; <<>> DiG 9.11.5-P4-5.1+deb10u2-Debian <<>> dulcinea.madu.gonzalonazareno.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19863
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 6b761c74b57991a3163175f0601c313f6bdc23a9d6c6a050 (good)
+;; QUESTION SECTION:
+;dulcinea.madu.gonzalonazareno.org. IN	A
+
+;; ANSWER SECTION:
+dulcinea.madu.gonzalonazareno.org. 86050 IN A	172.22.201.38
+
+;; AUTHORITY SECTION:
+madu.gonzalonazareno.org. 86038	IN	NS	dulcinea.madu.gonzalonazareno.org.
+
+;; Query time: 1 msec
+;; SERVER: 192.168.202.2#53(192.168.202.2)
+;; WHEN: Thu Feb 04 17:39:11 UTC 2021
+;; MSG SIZE  rcvd: 120
 ```
 
 
 ## Servidor Web
 En quijote (CentOs)(Servidor que está en la DMZ) vamos a instalar un servidor web apache. Configura el servidor para que sea capaz de ejecutar código php (para ello vamos a usar un servidor de aplicaciones php-fpm). Entrega una captura de pantalla accediendo a www.tunombre.gonzalonazareno.org/info.php donde se vea la salida del fichero info.php. Investiga la reglas DNAT de cortafuegos que tienes que configurar en dulcinea para, cuando accedemos a la IP flotante se acceda al servidor web.
 
+Instalamos httpd php y php-fpm.
 ```shell
 [root@quijote centos]# dnf install httpd php php-fpm
-Last metadata expiration check: 0:40:41 ago on Wed 20 Jan 2021 09:07:00 PM CET.
+Last metadata expiration check: 3:55:34 ago on Tue 02 Feb 2021 03:19:48 PM UTC.
 Dependencies resolved.
-=====================================================================================================
- Package                Arch       Version                                       Repository     Size
-=====================================================================================================
+==========================================================================================
+ Package              Arch     Version                                  Repository   Size
+==========================================================================================
 Installing:
- httpd                  x86_64     2.4.37-30.module_el8.3.0+561+97fdbbcc         appstream     1.7 M
- php                    x86_64     7.2.24-1.module_el8.2.0+313+b04d0a66          appstream     1.5 M
- php-fpm                x86_64     7.2.24-1.module_el8.2.0+313+b04d0a66          appstream     1.6 M
+ httpd                x86_64   2.4.37-30.module_el8.3.0+561+97fdbbcc    appstream   1.7 M
+ php                  x86_64   7.2.24-1.module_el8.2.0+313+b04d0a66     appstream   1.5 M
+ php-fpm              x86_64   7.2.24-1.module_el8.2.0+313+b04d0a66     appstream   1.6 M
 Installing dependencies:
- apr                    x86_64     1.6.3-11.el8                                  appstream     125 k
- apr-util               x86_64     1.6.1-6.el8                                   appstream     105 k
- centos-logos-httpd     noarch     80.5-2.el8                                    baseos         24 k
- httpd-filesystem       noarch     2.4.37-30.module_el8.3.0+561+97fdbbcc         appstream      37 k
- httpd-tools            x86_64     2.4.37-30.module_el8.3.0+561+97fdbbcc         appstream     104 k
- mailcap                noarch     2.1.48-3.el8                                  baseos         39 k
- mod_http2              x86_64     1.15.7-2.module_el8.3.0+477+498bb568          appstream     154 k
- nginx-filesystem       noarch     1:1.14.1-9.module_el8.0.0+184+e34fea82        appstream      24 k
- php-cli                x86_64     7.2.24-1.module_el8.2.0+313+b04d0a66          appstream     3.1 M
- php-common             x86_64     7.2.24-1.module_el8.2.0+313+b04d0a66          appstream     661 k
+ apr                  x86_64   1.6.3-11.el8                             appstream   125 k
+ apr-util             x86_64   1.6.1-6.el8                              appstream   105 k
+ centos-logos-httpd   noarch   80.5-2.el8                               baseos       24 k
+ httpd-filesystem     noarch   2.4.37-30.module_el8.3.0+561+97fdbbcc    appstream    37 k
+ httpd-tools          x86_64   2.4.37-30.module_el8.3.0+561+97fdbbcc    appstream   104 k
+ mailcap              noarch   2.1.48-3.el8                             baseos       39 k
+ mod_http2            x86_64   1.15.7-2.module_el8.3.0+477+498bb568     appstream   154 k
+ nginx-filesystem     noarch   1:1.14.1-9.module_el8.0.0+184+e34fea82   appstream    24 k
+ php-cli              x86_64   7.2.24-1.module_el8.2.0+313+b04d0a66     appstream   3.1 M
+ php-common           x86_64   7.2.24-1.module_el8.2.0+313+b04d0a66     appstream   661 k
 Installing weak dependencies:
- apr-util-bdb           x86_64     1.6.1-6.el8                                   appstream      25 k
- apr-util-openssl       x86_64     1.6.1-6.el8                                   appstream      27 k
+ apr-util-bdb         x86_64   1.6.1-6.el8                              appstream    25 k
+ apr-util-openssl     x86_64   1.6.1-6.el8                              appstream    27 k
 Enabling module streams:
- httpd                             2.4                                                              
- nginx                             1.14                                                             
- php                               7.2                                                              
+ httpd                         2.4                                                       
+ nginx                         1.14                                                      
+ php                           7.2                                                       
 
 Transaction Summary
-=====================================================================================================
+==========================================================================================
 Install  15 Packages
 
 Total download size: 9.2 M
 Installed size: 31 M
 Is this ok [y/N]: y
 Downloading Packages:
-(1/15): apr-util-bdb-1.6.1-6.el8.x86_64.rpm                          224 kB/s |  25 kB     00:00    
-(2/15): apr-1.6.3-11.el8.x86_64.rpm                                  775 kB/s | 125 kB     00:00    
-(3/15): apr-util-1.6.1-6.el8.x86_64.rpm                              571 kB/s | 105 kB     00:00    
-(4/15): apr-util-openssl-1.6.1-6.el8.x86_64.rpm                      354 kB/s |  27 kB     00:00    
-(5/15): httpd-filesystem-2.4.37-30.module_el8.3.0+561+97fdbbcc.noarc 436 kB/s |  37 kB     00:00    
-(6/15): httpd-tools-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64.rpm 1.0 MB/s | 104 kB     00:00    
-(7/15): nginx-filesystem-1.14.1-9.module_el8.0.0+184+e34fea82.noarch 274 kB/s |  24 kB     00:00    
-(8/15): mod_http2-1.15.7-2.module_el8.3.0+477+498bb568.x86_64.rpm    1.2 MB/s | 154 kB     00:00    
-(9/15): httpd-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64.rpm       5.8 MB/s | 1.7 MB     00:00    
-(10/15): php-common-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64.rpm  2.8 MB/s | 661 kB     00:00    
-(11/15): php-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64.rpm         3.6 MB/s | 1.5 MB     00:00    
-(12/15): php-fpm-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64.rpm     4.0 MB/s | 1.6 MB     00:00    
-(13/15): php-cli-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64.rpm     4.3 MB/s | 3.1 MB     00:00    
-(14/15): centos-logos-httpd-80.5-2.el8.noarch.rpm                     38 kB/s |  24 kB     00:00    
-(15/15): mailcap-2.1.48-3.el8.noarch.rpm                              92 kB/s |  39 kB     00:00    
------------------------------------------------------------------------------------------------------
-Total                                                                2.1 MB/s | 9.2 MB     00:04     
+(1/15): apr-util-bdb-1.6.1-6.el8.x86_64.rpm               8.1 kB/s |  25 kB     00:03    
+(2/15): apr-util-1.6.1-6.el8.x86_64.rpm                    34 kB/s | 105 kB     00:03    
+(3/15): apr-1.6.3-11.el8.x86_64.rpm                        40 kB/s | 125 kB     00:03    
+(4/15): apr-util-openssl-1.6.1-6.el8.x86_64.rpm           326 kB/s |  27 kB     00:00    
+(5/15): httpd-filesystem-2.4.37-30.module_el8.3.0+561+97f 410 kB/s |  37 kB     00:00    
+(6/15): httpd-tools-2.4.37-30.module_el8.3.0+561+97fdbbcc 1.1 MB/s | 104 kB     00:00    
+(7/15): nginx-filesystem-1.14.1-9.module_el8.0.0+184+e34f 326 kB/s |  24 kB     00:00    
+(8/15): mod_http2-1.15.7-2.module_el8.3.0+477+498bb568.x8 1.4 MB/s | 154 kB     00:00    
+(9/15): php-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64.r 3.1 MB/s | 1.5 MB     00:00    
+(10/15): httpd-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_ 2.2 MB/s | 1.7 MB     00:00    
+(11/15): php-cli-7.2.24-1.module_el8.2.0+313+b04d0a66.x86 4.2 MB/s | 3.1 MB     00:00    
+(12/15): php-common-7.2.24-1.module_el8.2.0+313+b04d0a66. 2.1 MB/s | 661 kB     00:00    
+(13/15): php-fpm-7.2.24-1.module_el8.2.0+313+b04d0a66.x86 4.5 MB/s | 1.6 MB     00:00    
+(14/15): centos-logos-httpd-80.5-2.el8.noarch.rpm          94 kB/s |  24 kB     00:00    
+(15/15): mailcap-2.1.48-3.el8.noarch.rpm                  156 kB/s |  39 kB     00:00    
+------------------------------------------------------------------------------------------
+Total                                                     1.8 MB/s | 9.2 MB     00:05     
 Running transaction check
 Transaction check succeeded.
 Running transaction test
 Transaction test succeeded.
 Running transaction
-  Preparing        :                                                                             1/1 
-  Installing       : php-common-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                     1/15 
-  Running scriptlet: httpd-filesystem-2.4.37-30.module_el8.3.0+561+97fdbbcc.noarch              2/15 
-  Installing       : httpd-filesystem-2.4.37-30.module_el8.3.0+561+97fdbbcc.noarch              2/15 
-  Installing       : apr-1.6.3-11.el8.x86_64                                                    3/15 
-  Running scriptlet: apr-1.6.3-11.el8.x86_64                                                    3/15 
-  Installing       : apr-util-bdb-1.6.1-6.el8.x86_64                                            4/15 
-  Installing       : apr-util-openssl-1.6.1-6.el8.x86_64                                        5/15 
-  Installing       : apr-util-1.6.1-6.el8.x86_64                                                6/15 
-  Running scriptlet: apr-util-1.6.1-6.el8.x86_64                                                6/15 
-  Installing       : httpd-tools-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64                   7/15 
-  Installing       : php-cli-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                        8/15 
-  Installing       : mailcap-2.1.48-3.el8.noarch                                                9/15 
-  Installing       : centos-logos-httpd-80.5-2.el8.noarch                                      10/15 
-  Installing       : mod_http2-1.15.7-2.module_el8.3.0+477+498bb568.x86_64                     11/15 
-  Installing       : httpd-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64                        12/15 
-  Running scriptlet: httpd-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64                        12/15 
-  Running scriptlet: nginx-filesystem-1:1.14.1-9.module_el8.0.0+184+e34fea82.noarch            13/15 
-  Installing       : nginx-filesystem-1:1.14.1-9.module_el8.0.0+184+e34fea82.noarch            13/15 
-  Installing       : php-fpm-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                       14/15 
-  Running scriptlet: php-fpm-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                       14/15 
-  Installing       : php-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                           15/15 
-  Running scriptlet: httpd-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64                        15/15 
-  Running scriptlet: php-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                           15/15 
-  Running scriptlet: php-fpm-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                       15/15 
-  Verifying        : apr-1.6.3-11.el8.x86_64                                                    1/15 
-  Verifying        : apr-util-1.6.1-6.el8.x86_64                                                2/15 
-  Verifying        : apr-util-bdb-1.6.1-6.el8.x86_64                                            3/15 
-  Verifying        : apr-util-openssl-1.6.1-6.el8.x86_64                                        4/15 
-  Verifying        : httpd-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64                         5/15 
-  Verifying        : httpd-filesystem-2.4.37-30.module_el8.3.0+561+97fdbbcc.noarch              6/15 
-  Verifying        : httpd-tools-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64                   7/15 
-  Verifying        : mod_http2-1.15.7-2.module_el8.3.0+477+498bb568.x86_64                      8/15 
-  Verifying        : nginx-filesystem-1:1.14.1-9.module_el8.0.0+184+e34fea82.noarch             9/15 
-  Verifying        : php-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                           10/15 
-  Verifying        : php-cli-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                       11/15 
-  Verifying        : php-common-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                    12/15 
-  Verifying        : php-fpm-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                       13/15 
-  Verifying        : centos-logos-httpd-80.5-2.el8.noarch                                      14/15 
-  Verifying        : mailcap-2.1.48-3.el8.noarch                                               15/15 
+  Preparing        :                                                                  1/1 
+  Installing       : php-common-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64          1/15 
+  Running scriptlet: httpd-filesystem-2.4.37-30.module_el8.3.0+561+97fdbbcc.noarc    2/15 
+  Installing       : httpd-filesystem-2.4.37-30.module_el8.3.0+561+97fdbbcc.noarc    2/15 
+  Installing       : apr-1.6.3-11.el8.x86_64                                         3/15 
+  Running scriptlet: apr-1.6.3-11.el8.x86_64                                         3/15 
+  Installing       : apr-util-bdb-1.6.1-6.el8.x86_64                                 4/15 
+  Installing       : apr-util-openssl-1.6.1-6.el8.x86_64                             5/15 
+  Installing       : apr-util-1.6.1-6.el8.x86_64                                     6/15 
+  Running scriptlet: apr-util-1.6.1-6.el8.x86_64                                     6/15 
+  Installing       : httpd-tools-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64        7/15 
+  Installing       : php-cli-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64             8/15 
+  Installing       : mailcap-2.1.48-3.el8.noarch                                     9/15 
+  Installing       : centos-logos-httpd-80.5-2.el8.noarch                           10/15 
+  Installing       : mod_http2-1.15.7-2.module_el8.3.0+477+498bb568.x86_64          11/15 
+  Installing       : httpd-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64             12/15 
+  Running scriptlet: httpd-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64             12/15 
+  Running scriptlet: nginx-filesystem-1:1.14.1-9.module_el8.0.0+184+e34fea82.noar   13/15 
+  Installing       : nginx-filesystem-1:1.14.1-9.module_el8.0.0+184+e34fea82.noar   13/15 
+  Installing       : php-fpm-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64            14/15 
+  Running scriptlet: php-fpm-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64            14/15 
+  Installing       : php-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                15/15 
+  Running scriptlet: httpd-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64             15/15 
+  Running scriptlet: php-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                15/15 
+  Running scriptlet: php-fpm-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64            15/15 
+  Verifying        : apr-1.6.3-11.el8.x86_64                                         1/15 
+  Verifying        : apr-util-1.6.1-6.el8.x86_64                                     2/15 
+  Verifying        : apr-util-bdb-1.6.1-6.el8.x86_64                                 3/15 
+  Verifying        : apr-util-openssl-1.6.1-6.el8.x86_64                             4/15 
+  Verifying        : httpd-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64              5/15 
+  Verifying        : httpd-filesystem-2.4.37-30.module_el8.3.0+561+97fdbbcc.noarc    6/15 
+  Verifying        : httpd-tools-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64        7/15 
+  Verifying        : mod_http2-1.15.7-2.module_el8.3.0+477+498bb568.x86_64           8/15 
+  Verifying        : nginx-filesystem-1:1.14.1-9.module_el8.0.0+184+e34fea82.noar    9/15 
+  Verifying        : php-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                10/15 
+  Verifying        : php-cli-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64            11/15 
+  Verifying        : php-common-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64         12/15 
+  Verifying        : php-fpm-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64            13/15 
+  Verifying        : centos-logos-httpd-80.5-2.el8.noarch                           14/15 
+  Verifying        : mailcap-2.1.48-3.el8.noarch                                    15/15 
 
 Installed:
-  apr-1.6.3-11.el8.x86_64                                                                            
-  apr-util-1.6.1-6.el8.x86_64                                                                        
-  apr-util-bdb-1.6.1-6.el8.x86_64                                                                    
-  apr-util-openssl-1.6.1-6.el8.x86_64                                                                
-  centos-logos-httpd-80.5-2.el8.noarch                                                               
-  httpd-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64                                                 
-  httpd-filesystem-2.4.37-30.module_el8.3.0+561+97fdbbcc.noarch                                      
-  httpd-tools-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64                                           
-  mailcap-2.1.48-3.el8.noarch                                                                        
-  mod_http2-1.15.7-2.module_el8.3.0+477+498bb568.x86_64                                              
-  nginx-filesystem-1:1.14.1-9.module_el8.0.0+184+e34fea82.noarch                                     
-  php-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                                                    
-  php-cli-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                                                
-  php-common-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                                             
-  php-fpm-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                                                
+  apr-1.6.3-11.el8.x86_64                                                                 
+  apr-util-1.6.1-6.el8.x86_64                                                             
+  apr-util-bdb-1.6.1-6.el8.x86_64                                                         
+  apr-util-openssl-1.6.1-6.el8.x86_64                                                     
+  centos-logos-httpd-80.5-2.el8.noarch                                                    
+  httpd-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64                                      
+  httpd-filesystem-2.4.37-30.module_el8.3.0+561+97fdbbcc.noarch                           
+  httpd-tools-2.4.37-30.module_el8.3.0+561+97fdbbcc.x86_64                                
+  mailcap-2.1.48-3.el8.noarch                                                             
+  mod_http2-1.15.7-2.module_el8.3.0+477+498bb568.x86_64                                   
+  nginx-filesystem-1:1.14.1-9.module_el8.0.0+184+e34fea82.noarch                          
+  php-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                                         
+  php-cli-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                                     
+  php-common-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                                  
+  php-fpm-7.2.24-1.module_el8.2.0+313+b04d0a66.x86_64                                     
 
 Complete!
+```
+
+Iniciamos el servicio de nttpd y php-fpm y lo habilitamos
+```shell
 [root@quijote centos]# systemctl start httpd php-fpm
 [root@quijote centos]# systemctl enable httpd php-fpm
 Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
 Created symlink /etc/systemd/system/multi-user.target.wants/php-fpm.service → /usr/lib/systemd/system/php-fpm.service.
 ```
 
+**Configuración del FireWall**
+Ya que el firewall que utiliza Centos8 es muy restrictivo. habilitaremos los puertos 80 y 443 para su uso.
+```shell
+[root@quijote centos]# firewall-cmd --permanent --add-port=80/tcp
+success
+[root@quijote centos]# firewall-cmd --permanent --add-port=443/tcp
+success
+[root@quijote centos]# firewall-cmd --reload
+success
+[root@quijote centos]# firewall-cmd --list-all
+public (active)
+  target: default
+  icmp-block-inversion: no
+  interfaces: eth1
+  sources: 
+  services: dhcpv6-client ssh
+  ports: 80/tcp 443/tcp
+  protocols: 
+  masquerade: no
+  forward-ports: 
+  source-ports: 
+  icmp-blocks: 
+  rich rules: 
+```
 
+**Configuración de Httpd**
+
+Crearemos los nuevos directorios que de manera predeterminada no existen.
+```shell
+[root@quijote centos]# mkdir /etc/httpd/sites-enabled /etc/httpd/sites-available
+```
+
+Nos vamos a la ultima linea de httpd.conf y modificamos la directiva IncludeOptional y le añadimos la nueva ruta que usará:
+```shell
+[root@quijote centos]# vi /etc/httpd/conf/httpd.conf
+#IncludeOptional conf.d/*.conf
+IncludeOptional sites-enabled/*.conf
+```
+
+**Configuración de Php-fpm**
+Para comprobar qué configuración está usando actualmente, ejecutaremos el comando:
+```shell
+[root@quijote centos]# cat /etc/php-fpm.d/www.conf | egrep 'listen ='
+listen = /run/php-fpm/www.sock
+```
+No es necesario modificación ya que por defecto el Socket Unix esta alojado en /run/php-fpm/www.sock.
+
+**Configuración del virtualhost**
+```shell
+[root@quijote centos]# vi /etc/httpd/sites-available/quijoteweb.conf
+<VirtualHost *:80>
+    ServerName www.fran.gonzalonazareno.org
+    DocumentRoot /var/www/fran
+
+    <Proxy \"unix:/run/php-fpm/www.sock|fcgi://php-fpm\">
+        ProxySet disablereuse=off
+    </Proxy>
+
+    <FilesMatch \.php$>
+        SetHandler proxy:fcgi://php-fpm
+    </FilesMatch>
+
+    ErrorLog /var/www/fran/log/error.log
+    CustomLog /var/www/fran/log/requests.log combined
+</VirtualHost>
+```
+
+Para crear el DocumentRoot y el directorio donde se almacenarán los logs, ejecutaremos el comando:
+```shell
+[root@quijote centos]# mkdir -p /var/www/fran/log
+```
+
+enlace símbolico:
+```shell
+[root@quijote centos]# ln -s /etc/httpd/sites-available/quijoteweb.conf /etc/httpd/sites-enabled/
+```
+
+```shell
+[root@quijote centos]# setsebool -P httpd_unified 1
+[root@quijote centos]# systemctl restart httpd
+```
+
+```shell
+[root@quijote fran]# echo "<?php phpinfo(); ?>" > /var/www/fran/info.php
+```
+
+![PracticaImg](images/servicios/virtualhostquijote.png "virtual host en quijote")
+
+![PracticaImg](images/servicios/virtualhostquijotephp.png "php.info en quijote")
 
 
 ## Servidor de base de datos
@@ -641,11 +759,30 @@ bind-address            = 0.0.0.0
 
 **Creación de usuario remoto.**
 ```shell
-sudo mysql -u root
-CREATE USER 'maduremote'@'%' IDENTIFIED BY 'madu';
-GRANT ALL PRIVILEGES ON *.* TO 'maduremote'@'%';
-FLUSH PRIVILEGES;
-exit
+ubuntu@sancho:~$ sudo mysql -u root -p
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 39
+Server version: 10.3.25-MariaDB-0ubuntu0.20.04.1 Ubuntu 20.04
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> CREATE USER 'fran'@'10.0.2.4' IDENTIFIED BY 'fran';
+Query OK, 0 rows affected (0.076 sec)
+
+MariaDB [(none)]> create database mundodb;
+Query OK, 1 row affected (0.056 sec)
+
+MariaDB [(none)]> GRANT ALL PRIVILEGES ON *.* TO 'fran'@'10.0.2.4';
+Query OK, 0 rows affected (0.000 sec)
+
+MariaDB [(none)]> FLUSH PRIVILEGES;
+Query OK, 0 rows affected (0.001 sec)
+
+MariaDB [(none)]> quit
+Bye    
 ```
 
 **Creación de la base de datos.**
@@ -653,8 +790,8 @@ exit
 Nos descargaremos una base de datos de prueba llama world.sql
 ```shell
 MariaDB [(none)]> create database world;
-ubuntu@sancho:~$ sudo mysql -u maduremote -p world < world.sql
-MariaDB [world]> show tables;
+ubuntu@sancho:~$ sudo mysql -u fran -p mundo < world.sql
+MariaDB [mundodb]> show tables;
 +-----------------+
 | Tables_in_world |
 +-----------------+
@@ -663,7 +800,7 @@ MariaDB [world]> show tables;
 | countrylanguage |
 +-----------------+
 3 rows in set (0.001 sec)
-MariaDB [world]> select * from city;
+MariaDB [mundodb]> select * from city;
 +------+------------------------------------+-------------+------------------------+------------+
 | ID   | Name                               | CountryCode | District               | Population |
 +------+------------------------------------+-------------+------------------------+------------+
@@ -703,7 +840,60 @@ MariaDB [world]> select * from city;
     Tasks: 30 (limit: 2812)
    Memory: 99.8M
    CGroup: /system.slice/mariadb.service
-           └─16661 /usr/libexec/mysqld --basedir=/usr
+           └─16661 /usr/libexec/mysqld --basedir=/usr     
+```
 
 
+**Configuración para la conexión desde Quijote.**
+
+Instalamos mariadb-server.
+```shell
+[root@quijote ~]# dnf -y install mariadb-server
+Last metadata expiration check: 5:26:30 ago on Tue 02 Feb 2021 03:19:48 PM UTC.
+
+Installed:
+  libaio-0.3.112-1.el8.x86_64                                         mariadb-3:10.3.27-3.module_el8.3.0+599+c587b2e7.x86_64                    
+  mariadb-backup-3:10.3.27-3.module_el8.3.0+599+c587b2e7.x86_64       mariadb-connector-c-3.1.11-2.el8_3.x86_64                                 
+  mariadb-errmsg-3:10.3.27-3.module_el8.3.0+599+c587b2e7.x86_64       mariadb-gssapi-server-3:10.3.27-3.module_el8.3.0+599+c587b2e7.x86_64      
+  mariadb-server-3:10.3.27-3.module_el8.3.0+599+c587b2e7.x86_64       mariadb-server-utils-3:10.3.27-3.module_el8.3.0+599+c587b2e7.x86_64       
+  perl-Carp-1.42-396.el8.noarch                                       perl-DBD-MySQL-4.046-3.module_el8.1.0+203+e45423dc.x86_64                 
+  perl-DBI-1.641-3.module_el8.1.0+199+8f0a6bbd.x86_64                 perl-Data-Dumper-2.167-399.el8.x86_64                                     
+  perl-Digest-1.17-395.el8.noarch                                     perl-Digest-MD5-2.55-396.el8.x86_64                                       
+  perl-Encode-4:2.97-3.el8.x86_64                                     perl-Errno-1.28-416.el8.x86_64                                            
+  perl-Exporter-5.72-396.el8.noarch                                   perl-File-Path-2.15-2.el8.noarch                                          
+  perl-File-Temp-0.230.600-1.el8.noarch                               perl-Getopt-Long-1:2.50-4.el8.noarch                                      
+  perl-HTTP-Tiny-0.074-1.el8.noarch                                   perl-IO-1.38-416.el8.x86_64                                               
+  perl-IO-Socket-IP-0.39-5.el8.noarch                                 perl-IO-Socket-SSL-2.066-4.module_el8.3.0+410+ff426aa3.noarch             
+  perl-MIME-Base64-3.15-396.el8.x86_64                                perl-Math-BigInt-1:1.9998.11-7.el8.noarch                                 
+  perl-Math-Complex-1.59-416.el8.noarch                               perl-Mozilla-CA-20160104-7.module_el8.3.0+416+dee7bcef.noarch             
+  perl-Net-SSLeay-1.88-1.module_el8.3.0+410+ff426aa3.x86_64           perl-PathTools-3.74-1.el8.x86_64                                          
+  perl-Pod-Escapes-1:1.07-395.el8.noarch                              perl-Pod-Perldoc-3.28-396.el8.noarch                                      
+  perl-Pod-Simple-1:3.35-395.el8.noarch                               perl-Pod-Usage-4:1.69-395.el8.noarch                                      
+  perl-Scalar-List-Utils-3:1.49-2.el8.x86_64                          perl-Socket-4:2.027-3.el8.x86_64                                          
+  perl-Storable-1:3.11-3.el8.x86_64                                   perl-Term-ANSIColor-4.06-396.el8.noarch                                   
+  perl-Term-Cap-1.17-395.el8.noarch                                   perl-Text-ParseWords-3.30-395.el8.noarch                                  
+  perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch                        perl-Time-Local-1:1.280-1.el8.noarch                                      
+  perl-URI-1.73-3.el8.noarch                                          perl-Unicode-Normalize-1.25-396.el8.x86_64                                
+  perl-constant-1.33-396.el8.noarch                                   perl-interpreter-4:5.26.3-416.el8.x86_64                                  
+  perl-libnet-3.11-3.el8.noarch                                       perl-libs-4:5.26.3-416.el8.x86_64                                         
+  perl-macros-4:5.26.3-416.el8.x86_64                                 perl-parent-1:0.237-1.el8.noarch                                          
+  perl-podlators-4.11-1.el8.noarch                                    perl-threads-1:2.21-2.el8.x86_64                                          
+  perl-threads-shared-1.58-2.el8.x86_64                              
+
+Complete!
+```
+
+**Prueba de conexión**
+```shell
+[centos@quijote ~]$ sudo mysql -u fran -p mundodb -h bd.madu.gonzalonazareno.org
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 48
+Server version: 10.3.25-MariaDB-0ubuntu0.20.04.1 Ubuntu 20.04
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [mundodb]> 
 ```

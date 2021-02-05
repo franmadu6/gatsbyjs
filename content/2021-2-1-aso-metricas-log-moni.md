@@ -13,156 +13,134 @@ tags:
     - Centreon
 ---
 
-# Graphite + Grafana + Centreon
+# Zabbix
 
-Descripción
+<center><img alt="Guacamole" src="https://www.icm.es/wp-content/uploads/2020/04/logo-zabbix-768x554.jpg"/></center>
 
-Utiliza una de las instancias de OpenStack y realiza una de las partes que elijas entre las siguientes sobre el servidor de OVH, dulcinea, sancho, quijote y frestón:
+## Fase previa a la instalación de Zabbix para Debian10
 
-    Métricas: recolección, gestión centralizada, filtrado o selección de los parámetros relevantes y representación gráfica que permita controlar la evolución temporal de parámetros esenciales de todos los servidores.
-    Monitorización: Configuración de un sistema de monitorización que controle servidores y servicios en tiempo real y envíe alertas por uso excesivo de recursos (memoria, disco raíz, etc.) y disponibilidad de los servicios. Alertas por correo, telegram, etc.
-    Gestión de logs: Implementa un sistema que centralice los logs de todos los servidores y que filtre los registros con prioridad error, critical, alert o emergency. Representa gráficamente los datos relevantes extraídos de los logs o configura el envío por correo al administrador de los logs relevantes (una opción o ambas).
-
-Detalla en la documentación claramente las características de la implementación elegida, así como la forma de poder verificarla (envía si es necesario usuario y contraseña por correo a los profesores, para el panel web si lo hubiera, p.ej.).
-
-Antes de comenzar la tarea debes notificarla en la wiki y debes elegir un conjunto de herramientas diferentes a las elegidas por tus compañeros.
-
-## Graphite
-
-Requerimientos
+El repositorio se instala a través de un paquete .deb que podemos descargar desde consola:
 ```shell
-sudo yum -y update
-sudo yum -y install httpd gcc gcc-c++ git pycairo mod_wsgi epel-release
-sudo yum -y install python-pip python-devel blas-devel lapack-devel libffi-devel
+debian@freston:~$ wget https://repo.zabbix.com/zabbix/4.4/debian/pool/main/z/zabbix-release/zabbix-release_4.4-1+buster_all.deb
+--2021-02-03 13:57:02--  https://repo.zabbix.com/zabbix/4.4/debian/pool/main/z/zabbix-release/zabbix-release_4.4-1+buster_all.deb
+Resolving repo.zabbix.com (repo.zabbix.com)... 178.128.6.101, 2604:a880:2:d0::2062:d001
+Connecting to repo.zabbix.com (repo.zabbix.com)|178.128.6.101|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4116 (4.0K) [application/octet-stream]
+Saving to: ‘zabbix-release_4.4-1+buster_all.deb’
+
+zabbix-release_4.4-1+ 100%[=======================>]   4.02K  --.-KB/s    in 0s      
+
+2021-02-03 13:57:04 (65.1 MB/s) - ‘zabbix-release_4.4-1+buster_all.deb’ saved [4116/4116]
 ```
 
-Descarga e instalación
+Instalamos el paquete.
 ```shell
-cd /usr/local/src
-sudo git clone https://github.com/graphite-project/graphite-web.git
-sudo git clone https://github.com/graphite-project/carbon.git
- 
-sudo pip install -r /usr/local/src/graphite-web/requirements.txt
- 
-cd /usr/local/src/carbon/
-sudo python setup.py install
- 
-cd /usr/local/src/graphite-web/
-sudo python setup.py install
- 
-sudo cp /opt/graphite/conf/carbon.conf.example /opt/graphite/conf/carbon.conf
-sudo cp /opt/graphite/conf/storage-schemas.conf.example /opt/graphite/conf/storage-schemas.conf
-sudo cp /opt/graphite/conf/storage-aggregation.conf.example /opt/graphite/conf/storage-aggregation.conf
-sudo cp /opt/graphite/conf/relay-rules.conf.example /opt/graphite/cyum install collectd collectd-snmponf/relay-rules.conf
-sudo cp /opt/graphite/webapp/graphite/local_settings.py.example /opt/graphite/webapp/graphite/local_settings.py
-sudo cp /opt/graphite/conf/graphite.wsgi.example /opt/graphite/conf/graphite.wsgi
-sudo cp /opt/graphite/examples/example-graphite-vhost.conf /etc/httpd/conf.d/graphite.conf
- 
-sudo cp /usr/local/src/carbon/distro/redhat/init.d/carbon-* /etc/init.d/
-sudo chmod +x /etc/init.d/carbon-*
+debian@freston:~$ sudo dpkg -i zabbix-release_4.4-1+buster_all.deb
+Selecting previously unselected package zabbix-release.
+(Reading database ... 28410 files and directories currently installed.)
+Preparing to unpack zabbix-release_4.4-1+buster_all.deb ...
+Unpacking zabbix-release (1:4.4-1+buster) ...
+Setting up zabbix-release (1:4.4-1+buster) ...
 ```
 
-pip3 install 'django<1.6'
-pip3 install 'Twisted<12'
-pip3 install django-tagging
-pip3 install whisper
-pip3 install graphite-web
-pip3 install carbon
+Actualizamos nuestros repositorios.
+```shell
+debian@freston:~$ sudo apt update
+Get:1 http://repo.zabbix.com/zabbix/4.4/debian buster InRelease [7,096 B]
+Get:2 http://repo.zabbix.com/zabbix/4.4/debian buster/main Sources [1,214 B]        
+Get:3 http://repo.zabbix.com/zabbix/4.4/debian buster/main amd64 Packages [4,805 B]  
+Hit:4 http://deb.debian.org/debian buster InRelease                                  
+Get:5 http://security.debian.org/debian-security buster/updates InRelease [65.4 kB] 
+Get:6 http://deb.debian.org/debian buster-updates InRelease [51.9 kB]
+Get:7 http://deb.debian.org/debian buster-updates/main Sources.diff/Index [5,164 B]
+Get:8 http://security.debian.org/debian-security buster/updates/main Sources [177 kB]
+Get:9 http://deb.debian.org/debian buster-updates/main amd64 Packages.diff/Index [5,164 B]
+Get:10 http://security.debian.org/debian-security buster/updates/main amd64 Packages [266 kB]
+Get:11 http://deb.debian.org/debian buster-updates/main Sources 2021-01-29-2000.47.pdiff [653 B]
+Get:11 http://deb.debian.org/debian buster-updates/main Sources 2021-01-29-2000.47.pdiff [653 B]
+Get:12 http://security.debian.org/debian-security buster/updates/main Translation-en [142 kB]
+Get:13 http://deb.debian.org/debian buster-updates/main amd64 Packages 2021-01-29-2000.47.pdiff [408 B]
+Get:13 http://deb.debian.org/debian buster-updates/main amd64 Packages 2021-01-29-2000.47.pdiff [408 B]
+Fetched 726 kB in 3s (255 kB/s)                         
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+4 packages can be upgraded. Run 'apt list --upgradable' to see them.
+```
 
-yum install collectd collectd-snmp
+## Instalación de Zabbix
 
-cp /opt/graphite/examples/example-graphite-vhost.conf /etc/httpd/conf.d/graphite.conf
-cp /opt/graphite/conf/storage-schemas.conf.example /opt/graphite/conf/storage-schemas.conf
-cp /opt/graphite/conf/storage-aggregation.conf.example /opt/graphite/conf/storage-aggregation.conf
-cp /opt/graphite/conf/graphite.wsgi.example /opt/graphite/conf/graphite.wsgi
-cp /opt/graphite/conf/graphTemplates.conf.example /opt/graphite/conf/graphTemplates.conf
-cp /opt/graphite/conf/carbon.conf.example /opt/graphite/conf/carbon.conf
+Usaremos MariaDB como motor de bases de datos, instalaremos los paquetes zabbix-server-mysql, zabbix-frontend-php, zabbix-agent:
+```shell
+debian@freston:~$ sudo apt install -y zabbix-server-mysql zabbix-frontend-php zabbix-agent zabbix-apache-conf
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
 
-chown -R apache:apache /opt/graphite/storage/
+Creating config file /etc/php/7.3/apache2/php.ini with new version
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+apache2_switch_mpm Switch to prefork
+apache2_invoke: Enable module php7.3
+Setting up libhtml-template-perl (2.97-1) ...
+Setting up libapache2-mod-php (2:7.3+69) ...
+Setting up zabbix-apache-conf (1:4.4.10-1+buster) ...
+Enabling conf zabbix.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
+Setting up libcgi-fast-perl (1:2.13-1) ...
+Processing triggers for systemd (241-7~deb10u5) ...
+Processing triggers for libc-bin (2.28-10) ...
+```
 
-vi /opt/graphite/conf/storage-schemas.conf
+Recargamos la configuración de nuestro servidor web:
+```shell
+debian@freston:~$ sudo systemctl reload apache2
+```
 
-[default]
-pattern = .*
-retentions = 10s:4h, 1m:3d, 5m:8d, 15m:32d, 1h:1y
+## Preparación de la Base de datos
 
-[centos@quijote graphite]$ systemctl status carbon-cache.service
-● carbon-cache.service - SYSV: carbon-cache
-   Loaded: loaded (/etc/rc.d/init.d/carbon-cache; generated)
-   Active: inactive (dead)
-     Docs: man:systemd-sysv-generator(8)
-[centos@quijote graphite]$ systemctl start carbon-cache.service
-==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ====
-Authentication is required to start 'carbon-cache.service'.
-Authenticating as: Cloud User (centos)
-Password: 
-==== AUTHENTICATION COMPLETE ====
-[centos@quijote graphite]$ systemctl status carbon-cache.service
-● carbon-cache.service - SYSV: carbon-cache
-   Loaded: loaded (/etc/rc.d/init.d/carbon-cache; generated)
-   Active: active (running) since Mon 2021-02-01 11:30:19 UTC; 8s ago
-     Docs: man:systemd-sysv-generator(8)
-  Process: 1144 ExecStart=/etc/rc.d/init.d/carbon-cache start (code=exited, status=0/SUCCESS)
-    Tasks: 3 (limit: 2591)
-   Memory: 31.4M
-   CGroup: /system.slice/carbon-cache.service
-           └─1161 /usr/bin/python3.6 bin/carbon-cache.py --instance=a start
+Zabbix necesita una bdd y un usuarios con permisos en ella, asi que procederemos a su creación.
+```shell
+debian@freston:~$ sudo mysql
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 49
+Server version: 10.3.27-MariaDB-0+deb10u1 Debian 10
 
-Feb 01 11:30:17 quijote.madu.gonzalonazareno.org systemd[1]: Starting SYSV: carbon-cache...
-Feb 01 11:30:17 quijote.madu.gonzalonazareno.org carbon-cache[1144]: Starting carbon-cache:a...
-Feb 01 11:30:19 quijote.madu.gonzalonazareno.org carbon-cache[1144]: [  OK  ]
-Feb 01 11:30:19 quijote.madu.gonzalonazareno.org systemd[1]: Started SYSV: carbon-cache.
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
 
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
-Editamos el fichero de bienvenida y lo comentamos todo con almohadillas (#).
-vim /etc/httpd/conf.d/welcome.conf
+MariaDB [(none)]> create database zabbix;
+Query OK, 1 row affected (0.000 sec)
 
+MariaDB [(none)]> create user zabbix@localhost identified by 'fran';
+Query OK, 0 rows affected (0.001 sec)
 
+MariaDB [(none)]> grant all privileges on zabbix.* to zabbix@localhost;
+Query OK, 0 rows affected (0.000 sec)
 
+MariaDB [(none)]> flush privileges;
+Query OK, 0 rows affected (0.001 sec)
 
-Modificamos el fichero ‘/etc/httpd/conf.d/graphite-web.conf’ para permitir acceso desde cualquier IP:
+MariaDB [(none)]> exit
+Bye
+```
 
-# Graphite Web Basic mod wsgi vhost 
-<VirtualHost *:80>
-        ##ServerName graphite-web 
-        DocumentRoot "/usr/share/graphite/webapp"
-        ErrorLog /var/log/httpd/graphite-web-error.log 
-        CustomLog /var/log/httpd/graphite-web-access.log common
+En otras aplicaciones es el propio instalador el que crea la estructura incial de la base de datos y la puebla con los datos iniciales. Sin embargo, en Zabbix el proceso lo haremos de forma manual, importando un archivo preparado al efecto:
+```shell
+debian@freston:~$ zcat /usr/share/doc/zabbix-server-mysql/create.sql.gz | mysql zabbix -u zabbix -p
+Enter password: 
+```
 
-        # Header set Access-Control-Allow-Origin "*" 
-        # Header set Access-Control-Allow-Methods "GET, OPTIONS" 
-        # Header set Access-Control-Allow-Headers "origin, authorization, accept" 
-        # Header set Access-Control-Allow-Credentials true 
-
-        VSGIScriptAlias / /usr/share/graphite/graphite-web.wsgi
-        VSGIImportScript /usr/share/graphite/graphite-web.wsgi process-group="i(GLOBAL) application-grou$
- 
-        <Location "/content/"> 
-                SetHandler None 
-        </Location>
-
-        Alias /media/ "/usr/lib/python2.7/site-packages/django/contrib/admin/media,"
-
-        <Location "/media/"> 
-                SetHandler None 
-        </Location>
-
-        <Directory "/usr/share/graphite/"> 
-                <IfModule mod_authz_core.c> 
-                        # Apache 2.4 
-                        #Require local Require all granted 
-                </IfModule> 
-                <IfModule !mod_authz_core.c> 
-                        # Apache 2.2 
-                        Order Deny,Allow 
-                        #Deny from all 
-                        #Allow from 127.0.0.1 
-                        #Allow from ::1 
-                        Allow from all 
-                </IfModule> 
-        </Directory>
-</VirtualHost> 
-
-----------------------------------------------------------------------------
+## Configuración de Zabbix Server
 
 
+
+
+
+
+
+
+iptables -A INPUT -p tcp -m tcp --dport 10050 -j ACCEPT

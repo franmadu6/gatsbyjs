@@ -20,3 +20,19 @@ En esta práctica se trata pues de recoger los siguientes datos:
 * Umbral de rentabilidad
 
 Tras el cálculo de rentabilidad, debemos responder a la pregunta: ¿Con qué nivel de producción la empresa produce beneficios? ¿Y pérdidas? 
+
+
+| Q | CF | CV | CT | CTme | CMg |
+| -- | -- | -- | -- | -- | -- |
+| 1-20 | 4800 | 2000 | 9.200 | 9200 | 9200 |
+| 30-60 | 4800 | 9200 | 14000 | 2800  | 4800 |
+| 70-100 | 4800 | 12800 | 17600 | 176 | 3600 |
+
+1-20 (2 empleados)
+50 (4 empleados)
+100 (8 empleados)
+
+1000 + por persona en equipo informatico
+1200 + por cada nuevo empleado
+
+
