@@ -19,6 +19,33 @@ Elige uno de los dos sistemas de ficheros "avanzados".
 
 Esta tarea se puede realizar en una instancia de OpenStack y documentarla como habitualmente o bien grabar un vídeo con una demo de las características y hacer la entrega con el enlace del vídeo.
 
+### Escenario
+```shell
+fran@debian:~/vagrant/ficheros-zfs$ cat Vagrantfile 
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |zfs|
+  zfs.vm.box = "debian/buster64"
+  zfs.vm.hostname = "zfs"
+  zfs.vm.provider "virtualbox" do |vb|
+    Drives = [1,2,3,4,5]
+    Drives.each do |hd|
+      puts "harddrive #{hd}"
+      unless File.exist?("./Disco#{hd}.vdi")
+        vb.customize ['createhd', '--filename', "./Disco#{hd}.vdi",'--variant', 'Fixed', '--size', 400]
+      end
+      vb.customize ['storageattach', :id,  '--storagectl', 'SATA Controller', '--port', hd+1, '--type', 'hdd', '--medium', "./Disco#{hd}.vdi"]
+    end
+  end
+  zfsMachine.vm.provision "shell", inline: <<-SHELL
+     echo '''deb http://deb.debian.org/debian buster-backports main contrib
+             deb-src http://deb.debian.org/debian buster-backports main contrib''' >> /etc/apt/sources.list
+     apt update
+  SHELL
+end
+```
+
 ### Preparación del escenario para la practica.
 ```shell
 apt upgrade -y
