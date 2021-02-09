@@ -104,5 +104,10 @@ Deberemos de añadir una nueva directiva para habilitar https.
 Listen 443
 ```
 
+No olvidemos añadir una regla de encaminamiento creada en el ejercicio anterior:
+```shell
+root@dulcinea:~# nft add rule ip nat prerouting iifname "eth0" tcp dport 443 counter dnat to 10.0.2.4
+```
+
 !Listo¡ ya tendremos nuestro virtualhost funcionando en el puerto 443, será un poco mas seguro...
 ![PracticaImg](images/seguridad/ssl-openstack.png "Prueba de acceso 443")

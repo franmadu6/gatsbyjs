@@ -266,7 +266,8 @@ Jan 19 20:18:57 freston named[1483]: resolver priming query complete
 
 ### En Dulcinea
 
-Reglas de encaminamiento:
+**Reglas de encaminamiento:**
+(A las que añadiremos el puerto 80 para esta práctica mas adelante y el 443 para la próxima(https).)
 ```shell
 root@dulcinea:~# nft add chain nat prerouting { type nat hook prerouting priority 0 \; }
 root@dulcinea:~# nft add rule ip nat prerouting iifname "eth0" udp dport 53 counter dnat to 10.0.1.3
