@@ -22,7 +22,7 @@ Nota: La fecha de comienzo y finalización de esta tarea irá variando en funci�
 
 Para comenzar nos desplazaremos a los servidores del cloud una vez asignada nuestra máquina, guardaremos una copia de VMWare en un usb y procederemos a su instalación.
 
-(**IMPORTANTE**:Deshabilitar el modulo IPMI para una instalación mucho mas rapida.)
+**IMPORTANTE:Deshabilitar el modulo IPMI para una instalación mucho mas rapida**.
 Una vez realizada la instalación configuraremos un usuario para poder acceder vía navegador.
 
 Crearemos un host en este caso patricio.gonzalonazareno.org
@@ -38,7 +38,7 @@ Procederemos a la instalación de una nueva máquina le añadiremos un disco con
 Encenderemos la máquina.
 ![PracticaImg](images/hlc/vmware-esponja2.png "on sistema")
 
-Nos descargaremos el soporte para visualizar VMWare desde nuestro ordenador
+Nos descargaremos el soporte para visualizar VMWare desde nuestro ordenador, elegiremos instalación sin gráfica que suele dar menos problemas...
 ![PracticaImg](images/hlc/instalacion.PNG "operativo")
 
 Nos descargamos y habilitamos el servidor de ssh.
