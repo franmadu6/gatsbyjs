@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 08 Feb 2021 19:00:45 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[SA] - OpenStack: Configuración HTTPS]]></title><description><![CDATA[El siguiente paso de nuestro proyecto es configurar de forma adecuada el protocolo HTTPS en nuestro servidor web para nuestra aplicaciones…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sa-open-stack-configuracion-https</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sa-open-stack-configuracion-https</guid><category><![CDATA[OpenStack]]></category><category><![CDATA[HTTPS]]></category><pubDate>Sat, 06 Feb 2021 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;el-siguiente-paso-de-nuestro-proyecto-es-configurar-de-forma-adecuada-el-protocolo-https-en-nuestro-servidor-web-para-nuestra-aplicaciones-web-para-ello-vamos-a-emitir-un-certificado-wildcard-en-la-ac-gonzalo-nazareno-utilizando-para-la-petición-la-utilidad-gestiona&quot;&gt;&lt;a href=&quot;#el-siguiente-paso-de-nuestro-proyecto-es-configurar-de-forma-adecuada-el-protocolo-https-en-nuestro-servidor-web-para-nuestra-aplicaciones-web-para-ello-vamos-a-emitir-un-certificado-wildcard-en-la-ac-gonzalo-nazareno-utilizando-para-la-petici%C3%B3n-la-utilidad-gestiona&quot; aria-label=&quot;el siguiente paso de nuestro proyecto es configurar de forma adecuada el protocolo https en nuestro servidor web para nuestra aplicaciones web para ello vamos a emitir un certificado wildcard en la ac gonzalo nazareno utilizando para la petición la utilidad gestiona permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;El siguiente paso de nuestro proyecto es configurar de forma adecuada el protocolo HTTPS en nuestro servidor web para nuestra aplicaciones web. Para ello vamos a emitir un certificado wildcard en la AC Gonzalo Nazareno utilizando para la petición la utilidad &quot;gestiona&quot;.&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 09 Feb 2021 07:53:52 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[SA] - OpenStack: Configuración HTTPS]]></title><description><![CDATA[El siguiente paso de nuestro proyecto es configurar de forma adecuada el protocolo HTTPS en nuestro servidor web para nuestra aplicaciones…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sa-open-stack-configuracion-https</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sa-open-stack-configuracion-https</guid><category><![CDATA[OpenStack]]></category><category><![CDATA[HTTPS]]></category><pubDate>Sat, 06 Feb 2021 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;el-siguiente-paso-de-nuestro-proyecto-es-configurar-de-forma-adecuada-el-protocolo-https-en-nuestro-servidor-web-para-nuestra-aplicaciones-web-para-ello-vamos-a-emitir-un-certificado-wildcard-en-la-ac-gonzalo-nazareno-utilizando-para-la-petición-la-utilidad-gestiona&quot;&gt;&lt;a href=&quot;#el-siguiente-paso-de-nuestro-proyecto-es-configurar-de-forma-adecuada-el-protocolo-https-en-nuestro-servidor-web-para-nuestra-aplicaciones-web-para-ello-vamos-a-emitir-un-certificado-wildcard-en-la-ac-gonzalo-nazareno-utilizando-para-la-petici%C3%B3n-la-utilidad-gestiona&quot; aria-label=&quot;el siguiente paso de nuestro proyecto es configurar de forma adecuada el protocolo https en nuestro servidor web para nuestra aplicaciones web para ello vamos a emitir un certificado wildcard en la ac gonzalo nazareno utilizando para la petición la utilidad gestiona permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;El siguiente paso de nuestro proyecto es configurar de forma adecuada el protocolo HTTPS en nuestro servidor web para nuestra aplicaciones web. Para ello vamos a emitir un certificado wildcard en la AC Gonzalo Nazareno utilizando para la petición la utilidad &quot;gestiona&quot;.&lt;/h2&gt;
 &lt;p&gt;Comenzaremos creando el directorio que usaremos para guardar las claves ssl, dando los respectivos permisos y generando la clave RSA.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote centos&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# mkdir /etc/ssl/private&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote centos&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# chmod 700 /etc/ssl/private/&lt;/span&gt;
@@ -29,7 +29,84 @@ Please enter the following &apos;&lt;/span&gt;extra&apos; attributes
 to be sent with your certificate request
 A challenge password &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:
 An optional company name &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Subimos el archivo a &lt;a href=&quot;https://dit.gonzalonazareno.org/gestiona/cert/&quot;&gt;gestiona&lt;/a&gt; y esperaremos a que sea firmado.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Métricas, logs o monitorización]]></title><description><![CDATA[Zabbix Fase previa a la instalación de Zabbix para Ubuntu(Sancho).]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/metricas-logs-o-monitorizacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/metricas-logs-o-monitorizacion</guid><category><![CDATA[Métricas]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Graphite]]></category><category><![CDATA[Grafana]]></category><category><![CDATA[Centreon]]></category><pubDate>Sun, 31 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;zabbix&quot;&gt;&lt;a href=&quot;#zabbix&quot; aria-label=&quot;zabbix permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Zabbix&lt;/h1&gt;
+&lt;p&gt;Subimos el archivo a &lt;a href=&quot;https://dit.gonzalonazareno.org/gestiona/cert/&quot;&gt;gestiona&lt;/a&gt; y esperaremos a que sea firmado.
+Una vez firmado, aprovecharemos para descargarnos el certificado de IES Gonzalo Nazareno y ambos archivos los ubicaremos en /etc/ssl/cert/.&lt;/p&gt;
+&lt;p&gt;Modificaremos nuestro virtualhost añadiendo añadiendo la redirección al puerto 443 y le añadiremos los certificados.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote centos&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# cat /etc/httpd/sites-available/quijoteweb.conf &lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;VirtualHost *:8&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;0&lt;/span&gt;&gt;&lt;/span&gt;
+    ServerName www.madu.gonzalonazareno.org
+
+    Redirect &lt;span class=&quot;token number&quot;&gt;301&lt;/span&gt; / https://www.madu.gonzalonazareno.org/
+
+    ErrorLog /var/www/fran/log/error.log
+    CustomLog /var/www/fran/log/requests.log combined
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/VirtualHost&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;IfModule mod_ssl.c&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;VirtualHost _default_:44&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;3&lt;/span&gt;&gt;&lt;/span&gt;
+        ServerName www.madu.gonzalonazareno.org
+        DocumentRoot /var/www/fran
+
+	&lt;span class=&quot;token comment&quot;&gt;#Certificados&lt;/span&gt;
+	SSLEngine on
+
+        SSLCertificateFile	/etc/ssl/certs/openstack.crt
+        SSLCertificateKeyFile   /etc/ssl/private/openstack.key
+        SSLCACertificateFile    /etc/ssl/certs/gonzalonazareno.crt
+
+
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory /var/www/fran/&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+         Options FollowSymLinks
+         AllowOverride All
+         Order deny,allow
+         Allow from all
+         &lt;span class=&quot;token comment&quot;&gt;#PHP&lt;/span&gt;
+	 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;FilesMatch &lt;span class=&quot;token string&quot;&gt;&quot;\.php&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                SetHandler &lt;span class=&quot;token string&quot;&gt;&quot;proxy:unix:/run/php-fpm/www.sock|fcgi://localhost&quot;&lt;/span&gt;
+         &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/FilesMatch&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+	&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+        ErrorLog /var/www/fran/log/error.log
+        CustomLog /var/www/fran/log/requests.log combined
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/VirtualHost&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/IfModule&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Instalamos el modulo de ssl para httpd.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote centos&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# dnf install mod_ssl&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Deberemos de añadir una nueva directiva para habilitar https.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote centos&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# nano /etc/httpd/conf/httpd.conf&lt;/span&gt;
+Listen &lt;span class=&quot;token number&quot;&gt;443&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;!Listo¡ ya tendremos nuestro virtualhost funcionando en el puerto 443, será un poco mas seguro...
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/ddbc61054f00d3803c500ceefe18e48e/7449d/ssl-openstack.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.4933586337761%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACRUlEQVQ4y42TSW/aUBSF+RlZtRWIRsyBMA9mCDGF0oihYChQhkYhYcOyC0IgTXcsWPAPU+iWQSFIKOHU96ZGkSLSWjo6fvbzed+9z09VLH1FoVSB9KWCTE6CEAzhwGKGxWKB2fzkBwdWdpPJBKPRuHVFNE+R6uy0jkajgWqlzGo1m7i4OMPp6TfWxfk5Wudnsjd5Xq1WQ7VaZadxvV5HoSBBkvKyF6D6PRljMplgPB7j1+0tft7coN1u4+rqCr3+D9blZUced9Hr9dDv99m73S7PGwwGmM1mWC6XuLu7gwrPrsVijk+pDKx2J6JHRzCcfIcu1sK7t2+g1mig+Su1Ws2+t7eHcDiM1Wq1zVA9Pj7i4eGBB9PpFKVyGbFYDIl4AqGPBbgjJ3A6nazDw0OW3W7nMfUsk8kwHV2UxYSbzYYfzOdzFItFXjUSiSDxQWTF43EcycSCICAYDMLn88HlcsFqtSKbzeL+/h5KzotASZIQCAQQCoUgyqTHogi3281UDoeDycg9Hg87BSqELwJnsydCIkomk0xJwYIQ4I/9fj8H2mw2XsBgMCCdTr9OSFsfjUblsPC29GBQgNfrlcchJqNF6B09y+U+7yakQGoylRwI+LlUEoVQz4iKNoWCaM5/lDzjkhOJBES5d0Si0DyXz+eVwx18Sv5ZcqlU4v7RRFIqlWJqckWieMwL0W7n8/ndhIvFggm0Wi03XK/XQ6fTbV25J9H7/f33vIE7A+mPHw6HfKzoiL2m6+trdDodjEYjrNfrbeAf+dC2oCc5mawAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Prueba de acceso 443&quot;
+        src=&quot;/gatsbyjs/static/ddbc61054f00d3803c500ceefe18e48e/36727/ssl-openstack.png&quot;
+        srcset=&quot;/gatsbyjs/static/ddbc61054f00d3803c500ceefe18e48e/acf4b/ssl-openstack.png 173w,
+/gatsbyjs/static/ddbc61054f00d3803c500ceefe18e48e/fc834/ssl-openstack.png 345w,
+/gatsbyjs/static/ddbc61054f00d3803c500ceefe18e48e/36727/ssl-openstack.png 690w,
+/gatsbyjs/static/ddbc61054f00d3803c500ceefe18e48e/17fa4/ssl-openstack.png 1035w,
+/gatsbyjs/static/ddbc61054f00d3803c500ceefe18e48e/7449d/ssl-openstack.png 1054w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Métricas, logs o monitorización]]></title><description><![CDATA[Zabbix Fase previa a la instalación de Zabbix para Ubuntu(Sancho).]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/metricas-logs-o-monitorizacion</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/metricas-logs-o-monitorizacion</guid><category><![CDATA[Métricas]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Graphite]]></category><category><![CDATA[Grafana]]></category><category><![CDATA[Centreon]]></category><pubDate>Sun, 31 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;zabbix&quot;&gt;&lt;a href=&quot;#zabbix&quot; aria-label=&quot;zabbix permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Zabbix&lt;/h1&gt;
 &lt;center&gt;&lt;img alt=&quot;Guacamole&quot; src=&quot;https://www.icm.es/wp-content/uploads/2020/04/logo-zabbix-768x554.jpg&quot;&gt;&lt;/center&gt;
 &lt;h2 id=&quot;fase-previa-a-la-instalación-de-zabbix-para-ubuntusancho&quot;&gt;&lt;a href=&quot;#fase-previa-a-la-instalaci%C3%B3n-de-zabbix-para-ubuntusancho&quot; aria-label=&quot;fase previa a la instalación de zabbix para ubuntusancho permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Fase previa a la instalación de Zabbix para Ubuntu(Sancho).&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] - Instalación de aplicación web python en OpenStack]]></title><description><![CDATA[Instalación de aplicación web python En esta tarea vamos a desplegar un CMS python. Tienes que realizar la instalación de un CMS python…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-instalacion-de-aplicacion-web-python-en-open-stack</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-instalacion-de-aplicacion-web-python-en-open-stack</guid><category><![CDATA[CMS]]></category><category><![CDATA[PYTHON]]></category><pubDate>Wed, 27 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;django cms&quot; src=&quot;https://docs.django-cms.org/en/latest/_images/django-cms-logo.png&quot;&gt;&lt;/center&gt;
 &lt;p&gt;Instalación de aplicación web python&lt;/p&gt;
@@ -1853,8 +1930,9 @@ listen &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; /run/php-fpm/
 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/VirtualHost&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Para crear el DocumentRoot y el directorio donde se almacenarán los logs, ejecutaremos el comando:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote centos&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# mkdir -p /var/www/fran/log&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;enlace símbolico:&lt;/p&gt;
+&lt;p&gt;Enlace símbolico:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote centos&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# ln -s /etc/httpd/sites-available/quijoteweb.conf /etc/httpd/sites-enabled/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modificamos la política de SELinux y permitimos el uso de nuevos los directorios creados y reiniciamos el servicio.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote centos&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# setsebool -P httpd_unified 1&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote centos&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# systemctl restart httpd&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote fran&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# echo &quot;&amp;lt;?php phpinfo(); ?&gt;&quot; &gt; /var/www/fran/info.php&lt;/span&gt;
@@ -1887,38 +1965,38 @@ listen &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; /run/php-fpm/
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/705b41dcdbf1b27435b1f783d338aaad/a987b/info-php-openstack.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.28125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABvklEQVQoz42S307iQBTGeS8RULwAQ+KFN8bncd/BG8V7E01MjIm70UKAYintapBOC9p2QJA/JlB1rwrfng50JZhNOOmXOacz55fvdBrZ29tHJpNBPB5DIpHA1lYSyeSmqGOxdVrXRb5YB+fi0Siia2tIbGwilUphZ3sX6XQaEcdx4JI450JnZzkcHl7i+PgnTk4kZLO3lN8IZUlHR79w8COLsqyj02nDcamvxdFqc+i6jgiWQlV7kKQ3lMt/UCy2SBqqVQZNM+diKBSq8LzP5VaMRyNEJpMJQk2nU+TzNk5PDeRyHmSZ4+GhikbDhGUZczGYpkHAsYCEvUEMBoOZwwBET5BBUfq4unoh4Du54+S0hEpFJVWEFGW2ep6Hr17RjOFwuAwEjcNxfd2nJhDQpXEVGIaBer0uFOS1Wm0V4OylJDVxfm7h7s4XwPt7jUa0wBj7pwA4Xh34TMAn+n4+SqUW3ZwqnD0+1sHInWWawuXKDmXZwcUFI3Cfxm9SXaSxNbpdDWog/bfIR6PxasBerwdn/l86jg3btuG6Ll67XdjtDoxnDmY28PHx+X9gGOHGYgSjdQnm+/63vfD8IvAv1FcEQNmg1tcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;php.info en quijote&quot;
+        src=&quot;/gatsbyjs/static/705b41dcdbf1b27435b1f783d338aaad/36727/info-php-openstack.png&quot;
+        srcset=&quot;/gatsbyjs/static/705b41dcdbf1b27435b1f783d338aaad/acf4b/info-php-openstack.png 173w,
+/gatsbyjs/static/705b41dcdbf1b27435b1f783d338aaad/fc834/info-php-openstack.png 345w,
+/gatsbyjs/static/705b41dcdbf1b27435b1f783d338aaad/36727/info-php-openstack.png 690w,
+/gatsbyjs/static/705b41dcdbf1b27435b1f783d338aaad/17fa4/info-php-openstack.png 1035w,
+/gatsbyjs/static/705b41dcdbf1b27435b1f783d338aaad/a5044/info-php-openstack.png 1380w,
+/gatsbyjs/static/705b41dcdbf1b27435b1f783d338aaad/a987b/info-php-openstack.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;PHP logo
-
-PHP Version &lt;span class=&quot;token number&quot;&gt;7.2&lt;/span&gt;.24
-
-   System Linux quijote.madu.gonzalonazareno.org &lt;span class=&quot;token number&quot;&gt;4.18&lt;/span&gt;.0-240.10.1.el8_3.x86_64 &lt;span class=&quot;token comment&quot;&gt;#1 SMP Mon Jan 18 17:05:51 UTC 2021 x86_64&lt;/span&gt;
-   Build Date Oct &lt;span class=&quot;token number&quot;&gt;22&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2019&lt;/span&gt; 08:28:36
-   Server API FPM/FastCGI
-   Virtual Directory Support disabled
-   Configuration File &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;php.ini&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; Path /etc
-   Loaded Configuration File /etc/php.ini
-   Scan this &lt;span class=&quot;token function&quot;&gt;dir&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; additional .ini files /etc/php.d
-   Additional .ini files parsed /etc/php.d/20-bz2.ini, /etc/php.d/20-calendar.ini, /etc/php.d/20-ctype.ini, /etc/php.d/20-curl.ini, /etc/php.d/20-exif.ini,
-   /etc/php.d/20-fileinfo.ini, /etc/php.d/20-ftp.ini, /etc/php.d/20-gettext.ini, /etc/php.d/20-iconv.ini, /etc/php.d/20-phar.ini, /etc/php.d/20-sockets.ini,
-   /etc/php.d/20-tokenizer.ini
-   PHP API &lt;span class=&quot;token number&quot;&gt;20170718&lt;/span&gt;
-   PHP Extension &lt;span class=&quot;token number&quot;&gt;20170718&lt;/span&gt;
-   Zend Extension &lt;span class=&quot;token number&quot;&gt;320170718&lt;/span&gt;
-   Zend Extension Build API320170718,NTS
-   PHP Extension Build API20170718,NTS
-   Debug Build no
-   Thread Safety disabled
-   Zend Signal Handling enabled
-   Zend Memory Manager enabled
-   Zend Multibyte Support disabled
-   IPv6 Support enabled
-   DTrace Support available, disabled
-   Registered PHP Streams https, ftps, compress.zlib, php, file, glob, data, http, ftp, compress.bzip2, phar
-   Registered Stream Socket Transports tcp, udp, unix, udg, ssl, tls, tlsv1.0, tlsv1.1, tlsv1.2
-   Registered Stream Filters zlib.*, string.rot13, string.toupper, string.tolower, string.strip_tags, convert.*, consumed, dechunk, bzip2.*, convert.iconv.*
-   Zend logo This program makes use of the Zend Scripting Language Engine:
-   Zend Engine v3.2.0, Copyright &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1998&lt;/span&gt;-2018 Zend Technologies&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&quot;servidor-de-base-de-datos&quot;&gt;&lt;a href=&quot;#servidor-de-base-de-datos&quot; aria-label=&quot;servidor de base de datos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Servidor de base de datos&lt;/h2&gt;
 &lt;p&gt;En sancho (Ubuntu) vamos a instalar un servidor de base de datos mariadb (bd.tu_nombre.gonzalonazareno.org). Entrega una prueba de funcionamiento donde se vea como se realiza una conexión a la base de datos desde quijote.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Instalación del servidor.&lt;/strong&gt;&lt;/p&gt;
