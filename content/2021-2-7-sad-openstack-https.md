@@ -48,3 +48,61 @@ An optional company name []:
 ```
 
 Subimos el archivo a [gestiona](https://dit.gonzalonazareno.org/gestiona/cert/) y esperaremos a que sea firmado.
+Una vez firmado, aprovecharemos para descargarnos el certificado de IES Gonzalo Nazareno y ambos archivos los ubicaremos en /etc/ssl/cert/.
+
+Modificaremos nuestro virtualhost añadiendo añadiendo la redirección al puerto 443 y le añadiremos los certificados.
+```shell
+[root@quijote centos]# cat /etc/httpd/sites-available/quijoteweb.conf 
+<VirtualHost *:80>
+    ServerName www.madu.gonzalonazareno.org
+
+    Redirect 301 / https://www.madu.gonzalonazareno.org/
+
+    ErrorLog /var/www/fran/log/error.log
+    CustomLog /var/www/fran/log/requests.log combined
+</VirtualHost>
+
+<IfModule mod_ssl.c>
+    <VirtualHost _default_:443>
+        ServerName www.madu.gonzalonazareno.org
+        DocumentRoot /var/www/fran
+
+	#Certificados
+	SSLEngine on
+
+        SSLCertificateFile	/etc/ssl/certs/openstack.crt
+        SSLCertificateKeyFile   /etc/ssl/private/openstack.key
+        SSLCACertificateFile    /etc/ssl/certs/gonzalonazareno.crt
+
+
+        <Directory /var/www/fran/>
+         Options FollowSymLinks
+         AllowOverride All
+         Order deny,allow
+         Allow from all
+         #PHP
+	 <FilesMatch "\.php">
+                SetHandler "proxy:unix:/run/php-fpm/www.sock|fcgi://localhost"
+         </FilesMatch>
+
+	</Directory>
+
+        ErrorLog /var/www/fran/log/error.log
+        CustomLog /var/www/fran/log/requests.log combined
+    </VirtualHost>
+</IfModule>
+```
+
+Instalamos el modulo de ssl para httpd.
+```shell
+[root@quijote centos]# dnf install mod_ssl
+```
+
+Deberemos de añadir una nueva directiva para habilitar https.
+```shell
+[root@quijote centos]# nano /etc/httpd/conf/httpd.conf
+Listen 443
+```
+
+!Listo¡ ya tendremos nuestro virtualhost funcionando en el puerto 443, será un poco mas seguro...
+![PracticaImg](images/seguridad/ssl-openstack.png "Prueba de acceso 443")

@@ -726,11 +726,12 @@ Para crear el DocumentRoot y el directorio donde se almacenarán los logs, ejecu
 [root@quijote centos]# mkdir -p /var/www/fran/log
 ```
 
-enlace símbolico:
+Enlace símbolico:
 ```shell
 [root@quijote centos]# ln -s /etc/httpd/sites-available/quijoteweb.conf /etc/httpd/sites-enabled/
 ```
 
+Modificamos la política de SELinux y permitimos el uso de nuevos los directorios creados y reiniciamos el servicio.
 ```shell
 [root@quijote centos]# setsebool -P httpd_unified 1
 [root@quijote centos]# systemctl restart httpd
@@ -742,40 +743,7 @@ enlace símbolico:
 ```
 
 ![PracticaImg](images/servicios/virtualhostquijote.png "virtual host en quijote")
-
-```shell
-PHP logo
-
-PHP Version 7.2.24
-
-   System Linux quijote.madu.gonzalonazareno.org 4.18.0-240.10.1.el8_3.x86_64 #1 SMP Mon Jan 18 17:05:51 UTC 2021 x86_64
-   Build Date Oct 22 2019 08:28:36
-   Server API FPM/FastCGI
-   Virtual Directory Support disabled
-   Configuration File (php.ini) Path /etc
-   Loaded Configuration File /etc/php.ini
-   Scan this dir for additional .ini files /etc/php.d
-   Additional .ini files parsed /etc/php.d/20-bz2.ini, /etc/php.d/20-calendar.ini, /etc/php.d/20-ctype.ini, /etc/php.d/20-curl.ini, /etc/php.d/20-exif.ini,
-   /etc/php.d/20-fileinfo.ini, /etc/php.d/20-ftp.ini, /etc/php.d/20-gettext.ini, /etc/php.d/20-iconv.ini, /etc/php.d/20-phar.ini, /etc/php.d/20-sockets.ini,
-   /etc/php.d/20-tokenizer.ini
-   PHP API 20170718
-   PHP Extension 20170718
-   Zend Extension 320170718
-   Zend Extension Build API320170718,NTS
-   PHP Extension Build API20170718,NTS
-   Debug Build no
-   Thread Safety disabled
-   Zend Signal Handling enabled
-   Zend Memory Manager enabled
-   Zend Multibyte Support disabled
-   IPv6 Support enabled
-   DTrace Support available, disabled
-   Registered PHP Streams https, ftps, compress.zlib, php, file, glob, data, http, ftp, compress.bzip2, phar
-   Registered Stream Socket Transports tcp, udp, unix, udg, ssl, tls, tlsv1.0, tlsv1.1, tlsv1.2
-   Registered Stream Filters zlib.*, string.rot13, string.toupper, string.tolower, string.strip_tags, convert.*, consumed, dechunk, bzip2.*, convert.iconv.*
-   Zend logo This program makes use of the Zend Scripting Language Engine:
-   Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
-```
+![PracticaImg](images/servicios/info-php-openstack.png "php.info en quijote")
 
 
 ## Servidor de base de datos
