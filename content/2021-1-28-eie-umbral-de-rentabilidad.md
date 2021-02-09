@@ -36,3 +36,22 @@ Tras el cálculo de rentabilidad, debemos responder a la pregunta: ¿Con qué ni
 1200 + por cada nuevo empleado
 
 
+Ingresos totales = Precio de venta * Q (El precio basico lo dejaremos en 300€)
+IT(0) = 300 * 0 = 0 €
+IT(1) = 300 * 1 = 300 €
+IT(2) = 300 * 2 = 600 €
+IT(5) = 300 * 5 = 1500 €
+IT(20) = 300 * 20 = 6000 €
+IT(50) = 300 * 50 = 15000 €
+IT(100) = 300 * 100 = 30000 €
+
+
+Beneficio = IT - CT (Costes totales) (Con el número inicial de trabajadores **2**).
+B(0) = 0 - 9.200 = -9.200 €
+B(20) = (300 * 20) - 9.200 = -3200 €
+B(30) = (300 * 30) - 9.200 = -200 €
+B(31) = (300 * 31) - 9.200 =  100 €
+B(50) = (300 * 50) - 9.200 =  5800 €
+B(100) = (300 * 100) - 9.200 = 20800 €
+
+Como podemos apreciar comenzaremos a obtener ingresos apartir de la web 31.
