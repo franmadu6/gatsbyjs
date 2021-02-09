@@ -32,14 +32,20 @@ Crearemos un host en este caso patricio.gonzalonazareno.org
 Para crear una nueva máquina deberemos antes crear un volumen nuevo.
 ![PracticaImg](images/hlc/volumen-vmware.png "creación de volumen")
 
-Procederemos a la instalación del nuevo sistema.
+Procederemos a la instalación de una nueva máquina le añadiremos un disco con debian10.
 ![PracticaImg](images/hlc/vmware-esponja.png "instalación del sistema")
 
 Encenderemos la máquina.
 ![PracticaImg](images/hlc/vmware-esponja2.png "on sistema")
 
-Por lo que podemos comprobar el sistema no funciona y ademas no podemos instala vm tools.
+Nos descargaremos el soporte para visualizar VMWare desde nuestro ordenador
+![PracticaImg](images/hlc/instalacion.PNG "operativo")
 
-Descargaremos una OVA de debian10 para vmware. https://descargarmaquinasvirtuales.com/
+Nos descargamos y habilitamos el servidor de ssh.
+![PracticaImg](images/hlc/terminal.PNG "operativo")
 
+¡Listo! Ya tenemos puesta a punto nuestra maquija en VMWare.
+![PracticaImg](images/hlc/esponja-terminal-vmware.png "operativo")
 
+Prueba de ping para comprobar la conexión.
+![PracticaImg](images/hlc/vmware-ping.png "operativo")
