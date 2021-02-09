@@ -1,4 +1,172 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 09 Feb 2021 07:53:52 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[SA] - OpenStack: Configuración HTTPS]]></title><description><![CDATA[El siguiente paso de nuestro proyecto es configurar de forma adecuada el protocolo HTTPS en nuestro servidor web para nuestra aplicaciones…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sa-open-stack-configuracion-https</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sa-open-stack-configuracion-https</guid><category><![CDATA[OpenStack]]></category><category><![CDATA[HTTPS]]></category><pubDate>Sat, 06 Feb 2021 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;el-siguiente-paso-de-nuestro-proyecto-es-configurar-de-forma-adecuada-el-protocolo-https-en-nuestro-servidor-web-para-nuestra-aplicaciones-web-para-ello-vamos-a-emitir-un-certificado-wildcard-en-la-ac-gonzalo-nazareno-utilizando-para-la-petición-la-utilidad-gestiona&quot;&gt;&lt;a href=&quot;#el-siguiente-paso-de-nuestro-proyecto-es-configurar-de-forma-adecuada-el-protocolo-https-en-nuestro-servidor-web-para-nuestra-aplicaciones-web-para-ello-vamos-a-emitir-un-certificado-wildcard-en-la-ac-gonzalo-nazareno-utilizando-para-la-petici%C3%B3n-la-utilidad-gestiona&quot; aria-label=&quot;el siguiente paso de nuestro proyecto es configurar de forma adecuada el protocolo https en nuestro servidor web para nuestra aplicaciones web para ello vamos a emitir un certificado wildcard en la ac gonzalo nazareno utilizando para la petición la utilidad gestiona permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;El siguiente paso de nuestro proyecto es configurar de forma adecuada el protocolo HTTPS en nuestro servidor web para nuestra aplicaciones web. Para ello vamos a emitir un certificado wildcard en la AC Gonzalo Nazareno utilizando para la petición la utilidad &quot;gestiona&quot;.&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fran Madueño Blog]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>Fran Madueño Blog</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 09 Feb 2021 09:44:11 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Instalación y configuración básica de VMWare ESXi]]></title><description><![CDATA[Utiliza el servidor físico que se te haya asignado e instala la versión adecuada del sistema de virtualización VMWare ESXi (ten en cuenta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-basica-de-vm-ware-es-xi</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-basica-de-vm-ware-es-xi</guid><category><![CDATA[VMWare ESXi]]></category><category><![CDATA[Instalación]]></category><category><![CDATA[Servidores]]></category><pubDate>Mon, 08 Feb 2021 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;utiliza-el-servidor-físico-que-se-te-haya-asignado-e-instala-la-versión-adecuada-del-sistema-de-virtualización-vmware-esxi-ten-en-cuenta-que-recibe-diferentes-denominaciones-comerciales-pero-nos-referimos-al-sistema-de-virtualización-de-vmware-que-proporciona-virtualización-de-alto-rendimiento-mediante-la-técnica-de-la-paravirtualización&quot;&gt;&lt;a href=&quot;#utiliza-el-servidor-f%C3%ADsico-que-se-te-haya-asignado-e-instala-la-versi%C3%B3n-adecuada-del-sistema-de-virtualizaci%C3%B3n-vmware-esxi-ten-en-cuenta-que-recibe-diferentes-denominaciones-comerciales-pero-nos-referimos-al-sistema-de-virtualizaci%C3%B3n-de-vmware-que-proporciona-virtualizaci%C3%B3n-de-alto-rendimiento-mediante-la-t%C3%A9cnica-de-la-paravirtualizaci%C3%B3n&quot; aria-label=&quot;utiliza el servidor físico que se te haya asignado e instala la versión adecuada del sistema de virtualización vmware esxi ten en cuenta que recibe diferentes denominaciones comerciales pero nos referimos al sistema de virtualización de vmware que proporciona virtualización de alto rendimiento mediante la técnica de la paravirtualización permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Utiliza el servidor físico que se te haya asignado e instala la versión adecuada del sistema de virtualización VMWare ESXi (ten en cuenta que recibe diferentes denominaciones comerciales, pero nos referimos al sistema de virtualización de VMWare que proporciona virtualización de alto rendimiento mediante la técnica de la paravirtualización).&lt;/h2&gt;
+&lt;h2 id=&quot;realiza-la-configuración-del-servicio-que-permita-su-gestión-remota-desde-un-equipo-cliente-e-instala-en-tu-equipo-la-aplicación-cliente-que-permita-gestionar-remotamente-el-hipervisor&quot;&gt;&lt;a href=&quot;#realiza-la-configuraci%C3%B3n-del-servicio-que-permita-su-gesti%C3%B3n-remota-desde-un-equipo-cliente-e-instala-en-tu-equipo-la-aplicaci%C3%B3n-cliente-que-permita-gestionar-remotamente-el-hipervisor&quot; aria-label=&quot;realiza la configuración del servicio que permita su gestión remota desde un equipo cliente e instala en tu equipo la aplicación cliente que permita gestionar remotamente el hipervisor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Realiza la configuración del servicio que permita su gestión remota desde un equipo cliente e instala en tu equipo la aplicación cliente que permita gestionar remotamente el hipervisor.&lt;/h2&gt;
+&lt;h2 id=&quot;instala-una-máquina-virtual-que-tenga-acceso-a-internet-la-corrección-consistirá-en-comprobar-el-funcionamiento-de-dicha-máquina-virtual&quot;&gt;&lt;a href=&quot;#instala-una-m%C3%A1quina-virtual-que-tenga-acceso-a-internet-la-correcci%C3%B3n-consistir%C3%A1-en-comprobar-el-funcionamiento-de-dicha-m%C3%A1quina-virtual&quot; aria-label=&quot;instala una máquina virtual que tenga acceso a internet la corrección consistirá en comprobar el funcionamiento de dicha máquina virtual permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instala una máquina virtual que tenga acceso a Internet. La corrección consistirá en comprobar el funcionamiento de dicha máquina virtual.&lt;/h2&gt;
+&lt;p&gt;Nota: La fecha de comienzo y finalización de esta tarea irá variando en función de la disponibilidad de servidores físicos.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Para comenzar nos desplazaremos a los servidores del cloud una vez asignada nuestra máquina, guardaremos una copia de VMWare en un usb y procederemos a su instalación.&lt;/p&gt;
+&lt;p&gt;(&lt;strong&gt;IMPORTANTE&lt;/strong&gt;:Deshabilitar el modulo IPMI para una instalación mucho mas rapida.)
+Una vez realizada la instalación configuraremos un usuario para poder acceder vía navegador.&lt;/p&gt;
+&lt;p&gt;Crearemos un host en este caso patricio.gonzalonazareno.org
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e4d0bac93b362912c794095baff1e906/a987b/vmware.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.989583333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAB/UlEQVQoz21Ry27TQBT1j1FAdIHEU6ggoZIqQhSByqIs+Au2fAErFvQHAgIKAhZEJGnT0rRN4lcSv+LEz5mxncPNuAJTMdLxnTv33OM7Z5Ta1gvc23yOa+tPcPX+Y1y5u4mV23VcvlOnuIGVWxu4KGPtH1y4sY5LNx9gde0hrteeof50G4+2tqG8fPMFr3a+4XWjhZ3dfbzd7aLR7OP9zwHeNU/xoa3i055eoqPhYwXL/DOdLzmtIx1fuxqUxvcu2vs9dA5O0Oz2YUxcJFGIMIwgOEeeZciEAOdMxiLPJYSgWp5JTpqmYGkC1fKhtI9NTCwXE8cHz4EgZuirOjw/QCoKJCxDlHJoxhiaOcbYdjGPEomEZ2f7lHgCJ6YLZY8Ex5YHywsQsRyzMIFujuDPQ/CsgMgLMJHTGQkaI+I6cKc+gjCm2gJRwhCTmMhyDMYelE7POBOcI+YFAvrbxLLhej7ilMg03bLJcjwpZjkubHdKN5jL2iwIqSdBGMXoqRMSJDOXgvY0kIKMrlldi8Vi+cX/Vln7G01nRh7+UmmiKXkzhR+mCMlDIR+BICrg51CpMcqLooA6Ig9bh0PYpHzc19EfatL8oW5iqJlyP9AMqPpI5mUs84FqSF7JMaW/PzpHNOHBQE5o2R4YSxHH8R8klX01T86dRVEETr2nqonfJrDM4A0nj70AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Prueba de acceso&quot;
+        src=&quot;/gatsbyjs/static/e4d0bac93b362912c794095baff1e906/36727/vmware.png&quot;
+        srcset=&quot;/gatsbyjs/static/e4d0bac93b362912c794095baff1e906/acf4b/vmware.png 173w,
+/gatsbyjs/static/e4d0bac93b362912c794095baff1e906/fc834/vmware.png 345w,
+/gatsbyjs/static/e4d0bac93b362912c794095baff1e906/36727/vmware.png 690w,
+/gatsbyjs/static/e4d0bac93b362912c794095baff1e906/17fa4/vmware.png 1035w,
+/gatsbyjs/static/e4d0bac93b362912c794095baff1e906/a5044/vmware.png 1380w,
+/gatsbyjs/static/e4d0bac93b362912c794095baff1e906/a987b/vmware.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/667a7928de628ef4b903b6c383f4a771/a987b/vmware-host.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.9375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAACMUlEQVQoz32Ry27TQBSG82JQELBBQkAXlAVqSyWgUoW6ACRegg2PUR6BBaIK0CIuTVuSJrHjJE58S+JLHF9z+Th2y5aRPs2ZmX9+n/ld2Xz5lse7r7n7ZI/bG8+59egFa+s73Fh/ytrDgu2repvrBQ+2Sq7d3+SmzHc2nnFva5+dvVfs7r+h8u6gyvsPVQ4+n3F4qvHxl8anWo/qmXAu1IclR02T7y2L43/I+mt9wDeheq5zpgw4rKlUvpy0aTQ7WJaDaxmwzFimESxSYMX/RhhOYX6pW2YRf9pdKsfnKorapW+66JMZZpBgFPgJQz/GmqY4YcZoljGO8pKynuUMJiGGO8MSnR1E/Gz2qRzVFBSli9KzaRkuTWNCW8xVyytRrmZ9PEU1Jyhy3hsF9By/3CtM+zIXpj8uelROxNV2xEAfolljLC8iDALmWVrCciEs5VVLBhKLOrRxJh6+5xJHM/I0JUsT0cxpdYdUTsXQcTy0oUNrOGLgxfhiGEWR+KxYrS4phiZmjZ6J7QaSX0icJGRZTpbn8sGVNGVRqUmbRYddY8xF30azPUzTIgimpThNs5KiVvsGpxK8NjCZTFxcz8PzfYJpSBLH1BXJ8KTRxRn7NETY6vToGw6aXNR0E/2q7g0s2p2+1EOabQ2lq9NQNZodvdS15EyVvaPfDTGsa9KhR1+eEyUpkhZxvmIUzpnLIsnm5IslI8ktTnNcf8pMunFDH1t+RJgscIMZ4SySDA3+AqRdx81eB5bHAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;host&quot;
+        src=&quot;/gatsbyjs/static/667a7928de628ef4b903b6c383f4a771/36727/vmware-host.png&quot;
+        srcset=&quot;/gatsbyjs/static/667a7928de628ef4b903b6c383f4a771/acf4b/vmware-host.png 173w,
+/gatsbyjs/static/667a7928de628ef4b903b6c383f4a771/fc834/vmware-host.png 345w,
+/gatsbyjs/static/667a7928de628ef4b903b6c383f4a771/36727/vmware-host.png 690w,
+/gatsbyjs/static/667a7928de628ef4b903b6c383f4a771/17fa4/vmware-host.png 1035w,
+/gatsbyjs/static/667a7928de628ef4b903b6c383f4a771/a5044/vmware-host.png 1380w,
+/gatsbyjs/static/667a7928de628ef4b903b6c383f4a771/a987b/vmware-host.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Para crear una nueva máquina deberemos antes crear un volumen nuevo.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/1d516192d7a60aa9eef5044324121aeb/a987b/volumen-vmware.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.88541666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAB3klEQVQoz6WSfWvTUBTG88F0MmX4j7LJfAVX6NANRBH1Y/kJRJFh57SgtHZtt65dmzRZkrVN2yQ3bzcvj+feruoQ//LAj+ece+597iE3ysPdN9gov8TNR7tYe/AUN+7v4NqdMq7f3cbqJunmtmRlo4SV9RKurm8RJVy5/RirpGv3nuDW1guUn73CzvPXUN5+amGvPsCHmoq9hoaP9YV+bhvYb+motAxUmjoOjs5Q7dj42rEkVaJyqEn2qd/o0p6mCuX9wSG+1doYDE148ymQxhBRZAlyLvIc/47iUmXNGJR3X1qo1o7R7g2hmxZcnyGMYrAghM8CqaIWZFmOLP9NXhQSsS7CnJJh69SE47jQzDG65gTa2IPr+QjDCAnnSNMUnKcyz/PFwaIofukSaej4UBonOizbgT2eYc5CuGGCKE4QXBhmWQaeCsP0ksGf5EvDiUeGHR0mGc5chv8NyyHDH8carPMpRpO5nCim6eIkkXmScJnLOuF/wflFn87keQaVPptSP1IxGs/ROdXQG4iHGUEzbHT7mlRVtzA8s6mnU22hp5LS2ommo6sacr/4Q/qage/NHhm2B7BpQvt8QjdFiKIFnufRw4gXXtSMMVkv1Q8YPMqjOEYQBIijEP2hhZ+rhdSPKE1fEwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;creación de volumen&quot;
+        src=&quot;/gatsbyjs/static/1d516192d7a60aa9eef5044324121aeb/36727/volumen-vmware.png&quot;
+        srcset=&quot;/gatsbyjs/static/1d516192d7a60aa9eef5044324121aeb/acf4b/volumen-vmware.png 173w,
+/gatsbyjs/static/1d516192d7a60aa9eef5044324121aeb/fc834/volumen-vmware.png 345w,
+/gatsbyjs/static/1d516192d7a60aa9eef5044324121aeb/36727/volumen-vmware.png 690w,
+/gatsbyjs/static/1d516192d7a60aa9eef5044324121aeb/17fa4/volumen-vmware.png 1035w,
+/gatsbyjs/static/1d516192d7a60aa9eef5044324121aeb/a5044/volumen-vmware.png 1380w,
+/gatsbyjs/static/1d516192d7a60aa9eef5044324121aeb/a987b/volumen-vmware.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Procederemos a la instalación del nuevo sistema.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/786d6a9f92a9dcf20557ab9fe97c58ce/a987b/vmware-esponja.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.15625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAACEElEQVQoz4VRy27TQBT1j0ErIWCFaCtRqV2kNEKqIiQegmxZseFjKkRhWx5qmoqUV6o87DSJ7dhObOedjJ+xc7gzabvtSEd35s7VmXPOSDu5PDazr/BwN4cHOwe4t32Ata0s1rf2sbb5lLB/s7/LsbEncOdxBusbGdzffoZHmRfIPn+D3Ms8pMOTGk4uNByXdRRqJoqyjdOahWLVwFndwinVQpX6tC81bPwklK5wznFJPaWHumbjW7kB6dP3vyiUqiic/cKH9++Q2X2Co4+HECuJgZSAJW5fCSotDdLX8zrqDR3HP4rIv32NbHYPR5+/iBHP9xFGMSFCRNXzA0znc/hBiDCMEFyBn5PFArLWhVRpdjEYTGA6Q6jOGAM/xZx5CIIAcRwTUXSDltWFYrpwRjMiDBHRPZ/hD2KZEqEF6aJhokdkDpFOmI+JR0T02nK5RJqmq5okWFCvadiQzT7cCRMK+d31HF+KIFQMdO0hxlN2a0q67UDRu3CGYzDGyG5ITkKyHAjLimpCKss6KRzBJYXcAs9EZCbsruxwNVy1ohv4I6uw3BECypMT8ZyZ5wvrctuA9K+uwe1PIDd1NFUDRq8P3bTRaOuiakYPuuXgst1Bu0MZtjpQqcfJuSKT5lXqtzQDvytNIqypsN0x2e6L37r+tdmcibrqhZjO5uKXed8jRWOPYThlYp4rZJ6HNmX8HyiBx1vNu5FeAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;instalación del sistema&quot;
+        src=&quot;/gatsbyjs/static/786d6a9f92a9dcf20557ab9fe97c58ce/36727/vmware-esponja.png&quot;
+        srcset=&quot;/gatsbyjs/static/786d6a9f92a9dcf20557ab9fe97c58ce/acf4b/vmware-esponja.png 173w,
+/gatsbyjs/static/786d6a9f92a9dcf20557ab9fe97c58ce/fc834/vmware-esponja.png 345w,
+/gatsbyjs/static/786d6a9f92a9dcf20557ab9fe97c58ce/36727/vmware-esponja.png 690w,
+/gatsbyjs/static/786d6a9f92a9dcf20557ab9fe97c58ce/17fa4/vmware-esponja.png 1035w,
+/gatsbyjs/static/786d6a9f92a9dcf20557ab9fe97c58ce/a5044/vmware-esponja.png 1380w,
+/gatsbyjs/static/786d6a9f92a9dcf20557ab9fe97c58ce/a987b/vmware-esponja.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Encenderemos la máquina.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/875e479014a36dca2a58b73fb0d434bb/a987b/vmware-esponja2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 39.739583333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAAB10lEQVQoz4WPTWsTURSGZ+NfcOHGX2KiICKC1lpESmtrsYhVQcUu/C8u3YggQvFrodSkiBEbJJqmiSRNZvIxM5nMV5LJZD6SxztTEFx54OE93Hvue94rLd/dZnHjIRdXtlIuLN/j3NJtzl67RfbqOtnF9b+aEZpZuMmZhTUyV1bJiv789U0urdxnbesxdx48QXqZK/P5R5N3+3XeFg758L3Ox2KDXKlJ7qfMXlkhf9AR2uFrVf2HguBbTeVLpUulpZEvN5DyxRpKW2Nn5w2nT53khCTxdPsRacXTY5jz/4qpym2kV5+K7BZ+8fr9Lqsbm1xeusGz5y9IbMyRj+0FKc4kxPWjlKS3E7wQKyVg5IdUZB1pX8RsNRW6uo1ijjH9GarrI/dt2oMhysBFMdy0r6sDqm2dI91Kz9vJnUA2HDRnTKnRQyoeymiaSaurc9DsIAtjx3GIoxBmsfjtTEhEHAY0eyq/O30M8TgKgvQuYZ7MiWr1+kilmoIu0miGjWHa6AOL0XjMdBowHI0wLQvLHeL7PkfdvkjYT9OMvQnxTCwTRPGxodwzhGFVTg11wxImvtg4T4fmQsMwSo0SjcKQlqpSaSj0xKzruniTiTD2RACPUCRuKCp/AEBoKZue47B9AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;on sistema&quot;
+        src=&quot;/gatsbyjs/static/875e479014a36dca2a58b73fb0d434bb/36727/vmware-esponja2.png&quot;
+        srcset=&quot;/gatsbyjs/static/875e479014a36dca2a58b73fb0d434bb/acf4b/vmware-esponja2.png 173w,
+/gatsbyjs/static/875e479014a36dca2a58b73fb0d434bb/fc834/vmware-esponja2.png 345w,
+/gatsbyjs/static/875e479014a36dca2a58b73fb0d434bb/36727/vmware-esponja2.png 690w,
+/gatsbyjs/static/875e479014a36dca2a58b73fb0d434bb/17fa4/vmware-esponja2.png 1035w,
+/gatsbyjs/static/875e479014a36dca2a58b73fb0d434bb/a5044/vmware-esponja2.png 1380w,
+/gatsbyjs/static/875e479014a36dca2a58b73fb0d434bb/a987b/vmware-esponja2.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Por lo que podemos comprobar el sistema no funciona y ademas no podemos instala vm tools.&lt;/p&gt;
+&lt;p&gt;Descargaremos una OVA de debian10 para vmware. &lt;a href=&quot;https://descargarmaquinasvirtuales.com/&quot;&gt;https://descargarmaquinasvirtuales.com/&lt;/a&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[SA] - OpenStack: Configuración HTTPS]]></title><description><![CDATA[El siguiente paso de nuestro proyecto es configurar de forma adecuada el protocolo HTTPS en nuestro servidor web para nuestra aplicaciones…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sa-open-stack-configuracion-https</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sa-open-stack-configuracion-https</guid><category><![CDATA[OpenStack]]></category><category><![CDATA[HTTPS]]></category><pubDate>Sat, 06 Feb 2021 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;el-siguiente-paso-de-nuestro-proyecto-es-configurar-de-forma-adecuada-el-protocolo-https-en-nuestro-servidor-web-para-nuestra-aplicaciones-web-para-ello-vamos-a-emitir-un-certificado-wildcard-en-la-ac-gonzalo-nazareno-utilizando-para-la-petición-la-utilidad-gestiona&quot;&gt;&lt;a href=&quot;#el-siguiente-paso-de-nuestro-proyecto-es-configurar-de-forma-adecuada-el-protocolo-https-en-nuestro-servidor-web-para-nuestra-aplicaciones-web-para-ello-vamos-a-emitir-un-certificado-wildcard-en-la-ac-gonzalo-nazareno-utilizando-para-la-petici%C3%B3n-la-utilidad-gestiona&quot; aria-label=&quot;el siguiente paso de nuestro proyecto es configurar de forma adecuada el protocolo https en nuestro servidor web para nuestra aplicaciones web para ello vamos a emitir un certificado wildcard en la ac gonzalo nazareno utilizando para la petición la utilidad gestiona permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;El siguiente paso de nuestro proyecto es configurar de forma adecuada el protocolo HTTPS en nuestro servidor web para nuestra aplicaciones web. Para ello vamos a emitir un certificado wildcard en la AC Gonzalo Nazareno utilizando para la petición la utilidad &quot;gestiona&quot;.&lt;/h2&gt;
 &lt;p&gt;Comenzaremos creando el directorio que usaremos para guardar las claves ssl, dando los respectivos permisos y generando la clave RSA.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote centos&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# mkdir /etc/ssl/private&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote centos&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# chmod 700 /etc/ssl/private/&lt;/span&gt;
@@ -76,6 +244,8 @@ Una vez firmado, aprovecharemos para descargarnos el certificado de IES Gonzalo 
 &lt;p&gt;Deberemos de añadir una nueva directiva para habilitar https.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@quijote centos&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# nano /etc/httpd/conf/httpd.conf&lt;/span&gt;
 Listen &lt;span class=&quot;token number&quot;&gt;443&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;No olvidemos añadir una regla de encaminamiento creada en el ejercicio anterior:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@dulcinea:~&lt;span class=&quot;token comment&quot;&gt;# nft add rule ip nat prerouting iifname &quot;eth0&quot; tcp dport 443 counter dnat to 10.0.2.4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;!Listo¡ ya tendremos nuestro virtualhost funcionando en el puerto 443, será un poco mas seguro...
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -1537,7 +1707,8 @@ Jan &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt; &lt;span class=&q
 Jan &lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;:18:57 freston named&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1483&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: resolver priming query complete&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr&gt;
 &lt;h3 id=&quot;en-dulcinea&quot;&gt;&lt;a href=&quot;#en-dulcinea&quot; aria-label=&quot;en dulcinea permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;En Dulcinea&lt;/h3&gt;
-&lt;p&gt;Reglas de encaminamiento:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reglas de encaminamiento:&lt;/strong&gt;
+(A las que añadiremos el puerto 80 para esta práctica mas adelante y el 443 para la próxima(https).)&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@dulcinea:~&lt;span class=&quot;token comment&quot;&gt;# nft add chain nat prerouting { type nat hook prerouting priority 0 \; }&lt;/span&gt;
 root@dulcinea:~&lt;span class=&quot;token comment&quot;&gt;# nft add rule ip nat prerouting iifname &quot;eth0&quot; udp dport 53 counter dnat to 10.0.1.3&lt;/span&gt;
 root@dulcinea:~&lt;span class=&quot;token comment&quot;&gt;# nft add rule ip nat prerouting iifname &quot;eth0&quot; tcp dport 80 counter dnat to 10.0.2.4&lt;/span&gt;
