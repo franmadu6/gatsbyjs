@@ -1,0 +1,17 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |zfs|
+  zfs.vm.box = "debian/buster64"
+  zfs.vm.hostname = "zfs"
+  zfs.vm.provider "virtualbox" do |vb|
+    Drives = [1,2,3,4]
+    Drives.each do |hd|
+      puts "harddrive #{hd}"
+      unless File.exist?("./Disco#{hd}.vdi")
+        vb.customize ['createhd', '--filename', "./Disco#{hd}.vdi",'--variant', 'Fixed', '--size', 1000]
+      end
+      vb.customize ['storageattach', :id,  '--storagectl', 'SATA Controller', '--port', hd+1, '--type', 'hdd', '--medium', "./Disco#{hd}.vdi"]
+    end
+  end
+end

@@ -11,104 +11,321 @@ tags:
 
 Elige uno de los dos sistemas de ficheros "avanzados".
 
-    Crea un escenario que incluya una máquina y varios discos asociados a ella.
-    Instala si es necesario el software de ZFS/Btrfs
-    Gestiona los discos adicionales con ZFS/Btrfs
-    Configura los discos en RAID, haciendo pruebas de fallo de algún disco y sustitución, restauración del RAID. Comenta ventajas e inconvenientes respecto al uso de RAID software con mdadm.
-    Realiza ejercicios con pruebas de funcionamiento de las principales funcionalidades: compresión, cow, deduplicación, cifrado, etc.
+* Crea un escenario que incluya una máquina y varios discos asociados a ella.
+* Instala si es necesario el software de ZFS/Btrfs
+* Gestiona los discos adicionales con ZFS/Btrfs
+* Configura los discos en RAID, haciendo pruebas de fallo de algún disco y sustitución, restauración del RAID. Comenta ventajas e inconvenientes respecto al uso de RAID software con mdadm.
+* Realiza ejercicios con pruebas de funcionamiento de las principales funcionalidades: compresión, cow, deduplicación, cifrado, etc.
 
-Esta tarea se puede realizar en una instancia de OpenStack y documentarla como habitualmente o bien grabar un vídeo con una demo de las características y hacer la entrega con el enlace del vídeo.
+<hr>
 
-### Escenario
+<center><img alt="zfs" src="https://magazine.odroid.com/wp-content/uploads/zfs.jpg"/></center>
+
+###x Escenario
+[Vagrantfile](documents/vagrantfilezfs.txt)
+
+Crearemos un escenario en Vagrant al que le añadiremos 4 discos de 1GB.
 ```shell
-fran@debian:~/vagrant/ficheros-zfs$ cat Vagrantfile 
-# -*- mode: ruby -*-
-# vi: set ft=ruby :
-
-Vagrant.configure("2") do |zfs|
-  zfs.vm.box = "debian/buster64"
-  zfs.vm.hostname = "zfs"
-  zfs.vm.provider "virtualbox" do |vb|
-    Drives = [1,2,3,4,5]
-    Drives.each do |hd|
-      puts "harddrive #{hd}"
-      unless File.exist?("./Disco#{hd}.vdi")
-        vb.customize ['createhd', '--filename', "./Disco#{hd}.vdi",'--variant', 'Fixed', '--size', 400]
-      end
-      vb.customize ['storageattach', :id,  '--storagectl', 'SATA Controller', '--port', hd+1, '--type', 'hdd', '--medium', "./Disco#{hd}.vdi"]
-    end
-  end
-  zfsMachine.vm.provision "shell", inline: <<-SHELL
-     echo '''deb http://deb.debian.org/debian buster-backports main contrib
-             deb-src http://deb.debian.org/debian buster-backports main contrib''' >> /etc/apt/sources.list
-     apt update
-  SHELL
-end
+root@buster:/home/vagrant# lsblk
+NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 19.8G  0 disk 
+├─sda1   8:1    0 18.8G  0 part /
+├─sda2   8:2    0    1K  0 part 
+└─sda5   8:5    0 1021M  0 part [SWAP]
+sdb      8:16   0 1000M  0 disk 
+sdc      8:32   0 1000M  0 disk 
+sdd      8:48   0 1000M  0 disk 
+sde      8:64   0 1000M  0 disk 
 ```
 
-### Preparación del escenario para la practica.
+<hr>
+
+### Instalación de la paquetería.
+Necesaría para la compilación de ZFS.
 ```shell
-apt upgrade -y
-apt install -y linux-headers-4.19.0-6-amd64
-apt install -yt buster-backports dkms spl-dkms
-apt install -yt buster-backports zfs-dkms zfsutils-linux
+vagrant@buster:~$ sudo apt install build-essential autoconf automake libtool gawk alien fakeroot ksh zlib1g-dev uuid-dev libattr1-dev libblkid-dev libselinux-dev libudev-dev libacl1-dev libaio-dev libdevmapper-dev libssl-dev libelf-dev
+vagrant@buster:~$ sudo apt-get install -y linux-headers-`uname -r` dkms
+```un
+
+Descargamos ZFS del repositorio de GitHub.
+```shell
+wget https://github.com/zfsonlinux/zfs/releases/download/zfs-0.8.2/zfs-0.8.2.tar.gz
 ```
 
-Para comprobar que zfs está funcionando podemos ejecutar:
+Descomprimimos y darmos permisos al directorio.
 ```shell
-systemctl status zfs-mount
+root@buster:/home/vagrant# ls
+zfs-0.8.2.tar.gz
+root@buster:/home/vagrant# tar axf zfs-0.8.2.tar.gz
+root@buster:/home/vagrant# cd zfs-0.8.2
+root@buster:/home/vagrant/zfs-0.8.2# sudo chown -R root:root ./
+root@buster:/home/vagrant/zfs-0.8.2# sudo chmod -R o-rwx ./
 ```
 
-### Creación y configuraciñon de los 'pool'.
-RAIDZ 1, 2 y 3. Dependiendo del tipo tiene uno, dos o tres bit de paridad, necesitándose 3, 4 o 5 discos respectivamente.
-
-En esta ocasión vamos a trabar con RAIDZ-2 por lo que necesitaremos 4 discos. La creación de estos pool se realiza con el comando zpool.
+Configuramos nuestra instalación de Zfs.
 ```shell
-zpool create -f EjemploRaidZ raidz2 /dev/sdb /dev/sdc /dev/sdd /dev/sde
-zpool status
+root@buster:/home/vagrant/zfs-0.8.2# ./configure \
+> --disable-systemd \
+> --enable-sysvinit \
+> --disable-debug \
+> --with-spec=generic \
+> --with-linux=$(ls -1dtr /usr/src/linux-headers-*.*.*-common | tail -n 1) \
+> --with-linux-obj=$(ls -1dtr /usr/src/linux-headers-*.*.*-amd64 | tail -n 1)
 ```
 
-De la misma forma que en los RAID tradicionales (como cuando los gestionamos con mdadm), podemos añadir discos de reserva (hot spare). De esta manera, si uno de los discos falla, el hot spare se reemplazaría de forma automática. Para añadir un disco en modo reserva ejecutamos:
-
+Compilamos.
 ```shell
-zpool add EjemploRaidZ spare sdf
-zpool status
+root@buster:/home/vagrant/zfs-0.8.2# make -j1 && make install
 ```
 
-### Simulación de fallos y pruebas de redundancia.
-Vamos a ejecutar una serie de comandos para simular un fallo de un disco con el parámetro offline y vamos a obsevar como se reemplaza automáticamente y sin perder información.
-
+Instalamos los script de inicio del servicio.
 ```shell
-#Creamos un arbol de directorios
-mkdir -p /EjemploRaidZ/directorio/subdirectorio/
-#Creamos ficheros aleatorios
-dd if=/dev/urandom of=/EjemploRaidZ/ficheroRandom bs=64K count=300
-dd if=/dev/urandom of=/EjemploRaidZ/directorio/ficheroRandom bs=64K count=600
-echo "Prueba de un fichero" > /EjemploRaidZ/directorio/subdirectorio/fichtest
+root@buster:/home/vagrant/zfs-0.8.2# cd /etc/init.d/
+root@buster:/etc/init.d# ln -s /usr/local/etc/init.d/zfs-import /etc/init.d/
+root@buster:/etc/init.d# ln -s /usr/local/etc/init.d/zfs-mount /etc/init.d/
+root@buster:/etc/init.d# ln -s /usr/local/etc/init.d/zfs-share /etc/init.d/
+root@buster:/etc/init.d# ln -s /usr/local/etc/init.d/zfs-zed /etc/init.d/
 ```
 
-Antes de hacer fallar uno de los discos, vamos a generar un checksum de los dos ficheros aleatorios con el comando md5sum. De esta manera si cambia aunque sea un byte de alguno de los dos ficheros, el checksum será completamente distinto
-
+Habilitamos el servicio y activamos el modulo zfs.
 ```shell
-md5sum ficheroRandom 
-935a8851f013f41e0dab7afad20b7377  ficheroRandom
-md5sum directorio/ficheroRandom 
-49b5591a6b7daecbecd185bae9e6f769  directorio/ficheroRandom
+root@buster:/etc/init.d# update-rc.d zfs-import defaults
+root@buster:/etc/init.d# update-rc.d zfs-mount defaults
+root@buster:/etc/init.d# update-rc.d zfs-share defaults
+root@buster:/etc/init.d# update-rc.d zfs-zed defaults
+root@buster:/etc/init.d# modprobe zfs
 ```
 
-Para simular el fallo del disco, vamos a ejecutar el siguiente comando.
+Comprobación
 ```shell
-zpool offline -f EjemploRaidZ sdc
-zpool status
+root@buster:/etc/init.d# lsmod | grep zfs
+zfs                  3760128  0
+zunicode              335872  1 zfs
+zlua                  172032  1 zfs
+zcommon                90112  1 zfs
+znvpair                90112  2 zfs,zcommon
+zavl                   16384  1 zfs
+icp                   311296  1 zfs
+spl                   114688  5 zfs,icp,znvpair,zcommon,zavl
 ```
 
-Como podemos comprobar, aunque el RAID esté degradado, gracias a que tiene una tolerancia a fallos (gracias a los 2 bits de paridad repartidos por todos los discos), seguimos obteniendo los mismos checksum por lo tanto la integridad de los ficheros está garantizada. No obstante ahora mismo nos encontramos sin redundancia, por lo que si quisiésemos acoplar el disco de reserva solo tenemos que ejecutar:
+### Gestiona los discos con ZFS
+
+Configuramos los disco en RAID, haciendo pruebas de fallo de disco, sustitución y restauración del RAID.
+
+### Creamos un pool con RAID 1.
 ```shell
-zpool replace -f EjemploRaidZ sdc sdf
-zpool status
+root@buster:/etc/init.d# zpool create -f RAID1 mirror /dev/sdb /dev/sdc /dev/sdd
+root@buster:/etc/init.d# sudo zpool status
+  pool: RAID1
+ state: ONLINE
+  scan: none requested
+config:
+
+	NAME        STATE     READ WRITE CKSUM
+	RAID1       ONLINE       0     0     0
+	  mirror-0  ONLINE       0     0     0
+	    sdb     ONLINE       0     0     0
+	    sdc     ONLINE       0     0     0
+	    sdd     ONLINE       0     0     0
+
+errors: No known data errors
 ```
 
-Ahora tenemos dos opciones; podemos indicar que hemos reparado el disco que nos ha fallado, o podemos eliminarlo del RAID y dejar funcionando el disco que antes teníamos de reserva.
+### Añadimos un disco de reserva.
+```shell
+root@buster:/etc/init.d# zpool add -f RAID1 spare /dev/sde
+root@buster:/etc/init.d# sudo zpool status
+  pool: RAID1
+ state: ONLINE
+  scan: none requested
+config:
 
-### Restauración de un RAID con “rollback”.
+	NAME        STATE     READ WRITE CKSUM
+	RAID1       ONLINE       0     0     0
+	  mirror-0  ONLINE       0     0     0
+	    sdb     ONLINE       0     0     0
+	    sdc     ONLINE       0     0     0
+	    sdd     ONLINE       0     0     0
+	spares
+	  sde       AVAIL   
+
+errors: No known data errors
+```
+
+### Marcar un disco como fallido.
+```shell
+root@buster:/etc/init.d# zpool offline -f RAID1 /dev/sdd
+root@buster:/etc/init.d# sudo zpool status
+  pool: RAID1
+ state: DEGRADED
+status: One or more devices are faulted in response to persistent errors.
+	Sufficient replicas exist for the pool to continue functioning in a
+	degraded state.
+action: Replace the faulted device, or use 'zpool clear' to mark the device
+	repaired.
+  scan: none requested
+config:
+
+	NAME        STATE     READ WRITE CKSUM
+	RAID1       DEGRADED     0     0     0
+	  mirror-0  DEGRADED     0     0     0
+	    sdb     ONLINE       0     0     0
+	    sdc     ONLINE       0     0     0
+	    sdd     FAULTED      0     0     0  external device fault
+	spares
+	  sde       AVAIL   
+
+errors: No known data errors
+```
+
+### Reemplazar disco fallido por el disco que tenemos en reserva.
+```shell
+root@buster:/etc/init.d# zpool replace -f RAID1 /dev/sdd /dev/sde
+root@buster:/etc/init.d# sudo zpool status
+  pool: RAID1
+ state: DEGRADED
+status: One or more devices are faulted in response to persistent errors.
+	Sufficient replicas exist for the pool to continue functioning in a
+	degraded state.
+action: Replace the faulted device, or use 'zpool clear' to mark the device
+	repaired.
+  scan: resilvered 286K in 0 days 00:00:00 with 0 errors on Tue Feb  9 20:24:30 2021
+config:
+
+	NAME         STATE     READ WRITE CKSUM
+	RAID1        DEGRADED     0     0     0
+	  mirror-0   DEGRADED     0     0     0
+	    sdb      ONLINE       0     0     0
+	    sdc      ONLINE       0     0     0
+	    spare-2  DEGRADED     0     0     0
+	      sdd    FAULTED      0     0     0  external device fault
+	      sde    ONLINE       0     0     0
+	spares
+	  sde        INUSE     currently in use
+
+errors: No known data errors
+```
+
+### Restauración del disco fallido.
+```shell
+root@buster:/etc/init.d# zpool clear RAID1 /dev/sdd
+root@buster:/etc/init.d# sudo zpool status
+  pool: RAID1
+ state: ONLINE
+  scan: resilvered 286K in 0 days 00:00:00 with 0 errors on Tue Feb  9 20:24:30 2021
+config:
+
+	NAME         STATE     READ WRITE CKSUM
+	RAID1        ONLINE       0     0     0
+	  mirror-0   ONLINE       0     0     0
+	    sdb      ONLINE       0     0     0
+	    sdc      ONLINE       0     0     0
+	    spare-2  ONLINE       0     0     0
+	      sdd    ONLINE       0     0     0
+	      sde    ONLINE       0     0     0
+	spares
+	  sde        INUSE     currently in use
+
+errors: No known data errors
+```
+
+## Funcionamiento de las principales funcionalidades.
+
+### Compresión
+
+Activamos el modo compresión que en su inicio esta off, activamos la compresión lz4 y comprobamos el estado de la compresión.
+```shell
+root@buster:/etc/init.d# zfs get compression RAID1
+NAME   PROPERTY     VALUE     SOURCE
+RAID1  compression  off       default
+root@buster:/etc/init.d# zfs set compression=lz4 RAID1
+root@buster:/etc/init.d# zfs get compression RAID1
+NAME   PROPERTY     VALUE     SOURCE
+RAID1  compression  lz4       local
+```
+
+Hagamos una prueba.
+```shell
+root@buster:/RAID1# mkdir complz4
+root@buster:/RAID1# tar -cf /RAID1/complz4/prueba.tar /home/ /etc/
+tar: Removing leading `/' from member names
+tar: Removing leading `/' from hard link targets
+root@buster:/RAID1# ls -lh /RAID1/complz4/prueba.tar 
+-rw-r--r-- 1 root root 505M Feb 11 07:49 /RAID1/complz4/prueba.tar
+```
+Como podemos ver se ha agrupado /home y /etc en un directorio creado y se ha comprimido en .tar
+
+### COW - Copy on Write
+Su función es el ahorro de espacio y capacidad en inodos a través de un tipo de copia diferencial. La version de OpenZfs actualmente en Debian Buster no tiene esta función completamente soportada.
+```shell
+root@buster:/RAID1# cp --reflink=always fich1 fich2
+cp: failed to clone 'fich2' from 'fich1': Operation not supported
+```
+
+### Deduplicación
+Bastante parecida a COW, es una función bastante interesante a la vez que util para el almacenamiento donde se eliminan los datos redundantes de los datos almacenados.
+
+En este caso volveremos a habilitar la deduplicación que se encuentra apagada.
+```shell
+root@buster:/RAID1/complz4# sudo zfs set dedup=on RAID1
+```
+
+Se realiza una copia del fichero .tar que anteriormente comprimimos.
+```shell
+root@buster:/RAID1/complz4# cp prueba.tar pruebadud.tar 
+root@buster:/RAID1/complz4# ls -lh
+total 462M
+-rw-r--r-- 1 root root 505M Feb 11 07:59 pruebadud.tar
+-rw-r--r-- 1 root root 505M Feb 11 07:49 prueba.tar
+root@buster:/RAID1/complz4# zfs list
+NAME    USED  AVAIL     REFER  MOUNTPOINT
+RAID1   463M   369M      462M  /RAID1
+```
+
+Como podemos observar la suma del peso de ambos archivos no corresponde al volumen de megas usados.
+
+### Snapshots
+Un sistema de snapshots utilizado por Zfs, que nos permite recontruir imagenes anteriormente destruidas.
+
+**Creación/Destrución**
+```shell
+root@buster:/RAID1# zfs create RAID1/docs -o mountpoint=/docs
+root@buster:/RAID1# zfs snapshot RAID1/docs@version1
+root@buster:/RAID1# zfs list -t snapshot
+NAME                  USED  AVAIL     REFER  MOUNTPOINT
+RAID1/docs@version1     0B      -       24K  -
+root@buster:/RAID1# zfs destroy RAID1/docs@version1
+root@buster:/RAID1# zfs list -t snapshot
+no datasets available
+```
+
+**RollBack**
+```shell
+root@buster:/RAID1# echo "version 1" > /docs/data.txt
+root@buster:/RAID1# cat /docs/data.txt
+version 1
+root@buster:/RAID1# zfs snapshot RAID1/docs@version1
+root@buster:/RAID1# zfs list -t snapshot
+NAME                  USED  AVAIL     REFER  MOUNTPOINT
+RAID1/docs@version1     0B      -       24K  -
+
+root@buster:/RAID1# echo "version 2" > /docs/data.txt
+root@buster:/RAID1# cat /docs/data.txt
+version 2
+root@buster:/RAID1# zfs list -t snapshot
+NAME                  USED  AVAIL     REFER  MOUNTPOINT
+RAID1/docs@version1    14K      -       24K  -
+root@buster:/RAID1# zfs rollback RAID1/docs@version1
+root@buster:/RAID1# cat /docs/data.txt
+version 1
+```
+
+## Conclusión
+
+En primer lugar comentar el tema de funcionalidad de este sistema de ficheros para servidores especialmente NAS donde la integridad de los archivos es uno de los aspectos más importantes, **ZFS** se diseñó desde un principio como un sistema que en la práctica será casi imposible alcanzar sus límites, con ello se logra un tiempo de vida a largo plazo, especialmente en servidores, ya que es muy costoso sustituirlos por otro nuevo, siendo necesario habitualmente hacer borrón y cuenta nueva.
+
+Dicho esto decir que **ZFS** esta condenado a su desuso por su incompatibilidad de licencias con **CDDL** y **GPL**, lo que hace que su uso no este tan expandido y desarrollado como su rival **BTRFS** que posee un desarrollo contínuo y licencia compatible con el kernel de linux.
+
+
 
