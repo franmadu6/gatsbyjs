@@ -20,6 +20,15 @@ Elige uno de los dos sistemas de ficheros "avanzados".
 <hr>
 
 <center><img alt="zfs" src="https://magazine.odroid.com/wp-content/uploads/zfs.jpg"/></center>
+ZFS es un sistema de archivos y administrador de volúmenes desarrollado originalmente por Sun Microsystems para su sistema operativo Solaris. El significado original era 'Zettabyte File System', pero ahora es un acrónimo recursivo. 
+
+El anuncio oficial de ZFS se produjo en septiembre de 2004. El código fuente del producto final se integró en la rama principal de desarrollo de Solaris el 31 de octubre de 2005 y fue lanzado el 16 de noviembre de 2005 como parte de la compilación 27 de OpenSolaris.
+
+ZFS fue diseñado e implementado por un equipo de Sun liderado por Jeff Bonwick.
+
+ZFS destaca por su gran capacidad, integración de los conceptos anteriormente separados de sistema de ficheros y administrador de volúmenes en un solo producto, nueva estructura sobre el disco, sistemas de archivos ligeros y una administración de espacios de almacenamiento sencilla. 
+
+Después de conocer un poco su historia comenzaremos a conocerlo un poco mejor como sistema de ficheros.
 
 ## Escenario
 [Vagrantfile](documents/vagrantfilezfs.txt)
