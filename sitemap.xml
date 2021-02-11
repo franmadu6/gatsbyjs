@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/abd-interconexion-de-servidores-de-bases-de-datos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/instalacion-y-configuracion-basica-de-vm-ware-es-xi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/sa-open-stack-configuracion-https</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/metricas-logs-o-monitorizacion</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -17,21 +18,21 @@
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/modificacion-del-escenario-de-open-stack</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/lda-ps</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/instalacion-y-configuracion-inicial-de-open-ldap</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/eleccion-de-forma-juridica</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/instalacion-y-configuracion-de-servidores-y-clientes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/eleccion-de-forma-juridica</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/practica-servidor-dns</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/actualizacion-de-quijote-a-cent-os-8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/plan-de-marketing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/comentario-pelicula-el-fundador</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tarea-ovh-aplicaciones-php</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/practica-certificados-digitales-https</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/instalacion-y-configuracion-inicial-de-los-servidores</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/compilacion-de-un-kernel-linux-a-medida</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/instalacion-y-configuracion-inicial-de-los-servidores</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tarea-ovh-lemp</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/reflexion-video-oligopoly</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/despliegue-de-aplicaciones-python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/analisis-imagen-corporativa</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/mapa-de-empatia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/reflexion-video-oligopoly</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/practica-3-integridad-firmas-y-autenticacion</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/configuracion-de-cliente-open-vpn-con-certificados-x-509</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/servidor-web-nginx</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -44,6 +45,7 @@
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/practica-1-implantacion-y-despliegue-de-una-aplicacion-web-estatica</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/practica-3-integridad-de-ficheros-unidad-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube-unidad-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/interconexion-de-servidores/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/vm-ware-es-xi/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/instalacion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/servidores/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -80,11 +82,11 @@
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/freston/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/x-509/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/iniciacion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/forma-juridica/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/clientes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/oracle/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/mongo-db/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/my-sql/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/forma-juridica/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/bind-9/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/dominio/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/cent-os/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -95,15 +97,15 @@
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/php/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/gpg/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/open-ssl/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/debian/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/ubuntu/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/kernel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/linux/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/debian/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/ubuntu/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/lemp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/oligopoly/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/django/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/imagen-corporativa/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/mapa-empatia/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/oligopoly/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/open-vpn/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/certificados/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/nginx/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -122,12 +124,12 @@
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/web/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/integridad/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/rclone/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/abd/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/hlc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/sad/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/aso/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/eie/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/iaw/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/abd/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/sri/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
