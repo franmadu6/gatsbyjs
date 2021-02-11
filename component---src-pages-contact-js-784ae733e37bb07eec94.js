@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"Cuy+":function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),l=t.n(a),c=t("TJpk"),r=t.n(c),o=t("83Zx"),i=t("IpnI"),u=t.n(i);n.default=function(){return l.a.createElement(o.a,null,l.a.createElement("main",null,l.a.createElement(r.a,{title:"Contact | "+u.a.siteTitle}),l.a.createElement("h1",null,"Contacta conmigo"),l.a.createElement("h3",null,"Correo: ",l.a.createElement("mail",null,"frandh1997@gmail.com"))))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-784ae733e37bb07eec94.js.map
