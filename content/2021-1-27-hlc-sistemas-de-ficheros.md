@@ -230,6 +230,8 @@ config:
 errors: No known data errors
 ```
 
+<hr>
+
 ## Funcionamiento de las principales funcionalidades.
 
 ### Compresión
@@ -320,6 +322,8 @@ root@buster:/RAID1# zfs rollback RAID1/docs@version1
 root@buster:/RAID1# cat /docs/data.txt
 version 1
 ```
+
+<hr>
 
 ## Conclusión
 
