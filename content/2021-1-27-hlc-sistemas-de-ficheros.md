@@ -21,7 +21,7 @@ Elige uno de los dos sistemas de ficheros "avanzados".
 
 <center><img alt="zfs" src="https://magazine.odroid.com/wp-content/uploads/zfs.jpg"/></center>
 
-### Escenario
+## Escenario
 [Vagrantfile](documents/vagrantfilezfs.txt)
 
 Crearemos un escenario en Vagrant al que le añadiremos 4 discos de 1GB.
@@ -40,7 +40,7 @@ sde      8:64   0 1000M  0 disk
 
 <hr>
 
-### Instalación de la paquetería.
+## Instalación de la paquetería.
 Necesaría para la compilación de ZFS.
 ```shell
 vagrant@buster:~$ sudo apt install build-essential autoconf automake libtool gawk alien fakeroot ksh zlib1g-dev uuid-dev libattr1-dev libblkid-dev libselinux-dev libudev-dev libacl1-dev libaio-dev libdevmapper-dev libssl-dev libelf-dev
@@ -109,7 +109,7 @@ icp                   311296  1 zfs
 spl                   114688  5 zfs,icp,znvpair,zcommon,zavl
 ```
 
-### Gestiona los discos con ZFS
+## Gestiona los discos con ZFS
 
 Configuramos los disco en RAID, haciendo pruebas de fallo de disco, sustitución y restauración del RAID.
 
