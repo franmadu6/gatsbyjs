@@ -21,7 +21,7 @@ Elige uno de los dos sistemas de ficheros "avanzados".
 
 <center><img alt="zfs" src="https://magazine.odroid.com/wp-content/uploads/zfs.jpg"/></center>
 
-###x Escenario
+### Escenario
 [Vagrantfile](documents/vagrantfilezfs.txt)
 
 Crearemos un escenario en Vagrant al que le añadiremos 4 discos de 1GB.
