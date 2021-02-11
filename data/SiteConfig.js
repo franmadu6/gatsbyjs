@@ -1,7 +1,7 @@
 const config = {
-  siteTitle: 'Fran Madueño Blog', // Site title.
-  siteTitleShort: 'Madueño Markdown Blog', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: 'Fran Madueño Blog', // Alternative site title for SEO.
+  siteTitle: 'SysAdmin Nazareno', // Site title.
+  siteTitleShort: 'SysAdmin Nazareno', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: 'SysAdmin Nazareno', // Alternative site title for SEO.
   siteLogo: '/logos/logo-1024.png', // Logo used for SEO and manifest.
   siteUrl: 'https://github.com/franmadu6/gatsbyjs/', // Domain of your website without pathPrefix.
   pathPrefix: 'https://github.com/franmadu6/gatsbyjs/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
