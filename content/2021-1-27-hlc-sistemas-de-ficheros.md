@@ -54,7 +54,7 @@ Necesaría para la compilación de ZFS.
 ```shell
 vagrant@buster:~$ sudo apt install build-essential autoconf automake libtool gawk alien fakeroot ksh zlib1g-dev uuid-dev libattr1-dev libblkid-dev libselinux-dev libudev-dev libacl1-dev libaio-dev libdevmapper-dev libssl-dev libelf-dev
 vagrant@buster:~$ sudo apt-get install -y linux-headers-`uname -r` dkms
-```un
+```
 
 Descargamos ZFS del repositorio de GitHub.
 ```shell
