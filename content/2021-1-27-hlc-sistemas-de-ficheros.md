@@ -103,6 +103,7 @@ root@buster:/etc/init.d# update-rc.d zfs-mount defaults
 root@buster:/etc/init.d# update-rc.d zfs-share defaults
 root@buster:/etc/init.d# update-rc.d zfs-zed defaults
 root@buster:/etc/init.d# modprobe zfs
+root@buster:/etc/init.d# ldconfig
 ```
 
 Comprobación
