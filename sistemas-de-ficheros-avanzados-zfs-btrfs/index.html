@@ -72,12 +72,9 @@ sde      <span class="token number">8</span>:64   <span class="token number">0</
 <h2 id="instalación-de-la-paquetería"><a href="#instalaci%C3%B3n-de-la-paqueter%C3%ADa" aria-label="instalación de la paquetería permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instalación de la paquetería.</h2>
 <p>Necesaría para la compilación de ZFS.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@buster:~$ <span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> build-essential autoconf automake libtool <span class="token function">gawk</span> alien fakeroot ksh zlib1g-dev uuid-dev libattr1-dev libblkid-dev libselinux-dev libudev-dev libacl1-dev libaio-dev libdevmapper-dev libssl-dev libelf-dev
-vagrant@buster:~$ <span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> -y linux-headers-<span class="token variable"><span class="token variable">`</span><span class="token function">uname</span> -r<span class="token variable">`</span></span> dkms
-``<span class="token variable"><span class="token variable">`</span>un
-
-Descargamos ZFS del repositorio de GitHub.
-<span class="token variable">`</span></span>``shell
-<span class="token function">wget</span> https://github.com/zfsonlinux/zfs/releases/download/zfs-0.8.2/zfs-0.8.2.tar.gz</code></pre></div>
+vagrant@buster:~$ <span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> -y linux-headers-<span class="token variable"><span class="token variable">`</span><span class="token function">uname</span> -r<span class="token variable">`</span></span> dkms</code></pre></div>
+<p>Descargamos ZFS del repositorio de GitHub.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">wget</span> https://github.com/zfsonlinux/zfs/releases/download/zfs-0.8.2/zfs-0.8.2.tar.gz</code></pre></div>
 <p>Descomprimimos y darmos permisos al directorio.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@buster:/home/vagrant<span class="token comment"># ls</span>
 zfs-0.8.2.tar.gz
