@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 22 Feb 2021 19:23:50 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] - Interconexión de Servidores de Bases de Datos]]></title><description><![CDATA[Las interconexiones de servidores de bases de datos son operaciones que pueden ser muy útiles en diferentes contextos. Básicamente, se trata…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-interconexion-de-servidores-de-bases-de-datos</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-interconexion-de-servidores-de-bases-de-datos</guid><category><![CDATA[Interconexión de Servidores]]></category><pubDate>Wed, 10 Feb 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Interconexi&amp;#xF3;n de Servidores&quot; src=&quot;https://www.juanluramirez.com/wp-content/uploads/2016/12/Portada-1.jpg&quot;&gt;&lt;/center&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 22 Feb 2021 19:35:10 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] - Interconexión de Servidores de Bases de Datos]]></title><description><![CDATA[Las interconexiones de servidores de bases de datos son operaciones que pueden ser muy útiles en diferentes contextos. Básicamente, se trata…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-interconexion-de-servidores-de-bases-de-datos</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-interconexion-de-servidores-de-bases-de-datos</guid><category><![CDATA[Interconexión de Servidores]]></category><pubDate>Wed, 10 Feb 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Interconexi&amp;#xF3;n de Servidores&quot; src=&quot;https://www.juanluramirez.com/wp-content/uploads/2016/12/Portada-1.jpg&quot;&gt;&lt;/center&gt;
 &lt;p&gt;Las interconexiones de servidores de bases de datos son operaciones que pueden ser muy útiles en diferentes contextos. Básicamente, se trata de acceder a datos que no están almacenados en nuestra base de datos, pudiendo combinarlos con los que ya tenemos.&lt;/p&gt;
 &lt;p&gt;En esta práctica veremos varias formas de crear un enlace entre distintos servidores de bases de datos.&lt;/p&gt;
 &lt;p&gt;Se pide:&lt;/p&gt;
@@ -1463,7 +1463,7 @@ realizando prueba desde el exterior
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@valhalla:~$ &lt;span class=&quot;token function&quot;&gt;crontab&lt;/span&gt; -e
 MAILTO &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; root
 * * * * * &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Tras esperar unos minutos comprobaremos el resultado.&lt;/p&gt;
+&lt;p&gt;Tras esperar un poco comprobaremos el resultado.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@valhalla:~$ mail
 Mail version &lt;span class=&quot;token number&quot;&gt;8.1&lt;/span&gt;.2 01/15/2001.  Type ? &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; help.
 &lt;span class=&quot;token string&quot;&gt;&quot;/var/mail/debian&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt; messages &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; new &lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt; unread
@@ -1486,7 +1486,7 @@ X-Cron-Env: &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&l
 Date: Sat, &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt; Feb &lt;span class=&quot;token number&quot;&gt;2021&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt;:48:01 +0000 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;UTC&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
 Sat &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt; Feb &lt;span class=&quot;token number&quot;&gt;2021&lt;/span&gt; 01:48:01 PM UTC&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 id=&quot;para-asegurar-el-envío&quot;&gt;&lt;a href=&quot;#para-asegurar-el-env%C3%ADo&quot; aria-label=&quot;para asegurar el envío permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Para asegurar el envío&lt;/h4&gt;
+&lt;p&gt;Deberemos de borrar la tarea de cron para que no nos la repita constatemente.&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;Tarea 4 (No obligatoria): Configura de manera adecuada DKIM es tu sistema de correos. Comprueba el registro DKIM en la página &lt;a href=&quot;https://mxtoolbox.com/dkim.aspx&quot;&gt;https://mxtoolbox.com/dkim.aspx&lt;/a&gt;. Configura postfix para que firme los correos que envía. Manda un correo y comprueba la verificación de las firmas en ellos.&lt;/li&gt;
@@ -1630,11 +1630,8 @@ mail_location &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; maildi
 &lt;p&gt;Modificamos main.cf y añadimos las directivas necesarias para un correcto funcionamiento de dovecot.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@valhalla:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/postfix/main.cf
 &lt;span class=&quot;token comment&quot;&gt;# TLS parameters&lt;/span&gt;
-&lt;span class=&quot;token assign-left variable&quot;&gt;smtpd_tls_cert_file&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/etc/ssl/certs/ssl-cert-snakeoil.pem
-&lt;span class=&quot;token assign-left variable&quot;&gt;smtpd_tls_key_file&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/etc/ssl/private/ssl-cert-snakeoil.key
-&lt;span class=&quot;token assign-left variable&quot;&gt;smtpd_use_tls&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;yes
-smtpd_tls_session_cache_database &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; btree:&lt;span class=&quot;token variable&quot;&gt;${data_directory}&lt;/span&gt;/smtpd_scache
-smtp_tls_session_cache_database &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; btree:&lt;span class=&quot;token variable&quot;&gt;${data_directory}&lt;/span&gt;/smtp_scache
+ssl_cert &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/etc/letsencrypt/live/mail.iesgn11.es/fullchain.pem
+ssl_key &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/etc/letsencrypt/live/mail.iesgn11.es/privkey.pem
 
 smtpd_sasl_auth_enable &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt;
 smtpd_sasl_type &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; dovecot
@@ -1834,7 +1831,7 @@ debian@valhalla:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt
 
 debian@valhalla:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; www-data:www-data -R /var/www/roundcube&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Crearemos una zona virtual en nginx para poderes visualizarlo.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@valhalla:/etc/nginx/sites-available&lt;span class=&quot;token comment&quot;&gt;# cat roundcube.iesgn11 &lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@valhalla:/etc/nginx/sites-available$ &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; roundcube.iesgn11 
 server &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         listen &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         listen &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;::&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:80&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -1849,10 +1846,10 @@ server &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         listen &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;::&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:443 ssl http2&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
         ssl    on&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        ssl_certificate    /etc/letsencrypt/live/portal.iesgn11.es/fullchain.pem&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        ssl_certificate_key    /etc/letsencrypt/live/portal.iesgn11.es/privkey.pem&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        ssl_certificate    /etc/letsencrypt/live/roundcube.iesgn11.es/fullchain.pem&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        ssl_certificate_key    /etc/letsencrypt/live/roundcube.iesgn11.es/privkey.pem&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-         root /var/www/roundcube&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        root /var/www/roundcube&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         
 	index index.php index.html&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         
@@ -2029,6 +2026,7 @@ server &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://roundcube.iesgn11.es/&quot;&gt;https://roundcube.iesgn11.es/&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Tarea 11: Configura de manera adecuada postfix para que podamos mandar un correo desde un cliente remoto. La conexión entre cliente y servidor debe estar autentificada con SASL usando dovecor y además debe estar cifrada. Para cifrar esta comunicación puedes usar dos opciones:&lt;/p&gt;

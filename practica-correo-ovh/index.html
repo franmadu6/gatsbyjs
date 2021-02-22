@@ -242,7 +242,7 @@ realizando prueba desde el exterior
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">debian@valhalla:~$ <span class="token function">crontab</span> -e
 MAILTO <span class="token operator">=</span> root
 * * * * * <span class="token function">date</span></code></pre></div>
-<p>Tras esperar unos minutos comprobaremos el resultado.</p>
+<p>Tras esperar un poco comprobaremos el resultado.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">debian@valhalla:~$ mail
 Mail version <span class="token number">8.1</span>.2 01/15/2001.  Type ? <span class="token keyword">for</span> help.
 <span class="token string">"/var/mail/debian"</span><span class="token builtin class-name">:</span> <span class="token number">9</span> messages <span class="token number">1</span> new <span class="token number">9</span> unread
@@ -265,7 +265,7 @@ X-Cron-Env: <span class="token operator">&lt;</span><span class="token environme
 Date: Sat, <span class="token number">20</span> Feb <span class="token number">2021</span> <span class="token number">13</span>:48:01 +0000 <span class="token punctuation">(</span>UTC<span class="token punctuation">)</span>
 
 Sat <span class="token number">20</span> Feb <span class="token number">2021</span> 01:48:01 PM UTC</code></pre></div>
-<h4 id="para-asegurar-el-envío"><a href="#para-asegurar-el-env%C3%ADo" aria-label="para asegurar el envío permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Para asegurar el envío</h4>
+<p>Deberemos de borrar la tarea de cron para que no nos la repita constatemente.</p>
 <hr>
 <ul>
 <li>Tarea 4 (No obligatoria): Configura de manera adecuada DKIM es tu sistema de correos. Comprueba el registro DKIM en la página <a href="https://mxtoolbox.com/dkim.aspx">https://mxtoolbox.com/dkim.aspx</a>. Configura postfix para que firme los correos que envía. Manda un correo y comprueba la verificación de las firmas en ellos.</li>
@@ -409,11 +409,8 @@ mail_location <span class="token operator">=</span> maildir:~/Maildir</code></pr
 <p>Modificamos main.cf y añadimos las directivas necesarias para un correcto funcionamiento de dovecot.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">debian@valhalla:~$ <span class="token function">sudo</span> <span class="token function">nano</span> /etc/postfix/main.cf
 <span class="token comment"># TLS parameters</span>
-<span class="token assign-left variable">smtpd_tls_cert_file</span><span class="token operator">=</span>/etc/ssl/certs/ssl-cert-snakeoil.pem
-<span class="token assign-left variable">smtpd_tls_key_file</span><span class="token operator">=</span>/etc/ssl/private/ssl-cert-snakeoil.key
-<span class="token assign-left variable">smtpd_use_tls</span><span class="token operator">=</span>yes
-smtpd_tls_session_cache_database <span class="token operator">=</span> btree:<span class="token variable">${data_directory}</span>/smtpd_scache
-smtp_tls_session_cache_database <span class="token operator">=</span> btree:<span class="token variable">${data_directory}</span>/smtp_scache
+ssl_cert <span class="token operator">=</span> <span class="token operator">&lt;</span>/etc/letsencrypt/live/mail.iesgn11.es/fullchain.pem
+ssl_key <span class="token operator">=</span> <span class="token operator">&lt;</span>/etc/letsencrypt/live/mail.iesgn11.es/privkey.pem
 
 smtpd_sasl_auth_enable <span class="token operator">=</span> <span class="token function">yes</span>
 smtpd_sasl_type <span class="token operator">=</span> dovecot
@@ -613,7 +610,7 @@ debian@valhalla:~$ <span class="token function">sudo</span> <span class="token f
 
 debian@valhalla:~$ <span class="token function">sudo</span> <span class="token function">chown</span> www-data:www-data -R /var/www/roundcube</code></pre></div>
 <p>Crearemos una zona virtual en nginx para poderes visualizarlo.</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@valhalla:/etc/nginx/sites-available<span class="token comment"># cat roundcube.iesgn11 </span>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">debian@valhalla:/etc/nginx/sites-available$ <span class="token function">cat</span> roundcube.iesgn11 
 server <span class="token punctuation">{</span>
         listen <span class="token number">80</span><span class="token punctuation">;</span>
         listen <span class="token punctuation">[</span>::<span class="token punctuation">]</span>:80<span class="token punctuation">;</span>
@@ -628,10 +625,10 @@ server <span class="token punctuation">{</span>
         listen <span class="token punctuation">[</span>::<span class="token punctuation">]</span>:443 ssl http2<span class="token punctuation">;</span>
 
         ssl    on<span class="token punctuation">;</span>
-        ssl_certificate    /etc/letsencrypt/live/portal.iesgn11.es/fullchain.pem<span class="token punctuation">;</span>
-        ssl_certificate_key    /etc/letsencrypt/live/portal.iesgn11.es/privkey.pem<span class="token punctuation">;</span>
+        ssl_certificate    /etc/letsencrypt/live/roundcube.iesgn11.es/fullchain.pem<span class="token punctuation">;</span>
+        ssl_certificate_key    /etc/letsencrypt/live/roundcube.iesgn11.es/privkey.pem<span class="token punctuation">;</span>
 
-         root /var/www/roundcube<span class="token punctuation">;</span>
+        root /var/www/roundcube<span class="token punctuation">;</span>
         
 	index index.php index.html<span class="token punctuation">;</span>
         
@@ -808,6 +805,7 @@ server <span class="token punctuation">{</span>
       />
   </a>
     </span></p>
+<p><a href="https://roundcube.iesgn11.es/">https://roundcube.iesgn11.es/</a></p>
 <ul>
 <li>
 <p>Tarea 11: Configura de manera adecuada postfix para que podamos mandar un correo desde un cliente remoto. La conexión entre cliente y servidor debe estar autentificada con SASL usando dovecor y además debe estar cifrada. Para cifrar esta comunicación puedes usar dos opciones:</p>
