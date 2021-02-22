@@ -521,7 +521,7 @@ El user es "debian"
 
 ![PracticaImg](images/servicios/roundcube5.png "Imagen de la practica")
 
-https://roundcube.iesgn11.es/
+<span target="_blank"> https://roundcube.iesgn11.es/ </span>
 
 * Tarea 11: Configura de manera adecuada postfix para que podamos mandar un correo desde un cliente remoto. La conexión entre cliente y servidor debe estar autentificada con SASL usando dovecor y además debe estar cifrada. Para cifrar esta comunicación puedes usar dos opciones:
 
