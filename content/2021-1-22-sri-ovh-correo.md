@@ -148,7 +148,7 @@ MAILTO = root
 * * * * * date
 ```
 
-Tras esperar unos minutos comprobaremos el resultado.
+Tras esperar un poco comprobaremos el resultado.
 ```shell
 debian@valhalla:~$ mail
 Mail version 8.1.2 01/15/2001.  Type ? for help.
@@ -173,8 +173,8 @@ Date: Sat, 20 Feb 2021 13:48:01 +0000 (UTC)
 
 Sat 20 Feb 2021 01:48:01 PM UTC
 ```
+Deberemos de borrar la tarea de cron para que no nos la repita constatemente.
 
-#### Para asegurar el envío
 <hr>
 
 * Tarea 4 (No obligatoria): Configura de manera adecuada DKIM es tu sistema de correos. Comprueba el registro DKIM en la página https://mxtoolbox.com/dkim.aspx. Configura postfix para que firme los correos que envía. Manda un correo y comprueba la verificación de las firmas en ellos.
@@ -303,11 +303,8 @@ Modificamos main.cf y añadimos las directivas necesarias para un correcto funci
 ```shell
 debian@valhalla:~$ sudo nano /etc/postfix/main.cf
 # TLS parameters
-smtpd_tls_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
-smtpd_tls_key_file=/etc/ssl/private/ssl-cert-snakeoil.key
-smtpd_use_tls=yes
-smtpd_tls_session_cache_database = btree:${data_directory}/smtpd_scache
-smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
+ssl_cert = </etc/letsencrypt/live/mail.iesgn11.es/fullchain.pem
+ssl_key = </etc/letsencrypt/live/mail.iesgn11.es/privkey.pem
 
 smtpd_sasl_auth_enable = yes
 smtpd_sasl_type = dovecot
@@ -457,7 +454,7 @@ debian@valhalla:~$ sudo chown www-data:www-data -R /var/www/roundcube
 
 Crearemos una zona virtual en nginx para poderes visualizarlo.
 ```shell
-root@valhalla:/etc/nginx/sites-available# cat roundcube.iesgn11 
+debian@valhalla:/etc/nginx/sites-available$ cat roundcube.iesgn11 
 server {
         listen 80;
         listen [::]:80;
@@ -472,10 +469,10 @@ server {
         listen [::]:443 ssl http2;
 
         ssl    on;
-        ssl_certificate    /etc/letsencrypt/live/portal.iesgn11.es/fullchain.pem;
-        ssl_certificate_key    /etc/letsencrypt/live/portal.iesgn11.es/privkey.pem;
+        ssl_certificate    /etc/letsencrypt/live/roundcube.iesgn11.es/fullchain.pem;
+        ssl_certificate_key    /etc/letsencrypt/live/roundcube.iesgn11.es/privkey.pem;
 
-         root /var/www/roundcube;
+        root /var/www/roundcube;
         
 	index index.php index.html;
         
@@ -524,6 +521,7 @@ El user es "debian"
 
 ![PracticaImg](images/servicios/roundcube5.png "Imagen de la practica")
 
+https://roundcube.iesgn11.es/
 
 * Tarea 11: Configura de manera adecuada postfix para que podamos mandar un correo desde un cliente remoto. La conexión entre cliente y servidor debe estar autentificada con SASL usando dovecor y además debe estar cifrada. Para cifrar esta comunicación puedes usar dos opciones:
 
