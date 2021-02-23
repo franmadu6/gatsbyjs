@@ -26,6 +26,62 @@ Los servidores enlazados siempre tendrán que estar instalados en máquinas dife
 
 ## Enlace entre servidores ORACLE.
 
+Para los servidores de oracle he contado con dos maquinas centos7 y el oracle que utilizare en ellas sera el 12C, se llamarán oracle1 y oracle2.
+
+**Oracle1**
+
+
+```shell
+[oracle@oracle1 ~]$ nano /opt/oracle/product/12.2.0.1/dbhome_1/network/admin/tnsnames.ora 
+ORCLCDB =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORCLCDB)
+    )
+  )
+
+LISTENER_ORCLCDB =
+  (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
+
+ORACLE2 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.22.7.111)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORCLCDB)
+    )
+  )
+```
+
+* lsnrctl stop: Detenemos el servicio.
+* lsnrctl start: Iniciamos el servicio de nuevo.
+
+
+```shell
+create database link oracle1
+connect to usuario
+identified by usuario
+using 'oracle2';
+```
+
+```shell
+SQL> select * from usuarios@oracle1;
+DNI	  NOMBRE		    TELEFONO
+--------- ------------------------- ---------
+25679898F Jos?? Ortega Montero	    651127288
+33797756S Jos?? Mas Cruz	    651127288
+64252235X Hugo Serrano Martinez     651127288
+13890751Q Iker Font Blanco	    651127288
+55981185J Ra??l Bosch Garrido	    651127288
+29292182A Gerard Parra Alonso	    651127288
+29292182A Samuel Costa Aguilar	    651127288
+03304667G Pablo Calvo Herrera	    651127288
+36575136F Mateo Navarro Calvo	    651127288
+70913753S Bruno Sala Lozano	    651127288
+06994167M Andr??s Torres Gomez	    651127288
+```
 
 ## Enlace entre servidores Postgres.
 
@@ -220,11 +276,11 @@ psql (11.10 (Debian 11.10-0+deb10u1))
 SSL connection (protocol: TLSv1.3, cipher: TLS_AES_256_GCM_SHA384, bits: 256, compression: off)
 Type "help" for help.
 
-bdd1=> SELECT * FROM dblink('dbname=bdd2 host=192.168.2.255 user=postgres2 password=fran', 'select * from profesores') AS profesores (dni varchar, nombre varchar, apellido varchar, despacho varchar, telefono varchar);
-ERROR:  could not establish connection
-DETAIL:  no se pudo conectar con el servidor: La red es inaccesible
-	¿Está el servidor en ejecución en el servidor «192.168.2.255» y aceptando
-	conexiones TCP/IP en el puerto 5432?
+bdd1=> bdd1=> SELECT * FROM dblink('dbname=bdd2 host=172.22.3.40 user=postgres2 password=fran', 'select * from profesores') AS profesores (dni varchar, nombre varchar, apellido varchar, despacho varchar, telefono varchar);
+    dni    |    nombre    |     apellido     | despacho | telefono  
+-----------+--------------+------------------+----------+-----------
+ 36987412P | David        | Moreno Cruz      | 01       | 614576324
+ 69874510G | José Antonio | Fernández Antona | 02       | 655590038
 ```
 
 postgres2
@@ -237,6 +293,34 @@ bdd2=# create extension dblink;
 CREATE EXTENSION
 bdd2=# \q
 ```
+
+```shell
+vagrant@postgres2:~$ psql -h localhost -U postgres2 -W -d bdd2
+Password: 
+psql (11.10 (Debian 11.10-0+deb10u1))
+SSL connection (protocol: TLSv1.3, cipher: TLS_AES_256_GCM_SHA384, bits: 256, compression: off)
+Type "help" for help.
+
+bdd2=> SELECT * FROM dblink('dbname=bdd1 host=172.22.5.30 user=postgres1 password=fran', 'select * from profesores') AS profesores (dni varchar, nombre varchar, apellido varchar, despacho varchar, telefono varchar);
+    dni    |    nombre    |     apellido     | despacho | telefono  
+-----------+--------------+------------------+----------+-----------
+ 36987412P | David        | Moreno Cruz      | 01       | 614576324
+ 69874510G | José Antonio | Fernández Antona | 02       | 655590038
+ 53698745R | Sara         | Serra Macia      | 03       | 674706264
+ 36789874V | Juan         | López Sirera     | 04       | 681829070
+ 20247859Q |  Óscar       | Estévez González | 05       | 699906800
+ 28966631V | José Manuel  | Pérez Fernández  | 06       | 634844973
+ 45987785K | Manuela      | Rubio Cabello    | 07       | 646837477
+ 50236558G | Carmen       | Sánchez Carvajal | 08       | 696625669
+ 46987845H | Joaquín      | Aranda Almansaz  | 09       | 689117250
+ 22025562A | Lourdes      | Araujo Serna     | 10       | 621561960
+ 49065878R | Fernando     | Morilla García   | 11       | 685644007
+ 36587899M | Alfonso      | Urquía Moraleda  | 12       | 633145641
+ K5987455X | Antonio      | Moreno Cano      | 04       | 614563124
+(13 rows)
+```
+
+Como podemos comprobar ya podemos realizar insterconexiones entre ambas maquinas en la bdd2 añadí menos datos a las tablas para que podamos apreciar el cambio de una a otra.
 
 ## Enlace entre servidor ORACLE y Postgres o MySQL empleando Heterogeneus Services.
 

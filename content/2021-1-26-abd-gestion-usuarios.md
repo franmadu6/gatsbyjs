@@ -14,45 +14,28 @@ tags:
 # ORACLE:
 
 **1. (ORACLE, Postgres, MySQL) Crea un usuario llamado Becario y, sin usar los roles de ORACLE, dale los siguientes privilegios:**
+
+**En Oracle**
 ```shell
+#creación de usuario.
 Create user Becario identified by Becario;
-```
-
-* Conectarse a la base de datos.
-```shell
+#Conectarse a la base de datos.
 grant create session to Becario;
-```
-
-* Modificar el número de errores en la introducción de la contraseña de cualquier usuario.
-```shell
+#Modificar el número de errores en la introducción de la contraseña de cualquier usuario.
 grant create profile to Becario;
-#
 Create profile Limitepasswd LIMIT
-FAILED_LOGIN_ATTEMPTS 5
-;
+FAILED_LOGIN_ATTEMPTS 5;
 #Ahora le damos al usuario becarios la posibilidad de dar dicho perfil
 grant alter user to Becario;
 #Y ahora este usuario podría dar el perfil a diferentes usuarios
 Alter user {USUARIO} profile Limitepasswd;
-```
-
-* Modificar índices en cualquier esquema (este privilegio podrá pasarlo a quien quiera)
-```shell
+# Modificar índices en cualquier esquema (este privilegio podrá pasarlo a quien quiera)
 alter index fran.PK_CODIGO_COCHES RENAME TO PK_CODIGO_COCHES1;
-```
-
-* Insertar filas en scott.emp (este privilegio podrá pasarlo a quien quiera)
-```shell
+# Insertar filas en scott.emp (este privilegio podrá pasarlo a quien quiera)
 grant insert on SCOTT.EMP to Becario with grant option;
-```
-
-* Crear objetos en cualquier tablespace.
-```shell
+# Crear objetos en cualquier tablespace.
 grant unlimited tablespace to Becario;
-```
-
-* Gestión completa de usuarios, privilegios y roles.
-```shell
+# Gestión completa de usuarios, privilegios y roles.
 #Usuarios
 grant create user to Becario;
 grant alter user to Becario;
@@ -66,33 +49,178 @@ grant alter any role to Becario;
 grant grant any role to Becario;
 ```
 
+**En Postgres**
+```shell
+
+```
+
+**En MariaDB**
+```shell
+
+```
 
 **2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.**
 ```shell
-create or replace function funciondeVerificacion (
-    username VARCHAR2, 
-    pass VARCHAR2, 
-    old_password VARCHAR2)
-return varchar2   IS 
+create or replace function VerificacionPSW (p_usuario varchar2,
+                                            p_pswnueva varchar2,
+                                            p_pswvieja varchar2)
+return boolean
+is
+    v_sumaRepe number:=0;
+    v_letraigual number:=0;
+    v_numNum number:=0;
+    v_numLetra number:=0;
+    v_validar number:=0;
 begin
-	if length(pass) < 6 then return 'FALSE';
-	elsif (pass = old_password) then return 'FALSE';
-	else return 'TRUE';
+    if length(p_pswnueva)=length(p_pswvieja) then
+        raise_application_error(-20003, 'La nueva contraseña no debe tener la misma longitud que la anterior');
     end if;
-end;
+    for i in 1..length(p_pswnueva) loop
+        ContarNumerosYLetras(substr(p_pswnueva, i,1), v_numNum, v_numLetra);
+        CompararCaracteres(substr(p_pswnueva, i,1), p_pswvieja, v_letraigual);
+        if v_letraigual=0 then
+            v_sumaRepe:=v_sumaRepe+1;
+        end if;
+        v_letraigual:=0; 
+    end loop;
+    v_validar:=LanzarErrores(v_sumaRepe, v_numNum, v_numLetra);
+    return TRUE;
+end VerificacionPSW;
+/
+
+create or replace function LanzarErrores(p_sumaRepe number, 
+                                         p_numNum number, p_numLetra number)
+return number
+is
+begin
+    case
+        when p_sumaRepe<6 then
+            raise_application_error(-20002, 'La nueva contraseña debe tener al menos 5 caracteres diferentes con respecto a la antigua');
+        else
+            return 1;
+    end case;          
+end LanzarErrores;
+/
+
+
+create or replace procedure CompararCaracteres(p_caracter varchar2,
+                                               p_psw varchar2,
+                                               p_letraigual in out number)
+is
+begin
+    for i in 1..length(p_psw) loop
+        if substr(p_psw,i,1)=p_caracter then
+            p_letraigual:=1;
+        end if;
+    end loop;
+end CompararCaracteres;
+/
+
+
+create or replace procedure ContarNumerosYLetras (p_caracter varchar2,
+                                                  p_numero  in out number,
+                                                  p_letra   in out number)
+is
+begin
+    if p_caracter=REGEXP_REPLACE(p_caracter,'[0-9]') then
+        p_numero:=p_numero+1;
+    else
+        p_letra:=p_letra+1;
+    end if;
+end ContarNumerosYLetras;
+/
+```
+
+Creación de perfil.
+```shell
+create profile PswSegura limit 
+    PASSWORD_VERIFY_FUNCTION VerificacionPSW;
+
+drop profile PswSegura;
+```
+
+Asignación de usuario.
+```shell
+alter user pruebapasswd profile PswSegura;
 ```
 
 **3. Realiza un procedimiento llamado MostrarPrivilegiosdelRol que reciba el nombre de un rol y muestre los privilegios de sistema y los privilegios sobre objetos que lo componen.**
 ```shell
-create or replace procedure MostrarPrivilegiosdelRol(p_rol varchar2)
+exec MostrarPrivileciosdelRol ('Dsvret')
+
+create or replace procedure MostrarPrivileciosdelRol (p_rol varchar2)
 is
+    v_validacion number:=0;
 begin
-	select grantee, privilege from dba_sys_privs
-	where privilege=p_rol; 
-	if p_rol=0 then
-		raise_application_error(-20001,'Ese rol no existe');
-	end if;
-end;
+    v_validacion:=ComprobarSiRolExiste(p_rol);
+    if v_validacion=0 then
+        BuscarPrivilegiosDelSistema(p_rol);
+        dbms_output.put_line(' ');
+        dbms_output.put_line('--------------------------------------------------------------------------------');
+        dbms_output.put_line(' ');
+        BuscarPrivilegiosSobreObjetos(p_rol);
+    end if;
+end MostrarPrivileciosdelRol;
+/
+
+create or replace procedure BuscarPrivilegiosDelSistema(p_rol varchar2)
+is
+    cursor c_sys
+    is
+    select distinct privilege
+    from role_sys_privs
+    where role in (select distinct role 
+                   from role_role_privs 
+                   start with role=p_rol
+                   connect by role = prior granted_role)
+    or role = p_rol;
+    v_sys c_sys%ROWTYPE;
+begin
+    dbms_output.put_line('PRIVILEGIOS DEL SISTEMA');
+    dbms_output.put_line('--------------------------------------------------------------------------------');
+    for v_sys in c_sys loop
+        dbms_output.put_line(v_sys.privilege);
+    end loop;
+end BuscarPrivilegiosDelSistema;
+/
+
+
+create or replace procedure BuscarPrivilegiosSobreObjetos(p_rol varchar2)
+is
+    cursor c_tab
+    is
+    select distinct privilege, table_name, owner
+    from role_tab_privs
+    where role in (select distinct role 
+                   from role_role_privs 
+                   start with role=p_rol
+                   connect by role = prior granted_role)
+    or role = p_rol;
+    v_tab c_tab%ROWTYPE;
+begin
+    dbms_output.put_line('PRIVILEGIOS SOBRE OBJETOS');
+    dbms_output.put_line('--------------------------------------------------------------------------------');
+    for v_tab in c_tab loop
+        dbms_output.put_line(v_tab.privilege||' sobre la tabla '||v_tab.table_name||' del usuario '||v_tab.owner);
+    end loop;
+end BuscarPrivilegiosSobreObjetos;
+/
+
+
+create or replace function ComprobarSiRolExiste(p_rol varchar2)
+return number
+is
+    v_resultado varchar2(30);
+begin
+    select role into v_resultado
+    from dba_roles
+    where role=p_rol;
+    return 0;
+exception
+    when NO_DATA_FOUND then
+        dbms_output.put_line('No existe el rol '||p_rol);
+        return -1;
+end ComprobarSiRolExiste;
 /
 ```
 
@@ -106,16 +234,35 @@ end;
 (Para que los perfiles funcionen, el parámetro de la base de datos resource_limit, deberá tener el valor a true.)
 
 ```shell
-Create or replace procedure MostrarInfoPerfil(p.name varchar2)
+create procedure Infoperfil (p_perfil dba_profiles.profile%type)
 is
+	cursor c_informacion
+	is
+	select resource_name, limit
+	from dba_profiles
+	where profile = p_perfil;
 begin
-	select profile, username, default_tablespace, temporary_tablespace
-    from   dba_users
-    where  profile = p.name; 
-	if p.name=0 then
-		raise_application_error(-20001,'Ese perfil no existe');
-	end if;
-end;
+	dbms_output.put_line('Composición de: '|| p_perfil);	
+	for i in c_informacion loop
+		dbms_output.put_line('Recurso: '|| i.resource_name || ' Límites: '|| i.limit);
+	end loop;
+end Infoperfil;
+/
+
+
+create procedure MostrarInfoPerfil (p_perfil dba_profiles.profile%type)
+is
+	cursor c_perfiles
+	is
+	select username
+	from dba_users
+	where profile = p_perfil;
+begin 
+	Infoperfil(p_perfil);
+	for i in c_perfiles loop
+		dbms_output.put_line('Usuarios con ese perfil: '|| i.username);
+	end loop;
+end MostrarInfoPerfil;
 /
 ```
 
@@ -290,13 +437,62 @@ Query OK, 0 rows affected (0.004 sec)
 
 **8. Averigua que privilegios de sistema hay en MySQL y como se asignan a un usuario.**
 
-<center><img alt="Privilegios" src="https://wiki.cifprodolfoucha.es/images/b/b3/Mysql_seguridad_20.jpg"/></center>
-Como asignar privilegios:
+En MySQL existen cinco niveles distintos de privilegios:
+* Globales: se aplican al conjunto de todas las bases de datos en un servidor. Es el nivel más alto de privilegio, en el sentido de que su ámbito es el más general.
+* De base de datos: se refieren a bases de datos individuales, y por extensión, a todos los objetos que contiene cada base de datos.
+* De tabla: se aplican a tablas individuales, y por lo tanto, a todas las columnas de esas tabla.
+* De columna: se aplican a una columna en una tabla concreta.
+* De rutina: se aplican a los procedimientos almacenados. Aún no hemos visto nada sobre este tema, pero en MySQL se pueden almacenar procedimietos consistentes en varias consultas SQL.
 
+- Privilegios
+MariaDB [information_schema]> show privileges;
++-------------------------+---------------------------------------+-------------------------------------------------------+
+| Privilege               | Context                               | Comment                                               |
++-------------------------+---------------------------------------+-------------------------------------------------------+
+| Alter                   | Tables                                | To alter the table                                    |
+| Alter routine           | Functions,Procedures                  | To alter or drop stored functions/procedures          |
+| Create                  | Databases,Tables,Indexes              | To create new databases and tables                    |
+| Create routine          | Databases                             | To use CREATE FUNCTION/PROCEDURE                      |
+| Create temporary tables | Databases                             | To use CREATE TEMPORARY TABLE                         |
+| Create view             | Tables                                | To create new views                                   |
+| Create user             | Server Admin                          | To create new users                                   |
+| Delete                  | Tables                                | To delete existing rows                               |
+| Delete versioning rows  | Tables                                | To delete versioning table historical rows            |
+| Drop                    | Databases,Tables                      | To drop databases, tables, and views                  |
+| Event                   | Server Admin                          | To create, alter, drop and execute events             |
+| Execute                 | Functions,Procedures                  | To execute stored routines                            |
+| File                    | File access on server                 | To read and write files on the server                 |
+| Grant option            | Databases,Tables,Functions,Procedures | To give to other users those privileges you possess   |
+| Index                   | Tables                                | To create or drop indexes                             |
+| Insert                  | Tables                                | To insert data into tables                            |
+| Lock tables             | Databases                             | To use LOCK TABLES (together with SELECT privilege)   |
+| Process                 | Server Admin                          | To view the plain text of currently executing queries |
+| Proxy                   | Server Admin                          | To make proxy user possible                           |
+| References              | Databases,Tables                      | To have references on tables                          |
+| Reload                  | Server Admin                          | To reload or refresh tables, logs and privileges      |
+| Replication client      | Server Admin                          | To ask where the slave or master servers are          |
+| Replication slave       | Server Admin                          | To read binary log events from the master             |
+| Select                  | Tables                                | To retrieve rows from table                           |
+| Show databases          | Server Admin                          | To see all databases with SHOW DATABASES              |
+| Show view               | Tables                                | To see views with SHOW CREATE VIEW                    |
+| Shutdown                | Server Admin                          | To shut down the server                               |
+| Super                   | Server Admin                          | To use KILL thread, SET GLOBAL, CHANGE MASTER, etc.   |
+| Trigger                 | Tables                                | To use triggers                                       |
+| Create tablespace       | Server Admin                          | To create/alter/drop tablespaces                      |
+| Update                  | Tables                                | To update existing rows                               |
+| Usage                   | Server Admin                          | No privileges - allow connect only                    |
++-------------------------+---------------------------------------+-------------------------------------------------------+
+32 rows in set (0.001 sec)
+
+
+* Para asignar privilegios a un usuario:
 ```shell
-GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP
-    -> ON mitabla.*
-    -> TO 'nombre_usuario'@'localhost';
+GRANT "privilegio" ON *.* TO "nombre_usuario"@"localhost" identified by "contraseña".
+```
+
+* Si queremos que al usuario al cuál hemos asignado un privilegio pueda asignarlo a su vez a otro usuario ejecutaremos:
+```shell
+GRANT "privilegio" ON *.* TO "nombre_usuario"@"localhost" identified by "contraseña" with grant option;
 ```
 
 **9. Averigua cual es la forma de asignar y revocar privilegios sobre una tabla concreta en MySQL.**
