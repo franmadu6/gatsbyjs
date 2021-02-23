@@ -444,7 +444,8 @@ En MySQL existen cinco niveles distintos de privilegios:
 * De columna: se aplican a una columna en una tabla concreta.
 * De rutina: se aplican a los procedimientos almacenados. Aún no hemos visto nada sobre este tema, pero en MySQL se pueden almacenar procedimietos consistentes en varias consultas SQL.
 
-- Privilegios
+- Privilegios:
+```shell
 MariaDB [information_schema]> show privileges;
 +-------------------------+---------------------------------------+-------------------------------------------------------+
 | Privilege               | Context                               | Comment                                               |
@@ -483,7 +484,7 @@ MariaDB [information_schema]> show privileges;
 | Usage                   | Server Admin                          | No privileges - allow connect only                    |
 +-------------------------+---------------------------------------+-------------------------------------------------------+
 32 rows in set (0.001 sec)
-
+```
 
 * Para asignar privilegios a un usuario:
 ```shell

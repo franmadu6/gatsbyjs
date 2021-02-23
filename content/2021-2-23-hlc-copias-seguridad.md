@@ -6,7 +6,7 @@ categories:
     - ASO
 tags:
     - Copias de seguridad
-    - OpenStacks
+    - OpenStack
     - OVH
 ---
 

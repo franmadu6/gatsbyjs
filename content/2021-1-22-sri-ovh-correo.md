@@ -1,6 +1,6 @@
 ---
 date: 2021-01-22
-title: "Práctica correo ovh"
+title: "Tarea OVH. Correo"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
     - SRI
