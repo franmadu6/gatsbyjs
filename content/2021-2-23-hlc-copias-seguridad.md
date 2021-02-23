@@ -3,9 +3,11 @@ date: 2021-02-23
 title: "Sistema de copias de seguridad"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
-    - HLC
+    - ASO
 tags:
     - Copias de seguridad
+    - OpenStacks
+    - OVH
 ---
 
 Implementa un sistema de copias de seguridad para las instancias del cloud y el VPS, teniendo en cuenta las siguientes características:
