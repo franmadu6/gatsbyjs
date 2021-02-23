@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 22 Feb 2021 19:52:39 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] - Interconexión de Servidores de Bases de Datos]]></title><description><![CDATA[Las interconexiones de servidores de bases de datos son operaciones que pueden ser muy útiles en diferentes contextos. Básicamente, se trata…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-interconexion-de-servidores-de-bases-de-datos</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-interconexion-de-servidores-de-bases-de-datos</guid><category><![CDATA[Interconexión de Servidores]]></category><pubDate>Wed, 10 Feb 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Interconexi&amp;#xF3;n de Servidores&quot; src=&quot;https://www.juanluramirez.com/wp-content/uploads/2016/12/Portada-1.jpg&quot;&gt;&lt;/center&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 23 Feb 2021 13:18:37 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Sistema de copias de seguridad]]></title><description><![CDATA[Implementa un sistema de copias de seguridad para las instancias del cloud y el VPS, teniendo en cuenta las siguientes características…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistema-de-copias-de-seguridad</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistema-de-copias-de-seguridad</guid><category><![CDATA[Copias de seguridad]]></category><pubDate>Mon, 22 Feb 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Implementa un sistema de copias de seguridad para las instancias del cloud y el VPS, teniendo en cuenta las siguientes características:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Selecciona una aplicación para realizar el proceso: bacula, amanda, shell script con tar, rsync, dar, afio, etc.&lt;/li&gt;
+&lt;li&gt;Utiliza una de las instancias como servidor de copias de seguridad, añadiéndole un volumen y almacenando localmente las copias de seguridad que consideres adecuadas en él.&lt;/li&gt;
+&lt;li&gt;El proceso debe realizarse de forma completamente automática&lt;/li&gt;
+&lt;li&gt;Selecciona qué información es necesaria guardar (listado de paquetes, ficheros de configuración, documentos, datos, etc.)&lt;/li&gt;
+&lt;li&gt;Realiza semanalmente una copia completa&lt;/li&gt;
+&lt;li&gt;Realiza diariamente una copia incremental, diferencial o delta diferencial (decidir cual es más adecuada)&lt;/li&gt;
+&lt;li&gt;Implementa una planificación del almacenamiento de copias de seguridad para una ejecución prevista de varios años, detallando qué copias completas se almacenarán de forma permanente y cuales se irán borrando.&lt;/li&gt;
+&lt;li&gt;Crea un registro de las copias, indicando fecha, tipo de copia, si se realizó correctamente o no y motivo.&lt;/li&gt;
+&lt;li&gt;Selecciona un directorio de datos &quot;críticos&quot; que deberá almacenarse cifrado en la copia de seguridad, bien encargándote de hacer la copia manualmente o incluyendo la contraseña de cifrado en el sistema&lt;/li&gt;
+&lt;li&gt;Incluye en la copia los datos de las nuevas aplicaciones que se vayan instalando durante el resto del curso&lt;/li&gt;
+&lt;li&gt;Utiliza saturno u otra opción que se te facilite como equipo secundario para almacenar las copias de seguridad. Solicita acceso o la instalación de las aplicaciones que sean precisas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El sistema de copias debe estar operativo para la fecha de entrega, aunque se podrán hacer correcciones menores que se detecten a medida que vayan ejecutándose las copias. La corrección se realizará la última semana de curso y consistirá tanto en la restauración puntual de un fichero en cualquier fecha como la restauración completa de una de las máquinas.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[ABD] - Interconexión de Servidores de Bases de Datos]]></title><description><![CDATA[Las interconexiones de servidores de bases de datos son operaciones que pueden ser muy útiles en diferentes contextos. Básicamente, se trata…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-interconexion-de-servidores-de-bases-de-datos</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-interconexion-de-servidores-de-bases-de-datos</guid><category><![CDATA[Interconexión de Servidores]]></category><pubDate>Wed, 10 Feb 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Interconexi&amp;#xF3;n de Servidores&quot; src=&quot;https://www.juanluramirez.com/wp-content/uploads/2016/12/Portada-1.jpg&quot;&gt;&lt;/center&gt;
 &lt;p&gt;Las interconexiones de servidores de bases de datos son operaciones que pueden ser muy útiles en diferentes contextos. Básicamente, se trata de acceder a datos que no están almacenados en nuestra base de datos, pudiendo combinarlos con los que ya tenemos.&lt;/p&gt;
 &lt;p&gt;En esta práctica veremos varias formas de crear un enlace entre distintos servidores de bases de datos.&lt;/p&gt;
 &lt;p&gt;Se pide:&lt;/p&gt;
@@ -11,6 +25,51 @@
 &lt;/ul&gt;
 &lt;p&gt;Los servidores enlazados siempre tendrán que estar instalados en máquinas diferentes.&lt;/p&gt;
 &lt;h2 id=&quot;enlace-entre-servidores-oracle&quot;&gt;&lt;a href=&quot;#enlace-entre-servidores-oracle&quot; aria-label=&quot;enlace entre servidores oracle permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Enlace entre servidores ORACLE.&lt;/h2&gt;
+&lt;p&gt;Para los servidores de oracle he contado con dos maquinas centos7 y el oracle que utilizare en ellas sera el 12C, se llamarán oracle1 y oracle2.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Oracle1&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;oracle@oracle1 ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;$ &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /opt/oracle/product/12.2.0.1/dbhome_1/network/admin/tnsnames.ora 
+ORCLCDB &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;DESCRIPTION &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ADDRESS &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PROTOCOL &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; TCP&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;HOST &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; localhost&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PORT &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1521&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;CONNECT_DATA &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;SERVER &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; DEDICATED&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;SERVICE_NAME &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ORCLCDB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+LISTENER_ORCLCDB &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ADDRESS &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PROTOCOL &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; TCP&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;HOST &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; localhost&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PORT &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1521&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
+
+ORACLE2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;DESCRIPTION &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ADDRESS &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PROTOCOL &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; TCP&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;HOST &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.7.111&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PORT &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1521&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;CONNECT_DATA &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;SERVER &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; DEDICATED&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;SERVICE_NAME &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ORCLCDB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;lsnrctl stop: Detenemos el servicio.&lt;/li&gt;
+&lt;li&gt;lsnrctl start: Iniciamos el servicio de nuevo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create database &lt;span class=&quot;token function&quot;&gt;link&lt;/span&gt; oracle1
+connect to usuario
+identified by usuario
+using &lt;span class=&quot;token string&quot;&gt;&apos;oracle2&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; * from usuarios@oracle1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+DNI	  NOMBRE		    TELEFONO
+--------- ------------------------- ---------
+25679898F Jos?? Ortega Montero	    &lt;span class=&quot;token number&quot;&gt;651127288&lt;/span&gt;
+33797756S Jos?? Mas Cruz	    &lt;span class=&quot;token number&quot;&gt;651127288&lt;/span&gt;
+64252235X Hugo Serrano Martinez     &lt;span class=&quot;token number&quot;&gt;651127288&lt;/span&gt;
+13890751Q Iker Font Blanco	    &lt;span class=&quot;token number&quot;&gt;651127288&lt;/span&gt;
+55981185J Ra??l Bosch Garrido	    &lt;span class=&quot;token number&quot;&gt;651127288&lt;/span&gt;
+29292182A Gerard Parra Alonso	    &lt;span class=&quot;token number&quot;&gt;651127288&lt;/span&gt;
+29292182A Samuel Costa Aguilar	    &lt;span class=&quot;token number&quot;&gt;651127288&lt;/span&gt;
+03304667G Pablo Calvo Herrera	    &lt;span class=&quot;token number&quot;&gt;651127288&lt;/span&gt;
+36575136F Mateo Navarro Calvo	    &lt;span class=&quot;token number&quot;&gt;651127288&lt;/span&gt;
+70913753S Bruno Sala Lozano	    &lt;span class=&quot;token number&quot;&gt;651127288&lt;/span&gt;
+06994167M Andr??s Torres Gomez	    &lt;span class=&quot;token number&quot;&gt;651127288&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&quot;enlace-entre-servidores-postgres&quot;&gt;&lt;a href=&quot;#enlace-entre-servidores-postgres&quot; aria-label=&quot;enlace entre servidores postgres permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Enlace entre servidores Postgres.&lt;/h2&gt;
 &lt;h3 id=&quot;permitir-accesos-remotos&quot;&gt;&lt;a href=&quot;#permitir-accesos-remotos&quot; aria-label=&quot;permitir accesos remotos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Permitir Accesos Remotos&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Postgres1&lt;/strong&gt;&lt;/p&gt;
@@ -169,11 +228,11 @@ psql &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span clas
 SSL connection &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;protocol: TLSv1.3, cipher: TLS_AES_256_GCM_SHA384, bits: &lt;span class=&quot;token number&quot;&gt;256&lt;/span&gt;, compression: off&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 Type &lt;span class=&quot;token string&quot;&gt;&quot;help&quot;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; help.
 
-&lt;span class=&quot;token assign-left variable&quot;&gt;bdd1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; SELECT * FROM dblink&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;dbname=bdd2 host=192.168.2.255 user=postgres2 password=fran&apos;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&apos;select * from profesores&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; AS profesores &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dni varchar, nombre varchar, apellido varchar, despacho varchar, telefono varchar&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-ERROR:  could not establish connection
-DETAIL:  no se pudo conectar con el servidor: La red es inaccesible
-	¿Está el servidor en ejecución en el servidor «192.168.2.255» y aceptando
-	conexiones TCP/IP en el puerto &lt;span class=&quot;token number&quot;&gt;5432&lt;/span&gt;?&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;bdd1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;bdd1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; SELECT * FROM dblink&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;dbname=bdd2 host=172.22.3.40 user=postgres2 password=fran&apos;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&apos;select * from profesores&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; AS profesores &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dni varchar, nombre varchar, apellido varchar, despacho varchar, telefono varchar&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    dni    &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;    nombre    &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;     apellido     &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; despacho &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; telefono  
+-----------+--------------+------------------+----------+-----------
+ 36987412P &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; David        &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Moreno Cruz      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 01       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;614576324&lt;/span&gt;
+ 69874510G &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; José Antonio &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Fernández Antona &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 02       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;655590038&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;postgres2&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;postgres@postgres2:~$ psql -d bdd2
 psql &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;11.10&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Debian &lt;span class=&quot;token number&quot;&gt;11.10&lt;/span&gt;-0+deb10u1&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
@@ -182,6 +241,30 @@ Type &lt;span class=&quot;token string&quot;&gt;&quot;help&quot;&lt;/span&gt; &l
 &lt;span class=&quot;token assign-left variable&quot;&gt;bdd2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# create extension dblink;&lt;/span&gt;
 CREATE EXTENSION
 &lt;span class=&quot;token assign-left variable&quot;&gt;bdd2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# \q&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@postgres2:~$ psql -h localhost -U postgres2 -W -d bdd2
+Password: 
+psql &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;11.10&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Debian &lt;span class=&quot;token number&quot;&gt;11.10&lt;/span&gt;-0+deb10u1&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
+SSL connection &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;protocol: TLSv1.3, cipher: TLS_AES_256_GCM_SHA384, bits: &lt;span class=&quot;token number&quot;&gt;256&lt;/span&gt;, compression: off&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Type &lt;span class=&quot;token string&quot;&gt;&quot;help&quot;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; help.
+
+&lt;span class=&quot;token assign-left variable&quot;&gt;bdd2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; SELECT * FROM dblink&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;dbname=bdd1 host=172.22.5.30 user=postgres1 password=fran&apos;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&apos;select * from profesores&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; AS profesores &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dni varchar, nombre varchar, apellido varchar, despacho varchar, telefono varchar&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    dni    &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;    nombre    &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;     apellido     &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; despacho &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; telefono  
+-----------+--------------+------------------+----------+-----------
+ 36987412P &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; David        &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Moreno Cruz      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 01       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;614576324&lt;/span&gt;
+ 69874510G &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; José Antonio &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Fernández Antona &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 02       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;655590038&lt;/span&gt;
+ 53698745R &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Sara         &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Serra Macia      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 03       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;674706264&lt;/span&gt;
+ 36789874V &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Juan         &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; López Sirera     &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 04       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;681829070&lt;/span&gt;
+ 20247859Q &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;  Óscar       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Estévez González &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 05       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;699906800&lt;/span&gt;
+ 28966631V &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; José Manuel  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Pérez Fernández  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 06       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;634844973&lt;/span&gt;
+ 45987785K &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Manuela      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Rubio Cabello    &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 07       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;646837477&lt;/span&gt;
+ 50236558G &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Carmen       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Sánchez Carvajal &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 08       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;696625669&lt;/span&gt;
+ 46987845H &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Joaquín      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Aranda Almansaz  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 09       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;689117250&lt;/span&gt;
+ 22025562A &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Lourdes      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Araujo Serna     &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;621561960&lt;/span&gt;
+ 49065878R &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Fernando     &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Morilla García   &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;685644007&lt;/span&gt;
+ 36587899M &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Alfonso      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Urquía Moraleda  &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;12&lt;/span&gt;       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;633145641&lt;/span&gt;
+ K5987455X &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Antonio      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Moreno Cano      &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; 04       &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;614563124&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt; rows&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como podemos comprobar ya podemos realizar insterconexiones entre ambas maquinas en la bdd2 añadí menos datos a las tablas para que podamos apreciar el cambio de una a otra.&lt;/p&gt;
 &lt;h2 id=&quot;enlace-entre-servidor-oracle-y-postgres-o-mysql-empleando-heterogeneus-services&quot;&gt;&lt;a href=&quot;#enlace-entre-servidor-oracle-y-postgres-o-mysql-empleando-heterogeneus-services&quot; aria-label=&quot;enlace entre servidor oracle y postgres o mysql empleando heterogeneus services permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Enlace entre servidor ORACLE y Postgres o MySQL empleando Heterogeneus Services.&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación y configuración básica de VMWare ESXi]]></title><description><![CDATA[Utiliza el servidor físico que se te haya asignado e instala la versión adecuada del sistema de virtualización VMWare ESXi (ten en cuenta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-basica-de-vm-ware-es-xi</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-basica-de-vm-ware-es-xi</guid><category><![CDATA[VMWare ESXi]]></category><category><![CDATA[Instalación]]></category><category><![CDATA[Servidores]]></category><pubDate>Mon, 08 Feb 2021 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;utiliza-el-servidor-físico-que-se-te-haya-asignado-e-instala-la-versión-adecuada-del-sistema-de-virtualización-vmware-esxi-ten-en-cuenta-que-recibe-diferentes-denominaciones-comerciales-pero-nos-referimos-al-sistema-de-virtualización-de-vmware-que-proporciona-virtualización-de-alto-rendimiento-mediante-la-técnica-de-la-paravirtualización&quot;&gt;&lt;a href=&quot;#utiliza-el-servidor-f%C3%ADsico-que-se-te-haya-asignado-e-instala-la-versi%C3%B3n-adecuada-del-sistema-de-virtualizaci%C3%B3n-vmware-esxi-ten-en-cuenta-que-recibe-diferentes-denominaciones-comerciales-pero-nos-referimos-al-sistema-de-virtualizaci%C3%B3n-de-vmware-que-proporciona-virtualizaci%C3%B3n-de-alto-rendimiento-mediante-la-t%C3%A9cnica-de-la-paravirtualizaci%C3%B3n&quot; aria-label=&quot;utiliza el servidor físico que se te haya asignado e instala la versión adecuada del sistema de virtualización vmware esxi ten en cuenta que recibe diferentes denominaciones comerciales pero nos referimos al sistema de virtualización de vmware que proporciona virtualización de alto rendimiento mediante la técnica de la paravirtualización permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Utiliza el servidor físico que se te haya asignado e instala la versión adecuada del sistema de virtualización VMWare ESXi (ten en cuenta que recibe diferentes denominaciones comerciales, pero nos referimos al sistema de virtualización de VMWare que proporciona virtualización de alto rendimiento mediante la técnica de la paravirtualización).&lt;/h2&gt;
 &lt;h2 id=&quot;realiza-la-configuración-del-servicio-que-permita-su-gestión-remota-desde-un-equipo-cliente-e-instala-en-tu-equipo-la-aplicación-cliente-que-permita-gestionar-remotamente-el-hipervisor&quot;&gt;&lt;a href=&quot;#realiza-la-configuraci%C3%B3n-del-servicio-que-permita-su-gesti%C3%B3n-remota-desde-un-equipo-cliente-e-instala-en-tu-equipo-la-aplicaci%C3%B3n-cliente-que-permita-gestionar-remotamente-el-hipervisor&quot; aria-label=&quot;realiza la configuración del servicio que permita su gestión remota desde un equipo cliente e instala en tu equipo la aplicación cliente que permita gestionar remotamente el hipervisor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Realiza la configuración del servicio que permita su gestión remota desde un equipo cliente e instala en tu equipo la aplicación cliente que permita gestionar remotamente el hipervisor.&lt;/h2&gt;
 &lt;h2 id=&quot;instala-una-máquina-virtual-que-tenga-acceso-a-internet-la-corrección-consistirá-en-comprobar-el-funcionamiento-de-dicha-máquina-virtual&quot;&gt;&lt;a href=&quot;#instala-una-m%C3%A1quina-virtual-que-tenga-acceso-a-internet-la-correcci%C3%B3n-consistir%C3%A1-en-comprobar-el-funcionamiento-de-dicha-m%C3%A1quina-virtual&quot; aria-label=&quot;instala una máquina virtual que tenga acceso a internet la corrección consistirá en comprobar el funcionamiento de dicha máquina virtual permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instala una máquina virtual que tenga acceso a Internet. La corrección consistirá en comprobar el funcionamiento de dicha máquina virtual.&lt;/h2&gt;
@@ -950,39 +1033,27 @@ version &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&l
 &lt;p&gt;Dicho esto decir que &lt;strong&gt;ZFS&lt;/strong&gt; esta condenado a su desuso por su incompatibilidad de licencias con &lt;strong&gt;CDDL&lt;/strong&gt; y &lt;strong&gt;GPL&lt;/strong&gt;, lo que hace que su uso no este tan expandido y desarrollado como su rival &lt;strong&gt;BTRFS&lt;/strong&gt; que posee un desarrollo contínuo y licencia compatible con el kernel de linux.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[ABD] - Gestión de Usuarios]]></title><description><![CDATA[PRÁCTICA TEMA 3: USUARIOS ORACLE: 1. (ORACLE, Postgres, MySQL) Crea un usuario llamado Becario y, sin usar los roles de ORACLE, dale los…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-gestion-de-usuarios</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-gestion-de-usuarios</guid><category><![CDATA[Gestión]]></category><category><![CDATA[Usuarios]]></category><pubDate>Mon, 25 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-tema-3-usuarios&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-tema-3-usuarios&quot; aria-label=&quot;práctica tema 3 usuarios permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PRÁCTICA TEMA 3: USUARIOS&lt;/h2&gt;
 &lt;h1 id=&quot;oracle&quot;&gt;&lt;a href=&quot;#oracle&quot; aria-label=&quot;oracle permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ORACLE:&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;1. (ORACLE, Postgres, MySQL) Crea un usuario llamado Becario y, sin usar los roles de ORACLE, dale los siguientes privilegios:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Create user Becario identified by Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Conectarse a la base de datos.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;grant create session to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Modificar el número de errores en la introducción de la contraseña de cualquier usuario.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;grant create profile to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+&lt;p&gt;&lt;strong&gt;En Oracle&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#creación de usuario.&lt;/span&gt;
+Create user Becario identified by Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Conectarse a la base de datos.&lt;/span&gt;
+grant create session to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Modificar el número de errores en la introducción de la contraseña de cualquier usuario.&lt;/span&gt;
+grant create profile to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 Create profile Limitepasswd LIMIT
-FAILED_LOGIN_ATTEMPTS &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+FAILED_LOGIN_ATTEMPTS &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;#Ahora le damos al usuario becarios la posibilidad de dar dicho perfil&lt;/span&gt;
 grant alter user to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;#Y ahora este usuario podría dar el perfil a diferentes usuarios&lt;/span&gt;
-Alter user &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;USUARIO&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; profile Limitepasswd&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Modificar índices en cualquier esquema (este privilegio podrá pasarlo a quien quiera)&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;alter index fran.PK_CODIGO_COCHES RENAME TO PK_CODIGO_COCHES1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Insertar filas en scott.emp (este privilegio podrá pasarlo a quien quiera)&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;grant insert on SCOTT.EMP to Becario with grant option&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Crear objetos en cualquier tablespace.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;grant unlimited tablespace to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Gestión completa de usuarios, privilegios y roles.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#Usuarios&lt;/span&gt;
+Alter user &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;USUARIO&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; profile Limitepasswd&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Modificar índices en cualquier esquema (este privilegio podrá pasarlo a quien quiera)&lt;/span&gt;
+alter index fran.PK_CODIGO_COCHES RENAME TO PK_CODIGO_COCHES1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Insertar filas en scott.emp (este privilegio podrá pasarlo a quien quiera)&lt;/span&gt;
+grant insert on SCOTT.EMP to Becario with grant option&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Crear objetos en cualquier tablespace.&lt;/span&gt;
+grant unlimited tablespace to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Gestión completa de usuarios, privilegios y roles.&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Usuarios&lt;/span&gt;
 grant create user to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 grant alter user to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 grant drop user to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -993,45 +1064,196 @@ grant create role to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt
 grant drop any role to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 grant alter any role to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 grant grant any role to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;En Postgres&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;En MariaDB&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create or replace &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; funciondeVerificacion &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-    username VARCHAR2, 
-    pass VARCHAR2, 
-    old_password VARCHAR2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; varchar2   IS 
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create or replace &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; VerificacionPSW &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_usuario varchar2,
+                                            p_pswnueva varchar2,
+                                            p_pswvieja varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; boolean
+is
+    v_sumaRepe number:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    v_letraigual number:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    v_numNum number:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    v_numLetra number:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    v_validar number:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 begin
-	&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; length&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pass&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FALSE&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	elsif &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pass &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; old_password&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FALSE&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;TRUE&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; length&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_pswnueva&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_pswvieja&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        raise_application_error&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;-20003, &lt;span class=&quot;token string&quot;&gt;&apos;La nueva contraseña no debe tener la misma longitud que la anterior&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;3. Realiza un procedimiento llamado MostrarPrivilegiosdelRol que reciba el nombre de un rol y muestre los privilegios de sistema y los privilegios sobre objetos que lo componen.&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create or replace procedure MostrarPrivilegiosdelRol&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_pswnueva&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; loop
+        ContarNumerosYLetras&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;substr&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_pswnueva, i,1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, v_numNum, v_numLetra&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        CompararCaracteres&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;substr&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_pswnueva, i,1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, p_pswvieja, v_letraigual&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;v_letraigual&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+            v_sumaRepe:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;v_sumaRepe+1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        v_letraigual:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
+    end loop&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    v_validar:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;LanzarErrores&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;v_sumaRepe, v_numNum, v_numLetra&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; TRUE&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+end VerificacionPSW&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+/
+
+create or replace &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; LanzarErrores&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_sumaRepe number, 
+                                         p_numNum number, p_numLetra number&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; number
 is
 begin
-	&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; grantee, privilege from dba_sys_privs
-	where &lt;span class=&quot;token assign-left variable&quot;&gt;privilege&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;p_rol&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;p_rol&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-		raise_application_error&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;-20001,&lt;span class=&quot;token string&quot;&gt;&apos;Ese rol no existe&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt;
+        when p_sumaRepe&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+            raise_application_error&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;-20002, &lt;span class=&quot;token string&quot;&gt;&apos;La nueva contraseña debe tener al menos 5 caracteres diferentes con respecto a la antigua&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+            &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    end &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;          
+end LanzarErrores&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+/
+
+
+create or replace procedure CompararCaracteres&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_caracter varchar2,
+                                               p_psw varchar2,
+                                               p_letraigual &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; out number&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+is
+begin
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_psw&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; loop
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; substr&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_psw,i,1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;p_caracter &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+            p_letraigual:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    end loop&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+end CompararCaracteres&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+/
+
+
+create or replace procedure ContarNumerosYLetras &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_caracter varchar2,
+                                                  p_numero  &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; out number,
+                                                  p_letra   &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; out number&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+is
+begin
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;p_caracter&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;REGEXP_REPLACE&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_caracter,&lt;span class=&quot;token string&quot;&gt;&apos;[0-9]&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        p_numero:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;p_numero+1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+        p_letra:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;p_letra+1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+end ContarNumerosYLetras&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Creación de perfil.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create profile PswSegura limit 
+    PASSWORD_VERIFY_FUNCTION VerificacionPSW&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+drop profile PswSegura&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Asignación de usuario.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;alter user pruebapasswd profile PswSegura&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;3. Realiza un procedimiento llamado MostrarPrivilegiosdelRol que reciba el nombre de un rol y muestre los privilegios de sistema y los privilegios sobre objetos que lo componen.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;exec&lt;/span&gt; MostrarPrivileciosdelRol &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Dsvret&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+create or replace procedure MostrarPrivileciosdelRol &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+is
+    v_validacion number:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+begin
+    v_validacion:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ComprobarSiRolExiste&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;v_validacion&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        BuscarPrivilegiosDelSistema&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos; &apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;--------------------------------------------------------------------------------&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos; &apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        BuscarPrivilegiosSobreObjetos&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+end MostrarPrivileciosdelRol&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+/
+
+create or replace procedure BuscarPrivilegiosDelSistema&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+is
+    cursor c_sys
+    is
+    &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; distinct privilege
+    from role_sys_privs
+    where role &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;select distinct role 
+                   from role_role_privs 
+                   start with &lt;span class=&quot;token assign-left variable&quot;&gt;role&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;p_rol
+                   connect by role &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; prior granted_role&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    or role &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; p_rol&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    v_sys c_sys%ROWTYPE&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+begin
+    dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;PRIVILEGIOS DEL SISTEMA&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;--------------------------------------------------------------------------------&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;v_sys&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; c_sys loop
+        dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;v_sys.privilege&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    end loop&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+end BuscarPrivilegiosDelSistema&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+/
+
+
+create or replace procedure BuscarPrivilegiosSobreObjetos&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+is
+    cursor c_tab
+    is
+    &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; distinct privilege, table_name, owner
+    from role_tab_privs
+    where role &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;select distinct role 
+                   from role_role_privs 
+                   start with &lt;span class=&quot;token assign-left variable&quot;&gt;role&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;p_rol
+                   connect by role &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; prior granted_role&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    or role &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; p_rol&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    v_tab c_tab%ROWTYPE&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+begin
+    dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;PRIVILEGIOS SOBRE OBJETOS&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;--------------------------------------------------------------------------------&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;v_tab&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; c_tab loop
+        dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;v_tab.privilege&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos; sobre la tabla &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;v_tab.table_name&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos; del usuario &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;v_tab.owner&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    end loop&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+end BuscarPrivilegiosSobreObjetos&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+/
+
+
+create or replace &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; ComprobarSiRolExiste&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; number
+is
+    v_resultado varchar2&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+begin
+    &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; role into v_resultado
+    from dba_roles
+    where &lt;span class=&quot;token assign-left variable&quot;&gt;role&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;p_rol&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+exception
+    when NO_DATA_FOUND &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+        dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;No existe el rol &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;p_rol&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; -1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+end ComprobarSiRolExiste&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;4. Realiza un procedimiento llamado PermisosdeAsobreB que reciba dos nombres de usuario y muestre los permisos que tiene el primero de ellos sobre objetos del segundo.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;5. Realiza un procedimiento llamado MostrarInfoPerfil que reciba el nombre de un perfil y muestre su composición y los usuarios que lo tienen asignado.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;(Para que los perfiles funcionen, el parámetro de la base de datos resource_limit, deberá tener el valor a true.)&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Create or replace procedure MostrarInfoPerfil&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p.name varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create procedure Infoperfil &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_perfil dba_profiles.profile%type&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 is
+	cursor c_informacion
+	is
+	&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; resource_name, limit
+	from dba_profiles
+	where profile &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; p_perfil&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 begin
-	&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; profile, username, default_tablespace, temporary_tablespace
-    from   dba_users
-    where  profile &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; p.name&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; p.name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-		raise_application_error&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;-20001,&lt;span class=&quot;token string&quot;&gt;&apos;Ese perfil no existe&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-end&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Composición de: &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; p_perfil&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;	
+	&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; c_informacion loop
+		dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Recurso: &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; i.resource_name &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos; Límites: &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; i.limit&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	end loop&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+end Infoperfil&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+/
+
+
+create procedure MostrarInfoPerfil &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_perfil dba_profiles.profile%type&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+is
+	cursor c_perfiles
+	is
+	&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; username
+	from dba_users
+	where profile &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; p_perfil&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+begin 
+	Infoperfil&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_perfil&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; c_perfiles loop
+		dbms_output.put_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Usuarios con ese perfil: &apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; i.username&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	end loop&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+end MostrarInfoPerfil&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;6. (ORACLE, Postgres) Realiza un procedimiento que reciba un nombre de usuario y nos muestre cuántas sesiones tiene abiertas en este momento. Además, para cada una de dichas sesiones nos mostrará la hora de comienzo y el nombre de la máquina, sistema operativo y programa desde el que fue abierta.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Create or replace procedure ver.excepciones&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_user varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
@@ -1193,11 +1415,61 @@ Records: &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;  Duplicates: 
 MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;testdeusuarios&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; CREATE &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;permisosuser&apos;&lt;/span&gt;@&lt;span class=&quot;token string&quot;&gt;&apos;localhost&apos;&lt;/span&gt; IDENTIFIED BY &lt;span class=&quot;token string&quot;&gt;&apos;fran&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 Query OK, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; rows affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.004&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;8. Averigua que privilegios de sistema hay en MySQL y como se asignan a un usuario.&lt;/strong&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img alt=&quot;Privilegios&quot; src=&quot;https://wiki.cifprodolfoucha.es/images/b/b3/Mysql_seguridad_20.jpg&quot;&gt;&lt;/center&gt;
-Como asignar privilegios:
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP
-    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; ON mitabla.*
-    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; TO &lt;span class=&quot;token string&quot;&gt;&apos;nombre_usuario&apos;&lt;/span&gt;@&lt;span class=&quot;token string&quot;&gt;&apos;localhost&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En MySQL existen cinco niveles distintos de privilegios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Globales: se aplican al conjunto de todas las bases de datos en un servidor. Es el nivel más alto de privilegio, en el sentido de que su ámbito es el más general.&lt;/li&gt;
+&lt;li&gt;De base de datos: se refieren a bases de datos individuales, y por extensión, a todos los objetos que contiene cada base de datos.&lt;/li&gt;
+&lt;li&gt;De tabla: se aplican a tablas individuales, y por lo tanto, a todas las columnas de esas tabla.&lt;/li&gt;
+&lt;li&gt;De columna: se aplican a una columna en una tabla concreta.&lt;/li&gt;
+&lt;li&gt;De rutina: se aplican a los procedimientos almacenados. Aún no hemos visto nada sobre este tema, pero en MySQL se pueden almacenar procedimietos consistentes en varias consultas SQL.&lt;/li&gt;
+&lt;li&gt;Privilegios
+MariaDB [information_schema]&gt; show privileges;
++-------------------------+---------------------------------------+-------------------------------------------------------+
+| Privilege               | Context                               | Comment                                               |
++-------------------------+---------------------------------------+-------------------------------------------------------+
+| Alter                   | Tables                                | To alter the table                                    |
+| Alter routine           | Functions,Procedures                  | To alter or drop stored functions/procedures          |
+| Create                  | Databases,Tables,Indexes              | To create new databases and tables                    |
+| Create routine          | Databases                             | To use CREATE FUNCTION/PROCEDURE                      |
+| Create temporary tables | Databases                             | To use CREATE TEMPORARY TABLE                         |
+| Create view             | Tables                                | To create new views                                   |
+| Create user             | Server Admin                          | To create new users                                   |
+| Delete                  | Tables                                | To delete existing rows                               |
+| Delete versioning rows  | Tables                                | To delete versioning table historical rows            |
+| Drop                    | Databases,Tables                      | To drop databases, tables, and views                  |
+| Event                   | Server Admin                          | To create, alter, drop and execute events             |
+| Execute                 | Functions,Procedures                  | To execute stored routines                            |
+| File                    | File access on server                 | To read and write files on the server                 |
+| Grant option            | Databases,Tables,Functions,Procedures | To give to other users those privileges you possess   |
+| Index                   | Tables                                | To create or drop indexes                             |
+| Insert                  | Tables                                | To insert data into tables                            |
+| Lock tables             | Databases                             | To use LOCK TABLES (together with SELECT privilege)   |
+| Process                 | Server Admin                          | To view the plain text of currently executing queries |
+| Proxy                   | Server Admin                          | To make proxy user possible                           |
+| References              | Databases,Tables                      | To have references on tables                          |
+| Reload                  | Server Admin                          | To reload or refresh tables, logs and privileges      |
+| Replication client      | Server Admin                          | To ask where the slave or master servers are          |
+| Replication slave       | Server Admin                          | To read binary log events from the master             |
+| Select                  | Tables                                | To retrieve rows from table                           |
+| Show databases          | Server Admin                          | To see all databases with SHOW DATABASES              |
+| Show view               | Tables                                | To see views with SHOW CREATE VIEW                    |
+| Shutdown                | Server Admin                          | To shut down the server                               |
+| Super                   | Server Admin                          | To use KILL thread, SET GLOBAL, CHANGE MASTER, etc.   |
+| Trigger                 | Tables                                | To use triggers                                       |
+| Create tablespace       | Server Admin                          | To create/alter/drop tablespaces                      |
+| Update                  | Tables                                | To update existing rows                               |
+| Usage                   | Server Admin                          | No privileges - allow connect only                    |
++-------------------------+---------------------------------------+-------------------------------------------------------+
+32 rows in set (0.001 sec)&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para asignar privilegios a un usuario:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;GRANT &lt;span class=&quot;token string&quot;&gt;&quot;privilegio&quot;&lt;/span&gt; ON *.* TO &lt;span class=&quot;token string&quot;&gt;&quot;nombre_usuario&quot;&lt;/span&gt;@&lt;span class=&quot;token string&quot;&gt;&quot;localhost&quot;&lt;/span&gt; identified by &lt;span class=&quot;token string&quot;&gt;&quot;contraseña&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Si queremos que al usuario al cuál hemos asignado un privilegio pueda asignarlo a su vez a otro usuario ejecutaremos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;GRANT &lt;span class=&quot;token string&quot;&gt;&quot;privilegio&quot;&lt;/span&gt; ON *.* TO &lt;span class=&quot;token string&quot;&gt;&quot;nombre_usuario&quot;&lt;/span&gt;@&lt;span class=&quot;token string&quot;&gt;&quot;localhost&quot;&lt;/span&gt; identified by &lt;span class=&quot;token string&quot;&gt;&quot;contraseña&quot;&lt;/span&gt; with grant option&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;9. Averigua cual es la forma de asignar y revocar privilegios sobre una tabla concreta en MySQL.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#asignar permisos en una tabla concreta&lt;/span&gt;
 MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;testdeusuarios&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; grant &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; on testdeusuarios.mitabla to &lt;span class=&quot;token string&quot;&gt;&apos;permisosuser&apos;&lt;/span&gt;@&lt;span class=&quot;token string&quot;&gt;&apos;localhost&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
