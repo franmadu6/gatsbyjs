@@ -28,59 +28,135 @@ Los servidores enlazados siempre tendrán que estar instalados en máquinas dife
 
 Para los servidores de oracle he contado con dos maquinas centos7 y el oracle que utilizare en ellas sera el 12C, se llamarán oracle1 y oracle2.
 
-**Oracle1**
-
+**Configuración Oracle Servidor**
 
 ```shell
-[oracle@oracle1 ~]$ nano /opt/oracle/product/12.2.0.1/dbhome_1/network/admin/tnsnames.ora 
-ORCLCDB =
-  (DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
-    (CONNECT_DATA =
-      (SERVER = DEDICATED)
-      (SERVICE_NAME = ORCLCDB)
-    )
+[root@oracle1 vagrant]# nano /opt/oracle/product/12.2.0.1/dbhome_1/network/admin/listener.ora 
+SID_LIST_LISTENER=
+  (SID_LIST=
+    (SID_DESC=
+      (GLOBAL_DBNAME=orcl)
+      (ORACLE_HOME=/u01/app/oracle/product/12.2.0.1/dbhome_1)
+      (SID_NAME=orcl))
   )
 
-LISTENER_ORCLCDB =
-  (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
-
-ORACLE2 =
+LISTENER =
+(DESCRIPTION_LIST =
   (DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.22.7.111)(PORT = 1521))
-    (CONNECT_DATA =
-      (SERVER = DEDICATED)
-      (SERVICE_NAME = ORCLCDB)
-    )
+    (ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.22.6.156)(PORT = 1521))
   )
+) 
 ```
 
+**Configuración Oracle Cliente**
+
+```shell
+[root@localhost vagrant]# nano /opt/oracle/product/12.2.0.1/dbhome_1/network/admin/tnsnames.ora
+LISTENER_ORCL =
+ (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
+
+ORCL =
+ (DESCRIPTION = Mi Servidor Oracle
+    (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
+    (CONNECT_DATA =
+        (SERVER = DEDICATED)
+        (SERVICE_NAME = orcl)
+    )
+ )
+
+OracleServer =
+ (DESCRIPTION = Servidor Oracle1
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.22.8.230)(PORT = 1521))
+    (CONNECT_DATA =
+        (SERVER = DEDICATED)
+        (SERVICE_NAME = orcl2)
+    )
+```
+
+**Reiniciaremos el servicio**
 * lsnrctl stop: Detenemos el servicio.
 * lsnrctl start: Iniciamos el servicio de nuevo.
 
-
 ```shell
-create database link oracle1
-connect to usuario
-identified by usuario
-using 'oracle2';
+[oracle@localhost ~]$ lsnrctl stop
+
+LSNRCTL for Linux: Version 12.2.0.1.0 - Production on 25-FEB-2021 05:01:05
+
+Copyright (c) 1991, 2016, Oracle.  All rights reserved.
+
+Connecting to (DESCRIPTION=(ADDRESS=(PROTOCOL=IPC)(KEY=EXTPROC1)))
+The command completed successfully
+[oracle@localhost ~]$ lsnrctl start
+
+LSNRCTL for Linux: Version 12.2.0.1.0 - Production on 25-FEB-2021 05:01:10
+
+Copyright (c) 1991, 2016, Oracle.  All rights reserved.
+
+Starting /opt/oracle/product/12.2.0.1/dbhome_1/bin/tnslsnr: please wait...
+
+TNSLSNR for Linux: Version 12.2.0.1.0 - Production
+System parameter file is /opt/oracle/product/12.2.0.1/dbhome_1/network/admin/listener.ora
+Log messages written to /opt/oracle/diag/tnslsnr/localhost/listener/alert/log.xml
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC1)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.0.0)(PORT=1521)))
+
+Connecting to (DESCRIPTION=(ADDRESS=(PROTOCOL=IPC)(KEY=EXTPROC1)))
+STATUS of the LISTENER
+------------------------
+Alias                     LISTENER
+Version                   TNSLSNR for Linux: Version 12.2.0.1.0 - Production
+Start Date                25-FEB-2021 05:01:10
+Uptime                    0 days 0 hr. 0 min. 0 sec
+Trace Level               off
+Security                  ON: Local OS Authentication
+SNMP                      OFF
+Listener Parameter File   /opt/oracle/product/12.2.0.1/dbhome_1/network/admin/listener.ora
+Listener Log File         /opt/oracle/diag/tnslsnr/localhost/listener/alert/log.xml
+Listening Endpoints Summary...
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC1)))
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.0.0)(PORT=1521)))
+Services Summary...
+Service "orcl2" has 1 instance(s).
+  Instance "orcl2", status UNKNOWN, has 1 handler(s) for this service...
 ```
 
+**Creación de Usuario**
+
+En el servidor.
 ```shell
-SQL> select * from usuarios@oracle1;
-DNI	  NOMBRE		    TELEFONO
---------- ------------------------- ---------
-25679898F Jos?? Ortega Montero	    651127288
-33797756S Jos?? Mas Cruz	    651127288
-64252235X Hugo Serrano Martinez     651127288
-13890751Q Iker Font Blanco	    651127288
-55981185J Ra??l Bosch Garrido	    651127288
-29292182A Gerard Parra Alonso	    651127288
-29292182A Samuel Costa Aguilar	    651127288
-03304667G Pablo Calvo Herrera	    651127288
-36575136F Mateo Navarro Calvo	    651127288
-70913753S Bruno Sala Lozano	    651127288
-06994167M Andr??s Torres Gomez	    651127288
+[oracle@oracle1 ~]$ sqlplus / AS SYSDBA
+
+SQL*Plus: Release 12.2.0.1.0 Production on Thu Feb 25 05:08:55 2021
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> create user usuariosv identified by fran;
+
+User created.
+
+SQL> grant create database link to usuariosv;
+
+Grant succeeded.
+
+#le daremos permisos y accederemos a oracle con la cuenta creada.
+
+SQL> create database link cliente
+  2  connect to usuariocliente
+  3  identified by fran
+  4  using 'orcl2';
+
+Database link created.
+
+select color,clave from perros@cliente , prueba;
+COLOR			  CLAVE
+------------------------- -------------------------
+Blanco	 		  Podadora
+Negro  			  Pepito            
 ```
 
 ## Enlace entre servidores Postgres.
@@ -324,3 +400,259 @@ Como podemos comprobar ya podemos realizar insterconexiones entre ambas maquinas
 
 ## Enlace entre servidor ORACLE y Postgres o MySQL empleando Heterogeneus Services.
 
+### Oracle a Postgres.
+
+Instalación de la paquetería necesaria.
+```shell
+[root@oracle1 vagrant]# yum install postgresql-odbc
+```
+
+Una vez instalada la paqueteria accederemos al archivo /etc/odbcinst.ini, en el podremos ver los drivers existentes, en nuestro caso nos interesa el de postgres y nos fijaremos en como se llama especificamente.
+```shell
+[root@oracle1 vagrant]# cat /etc/odbcinst.ini
+# Example driver definitions
+
+# Driver from the postgresql-odbc package
+# Setup from the unixODBC package
+[PostgreSQL]
+Description	= ODBC for PostgreSQL
+Driver		= /usr/lib/psqlodbcw.so
+Setup		= /usr/lib/libodbcpsqlS.so
+Driver64	= /usr/lib64/psqlodbcw.so
+Setup64		= /usr/lib64/libodbcpsqlS.so
+FileUsage	= 1
+
+
+# Driver from the mysql-connector-odbc package
+# Setup from the unixODBC package
+[MySQL]
+Description	= ODBC for MySQL
+Driver		= /usr/lib/libmyodbc5.so
+Setup		= /usr/lib/libodbcmyS.so
+Driver64	= /usr/lib64/libmyodbc5.so
+Setup64		= /usr/lib64/libodbcmyS.so
+FileUsage	= 1
+```
+
+
+Crearemos un DSN llamado **odbc.ini** que determinará la conexión al gestor que especifiquemos.
+```shell
+[root@oracle1 vagrant]# nano /etc/odbc.ini
+[PSQLU]
+Debug           = 0
+CommLog         = 0
+ReadOnly        = 0
+Driver          = PostgreSQL
+Servername	= 172.22.3.40  
+Username        = postgres2     
+Password        = fran   
+Port            = 5432
+Database        = bdd2   
+Trace           = 0
+TraceFile	= /tmp/sql.log
+```
+
+Ya tendremos configurado el driver de ODBC, probaremos el resultado.
+```shell
+[root@oracle1 vagrant]# isql PSQLU
++---------------------------------------+
+| Connected!                            |
+|                                       |
+| sql-statement                         |
+| help [tablename]                      |
+| quit                                  |
+|                                       |
++---------------------------------------+
+SQL> select * from profesores;
++----------+----------------+---------------------------------------------------+-----------+----------+
+| dni      | nombre         | apellido                                          | despacho  | telefono |
++----------+----------------+---------------------------------------------------+-----------+----------+
+| 36987412P| David          | Moreno Cruz                                       | 01        | 614576324|
+| 69874510G| José Antonio  | Fernández Antona                                 | 02        | 655590038|
++----------+----------------+---------------------------------------------------+-----------+----------+
+SQLRowCount returns 2
+2 rows fetched
+SQL> create table coches(nombre varchar(10));
+SQLRowCount returns 0
+SQL> select * from coches;
++-----------+
+| nombre    |
++-----------+
++-----------+
+SQLRowCount returns 0
+SQL> insert into coches (nombre) values ('Ferrari');
+SQLRowCount returns 1
+SQL> select * from coches;
++-----------+
+| nombre    |
++-----------+
+| Ferrari   |
++-----------+
+SQLRowCount returns 1
+1 rows fetched
+```
+
+Como podemos comprobar la configuración del driver ha sido exitosa, ahora procederemos a configurar Oracle para que pueda usar dicho driver exitosamente.
+
+
+**Heterogeneous Services**  
+Es un componente dentro del servidor de base de datos de Oracle que se requiere para acceder a un sistema de base de datos que no es de Oracle. 
+
+Generaremos el siguiente fichero:
+```shell
+[oracle@oracle1 ~]$ nano /opt/oracle/product/12.2.0.1/dbhome_1/hs/admin/initPSQLU.ora
+HS_FDS_CONNECT_INFO = PSQLU
+HS_FDS_TRACE_LEVEL = DEBUG
+HS_FDS_SHAREABLE_NAME = /usr/lib64/psqlodbcw.so
+HS_LANGUAGE = AMERICAN_AMERICA.WE8ISO8859P1
+set ODBCINI=/etc/odbc.ini
+```
+
+Configuráremos el listener para que escuche peticiones hacia el driver ODBC:
+```shell
+[root@oracle1 vagrant]# nano /opt/oracle/product/12.2.0.1/dbhome_1/network/admin/listener.ora
+LISTENER =
+  (DESCRIPTION_LIST =
+    (DESCRIPTION =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
+      (ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC1521))
+    )
+  )
+
+SID_LIST_LISTENER=
+  (SID_LIST=
+      (SID_DESC=
+         (SID_NAME=PSQLU)
+         (ORACLE_HOME=/opt/oracle/product/12.2.0.1/dbhome_1)
+         (PROGRAM=dg4odbc)
+      )
+  )
+```
+
+Modifiraremos el fichero de nombre que facilita el acceso a servidores remotos.
+```shell
+[root@oracle1 vagrant]# nano /opt/oracle/product/12.2.0.1/dbhome_1/network/admin/tnsnames.ora 
+PSQLU  =
+  (DESCRIPTION=
+    (ADDRESS=(PROTOCOL=tcp)(HOST=localhost)(PORT=1521))
+    (CONNECT_DATA=(SID=PSQLU))
+    (HS=OK)
+  )
+```
+
+Accederemos al usuario Oracle de nuestro sistema y reiniciaremos el proceso de listener:
+```shell
+[oracle@oracle1 ~]$ lsnrctl stop
+
+LSNRCTL for Linux: Version 12.2.0.1.0 - Production on 25-FEB-2021 08:48:28
+
+Copyright (c) 1991, 2016, Oracle.  All rights reserved.
+
+Connecting to (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))
+The command completed successfully
+[oracle@oracle1 ~]$ lsnrctl start
+
+LSNRCTL for Linux: Version 12.2.0.1.0 - Production on 25-FEB-2021 08:48:30
+
+Copyright (c) 1991, 2016, Oracle.  All rights reserved.
+
+Starting /opt/oracle/product/12.2.0.1/dbhome_1/bin/tnslsnr: please wait...
+
+TNSLSNR for Linux: Version 12.2.0.1.0 - Production
+System parameter file is /opt/oracle/product/12.2.0.1/dbhome_1/network/admin/listener.ora
+Log messages written to /opt/oracle/diag/tnslsnr/oracle1/listener/alert/log.xml
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=oracle1)(PORT=1521)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC1521)))
+
+Connecting to (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))
+STATUS of the LISTENER
+------------------------
+Alias                     LISTENER
+Version                   TNSLSNR for Linux: Version 12.2.0.1.0 - Production
+Start Date                25-FEB-2021 08:48:31
+Uptime                    0 days 0 hr. 0 min. 8 sec
+Trace Level               off
+Security                  ON: Local OS Authentication
+SNMP                      OFF
+Listener Parameter File   /opt/oracle/product/12.2.0.1/dbhome_1/network/admin/listener.ora
+Listener Log File         /opt/oracle/diag/tnslsnr/oracle1/listener/alert/log.xml
+Listening Endpoints Summary...
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=oracle1)(PORT=1521)))
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC1521)))
+Services Summary...
+Service "PSQLU" has 1 instance(s).
+  Instance "PSQLU", status UNKNOWN, has 1 handler(s) for this service...
+The command completed successfully
+```
+
+Accederemos a nuestro usuario de oracle y crearemos un enlace para comprobar la configuración.
+```shell
+SQL> create database link postgresconn
+  2  connect to "postgres2" identified by "fran"
+  3  using 'PSQLU';
+
+Database link created.
+
+SQL> select * from coches@postgresconn;
+
+NOMBRE
+-------------------------
+Ferrari
+```
+
+### Postgres a Oracle.
+
+Instalamos la paquetería requerida.
+```shell
+root@postgres2:/home/vagrant# apt install libaio1 postgresql-server-dev-all build-essential git
+```
+
+Accederemos al usuario postgres y descargaremos los paquetes del sitio oficial de Oracle:
+```shell
+vagrant@postgres2:~$ su - postgres 
+Password: 
+postgres@postgres2:~$
+postgres@postgres2:~$ wget https://download.oracle.com/otn_software/linux/instantclient/211000/instantclient-basic-linux.x64-21.1.0.0.0.zip
+postgres@postgres2:~$ wget https://download.oracle.com/otn_software/linux/instantclient/211000/instantclient-sdk-linux.x64-21.1.0.0.0.zip
+postgres@postgres2:~$ wget https://download.oracle.com/otn_software/linux/instantclient/211000/instantclient-sqlplus-linux.x64-21.1.0.0.0.zip
+```
+
+Descomprimiremos los archivos con unzip.
+```shell
+postgres@postgres2:~$ unzip instantclient-basic-linux.x64-21.1.0.0.0.zip
+postgres@postgres2:~$ unzip instantclient-sqlplus-linux.x64-21.1.0.0.0.zip
+postgres@postgres2:~$ unzip instantclient-sdk-linux.x64-21.1.0.0.0.zip
+```
+
+Estableceremos las nuevas variables de entorno:
+```shell
+postgres@postgres2:~$  export ORACLE_HOME=/var/lib/postgresql/instantclient_21_1
+postgres@postgres2:~$  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ORACLE_HOME
+postgres@postgres2:~$  export PATH=$PATH:$ORACLE_HOME
+```
+
+Para comprobar si hemos puesto correctamente las variables utilizaremos el comando wich que nos deberá devolver la ruta.
+```shell
+postgres@postgres2:/var/lib$ which sqlplus
+/var/lib/postgresql/instantclient_21_1/sqlplus
+```
+
+```shell
+postgres@postgres2:~$ sqlplus usuariosv/fran@192.168.2.124/ORCL
+
+SQL*Plus: Release 21.0.0.0.0 - Production on Thu Feb 25 19:51:07 2021
+Version 21.1.0.0.0
+
+Copyright (c) 1982, 2020, Oracle.  All rights reserved.
+
+Last Successful login time: Thu Feb 25 2021 19:48:17 +00:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> select * from prueba;
+
+NOMBRE			  CLAVE
+------------------------- -------------------------
+Mariano 		  Podadora
+```
