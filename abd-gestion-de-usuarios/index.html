@@ -432,8 +432,8 @@ Query OK, <span class="token number">0</span> rows affected <span class="token p
 <li>De tabla: se aplican a tablas individuales, y por lo tanto, a todas las columnas de esas tabla.</li>
 <li>De columna: se aplican a una columna en una tabla concreta.</li>
 <li>De rutina: se aplican a los procedimientos almacenados. Aún no hemos visto nada sobre este tema, pero en MySQL se pueden almacenar procedimietos consistentes en varias consultas SQL.</li>
-<li>
-<p>Privilegios:</p>
+</ul>
+<p><strong>Privilegios:</strong></p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">MariaDB <span class="token punctuation">[</span>information_schema<span class="token punctuation">]</span><span class="token operator">></span> show privileges<span class="token punctuation">;</span>
 +-------------------------+---------------------------------------+-------------------------------------------------------+
 <span class="token operator">|</span> Privilege               <span class="token operator">|</span> Context                               <span class="token operator">|</span> Comment                                               <span class="token operator">|</span>
@@ -472,7 +472,7 @@ Query OK, <span class="token number">0</span> rows affected <span class="token p
 <span class="token operator">|</span> Usage                   <span class="token operator">|</span> Server Admin                          <span class="token operator">|</span> No privileges - allow connect only                    <span class="token operator">|</span>
 +-------------------------+---------------------------------------+-------------------------------------------------------+
 <span class="token number">32</span> rows <span class="token keyword">in</span> <span class="token builtin class-name">set</span> <span class="token punctuation">(</span><span class="token number">0.001</span> sec<span class="token punctuation">)</span></code></pre></div>
-</li>
+<ul>
 <li>
 <p>Para asignar privilegios a un usuario:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">GRANT <span class="token string">"privilegio"</span> ON *.* TO <span class="token string">"nombre_usuario"</span>@<span class="token string">"localhost"</span> identified by <span class="token string">"contraseña"</span><span class="token builtin class-name">.</span></code></pre></div>
