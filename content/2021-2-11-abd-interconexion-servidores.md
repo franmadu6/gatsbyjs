@@ -624,6 +624,8 @@ postgres@postgres2:~$ unzip instantclient-sqlplus-linux.x64-21.1.0.0.0.zip
 postgres@postgres2:~$ unzip instantclient-sdk-linux.x64-21.1.0.0.0.zip
 ```
 
+Despues de descomprimir los 3 archivos se nos creará una carpeta llamada instantclient_21_1.
+
 Estableceremos las nuevas variables de entorno:
 ```shell
 postgres@postgres2:~$  export ORACLE_HOME=/var/lib/postgresql/instantclient_21_1
