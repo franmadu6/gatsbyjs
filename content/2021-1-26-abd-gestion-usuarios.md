@@ -51,12 +51,58 @@ grant grant any role to Becario;
 
 **En Postgres**
 ```shell
-
+#creación de usuario.
+CREATE USER Becario WITH PASSWORD 'Becario';
+#Conectarse a la base de datos.
+GRANT CREATE SESSION TO Becario WITH ADMIN OPTION;
+#Modificar el número de errores en la introducción de la contraseña de cualquier usuario.
+grant create profile to Becario;
+Create profile Limitepasswd LIMIT
+FAILED_LOGIN_ATTEMPTS 5;
+#Ahora le damos al usuario becarios la posibilidad de dar dicho perfil
+grant alter user to Becario;
+#Y ahora este usuario podría dar el perfil a diferentes usuarios
+Alter user {USUARIO} profile Limitepasswd;
+# Modificar índices en cualquier esquema (este privilegio podrá pasarlo a quien quiera)
+alter index fran.PK_CODIGO_COCHES RENAME TO PK_CODIGO_COCHES1;
+# Insertar filas en scott.emp (este privilegio podrá pasarlo a quien quiera)
+grant insert on SCOTT.EMP to Becario with grant option;
+# Crear objetos en cualquier tablespace.
+grant unlimited tablespace to Becario;
+# Gestión completa de usuarios, privilegios y roles.
+#Usuarios
+grant create user to Becario;
+grant alter user to Becario;
+grant drop user to Becario;
+#Privilegios
+grant grant any privilege to Becario;
+#Roles
+grant create role to Becario;
+grant drop any role to Becario;
+grant alter any role to Becario;
+grant grant any role to Becario;
 ```
 
 **En MariaDB**
 ```shell
-
+#creación de usuario.
+Create user Becario identified by Becario;
+#Conectarse a la base de datos.
+GRANT USAGE ON *.* TO 'Becario'@localhost IDENTIFIED BY 'Becario';
+#Modificar el número de errores en la introducción de la contraseña de cualquier usuario.
+log_warnings = 2
+#Ahora le damos al usuario becarios la posibilidad de dar dicho perfil
+grant alter user to Becario witch grant option;
+#Y ahora este usuario podría dar el perfil a diferentes usuarios
+Alter user {USUARIO} profile Limitepasswd;
+# Modificar índices en cualquier esquema (este privilegio podrá pasarlo a quien quiera)
+alter index fran.PK_CODIGO_COCHES RENAME TO PK_CODIGO_COCHES1;
+# Insertar filas en scott.emp (este privilegio podrá pasarlo a quien quiera)
+GRANT insert ON scott.emp.* TO 'Becario'@localhost IDENTIFIED BY "Becario" WITH GRANT OPTION;
+# Crear objetos en cualquier tablespace.
+grant unlimited tablespace to Becario;
+# Gestión completa de usuarios, privilegios y roles.
+GRANT ALL ON bdd.* TO 'Becario'@'localhost';
 ```
 
 **2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.**
