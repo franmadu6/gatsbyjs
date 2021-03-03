@@ -14,7 +14,7 @@ tags:
 
 
 
-### Tarea 1: Vamos a configurar una máquina con la configuración ganadora: nginx + fpm_php (socket unix). Para ello ejecuta la receta ansible que encontraras en este [repositorio](https://github.com/josedom24/ansible_nginx_fpm_php) . Accede al wordpress y termina la configuración del sitio.
+### Tarea 1: Vamos a configurar una máquina con la configuración ganadora: nginx + fpm_php (socket unix). Para ello ejecuta la receta ansible que encontraras en este [repositorio]("https://github.com/josedom24/ansible_nginx_fpm_php") . Accede al wordpress y termina la configuración del sitio.
 
 
 
