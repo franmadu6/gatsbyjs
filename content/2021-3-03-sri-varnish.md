@@ -14,26 +14,33 @@ tags:
 
 
 
-### Tarea 1: Vamos a configurar una máquina con la configuración ganadora: nginx + fpm_php (socket unix). Para ello ejecuta la receta ansible que encontraras en este  <a href="https://github.com/josedom24/ansible&#95;nginx&#95;fpm_php" target="_blank">repositorio</a>. Accede al wordpress y termina la configuración del sitio.
+### Tarea 1: Vamos a configurar una máquina con la configuración ganadora: nginx + fpm_php (socket unix). Para ello ejecuta la receta ansible que encontraras en este  <a href="https://github.com/josedom24/ansible&#95;nginx&#95;fpm&#95;php" target="_blank">repositorio</a>. Accede al wordpress y termina la configuración del sitio.
 
 Instalamos Ansible.
 ```shell
-sudo apt update && sudo apt install ansible
+fran@debian:~$ sudo apt update && sudo apt install ansible
 ```
 
 Clonamos el repositorio:
 ```shell
-~/GitHub$ git clone https://github.com/josedom24/ansible_nginx_fpm_php.git
+fran@debian:~/GitHub$ git clone https://github.com/josedom24/ansible_nginx_fpm_php.git
+Clonando en 'ansible_nginx_fpm_php'...
+remote: Enumerating objects: 40, done.
+remote: Counting objects: 100% (40/40), done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 40 (delta 0), reused 36 (delta 0), pack-reused 0
+Desempaquetando objetos: 100% (40/40), listo.
 ```
 
-Modificamos la ip de la maquina que vamos a configurar
+Modificamos la ip de la maquina para adaptarla a nuestro interfaz.
 ```shell
 ~/GitHub/ansible_nginx_fpm_php$ nano hosts
 
 [servidores_web]
-nodo1 ansible_ssh_host=192.168.1.136 ansible_python_interpreter=/usr/bin/python3
+nodo1 ansible_ssh_host=192.168.2.17 ansible_python_interpreter=/usr/bin/python3
 ```
 
+Iniciamos la receta para crear el escenario.
 ```shell
 ~/GitHub/ansible_nginx_fpm_php$ ansible-playbook site.yaml 
 ```
