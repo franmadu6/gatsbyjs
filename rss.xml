@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 03 Mar 2021 07:59:48 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Circe - Trámites]]></title><description><![CDATA[Indica cuáles son los trámites necesarios para la puesta en marcha de tu empresa. Con esta actividad se propone la creación de un dossier en…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/circe-tramites</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/circe-tramites</guid><category><![CDATA[Circe]]></category><pubDate>Mon, 01 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Indica cuáles son los trámites necesarios para la puesta en marcha de tu empresa.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 03 Mar 2021 11:52:18 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Circe - Trámites]]></title><description><![CDATA[Indica cuáles son los trámites necesarios para la puesta en marcha de tu empresa. Con esta actividad se propone la creación de un dossier en…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/circe-tramites</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/circe-tramites</guid><category><![CDATA[Circe]]></category><pubDate>Mon, 01 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Indica cuáles son los trámites necesarios para la puesta en marcha de tu empresa.&lt;/p&gt;
 &lt;p&gt;Con esta actividad se propone la creación de un dossier en la que se enumeren y detallen los trámites necesarios para la puesta en marcha de vuestra empresa.&lt;/p&gt;
 &lt;p&gt;Además, deben especificar la forma, el lugar o el portal a utilizar. &lt;/p&gt;
 &lt;hr&gt;
@@ -1421,11 +1421,57 @@ grant drop any role to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&
 grant alter any role to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 grant grant any role to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;En Postgres&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#creación de usuario.&lt;/span&gt;
+CREATE &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; Becario WITH PASSWORD &lt;span class=&quot;token string&quot;&gt;&apos;Becario&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Conectarse a la base de datos.&lt;/span&gt;
+GRANT CREATE &lt;span class=&quot;token environment constant&quot;&gt;SESSION&lt;/span&gt; TO Becario WITH ADMIN OPTION&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Modificar el número de errores en la introducción de la contraseña de cualquier usuario.&lt;/span&gt;
+grant create profile to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Create profile Limitepasswd LIMIT
+FAILED_LOGIN_ATTEMPTS &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Ahora le damos al usuario becarios la posibilidad de dar dicho perfil&lt;/span&gt;
+grant alter user to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Y ahora este usuario podría dar el perfil a diferentes usuarios&lt;/span&gt;
+Alter user &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;USUARIO&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; profile Limitepasswd&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Modificar índices en cualquier esquema (este privilegio podrá pasarlo a quien quiera)&lt;/span&gt;
+alter index fran.PK_CODIGO_COCHES RENAME TO PK_CODIGO_COCHES1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Insertar filas en scott.emp (este privilegio podrá pasarlo a quien quiera)&lt;/span&gt;
+grant insert on SCOTT.EMP to Becario with grant option&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Crear objetos en cualquier tablespace.&lt;/span&gt;
+grant unlimited tablespace to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Gestión completa de usuarios, privilegios y roles.&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Usuarios&lt;/span&gt;
+grant create user to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+grant alter user to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+grant drop user to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Privilegios&lt;/span&gt;
+grant grant any privilege to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Roles&lt;/span&gt;
+grant create role to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+grant drop any role to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+grant alter any role to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+grant grant any role to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;En MariaDB&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#creación de usuario.&lt;/span&gt;
+Create user Becario identified by Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Conectarse a la base de datos.&lt;/span&gt;
+GRANT USAGE ON *.* TO &lt;span class=&quot;token string&quot;&gt;&apos;Becario&apos;&lt;/span&gt;@localhost IDENTIFIED BY &lt;span class=&quot;token string&quot;&gt;&apos;Becario&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Modificar el número de errores en la introducción de la contraseña de cualquier usuario.&lt;/span&gt;
+log_warnings &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Ahora le damos al usuario becarios la posibilidad de dar dicho perfil&lt;/span&gt;
+grant alter user to Becario witch grant option&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#Y ahora este usuario podría dar el perfil a diferentes usuarios&lt;/span&gt;
+Alter user &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;USUARIO&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; profile Limitepasswd&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Modificar índices en cualquier esquema (este privilegio podrá pasarlo a quien quiera)&lt;/span&gt;
+alter index fran.PK_CODIGO_COCHES RENAME TO PK_CODIGO_COCHES1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Insertar filas en scott.emp (este privilegio podrá pasarlo a quien quiera)&lt;/span&gt;
+GRANT insert ON scott.emp.* TO &lt;span class=&quot;token string&quot;&gt;&apos;Becario&apos;&lt;/span&gt;@localhost IDENTIFIED BY &lt;span class=&quot;token string&quot;&gt;&quot;Becario&quot;&lt;/span&gt; WITH GRANT OPTION&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Crear objetos en cualquier tablespace.&lt;/span&gt;
+grant unlimited tablespace to Becario&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Gestión completa de usuarios, privilegios y roles.&lt;/span&gt;
+GRANT ALL ON bdd.* TO &lt;span class=&quot;token string&quot;&gt;&apos;Becario&apos;&lt;/span&gt;@&lt;span class=&quot;token string&quot;&gt;&apos;localhost&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create or replace &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; VerificacionPSW &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_usuario varchar2,
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create or replace &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; verifpasswd &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_usuario varchar2,
                                             p_pswnueva varchar2,
                                             p_pswvieja varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; boolean
@@ -1437,7 +1483,7 @@ is
     v_validar number:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 begin
     &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; length&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_pswnueva&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_pswvieja&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-        raise_application_error&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;-20003, &lt;span class=&quot;token string&quot;&gt;&apos;La nueva contraseña no debe tener la misma longitud que la anterior&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        raise_application_error&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;-20003, &lt;span class=&quot;token string&quot;&gt;&apos;La password nueva debe ser de la misma longitud que la anterior.&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_pswnueva&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; loop
         ContarNumerosYLetras&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;substr&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_pswnueva, i,1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, v_numNum, v_numLetra&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -1447,23 +1493,23 @@ begin
         end &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         v_letraigual:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
     end loop&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    v_validar:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;LanzarErrores&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;v_sumaRepe, v_numNum, v_numLetra&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    v_validar:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;errores&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;v_sumaRepe, v_numNum, v_numLetra&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; TRUE&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-end VerificacionPSW&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+end verifpasswd&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /
 
-create or replace &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; LanzarErrores&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_sumaRepe number, 
+create or replace &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; errores&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_sumaRepe number, 
                                          p_numNum number, p_numLetra number&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; number
 is
 begin
     &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt;
         when p_sumaRepe&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
-            raise_application_error&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;-20002, &lt;span class=&quot;token string&quot;&gt;&apos;La nueva contraseña debe tener al menos 5 caracteres diferentes con respecto a la antigua&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            raise_application_error&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;-20002, &lt;span class=&quot;token string&quot;&gt;&apos;La password nueva debe ser diferente en 5 carácteres respecto a la anterior&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
             &lt;span class=&quot;token builtin class-name&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     end &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;          
-end LanzarErrores&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+end errores&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /
 
 
@@ -1494,16 +1540,14 @@ begin
 end ContarNumerosYLetras&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 /&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Creación de perfil.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create profile PswSegura limit 
-    PASSWORD_VERIFY_FUNCTION VerificacionPSW&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create profile CONTRASENASEGURA limit 
+    PASSWORD_VERIFY_FUNCTION verifpasswd&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-drop profile PswSegura&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+drop profile CONTRASENASEGURA&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Asignación de usuario.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;alter user pruebapasswd profile PswSegura&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;alter user pruebapasswd profile CONTRASENASEGURA&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;3. Realiza un procedimiento llamado MostrarPrivilegiosdelRol que reciba el nombre de un rol y muestre los privilegios de sistema y los privilegios sobre objetos que lo componen.&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;exec&lt;/span&gt; MostrarPrivileciosdelRol &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Dsvret&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-
-create or replace procedure MostrarPrivileciosdelRol &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create or replace procedure MostrarPrivileciosdelRol &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p_rol varchar2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 is
     v_validacion number:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 begin
