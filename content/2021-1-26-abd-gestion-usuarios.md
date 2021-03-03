@@ -61,7 +61,7 @@ grant grant any role to Becario;
 
 **2. Realiza una función de verificación de contraseñas que compruebe que la contraseña difiere en más de cinco caracteres de la anterior y que la longitud de la misma es diferente de la anterior. Asígnala al perfil CONTRASEÑASEGURA. Comprueba que funciona correctamente.**
 ```shell
-create or replace function VerificacionPSW (p_usuario varchar2,
+create or replace function verifpasswd (p_usuario varchar2,
                                             p_pswnueva varchar2,
                                             p_pswvieja varchar2)
 return boolean
@@ -73,7 +73,7 @@ is
     v_validar number:=0;
 begin
     if length(p_pswnueva)=length(p_pswvieja) then
-        raise_application_error(-20003, 'La nueva contraseña no debe tener la misma longitud que la anterior');
+        raise_application_error(-20003, 'La password nueva debe ser de la misma longitud que la anterior.');
     end if;
     for i in 1..length(p_pswnueva) loop
         ContarNumerosYLetras(substr(p_pswnueva, i,1), v_numNum, v_numLetra);
@@ -83,23 +83,23 @@ begin
         end if;
         v_letraigual:=0; 
     end loop;
-    v_validar:=LanzarErrores(v_sumaRepe, v_numNum, v_numLetra);
+    v_validar:=errores(v_sumaRepe, v_numNum, v_numLetra);
     return TRUE;
-end VerificacionPSW;
+end verifpasswd;
 /
 
-create or replace function LanzarErrores(p_sumaRepe number, 
+create or replace function errores(p_sumaRepe number, 
                                          p_numNum number, p_numLetra number)
 return number
 is
 begin
     case
         when p_sumaRepe<6 then
-            raise_application_error(-20002, 'La nueva contraseña debe tener al menos 5 caracteres diferentes con respecto a la antigua');
+            raise_application_error(-20002, 'La password nueva debe ser diferente en 5 carácteres respecto a la anterior');
         else
             return 1;
     end case;          
-end LanzarErrores;
+end errores;
 /
 
 
@@ -133,21 +133,19 @@ end ContarNumerosYLetras;
 
 Creación de perfil.
 ```shell
-create profile PswSegura limit 
-    PASSWORD_VERIFY_FUNCTION VerificacionPSW;
+create profile CONTRASENASEGURA limit 
+    PASSWORD_VERIFY_FUNCTION verifpasswd;
 
-drop profile PswSegura;
+drop profile CONTRASENASEGURA;
 ```
 
 Asignación de usuario.
 ```shell
-alter user pruebapasswd profile PswSegura;
+alter user pruebapasswd profile CONTRASENASEGURA;
 ```
 
 **3. Realiza un procedimiento llamado MostrarPrivilegiosdelRol que reciba el nombre de un rol y muestre los privilegios de sistema y los privilegios sobre objetos que lo componen.**
 ```shell
-exec MostrarPrivileciosdelRol ('Dsvret')
-
 create or replace procedure MostrarPrivileciosdelRol (p_rol varchar2)
 is
     v_validacion number:=0;
