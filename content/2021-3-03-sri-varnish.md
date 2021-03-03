@@ -14,10 +14,29 @@ tags:
 
 
 
-### Tarea 1: Vamos a configurar una máquina con la configuración ganadora: nginx + fpm_php (socket unix). Para ello ejecuta la receta ansible que encontraras en este  <a href="https://github.com/josedom24/ansible_nginx_fpm_php" target="_blank">repositorio</a>. Accede al wordpress y termina la configuración del sitio.
+### Tarea 1: Vamos a configurar una máquina con la configuración ganadora: nginx + fpm_php (socket unix). Para ello ejecuta la receta ansible que encontraras en este  <a href="https://github.com/josedom24/ansible&#95;nginx&#95;fpm_php" target="_blank">repositorio</a>. Accede al wordpress y termina la configuración del sitio.
 
+Instalamos Ansible.
+```shell
+sudo apt update && sudo apt install ansible
+```
 
+Clonamos el repositorio:
+```shell
+~/GitHub$ git clone https://github.com/josedom24/ansible_nginx_fpm_php.git
+```
 
+Modificamos la ip de la maquina que vamos a configurar
+```shell
+~/GitHub/ansible_nginx_fpm_php$ nano hosts
+
+[servidores_web]
+nodo1 ansible_ssh_host=192.168.1.136 ansible_python_interpreter=/usr/bin/python3
+```
+
+```shell
+~/GitHub/ansible_nginx_fpm_php$ ansible-playbook site.yaml 
+```
 
 ### Tarea 2: Vamos a hacer las pruebas de rendimiento desde la misma máquina, es decir vamos a ejecutar instrucciones similares a esta:
 
