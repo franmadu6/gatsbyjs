@@ -106,6 +106,6 @@ El Calendario Laboral es el calendario en el que se establecen anualmente los d�
 
 Es un instrumento de naturaleza elec-trónica que se utiliza para la realización de los trámites de constitución y puesta en marcha de empresas mediante un sistema de tramitación telemática.
 
-[Página para realizar el DUE.](https://paeelectronico.es/es-es/Servicios/Paginas/Creacion-y-cese-de-empresas.aspx)
+<a href="https://paeelectronico.es/es-es/Servicios/Paginas/Creacion-y-cese-de-empresas.aspx" target="_blank">Página para realizar el DUE.</a>
 
 
