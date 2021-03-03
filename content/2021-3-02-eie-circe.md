@@ -92,3 +92,20 @@ Como mi empresa consta desde el inicio de un **trabajador** sera necesario los s
 * Comunicación de apertura del centro de trabajo.
 * Alta de los contratos de trabajo.
 
+### **Consejeriía de trabajo de la CCAA.**
+
+* Calendario laboral: Inspección Provincial de Trabajo.
+
+El Calendario Laboral es el calendario en el que se establecen anualmente los días de trabajo y los días festivos, así como los períodos de vacaciones anuales, ya sean de verano, Navidad o Semana Santa.
+
+<hr>
+
+### **Telematíca.**
+
+* El Documento Único Electrónico (DUE).
+
+Es un instrumento de naturaleza elec-trónica que se utiliza para la realización de los trámites de constitución y puesta en marcha de empresas mediante un sistema de tramitación telemática.
+
+[Página para realizar el DUE.](https://paeelectronico.es/es-es/Servicios/Paginas/Creacion-y-cese-de-empresas.aspx)
+
+
