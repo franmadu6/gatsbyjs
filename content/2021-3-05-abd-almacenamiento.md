@@ -70,9 +70,68 @@ Lidia y Jaime dejan la empresa, borra los usuarios y el espacio de tablas corres
 
 7. Averigua si es posible establecer cuotas de uso sobre los tablespaces en Postgres.
 
+Postgres no posee la opción de administrar coutas, pero se puede asignar una cuota maxima de tamaño a un usuario en la partición dende se aloje el tablespace.
+
+Pasos a seguir:  
+
+Instalaremos el paquete **quota**, para crear e inspeccionar cuotas de disco, luego estableceremos una cuota para un usuario de ejemplo.
+```shell
+vagrant@postgres1:~$ sudo apt install quota
+```
+
+Nos dirigimos al fichero de fstab y lo modificamos:
+```shell
+vagrant@postgres1:~$ sudo nano /etc/fstab 
+UUID=188b6cad-67aa-44fb-8156-1623a3d00e61 /               ext4    errors=remount-ro,usrquota,grpquota 0       1
+```
+
+Montamos una partición.
+```shell
+vagrant@postgres1:~$ sudo mount -o remount /
+```
+
+Podemos verificar que las nuevas opciones se usaron para montar el sistema de archivos mirando el /proc/mountsarchivo. Aquí, usamos grep para mostrar solo la entrada del sistema de archivos raíz en ese archivo:
+```shell
+vagrant@postgres1:~$ cat /proc/mounts | grep ' / '
+/dev/sda3 / ext4 rw,relatime,quota,usrquota,grpquota,errors=remount-ro 0 0
+```
+
+Habilitamos las cuotas.
+```shell
+vagrant@postgres1:~$ sudo quotacheck -ugm /
+```
+
+Activamos el sistema de cuotas:
+```shell
+vagrant@postgres1:~$ sudo quotaon -v /
+/dev/sda3 [/]: group quotas turned on
+/dev/sda3 [/]: user quotas turned on
+```
+
+Ahora podremos modificar las cuotas de los usuarios.
+```shell
+vagrant@postgres1:~$ sudo edquota -u vagrant
+
+  GNU nano 3.2                                      /tmp//EdP.alRTXmK                                                 
+
+Disk quotas for user vagrant (uid 1000):
+  Filesystem                   blocks       soft       hard     inodes     soft     hard
+  /dev/sda3                        52          0          0         13        0        0
+
+```
+
 ## MySQL:
 
 8. Averigua si existe el concepto de extensión en MySQL y si coincide con el existente en ORACLE.
+
+
+
+### Segmentos, Extensiones y Bloques en Oracle.
+
+Los segmentos son los equivalentes físicos de los objetos que almacenan datos. El uso efectivo de los segmentos requiere que el DBA conozca los objetos que utiliza una aplicación, cómo los datos son introducidos en esos objetos y el modo en que serán recuperados.
+
+Como los segmentos son entidades físicas, deben estar asignados a espacios de tablas en la BD y estarán localizados en uno de los ficheros de datos del espacio de tablas. Un segmento está constituido por secciones llamadas extensiones, que son conjuntos contiguos de bloques Oracle. Una vez que una extensión existente en un segmento no puede almacenar más datos, el segmento obtendrá del espacio de tabla otra extensión. Este proceso de extensión continuará hasta que no quede más espacio disponible en los ficheros del espacio de tablas, o hasta que se alcance un número máximo de extensiónes por segmento.
+
 
 ## MongoDB:
 
