@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 09 Mar 2021 09:31:33 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] - Práctica 6 Almacenamiento]]></title><description><![CDATA[ORACLE: Muestra los objetos a los que pertenecen las extensiones del tablespace TS2 (creado por tí) y el tamaño de cada una de ellas.…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-6-almacenamiento</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-6-almacenamiento</guid><category><![CDATA[Almacenamiento]]></category><pubDate>Thu, 04 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Almacenamiento base de datos&quot; src=&quot;https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/database-t.jpg&quot;&gt;&lt;/center&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 09 Mar 2021 12:00:13 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] - Práctica 6 Almacenamiento]]></title><description><![CDATA[ORACLE: Muestra los objetos a los que pertenecen las extensiones del tablespace TS2 (creado por tí) y el tamaño de cada una de ellas.…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-6-almacenamiento</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-6-almacenamiento</guid><category><![CDATA[Almacenamiento]]></category><pubDate>Thu, 04 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Almacenamiento base de datos&quot; src=&quot;https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/database-t.jpg&quot;&gt;&lt;/center&gt;
 &lt;h2 id=&quot;oracle&quot;&gt;&lt;a href=&quot;#oracle&quot; aria-label=&quot;oracle permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ORACLE:&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Muestra los objetos a los que pertenecen las extensiones del tablespace TS2 (creado por tí) y el tamaño de cada una de ellas. Tendrás que crear objetos en él previamente, claro.&lt;/li&gt;
@@ -140,9 +140,148 @@ TABLESPACE_NAME
 ------------------------------
 /home/oracle/actividad3/ts3.dbf
 TS3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Creamos nuevas tablas y registros en TS3:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create table coches&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  codigo varchar&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;,
+  marca varchar&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;,
+  modelo varchar&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; tablespace TS3&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+insert into coches values &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;01&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Ferrari&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Testarrosa&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+insert into coches values &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;02&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Seat&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Panda&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+insert into coches values &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;03&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Opel&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Corsa&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+insert into coches values &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;04&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Seat&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Ateca&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+insert into coches values &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;05&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Renault&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Clio&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+create table cicuitos&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  codigo varchar&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;,
+  nombre varchar&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;,
+  pais varchar&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; tablespace TS3&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+insert into cicuitos values &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;01&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Silverstone&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Reino Unido&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+insert into cicuitos values &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;02&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Mónaco&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Mónaco&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+insert into cicuitos values &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;03&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Interlagos&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Brasil&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+insert into cicuitos values &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;04&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Nürburgring&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Alemania&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+insert into cicuitos values &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;05&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Monza&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Italia&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Comprobamos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; de.segment_name,de.extent_id,df.file_name,de.file_id
+  &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;  from dba_data_files  df, dba_extents de
+  &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;  where de.file_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; df.file_id
+  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;  and de.tablespace_name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;TS3&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;      
+
+SEGMENT_NAME
+--------------------------------------------------------------------------------
+ EXTENT_ID
+----------
+FILE_NAME
+--------------------------------------------------------------------------------
+   FILE_ID
+----------
+COCHES
+	 &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+/home/oracle/actividad3/ts3.dbf
+	 &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;
+
+
+SEGMENT_NAME
+--------------------------------------------------------------------------------
+ EXTENT_ID
+----------
+FILE_NAME
+--------------------------------------------------------------------------------
+   FILE_ID
+----------
+CICUITOS
+	 &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+/home/oracle/actividad3/ts3.dbf
+	 &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;Redimensiona los ficheros asociados a los tres tablespaces que has creado de forma que ocupen el mínimo espacio posible para alojar sus objetos.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Comprobamos el espacio de almacenamiento de nuestros tablespaces:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; sum&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bytes&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;/1024&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;KB&apos;&lt;/span&gt;, tablespace_name
+  &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;  from dba_segments
+  &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;  where tablespace_name like &lt;span class=&quot;token string&quot;&gt;&apos;TS%&apos;&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;  group by tablespace_name&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+SUM&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;BYTES&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;/1024&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;KB&apos;&lt;/span&gt;			   TABLESPACE_NAME
+------------------------------------------ ------------------------------
+384KB					   TS2
+256KB					   TS3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Redimensionaremos los ficheros y comprobaremos el espacio que ocupan.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; alter database datafile &lt;span class=&quot;token string&quot;&gt;&apos;/home/oracle/ts2.dbf&apos;&lt;/span&gt; resize 1M&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+Database altered.
+
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; alter database datafile &lt;span class=&quot;token string&quot;&gt;&apos;/home/oracle/actividad3/ts3.dbf&apos;&lt;/span&gt; resize 20M&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;     
+
+Database altered.
+
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; sum&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bytes&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;/1024&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;KB&apos;&lt;/span&gt;, tablespace_name
+  &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;  from dba_segments
+  &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;  where tablespace_name like &lt;span class=&quot;token string&quot;&gt;&apos;TS%&apos;&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;  group by tablespace_name&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+SUM&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;BYTES&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;/1024&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;KB&apos;&lt;/span&gt;			   TABLESPACE_NAME
+------------------------------------------ ------------------------------
+384KB					   TS2
+256KB					   TS3
+
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; file_name,tablespace_name,&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bytes/1024&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;KB&apos;&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;  from dba_data_files
+  &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;  where tablespace_name like &lt;span class=&quot;token string&quot;&gt;&apos;TS%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+FILE_NAME
+--------------------------------------------------------------------------------
+TABLESPACE_NAME 	       &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;BYTES/1024&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;KB&apos;&lt;/span&gt;
+------------------------------ ------------------------------------------
+/home/oracle/ts2.dbf
+TS2			       1024KB
+
+/home/oracle/prueba.dbf
+TS2			       10240KB
+
+/home/oracle/actividad3/ts3.dbf
+TS3			       20480KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;5&quot;&gt;
 &lt;li&gt;Crea una secuencia para rellenar el campo deptno de la tabla dept de forma coherente con los datos ya existentes.  Inserta al menos dos registros haciendo uso de la secuencia.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Creare una secuencia que incremente el codigo en 100 empezando desdel numero 5 y llegue hasta 500 y no se repita.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create sequence secuenciaDeptno
+  start with &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;
+  increment by &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;
+  maxvalue &lt;span class=&quot;token number&quot;&gt;500&lt;/span&gt;
+  nocycle&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+insert into scott.dept&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;DEPTNO&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; values &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;secuenciaDeptno.nextval&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+insert into scott.dept&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;DEPTNO&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; values &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;secuenciaDeptno.nextval&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; from scott.dept&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+DEPTNO
+--------------------------------------------------
+DNAME
+--------------------------------------------------
+LOC
+--------------------------------------------------
+&lt;span class=&quot;token number&quot;&gt;150&lt;/span&gt;
+
+
+&lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;
+
+
+&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;
+ACCOUNTING
+NEW YORK
+
+&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;
+RESEARCH
+DALLAS
+
+&lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;
+SALES
+CHICAGO&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;6&quot;&gt;
 &lt;li&gt;Resuelve el siguiente caso práctico en &lt;strong&gt;ORACLE&lt;/strong&gt;:
 &lt;/li&gt;
 &lt;/ol&gt;
