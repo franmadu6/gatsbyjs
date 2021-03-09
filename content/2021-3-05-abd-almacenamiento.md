@@ -58,31 +58,132 @@ insert into pruebats2 (MT_CLAVE,MT_DESCRIPCION) values ('653','clave prueba2');
 insert into pruebats2 (MT_CLAVE,MT_DESCRIPCION) values ('178','clave prueba3');
 ```
 
-Comprobaremos el espacio que ocupa nuestro tablespace en este momento.
+Comprobaremos el espacio libre ocupa nuestro tablespace en este momento.
 ```shell
-SQL> select OWNER, SEGMENT_NAME, SEGMENT_TYPE, TABLESPACE_NAME,BYTES
-  2  from dba_extents
-  3  where tablespace_name='TS2';
+SQL> SELECT TABLESPACE_NAME,TO_CHAR(SUM(NVL(BYTES,0))/1024/1024, '99,999,990.99') AS "FREE SPACE(IN MB)"
+  2  FROM USER_FREE_SPACE 
+  3  GROUP BY TABLESPACE_NAME;
 
-OWNER
---------------------------------------------------------------------------------
-SEGMENT_NAME
---------------------------------------------------------------------------------
-SEGMENT_TYPE	   TABLESPACE_NAME		       BYTES
------------------- ------------------------------ ----------
-SYS
-PRUEBATS2
-TABLE		   TS2				       65536
+TABLESPACE_NAME 	       FREE SPACE(IN
+------------------------------ --------------
+SYSAUX					28.25
+UNDOTBS1				29.31
+TS2					 1.06
+USERS					 3.94
+SYSTEM					 8.81
 ```
-
 
 2. Borra la tabla que está llenando TS2 consiguiendo que vuelvan a existir extensiones libres. Añade después otro fichero de datos a TS2.
 
+Borramos la tabla anteriormente creada y verificamos el espacio de almacenamiento de nuestro tablespace.
+```shell
+SQL> drop table pruebats2;
 
+Table dropped.
 
+SQL> SELECT TABLESPACE_NAME,TO_CHAR(SUM(NVL(BYTES,0))/1024/1024, '99,999,990.99') AS "FREE SPACE(IN MB)"
+  2  FROM USER_FREE_SPACE
+  3  GROUP BY TABLESPACE_NAME;
 
+TABLESPACE_NAME 	       FREE SPACE(IN
+------------------------------ --------------
+SYSAUX					28.25
+UNDOTBS1				29.31
+TS2					 1.13
+USERS					 3.94
+SYSTEM					 8.81
+```
+
+Para empezar visualizaremos los ficheros que estamos usando:
+```shell
+SQL> select substr(name, 1, 255)
+from v$datafile;
+
+SUBSTR(NAME,1,255)
+--------------------------------------------------------------------------------
+/opt/oracle/oradata/ORCL/system01.dbf
+/opt/oracle/oradata/ORCL/sysaux01.dbf
+/opt/oracle/oradata/ORCL/undotbs01.dbf
+/home/oracle/ts2.dbf
+/opt/oracle/oradata/ORCL/users01.dbf
+```
+
+Añadiremos un nuevo fichero y comprobamos que se ha añadido a nuestro tablespace.
+```shell
+SQL> alter tablespace TS2 add datafile '/home/oracle/prueba.dbf' size 10M;
+
+Tablespace altered.
+
+SQL> select file_name,tablespace_name
+  2  from dba_data_files
+  3  where tablespace_name='TS2';
+
+FILE_NAME
+--------------------------------------------------------------------------------
+TABLESPACE_NAME
+------------------------------
+/home/oracle/ts2.dbf
+TS2
+
+/home/oracle/prueba.dbf
+TS2
+```
 
 3. Crea el tablespace TS3 gestionado localmente con un tamaño de extension uniforme de 128K y un fichero de datos asociado. Cambia la ubicación del fichero de datos y modifica la base de datos para que pueda acceder al mismo. Crea en TS3 dos tablas e inserta registros en las mismas. Comprueba que segmentos tiene TS3, qué extensiones tiene cada uno de ellos y en qué ficheros se encuentran.
+
+Crearemos el nuevo tablespace TS3, que tendra un fichero añadido y una extension uniforme de 128K.
+```shell
+SQL> CREATE TABLESPACE TS3 DATAFILE '/home/oracle/ts3.dbf' SIZE 50M EXTENT MANAGEMENT LOCAL UNIFORM SIZE 128K;
+
+Tablespace created.
+
+SQL> select file_name,tablespace_name
+  2  from dba_data_files
+  3  where tablespace_name='TS3';
+
+FILE_NAME
+--------------------------------------------------------------------------------
+TABLESPACE_NAME
+------------------------------
+/home/oracle/ts3.dbf
+TS3
+```
+
+Para modificar los archivos dentro de un tablespace indicado, primero deberemos apagarlo.
+```shell
+SQL> ALTER TABLESPACE TS3 OFFLINE ;
+
+Tablespace altered.
+```
+
+Ahora procederemos a las modificacion de la ubicación del fichero.
+```shell
+[oracle@oracle1 ~]$ ls
+actividad3  drop.sql  prueba.dbf  setPassword.sh  ts2.dbf  ts3.dbf
+[oracle@oracle1 ~]$ mv ts3.dbf actividad3/
+
+SQL> alter tablespace TS3 rename datafile '/home/oracle/ts3.dbf' to '/home/oracle/actividad3/ts3.dbf';
+
+Tablespace altered.
+```
+
+Activamos el tablespace y comprobamos la nueva configuración.
+```shell
+SQL> ALTER TABLESPACE TS3 ONLINE;
+
+Tablespace altered.
+
+SQL> select file_name,tablespace_name
+  2  from dba_data_files
+  3  where tablespace_name='TS3';
+
+FILE_NAME
+--------------------------------------------------------------------------------
+TABLESPACE_NAME
+------------------------------
+/home/oracle/actividad3/ts3.dbf
+TS3
+```
 
 
 
