@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 09 Mar 2021 12:00:13 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] - Práctica 6 Almacenamiento]]></title><description><![CDATA[ORACLE: Muestra los objetos a los que pertenecen las extensiones del tablespace TS2 (creado por tí) y el tamaño de cada una de ellas.…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-6-almacenamiento</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-6-almacenamiento</guid><category><![CDATA[Almacenamiento]]></category><pubDate>Thu, 04 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Almacenamiento base de datos&quot; src=&quot;https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/database-t.jpg&quot;&gt;&lt;/center&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 09 Mar 2021 12:14:00 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] - Práctica 6 Almacenamiento]]></title><description><![CDATA[ORACLE: Muestra los objetos a los que pertenecen las extensiones del tablespace TS2 (creado por tí) y el tamaño de cada una de ellas.…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-6-almacenamiento</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-6-almacenamiento</guid><category><![CDATA[Almacenamiento]]></category><pubDate>Thu, 04 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Almacenamiento base de datos&quot; src=&quot;https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/database-t.jpg&quot;&gt;&lt;/center&gt;
 &lt;h2 id=&quot;oracle&quot;&gt;&lt;a href=&quot;#oracle&quot; aria-label=&quot;oracle permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ORACLE:&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Muestra los objetos a los que pertenecen las extensiones del tablespace TS2 (creado por tí) y el tamaño de cada una de ellas. Tendrás que crear objetos en él previamente, claro.&lt;/li&gt;
@@ -247,15 +247,15 @@ TS3			       20480KB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;5&quot;&gt;
 &lt;li&gt;Crea una secuencia para rellenar el campo deptno de la tabla dept de forma coherente con los datos ya existentes.  Inserta al menos dos registros haciendo uso de la secuencia.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Creare una secuencia que incremente el codigo en 100 empezando desdel numero 5 y llegue hasta 500 y no se repita.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;create sequence secuenciaDeptno
-  start with &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;
-  increment by &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;
-  maxvalue &lt;span class=&quot;token number&quot;&gt;500&lt;/span&gt;
-  nocycle&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;p&gt;Creare una secuencia que incremente el codigo en 100 empezando desd el numero 50 y llegue hasta 500 y no se repita.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; create sequence secuenciaDeptno
+      start with &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;
+     increment by &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;
+      maxvalue &lt;span class=&quot;token number&quot;&gt;500&lt;/span&gt;
+      nocycle&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-insert into scott.dept&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;DEPTNO&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; values &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;secuenciaDeptno.nextval&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-insert into scott.dept&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;DEPTNO&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; values &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;secuenciaDeptno.nextval&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; insert into scott.dept&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;DEPTNO&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; values &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;secuenciaDeptno.nextval&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; insert into scott.dept&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;DEPTNO&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; values &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;secuenciaDeptno.nextval&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; from scott.dept&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
 DEPTNO
@@ -280,7 +280,11 @@ DALLAS
 
 &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;
 SALES
-CHICAGO&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+CHICAGO
+
+&lt;span class=&quot;token number&quot;&gt;40&lt;/span&gt;
+OPERATIONS
+MADRID&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;6&quot;&gt;
 &lt;li&gt;Resuelve el siguiente caso práctico en &lt;strong&gt;ORACLE&lt;/strong&gt;:
 &lt;/li&gt;
@@ -292,11 +296,65 @@ Juan y Clara son los programadores de la base de datos, que trabajan tanto en la
 Ana y Eva tienen permisos para insertar, modificar y borrar registros en las tablas de la aplicación de Ventas que tienes que crear, y se llaman Productos y Ventas, siendo propiedad de Ana.
 Jaime y Lidia pueden leer la información de esas tablas pero no pueden modificar la información.
 Crea los usuarios y dale los roles y permisos que creas conveniente.  &lt;/p&gt;
+&lt;p&gt;Usuarios y permisos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;CREATE &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; Pepe identified by Pepe&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT dba to Pepe&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+CREATE &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; Juan identified by Juan&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+CREATE &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; Clara identified by Clara&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT resource to Juan&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT resource to Clara&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+CREATE &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; Ana identified by Ana&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+CREATE &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; Eva identified by Eva&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; on Ana.Ventas to Eva&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT insert on Ana.Ventas to Eva&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT update on Ana.Ventas to Eva&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT delete on Ana.Ventas to Eva&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; on Ana.Productos to Eva&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT insert on Ana.Productos to Eva&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT update on Ana.Productos to Eva&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT delete on Ana.Productos to Eva&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+CREATE &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; Jaime identified by Jaime&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+CREATE &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; Lidia identified by Lidia&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; on Ana.Ventas to Jaime&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; on Ana.Ventas to Lidia&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; on Ana.Productos to Jaime&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; on Ana.Productos to Lidia&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Roles:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#Producción&lt;/span&gt;
+CREATE ROLE Produccion&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; on Ana.Ventas to Produccion&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; on Ana.Productos to Produccion&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+GRANT Produccion to Lidia&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT Produccion to Jaime&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;#Ventas&lt;/span&gt;
+CREATE ROLE Ventas&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT select, insert, update, delete on Ana.Ventas to Ventas&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT select, insert, update, delete on Ana.Productos to Ventas&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+GRANT Ventas to Eva&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;b)
 Los espacios de tablas son System, Producción (ficheros prod1.dbf y prod2.dbf) y Ventas (fichero vent.dbf).
 Los programadores del departamento de Informática pueden crear objetos en cualquier tablespace de la base de datos, excepto en System.
 Los demás usuarios solo podrán crear objetos en su tablespace correspondiente teniendo un límite de espacio de 30 M los del departamento de Ventas y 100K los del de Producción.
 Pepe tiene cuota ilimitada en todos los espacios, aunque el suyo por defecto es System.&lt;/p&gt;
+&lt;p&gt;Tablespace de System, Producción y Ventas:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;CREATE TABLESPACE ts_produccion
+DATAFILE &lt;span class=&quot;token string&quot;&gt;&apos;prod1.dbf&apos;&lt;/span&gt; SIZE 100M,
+&lt;span class=&quot;token string&quot;&gt;&apos;prod2.dbf&apos;&lt;/span&gt; SIZE 100M AUTOEXTEND ON&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+CREATE TABLESPACE ts_venta
+DATAFILE &lt;span class=&quot;token string&quot;&gt;&apos;vent.dbf&apos;&lt;/span&gt;
+SIZE 100M AUTOEXTEND ON&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Cuotas para los usuarios:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ALTER &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; ANA QUOTA 30M ON ts_venta&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+ALTER &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; EVA QUOTA 30M ON ts_venta&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+ALTER &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; JAIME QUOTA 100K ON ts_produccion&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+ALTER &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; LIDIA QUOTA 100K ON ts_produccion&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modificación &lt;/p&gt;
 &lt;p&gt;c)
 Pepe quiere crear una tabla Prueba que ocupe inicialmente 256K en el tablespace Ventas.&lt;/p&gt;
 &lt;p&gt;d)
