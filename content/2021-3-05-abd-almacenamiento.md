@@ -427,23 +427,56 @@ ALTER USER JAIME QUOTA 100K ON ts_produccion;
 ALTER USER LIDIA QUOTA 100K ON ts_produccion;
 ```
 
-Modificacion
+Modificación del tablespace de pepe:
+```shell
+ALTER USER Pepe DEFAULT TABLESPACE SYSTEM;
+GRANT UNLIMITED TABLESPACE TO Pepe;
+```
 
+Revocamos los privilegios de creación de objetos alos usuarios del tablespace.
+```shell
+GRANT UNLIMITED TABLESPACE TO JUAN;
+GRANT UNLIMITED TABLESPACE TO CLARA;
+ALTER USER JUAN QUOTA 0 ON SYSTEM;
+ALTER USER CLARA QUOTA 0 ON SYSTEM;
+```
 
 c)	
 Pepe quiere crear una tabla Prueba que ocupe inicialmente 256K en el tablespace Ventas.
 
-
+```shell
+CREATE TABLE PEPE.PRUEBA (
+Codigo    VARCHAR2(5),
+Nombre    VARCHAR2(30),
+CONSTRAINT pk_codigo PRIMARY KEY(Codigo),
+TABLESPACE Ventas,
+STORAGE ( INITIAL 256K)
+);
+```
 
 d)
 Pepe decide que los programadores tengan acceso a la tabla Prueba antes creada y puedan ceder ese derecho y el de conectarse a la base de datos a los usuarios que ellos quieran.
 
-
+```shell
+GRANT SELECT ON PEPE.PRUEBA TO Juan WITH GRANT OPTION;
+GRANT SELECT ON PEPE.PRUEBA TO Clara WITH GRANT OPTION;
+GRANT CONNECT TO Clara WITH ADMIN OPTION;
+GRANT CONNECT TO Juan WITH ADMIN OPTION;
+```
 
 e)
 Lidia y Jaime dejan la empresa, borra los usuarios y el espacio de tablas correspondiente, detalla los pasos necesarios para que no quede rastro del espacio de tablas.
        
+Borramos los usuarios, añadimos cascade para borrar todo el rastro dejado en otras tablas.
+```shell
+DROP USER LIDIA cascade;
+DROP USER JAIME cascade;
+```
 
+Para borrar todo lo incluido en el tablespace
+```shell
+drop tablespace ts_produccion including contents and datafiles;
+```
 
 ## Postgres:
 
