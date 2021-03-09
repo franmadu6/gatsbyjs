@@ -303,16 +303,16 @@ TS3			       20480KB
 
 5. Crea una secuencia para rellenar el campo deptno de la tabla dept de forma coherente con los datos ya existentes.  Inserta al menos dos registros haciendo uso de la secuencia.
 
-Creare una secuencia que incremente el codigo en 100 empezando desdel numero 5 y llegue hasta 500 y no se repita.
+Creare una secuencia que incremente el codigo en 100 empezando desd el numero 50 y llegue hasta 500 y no se repita.
 ```shell
-create sequence secuenciaDeptno
-  start with 50
-  increment by 100
-  maxvalue 500
-  nocycle;
+SQL> create sequence secuenciaDeptno
+      start with 50
+     increment by 100
+      maxvalue 500
+      nocycle;
 
-insert into scott.dept<DEPTNO> values <secuenciaDeptno.nextval>;
-insert into scott.dept<DEPTNO> values <secuenciaDeptno.nextval>;
+SQL> insert into scott.dept<DEPTNO> values <secuenciaDeptno.nextval>;
+SQL> insert into scott.dept<DEPTNO> values <secuenciaDeptno.nextval>;
 SQL> select from scott.dept;
 
 DEPTNO
@@ -338,6 +338,10 @@ DALLAS
 30
 SALES
 CHICAGO
+
+40
+OPERATIONS
+MADRID
 ```
 
 
@@ -352,12 +356,78 @@ Ana y Eva tienen permisos para insertar, modificar y borrar registros en las tab
 Jaime y Lidia pueden leer la información de esas tablas pero no pueden modificar la información.
 Crea los usuarios y dale los roles y permisos que creas conveniente.  
 
+Usuarios y permisos:
+```shell
+CREATE USER Pepe identified by Pepe;
+GRANT dba to Pepe;
+
+CREATE USER Juan identified by Juan;
+CREATE USER Clara identified by Clara;
+GRANT resource to Juan;
+GRANT resource to Clara;
+
+CREATE USER Ana identified by Ana;
+CREATE USER Eva identified by Eva;
+GRANT select on Ana.Ventas to Eva;
+GRANT insert on Ana.Ventas to Eva;
+GRANT update on Ana.Ventas to Eva;
+GRANT delete on Ana.Ventas to Eva;
+GRANT select on Ana.Productos to Eva;
+GRANT insert on Ana.Productos to Eva;
+GRANT update on Ana.Productos to Eva;
+GRANT delete on Ana.Productos to Eva;
+
+CREATE USER Jaime identified by Jaime;
+CREATE USER Lidia identified by Lidia;
+GRANT select on Ana.Ventas to Jaime;
+GRANT select on Ana.Ventas to Lidia;
+GRANT select on Ana.Productos to Jaime;
+GRANT select on Ana.Productos to Lidia;
+```
+
+Roles:
+```shell
+#Producción
+CREATE ROLE Produccion;
+GRANT select on Ana.Ventas to Produccion;
+GRANT select on Ana.Productos to Produccion;
+
+GRANT Produccion to Lidia;
+GRANT Produccion to Jaime;
+
+#Ventas
+CREATE ROLE Ventas;
+GRANT select, insert, update, delete on Ana.Ventas to Ventas;
+GRANT select, insert, update, delete on Ana.Productos to Ventas;
+GRANT Ventas to Eva;
+```
 
 b)
 Los espacios de tablas son System, Producción (ficheros prod1.dbf y prod2.dbf) y Ventas (fichero vent.dbf).
 Los programadores del departamento de Informática pueden crear objetos en cualquier tablespace de la base de datos, excepto en System.
 Los demás usuarios solo podrán crear objetos en su tablespace correspondiente teniendo un límite de espacio de 30 M los del departamento de Ventas y 100K los del de Producción.
 Pepe tiene cuota ilimitada en todos los espacios, aunque el suyo por defecto es System.
+
+Tablespace de System, Producción y Ventas:
+```shell
+CREATE TABLESPACE ts_produccion
+DATAFILE 'prod1.dbf' SIZE 100M,
+'prod2.dbf' SIZE 100M AUTOEXTEND ON;
+
+CREATE TABLESPACE ts_venta
+DATAFILE 'vent.dbf'
+SIZE 100M AUTOEXTEND ON;
+```
+
+Cuotas para los usuarios:
+```shell
+ALTER USER ANA QUOTA 30M ON ts_venta;
+ALTER USER EVA QUOTA 30M ON ts_venta;
+ALTER USER JAIME QUOTA 100K ON ts_produccion;
+ALTER USER LIDIA QUOTA 100K ON ts_produccion;
+```
+
+Modificacion
 
 
 c)	
