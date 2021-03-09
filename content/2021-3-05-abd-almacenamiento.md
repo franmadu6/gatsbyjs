@@ -14,9 +14,71 @@ tags:
 
 1. Muestra los objetos a los que pertenecen las extensiones del tablespace TS2 (creado por tí) y el tamaño de cada una de ellas. Tendrás que crear objetos en él previamente, claro.
 
+Creamos un tablespace llamado TS2.
+```shell
+SQL> CREATE TABLESPACE TS2
+  2  DATAFILE '/home/oracle/ts2.dbf' 
+  3  SIZE 200K
+  4  AUTOEXTEND ON
+  5  DEFAULT STORAGE (
+  6  INITIAL 200K
+  7  NEXT 200K
+  8  MAXEXTENTS 3
+  9  PCTINCREASE 100);
+
+Tablespace created.
+```
+
+Como podemos comprobar ya tenemos nuestro tablespace creado y podemos comprobar su ubicación.
+```shell
+SQL> select file_name,tablespace_name from dba_data_files where tablespace_name='TS2';
+
+FILE_NAME
+--------------------------------------------------------------------------------
+TABLESPACE_NAME
+------------------------------
+/home/oracle/ts2.dbf
+TS2
+```
+
+Crearemos una paqueña prueba para ver el funcionamiento de su espacio.
+```shell
+SQL> CREATE TABLE pruebats2 (           
+  2  MT_CLAVE           NUMBER(3)    NOT NULL,
+  3  MT_DESCRIPCION     VARCHAR2(50) NULL
+  4  )  TABLESPACE TS2;             
+
+Table created.
+```
+
+Le añadiremos un poco de contenido.
+```shell
+insert into pruebats2 (MT_CLAVE,MT_DESCRIPCION) values ('132','clave prueba1');
+insert into pruebats2 (MT_CLAVE,MT_DESCRIPCION) values ('653','clave prueba2');
+insert into pruebats2 (MT_CLAVE,MT_DESCRIPCION) values ('178','clave prueba3');
+```
+
+Comprobaremos el espacio que ocupa nuestro tablespace en este momento.
+```shell
+SQL> select OWNER, SEGMENT_NAME, SEGMENT_TYPE, TABLESPACE_NAME,BYTES
+  2  from dba_extents
+  3  where tablespace_name='TS2';
+
+OWNER
+--------------------------------------------------------------------------------
+SEGMENT_NAME
+--------------------------------------------------------------------------------
+SEGMENT_TYPE	   TABLESPACE_NAME		       BYTES
+------------------ ------------------------------ ----------
+SYS
+PRUEBATS2
+TABLE		   TS2				       65536
+```
 
 
 2. Borra la tabla que está llenando TS2 consiguiendo que vuelvan a existir extensiones libres. Añade después otro fichero de datos a TS2.
+
+
 
 
 
@@ -124,6 +186,22 @@ Disk quotas for user vagrant (uid 1000):
 
 8. Averigua si existe el concepto de extensión en MySQL y si coincide con el existente en ORACLE.
 
+### Segmentos, Extensiones y Bloques e MySQL.
+
+MySQL incorpora una característica única llamada «motores de almacenamiento», que nos permite seleccionar el tipo de almacenamiento interno de cada tabla
+
+Los motores MyISAM e InnoDB son los más empleados, en ellos podemos encontrar extensiones, segmentos y páginas.
+
+Ejemplo:
+```shell
+File system              <-> InnoDB
+----------------------------------------------
+disk partition           <-> tablespace
+file                     <-> segment # UN FICHERO ES UN SEGMENTO.
+inode                    <-> fsp0fsp.c 'inode'
+fs space allocation unit <-> extent # UN ESPACIO ES UNA EXTENSIÓN.
+disk block               <-> page (16 kB)# UN BLOQUE ES UNA PÁGINA.
+```
 
 
 ### Segmentos, Extensiones y Bloques en Oracle.
