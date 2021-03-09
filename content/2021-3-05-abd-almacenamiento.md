@@ -185,14 +185,160 @@ TABLESPACE_NAME
 TS3
 ```
 
+Creamos nuevas tablas y registros en TS3:
+```shell
+create table coches(
+  codigo varchar(50),
+  marca varchar(50),
+  modelo varchar(50)
+) tablespace TS3;
+
+insert into coches values ('01','Ferrari','Testarrosa');
+insert into coches values ('02','Seat','Panda');
+insert into coches values ('03','Opel','Corsa');
+insert into coches values ('04','Seat','Ateca');
+insert into coches values ('05','Renault','Clio');
+
+create table cicuitos(
+  codigo varchar(50),
+  nombre varchar(50),
+  pais varchar(50)
+) tablespace TS3;
+
+insert into cicuitos values ('01','Silverstone','Reino Unido');
+insert into cicuitos values ('02','Mónaco','Mónaco');
+insert into cicuitos values ('03','Interlagos','Brasil');
+insert into cicuitos values ('04','Nürburgring','Alemania');
+insert into cicuitos values ('05','Monza','Italia');
+```
+
+Comprobamos:
+```shell
+SQL> select de.segment_name,de.extent_id,df.file_name,de.file_id
+  2  from dba_data_files  df, dba_extents de
+  3  where de.file_id = df.file_id
+  4  and de.tablespace_name = 'TS3';      
+
+SEGMENT_NAME
+--------------------------------------------------------------------------------
+ EXTENT_ID
+----------
+FILE_NAME
+--------------------------------------------------------------------------------
+   FILE_ID
+----------
+COCHES
+	 0
+/home/oracle/actividad3/ts3.dbf
+	 8
+
+
+SEGMENT_NAME
+--------------------------------------------------------------------------------
+ EXTENT_ID
+----------
+FILE_NAME
+--------------------------------------------------------------------------------
+   FILE_ID
+----------
+CICUITOS
+	 0
+/home/oracle/actividad3/ts3.dbf
+	 8
+```
 
 
 4. Redimensiona los ficheros asociados a los tres tablespaces que has creado de forma que ocupen el mínimo espacio posible para alojar sus objetos.
 
+Comprobamos el espacio de almacenamiento de nuestros tablespaces:
+```shell
+SQL> select sum(bytes)/1024||'KB', tablespace_name
+  2  from dba_segments
+  3  where tablespace_name like 'TS%'
+  4  group by tablespace_name;
 
+SUM(BYTES)/1024||'KB'			   TABLESPACE_NAME
+------------------------------------------ ------------------------------
+384KB					   TS2
+256KB					   TS3
+```
+
+Redimensionaremos los ficheros y comprobaremos el espacio que ocupan.
+```shell
+SQL> alter database datafile '/home/oracle/ts2.dbf' resize 1M;
+
+Database altered.
+
+SQL> alter database datafile '/home/oracle/actividad3/ts3.dbf' resize 20M;     
+
+Database altered.
+
+SQL> select sum(bytes)/1024||'KB', tablespace_name
+  2  from dba_segments
+  3  where tablespace_name like 'TS%'
+  4  group by tablespace_name;
+
+SUM(BYTES)/1024||'KB'			   TABLESPACE_NAME
+------------------------------------------ ------------------------------
+384KB					   TS2
+256KB					   TS3
+
+SQL> select file_name,tablespace_name,(bytes/1024)||'KB'
+  2  from dba_data_files
+  3  where tablespace_name like 'TS%';
+
+FILE_NAME
+--------------------------------------------------------------------------------
+TABLESPACE_NAME 	       (BYTES/1024)||'KB'
+------------------------------ ------------------------------------------
+/home/oracle/ts2.dbf
+TS2			       1024KB
+
+/home/oracle/prueba.dbf
+TS2			       10240KB
+
+/home/oracle/actividad3/ts3.dbf
+TS3			       20480KB
+```
 
 5. Crea una secuencia para rellenar el campo deptno de la tabla dept de forma coherente con los datos ya existentes.  Inserta al menos dos registros haciendo uso de la secuencia.
 
+Creare una secuencia que incremente el codigo en 100 empezando desdel numero 5 y llegue hasta 500 y no se repita.
+```shell
+create sequence secuenciaDeptno
+  start with 50
+  increment by 100
+  maxvalue 500
+  nocycle;
+
+insert into scott.dept<DEPTNO> values <secuenciaDeptno.nextval>;
+insert into scott.dept<DEPTNO> values <secuenciaDeptno.nextval>;
+SQL> select from scott.dept;
+
+DEPTNO
+--------------------------------------------------
+DNAME
+--------------------------------------------------
+LOC
+--------------------------------------------------
+150
+
+
+50
+
+
+10
+ACCOUNTING
+NEW YORK
+
+20
+RESEARCH
+DALLAS
+
+30
+SALES
+CHICAGO
+```
 
 
 6. Resuelve el siguiente caso práctico en **ORACLE**:
