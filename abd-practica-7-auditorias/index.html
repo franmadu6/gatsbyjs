@@ -40,13 +40,462 @@
         }
       }
     })
-  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-3ae58750e38fb633d270.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-eb5db3a92bd8bd9c1015.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/abd-practica-7-auditorias/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">SysAdmin Nazareno</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/abd">ABD<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/aso">ASO<strong> (<!-- -->7<!-- -->)</strong></a></li><li><a href="/gatsbyjs/eie">EIE<strong> (<!-- -->10<!-- -->)</strong></a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->6<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sad">SAD<strong> (<!-- -->7<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sri">SRI<strong> (<!-- -->11<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>[ABD] Práctica 7 - Auditorías</h1><p class="post-module--post-meta--1ci95">March 08, 2021<!-- --> — <!-- -->1<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/auditorias"><span>Auditorías</span></a></div></div><div><center><img alt="Auditor&#xED;as base de datos" src="https://miro.medium.com/max/413/1*z2Q0z24IbwF1RLPa4X6glw.png"></center>
+  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-3ae58750e38fb633d270.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-eb5db3a92bd8bd9c1015.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/abd-practica-7-auditorias/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">SysAdmin Nazareno</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/abd">ABD<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/aso">ASO<strong> (<!-- -->7<!-- -->)</strong></a></li><li><a href="/gatsbyjs/eie">EIE<strong> (<!-- -->10<!-- -->)</strong></a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->6<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sad">SAD<strong> (<!-- -->7<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sri">SRI<strong> (<!-- -->11<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>[ABD] Práctica 7 - Auditorías</h1><p class="post-module--post-meta--1ci95">March 08, 2021<!-- --> — <!-- -->6<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/auditorias"><span>Auditorías</span></a></div></div><div><center><img alt="Auditor&#xED;as base de datos" src="https://miro.medium.com/max/413/1*z2Q0z24IbwF1RLPa4X6glw.png"></center>
 <p>Realiza y documenta adecuadamente las siguientes operaciones:</p>
 <ol>
 <li>Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al sistema. Comprueba su funcionamiento. </li>
+</ol>
+<p>Visualizaremos los parametros de auditorias.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> SHOW PARAMETER AUDIT
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+audit_file_dest 		     string	 /opt/oracle/admin/ORCL/adump
+audit_sys_operations		     boolean	 FALSE
+audit_syslog_level		     string
+audit_trail			     string	 NONE
+unified_audit_sga_queue_size	     integer	 <span class="token number">1048576</span></code></pre></div>
+<p>Activamos audit_trail:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> ALTER SYSTEM SET <span class="token assign-left variable">audit_trail</span><span class="token operator">=</span>db <span class="token assign-left variable">scope</span><span class="token operator">=</span>spfile<span class="token punctuation">;</span>
+
+System altered.</code></pre></div>
+<p>Reiniciaremos Oracle.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> SHUTDOWN
+Database closed.
+Database dismounted.
+ORACLE instance shut down.
+SQL<span class="token operator">></span> STARTUP
+ORACLE instance started.
+
+Total System Global Area  <span class="token number">629145600</span> bytes
+Fixed Size		    <span class="token number">8623832</span> bytes
+Variable Size		  <span class="token number">524290344</span> bytes
+Database Buffers	   <span class="token number">88080384</span> bytes
+Redo Buffers		    <span class="token number">8151040</span> bytes
+Database mounted.
+Database opened.
+SQL<span class="token operator">></span> ALTER <span class="token environment constant">SESSION</span> SET <span class="token string">"_ORACLE_SCRIPT"</span><span class="token operator">=</span>true<span class="token punctuation">;</span>
+
+Session altered.
+
+SQL<span class="token operator">></span> SHOW PARAMETER AUDIT
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+audit_file_dest 		     string	 /opt/oracle/admin/ORCL/adump
+audit_sys_operations		     boolean	 FALSE
+audit_syslog_level		     string
+audit_trail			     string	 DB
+unified_audit_sga_queue_size	     integer	 <span class="token number">1048576</span></code></pre></div>
+<p>Activamos la auditoria.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> AUDIT CREATE <span class="token environment constant">SESSION</span> WHENEVER NOT SUCCESSFUL<span class="token punctuation">;</span>
+
+Audit succeeded.</code></pre></div>
+<p>Comprobamos su activación.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> AUDIT CREATE <span class="token environment constant">SESSION</span> BY fran<span class="token punctuation">;</span>      
+
+Audit succeeded.
+
+SQL<span class="token operator">></span> SELECT * FROM DBA_PRIV_AUDIT_OPTS<span class="token punctuation">;</span>
+
+USER_NAME
+--------------------------------------------------------------------------------
+PROXY_NAME
+--------------------------------------------------------------------------------
+PRIVILEGE				 SUCCESS    FAILURE
+---------------------------------------- ---------- ----------
+
+
+CREATE <span class="token environment constant">SESSION</span>				 NOT SET    BY ACCESS
+
+FRAN
+
+CREATE <span class="token environment constant">SESSION</span>				 BY ACCESS  BY ACCESS
+
+USER_NAME
+--------------------------------------------------------------------------------
+PROXY_NAME
+--------------------------------------------------------------------------------
+PRIVILEGE				 SUCCESS    FAILURE
+---------------------------------------- ---------- ----------</code></pre></div>
+<p>Probaremos la auditoria, intentando acceceder a nuestra base de datos.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token punctuation">[</span>oracle@oracle1 ~<span class="token punctuation">]</span>$ sqlplus
+
+SQL*Plus: Release <span class="token number">12.2</span>.0.1.0 Production on Tue Mar <span class="token number">9</span> <span class="token number">17</span>:13:05 <span class="token number">2021</span>
+
+Copyright <span class="token punctuation">(</span>c<span class="token punctuation">)</span> <span class="token number">1982</span>, <span class="token number">2016</span>, Oracle.  All rights reserved.
+
+Enter user-name: fran
+Enter password: 
+ERROR:
+ORA-01017: invalid username/password<span class="token punctuation">;</span> logon denied
+
+
+Enter user-name: fran
+Enter password: 
+ERROR:
+ORA-01017: invalid username/password<span class="token punctuation">;</span> logon denied
+
+
+Enter user-name: sys
+Enter password: 
+ERROR:
+ORA-28009: connection as SYS should be as SYSDBA or SYSOPER
+
+
+SP2-0157: unable to CONNECT to ORACLE after <span class="token number">3</span> attempts, exiting SQL*Plus</code></pre></div>
+<p>Visualizaremos los accesos fallidos.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> SELECT OS_USERNAME, USERNAME, EXTENDED_TIMESTAMP, ACTION_NAME, RETURNCODE
+  <span class="token number">2</span>  FROM DBA_AUDIT_SESSION<span class="token punctuation">;</span>
+
+OS_USERNAME
+--------------------------------------------------------------------------------
+USERNAME
+--------------------------------------------------------------------------------
+EXTENDED_TIMESTAMP
+---------------------------------------------------------------------------
+ACTION_NAME		     RETURNCODE
+---------------------------- ----------
+oracle
+FRAN
+09-MAR-21 05.12.49.102118 PM -03:00
+LOGON				      <span class="token number">0</span>
+
+
+OS_USERNAME
+--------------------------------------------------------------------------------
+USERNAME
+--------------------------------------------------------------------------------
+EXTENDED_TIMESTAMP
+---------------------------------------------------------------------------
+ACTION_NAME		     RETURNCODE
+---------------------------- ----------
+oracle
+FRAN
+09-MAR-21 05.13.09.178910 PM -03:00
+LOGON				   <span class="token number">1017</span>
+
+
+OS_USERNAME
+--------------------------------------------------------------------------------
+USERNAME
+--------------------------------------------------------------------------------
+EXTENDED_TIMESTAMP
+---------------------------------------------------------------------------
+ACTION_NAME		     RETURNCODE
+---------------------------- ----------
+oracle
+FRAN
+09-MAR-21 05.13.13.252421 PM -03:00
+LOGON				   <span class="token number">1017</span>
+
+
+OS_USERNAME
+--------------------------------------------------------------------------------
+USERNAME
+--------------------------------------------------------------------------------
+EXTENDED_TIMESTAMP
+---------------------------------------------------------------------------
+ACTION_NAME		     RETURNCODE
+---------------------------- ----------
+oracle
+FRAN
+09-MAR-21 05.13.03.893419 PM -03:00
+LOGOFF				      <span class="token number">0</span></code></pre></div>
+<p>Para finalizar, desactivaremos la auditoría.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> NOAUDIT CREATE <span class="token environment constant">SESSION</span> WHENEVER NOT SUCCESSFUL<span class="token punctuation">;</span>
+
+Noaudit succeeded.</code></pre></div>
+<ol start="2">
 <li>Realiza un procedimiento en PL/SQL que te muestre los accesos fallidos junto con el motivo de los mismos, transformando el código de error almacenado en un mensaje de texto comprensible.</li>
+</ol>
+<p>Función para devolver el motivo del error:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">CREATE OR REPLACE FUNCTION DevolverMotivo
+<span class="token punctuation">(</span>
+    p_error NUMBER
+<span class="token punctuation">)</span>
+RETURN VARCHAR2
+IS
+    mensaje VARCHAR2<span class="token punctuation">(</span><span class="token number">25</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+BEGIN
+    CASE p_error
+        WHEN <span class="token number">1017</span> THEN 
+            mensaje:<span class="token operator">=</span><span class="token string">'Contraseña Incorrecta'</span><span class="token punctuation">;</span>
+        WHEN <span class="token number">28000</span> THEN
+            mensaje:<span class="token operator">=</span><span class="token string">'Cuenta Bloqueada'</span><span class="token punctuation">;</span>
+        ELSE
+            mensaje:<span class="token operator">=</span><span class="token string">'Error Desconocido'</span><span class="token punctuation">;</span>
+    END CASE<span class="token punctuation">;</span>
+RETURN mensaje<span class="token punctuation">;</span>
+END DevolverMotivo<span class="token punctuation">;</span>
+/
+
+Function created.</code></pre></div>
+<p>Procedimiento:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">CREATE OR REPLACE PROCEDURE MostrarAccesosFallidos
+IS
+    CURSOR c_accesos
+    IS 
+    SELECT username, returncode, timestamp
+    FROM dba_audit_session 
+    WHERE <span class="token assign-left variable">action_name</span><span class="token operator">=</span><span class="token string">'LOGON'</span> 
+    AND returncode <span class="token operator">!=</span> <span class="token number">0</span> 
+    ORDER BY timestamp<span class="token punctuation">;</span>
+
+    v_motivo VARCHAR2<span class="token punctuation">(</span><span class="token number">25</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+BEGIN
+    DBMS_OUTPUT.PUT_LINE<span class="token punctuation">(</span>CHR<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token operator">||</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span><span class="token string">'-- AUDITORÍA DE ACCESOS FALLIDOS --'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    DBMS_OUTPUT.PUT_LINE<span class="token punctuation">(</span>CHR<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token operator">||</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span><span class="token string">'USUARIO'</span><span class="token operator">||</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span><span class="token string">'FECHA'</span><span class="token operator">||</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span>
+        <span class="token string">'MOTIVO'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    DBMS_OUTPUT.PUT_LINE<span class="token punctuation">(</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span><span class="token string">'----------------------------------------------------------------'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    FOR acceso IN c_accesos LOOP
+        v_motivo:<span class="token operator">=</span>DevolverMotivo<span class="token punctuation">(</span>acceso.returncode<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        DBMS_OUTPUT.PUT_LINE<span class="token punctuation">(</span>CHR<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token operator">||</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span>acceso.username<span class="token operator">||</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span>
+            TO_CHAR<span class="token punctuation">(</span>acceso.timestamp,<span class="token string">'YY/MM/DD DY HH24:MI'</span><span class="token punctuation">)</span><span class="token operator">||</span>CHR<span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token operator">||</span>v_motivo<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    END LOOP<span class="token punctuation">;</span> 
+END MostrarAccesosFallidos<span class="token punctuation">;</span>
+/</code></pre></div>
+<ol start="3">
 <li>Activa la auditoría de las operaciones DML realizadas por SCOTT. Comprueba su funcionamiento.</li>
+</ol>
+<p>Activamos la auditoría.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">AUDIT INSERT TABLE, UPDATE TABLE, DELETE TABLE BY SCOTT BY ACCESS<span class="token punctuation">;</span></code></pre></div>
+<p>Donde:</p>
+<ul>
+<li>BY ACCESS : Realiza un registro por cada acción.</li>
+<li>BY SESSION : Realiza un registro de todas las acciones por cada sesión iniciada.</li>
+</ul>
+<p>Realizamos una prueba:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> CONN SCOTT/TIGER
+Connected.
+SQL<span class="token operator">></span> INSERT INTO dept VALUES<span class="token punctuation">(</span><span class="token number">50</span>,<span class="token string">'RRHH'</span>,<span class="token string">'Dos Hermanas'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token number">1</span> row created.
+
+SQL<span class="token operator">></span> UPDATE dept SET <span class="token assign-left variable">loc</span><span class="token operator">=</span><span class="token string">'Sevilla'</span> WHERE <span class="token assign-left variable">deptno</span><span class="token operator">=</span><span class="token number">50</span><span class="token punctuation">;</span>
+
+<span class="token number">1</span> row updated.
+
+SQL<span class="token operator">></span> DELETE FROM dept WHERE <span class="token assign-left variable">deptno</span><span class="token operator">=</span><span class="token number">50</span><span class="token punctuation">;</span>
+
+<span class="token number">1</span> row deleted.
+
+SQL<span class="token operator">></span> COMMIT<span class="token punctuation">;</span>
+
+Commit complete.</code></pre></div>
+<p>Para ver las acciones realizadas por SCOTT:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SELECT obj_name, action_name, timestamp
+FROM dba_audit_object
+WHERE <span class="token assign-left variable">username</span><span class="token operator">=</span><span class="token string">'SCOTT'</span><span class="token punctuation">;</span></code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> SELECT obj_name, action_name, timestamp
+  <span class="token number">2</span>  FROM dba_audit_object
+  <span class="token number">3</span>  WHERE <span class="token assign-left variable">username</span><span class="token operator">=</span><span class="token string">'SCOTT'</span><span class="token punctuation">;</span>
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+SDO_GEOR_DDL__TABLE<span class="token variable">$$</span>
+INSERT			     <span class="token number">10</span>-MAR-21
+
+SDO_GEOR_DDL__TABLE<span class="token variable">$$</span>
+INSERT			     <span class="token number">10</span>-MAR-21
+
+SDO_GEOR_DDL__TABLE<span class="token variable">$$</span>
+INSERT			     <span class="token number">10</span>-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+SDO_GEOR_DDL__TABLE<span class="token variable">$$</span>
+INSERT			     <span class="token number">10</span>-MAR-21
+
+SDO_GEOR_DDL__TABLE<span class="token variable">$$</span>
+INSERT			     <span class="token number">10</span>-MAR-21
+
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     <span class="token number">10</span>-MAR-21
+
+DEPT
+INSERT			     <span class="token number">10</span>-MAR-21
+
+DEPT
+INSERT			     <span class="token number">10</span>-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+DEPT
+INSERT			     <span class="token number">10</span>-MAR-21
+
+DEPT
+INSERT			     <span class="token number">10</span>-MAR-21
+
+SALGRADE
+INSERT			     <span class="token number">10</span>-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+SALGRADE
+INSERT			     <span class="token number">10</span>-MAR-21
+
+SALGRADE
+INSERT			     <span class="token number">10</span>-MAR-21
+
+SALGRADE
+INSERT			     <span class="token number">10</span>-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+SALGRADE
+INSERT			     <span class="token number">10</span>-MAR-21
+
+DUMMY
+INSERT			     <span class="token number">10</span>-MAR-21
+
+DEPT
+INSERT			     <span class="token number">10</span>-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+DEPT
+INSERT			     <span class="token number">10</span>-MAR-21
+
+DEPT
+INSERT			     <span class="token number">10</span>-MAR-21
+
+DEPT
+UPDATE			     <span class="token number">10</span>-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+DEPT
+DELETE			     <span class="token number">10</span>-MAR-21
+
+
+<span class="token number">34</span> rows selected.</code></pre></div>
+<p>En mi caso ha bastantes salidas puesto que he añadido al usuario SCOTT y su esquema a la base de datos ahora mismo.
+<a href="http://www.tecnoent.com/838-creando-esquema-scott-tiger-oracl">Pasos a seguir para añadir el usuario SCOTT a tu base de datos Oracle</a>.</p>
+<ol start="4">
 <li>Realiza una auditoría de grano fino para almacenar información sobre la inserción de empleados del departamento 10 en la tabla emp de scott.</li>
+</ol>
+<p>Creación de la auditoría de grano fino:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> BEGIN
+    DBMS_FGA.ADD_POLICY <span class="token punctuation">(</span>
+        object_schema      <span class="token operator">=</span><span class="token operator">></span>  <span class="token string">'SCOTT'</span>,
+        object_name        <span class="token operator">=</span><span class="token operator">></span>  <span class="token string">'EMP'</span>,
+        policy_name        <span class="token operator">=</span><span class="token operator">></span>  <span class="token string">'mypolicy1'</span>,
+        audit_condition    <span class="token operator">=</span><span class="token operator">></span>  <span class="token string">'DEPTNO = 10'</span>,
+        statement_types    <span class="token operator">=</span><span class="token operator">></span>  <span class="token string">'INSERT'</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+END<span class="token punctuation">;</span>
+/ 
+
+PL/SQL procedure successfully completed.</code></pre></div>
+<p>Ver la política creada:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">SQL<span class="token operator">></span> SELECT object_schema,object_name,policy_name,policy_text
+  <span class="token number">2</span>  FROM dba_audit_policies<span class="token punctuation">;</span>
+
+OBJECT_SCHEMA
+--------------------------------------------------------------------------------
+OBJECT_NAME
+--------------------------------------------------------------------------------
+POLICY_NAME
+--------------------------------------------------------------------------------
+POLICY_TEXT
+--------------------------------------------------------------------------------
+SCOTT
+EMP
+MYPOLICY1
+DEPTNO <span class="token operator">=</span> <span class="token number">10</span></code></pre></div>
+<p>Realizamos una prueba:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">CONN SCOTT/TIGER
+
+INSERT INTO emp VALUES<span class="token punctuation">(</span><span class="token number">7950</span>,<span class="token string">'Lora'</span>,<span class="token string">'JEFE'</span>,null,sysdate,9999,9999,10<span class="token punctuation">)</span><span class="token punctuation">;</span>
+INSERT INTO emp VALUES<span class="token punctuation">(</span><span class="token number">7951</span>,<span class="token string">'Calde'</span>,<span class="token string">'PROFE'</span>,null,sysdate,9999,9999,10<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+COMMIT<span class="token punctuation">;</span></code></pre></div>
+<ol start="5">
 <li>Explica la diferencia entre auditar una operación by access o by session.</li>
 <li>Documenta las diferencias entre los valores db y db, extended del parámetro audit_trail de ORACLE. Demuéstralas poniendo un ejemplo de la información sobre una operación concreta recopilada con cada uno de ellos.</li>
 <li>Localiza en Enterprise Manager las posibilidades para realizar una auditoría e intenta repetir con dicha herramienta los apartados 1, 3 y 4.</li>

@@ -1,10 +1,459 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 09 Mar 2021 12:36:51 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] Práctica 7 - Auditorías]]></title><description><![CDATA[Realiza y documenta adecuadamente las siguientes operaciones: Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</guid><category><![CDATA[Auditorías]]></category><pubDate>Mon, 08 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Auditor&amp;#xED;as base de datos&quot; src=&quot;https://miro.medium.com/max/413/1*z2Q0z24IbwF1RLPa4X6glw.png&quot;&gt;&lt;/center&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 10 Mar 2021 16:31:06 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] Práctica 7 - Auditorías]]></title><description><![CDATA[Realiza y documenta adecuadamente las siguientes operaciones: Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</guid><category><![CDATA[Auditorías]]></category><pubDate>Mon, 08 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Auditor&amp;#xED;as base de datos&quot; src=&quot;https://miro.medium.com/max/413/1*z2Q0z24IbwF1RLPa4X6glw.png&quot;&gt;&lt;/center&gt;
 &lt;p&gt;Realiza y documenta adecuadamente las siguientes operaciones:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al sistema. Comprueba su funcionamiento. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Visualizaremos los parametros de auditorias.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; SHOW PARAMETER AUDIT
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+audit_file_dest 		     string	 /opt/oracle/admin/ORCL/adump
+audit_sys_operations		     boolean	 FALSE
+audit_syslog_level		     string
+audit_trail			     string	 NONE
+unified_audit_sga_queue_size	     integer	 &lt;span class=&quot;token number&quot;&gt;1048576&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Activamos audit_trail:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; ALTER SYSTEM SET &lt;span class=&quot;token assign-left variable&quot;&gt;audit_trail&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;db &lt;span class=&quot;token assign-left variable&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;spfile&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+System altered.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Reiniciaremos Oracle.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; SHUTDOWN
+Database closed.
+Database dismounted.
+ORACLE instance shut down.
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; STARTUP
+ORACLE instance started.
+
+Total System Global Area  &lt;span class=&quot;token number&quot;&gt;629145600&lt;/span&gt; bytes
+Fixed Size		    &lt;span class=&quot;token number&quot;&gt;8623832&lt;/span&gt; bytes
+Variable Size		  &lt;span class=&quot;token number&quot;&gt;524290344&lt;/span&gt; bytes
+Database Buffers	   &lt;span class=&quot;token number&quot;&gt;88080384&lt;/span&gt; bytes
+Redo Buffers		    &lt;span class=&quot;token number&quot;&gt;8151040&lt;/span&gt; bytes
+Database mounted.
+Database opened.
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; ALTER &lt;span class=&quot;token environment constant&quot;&gt;SESSION&lt;/span&gt; SET &lt;span class=&quot;token string&quot;&gt;&quot;_ORACLE_SCRIPT&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+Session altered.
+
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; SHOW PARAMETER AUDIT
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+audit_file_dest 		     string	 /opt/oracle/admin/ORCL/adump
+audit_sys_operations		     boolean	 FALSE
+audit_syslog_level		     string
+audit_trail			     string	 DB
+unified_audit_sga_queue_size	     integer	 &lt;span class=&quot;token number&quot;&gt;1048576&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Activamos la auditoria.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; AUDIT CREATE &lt;span class=&quot;token environment constant&quot;&gt;SESSION&lt;/span&gt; WHENEVER NOT SUCCESSFUL&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+Audit succeeded.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Comprobamos su activación.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; AUDIT CREATE &lt;span class=&quot;token environment constant&quot;&gt;SESSION&lt;/span&gt; BY fran&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;      
+
+Audit succeeded.
+
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; SELECT * FROM DBA_PRIV_AUDIT_OPTS&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+USER_NAME
+--------------------------------------------------------------------------------
+PROXY_NAME
+--------------------------------------------------------------------------------
+PRIVILEGE				 SUCCESS    FAILURE
+---------------------------------------- ---------- ----------
+
+
+CREATE &lt;span class=&quot;token environment constant&quot;&gt;SESSION&lt;/span&gt;				 NOT SET    BY ACCESS
+
+FRAN
+
+CREATE &lt;span class=&quot;token environment constant&quot;&gt;SESSION&lt;/span&gt;				 BY ACCESS  BY ACCESS
+
+USER_NAME
+--------------------------------------------------------------------------------
+PROXY_NAME
+--------------------------------------------------------------------------------
+PRIVILEGE				 SUCCESS    FAILURE
+---------------------------------------- ---------- ----------&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Probaremos la auditoria, intentando acceceder a nuestra base de datos.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;oracle@oracle1 ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;$ sqlplus
+
+SQL*Plus: Release &lt;span class=&quot;token number&quot;&gt;12.2&lt;/span&gt;.0.1.0 Production on Tue Mar &lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;:13:05 &lt;span class=&quot;token number&quot;&gt;2021&lt;/span&gt;
+
+Copyright &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1982&lt;/span&gt;, &lt;span class=&quot;token number&quot;&gt;2016&lt;/span&gt;, Oracle.  All rights reserved.
+
+Enter user-name: fran
+Enter password: 
+ERROR:
+ORA-01017: invalid username/password&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; logon denied
+
+
+Enter user-name: fran
+Enter password: 
+ERROR:
+ORA-01017: invalid username/password&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; logon denied
+
+
+Enter user-name: sys
+Enter password: 
+ERROR:
+ORA-28009: connection as SYS should be as SYSDBA or SYSOPER
+
+
+SP2-0157: unable to CONNECT to ORACLE after &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; attempts, exiting SQL*Plus&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Visualizaremos los accesos fallidos.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; SELECT OS_USERNAME, USERNAME, EXTENDED_TIMESTAMP, ACTION_NAME, RETURNCODE
+  &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;  FROM DBA_AUDIT_SESSION&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+OS_USERNAME
+--------------------------------------------------------------------------------
+USERNAME
+--------------------------------------------------------------------------------
+EXTENDED_TIMESTAMP
+---------------------------------------------------------------------------
+ACTION_NAME		     RETURNCODE
+---------------------------- ----------
+oracle
+FRAN
+09-MAR-21 05.12.49.102118 PM -03:00
+LOGON				      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+
+
+OS_USERNAME
+--------------------------------------------------------------------------------
+USERNAME
+--------------------------------------------------------------------------------
+EXTENDED_TIMESTAMP
+---------------------------------------------------------------------------
+ACTION_NAME		     RETURNCODE
+---------------------------- ----------
+oracle
+FRAN
+09-MAR-21 05.13.09.178910 PM -03:00
+LOGON				   &lt;span class=&quot;token number&quot;&gt;1017&lt;/span&gt;
+
+
+OS_USERNAME
+--------------------------------------------------------------------------------
+USERNAME
+--------------------------------------------------------------------------------
+EXTENDED_TIMESTAMP
+---------------------------------------------------------------------------
+ACTION_NAME		     RETURNCODE
+---------------------------- ----------
+oracle
+FRAN
+09-MAR-21 05.13.13.252421 PM -03:00
+LOGON				   &lt;span class=&quot;token number&quot;&gt;1017&lt;/span&gt;
+
+
+OS_USERNAME
+--------------------------------------------------------------------------------
+USERNAME
+--------------------------------------------------------------------------------
+EXTENDED_TIMESTAMP
+---------------------------------------------------------------------------
+ACTION_NAME		     RETURNCODE
+---------------------------- ----------
+oracle
+FRAN
+09-MAR-21 05.13.03.893419 PM -03:00
+LOGOFF				      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Para finalizar, desactivaremos la auditoría.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; NOAUDIT CREATE &lt;span class=&quot;token environment constant&quot;&gt;SESSION&lt;/span&gt; WHENEVER NOT SUCCESSFUL&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+Noaudit succeeded.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;Realiza un procedimiento en PL/SQL que te muestre los accesos fallidos junto con el motivo de los mismos, transformando el código de error almacenado en un mensaje de texto comprensible.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Función para devolver el motivo del error:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;CREATE OR REPLACE FUNCTION DevolverMotivo
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    p_error NUMBER
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+RETURN VARCHAR2
+IS
+    mensaje VARCHAR2&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+BEGIN
+    CASE p_error
+        WHEN &lt;span class=&quot;token number&quot;&gt;1017&lt;/span&gt; THEN 
+            mensaje:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Contraseña Incorrecta&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        WHEN &lt;span class=&quot;token number&quot;&gt;28000&lt;/span&gt; THEN
+            mensaje:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Cuenta Bloqueada&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        ELSE
+            mensaje:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Error Desconocido&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    END CASE&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+RETURN mensaje&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+END DevolverMotivo&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+/
+
+Function created.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Procedimiento:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;CREATE OR REPLACE PROCEDURE MostrarAccesosFallidos
+IS
+    CURSOR c_accesos
+    IS 
+    SELECT username, returncode, timestamp
+    FROM dba_audit_session 
+    WHERE &lt;span class=&quot;token assign-left variable&quot;&gt;action_name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;LOGON&apos;&lt;/span&gt; 
+    AND returncode &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; 
+    ORDER BY timestamp&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    v_motivo VARCHAR2&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+BEGIN
+    DBMS_OUTPUT.PUT_LINE&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;-- AUDITORÍA DE ACCESOS FALLIDOS --&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    DBMS_OUTPUT.PUT_LINE&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;USUARIO&apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;FECHA&apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&apos;MOTIVO&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    DBMS_OUTPUT.PUT_LINE&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;----------------------------------------------------------------&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    FOR acceso IN c_accesos LOOP
+        v_motivo:&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;DevolverMotivo&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;acceso.returncode&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        DBMS_OUTPUT.PUT_LINE&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;acceso.username&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;
+            TO_CHAR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;acceso.timestamp,&lt;span class=&quot;token string&quot;&gt;&apos;YY/MM/DD DY HH24:MI&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;CHR&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt;v_motivo&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    END LOOP&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
+END MostrarAccesosFallidos&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;Activa la auditoría de las operaciones DML realizadas por SCOTT. Comprueba su funcionamiento.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Activamos la auditoría.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;AUDIT INSERT TABLE, UPDATE TABLE, DELETE TABLE BY SCOTT BY ACCESS&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Donde:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BY ACCESS : Realiza un registro por cada acción.&lt;/li&gt;
+&lt;li&gt;BY SESSION : Realiza un registro de todas las acciones por cada sesión iniciada.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Realizamos una prueba:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; CONN SCOTT/TIGER
+Connected.
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; INSERT INTO dept VALUES&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;RRHH&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Dos Hermanas&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; row created.
+
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; UPDATE dept SET &lt;span class=&quot;token assign-left variable&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Sevilla&apos;&lt;/span&gt; WHERE &lt;span class=&quot;token assign-left variable&quot;&gt;deptno&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; row updated.
+
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; DELETE FROM dept WHERE &lt;span class=&quot;token assign-left variable&quot;&gt;deptno&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; row deleted.
+
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; COMMIT&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+Commit complete.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Para ver las acciones realizadas por SCOTT:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SELECT obj_name, action_name, timestamp
+FROM dba_audit_object
+WHERE &lt;span class=&quot;token assign-left variable&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;SCOTT&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; SELECT obj_name, action_name, timestamp
+  &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;  FROM dba_audit_object
+  &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;  WHERE &lt;span class=&quot;token assign-left variable&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;SCOTT&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+SDO_GEOR_DDL__TABLE&lt;span class=&quot;token variable&quot;&gt;$$&lt;/span&gt;
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+SDO_GEOR_DDL__TABLE&lt;span class=&quot;token variable&quot;&gt;$$&lt;/span&gt;
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+SDO_GEOR_DDL__TABLE&lt;span class=&quot;token variable&quot;&gt;$$&lt;/span&gt;
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+SDO_GEOR_DDL__TABLE&lt;span class=&quot;token variable&quot;&gt;$$&lt;/span&gt;
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+SDO_GEOR_DDL__TABLE&lt;span class=&quot;token variable&quot;&gt;$$&lt;/span&gt;
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+DEPT
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+DEPT
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+DEPT
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+DEPT
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+SALGRADE
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+SALGRADE
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+SALGRADE
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+SALGRADE
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+SALGRADE
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+DUMMY
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+DEPT
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+DEPT
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+DEPT
+INSERT			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+DEPT
+UPDATE			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+DEPT
+DELETE			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
+
+
+&lt;span class=&quot;token number&quot;&gt;34&lt;/span&gt; rows selected.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En mi caso ha bastantes salidas puesto que he añadido al usuario SCOTT y su esquema a la base de datos ahora mismo.
+&lt;a href=&quot;http://www.tecnoent.com/838-creando-esquema-scott-tiger-oracl&quot;&gt;Pasos a seguir para añadir el usuario SCOTT a tu base de datos Oracle&lt;/a&gt;.&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;Realiza una auditoría de grano fino para almacenar información sobre la inserción de empleados del departamento 10 en la tabla emp de scott.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Creación de la auditoría de grano fino:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; BEGIN
+    DBMS_FGA.ADD_POLICY &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        object_schema      &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;  &lt;span class=&quot;token string&quot;&gt;&apos;SCOTT&apos;&lt;/span&gt;,
+        object_name        &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;  &lt;span class=&quot;token string&quot;&gt;&apos;EMP&apos;&lt;/span&gt;,
+        policy_name        &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;  &lt;span class=&quot;token string&quot;&gt;&apos;mypolicy1&apos;&lt;/span&gt;,
+        audit_condition    &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;  &lt;span class=&quot;token string&quot;&gt;&apos;DEPTNO = 10&apos;&lt;/span&gt;,
+        statement_types    &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;  &lt;span class=&quot;token string&quot;&gt;&apos;INSERT&apos;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+END&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+/ 
+
+PL/SQL procedure successfully completed.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ver la política creada:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; SELECT object_schema,object_name,policy_name,policy_text
+  &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;  FROM dba_audit_policies&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+OBJECT_SCHEMA
+--------------------------------------------------------------------------------
+OBJECT_NAME
+--------------------------------------------------------------------------------
+POLICY_NAME
+--------------------------------------------------------------------------------
+POLICY_TEXT
+--------------------------------------------------------------------------------
+SCOTT
+EMP
+MYPOLICY1
+DEPTNO &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Realizamos una prueba:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;CONN SCOTT/TIGER
+
+INSERT INTO emp VALUES&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;7950&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Lora&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;JEFE&apos;&lt;/span&gt;,null,sysdate,9999,9999,10&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+INSERT INTO emp VALUES&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;7951&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Calde&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;PROFE&apos;&lt;/span&gt;,null,sysdate,9999,9999,10&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+COMMIT&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;5&quot;&gt;
 &lt;li&gt;Explica la diferencia entre auditar una operación by access o by session.&lt;/li&gt;
 &lt;li&gt;Documenta las diferencias entre los valores db y db, extended del parámetro audit_trail de ORACLE. Demuéstralas poniendo un ejemplo de la información sobre una operación concreta recopilada con cada uno de ellos.&lt;/li&gt;
 &lt;li&gt;Localiza en Enterprise Manager las posibilidades para realizar una auditoría e intenta repetir con dicha herramienta los apartados 1, 3 y 4.&lt;/li&gt;
