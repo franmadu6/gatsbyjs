@@ -508,15 +508,592 @@ Realizamos una prueba:
 ```shell
 CONN SCOTT/TIGER
 
-INSERT INTO emp VALUES(7950,'Lora','JEFE',null,sysdate,9999,9999,10);
-INSERT INTO emp VALUES(7951,'Calde','PROFE',null,sysdate,9999,9999,10);
+INSERT INTO emp VALUES(7950,'Lora','trasport',null,sysdate,9999,9999,10);
+INSERT INTO emp VALUES(7951,'Calde','utillero',null,sysdate,9999,9999,10);
 
 COMMIT;
 ```
 
+Para visualizar las acciones realizadas.
+```shell
+SQL> SELECT sql_text
+  2  FROM dba_fga_audit_trail
+  3  WHERE policy_name='MYPOLICY1';
+
+SQL_TEXT
+--------------------------------------------------------------------------------
+INSERT INTO emp VALUES(7950,'Lora','trasport',null,sysdate,9999,9999,10)
+INSERT INTO emp VALUES(7951,'Calde','utillero',null,sysdate,9999,9999,10)
+```
+
+Para eliminar la auditoría de grano fino:
+```shell
+SQL> BEGIN
+    DBMS_FGA.DROP_POLICY (
+        object_schema      =>  'SCOTT',
+        object_name        =>  'EMP',
+        policy_name        =>  'mypolicy1'      
+    );
+END;
+/
+
+PL/SQL procedure successfully completed.
+```
+
 5. Explica la diferencia entre auditar una operación by access o by session.
 
+- BY ACCES: Realiza un registro por cada sentencia auditada.
+- BY SESSION: Agrupa las sentencias por tipos en un registro por cada sesión iniciada.
+
+Realizaremos un ejemplo de 'By session':
+
+Primero activamos la auditoría.
+```shell
+AUDIT INSERT TABLE, UPDATE TABLE, DELETE TABLE BY SYSTEM BY SESSION;
+```
+
+Realizaremos una serie de pruebas.
+```shell
+CONN SCOTT/TIGER
+
+INSERT INTO SCOTT.dept VALUES(60,'RRHH','Namibia');
+
+UPDATE SCOTT.dept SET loc='Congo' WHERE deptno=60;
+
+DELETE FROM SCOTT.dept WHERE deptno=60;
+
+COMMIT;
+```
+
+Cambiamos al usuario administrador y comparamos registros:
+
+**BY SESSION:**
+```shell
+SELECT owner, obj_name, action_name, timestamp, priv_used
+FROM dba_audit_object
+WHERE username='SCOTT';
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+MDSYS
+SDO_GEOR_DDL__TABLE$$
+INSERT			     10-MAR-21
+
+MDSYS
+SDO_GEOR_DDL__TABLE$$
+INSERT			     10-MAR-21
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+
+MDSYS
+SDO_GEOR_DDL__TABLE$$
+INSERT			     10-MAR-21
+
+MDSYS
+SDO_GEOR_DDL__TABLE$$
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+INSERT			     10-MAR-21
+
+MDSYS
+SDO_GEOR_DDL__TABLE$$
+INSERT			     10-MAR-21
+
+SCOTT
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+EMP
+INSERT			     10-MAR-21
+
+SCOTT
+EMP
+INSERT			     10-MAR-21
+
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+SCOTT
+EMP
+INSERT			     10-MAR-21
+
+SCOTT
+EMP
+INSERT			     10-MAR-21
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+
+SCOTT
+EMP
+INSERT			     10-MAR-21
+
+SCOTT
+EMP
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+INSERT			     10-MAR-21
+
+SCOTT
+EMP
+INSERT			     10-MAR-21
+
+SCOTT
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+EMP
+INSERT			     10-MAR-21
+
+SCOTT
+EMP
+INSERT			     10-MAR-21
+
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+SCOTT
+EMP
+INSERT			     10-MAR-21
+
+SCOTT
+EMP
+INSERT			     10-MAR-21
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+
+SCOTT
+EMP
+INSERT			     10-MAR-21
+
+SCOTT
+EMP
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+INSERT			     10-MAR-21
+
+SCOTT
+EMP
+INSERT			     10-MAR-21
+
+SCOTT
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+DEPT
+INSERT			     10-MAR-21
+
+SCOTT
+DEPT
+INSERT			     10-MAR-21
+
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+SCOTT
+DEPT
+INSERT			     10-MAR-21
+
+SCOTT
+DEPT
+INSERT			     10-MAR-21
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+
+SCOTT
+SALGRADE
+INSERT			     10-MAR-21
+
+SCOTT
+SALGRADE
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+INSERT			     10-MAR-21
+
+SCOTT
+SALGRADE
+INSERT			     10-MAR-21
+
+SCOTT
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+SALGRADE
+INSERT			     10-MAR-21
+
+SCOTT
+SALGRADE
+INSERT			     10-MAR-21
+
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+SCOTT
+DUMMY
+INSERT			     10-MAR-21
+
+SCOTT
+DEPT
+INSERT			     10-MAR-21
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+
+SCOTT
+DEPT
+INSERT			     10-MAR-21
+
+SCOTT
+DEPT
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+INSERT			     10-MAR-21
+
+SCOTT
+EMP
+INSERT			     10-MAR-21
+
+SCOTT
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+EMP
+INSERT			     10-MAR-21
+
+SCOTT
+EMP
+INSERT			     10-MAR-21
+
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+SCOTT
+DEPT
+UPDATE			     10-MAR-21
+
+SCOTT
+DEPT
+UPDATE			     10-MAR-21
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+
+SCOTT
+DEPT
+DELETE			     10-MAR-21
+
+SCOTT
+DEPT
+
+OWNER
+--------------------------------------------------------------------------------
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP PRIV_USED
+---------------------------- --------- ----------------------------------------
+DELETE			     10-MAR-21
+
+
+39 rows selected.
+```
+
+**BY ACCESS:**
+```shell
+SQL> select obj_name,action_name, timestamp
+  2  from dba_audit_object
+  3  where username='SCOTT';
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+SDO_GEOR_DDL__TABLE$$
+INSERT			     10-MAR-21
+
+SDO_GEOR_DDL__TABLE$$
+INSERT			     10-MAR-21
+
+SDO_GEOR_DDL__TABLE$$
+INSERT			     10-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+SDO_GEOR_DDL__TABLE$$
+INSERT			     10-MAR-21
+
+SDO_GEOR_DDL__TABLE$$
+INSERT			     10-MAR-21
+
+EMP
+INSERT			     10-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     10-MAR-21
+
+EMP
+INSERT			     10-MAR-21
+
+EMP
+INSERT			     10-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     10-MAR-21
+
+EMP
+INSERT			     10-MAR-21
+
+EMP
+INSERT			     10-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     10-MAR-21
+
+EMP
+INSERT			     10-MAR-21
+
+EMP
+INSERT			     10-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     10-MAR-21
+
+EMP
+INSERT			     10-MAR-21
+
+EMP
+INSERT			     10-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     10-MAR-21
+
+DEPT
+INSERT			     10-MAR-21
+
+DEPT
+INSERT			     10-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+DEPT
+INSERT			     10-MAR-21
+
+DEPT
+INSERT			     10-MAR-21
+
+SALGRADE
+INSERT			     10-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+SALGRADE
+INSERT			     10-MAR-21
+
+SALGRADE
+INSERT			     10-MAR-21
+
+SALGRADE
+INSERT			     10-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+SALGRADE
+INSERT			     10-MAR-21
+
+DUMMY
+INSERT			     10-MAR-21
+
+DEPT
+INSERT			     10-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+DEPT
+INSERT			     10-MAR-21
+
+DEPT
+INSERT			     10-MAR-21
+
+EMP
+INSERT			     10-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+EMP
+INSERT			     10-MAR-21
+
+EMP
+INSERT			     10-MAR-21
+
+DEPT
+UPDATE			     10-MAR-21
+
+
+OBJ_NAME
+--------------------------------------------------------------------------------
+ACTION_NAME		     TIMESTAMP
+---------------------------- ---------
+DEPT
+UPDATE			     10-MAR-21
+
+DEPT
+DELETE			     10-MAR-21
+
+DEPT
+DELETE			     10-MAR-21
+
+
+39 rows selected.
+```
+
+Como podemos comprobar los registros son muy similares, Oracle recomienda el uso de 'By access'.
+
+
 6. Documenta las diferencias entre los valores db y db, extended del parámetro audit_trail de ORACLE. Demuéstralas poniendo un ejemplo de la información sobre una operación concreta recopilada con cada uno de ellos.
+
+
+
+
+
+
 
 7. Localiza en Enterprise Manager las posibilidades para realizar una auditoría e intenta repetir con dicha herramienta los apartados 1, 3 y 4.
 
