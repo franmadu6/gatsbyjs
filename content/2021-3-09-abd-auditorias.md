@@ -1089,18 +1089,181 @@ Como podemos comprobar los registros son muy similares, Oracle recomienda el uso
 
 6. Documenta las diferencias entre los valores db y db, extended del parámetro audit_trail de ORACLE. Demuéstralas poniendo un ejemplo de la información sobre una operación concreta recopilada con cada uno de ellos.
 
+Las diferencias son mínimas y es que solo se diferencia en que db extend aparte de almacenarse en SYS.AUD$ también escribe valores en las columnas SQLBIND y SQLTEXT.
 
+**Ejemplo:**
 
+Para este ejemplo lo primero que deberemos hacer es activar las auditorias:
+```shell
+SQL> SHOW PARAMETER AUDIT;
 
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+audit_file_dest 		     string	 /opt/oracle/admin/ORCL/adump
+audit_sys_operations		     boolean	 FALSE
+audit_syslog_level		     string
+audit_trail			     string	 DB
+unified_audit_sga_queue_size	     integer	 1048576
 
+SQL> ALTER SYSTEM SET audit_trail = DB, EXTENDED SCOPE=SPFILE;
 
+System altered.
+```
+
+Deberemos de reiniciar la base de datos como anteriormente.
+```shell
+SQL> shutdown
+Database closed.
+Database dismounted.
+ORACLE instance shut down.
+SQL> startup
+ORACLE instance started.
+
+Total System Global Area  629145600 bytes
+Fixed Size		    8623832 bytes
+Variable Size		  520096040 bytes
+Database Buffers	   92274688 bytes
+Redo Buffers		    8151040 bytes
+Database mounted.
+Database opened.
+SQL>
+```
+
+Y comprobamos como hemos añadido un nuevo valor en la auditoria:
+```shell
+SQL> SHOW PARAMETER AUDIT;
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+audit_file_dest 		     string	 /opt/oracle/admin/ORCL/adump
+audit_sys_operations		     boolean	 FALSE
+audit_syslog_level		     string
+audit_trail			     string	 DB, EXTENDED
+unified_audit_sga_queue_size	     integer	 1048576
+```
 
 7. Localiza en Enterprise Manager las posibilidades para realizar una auditoría e intenta repetir con dicha herramienta los apartados 1, 3 y 4.
 
 8. Averigua si en Postgres se pueden realizar los apartados 1, 3 y 4. Si es así, documenta el proceso adecuadamente.
 
+En Postgres no existen auditorías como tal, y deberemos hacer uso de procedimientos y funciones para realizar una función similar.
+
+Para crear un caso hipotético de una tabla de históricos haremos lo siguiente:
+
+Primero crearemos una tabla para la auditoría.
+Segundo, crearemos una funcion que actualice los datos de la tabla creada.
+Tercero, crearemos un trigger que dispare la funcion anterior cuando se produzcan cambios en la tabla original.
+
+Si queremos una guia mas detallada podemos obtener información en https://usuarioperu.com/2018/07/23/auditoria-de-tablas-en-postgresql-i/
+
 9. Averigua si en MySQL se pueden realizar los apartados 1, 3 y 4. Si es así, documenta el proceso adecuadamente.
+
+Creamos una base de datos y una tabla.
+```shell
+MariaDB [(none)]> create database actividad9;
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [(none)]> use actividad9;
+Database changed
+
+MariaDB [actividad9]> create table usuarios(
+    -> dni varchar(9),
+    -> nombre varchar(25),
+    -> apellido varchar(45),
+    -> telefono varchar(9),
+    -> constraint pk_dni primary key (dni));
+Query OK, 0 rows affected, 1 warning (0.032 sec)
+```
+
+Crearemos una base de datos para las auditorias y una tabla para que almacene la salida del trigger:
+```shell
+MariaDB [actividad9]> create database auditorias;
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [actividad9]> use auditorias
+Database changed
+MariaDB [auditorias]> 
+
+MariaDB [auditorias]> CREATE TABLE accesos
+    ->  (
+    ->    codigo int(11) NOT NULL AUTO_INCREMENT,
+    ->    usuario varchar(100),
+    ->    fecha datetime,
+    ->    PRIMARY KEY (`codigo`)
+    ->  )
+    ->  ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+Query OK, 0 rows affected (0.004 sec)
+
+MariaDB [auditorias]> delimiter $$
+MariaDB [auditorias]> CREATE TRIGGER actividad9.root
+    -> BEFORE INSERT ON actividad9.usuarios
+    -> FOR EACH ROW
+    -> BEGIN
+    -> INSERT INTO auditorias.accesos (usuario, fecha)
+    -> values (CURRENT_USER(), NOW());
+    -> END$$
+Query OK, 0 rows affected (0.005 sec)
+```
+
+
+Ahora procederemos a probar los cambios realizados, añadiremos un registro nuevo en la base de datos **actividad9**.
+```shell
+MariaDB [(none)]> use actividad9
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+
+MariaDB [actividad9]> insert into usuarios
+    -> values ('49132054Y','Francisco Javier','Madueño Jurado','651127289');
+Query OK, 1 row affected (0.003 sec)
+```
+
+Vamos a ver si se ha realizado bien el trigger checkeando la tabla de accesos:
+```shell
+MariaDB [(none)]> use auditorias
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+MariaDB [auditorias]> select * from accesos;
++--------+----------------+---------------------+
+| codigo | usuario        | fecha               |
++--------+----------------+---------------------+
+|      1 | root@localhost | 2021-03-11 20:09:34 |
++--------+----------------+---------------------+
+1 row in set (0.001 sec)
+```
+
+Como podemos ver la practica es similar a postgres y a su vez bastante diferente a Oracle, Oracle cuenta con auditorias integradas mientras que Postgres y Mariadb es necesario la utilizacion de triggers y/o procedimeintos.
 
 10.  Averigua las posibilidades que ofrece MongoDB para auditar los cambios que va sufriendo un documento.
 
+Para comprobar en mongo el tipo de autorias que dispone utilizaremos el siguiente comando:
+```shell
+--auditFilter
+```
+
+Para auditar las acciones createColletion y dropCollection:
+```shell
+{ atype: { $in: [ "createCollection", "dropCollection" ] } }
+```
+
+Filtros:
+```shell
+mongod --dbpath data/db --auditDestination file --auditFilter '{ atype: { $in: [ "createCollection", "dropCollection" ] } }' --auditFormat BSON --auditPath data/db/auditLog.bson
+```
+
+* [Documentación oficial.](https://docs.mongodb.com/manual/tutorial/configure-audit-filters/)
+
 11.  Averigua si en MongoDB se pueden auditar los accesos al sistema.
+
+Es posible,cambiando los parámetros de los comandos expuestos anteriormente.
+```shell
+{ atype: "authenticate", "param.db": "test" }
+```
+
+Podemos usarlos como una cadena si lo ponemos entre comillas simples.
+```shell
+mongod --dbpath data/db --auth --auditDestination file --auditFilter '{ atype: "authenticate", "param.db": "test" }' --auditFormat BSON --auditPath data/db/auditLog.bson
+```
