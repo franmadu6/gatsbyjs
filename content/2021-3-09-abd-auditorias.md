@@ -542,8 +542,8 @@ PL/SQL procedure successfully completed.
 
 5. Explica la diferencia entre auditar una operación by access o by session.
 
-- BY ACCES: Realiza un registro por cada sentencia auditada.
-- BY SESSION: Agrupa las sentencias por tipos en un registro por cada sesión iniciada.
+**BY ACCES:** Realiza un registro por cada sentencia auditada.
+**BY SESSION:** Agrupa las sentencias por tipos en un registro por cada sesión iniciada.
 
 Realizaremos un ejemplo de 'By session':
 
