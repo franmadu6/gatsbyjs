@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 10 Mar 2021 17:22:37 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] Práctica 7 - Auditorías]]></title><description><![CDATA[Realiza y documenta adecuadamente las siguientes operaciones: Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</guid><category><![CDATA[Auditorías]]></category><pubDate>Mon, 08 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Auditor&amp;#xED;as base de datos&quot; src=&quot;https://miro.medium.com/max/413/1*z2Q0z24IbwF1RLPa4X6glw.png&quot;&gt;&lt;/center&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 11 Mar 2021 20:42:05 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] Práctica 7 - Auditorías]]></title><description><![CDATA[Realiza y documenta adecuadamente las siguientes operaciones: Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</guid><category><![CDATA[Auditorías]]></category><pubDate>Mon, 08 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Auditor&amp;#xED;as base de datos&quot; src=&quot;https://miro.medium.com/max/413/1*z2Q0z24IbwF1RLPa4X6glw.png&quot;&gt;&lt;/center&gt;
 &lt;p&gt;Realiza y documenta adecuadamente las siguientes operaciones:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al sistema. Comprueba su funcionamiento. &lt;/li&gt;
@@ -1006,12 +1006,144 @@ DELETE			     &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;-MAR-21
 &lt;p&gt;Como podemos comprobar los registros son muy similares, Oracle recomienda el uso de &apos;By access&apos;.&lt;/p&gt;
 &lt;ol start=&quot;6&quot;&gt;
 &lt;li&gt;Documenta las diferencias entre los valores db y db, extended del parámetro audit_trail de ORACLE. Demuéstralas poniendo un ejemplo de la información sobre una operación concreta recopilada con cada uno de ellos.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Las diferencias son mínimas y es que solo se diferencia en que db extend aparte de almacenarse en SYS.AUD$ también escribe valores en las columnas SQLBIND y SQLTEXT.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Para este ejemplo lo primero que deberemos hacer es activar las auditorias:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; SHOW PARAMETER AUDIT&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+audit_file_dest 		     string	 /opt/oracle/admin/ORCL/adump
+audit_sys_operations		     boolean	 FALSE
+audit_syslog_level		     string
+audit_trail			     string	 DB
+unified_audit_sga_queue_size	     integer	 &lt;span class=&quot;token number&quot;&gt;1048576&lt;/span&gt;
+
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; ALTER SYSTEM SET audit_trail &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; DB, EXTENDED &lt;span class=&quot;token assign-left variable&quot;&gt;SCOPE&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;SPFILE&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+System altered.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Deberemos de reiniciar la base de datos como anteriormente.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;shutdown&lt;/span&gt;
+Database closed.
+Database dismounted.
+ORACLE instance shut down.
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; startup
+ORACLE instance started.
+
+Total System Global Area  &lt;span class=&quot;token number&quot;&gt;629145600&lt;/span&gt; bytes
+Fixed Size		    &lt;span class=&quot;token number&quot;&gt;8623832&lt;/span&gt; bytes
+Variable Size		  &lt;span class=&quot;token number&quot;&gt;520096040&lt;/span&gt; bytes
+Database Buffers	   &lt;span class=&quot;token number&quot;&gt;92274688&lt;/span&gt; bytes
+Redo Buffers		    &lt;span class=&quot;token number&quot;&gt;8151040&lt;/span&gt; bytes
+Database mounted.
+Database opened.
+SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Y comprobamos como hemos añadido un nuevo valor en la auditoria:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;SQL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; SHOW PARAMETER AUDIT&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+audit_file_dest 		     string	 /opt/oracle/admin/ORCL/adump
+audit_sys_operations		     boolean	 FALSE
+audit_syslog_level		     string
+audit_trail			     string	 DB, EXTENDED
+unified_audit_sga_queue_size	     integer	 &lt;span class=&quot;token number&quot;&gt;1048576&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;7&quot;&gt;
 &lt;li&gt;Localiza en Enterprise Manager las posibilidades para realizar una auditoría e intenta repetir con dicha herramienta los apartados 1, 3 y 4.&lt;/li&gt;
 &lt;li&gt;Averigua si en Postgres se pueden realizar los apartados 1, 3 y 4. Si es así, documenta el proceso adecuadamente.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;En Postgres no existen auditorías como tal, y deberemos hacer uso de procedimientos y funciones para realizar una función similar.&lt;/p&gt;
+&lt;p&gt;Para crear un caso hipotético de una tabla de históricos haremos lo siguiente:&lt;/p&gt;
+&lt;p&gt;Primero crearemos una tabla para la auditoría.
+Segundo, crearemos una funcion que actualice los datos de la tabla creada.
+Tercero, crearemos un trigger que dispare la funcion anterior cuando se produzcan cambios en la tabla original.&lt;/p&gt;
+&lt;p&gt;Si queremos una guia mas detallada podemos obtener información en &lt;a href=&quot;https://usuarioperu.com/2018/07/23/auditoria-de-tablas-en-postgresql-i/&quot;&gt;https://usuarioperu.com/2018/07/23/auditoria-de-tablas-en-postgresql-i/&lt;/a&gt;&lt;/p&gt;
+&lt;ol start=&quot;9&quot;&gt;
 &lt;li&gt;Averigua si en MySQL se pueden realizar los apartados 1, 3 y 4. Si es así, documenta el proceso adecuadamente.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Creamos una base de datos y una tabla.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; create database actividad9&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; row affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; use actividad9&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Database changed
+
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;actividad9&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; create table usuarios&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; dni varchar&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;,
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; nombre varchar&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;,
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; apellido varchar&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;,
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; telefono varchar&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;,
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; constraint pk_dni primary key &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dni&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; rows affected, &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; warning &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.032&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Crearemos una base de datos para las auditorias y una tabla para que almacene la salida del trigger:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;actividad9&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; create database auditorias&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; row affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;actividad9&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; use auditorias
+Database changed
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;auditorias&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; 
+
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;auditorias&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; CREATE TABLE accesos
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;    codigo int&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; NOT NULL AUTO_INCREMENT,
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;    usuario varchar&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;,
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;    fecha datetime,
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;    PRIMARY KEY &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;codigo&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;  &lt;span class=&quot;token assign-left variable&quot;&gt;ENGINE&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;MyISAM &lt;span class=&quot;token assign-left variable&quot;&gt;AUTO_INCREMENT&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; DEFAULT &lt;span class=&quot;token assign-left variable&quot;&gt;CHARSET&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;latin1&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; rows affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.004&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;auditorias&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; delimiter &lt;span class=&quot;token variable&quot;&gt;$$&lt;/span&gt;
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;auditorias&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; CREATE TRIGGER actividad9.root
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; BEFORE INSERT ON actividad9.usuarios
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; FOR EACH ROW
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; BEGIN
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; INSERT INTO auditorias.accesos &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;usuario, fecha&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; values &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;CURRENT_USER&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, NOW&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; END&lt;span class=&quot;token variable&quot;&gt;$$&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; rows affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.005&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ahora procederemos a probar los cambios realizados, añadiremos un registro nuevo en la base de datos &lt;strong&gt;actividad9&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; use actividad9
+Reading table information &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; completion of table and &lt;span class=&quot;token function&quot;&gt;column&lt;/span&gt; names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;actividad9&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; insert into usuarios
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; values &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;49132054Y&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Francisco Javier&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;Madueño Jurado&apos;&lt;/span&gt;,&lt;span class=&quot;token string&quot;&gt;&apos;651127289&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; row affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.003&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Vamos a ver si se ha realizado bien el trigger checkeando la tabla de accesos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; use auditorias
+Reading table information &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; completion of table and &lt;span class=&quot;token function&quot;&gt;column&lt;/span&gt; names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;auditorias&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; * from accesos&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
++--------+----------------+---------------------+
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; codigo &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; usuario        &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; fecha               &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
++--------+----------------+---------------------+
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; root@localhost &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2021&lt;/span&gt;-03-11 &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;:09:34 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
++--------+----------------+---------------------+
+&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; row &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como podemos ver la practica es similar a postgres y a su vez bastante diferente a Oracle, Oracle cuenta con auditorias integradas mientras que Postgres y Mariadb es necesario la utilizacion de triggers y/o procedimeintos.&lt;/p&gt;
+&lt;ol start=&quot;10&quot;&gt;
 &lt;li&gt;Averigua las posibilidades que ofrece MongoDB para auditar los cambios que va sufriendo un documento.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para comprobar en mongo el tipo de autorias que dispone utilizaremos el siguiente comando:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;--auditFilter&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Para auditar las acciones createColletion y dropCollection:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; atype: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$in&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;createCollection&quot;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&quot;dropCollection&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Filtros:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;mongod --dbpath data/db --auditDestination &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; --auditFilter &lt;span class=&quot;token string&quot;&gt;&apos;{ atype: { &lt;span class=&quot;token variable&quot;&gt;$in&lt;/span&gt;: [ &quot;createCollection&quot;, &quot;dropCollection&quot; ] } }&apos;&lt;/span&gt; --auditFormat BSON --auditPath data/db/auditLog.bson&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/tutorial/configure-audit-filters/&quot;&gt;Documentación oficial.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Averigua si en MongoDB se pueden auditar los accesos al sistema.&lt;/li&gt;
-&lt;/ol&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[ABD] - Práctica 6 Almacenamiento]]></title><description><![CDATA[ORACLE: Muestra los objetos a los que pertenecen las extensiones del tablespace TS2 (creado por tí) y el tamaño de cada una de ellas.…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-6-almacenamiento</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-6-almacenamiento</guid><category><![CDATA[Almacenamiento]]></category><pubDate>Thu, 04 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Almacenamiento base de datos&quot; src=&quot;https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/database-t.jpg&quot;&gt;&lt;/center&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es posible,cambiando los parámetros de los comandos expuestos anteriormente.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; atype: &lt;span class=&quot;token string&quot;&gt;&quot;authenticate&quot;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&quot;param.db&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;test&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Podemos usarlos como una cadena si lo ponemos entre comillas simples.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;mongod --dbpath data/db --auth --auditDestination &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; --auditFilter &lt;span class=&quot;token string&quot;&gt;&apos;{ atype: &quot;authenticate&quot;, &quot;param.db&quot;: &quot;test&quot; }&apos;&lt;/span&gt; --auditFormat BSON --auditPath data/db/auditLog.bson&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[ABD] - Práctica 6 Almacenamiento]]></title><description><![CDATA[ORACLE: Muestra los objetos a los que pertenecen las extensiones del tablespace TS2 (creado por tí) y el tamaño de cada una de ellas.…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-6-almacenamiento</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-6-almacenamiento</guid><category><![CDATA[Almacenamiento]]></category><pubDate>Thu, 04 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Almacenamiento base de datos&quot; src=&quot;https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/database-t.jpg&quot;&gt;&lt;/center&gt;
 &lt;h2 id=&quot;oracle&quot;&gt;&lt;a href=&quot;#oracle&quot; aria-label=&quot;oracle permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ORACLE:&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Muestra los objetos a los que pertenecen las extensiones del tablespace TS2 (creado por tí) y el tamaño de cada una de ellas. Tendrás que crear objetos en él previamente, claro.&lt;/li&gt;
