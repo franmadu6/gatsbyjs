@@ -12,7 +12,7 @@ tags:
 
 Realiza y documenta adecuadamente las siguientes operaciones:
 
-1. Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al sistema. Comprueba su funcionamiento. 
+## 1. Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al sistema. Comprueba su funcionamiento. 
 
 Visualizaremos los parametros de auditorias.
 ```shell
@@ -199,7 +199,7 @@ SQL> NOAUDIT CREATE SESSION WHENEVER NOT SUCCESSFUL;
 Noaudit succeeded.
 ```
 
-2. Realiza un procedimiento en PL/SQL que te muestre los accesos fallidos junto con el motivo de los mismos, transformando el código de error almacenado en un mensaje de texto comprensible.
+## 2. Realiza un procedimiento en PL/SQL que te muestre los accesos fallidos junto con el motivo de los mismos, transformando el código de error almacenado en un mensaje de texto comprensible.
 
 Función para devolver el motivo del error:
 ```shell
@@ -253,7 +253,7 @@ END MostrarAccesosFallidos;
 /
 ```
 
-3. Activa la auditoría de las operaciones DML realizadas por SCOTT. Comprueba su funcionamiento.
+## 3. Activa la auditoría de las operaciones DML realizadas por SCOTT. Comprueba su funcionamiento.
 
 Activamos la auditoría.
 ```shell
@@ -467,7 +467,7 @@ En mi caso ha bastantes salidas puesto que he añadido al usuario SCOTT y su esq
 
 
 
-4. Realiza una auditoría de grano fino para almacenar información sobre la inserción de empleados del departamento 10 en la tabla emp de scott.
+## 4. Realiza una auditoría de grano fino para almacenar información sobre la inserción de empleados del departamento 10 en la tabla emp de scott.
 
 Creación de la auditoría de grano fino:
 ```shell
@@ -540,7 +540,7 @@ END;
 PL/SQL procedure successfully completed.
 ```
 
-5. Explica la diferencia entre auditar una operación by access o by session.
+## 5. Explica la diferencia entre auditar una operación by access o by session.
 
 **BY ACCES:** Realiza un registro por cada sentencia auditada.
 **BY SESSION:** Agrupa las sentencias por tipos en un registro por cada sesión iniciada.
@@ -1087,7 +1087,7 @@ DELETE			     10-MAR-21
 Como podemos comprobar los registros son muy similares, Oracle recomienda el uso de 'By access'.
 
 
-6. Documenta las diferencias entre los valores db y db, extended del parámetro audit_trail de ORACLE. Demuéstralas poniendo un ejemplo de la información sobre una operación concreta recopilada con cada uno de ellos.
+## 6. Documenta las diferencias entre los valores db y db, extended del parámetro audit_trail de ORACLE. Demuéstralas poniendo un ejemplo de la información sobre una operación concreta recopilada con cada uno de ellos.
 
 Las diferencias son mínimas y es que solo se diferencia en que db extend aparte de almacenarse en SYS.AUD$ también escribe valores en las columnas SQLBIND y SQLTEXT.
 
@@ -1142,9 +1142,9 @@ audit_trail			     string	 DB, EXTENDED
 unified_audit_sga_queue_size	     integer	 1048576
 ```
 
-7. Localiza en Enterprise Manager las posibilidades para realizar una auditoría e intenta repetir con dicha herramienta los apartados 1, 3 y 4.
+## 7. Localiza en Enterprise Manager las posibilidades para realizar una auditoría e intenta repetir con dicha herramienta los apartados 1, 3 y 4.
 
-8. Averigua si en Postgres se pueden realizar los apartados 1, 3 y 4. Si es así, documenta el proceso adecuadamente.
+## 8. Averigua si en Postgres se pueden realizar los apartados 1, 3 y 4. Si es así, documenta el proceso adecuadamente.
 
 En Postgres no existen auditorías como tal, y deberemos hacer uso de procedimientos y funciones para realizar una función similar.
 
@@ -1156,7 +1156,7 @@ Tercero, crearemos un trigger que dispare la funcion anterior cuando se produzca
 
 Si queremos una guia mas detallada podemos obtener información en https://usuarioperu.com/2018/07/23/auditoria-de-tablas-en-postgresql-i/
 
-9. Averigua si en MySQL se pueden realizar los apartados 1, 3 y 4. Si es así, documenta el proceso adecuadamente.
+## 9. Averigua si en MySQL se pueden realizar los apartados 1, 3 y 4. Si es así, documenta el proceso adecuadamente.
 
 Creamos una base de datos y una tabla.
 ```shell
@@ -1237,7 +1237,7 @@ MariaDB [auditorias]> select * from accesos;
 
 Como podemos ver la practica es similar a postgres y a su vez bastante diferente a Oracle, Oracle cuenta con auditorias integradas mientras que Postgres y Mariadb es necesario la utilizacion de triggers y/o procedimeintos.
 
-10.  Averigua las posibilidades que ofrece MongoDB para auditar los cambios que va sufriendo un documento.
+## 10.  Averigua las posibilidades que ofrece MongoDB para auditar los cambios que va sufriendo un documento.
 
 Para comprobar en mongo el tipo de autorias que dispone utilizaremos el siguiente comando:
 ```shell
@@ -1256,7 +1256,7 @@ mongod --dbpath data/db --auditDestination file --auditFilter '{ atype: { $in: [
 
 * [Documentación oficial.](https://docs.mongodb.com/manual/tutorial/configure-audit-filters/)
 
-11.  Averigua si en MongoDB se pueden auditar los accesos al sistema.
+## 11.  Averigua si en MongoDB se pueden auditar los accesos al sistema.
 
 Es posible,cambiando los parámetros de los comandos expuestos anteriormente.
 ```shell
