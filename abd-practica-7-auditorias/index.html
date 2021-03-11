@@ -517,9 +517,9 @@ END<span class="token punctuation">;</span>
 PL/SQL procedure successfully completed.</code></pre></div>
 <ol start="5">
 <li>Explica la diferencia entre auditar una operación by access o by session.</li>
-<li>BY ACCES: Realiza un registro por cada sentencia auditada.</li>
-<li>BY SESSION: Agrupa las sentencias por tipos en un registro por cada sesión iniciada.</li>
 </ol>
+<p><strong>BY ACCES:</strong> Realiza un registro por cada sentencia auditada.
+<strong>BY SESSION:</strong> Agrupa las sentencias por tipos en un registro por cada sesión iniciada.</p>
 <p>Realizaremos un ejemplo de 'By session':</p>
 <p>Primero activamos la auditoría.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">AUDIT INSERT TABLE, UPDATE TABLE, DELETE TABLE BY SYSTEM BY <span class="token environment constant">SESSION</span><span class="token punctuation">;</span></code></pre></div>
