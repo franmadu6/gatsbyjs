@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/abd-practica-7-auditorias</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/abd-practica-6-almacenamiento</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/servicios-ejercicio-aumento-de-rendimiento-de-servidores-web-von-varnish</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/servicios-practica-proxy-proxy-inverso-y-balanceadores-de-carga</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/servicios-ejercicio-aumento-de-rendimiento-de-servidores-web-von-varnish</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/circe-tramites</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/sistema-de-copias-de-seguridad</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/abd-interconexion-de-servidores-de-bases-de-datos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -53,10 +53,10 @@
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube-unidad-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/auditorias/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/almacenamiento/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/proxy-squid/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/servidores-web/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/rendimiento/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/varnish/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags//</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/circe/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/copias-de-seguridad/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/open-stack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
