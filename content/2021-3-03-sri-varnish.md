@@ -37,12 +37,13 @@ Modificamos la ip de la maquina para adaptarla a nuestro interfaz.
 ~/GitHub/ansible_nginx_fpm_php$ nano hosts
 
 [servidores_web]
-nodo1 ansible_ssh_host=192.168.2.17 ansible_python_interpreter=/usr/bin/python3
+nodo1 ansible_ssh_host=172.22.201.13 ansible_python_interpreter=/usr/bin/python3
+
 ```
 
-Iniciamos la receta para crear el escenario.
+Iniciamos la receta para crear el escenario.(con la opcion -k accederemos poniendo la contraseña)
 ```shell
-~/GitHub/ansible_nginx_fpm_php$ ansible-playbook site.yaml 
+~/GitHub/ansible_nginx_fpm_php$ ansible-playbook -k site.yaml 
 ```
 
 ### Tarea 2: Vamos a hacer las pruebas de rendimiento desde la misma máquina, es decir vamos a ejecutar instrucciones similares a esta:
