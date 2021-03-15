@@ -8,6 +8,8 @@ tags:
     - Proxy Squid
 ---
 
+![PracticaImg](images/servicios/squid_proxy.webp "cabecera proxy squid")
+
 Antes de comenzar crearemos una máquina **vagrant** donde realizaremos el ejercicio.  
 * [Vagrantfile](https://fp.josedomingo.org/serviciosgs/u08/doc/squid/Vagrantfile)
 (Para no tener problemas a la hora de levantar la máquina de vagrant modificaremos el box por generic/debian10)
