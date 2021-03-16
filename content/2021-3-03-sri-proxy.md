@@ -10,6 +10,7 @@ tags:
 
 ![PracticaImg](images/servicios/squid_proxy.webp "cabecera proxy squid")
 
+# Proxy Squid
 Antes de comenzar crearemos una máquina **vagrant** donde realizaremos el ejercicio.  
 * [Vagrantfile](https://fp.josedomingo.org/serviciosgs/u08/doc/squid/Vagrantfile)
 (Para no tener problemas a la hora de levantar la máquina de vagrant modificaremos el box por generic/debian10)
@@ -328,4 +329,144 @@ root@proxy:~# cat /var/log/squid/access.log
 1615837567.871      0 192.168.200.1 TCP_DENIED/403 4049 CONNECT sync-1-us-west1-g.sync.services.mozilla.com:443 - HIER_NONE/- text/html
 1615837661.673      0 192.168.200.1 TCP_DENIED/403 3968 CONNECT cdn.jsdelivr.net:443 - HIER_NONE/- text/html
 ```
+
+
+
+<center><img alt="Balanceadores de carga" src="https://blogs.masterhacks.net/wp-content/uploads/2018/09/masterhaks_balanceador_carga.png"/></center>
+
+# Balanceadores de carga
+
+* [Escenario](https://fp.josedomingo.org/serviciosgs/u08/doc/haproxy/vagrant.zip)(Modificar en el Vagrantfile debian/buster64 por generic/debian10 y las rutas de los archivos.)
+
+## Tarea 1: Entrega capturas de pantalla que el balanceador está funcionando.
+
+El primer paso es arrancar el escenario e instalar el paquete HAproxy.
+```shell
+vagrant@balanceador:~$ sudo apt-get install haproxy
+```
+
+Configuración de HAproxy.
+```shell
+vagrant@balanceador:~$ cd /etc/haproxy/
+vagrant@balanceador:/etc/haproxy$ sudo nano haproxy.cfg 
+
+global
+    daemon
+    maxconn 256
+    user    haproxy
+    group   haproxy
+    log     127.0.0.1       local0
+    log     127.0.0.1       local1  notice
+defaults
+    mode    http
+    log     global
+    timeout connect 5000ms
+    timeout client  50000ms
+    timeout server  50000ms
+listen granja_cda
+    bind 192.168.43.17:80 #ip del balanceador
+    mode http
+    stats enable
+    stats auth  cda:cda
+    balance roundrobin
+    server uno 10.10.10.11:80 maxconn 128
+    server dos 10.10.10.22:80 maxconn 128
+```
+
+Habilitamos el arranque desde el inicio.
+```shell
+vagrant@balanceador:/etc/haproxy$ sudo nano /etc/default/haproxy 
+ENABLED=1
+```
+
+Iniciamos y comprobamos el servicio Haproxy.
+```shell
+vagrant@balanceador:/etc/haproxy$ sudo systemctl start haproxy
+vagrant@balanceador:/etc/haproxy$ sudo systemctl status haproxy
+● haproxy.service - HAProxy Load Balancer
+   Loaded: loaded (/lib/systemd/system/haproxy.service; enabled; vendor preset: enabled)
+   Active: active (running) since Tue 2021-03-16 08:54:10 UTC; 4min 5s ago
+     Docs: man:haproxy(1)
+           file:/usr/share/doc/haproxy/configuration.txt.gz
+ Main PID: 1653 (haproxy)
+    Tasks: 2 (limit: 2359)
+   Memory: 2.2M
+   CGroup: /system.slice/haproxy.service
+           ├─1653 /usr/sbin/haproxy -Ws -f /etc/haproxy/haproxy.cfg -p /run/haproxy.pid
+           └─1654 /usr/sbin/haproxy -Ws -f /etc/haproxy/haproxy.cfg -p /run/haproxy.pid
+
+Mar 16 08:54:10 balanceador systemd[1]: Starting HAProxy Load Balancer...
+Mar 16 08:54:10 balanceador systemd[1]: Started HAProxy Load Balancer.
+```
+
+![PracticaImg](images/servicios/balanceo1.png "demostracion de practica resuelta balanceo")
+
+
+## Tarea 2: Entrega una captura de pantalla donde se vea la página web de estadísticas de haproxy (abrir en un navegador web la URL http://172.22.x.x/haproxy?stats, pedirá un usuario y un password, ambos cda).
+
+
+![PracticaImg](images/servicios/balanceo2.png "demostracion de practica resuelta balanceo")
+
+![PracticaImg](images/servicios/balanceo3.png "demostracion de practica resuelta balanceo")
+
+
+## Tarea 3: Desde uno de los servidores (apache1 ó apache2), verificar los logs del servidor Apache. En todos los casos debería figurar como única dirección IP cliente la IP interna de la máquina balanceador 10.10.10.1. ¿Por qué?
+
+
+```shell
+vagrant@apache1:~$ sudo tail -f /var/log/apache2/access.log 
+10.10.10.1 - - [16/Mar/2021:09:03:00 +0000] "GET / HTTP/1.1" 200 436 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+10.10.10.1 - - [16/Mar/2021:09:03:01 +0000] "GET / HTTP/1.1" 200 436 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+10.10.10.1 - - [16/Mar/2021:09:03:01 +0000] "GET / HTTP/1.1" 200 436 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+10.10.10.1 - - [16/Mar/2021:09:03:01 +0000] "GET / HTTP/1.1" 200 436 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+10.10.10.1 - - [16/Mar/2021:09:03:01 +0000] "GET / HTTP/1.1" 200 436 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+10.10.10.1 - - [16/Mar/2021:09:03:01 +0000] "GET / HTTP/1.1" 200 436 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+10.10.10.1 - - [16/Mar/2021:09:03:01 +0000] "GET / HTTP/1.1" 200 436 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+10.10.10.1 - - [16/Mar/2021:09:03:02 +0000] "GET / HTTP/1.1" 200 436 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+10.10.10.1 - - [16/Mar/2021:09:03:16 +0000] "GET / HTTP/1.1" 200 436 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+10.10.10.1 - - [16/Mar/2021:09:07:04 +0000] "GET /favicon.ico HTTP/1.1" 404 436 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
+```
+
+Esto es debido al tipo de balanceo **Roundrobin** que es el encargado de realizar las peticiones, son distribuidas entre los servidores de forma cíclica, independientemente de la carga del servidor. Distribuye las peticiones de forma ecuánime pero la carga no.
+
+## Tarea 4:Verificar la estructura y valores de las cookies PHPSESSID intercambiadas. En la primera respuesta HTTP (inicio de sesión), se establece su valor con un parámetro HTTP SetCookie en la cabecera de la respuesta. Las sucesivas peticiones del cliente incluyen el valor de esa cookie (parámetro HTTP Cookie en la cabecera de las peticiones)
+
+Modificaremos nuestro fichero de configuración de **Haproxy** y le añadiremos "cookie PHPSESSID prefix", debería queda así:
+```shell
+vagrant@balanceador:/etc/haproxy$ sudo nano haproxy.cfg 
+
+global
+    daemon
+    maxconn 256
+    user    haproxy
+    group   haproxy
+    log     127.0.0.1       local0
+    log     127.0.0.1       local1  notice
+defaults
+    mode    http
+    log     global
+    timeout connect 5000ms
+    timeout client  50000ms
+    timeout server  50000ms
+listen granja_cda
+    bind 192.168.43.17:80 #ip del balanceador
+    mode http
+    stats enable
+    stats auth  cda:cda
+    balance roundrobin
+    cookie PHPSESSID prefix
+    server uno 10.10.10.11:80 maxconn 128
+    server dos 10.10.10.22:80 maxconn 128
+```
+
+Reiniciamos servicio.
+```shell
+vagrant@balanceador:/etc/haproxy$ sudo systemctl restart haproxy
+```
+
+![PracticaImg](images/servicios/balanceo4.png "demostracion de practica resuelta balanceo4")
+
+![PracticaImg](images/servicios/balanceo5.png "demostracion de practica resuelta balanceo5")
+
+Como podemos comprobar pasados unos segundos la cookie queda generada y guardada.
 
