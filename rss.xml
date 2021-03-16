@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 15 Mar 2021 19:56:47 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] Práctica 7 - Auditorías]]></title><description><![CDATA[Realiza y documenta adecuadamente las siguientes operaciones: 1. Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</guid><category><![CDATA[Auditorías]]></category><pubDate>Mon, 08 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Auditor&amp;#xED;as base de datos&quot; src=&quot;https://miro.medium.com/max/413/1*z2Q0z24IbwF1RLPa4X6glw.png&quot;&gt;&lt;/center&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 16 Mar 2021 09:38:47 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] Práctica 7 - Auditorías]]></title><description><![CDATA[Realiza y documenta adecuadamente las siguientes operaciones: 1. Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</guid><category><![CDATA[Auditorías]]></category><pubDate>Mon, 08 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Auditor&amp;#xED;as base de datos&quot; src=&quot;https://miro.medium.com/max/413/1*z2Q0z24IbwF1RLPa4X6glw.png&quot;&gt;&lt;/center&gt;
 &lt;p&gt;Realiza y documenta adecuadamente las siguientes operaciones:&lt;/p&gt;
 &lt;h2 id=&quot;1-activa-desde-sqlplus-la-auditoría-de-los-intentos-de-acceso-fallidos-al-sistema-comprueba-su-funcionamiento&quot;&gt;&lt;a href=&quot;#1-activa-desde-sqlplus-la-auditor%C3%ADa-de-los-intentos-de-acceso-fallidos-al-sistema-comprueba-su-funcionamiento&quot; aria-label=&quot;1 activa desde sqlplus la auditoría de los intentos de acceso fallidos al sistema comprueba su funcionamiento permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al sistema. Comprueba su funcionamiento.&lt;/h2&gt;
 &lt;p&gt;Visualizaremos los parametros de auditorias.&lt;/p&gt;
@@ -1624,8 +1624,8 @@ nodo1 &lt;span class=&quot;token assign-left variable&quot;&gt;ansible_ssh_host&
 &lt;h3 id=&quot;tarea-2-vamos-a-hacer-las-pruebas-de-rendimiento-desde-la-misma-máquina-es-decir-vamos-a-ejecutar-instrucciones-similares-a-esta&quot;&gt;&lt;a href=&quot;#tarea-2-vamos-a-hacer-las-pruebas-de-rendimiento-desde-la-misma-m%C3%A1quina-es-decir-vamos-a-ejecutar-instrucciones-similares-a-esta&quot; aria-label=&quot;tarea 2 vamos a hacer las pruebas de rendimiento desde la misma máquina es decir vamos a ejecutar instrucciones similares a esta permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Vamos a hacer las pruebas de rendimiento desde la misma máquina, es decir vamos a ejecutar instrucciones similares a esta:&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ab -t &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; -c &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; -k http:/127.0.0.1/wordpress/index.php&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Realiza algunas prueba de rendimiento con varios valores distintos para el nivel de concurrencia (50,100,250,500) y apunta el resultado de peticiones/segundo (parámetro Requests per second de ab). Puedes hacer varias pruebas y quedarte con la media. Reinicia el servidor nginx y el fpm-php entre cada prueba para que los resultados sean los más reales posibles.&lt;/p&gt;
-&lt;h3 id=&quot;tarea-3-configura-un-proxy-inverso---caché-varnish-escuchando-en-el-puerto-80-y-que-se-comunica-con-el-servidor-web-por-el-puerto-8080-entrega-y-muestra-una-comprobación-de-que-varnish-está-funcionando-con-la-nueva-configuración-realiza-pruebas-de-rendimiento-quedate-con-el-resultado-del-parámetro-requests-per-second-y-comprueba-si-hemos-aumentado-el-rendimiento-si-hacemos-varias-peticiones-a-la-misma-url-¿cuantas-peticiones-llegan-al-servidor-web-comprueba-el-fichero-accesslog-para-averiguarlo&quot;&gt;&lt;a href=&quot;#tarea-3-configura-un-proxy-inverso---cach%C3%A9-varnish-escuchando-en-el-puerto-80-y-que-se-comunica-con-el-servidor-web-por-el-puerto-8080-entrega-y-muestra-una-comprobaci%C3%B3n-de-que-varnish-est%C3%A1-funcionando-con-la-nueva-configuraci%C3%B3n-realiza-pruebas-de-rendimiento-quedate-con-el-resultado-del-par%C3%A1metro-requests-per-second-y-comprueba-si-hemos-aumentado-el-rendimiento-si-hacemos-varias-peticiones-a-la-misma-url-%C2%BFcuantas-peticiones-llegan-al-servidor-web-comprueba-el-fichero-accesslog-para-averiguarlo&quot; aria-label=&quot;tarea 3 configura un proxy inverso   caché varnish escuchando en el puerto 80 y que se comunica con el servidor web por el puerto 8080 entrega y muestra una comprobación de que varnish está funcionando con la nueva configuración realiza pruebas de rendimiento quedate con el resultado del parámetro requests per second y comprueba si hemos aumentado el rendimiento si hacemos varias peticiones a la misma url ¿cuantas peticiones llegan al servidor web comprueba el fichero accesslog para averiguarlo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Configura un proxy inverso - caché Varnish escuchando en el puerto 80 y que se comunica con el servidor web por el puerto 8080. Entrega y muestra una comprobación de que varnish está funcionando con la nueva configuración. Realiza pruebas de rendimiento (quedate con el resultado del parámetro Requests per second) y comprueba si hemos aumentado el rendimiento. Si hacemos varias peticiones a la misma URL, ¿cuantas peticiones llegan al servidor web? (comprueba el fichero access.log para averiguarlo).&lt;/h3&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[SERVICIOS] - Práctica: Proxy, proxy inverso y balanceadores de carga]]></title><description><![CDATA[Antes de comenzar crearemos una máquina vagrant donde realizaremos el ejercicio.   Vagrantfile
-(Para no tener problemas a la hora de…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servicios-practica-proxy-proxy-inverso-y-balanceadores-de-carga</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servicios-practica-proxy-proxy-inverso-y-balanceadores-de-carga</guid><category><![CDATA[Proxy Squid]]></category><pubDate>Tue, 02 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;h3 id=&quot;tarea-3-configura-un-proxy-inverso---caché-varnish-escuchando-en-el-puerto-80-y-que-se-comunica-con-el-servidor-web-por-el-puerto-8080-entrega-y-muestra-una-comprobación-de-que-varnish-está-funcionando-con-la-nueva-configuración-realiza-pruebas-de-rendimiento-quedate-con-el-resultado-del-parámetro-requests-per-second-y-comprueba-si-hemos-aumentado-el-rendimiento-si-hacemos-varias-peticiones-a-la-misma-url-¿cuantas-peticiones-llegan-al-servidor-web-comprueba-el-fichero-accesslog-para-averiguarlo&quot;&gt;&lt;a href=&quot;#tarea-3-configura-un-proxy-inverso---cach%C3%A9-varnish-escuchando-en-el-puerto-80-y-que-se-comunica-con-el-servidor-web-por-el-puerto-8080-entrega-y-muestra-una-comprobaci%C3%B3n-de-que-varnish-est%C3%A1-funcionando-con-la-nueva-configuraci%C3%B3n-realiza-pruebas-de-rendimiento-quedate-con-el-resultado-del-par%C3%A1metro-requests-per-second-y-comprueba-si-hemos-aumentado-el-rendimiento-si-hacemos-varias-peticiones-a-la-misma-url-%C2%BFcuantas-peticiones-llegan-al-servidor-web-comprueba-el-fichero-accesslog-para-averiguarlo&quot; aria-label=&quot;tarea 3 configura un proxy inverso   caché varnish escuchando en el puerto 80 y que se comunica con el servidor web por el puerto 8080 entrega y muestra una comprobación de que varnish está funcionando con la nueva configuración realiza pruebas de rendimiento quedate con el resultado del parámetro requests per second y comprueba si hemos aumentado el rendimiento si hacemos varias peticiones a la misma url ¿cuantas peticiones llegan al servidor web comprueba el fichero accesslog para averiguarlo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Configura un proxy inverso - caché Varnish escuchando en el puerto 80 y que se comunica con el servidor web por el puerto 8080. Entrega y muestra una comprobación de que varnish está funcionando con la nueva configuración. Realiza pruebas de rendimiento (quedate con el resultado del parámetro Requests per second) y comprueba si hemos aumentado el rendimiento. Si hacemos varias peticiones a la misma URL, ¿cuantas peticiones llegan al servidor web? (comprueba el fichero access.log para averiguarlo).&lt;/h3&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[SERVICIOS] - Práctica: Proxy, proxy inverso y balanceadores de carga]]></title><description><![CDATA[Proxy Squid Antes de comenzar crearemos una máquina vagrant donde realizaremos el ejercicio.   Vagrantfile
+(Para no tener problemas a la…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servicios-practica-proxy-proxy-inverso-y-balanceadores-de-carga</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servicios-practica-proxy-proxy-inverso-y-balanceadores-de-carga</guid><category><![CDATA[Proxy Squid]]></category><pubDate>Tue, 02 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -1655,6 +1655,7 @@ nodo1 &lt;span class=&quot;token assign-left variable&quot;&gt;ansible_ssh_host&
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;proxy-squid&quot;&gt;&lt;a href=&quot;#proxy-squid&quot; aria-label=&quot;proxy squid permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Proxy Squid&lt;/h1&gt;
 &lt;p&gt;Antes de comenzar crearemos una máquina &lt;strong&gt;vagrant&lt;/strong&gt; donde realizaremos el ejercicio.  &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://fp.josedomingo.org/serviciosgs/u08/doc/squid/Vagrantfile&quot;&gt;Vagrantfile&lt;/a&gt;
@@ -2117,7 +2118,252 @@ http_access deny &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;doma
 &lt;span class=&quot;token number&quot;&gt;1615837567.829&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.200.1 TCP_DENIED/403 &lt;span class=&quot;token number&quot;&gt;4004&lt;/span&gt; CONNECT profile.accounts.firefox.com:443 - HIER_NONE/- text/html
 &lt;span class=&quot;token number&quot;&gt;1615837567.857&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.200.1 TCP_DENIED/403 &lt;span class=&quot;token number&quot;&gt;3998&lt;/span&gt; CONNECT token.services.mozilla.com:443 - HIER_NONE/- text/html
 &lt;span class=&quot;token number&quot;&gt;1615837567.871&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.200.1 TCP_DENIED/403 &lt;span class=&quot;token number&quot;&gt;4049&lt;/span&gt; CONNECT sync-1-us-west1-g.sync.services.mozilla.com:443 - HIER_NONE/- text/html
-&lt;span class=&quot;token number&quot;&gt;1615837661.673&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.200.1 TCP_DENIED/403 &lt;span class=&quot;token number&quot;&gt;3968&lt;/span&gt; CONNECT cdn.jsdelivr.net:443 - HIER_NONE/- text/html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Circe - Trámites]]></title><description><![CDATA[Indica cuáles son los trámites necesarios para la puesta en marcha de tu empresa. Con esta actividad se propone la creación de un dossier en…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/circe-tramites</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/circe-tramites</guid><category><![CDATA[Circe]]></category><pubDate>Mon, 01 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Indica cuáles son los trámites necesarios para la puesta en marcha de tu empresa.&lt;/p&gt;
+&lt;span class=&quot;token number&quot;&gt;1615837661.673&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.200.1 TCP_DENIED/403 &lt;span class=&quot;token number&quot;&gt;3968&lt;/span&gt; CONNECT cdn.jsdelivr.net:443 - HIER_NONE/- text/html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;center&gt;&lt;img alt=&quot;Balanceadores de carga&quot; src=&quot;https://blogs.masterhacks.net/wp-content/uploads/2018/09/masterhaks_balanceador_carga.png&quot;&gt;&lt;/center&gt;
+&lt;h1 id=&quot;balanceadores-de-carga&quot;&gt;&lt;a href=&quot;#balanceadores-de-carga&quot; aria-label=&quot;balanceadores de carga permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Balanceadores de carga&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://fp.josedomingo.org/serviciosgs/u08/doc/haproxy/vagrant.zip&quot;&gt;Escenario&lt;/a&gt;(Modificar en el Vagrantfile debian/buster64 por generic/debian10 y las rutas de los archivos.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;tarea-1-entrega-capturas-de-pantalla-que-el-balanceador-está-funcionando&quot;&gt;&lt;a href=&quot;#tarea-1-entrega-capturas-de-pantalla-que-el-balanceador-est%C3%A1-funcionando&quot; aria-label=&quot;tarea 1 entrega capturas de pantalla que el balanceador está funcionando permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Entrega capturas de pantalla que el balanceador está funcionando.&lt;/h2&gt;
+&lt;p&gt;El primer paso es arrancar el escenario e instalar el paquete HAproxy.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@balanceador:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; haproxy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Configuración de HAproxy.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@balanceador:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; /etc/haproxy/
+vagrant@balanceador:/etc/haproxy$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; haproxy.cfg 
+
+global
+    daemon
+    maxconn &lt;span class=&quot;token number&quot;&gt;256&lt;/span&gt;
+    user    haproxy
+    group   haproxy
+    log     &lt;span class=&quot;token number&quot;&gt;127.0&lt;/span&gt;.0.1       local0
+    log     &lt;span class=&quot;token number&quot;&gt;127.0&lt;/span&gt;.0.1       local1  notice
+defaults
+    mode    http
+    log     global
+    &lt;span class=&quot;token function&quot;&gt;timeout&lt;/span&gt; connect 5000ms
+    &lt;span class=&quot;token function&quot;&gt;timeout&lt;/span&gt; client  50000ms
+    &lt;span class=&quot;token function&quot;&gt;timeout&lt;/span&gt; server  50000ms
+listen granja_cda
+    &lt;span class=&quot;token builtin class-name&quot;&gt;bind&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.43.17:80 &lt;span class=&quot;token comment&quot;&gt;#ip del balanceador&lt;/span&gt;
+    mode http
+    stats &lt;span class=&quot;token builtin class-name&quot;&gt;enable&lt;/span&gt;
+    stats auth  cda:cda
+    balance roundrobin
+    server uno &lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.11:80 maxconn &lt;span class=&quot;token number&quot;&gt;128&lt;/span&gt;
+    server dos &lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.22:80 maxconn &lt;span class=&quot;token number&quot;&gt;128&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Habilitamos el arranque desde el inicio.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@balanceador:/etc/haproxy$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/default/haproxy 
+&lt;span class=&quot;token assign-left variable&quot;&gt;ENABLED&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Iniciamos y comprobamos el servicio Haproxy.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@balanceador:/etc/haproxy$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl start haproxy
+vagrant@balanceador:/etc/haproxy$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl status haproxy
+● haproxy.service - HAProxy Load Balancer
+   Loaded: loaded &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;/lib/systemd/system/haproxy.service&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; enabled&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; vendor preset: enabled&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   Active: active &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;running&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; since Tue &lt;span class=&quot;token number&quot;&gt;2021&lt;/span&gt;-03-16 08:54:10 UTC&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 4min 5s ago
+     Docs: man:haproxy&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+           file:/usr/share/doc/haproxy/configuration.txt.gz
+ Main PID: &lt;span class=&quot;token number&quot;&gt;1653&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;haproxy&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    Tasks: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;limit: &lt;span class=&quot;token number&quot;&gt;2359&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   Memory: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;.2M
+   CGroup: /system.slice/haproxy.service
+           ├─1653 /usr/sbin/haproxy -Ws -f /etc/haproxy/haproxy.cfg -p /run/haproxy.pid
+           └─1654 /usr/sbin/haproxy -Ws -f /etc/haproxy/haproxy.cfg -p /run/haproxy.pid
+
+Mar &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt; 08:54:10 balanceador systemd&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: Starting HAProxy Load Balancer&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+Mar &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt; 08:54:10 balanceador systemd&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: Started HAProxy Load Balancer.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/10e68c971c748e25779783ba7e1d8e54/d418b/balanceo1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 42.82744282744282%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAByElEQVQoz42Ry04aURyH51kwECABAmWDNQYEa5BYYaBydTQWfDpdYZMusNQUBoKEHTPgkHInIT4D+XrmpDVdepIvv//93JRyucz19TW2ZjIZTpNJwuEwfr8fn8/3hu3/TyAQIBQK8TFyQPbwhlgsJlFKpSKXlQpZVQxLHJM5+0xGVUmKwfF4nJOTE44TCaKHB7IhGo1ydBQjIWKpVAo1q1IqF+WBcrkciq63aTQadLsd9HaLjq7TarVot9v0+31Jt9PBGptYkwmWZTGZWLy8vEjG4xGGOcQ0TYbDIcpj84n6t+/8ando/HgS/OTu7o77+3vq9ToPDw9SDcNkNBrJxn9qmAbG0OS3uRR5Q26gXOQLXGpXqLkv4popcb1PBINBvF4vLpdL4na7cezt4XA43nA6nXg8HkLBDyQjOfb3IxKlWv3Kba2KVilzIT6lUiyiXV1RyOfJZrMUCgWhKudnp6RFPp0+l59n54qyVqN6e0OtVkPTNJRer0ez2WQwGPAsbNu331AXb2nHbO33n9mslqzWa1arlWS5XLJYLJjP58xnc2azGdPpFGW73TITxuvrK+vNBtu3i+zitRgw/Zt771LeW7jb7d7FH1sc+nyPmlH6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;demostracion de practica resuelta balanceo&quot;
+        src=&quot;/gatsbyjs/static/10e68c971c748e25779783ba7e1d8e54/36727/balanceo1.png&quot;
+        srcset=&quot;/gatsbyjs/static/10e68c971c748e25779783ba7e1d8e54/acf4b/balanceo1.png 173w,
+/gatsbyjs/static/10e68c971c748e25779783ba7e1d8e54/fc834/balanceo1.png 345w,
+/gatsbyjs/static/10e68c971c748e25779783ba7e1d8e54/36727/balanceo1.png 690w,
+/gatsbyjs/static/10e68c971c748e25779783ba7e1d8e54/d418b/balanceo1.png 962w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tarea-2-entrega-una-captura-de-pantalla-donde-se-vea-la-página-web-de-estadísticas-de-haproxy-abrir-en-un-navegador-web-la-url-http17222xxhaproxystats-pedirá-un-usuario-y-un-password-ambos-cda&quot;&gt;&lt;a href=&quot;#tarea-2-entrega-una-captura-de-pantalla-donde-se-vea-la-p%C3%A1gina-web-de-estad%C3%ADsticas-de-haproxy-abrir-en-un-navegador-web-la-url-http17222xxhaproxystats-pedir%C3%A1-un-usuario-y-un-password-ambos-cda&quot; aria-label=&quot;tarea 2 entrega una captura de pantalla donde se vea la página web de estadísticas de haproxy abrir en un navegador web la url http17222xxhaproxystats pedirá un usuario y un password ambos cda permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Entrega una captura de pantalla donde se vea la página web de estadísticas de haproxy (abrir en un navegador web la URL &lt;a href=&quot;http://172.22.x.x/haproxy?stats&quot;&gt;http://172.22.x.x/haproxy?stats&lt;/a&gt;, pedirá un usuario y un password, ambos cda).&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/45e9a0b363e71c3599fbc5dfa1909612/f570d/balanceo2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 96.875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAACXBIWXMAAC4jAAAuIwF4pT92AAABrklEQVQ4y6WT3XLaMBCF/RDcWZItW5JlwAb8H9sYk5Q2nUz9Ar3uC+QyT58ji4RkmmGmdOdDLLDrXe0enOnX0/E43h+PfdfURdF1bdM0VVWCvCiy3SbPdlluLMvMe9/3Dw/3p9PpcDg4SZIKoaSMlNKWKIqB1ksdr6JIaz37b9gYxAPHJR6ZcS0uYFc5xwOHUv9mHDzg9mTfD29PllL/XZwQRoh1ztdjjM8EOC/JQkSM+WEopFRCSDggTTeFsRJUVYUTM1cqwvARA4JAmIGFoYI3TRMWi01ijfv9Hjscx/FgbTR+38FavBAwDPs4XmLyJhl7fnz8MQxD17Z106BinhdGFVYb82m+nDH9lCWEYJI5R5+yrmvoDEXzslkl269Jd4Zkm25zqZYEyWgdyfZ5bdeP377jmig3X/jdStSu0dXdXVXVaF5FGmoxIsHAfD9AG6ef05/nl+V6SwgNhUqSjWW9PqOkApyft/tJYb4XeOzy8W093PMC6xA/JsHa9RSlZrsOfris96okCOWL3e9F97xYPUEGlPKvRXIl36X8vYaZ9s3ydhj7j3/VR63+K680OagdcByi5wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;demostracion de practica resuelta balanceo&quot;
+        src=&quot;/gatsbyjs/static/45e9a0b363e71c3599fbc5dfa1909612/36727/balanceo2.png&quot;
+        srcset=&quot;/gatsbyjs/static/45e9a0b363e71c3599fbc5dfa1909612/acf4b/balanceo2.png 173w,
+/gatsbyjs/static/45e9a0b363e71c3599fbc5dfa1909612/fc834/balanceo2.png 345w,
+/gatsbyjs/static/45e9a0b363e71c3599fbc5dfa1909612/36727/balanceo2.png 690w,
+/gatsbyjs/static/45e9a0b363e71c3599fbc5dfa1909612/f570d/balanceo2.png 960w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/d1cb322f87d2182390025e5a81d58838/a987b/balanceo3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABXUlEQVQoz82QzU7CQBSF+17YEsANSowu3Brji6kI6FOQaAj4AxVRFJLSYjUGUDRgC23Bfk6pRNyzcJIvZ+49ZyZzR9rZ3WNjY5N4LEE8sYosR4lEFBQlKlAWiCL/qRXkFZlELEYyucZWapvUegqpmL+jdHZP8axBqdBEVTXKFQ3d0Gk/tnk0Q4y2LnqtWd8QagjV9RZPpvGT0TGFSn3zBavXx7PsGXy5Ib6Ha/UZ9nt8vr/BdPzrzZk62IMBTBysjyHuyEUq5Qvo3VdepxN6nkfHdek4jqinNHsdyppG1WjzbNt0A1943SDjeqJ2aHRsniwH83NM1/aQ0hdFcrUKR9VLsrcVMrUyh+o52TuVtOjvB/ubq1k/U7sS2TIH1xfk6tfkROa4XuHkoUq2rnJqakjBc/HEOO4CzkiowLFDAn+WGYU6tsPc/Nzcm4iRfcR3LRHJ932WicSS1/+/8Bs7nSHWCDBn/QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;demostracion de practica resuelta balanceo&quot;
+        src=&quot;/gatsbyjs/static/d1cb322f87d2182390025e5a81d58838/36727/balanceo3.png&quot;
+        srcset=&quot;/gatsbyjs/static/d1cb322f87d2182390025e5a81d58838/acf4b/balanceo3.png 173w,
+/gatsbyjs/static/d1cb322f87d2182390025e5a81d58838/fc834/balanceo3.png 345w,
+/gatsbyjs/static/d1cb322f87d2182390025e5a81d58838/36727/balanceo3.png 690w,
+/gatsbyjs/static/d1cb322f87d2182390025e5a81d58838/17fa4/balanceo3.png 1035w,
+/gatsbyjs/static/d1cb322f87d2182390025e5a81d58838/a5044/balanceo3.png 1380w,
+/gatsbyjs/static/d1cb322f87d2182390025e5a81d58838/a987b/balanceo3.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tarea-3-desde-uno-de-los-servidores-apache1-ó-apache2-verificar-los-logs-del-servidor-apache-en-todos-los-casos-debería-figurar-como-única-dirección-ip-cliente-la-ip-interna-de-la-máquina-balanceador-1010101-¿por-qué&quot;&gt;&lt;a href=&quot;#tarea-3-desde-uno-de-los-servidores-apache1-%C3%B3-apache2-verificar-los-logs-del-servidor-apache-en-todos-los-casos-deber%C3%ADa-figurar-como-%C3%BAnica-direcci%C3%B3n-ip-cliente-la-ip-interna-de-la-m%C3%A1quina-balanceador-1010101-%C2%BFpor-qu%C3%A9&quot; aria-label=&quot;tarea 3 desde uno de los servidores apache1 ó apache2 verificar los logs del servidor apache en todos los casos debería figurar como única dirección ip cliente la ip interna de la máquina balanceador 1010101 ¿por qué permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Desde uno de los servidores (apache1 ó apache2), verificar los logs del servidor Apache. En todos los casos debería figurar como única dirección IP cliente la IP interna de la máquina balanceador 10.10.10.1. ¿Por qué?&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@apache1:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;tail&lt;/span&gt; -f /var/log/apache2/access.log 
+&lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.1 - - &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;/Mar/2021:09:03:00 +0000&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;GET / HTTP/1.1&quot;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;436&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.1 - - &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;/Mar/2021:09:03:01 +0000&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;GET / HTTP/1.1&quot;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;436&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.1 - - &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;/Mar/2021:09:03:01 +0000&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;GET / HTTP/1.1&quot;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;436&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.1 - - &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;/Mar/2021:09:03:01 +0000&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;GET / HTTP/1.1&quot;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;436&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.1 - - &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;/Mar/2021:09:03:01 +0000&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;GET / HTTP/1.1&quot;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;436&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.1 - - &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;/Mar/2021:09:03:01 +0000&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;GET / HTTP/1.1&quot;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;436&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.1 - - &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;/Mar/2021:09:03:01 +0000&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;GET / HTTP/1.1&quot;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;436&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.1 - - &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;/Mar/2021:09:03:02 +0000&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;GET / HTTP/1.1&quot;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;436&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.1 - - &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;/Mar/2021:09:03:16 +0000&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;GET / HTTP/1.1&quot;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;436&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0&quot;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.1 - - &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;/Mar/2021:09:07:04 +0000&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;GET /favicon.ico HTTP/1.1&quot;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;436&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Esto es debido al tipo de balanceo &lt;strong&gt;Roundrobin&lt;/strong&gt; que es el encargado de realizar las peticiones, son distribuidas entre los servidores de forma cíclica, independientemente de la carga del servidor. Distribuye las peticiones de forma ecuánime pero la carga no.&lt;/p&gt;
+&lt;h2 id=&quot;tarea-4verificar-la-estructura-y-valores-de-las-cookies-phpsessid-intercambiadas-en-la-primera-respuesta-http-inicio-de-sesión-se-establece-su-valor-con-un-parámetro-http-setcookie-en-la-cabecera-de-la-respuesta-las-sucesivas-peticiones-del-cliente-incluyen-el-valor-de-esa-cookie-parámetro-http-cookie-en-la-cabecera-de-las-peticiones&quot;&gt;&lt;a href=&quot;#tarea-4verificar-la-estructura-y-valores-de-las-cookies-phpsessid-intercambiadas-en-la-primera-respuesta-http-inicio-de-sesi%C3%B3n-se-establece-su-valor-con-un-par%C3%A1metro-http-setcookie-en-la-cabecera-de-la-respuesta-las-sucesivas-peticiones-del-cliente-incluyen-el-valor-de-esa-cookie-par%C3%A1metro-http-cookie-en-la-cabecera-de-las-peticiones&quot; aria-label=&quot;tarea 4verificar la estructura y valores de las cookies phpsessid intercambiadas en la primera respuesta http inicio de sesión se establece su valor con un parámetro http setcookie en la cabecera de la respuesta las sucesivas peticiones del cliente incluyen el valor de esa cookie parámetro http cookie en la cabecera de las peticiones permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 4:Verificar la estructura y valores de las cookies PHPSESSID intercambiadas. En la primera respuesta HTTP (inicio de sesión), se establece su valor con un parámetro HTTP SetCookie en la cabecera de la respuesta. Las sucesivas peticiones del cliente incluyen el valor de esa cookie (parámetro HTTP Cookie en la cabecera de las peticiones)&lt;/h2&gt;
+&lt;p&gt;Modificaremos nuestro fichero de configuración de &lt;strong&gt;Haproxy&lt;/strong&gt; y le añadiremos &quot;cookie PHPSESSID prefix&quot;, debería queda así:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@balanceador:/etc/haproxy$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; haproxy.cfg 
+
+global
+    daemon
+    maxconn &lt;span class=&quot;token number&quot;&gt;256&lt;/span&gt;
+    user    haproxy
+    group   haproxy
+    log     &lt;span class=&quot;token number&quot;&gt;127.0&lt;/span&gt;.0.1       local0
+    log     &lt;span class=&quot;token number&quot;&gt;127.0&lt;/span&gt;.0.1       local1  notice
+defaults
+    mode    http
+    log     global
+    &lt;span class=&quot;token function&quot;&gt;timeout&lt;/span&gt; connect 5000ms
+    &lt;span class=&quot;token function&quot;&gt;timeout&lt;/span&gt; client  50000ms
+    &lt;span class=&quot;token function&quot;&gt;timeout&lt;/span&gt; server  50000ms
+listen granja_cda
+    &lt;span class=&quot;token builtin class-name&quot;&gt;bind&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.43.17:80 &lt;span class=&quot;token comment&quot;&gt;#ip del balanceador&lt;/span&gt;
+    mode http
+    stats &lt;span class=&quot;token builtin class-name&quot;&gt;enable&lt;/span&gt;
+    stats auth  cda:cda
+    balance roundrobin
+    cookie PHPSESSID prefix
+    server uno &lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.11:80 maxconn &lt;span class=&quot;token number&quot;&gt;128&lt;/span&gt;
+    server dos &lt;span class=&quot;token number&quot;&gt;10.10&lt;/span&gt;.10.22:80 maxconn &lt;span class=&quot;token number&quot;&gt;128&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Reiniciamos servicio.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@balanceador:/etc/haproxy$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart haproxy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/68fdbcf502925daa643dbc6eeb8dbc14/88829/balanceo4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.54413291796469%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAB70lEQVQoz62R227aQBCG93UItDccqjhAAWMTyUBSoAmmGKcnNVIvUarmwZBAoinQi5QC5nDHGyDAgMPhgtPf3aW5TqV2pU8z45FnV/ORzBsN2ZwONZPF+askEskUJElCIBBAMBiEw+GAzWaD7ejoEP9gt9vx7LkDJx4/YkIGJz4BgiCAaFoWOU3DxesUopKMz9fX+Hp7iy83N8jn84jFYhBDIchiEJIs88sYiqIgHo8jraah6Vnouo5kMglSrVZRLBZxd/cNP+/vwervlQoqlHq9jm63i26nQ2kfckqv1+OxQ7+32220WgbPy+UyiGXNYFkW/sdZrVYg05lFBz7gYb6A9TDHjNamaWI8Hj/JaDSijGEOpzAnJvr9Poj+7iPefviE3NV7XKpZKLEzHAvHcLvdHJfLxXEynE7KoWY9zwsPxJcyUuIVRCmEEN01SV9eIEMXmzg/Q4RaVU5PoUSjkKkAURS5bZ/XC79XgN/vp/g44XAYkUgEiUQCKv1fVVUukLBFFgoFlEol/KBCqlQGE1Or1dBsNmEYBlosNn+hRXPDaFEJB1i/0WhweSxncsl0OgVjv9//s5T5fA7CBCwWCyyXS0wmEyplxi9Yr9fY7XbYbrd/BTuDwQCEFZvNhsOGPEY2jB328qde/9gfDof4DTe2nz/6GaP8AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;demostracion de practica resuelta balanceo4&quot;
+        src=&quot;/gatsbyjs/static/68fdbcf502925daa643dbc6eeb8dbc14/36727/balanceo4.png&quot;
+        srcset=&quot;/gatsbyjs/static/68fdbcf502925daa643dbc6eeb8dbc14/acf4b/balanceo4.png 173w,
+/gatsbyjs/static/68fdbcf502925daa643dbc6eeb8dbc14/fc834/balanceo4.png 345w,
+/gatsbyjs/static/68fdbcf502925daa643dbc6eeb8dbc14/36727/balanceo4.png 690w,
+/gatsbyjs/static/68fdbcf502925daa643dbc6eeb8dbc14/88829/balanceo4.png 963w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/440c1847cce911ec422533f5ef647799/a987b/balanceo5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 13.854166666666668%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAdklEQVQI142LQRIDIQgE9/9PykNyzgPW1K6iggIT5bTHTFUXzaBHOk/kO+Ne5FyCSoTvRUhZUAqhd0ZrHSIDtbZwZlm7xG13RDX+Hq93wScN7MypixlupoBbuLtDVWOOMRYz3Myi3x0zBweJQ9TxzH4c8+H/5ge+b+slnE0zAQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;demostracion de practica resuelta balanceo5&quot;
+        src=&quot;/gatsbyjs/static/440c1847cce911ec422533f5ef647799/36727/balanceo5.png&quot;
+        srcset=&quot;/gatsbyjs/static/440c1847cce911ec422533f5ef647799/acf4b/balanceo5.png 173w,
+/gatsbyjs/static/440c1847cce911ec422533f5ef647799/fc834/balanceo5.png 345w,
+/gatsbyjs/static/440c1847cce911ec422533f5ef647799/36727/balanceo5.png 690w,
+/gatsbyjs/static/440c1847cce911ec422533f5ef647799/17fa4/balanceo5.png 1035w,
+/gatsbyjs/static/440c1847cce911ec422533f5ef647799/a5044/balanceo5.png 1380w,
+/gatsbyjs/static/440c1847cce911ec422533f5ef647799/a987b/balanceo5.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Como podemos comprobar pasados unos segundos la cookie queda generada y guardada.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Circe - Trámites]]></title><description><![CDATA[Indica cuáles son los trámites necesarios para la puesta en marcha de tu empresa. Con esta actividad se propone la creación de un dossier en…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/circe-tramites</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/circe-tramites</guid><category><![CDATA[Circe]]></category><pubDate>Mon, 01 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Indica cuáles son los trámites necesarios para la puesta en marcha de tu empresa.&lt;/p&gt;
 &lt;p&gt;Con esta actividad se propone la creación de un dossier en la que se enumeren y detallen los trámites necesarios para la puesta en marcha de vuestra empresa.&lt;/p&gt;
 &lt;p&gt;Además, deben especificar la forma, el lugar o el portal a utilizar. &lt;/p&gt;
 &lt;hr&gt;
