@@ -348,7 +348,7 @@ Percentage of the requests served within a certain time (ms)
  100%   4429 (longest request)
 ```
 
-### Resumen
+### Resumen de las pruebas.
 <details open>
 <summary>Pruebas de rendimiento.(50)</summary>
 <br>
@@ -373,7 +373,135 @@ Requests per second:    2602.61 [#/sec] (mean)
 Requests per second:    3681.60 [#/sec] (mean)
 </details>
 
+
+
 ### Tarea 3: Configura un proxy inverso - caché Varnish escuchando en el puerto 80 y que se comunica con el servidor web por el puerto 8080. Entrega y muestra una comprobación de que varnish está funcionando con la nueva configuración. Realiza pruebas de rendimiento (quedate con el resultado del parámetro Requests per second) y comprueba si hemos aumentado el rendimiento. Si hacemos varias peticiones a la misma URL, ¿cuantas peticiones llegan al servidor web? (comprueba el fichero access.log para averiguarlo).
 
 
+Para realizar la prueba lo mas real posible modificaremos el puerto de nginx ya que nuestro proxy inverso utilizará el 80. 
+```shell
+vagrant@ansible:~$ sudo nano /etc/nginx/sites-available/default
+        listen 8080 default_server;
+        listen [::]:8080 default_server;
+```
 
+Reiniciaremos el servicio y comprobaremos que escuchamos por dicho puerto.
+```shell
+vagrant@ansible:~$ sudo systemctl restart nginx
+vagrant@ansible:~$ netstat -tln
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:25              0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:6081            0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:6082          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:3306            0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:11211         0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN     
+tcp6       0      0 :::22                   :::*                    LISTEN     
+tcp6       0      0 :::25                   :::*                    LISTEN     
+tcp6       0      0 :::6081                 :::*                    LISTEN     
+tcp6       0      0 :::8080                 :::*                    LISTEN  
+```
+
+Instalamos **Varnish**:
+```shell
+vagrant@ansible:~$ sudo apt install varnish
+```
+
+Configuraremos **Varnish** para que esuche por el puerto 80 y redirija las peticiones al puerto de nginx 8080.
+```shell
+vagrant@ansible:~$ sudo nano /etc/default/varnish
+DAEMON_OPTS="-a :80 \
+             -T localhost:6082 \
+             -f /etc/varnish/default.vcl \
+             -S /etc/varnish/secret \
+             -s malloc,256m"
+```
+
+```shell
+vagrant@ansible:~$ sudo nano /lib/systemd/system/varnish.service
+
+[Unit]
+Description=Varnish HTTP accelerator
+Documentation=https://www.varnish-cache.org/docs/6.1/ man:varnishd
+
+[Service]
+Type=simple
+LimitNOFILE=131072
+LimitMEMLOCK=82000
+ExecStart=/usr/sbin/varnishd -j unix,user=vcache -F -a :80 -T localhost:6082 -f /etc/varnish$
+ExecReload=/usr/share/varnish/varnishreload
+ProtectSystem=full
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Reiniciaremos los servicios.
+```shell
+vagrant@ansible:~$ sudo systemctl daemon-reload
+vagrant@ansible:~$ sudo systemctl restart varnish
+```
+
+Como podemos comprobar varnish esta escuchando por el puerto 80.
+```shell
+vagrant@ansible:~$ netstat -tln
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:25              0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:6082          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:3306            0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:11211         0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN     
+tcp6       0      0 :::22                   :::*                    LISTEN     
+tcp6       0      0 :::25                   :::*                    LISTEN     
+tcp6       0      0 :::80                   :::*                    LISTEN     
+tcp6       0      0 :::8080                 :::*                    LISTEN    
+```
+
+Pruebas de rendimiento (Ahora con Varnish).
+```shell
+vagrant@ansible:~$ ab -t 10 -c 50 -k http://192.168.2.75/wordpress/
+Requests per second:    7668.12 [#/sec] (mean)
+
+vagrant@ansible:~$ ab -t 10 -c 50 -k http://192.168.2.75/wordpress/
+Requests per second:    7831.05 [#/sec] (mean)
+
+vagrant@ansible:~$ ab -t 10 -c 50 -k http://192.168.2.75/wordpress/
+Requests per second:    7791.15 [#/sec] (mean)
+
+vagrant@ansible:~$ ab -t 10 -c 100 -k http://192.168.2.75/wordpress/
+Requests per second:    6809.21 [#/sec] (mean)
+
+vagrant@ansible:~$ ab -t 10 -c 100 -k http://192.168.2.75/wordpress/
+Requests per second:    7532.03 [#/sec] (mean)
+
+vagrant@ansible:~$ ab -t 10 -c 100 -k http://192.168.2.75/wordpress/
+Requests per second:    7109.23 [#/sec] (mean)
+
+vagrant@ansible:~$ ab -t 10 -c 250 -k http://192.168.2.75/wordpress/
+Requests per second:    7035.93 [#/sec] (mean)
+
+vagrant@ansible:~$ ab -t 10 -c 250 -k http://192.168.2.75/wordpress/
+Requests per second:    7010.52 [#/sec] (mean)
+
+vagrant@ansible:~$ ab -t 10 -c 250 -k http://192.168.2.75/wordpress/
+Requests per second:    6902.30 [#/sec] (mean)
+
+vagrant@ansible:~$ ab -t 10 -c 500 -k http://192.168.2.75/wordpress/
+Requests per second:    5636.73 [#/sec] (mean)
+
+vagrant@ansible:~$ ab -t 10 -c 500 -k http://192.168.2.75/wordpress/
+Requests per second:    5107.07 [#/sec] (mean)
+
+vagrant@ansible:~$ ab -t 10 -c 500 -k http://192.168.2.75/wordpress/
+Requests per second:    5358.35 [#/sec] (mean)
+```
+
+Como podemos comprobar las respuestas por segundo han aumentado bastante, ya que con el uso de **Varnish** se crea una copia del recurso solicitado por la caché del servidor, gracias a ello el rendimeinto aumenta.
