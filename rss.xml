@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 16 Mar 2021 10:05:05 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] Práctica 7 - Auditorías]]></title><description><![CDATA[Realiza y documenta adecuadamente las siguientes operaciones: 1. Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</guid><category><![CDATA[Auditorías]]></category><pubDate>Mon, 08 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Auditor&amp;#xED;as base de datos&quot; src=&quot;https://miro.medium.com/max/413/1*z2Q0z24IbwF1RLPa4X6glw.png&quot;&gt;&lt;/center&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 16 Mar 2021 19:17:16 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[ABD] Práctica 7 - Auditorías]]></title><description><![CDATA[Realiza y documenta adecuadamente las siguientes operaciones: 1. Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/abd-practica-7-auditorias</guid><category><![CDATA[Auditorías]]></category><pubDate>Mon, 08 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;center&gt;&lt;img alt=&quot;Auditor&amp;#xED;as base de datos&quot; src=&quot;https://miro.medium.com/max/413/1*z2Q0z24IbwF1RLPa4X6glw.png&quot;&gt;&lt;/center&gt;
 &lt;p&gt;Realiza y documenta adecuadamente las siguientes operaciones:&lt;/p&gt;
 &lt;h2 id=&quot;1-activa-desde-sqlplus-la-auditoría-de-los-intentos-de-acceso-fallidos-al-sistema-comprueba-su-funcionamiento&quot;&gt;&lt;a href=&quot;#1-activa-desde-sqlplus-la-auditor%C3%ADa-de-los-intentos-de-acceso-fallidos-al-sistema-comprueba-su-funcionamiento&quot; aria-label=&quot;1 activa desde sqlplus la auditoría de los intentos de acceso fallidos al sistema comprueba su funcionamiento permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al sistema. Comprueba su funcionamiento.&lt;/h2&gt;
 &lt;p&gt;Visualizaremos los parametros de auditorias.&lt;/p&gt;
@@ -1572,59 +1572,7 @@ db.collection.index.stats&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/s
 &lt;span class=&quot;token comment&quot;&gt;#El tamaño de los datos más el de los índices.&lt;/span&gt;
 db.collection.totalSize&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:
 &lt;span class=&quot;token comment&quot;&gt;#El tamaño de los índices.&lt;/span&gt;
-db.collection.totalIndexSize&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[SERVICIOS] - Ejercicio: Aumento de rendimiento de servidores web von Varnish]]></title><description><![CDATA[Tarea 1: Vamos a configurar una máquina con la configuración ganadora: nginx + fpmphp (socket unix). Para ello ejecuta la receta ansible que…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servicios-ejercicio-aumento-de-rendimiento-de-servidores-web-von-varnish</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servicios-ejercicio-aumento-de-rendimiento-de-servidores-web-von-varnish</guid><category><![CDATA[Servidores web]]></category><category><![CDATA[Rendimiento]]></category><category><![CDATA[Varnish]]></category><pubDate>Tue, 02 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/8179c/varnish.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABUBAQEAAAAAAAAAAAAAAAAAAAME/9oADAMBAAIQAxAAAAHFZnee8mCo/8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAERIQ/9oACAEBAAEFAmRcKBeRxZc//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAECEv/aAAgBAwEBPwGjUP/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGsr//EABYQAQEBAAAAAAAAAAAAAAAAAAEgIf/aAAgBAQAGPwIR2v/EABkQAAMBAQEAAAAAAAAAAAAAAAABESExUf/aAAgBAQABPyGXFd0bSOjVxjY2len/2gAMAwEAAgADAAAAEDjf/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERIWH/2gAIAQMBAT8Qo1Jgf//EABYRAQEBAAAAAAAAAAAAAAAAAAAxYf/aAAgBAgEBPxCWz//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExQVFh/9oACAEBAAE/ECECOXx5BjMCy9vZRU0l7iPYgKY+qf/Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;varnish logo&quot;
-        src=&quot;/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/8c996/varnish.jpg&quot;
-        srcset=&quot;/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/6f483/varnish.jpg 173w,
-/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/0fa0d/varnish.jpg 345w,
-/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/8c996/varnish.jpg 690w,
-/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/c8cd5/varnish.jpg 1035w,
-/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/00650/varnish.jpg 1380w,
-/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/8179c/varnish.jpg 1600w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&quot;tarea-1-vamos-a-configurar-una-máquina-con-la-configuración-ganadora-nginx--fpmphp-socket-unix-para-ello-ejecuta-la-receta-ansible-que-encontraras-en-este--a-hrefhttpsgithubcomjosedom24ansible_nginx_fpm_php-targetblankrepositorioa-accede-al-wordpress-y-termina-la-configuración-del-sitio&quot;&gt;&lt;a href=&quot;#tarea-1-vamos-a-configurar-una-m%C3%A1quina-con-la-configuraci%C3%B3n-ganadora-nginx--fpmphp-socket-unix-para-ello-ejecuta-la-receta-ansible-que-encontraras-en-este--a-hrefhttpsgithubcomjosedom24ansible_nginx_fpm_php-targetblankrepositorioa-accede-al-wordpress-y-termina-la-configuraci%C3%B3n-del-sitio&quot; aria-label=&quot;tarea 1 vamos a configurar una máquina con la configuración ganadora nginx  fpmphp socket unix para ello ejecuta la receta ansible que encontraras en este  a hrefhttpsgithubcomjosedom24ansible_nginx_fpm_php targetblankrepositorioa accede al wordpress y termina la configuración del sitio permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Vamos a configurar una máquina con la configuración ganadora: nginx + fpm&lt;em&gt;php (socket unix). Para ello ejecuta la receta ansible que encontraras en este  &amp;#x3C;a href=&quot;&lt;a href=&quot;https://github.com/josedom24/ansible_nginx_fpm_php&quot;&gt;https://github.com/josedom24/ansible_nginx_fpm_php&lt;/a&gt;&quot; target=&quot;&lt;/em&gt;blank&quot;&gt;repositorio&lt;/a&gt;. Accede al wordpress y termina la configuración del sitio.&lt;/h3&gt;
-&lt;p&gt;Instalamos Ansible.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; update &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; ansible&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Clonamos el repositorio:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/GitHub$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/josedom24/ansible_nginx_fpm_php.git
-Clonando en &lt;span class=&quot;token string&quot;&gt;&apos;ansible_nginx_fpm_php&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
-remote: Enumerating objects: &lt;span class=&quot;token number&quot;&gt;40&lt;/span&gt;, done.
-remote: Counting objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;40&lt;/span&gt;/40&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, done.
-remote: Compressing objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;27&lt;/span&gt;/27&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, done.
-remote: Total &lt;span class=&quot;token number&quot;&gt;40&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;delta &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, reused &lt;span class=&quot;token number&quot;&gt;36&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;delta &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, pack-reused &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-Desempaquetando objetos: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;40&lt;/span&gt;/40&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, listo.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Modificamos la ip de la maquina para adaptarla a nuestro interfaz.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;~/GitHub/ansible_nginx_fpm_php$ &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; hosts
-
-&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;servidores_web&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-nodo1 &lt;span class=&quot;token assign-left variable&quot;&gt;ansible_ssh_host&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;172.22&lt;/span&gt;.201.13 &lt;span class=&quot;token assign-left variable&quot;&gt;ansible_python_interpreter&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/usr/bin/python3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Iniciamos la receta para crear el escenario.(con la opcion -k accederemos poniendo la contraseña)&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;~/GitHub/ansible_nginx_fpm_php$ ansible-playbook -k site.yaml &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&quot;tarea-2-vamos-a-hacer-las-pruebas-de-rendimiento-desde-la-misma-máquina-es-decir-vamos-a-ejecutar-instrucciones-similares-a-esta&quot;&gt;&lt;a href=&quot;#tarea-2-vamos-a-hacer-las-pruebas-de-rendimiento-desde-la-misma-m%C3%A1quina-es-decir-vamos-a-ejecutar-instrucciones-similares-a-esta&quot; aria-label=&quot;tarea 2 vamos a hacer las pruebas de rendimiento desde la misma máquina es decir vamos a ejecutar instrucciones similares a esta permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Vamos a hacer las pruebas de rendimiento desde la misma máquina, es decir vamos a ejecutar instrucciones similares a esta:&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ab -t &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; -c &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; -k http:/127.0.0.1/wordpress/index.php&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Realiza algunas prueba de rendimiento con varios valores distintos para el nivel de concurrencia (50,100,250,500) y apunta el resultado de peticiones/segundo (parámetro Requests per second de ab). Puedes hacer varias pruebas y quedarte con la media. Reinicia el servidor nginx y el fpm-php entre cada prueba para que los resultados sean los más reales posibles.&lt;/p&gt;
-&lt;h3 id=&quot;tarea-3-configura-un-proxy-inverso---caché-varnish-escuchando-en-el-puerto-80-y-que-se-comunica-con-el-servidor-web-por-el-puerto-8080-entrega-y-muestra-una-comprobación-de-que-varnish-está-funcionando-con-la-nueva-configuración-realiza-pruebas-de-rendimiento-quedate-con-el-resultado-del-parámetro-requests-per-second-y-comprueba-si-hemos-aumentado-el-rendimiento-si-hacemos-varias-peticiones-a-la-misma-url-¿cuantas-peticiones-llegan-al-servidor-web-comprueba-el-fichero-accesslog-para-averiguarlo&quot;&gt;&lt;a href=&quot;#tarea-3-configura-un-proxy-inverso---cach%C3%A9-varnish-escuchando-en-el-puerto-80-y-que-se-comunica-con-el-servidor-web-por-el-puerto-8080-entrega-y-muestra-una-comprobaci%C3%B3n-de-que-varnish-est%C3%A1-funcionando-con-la-nueva-configuraci%C3%B3n-realiza-pruebas-de-rendimiento-quedate-con-el-resultado-del-par%C3%A1metro-requests-per-second-y-comprueba-si-hemos-aumentado-el-rendimiento-si-hacemos-varias-peticiones-a-la-misma-url-%C2%BFcuantas-peticiones-llegan-al-servidor-web-comprueba-el-fichero-accesslog-para-averiguarlo&quot; aria-label=&quot;tarea 3 configura un proxy inverso   caché varnish escuchando en el puerto 80 y que se comunica con el servidor web por el puerto 8080 entrega y muestra una comprobación de que varnish está funcionando con la nueva configuración realiza pruebas de rendimiento quedate con el resultado del parámetro requests per second y comprueba si hemos aumentado el rendimiento si hacemos varias peticiones a la misma url ¿cuantas peticiones llegan al servidor web comprueba el fichero accesslog para averiguarlo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Configura un proxy inverso - caché Varnish escuchando en el puerto 80 y que se comunica con el servidor web por el puerto 8080. Entrega y muestra una comprobación de que varnish está funcionando con la nueva configuración. Realiza pruebas de rendimiento (quedate con el resultado del parámetro Requests per second) y comprueba si hemos aumentado el rendimiento. Si hacemos varias peticiones a la misma URL, ¿cuantas peticiones llegan al servidor web? (comprueba el fichero access.log para averiguarlo).&lt;/h3&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[SERVICIOS] - Práctica: Proxy, proxy inverso y balanceadores de carga]]></title><description><![CDATA[Proxy Squid Antes de comenzar crearemos una máquina vagrant donde realizaremos el ejercicio.   Vagrantfile
+db.collection.totalIndexSize&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[SERVICIOS] - Práctica: Proxy, proxy inverso y balanceadores de carga]]></title><description><![CDATA[Proxy Squid Antes de comenzar crearemos una máquina vagrant donde realizaremos el ejercicio.   Vagrantfile
 (Para no tener problemas a la…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servicios-practica-proxy-proxy-inverso-y-balanceadores-de-carga</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servicios-practica-proxy-proxy-inverso-y-balanceadores-de-carga</guid><category><![CDATA[Proxy Squid]]></category><pubDate>Tue, 02 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -2366,7 +2314,417 @@ listen granja_cda
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Como podemos comprobar pasados unos segundos la cookie queda generada y guardada.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Circe - Trámites]]></title><description><![CDATA[Indica cuáles son los trámites necesarios para la puesta en marcha de tu empresa. Con esta actividad se propone la creación de un dossier en…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/circe-tramites</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/circe-tramites</guid><category><![CDATA[Circe]]></category><pubDate>Mon, 01 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Indica cuáles son los trámites necesarios para la puesta en marcha de tu empresa.&lt;/p&gt;
+&lt;p&gt;Como podemos comprobar pasados unos segundos la cookie queda generada y guardada.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[SERVICIOS] - Ejercicio: Aumento de rendimiento de servidores web von Varnish]]></title><description><![CDATA[Tarea 1: Vamos a configurar una máquina con la configuración ganadora: nginx + fpmphp (socket unix). Para ello ejecuta la receta ansible que…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servicios-ejercicio-aumento-de-rendimiento-de-servidores-web-von-varnish</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/servicios-ejercicio-aumento-de-rendimiento-de-servidores-web-von-varnish</guid><category><![CDATA[Servidores web]]></category><category><![CDATA[Rendimiento]]></category><category><![CDATA[Varnish]]></category><pubDate>Tue, 02 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/8179c/varnish.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABUBAQEAAAAAAAAAAAAAAAAAAAME/9oADAMBAAIQAxAAAAHFZnee8mCo/8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAERIQ/9oACAEBAAEFAmRcKBeRxZc//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAECEv/aAAgBAwEBPwGjUP/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGsr//EABYQAQEBAAAAAAAAAAAAAAAAAAEgIf/aAAgBAQAGPwIR2v/EABkQAAMBAQEAAAAAAAAAAAAAAAABESExUf/aAAgBAQABPyGXFd0bSOjVxjY2len/2gAMAwEAAgADAAAAEDjf/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERIWH/2gAIAQMBAT8Qo1Jgf//EABYRAQEBAAAAAAAAAAAAAAAAAAAxYf/aAAgBAgEBPxCWz//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExQVFh/9oACAEBAAE/ECECOXx5BjMCy9vZRU0l7iPYgKY+qf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;varnish logo&quot;
+        src=&quot;/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/8c996/varnish.jpg&quot;
+        srcset=&quot;/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/6f483/varnish.jpg 173w,
+/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/0fa0d/varnish.jpg 345w,
+/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/8c996/varnish.jpg 690w,
+/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/c8cd5/varnish.jpg 1035w,
+/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/00650/varnish.jpg 1380w,
+/gatsbyjs/static/884b633ea5f93eccceba0680149fda22/8179c/varnish.jpg 1600w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;tarea-1-vamos-a-configurar-una-máquina-con-la-configuración-ganadora-nginx--fpmphp-socket-unix-para-ello-ejecuta-la-receta-ansible-que-encontraras-en-este--a-hrefhttpsgithubcomjosedom24ansible_nginx_fpm_php-targetblankrepositorioa-accede-al-wordpress-y-termina-la-configuración-del-sitio&quot;&gt;&lt;a href=&quot;#tarea-1-vamos-a-configurar-una-m%C3%A1quina-con-la-configuraci%C3%B3n-ganadora-nginx--fpmphp-socket-unix-para-ello-ejecuta-la-receta-ansible-que-encontraras-en-este--a-hrefhttpsgithubcomjosedom24ansible_nginx_fpm_php-targetblankrepositorioa-accede-al-wordpress-y-termina-la-configuraci%C3%B3n-del-sitio&quot; aria-label=&quot;tarea 1 vamos a configurar una máquina con la configuración ganadora nginx  fpmphp socket unix para ello ejecuta la receta ansible que encontraras en este  a hrefhttpsgithubcomjosedom24ansible_nginx_fpm_php targetblankrepositorioa accede al wordpress y termina la configuración del sitio permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Vamos a configurar una máquina con la configuración ganadora: nginx + fpm&lt;em&gt;php (socket unix). Para ello ejecuta la receta ansible que encontraras en este  &amp;#x3C;a href=&quot;&lt;a href=&quot;https://github.com/josedom24/ansible_nginx_fpm_php&quot;&gt;https://github.com/josedom24/ansible_nginx_fpm_php&lt;/a&gt;&quot; target=&quot;&lt;/em&gt;blank&quot;&gt;repositorio&lt;/a&gt;. Accede al wordpress y termina la configuración del sitio.&lt;/h3&gt;
+&lt;p&gt;Instalamos Ansible.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; update &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; ansible&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Clonamos el repositorio:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/GitHub$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/josedom24/ansible_nginx_fpm_php.git
+Clonando en &lt;span class=&quot;token string&quot;&gt;&apos;ansible_nginx_fpm_php&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+remote: Enumerating objects: &lt;span class=&quot;token number&quot;&gt;40&lt;/span&gt;, done.
+remote: Counting objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;40&lt;/span&gt;/40&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, done.
+remote: Compressing objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;27&lt;/span&gt;/27&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, done.
+remote: Total &lt;span class=&quot;token number&quot;&gt;40&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;delta &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, reused &lt;span class=&quot;token number&quot;&gt;36&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;delta &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, pack-reused &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+Desempaquetando objetos: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;40&lt;/span&gt;/40&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, listo.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modificamos la ip de la maquina para adaptarla a nuestro interfaz.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran/GitHub/ansible_nginx_fpm_php&lt;span class=&quot;token comment&quot;&gt;# nano ansible.cfg&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;defaults&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+inventory &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hosts
+remote_user &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; vagrant &lt;span class=&quot;token comment&quot;&gt;#modificaremos el usuario remoto&lt;/span&gt;
+host_key_checking &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
+
+
+root@debian:/home/fran/GitHub/ansible_nginx_fpm_php&lt;span class=&quot;token comment&quot;&gt;# nano hosts&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;servidores_web&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+nodo1 &lt;span class=&quot;token assign-left variable&quot;&gt;ansible_ssh_host&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.2.75 &lt;span class=&quot;token assign-left variable&quot;&gt;ansible_python_interpreter&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/usr/bin/python3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Iniciamos la receta para crear el escenario.(con la opcion -k accederemos poniendo la contraseña)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran/GitHub/ansible_nginx_fpm_php&lt;span class=&quot;token comment&quot;&gt;# ansible-playbook -k site.yaml &lt;/span&gt;
+SSH password: 
+
+PLAY &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;servidores_web&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; ***********************************************************************************************************************************************
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Gathering Facts&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; **********************************************************************************************************************************************
+ok: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nginx &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; nginx, php-fpm&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; *******************************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nginx &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Copy info.php&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; ****************************************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nginx &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Copy virtualhost default&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; *****************************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+RUNNING HANDLER &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nginx &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; restart nginx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; *****************************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+PLAY &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;servidores_web&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; ***********************************************************************************************************************************************
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Gathering Facts&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; **********************************************************************************************************************************************
+ok: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;mariadb &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; ensure mariadb is installed&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; ************************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;mariadb &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; ensure mariadb binds to internal interface&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; *********************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+RUNNING HANDLER &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;mariadb &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; restart mariadb&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; *************************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+PLAY &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;servidores_web&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; ***********************************************************************************************************************************************
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Gathering Facts&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; **********************************************************************************************************************************************
+ok: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;wordpress &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; unzip&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; ************************************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;wordpress &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; download wordpress&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; *******************************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;wordpress &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;unzip&lt;/span&gt; wordpress&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; **********************************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;wordpress &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; create database wordpress&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; ************************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;wordpress &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; create user mysql wordpress&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; **********************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;item&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;localhost&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+TASK &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;wordpress &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; copy wp-config.php&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; *******************************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+RUNNING HANDLER &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;wordpress &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; restart nginx&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; *************************************************************************************************************************
+changed: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;nodo1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+PLAY RECAP **********************************************************************************************************************************************************
+nodo1                      &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;ok&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;   &lt;span class=&quot;token assign-left variable&quot;&gt;changed&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;14&lt;/span&gt;   &lt;span class=&quot;token assign-left variable&quot;&gt;unreachable&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    &lt;span class=&quot;token assign-left variable&quot;&gt;failed&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ahora ya tenemos nuestra maquina creada en vagrant con la receta de ansible implementada, deberemos acceder a la ip/wordpress para iniciar la instalación del mismo.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/dcebb311446ae32c447ba4dc94010eac/8d0ff/varnish1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABbUlEQVQoz6WSUUvCUBiG92PSXTgvKkG8ri6LIvpxBaFuq+x/dBFEN5FIYGnqNl16zs6m5ea2t7PlYooG0oGH9xy+93v5DucIJ6dnODw6Dvf2D7C7vYOclEM+L0HiKkkSstkMRE4mk2YLoihyXx6FQgGlUgnFYjFWQZGVUK5UUC1XwPdQVZVzBVWRYy1XZZxf8pqiQJYj5FijsxJ5b65Rq93G56hX8LwZOOFc4bpezJSDwEeXOLi4f4M/8zi8PvfFJN6p+9snjEYEq6CEQjMZXnoUD00TjQ6FYRIQstqfIFBqYREWq207qLeHqHfHaA99PPVctLQhGFv2LyJYFkMaav0EWsyBpuvo613wuyNaZN603JNmbSDjE3Y0A7rRhx8EHMAc/StwjNfWO78iQ7IYs+MpNwq0UhMOhhT25AtBCDQ0huf2BxzG/pxyfSBvTL5R6M9w1zDw2BxgbNubBSbm9MsRYmE6cfDp2Av1VYHf1LEHUH13elsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;instalación wordpress&quot;
+        src=&quot;/gatsbyjs/static/dcebb311446ae32c447ba4dc94010eac/36727/varnish1.png&quot;
+        srcset=&quot;/gatsbyjs/static/dcebb311446ae32c447ba4dc94010eac/acf4b/varnish1.png 173w,
+/gatsbyjs/static/dcebb311446ae32c447ba4dc94010eac/fc834/varnish1.png 345w,
+/gatsbyjs/static/dcebb311446ae32c447ba4dc94010eac/36727/varnish1.png 690w,
+/gatsbyjs/static/dcebb311446ae32c447ba4dc94010eac/17fa4/varnish1.png 1035w,
+/gatsbyjs/static/dcebb311446ae32c447ba4dc94010eac/a5044/varnish1.png 1380w,
+/gatsbyjs/static/dcebb311446ae32c447ba4dc94010eac/8d0ff/varnish1.png 1440w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/29e4036de49900b982d4bcd9f582d4ad/a987b/varnish2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACdUlEQVQoz22R204TURSG504FJJZUCRA0aig9UspBaKel01QjJKDe4CEaTVBfAnoSNYCUFsrhkjufwPgGXph4IxgOpRQeAAo2JYHS0s89o5CSuJIv/97/XnutNXuk5y9e0t8/gKIoAh9OpxOny4VLls+QZbdAxlnm/fVl/D4f93t76e3ro1eoZDJbMFusmK02ul1qohuj8JqNZgxG0xlNzcZzaOdCjeLMJO6r6ydPnyEFgwGCgQCBwAgTY2PEYzEikYjmjQwPa4RDISLhsKYqoX97VYPBICHBsMhLJBJIs/MLJObmBQvMxKaJTsWZmk4Qjc8QE5qYnefTZJR3o6OMvv/Ax7FxJqNTjI1PEBUai8eZnhG5YpDFxUUko6VFfKJNjC3U2oLZ1kqT0YLV7tD2dY3XuVhZxRVdDfX1DdQ1NNJkMIgcE80mCzdu3kZfW0fl5WoGHw8iudw9dLnc4v08dMse8fAePD0+HJ1d1FyrpUavF80s3Goy4Ghrxy93MKB00Kfc4Z7XibdHFvdlWhxtvH7zFqlLFFB8d/EqfmSPVyva2t6JTn+VCxUVXKqqolqnw2G30e9t55Hi4KEi1He6buOBvxub3c6roSGkZHKDjVSKrfQWacFmOs3K6irLy8uarq6tsba+zvZmku3UGlupdY30hrpWvSTp1Aa/Vlb4ubSERFkcHBywu7tLJpMhm/3Nzs4O+/v7/C8Ov32HbO6cl8vlkE5OTjilUChwfFwgn89zdJTn8PBQ6BHlOWrTjGiaFRSPjzWvWCxSEgXVYaRSqYSKGl+/fBa/P8jsXJjk0g+KhaLmn56fFlSbFEsnWhHK7u/tZfgDU+EzzU+/+6AAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;instalación wordpress&quot;
+        src=&quot;/gatsbyjs/static/29e4036de49900b982d4bcd9f582d4ad/36727/varnish2.png&quot;
+        srcset=&quot;/gatsbyjs/static/29e4036de49900b982d4bcd9f582d4ad/acf4b/varnish2.png 173w,
+/gatsbyjs/static/29e4036de49900b982d4bcd9f582d4ad/fc834/varnish2.png 345w,
+/gatsbyjs/static/29e4036de49900b982d4bcd9f582d4ad/36727/varnish2.png 690w,
+/gatsbyjs/static/29e4036de49900b982d4bcd9f582d4ad/17fa4/varnish2.png 1035w,
+/gatsbyjs/static/29e4036de49900b982d4bcd9f582d4ad/a5044/varnish2.png 1380w,
+/gatsbyjs/static/29e4036de49900b982d4bcd9f582d4ad/a987b/varnish2.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;tarea-2-vamos-a-hacer-las-pruebas-de-rendimiento-desde-la-misma-máquina-es-decir-vamos-a-ejecutar-instrucciones-similares-a-esta&quot;&gt;&lt;a href=&quot;#tarea-2-vamos-a-hacer-las-pruebas-de-rendimiento-desde-la-misma-m%C3%A1quina-es-decir-vamos-a-ejecutar-instrucciones-similares-a-esta&quot; aria-label=&quot;tarea 2 vamos a hacer las pruebas de rendimiento desde la misma máquina es decir vamos a ejecutar instrucciones similares a esta permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Vamos a hacer las pruebas de rendimiento desde la misma máquina, es decir vamos a ejecutar instrucciones similares a esta:&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ab -t &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; -c &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; -k http:/127.0.0.1/wordpress/index.php&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Realiza algunas prueba de rendimiento con varios valores distintos para el nivel de concurrencia (50,100,250,500) y apunta el resultado de peticiones/segundo (parámetro Requests per second de ab). Puedes hacer varias pruebas y quedarte con la media. Reinicia el servidor nginx y el fpm-php entre cada prueba para que los resultados sean los más reales posibles.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Instalaremos apache2-utils que nos sera necesario para poder ejecutar &lt;strong&gt;ab&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@ansible:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; apache2-utils&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Pruebas de rendimiento.(50)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@ansible:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart nginx
+vagrant@ansible:~$ ab -t &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; -c &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt; -k http://192.168.2.75/wordpress/
+This is ApacheBench, Version &lt;span class=&quot;token number&quot;&gt;2.3&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$Revision&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1843412&lt;/span&gt; $&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+Copyright &lt;span class=&quot;token number&quot;&gt;1996&lt;/span&gt; Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.2.75 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;be patient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Finished &lt;span class=&quot;token number&quot;&gt;535&lt;/span&gt; requests
+
+
+Server Software:        nginx/1.14.2
+Server Hostname:        &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.2.75
+Server Port:            &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
+
+Document Path:          /wordpress/
+Document Length:        &lt;span class=&quot;token number&quot;&gt;18150&lt;/span&gt; bytes
+
+Concurrency Level:      &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;
+Time taken &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; tests:   &lt;span class=&quot;token number&quot;&gt;10.002&lt;/span&gt; seconds
+Complete requests:      &lt;span class=&quot;token number&quot;&gt;535&lt;/span&gt;
+Failed requests:        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+Keep-Alive requests:    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+Total transferred:      &lt;span class=&quot;token number&quot;&gt;9922645&lt;/span&gt; bytes
+HTML transferred:       &lt;span class=&quot;token number&quot;&gt;9710250&lt;/span&gt; bytes
+Requests per second:    &lt;span class=&quot;token number&quot;&gt;53.49&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;#/sec] (mean)&lt;/span&gt;
+Time per request:       &lt;span class=&quot;token number&quot;&gt;934.777&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mean&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Time per request:       &lt;span class=&quot;token number&quot;&gt;18.696&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mean, across all concurrent requests&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Transfer rate:          &lt;span class=&quot;token number&quot;&gt;968.80&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Kbytes/sec&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; received
+
+Connection Times &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+              min  mean&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;+/-sd&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; median   max
+Connect:        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;0.2&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+Processing:    &lt;span class=&quot;token number&quot;&gt;54&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;890&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;156.4&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;927&lt;/span&gt;     &lt;span class=&quot;token number&quot;&gt;994&lt;/span&gt;
+Waiting:       &lt;span class=&quot;token number&quot;&gt;28&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;874&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;154.6&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;912&lt;/span&gt;     &lt;span class=&quot;token number&quot;&gt;971&lt;/span&gt;
+Total:         &lt;span class=&quot;token number&quot;&gt;55&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;890&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;156.2&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;927&lt;/span&gt;     &lt;span class=&quot;token number&quot;&gt;994&lt;/span&gt;
+
+Percentage of the requests served within a certain &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;%    &lt;span class=&quot;token number&quot;&gt;927&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;66&lt;/span&gt;%    &lt;span class=&quot;token number&quot;&gt;935&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;75&lt;/span&gt;%    &lt;span class=&quot;token number&quot;&gt;940&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;%    &lt;span class=&quot;token number&quot;&gt;946&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;90&lt;/span&gt;%    &lt;span class=&quot;token number&quot;&gt;961&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;95&lt;/span&gt;%    &lt;span class=&quot;token number&quot;&gt;968&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;98&lt;/span&gt;%    &lt;span class=&quot;token number&quot;&gt;979&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;99&lt;/span&gt;%    &lt;span class=&quot;token number&quot;&gt;981&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;%    &lt;span class=&quot;token number&quot;&gt;994&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;longest request&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Pruebas de rendimiento.(100)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@ansible:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart nginx
+vagrant@ansible:~$ ab -t &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; -c &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt; -k http://192.168.2.75/wordpress/
+This is ApacheBench, Version &lt;span class=&quot;token number&quot;&gt;2.3&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$Revision&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1843412&lt;/span&gt; $&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+Copyright &lt;span class=&quot;token number&quot;&gt;1996&lt;/span&gt; Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.2.75 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;be patient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Finished &lt;span class=&quot;token number&quot;&gt;496&lt;/span&gt; requests
+
+
+Server Software:        nginx/1.14.2
+Server Hostname:        &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.2.75
+Server Port:            &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
+
+Document Path:          /wordpress/
+Document Length:        &lt;span class=&quot;token number&quot;&gt;18150&lt;/span&gt; bytes
+
+Concurrency Level:      &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;
+Time taken &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; tests:   &lt;span class=&quot;token number&quot;&gt;10.034&lt;/span&gt; seconds
+Complete requests:      &lt;span class=&quot;token number&quot;&gt;496&lt;/span&gt;
+Failed requests:        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+Keep-Alive requests:    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+Total transferred:      &lt;span class=&quot;token number&quot;&gt;9199312&lt;/span&gt; bytes
+HTML transferred:       &lt;span class=&quot;token number&quot;&gt;9002400&lt;/span&gt; bytes
+Requests per second:    &lt;span class=&quot;token number&quot;&gt;49.43&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;#/sec] (mean)&lt;/span&gt;
+Time per request:       &lt;span class=&quot;token number&quot;&gt;2022.973&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mean&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Time per request:       &lt;span class=&quot;token number&quot;&gt;20.230&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mean, across all concurrent requests&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Transfer rate:          &lt;span class=&quot;token number&quot;&gt;895.33&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Kbytes/sec&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; received
+
+Connection Times &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+              min  mean&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;+/-sd&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; median   max
+Connect:        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;8.4&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;22&lt;/span&gt;
+Processing:    &lt;span class=&quot;token number&quot;&gt;46&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1809&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;498.9&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;1984&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;2138&lt;/span&gt;
+Waiting:       &lt;span class=&quot;token number&quot;&gt;28&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1792&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;496.1&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;1968&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;2114&lt;/span&gt;
+Total:         &lt;span class=&quot;token number&quot;&gt;57&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1813&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;492.1&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;1985&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;2138&lt;/span&gt;
+
+Percentage of the requests served within a certain &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;1985&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;66&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;2041&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;75&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;2061&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;2076&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;90&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;2098&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;95&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;2109&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;98&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;2115&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;99&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;2121&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;2138&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;longest request&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Pruebas de rendimiento.(250)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@ansible:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart nginx
+vagrant@ansible:~$ ab -t &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; -c &lt;span class=&quot;token number&quot;&gt;250&lt;/span&gt; -k http://192.168.2.75/wordpress/
+This is ApacheBench, Version &lt;span class=&quot;token number&quot;&gt;2.3&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$Revision&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1843412&lt;/span&gt; $&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+Copyright &lt;span class=&quot;token number&quot;&gt;1996&lt;/span&gt; Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.2.75 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;be patient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Completed &lt;span class=&quot;token number&quot;&gt;5000&lt;/span&gt; requests
+Completed &lt;span class=&quot;token number&quot;&gt;10000&lt;/span&gt; requests
+Completed &lt;span class=&quot;token number&quot;&gt;15000&lt;/span&gt; requests
+Completed &lt;span class=&quot;token number&quot;&gt;20000&lt;/span&gt; requests
+Completed &lt;span class=&quot;token number&quot;&gt;25000&lt;/span&gt; requests
+Finished &lt;span class=&quot;token number&quot;&gt;26027&lt;/span&gt; requests
+
+
+Server Software:        nginx/1.14.2
+Server Hostname:        &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.2.75
+Server Port:            &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
+
+Document Path:          /wordpress/
+Document Length:        &lt;span class=&quot;token number&quot;&gt;18150&lt;/span&gt; bytes
+
+Concurrency Level:      &lt;span class=&quot;token number&quot;&gt;250&lt;/span&gt;
+Time taken &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; tests:   &lt;span class=&quot;token number&quot;&gt;10.000&lt;/span&gt; seconds
+Complete requests:      &lt;span class=&quot;token number&quot;&gt;26027&lt;/span&gt;
+Failed requests:        &lt;span class=&quot;token number&quot;&gt;25628&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Connect: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, Receive: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, Length: &lt;span class=&quot;token number&quot;&gt;25628&lt;/span&gt;, Exceptions: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Non-2xx responses:      &lt;span class=&quot;token number&quot;&gt;25628&lt;/span&gt;
+Keep-Alive requests:    &lt;span class=&quot;token number&quot;&gt;25509&lt;/span&gt;
+Total transferred:      &lt;span class=&quot;token number&quot;&gt;15856898&lt;/span&gt; bytes
+HTML transferred:       &lt;span class=&quot;token number&quot;&gt;11675494&lt;/span&gt; bytes
+Requests per second:    &lt;span class=&quot;token number&quot;&gt;2602.61&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;#/sec] (mean)&lt;/span&gt;
+Time per request:       &lt;span class=&quot;token number&quot;&gt;96.057&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mean&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Time per request:       &lt;span class=&quot;token number&quot;&gt;0.384&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mean, across all concurrent requests&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Transfer rate:          &lt;span class=&quot;token number&quot;&gt;1548.47&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Kbytes/sec&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; received
+
+Connection Times &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+              min  mean&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;+/-sd&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; median   max
+Connect:        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;68.2&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;1008&lt;/span&gt;
+Processing:     &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;82&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;383.9&lt;/span&gt;     &lt;span class=&quot;token number&quot;&gt;26&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;3679&lt;/span&gt;
+Waiting:        &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;82&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;381.5&lt;/span&gt;     &lt;span class=&quot;token number&quot;&gt;26&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;3649&lt;/span&gt;
+Total:          &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;87&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;390.1&lt;/span&gt;     &lt;span class=&quot;token number&quot;&gt;26&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;4545&lt;/span&gt;
+
+Percentage of the requests served within a certain &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;%     &lt;span class=&quot;token number&quot;&gt;26&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;66&lt;/span&gt;%     &lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;75&lt;/span&gt;%     &lt;span class=&quot;token number&quot;&gt;37&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;%     &lt;span class=&quot;token number&quot;&gt;41&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;90&lt;/span&gt;%     &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;95&lt;/span&gt;%     &lt;span class=&quot;token number&quot;&gt;57&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;98&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;1014&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;99&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;3172&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;4545&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;longest request&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Pruebas de rendimiento.(500)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@ansible:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart nginx
+vagrant@ansible:~$ ab -t &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; -c &lt;span class=&quot;token number&quot;&gt;500&lt;/span&gt; -k http://192.168.2.75/wordpress/
+This is ApacheBench, Version &lt;span class=&quot;token number&quot;&gt;2.3&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$Revision&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1843412&lt;/span&gt; $&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+Copyright &lt;span class=&quot;token number&quot;&gt;1996&lt;/span&gt; Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.2.75 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;be patient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Completed &lt;span class=&quot;token number&quot;&gt;5000&lt;/span&gt; requests
+Completed &lt;span class=&quot;token number&quot;&gt;10000&lt;/span&gt; requests
+Completed &lt;span class=&quot;token number&quot;&gt;15000&lt;/span&gt; requests
+Completed &lt;span class=&quot;token number&quot;&gt;20000&lt;/span&gt; requests
+Completed &lt;span class=&quot;token number&quot;&gt;25000&lt;/span&gt; requests
+Completed &lt;span class=&quot;token number&quot;&gt;30000&lt;/span&gt; requests
+Completed &lt;span class=&quot;token number&quot;&gt;35000&lt;/span&gt; requests
+Finished &lt;span class=&quot;token number&quot;&gt;36817&lt;/span&gt; requests
+
+
+Server Software:        nginx/1.14.2
+Server Hostname:        &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.2.75
+Server Port:            &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
+
+Document Path:          /wordpress/
+Document Length:        &lt;span class=&quot;token number&quot;&gt;18150&lt;/span&gt; bytes
+
+Concurrency Level:      &lt;span class=&quot;token number&quot;&gt;500&lt;/span&gt;
+Time taken &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; tests:   &lt;span class=&quot;token number&quot;&gt;10.000&lt;/span&gt; seconds
+Complete requests:      &lt;span class=&quot;token number&quot;&gt;36817&lt;/span&gt;
+Failed requests:        &lt;span class=&quot;token number&quot;&gt;36456&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Connect: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, Receive: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, Length: &lt;span class=&quot;token number&quot;&gt;36456&lt;/span&gt;, Exceptions: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Non-2xx responses:      &lt;span class=&quot;token number&quot;&gt;36456&lt;/span&gt;
+Keep-Alive requests:    &lt;span class=&quot;token number&quot;&gt;36235&lt;/span&gt;
+Total transferred:      &lt;span class=&quot;token number&quot;&gt;18757768&lt;/span&gt; bytes
+HTML transferred:       &lt;span class=&quot;token number&quot;&gt;12891170&lt;/span&gt; bytes
+Requests per second:    &lt;span class=&quot;token number&quot;&gt;3681.60&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;#/sec] (mean)&lt;/span&gt;
+Time per request:       &lt;span class=&quot;token number&quot;&gt;135.811&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mean&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Time per request:       &lt;span class=&quot;token number&quot;&gt;0.272&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mean, across all concurrent requests&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Transfer rate:          &lt;span class=&quot;token number&quot;&gt;1831.76&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Kbytes/sec&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; received
+
+Connection Times &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+              min  mean&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;+/-sd&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; median   max
+Connect:        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;35.6&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;1030&lt;/span&gt;
+Processing:     &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;108&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;413.4&lt;/span&gt;     &lt;span class=&quot;token number&quot;&gt;62&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;4429&lt;/span&gt;
+Waiting:        &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;108&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;412.2&lt;/span&gt;     &lt;span class=&quot;token number&quot;&gt;62&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;4429&lt;/span&gt;
+Total:          &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;110&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;421.6&lt;/span&gt;     &lt;span class=&quot;token number&quot;&gt;62&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;4429&lt;/span&gt;
+
+Percentage of the requests served within a certain &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ms&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;%     &lt;span class=&quot;token number&quot;&gt;62&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;66&lt;/span&gt;%     &lt;span class=&quot;token number&quot;&gt;71&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;75&lt;/span&gt;%     &lt;span class=&quot;token number&quot;&gt;76&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;%     &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;90&lt;/span&gt;%     &lt;span class=&quot;token number&quot;&gt;92&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;95&lt;/span&gt;%    &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;98&lt;/span&gt;%    &lt;span class=&quot;token number&quot;&gt;121&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;99&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;3364&lt;/span&gt;
+ &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;%   &lt;span class=&quot;token number&quot;&gt;4429&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;longest request&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;resumen&quot;&gt;&lt;a href=&quot;#resumen&quot; aria-label=&quot;resumen permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Resumen&lt;/h3&gt;
+&lt;details open&gt;
+&lt;summary&gt;Pruebas de rendimiento.(50)&lt;/summary&gt;
+&lt;br&gt;
+Requests per second:    53.49 [#/sec] (mean)
+&lt;/details&gt;
+&lt;details open&gt;
+&lt;summary&gt;Pruebas de rendimiento.(100)&lt;/summary&gt;
+&lt;br&gt;
+Requests per second:    49.43 [#/sec] (mean)
+&lt;/details&gt;
+&lt;details open&gt;
+&lt;summary&gt;Pruebas de rendimiento.(250)&lt;/summary&gt;
+&lt;br&gt;
+Requests per second:    2602.61 [#/sec] (mean)
+&lt;/details&gt;
+&lt;details open&gt;
+&lt;summary&gt;Pruebas de rendimiento.(500)&lt;/summary&gt;
+&lt;br&gt;
+Requests per second:    3681.60 [#/sec] (mean)
+&lt;/details&gt;
+&lt;h3 id=&quot;tarea-3-configura-un-proxy-inverso---caché-varnish-escuchando-en-el-puerto-80-y-que-se-comunica-con-el-servidor-web-por-el-puerto-8080-entrega-y-muestra-una-comprobación-de-que-varnish-está-funcionando-con-la-nueva-configuración-realiza-pruebas-de-rendimiento-quedate-con-el-resultado-del-parámetro-requests-per-second-y-comprueba-si-hemos-aumentado-el-rendimiento-si-hacemos-varias-peticiones-a-la-misma-url-¿cuantas-peticiones-llegan-al-servidor-web-comprueba-el-fichero-accesslog-para-averiguarlo&quot;&gt;&lt;a href=&quot;#tarea-3-configura-un-proxy-inverso---cach%C3%A9-varnish-escuchando-en-el-puerto-80-y-que-se-comunica-con-el-servidor-web-por-el-puerto-8080-entrega-y-muestra-una-comprobaci%C3%B3n-de-que-varnish-est%C3%A1-funcionando-con-la-nueva-configuraci%C3%B3n-realiza-pruebas-de-rendimiento-quedate-con-el-resultado-del-par%C3%A1metro-requests-per-second-y-comprueba-si-hemos-aumentado-el-rendimiento-si-hacemos-varias-peticiones-a-la-misma-url-%C2%BFcuantas-peticiones-llegan-al-servidor-web-comprueba-el-fichero-accesslog-para-averiguarlo&quot; aria-label=&quot;tarea 3 configura un proxy inverso   caché varnish escuchando en el puerto 80 y que se comunica con el servidor web por el puerto 8080 entrega y muestra una comprobación de que varnish está funcionando con la nueva configuración realiza pruebas de rendimiento quedate con el resultado del parámetro requests per second y comprueba si hemos aumentado el rendimiento si hacemos varias peticiones a la misma url ¿cuantas peticiones llegan al servidor web comprueba el fichero accesslog para averiguarlo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Configura un proxy inverso - caché Varnish escuchando en el puerto 80 y que se comunica con el servidor web por el puerto 8080. Entrega y muestra una comprobación de que varnish está funcionando con la nueva configuración. Realiza pruebas de rendimiento (quedate con el resultado del parámetro Requests per second) y comprueba si hemos aumentado el rendimiento. Si hacemos varias peticiones a la misma URL, ¿cuantas peticiones llegan al servidor web? (comprueba el fichero access.log para averiguarlo).&lt;/h3&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Circe - Trámites]]></title><description><![CDATA[Indica cuáles son los trámites necesarios para la puesta en marcha de tu empresa. Con esta actividad se propone la creación de un dossier en…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/circe-tramites</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/circe-tramites</guid><category><![CDATA[Circe]]></category><pubDate>Mon, 01 Mar 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Indica cuáles son los trámites necesarios para la puesta en marcha de tu empresa.&lt;/p&gt;
 &lt;p&gt;Con esta actividad se propone la creación de un dossier en la que se enumeren y detallen los trámites necesarios para la puesta en marcha de vuestra empresa.&lt;/p&gt;
 &lt;p&gt;Además, deben especificar la forma, el lugar o el portal a utilizar. &lt;/p&gt;
 &lt;hr&gt;
