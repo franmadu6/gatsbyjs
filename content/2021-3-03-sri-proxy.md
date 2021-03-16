@@ -330,7 +330,9 @@ root@proxy:~# cat /var/log/squid/access.log
 1615837661.673      0 192.168.200.1 TCP_DENIED/403 3968 CONNECT cdn.jsdelivr.net:443 - HIER_NONE/- text/html
 ```
 
-
+<br>
+<hr>
+<br>
 
 <center><img alt="Balanceadores de carga" src="https://blogs.masterhacks.net/wp-content/uploads/2018/09/masterhaks_balanceador_carga.png"/></center>
 
