@@ -10,7 +10,7 @@ tags:
     - Postfix
 ---
 
-<center><img alt="Postfix" src="https://feedyourweb.com/wp-content/uploads/2017/12/Postfix_logo.png"/></center>
+![PracticaImg](images/servicios/Postfix_mailserver_flags_by_mimooh.svg_.png "Imagen de la practica")
 
 ## Práctica: Servidor de correos
 
