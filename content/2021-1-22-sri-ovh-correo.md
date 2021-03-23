@@ -79,6 +79,27 @@ debian@valhalla:/etc/postfix$ echo "Test Postfix Gmail https://example.com" | ma
 ```
 ![PracticaImg](images/servicios/postfix1.png "Imagen de la practica")
 
+**<div style="background-color:#34c146; border-radius:0.5em; border-color: black;">CORRECIÓN DE ERRORES:</div>** 
+Falto descomentar 
+```shell
+myorigin = /etc/mailname
+```
+En /etc/postfix/main.cf por lo tanto el correo de llegada no hacía uso del registro MX, una vez solucionado, el resultado se muestra en la imagen anterior y el registro del reenvio desde el cliente gmail es el siguiente:
+```shell
+From: =?UTF-8?Q?Fran_Madue=C3=B1o?= <frandh1997@gmail.com>
+Date: Tue, 23 Mar 2021 12:32:28 +0100
+Message-ID: <CABQY=Qhwd7yymmtRK4JTiYnHDObpoc_hq5W96zbujQSGauhwAQ@mail.gmail.com>
+Subject: Re: Postfix Gmail
+To: Debian <debian@iesgn11.es>
+Content-Type: multipart/alternative; boundary="00000000000031c6e505be328ab6"
+
+--00000000000031c6e505be328ab6
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+respondiendo al registro MX
+```
+
 * Tarea 2: Documenta una prueba de funcionamiento, donde envíes un correo desde el exterior (gmail, hotmail,…) a tu servidor local. Muestra el log donde se vea el envío. Muestra cómo has leído el correo. Muestra el registro MX de tu dominio.
 
 Enviamos un correo desde el exterior.
