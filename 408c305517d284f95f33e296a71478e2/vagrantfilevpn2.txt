@@ -1,0 +1,47 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+  config.vm.define :servidor1 do |servidor1|
+    servidor1.vm.box = "generic/debian10"
+    servidor1.vm.hostname = "Servidor1"
+    servidor1.vm.network :public_network,:bridge=>"wlo1"
+    servidor1.vm.network :private_network, ip: "192.168.200.10", virtualbox__intnet:"mired1"
+    servidor1.vm.provision "shell", inline: <<-SHELL
+	    apt update
+	    apt install -y openvpn
+    SHELL
+    servidor1.vm.provision "shell", run: "always", inline: <<-SHELL
+	    sysctl -w net.ipv4.ip_forward=1
+    SHELL
+  end
+  config.vm.define :cliente1 do |cliente1|
+    cliente1.vm.box = "generic/debian10"
+    cliente1.vm.hostname = "Cliente1"
+    cliente1.vm.network :private_network, ip: "192.168.200.40", virtualbox__intnet:"mired1"
+    cliente1.vm.provision "shell", inline: <<-SHELL
+	    apt update
+	    apt install -y openvpn
+    SHELL
+  end
+
+    config.vm.define :servidor2 do |servidor2|
+    servidor2.vm.box = "generic/debian10"
+    servidor2.vm.hostname = "Servidor2"
+    servidor2.vm.network :public_network,:bridge=>"wlo1"
+    servidor2.vm.network :private_network, ip: "192.168.100.10", virtualbox__intnet:"mired1"
+    servidor2.vm.provision "shell", inline: <<-SHELL
+	    apt update
+	    apt install -y openvpn
+    SHELL
+    servidor2.vm.provision "shell", run: "always", inline: <<-SHELL
+	    sysctl -w net.ipv4.ip_forward=1
+    SHELL
+  end
+  config.vm.define :cliente2 do |cliente2|
+    cliente2.vm.box = "generic/debian10"
+    cliente2.vm.hostname = "Cliente2"
+    cliente2.vm.network :private_network, ip: "192.168.100.50", virtualbox__intnet:"mired1"
+  end
+end
