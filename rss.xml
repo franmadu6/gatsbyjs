@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 06 Apr 2021 10:51:41 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[IAW] - Práctica: Implantación de aplicaciones web PHP en docker ]]></title><description><![CDATA[Práctica: Implantación de aplicaciones web PHP en docker.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</guid><category><![CDATA[PHP]]></category><category><![CDATA[Docker]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-implantación-de-aplicaciones-web-php-en-docker&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-implantaci%C3%B3n-de-aplicaciones-web-php-en-docker&quot; aria-label=&quot;práctica implantación de aplicaciones web php en docker permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Implantación de aplicaciones web PHP en docker.&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] Introducción a la IC/DC]]></title><description><![CDATA[Tarea: Integración continúa de aplicación django (Test + Deploy). Vamos a trabajar con el repositorio de la aplicación django_tutorial. Esta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</guid><category><![CDATA[Integración Continúa]]></category><category><![CDATA[GitHub Actions]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-integración-continúa-de-aplicación-django-test--deploy&quot;&gt;&lt;a href=&quot;#tarea-integraci%C3%B3n-contin%C3%BAa-de-aplicaci%C3%B3n-django-test--deploy&quot; aria-label=&quot;tarea integración continúa de aplicación django test  deploy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea: Integración continúa de aplicación django (Test + Deploy).&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 06 Apr 2021 11:09:16 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[IAW] - Práctica: Implantación de aplicaciones web PHP en docker ]]></title><description><![CDATA[Práctica: Implantación de aplicaciones web PHP en docker.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</guid><category><![CDATA[PHP]]></category><category><![CDATA[Docker]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-implantación-de-aplicaciones-web-php-en-docker&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-implantaci%C3%B3n-de-aplicaciones-web-php-en-docker&quot; aria-label=&quot;práctica implantación de aplicaciones web php en docker permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Implantación de aplicaciones web PHP en docker.&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] Introducción a la IC/DC]]></title><description><![CDATA[Tarea: Integración continúa de aplicación django (Test + Deploy). Vamos a trabajar con el repositorio de la aplicación django_tutorial. Esta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</guid><category><![CDATA[Integración Continúa]]></category><category><![CDATA[GitHub Actions]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-integración-continúa-de-aplicación-django-test--deploy&quot;&gt;&lt;a href=&quot;#tarea-integraci%C3%B3n-contin%C3%BAa-de-aplicaci%C3%B3n-django-test--deploy&quot; aria-label=&quot;tarea integración continúa de aplicación django test  deploy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea: Integración continúa de aplicación django (Test + Deploy).&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Vamos a trabajar con el repositorio de la aplicación &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;django_tutorial&lt;/a&gt;. Esta aplicación tiene definidas una serie de test, que podemos estudiar en el fichero tests.py del directorio polls.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Para ejecutar las pruebas unitarias, ejecutamos la instrucción python3 manage.py test.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&quot;estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-código-de-la-aplicación-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot;&gt;&lt;a href=&quot;#estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-c%C3%B3digo-de-la-aplicaci%C3%B3n-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot; aria-label=&quot;estudia las distintas pruebas que se han realizado y modifica el código de la aplicación debes modificar el fichero viewspy o los templates no debes cambiar el fichero testspy para que al menos una de ella no se ejecute de manera exitosa permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Estudia las distintas pruebas que se han realizado, y modifica el código de la aplicación (debes modificar el fichero views.py o los templates, no debes cambiar el fichero tests.py para que al menos una de ella no se ejecute de manera exitosa.&lt;/h3&gt;
@@ -16379,162 +16379,179 @@ Con este Script he generado una plantilla por defecto para mis paginas que se pu
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] - P1. Instalación local de un CMS PHP]]></title><description><![CDATA[h1. Tarea 1: Instalación de un servidor LAMP 1.- Crea una instancia de vagrant basado en un box debian o ubuntu 2.- Instala en esa máquina…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-p-1-instalacion-local-de-un-cms-php</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-p-1-instalacion-local-de-un-cms-php</guid><category><![CDATA[CMS]]></category><category><![CDATA[PHP]]></category><category><![CDATA[LAMP]]></category><category><![CDATA[Drupal]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;h1. Tarea 1: Instalación de un servidor LAMP&lt;/p&gt;
-&lt;p&gt;1.- Crea una instancia de vagrant basado en un box debian o ubuntu&lt;/p&gt;
-&lt;pre&gt;
-# -*- mode: ruby -*-
-# vi: set ft=ruby :
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] - P1. Instalación local de un CMS PHP]]></title><description><![CDATA[Tarea 1: Instalación de un servidor LAMP Crea una instancia de vagrant basado en un box debian o ubuntu. Vagrant.configure("2") do |config…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-p-1-instalacion-local-de-un-cms-php</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-p-1-instalacion-local-de-un-cms-php</guid><category><![CDATA[CMS]]></category><category><![CDATA[PHP]]></category><category><![CDATA[LAMP]]></category><category><![CDATA[Drupal]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;tarea-1-instalación-de-un-servidor-lamp&quot;&gt;&lt;a href=&quot;#tarea-1-instalaci%C3%B3n-de-un-servidor-lamp&quot; aria-label=&quot;tarea 1 instalación de un servidor lamp permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Instalación de un servidor LAMP&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Crea una instancia de vagrant basado en un box debian o ubuntu.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# -*- mode: ruby -*-&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# vi: set ft=ruby :&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Vagrant.configure(&quot;2&quot;) do |config|&lt;/p&gt;
+&lt;p&gt;  config.vm.box = &quot;debian/buster64&quot;
+config.vm.hostname = &quot;drupal&quot;
+config.vm.network &quot;private_network&quot;, ip: &quot;192.168.100.5&quot;&lt;/p&gt;
+&lt;p&gt;end&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;2. **Instala en esa máquina virtual toda la pila LAMP**
 
-Vagrant.configure(&quot;2&quot;) do |config|
-
-  config.vm.box = &quot;debian/buster64&quot;
-  config.vm.hostname = &quot;drupal&quot;
-  config.vm.network &quot;private_network&quot;, ip: &quot;192.168.100.5&quot;
-
-end
-
-&lt;/pre&gt;
-&lt;p&gt;2.- Instala en esa máquina virtual toda la pila LAMP&lt;/p&gt;
-&lt;pre&gt;
+```shell
 #Instalamos apache2 y apache2-utils
 sudo apt-get install -y apache2 apache2-utils
 #Instalamos el servidor y el cliente de mariadb
 sudo apt-get install -y mariadb-server mariadb-client
 #los dos pasos anteriores puede que ya vengan instalados por defecto
 #Instalamos php y los módulos necesarios y recomendables de php
-sudo apt-get install php libapache2-mod-php php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
-&lt;/pre&gt;
-&lt;p&gt;h1. Tarea 2: Instalación de drupal en mi servidor local&lt;/p&gt;
-&lt;p&gt;1.- Configura el servidor web con virtual hosting para que el CMS sea accesible desde la dirección: www.nombrealumno-drupal.org.&lt;/p&gt;
-&lt;pre&gt;
-ServerName www.madu-drupal.org
-&lt;/pre&gt;
-&lt;p&gt;2.- Crea un usuario en la base de datos para trabajar con la base de datos donde se van a guardar los datos del CMS.&lt;/p&gt;
-&lt;pre&gt;
-vagrant@drupal:~$ sudo mysql -u root -p
+sudo apt-get install php libapache2-mod-php php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h1 id=&quot;tarea-2-instalación-de-drupal-en-mi-servidor-local&quot;&gt;&lt;a href=&quot;#tarea-2-instalaci%C3%B3n-de-drupal-en-mi-servidor-local&quot; aria-label=&quot;tarea 2 instalación de drupal en mi servidor local permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 2: Instalación de drupal en mi servidor local&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Configura el servidor web con virtual hosting para que el CMS sea accesible desde la dirección: www.nombrealumno-drupal.org.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ServerName www.madu-drupal.org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Crea un usuario en la base de datos para trabajar con la base de datos donde se van a guardar los datos del CMS.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; mysql -u root -p
 
-MariaDB [(none)]&gt; create user &apos;fmadu&apos; identified by &apos;dios&apos;;
-Query OK, 0 rows affected (0.005 sec)
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; create user &lt;span class=&quot;token string&quot;&gt;&apos;fmadu&apos;&lt;/span&gt; identified by &lt;span class=&quot;token string&quot;&gt;&apos;dios&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; rows affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.005&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
-MariaDB [(none)]&gt; GRANT ALL PRIVILEGES ON *.* TO &apos;fmadu&apos;@&apos;localhost&apos;
-    -&gt; IDENTIFIED BY &apos;dios&apos; WITH GRANT OPTION;
-Query OK, 0 rows affected (0.001 sec)
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; GRANT ALL PRIVILEGES ON *.* TO &lt;span class=&quot;token string&quot;&gt;&apos;fmadu&apos;&lt;/span&gt;@&lt;span class=&quot;token string&quot;&gt;&apos;localhost&apos;&lt;/span&gt;
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; IDENTIFIED BY &lt;span class=&quot;token string&quot;&gt;&apos;dios&apos;&lt;/span&gt; WITH GRANT OPTION&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; rows affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
-MariaDB [(none)]&gt; exit
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;exit&lt;/span&gt;
 Bye
 vagrant@drupal:~$ mysql -u fmadu -p
 
-MariaDB [(none)]&gt; create database fmadudb;
-Query OK, 1 row affected (0.002 sec)
-&lt;/pre&gt;
-&lt;p&gt;3.- Descarga la versión que te parezca más oportuna de Drupal y realiza la instalación.&lt;/p&gt;
-&lt;p&gt;**  Descargamos drupal de la web oficial,(la ultima version)&lt;/p&gt;
-&lt;pre&gt;
-vagrant@drupal:/etc/apache2/sites-available$ sudo wget https://www.drupal.org/download-latest/zip
-&lt;/pre&gt;
-&lt;p&gt;** Creamos el directorio drupal en /var/www/, descomprimimos el fichero descargado y copiamos su contenido en dicho directorio&lt;/p&gt;
-&lt;pre&gt;
-sudo mkdir /var/www/drupal
-sudo apt install unzip
-sudo unzip zip
-sudo mv drupal-9.0.7/* /var/www/drupal
-&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; create database fmadudb&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; row affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.002&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Descarga la versión que te parezca más oportuna de Drupal y realiza la instalación.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Descargamos drupal de la web oficial,(la ultima version).&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; https://www.drupal.org/download-latest/zip&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Creamos el directorio drupal en /var/www/, descomprimimos el fichero descargado y copiamos su contenido en dicho directorio.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; /var/www/drupal
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;unzip&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;unzip&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;zip&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mv&lt;/span&gt; drupal-9.0.7/* /var/www/drupal&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;En /var/www/ y le damos los respectivos permisos necesarios.&lt;/p&gt;
-&lt;pre&gt;
-chown www-data drupal/
-chgrp www-data drupal/
-&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Añadimos la nueva ruta a nuestro archivo de configuracion&lt;/p&gt;
-&lt;pre&gt;
-DocumentRoot /var/www/drupal
-&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; www-data drupal/
+&lt;span class=&quot;token function&quot;&gt;chgrp&lt;/span&gt; www-data drupal/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Añadimos la nueva ruta a nuestro archivo de configuracion.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;DocumentRoot /var/www/drupal&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Enlace simbolico:&lt;/p&gt;
-&lt;pre&gt;
-vagrant@drupal:/etc/apache2/sites-available$ sudo a2ensite drupal
-&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Cambiamos el usuario del directorio&lt;/p&gt;
-&lt;pre&gt;
-vagrant@drupal:/etc/apache2/sites-available$ sudo chown -R www-data:www-data /var/www/drupal/
-&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Recargamos apache2&lt;/p&gt;
-&lt;pre&gt;
-systemctl reload apache2
-&lt;/pre&gt;
-&lt;p&gt;-Modificamos el fichero  hosts en nuestra maquina fisica&lt;/p&gt;
-&lt;pre&gt;
-192.168.100.5       www.madu-drupal.org
-&lt;/pre&gt;
-&lt;p&gt;-El contenido de este archivo es un bloque Directory para el directorio de Drupal en el que una directiva AllowOverride permitirá el uso de los archivos .htaccess:&lt;/p&gt;
-&lt;pre&gt;
-    &lt;Directory /var/www/drupal&gt;
-            AllowOverride all
-    &lt;/Directory&gt;
-&lt;/pre&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;-Con estos pasos hechos correctamente podremos ver como podemos usar drupal desde nuestro navegador
-!drupalfound.png!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; a2ensite drupal&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Cambiamos el usuario del directorio.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; -R www-data:www-data /var/www/drupal/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Recargamos apache2:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;systemctl reload apache2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modificamos el fichero  hosts en nuestra maquina fisica.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.5       www.madu-drupal.org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;El contenido de este archivo es un bloque Directory para el directorio de Drupal en el que una directiva AllowOverride permitirá el uso de los archivos &lt;strong&gt;.htaccess&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory /var/www/drupal&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                AllowOverride all
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Con estos pasos hechos correctamente podremos ver como podemos usar drupal desde nuestro navegador
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/b8d0567457763b1c3b228cb6539895c1/a987b/drupalfound.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.25000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAB8UlEQVQoz3WSy07bUBCGLRKWdY5NoF0DrwXhkthJbEKQWBb6BEhUXKoCJdQOTkILu16eAKkECizYUgFCVEIQIFQBYvJ35pigqrSWRhqf+f9Pc86MovZNITIwC5GYg5ZchJbKQbcctGc8dAwX0JEtUpQegnM6o5puudDSS9DMd4jE30Ltn8Wz2BQUMfgmgFFBS5GAhMJeRthwEDLyCJnLaDE9GTLns0SgYa30sJcYzFI0Y546y1HRgT7kQWSKeDG6hkG3jKS3Bau4Dau0A3tlF2nOC1tIuBt4ThqRKUkPeyWDWIpm0jXTAawtuwJ1+CO6xz/j5PwC1eoVgDrg36Bxc025D/78+wY6xz5JLXsklBjMUoLuXOiZAtpGPkDNrqLr1Vccn57j8qKCun+PHyen2Ns/ws+zCmp3Ps6ubwn4hbRr0sNeeX1i/bPDLuqw+qsGNIKODis1lA8quKrdyf/buo/Ol//pUDx5wxK9zyp6F9cRd75hwNlAytuEXfwOI19GnN4vlluXmr/fkFlPpizXwfbQauYRpqmGkwWEKFooOOczrrFG/2PKojnlSOw1RP80mmBhLMh9jFrvEbUdChfRoXwQnPMZ1VjD2iaIGcxS1J4JRHonIeSCzwRFWtQmXJgLQffcBeWPENaQVnrYG5sEs34DXLXaepxKnqAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;drupal1&quot;
+        src=&quot;/gatsbyjs/static/b8d0567457763b1c3b228cb6539895c1/36727/drupalfound.png&quot;
+        srcset=&quot;/gatsbyjs/static/b8d0567457763b1c3b228cb6539895c1/acf4b/drupalfound.png 173w,
+/gatsbyjs/static/b8d0567457763b1c3b228cb6539895c1/fc834/drupalfound.png 345w,
+/gatsbyjs/static/b8d0567457763b1c3b228cb6539895c1/36727/drupalfound.png 690w,
+/gatsbyjs/static/b8d0567457763b1c3b228cb6539895c1/17fa4/drupalfound.png 1035w,
+/gatsbyjs/static/b8d0567457763b1c3b228cb6539895c1/a5044/drupalfound.png 1380w,
+/gatsbyjs/static/b8d0567457763b1c3b228cb6539895c1/a987b/drupalfound.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Una vez realizado todos los procedimientos de configuración del asistente de instalación, tendremos instalado drupal en nuestro servidor.
 El proceso es muy simple típico siguiente,siguiente,siguiente...&lt;/p&gt;
 &lt;p&gt;Me salia un error de no tener URL limpia configurada lo he solucionado, activando el mod_rewrite y modificando el fichero apache.conf en la siguiente linea&lt;/p&gt;
-&lt;pre&gt;
-#Para tener una URL limpia, añadimos el siguiente módulo y cambiamos el AllowOverride de &quot;None&quot; a &quot;All&quot;:
-vagrant@drupal:/var/www/html$ sudo a2enmod rewrite
-vagrant@drupal:/etc/apache2$ sudo nano apache2.conf
-&lt;Directory /var/www/&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#Para tener una URL limpia, añadimos el siguiente módulo y cambiamos el AllowOverride de &quot;None&quot; a &quot;All&quot;:&lt;/span&gt;
+vagrant@drupal:/var/www/html$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; a2enmod rewrite
+vagrant@drupal:/etc/apache2$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; apache2.conf
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory /var/www/&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
         Options Indexes FollowSymLinks
         AllowOverride All
         Require all granted
-&lt;/Directory&gt;
-&lt;/pre&gt;
-&lt;p&gt;Una vez terminada la configuración inicial podremos ver esta pantalla.
-!drupal1.png!&lt;/p&gt;
-&lt;p&gt;4.- Realiza una configuración mínima de la aplicación (Cambia la plantilla, crea algún contenido, …)
-Dentro de nuestra web de drupal accederemos a apariencias -&gt; nueva plantilla -&gt; ponemos la URL de la plantilla que hayamos buscado -&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Realiza una configuración mínima de la aplicación (Cambia la plantilla, crea algún contenido, …)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Dentro de nuestra web de drupal accederemos a apariencias -&gt; nueva plantilla -&gt; ponemos la URL de la plantilla que hayamos buscado -&gt;
 &lt;a href=&quot;https://ftp.drupal.org/files/projects/adminimal_theme-8.x-1.6.tar.gz&quot;&gt;https://ftp.drupal.org/files/projects/adminimal_theme-8.x-1.6.tar.gz&lt;/a&gt;
 y creamos un poco de contenido:
-!drupalnode1.png!&lt;/p&gt;
-&lt;p&gt;5.- Instala un módulo para añadir alguna funcionalidad a drupal.
-He instalado un nuevo modulo -&gt; &lt;a href=&quot;https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-rc8.tar.gz&quot;&gt;https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-rc8.tar.gz&lt;/a&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.33558558558559%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABPklEQVQoz5WRyW7CQBBE/U3BG+SCQriRY5KfJHgwOXHkayzAMrbxhpeKa6IhIwsJ0lKpe9RTz+0e4/PjHW+LBV6mU0zGY0yeJ3BdB6Y56mViNPrNtm3DsixZ//WeZN91HMx6/+x1DmO322G73eJ7s4FYr7FcfmG1Wkl5ngchPFkLIeD7/k2xJ/q7vG/gTlRVhf+E0bYtmqYBc1WVSJIT0vSE8znu6xhBEOBwOCDPc1wuF/kBXXVdS5FBGV3XgWI0TY0oPqEos95coiiKHnxGlmUyE0ozwRRr5VWc6y+rhh40EEqVZSnPw9AHkr+sw1RTnTlRHMdSSZLISQlW0w3Bd4HcESEEUzqQPWbuTffffGV1IU1T7Pd7HI/Haw7D8DqtepSHgTRFUSQB6nE4oZpSn/QhII2EUXyY4VqGK2L+AYXpI5DCSR45AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;drupal2&quot;
+        src=&quot;/gatsbyjs/static/cc987159a0fd521a38dff3d617a155df/36727/drupalnode1.png&quot;
+        srcset=&quot;/gatsbyjs/static/cc987159a0fd521a38dff3d617a155df/acf4b/drupalnode1.png 173w,
+/gatsbyjs/static/cc987159a0fd521a38dff3d617a155df/fc834/drupalnode1.png 345w,
+/gatsbyjs/static/cc987159a0fd521a38dff3d617a155df/36727/drupalnode1.png 690w,
+/gatsbyjs/static/cc987159a0fd521a38dff3d617a155df/17fa4/drupalnode1.png 1035w,
+/gatsbyjs/static/cc987159a0fd521a38dff3d617a155df/a5044/drupalnode1.png 1380w,
+/gatsbyjs/static/cc987159a0fd521a38dff3d617a155df/2d178/drupalnode1.png 1776w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Instala un módulo para añadir alguna funcionalidad a drupal.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;He instalado un nuevo modulo -&gt; &lt;a href=&quot;https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-rc8.tar.gz&quot;&gt;https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-rc8.tar.gz&lt;/a&gt;
 Lo activamos, este modulo se encarga de proporciona un widget para la gestión en línea (creación, modificación, eliminación) de entidades referenciadas.&lt;/p&gt;
 &lt;p&gt;En este momento, muestra al profesor la aplicación funcionando en local. (4 puntos)&lt;/p&gt;
-&lt;p&gt;h1. Tarea 3: Configuración multinodo&lt;/p&gt;
+&lt;h1 id=&quot;tarea-3-configuración-multinodo&quot;&gt;&lt;a href=&quot;#tarea-3-configuraci%C3%B3n-multinodo&quot; aria-label=&quot;tarea 3 configuración multinodo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 3: Configuración multinodo&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Realiza un copia de seguridad de la base de datos&lt;/p&gt;
-&lt;pre&gt;
-vagrant@drupal:~$ mysqldump -v --opt --events --routines --triggers --default-character-set=utf8 -u fmadu -p fmadudb &gt; fmadu.sql
+&lt;li&gt;Realiza un copia de seguridad de la base de datos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:~$ mysqldump -v --opt --events --routines --triggers --default-character-set&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;utf8 -u fmadu -p fmadudb &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; fmadu.sql
 Enter password: 
--- Connecting to localhost...
--- Disconnecting from localhost...
-vagrant@drupal:~$ ls
-fmadu.sql
-&lt;/pre&gt;
-&lt;/li&gt;
+-- Connecting to localhost&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+-- Disconnecting from localhost&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+vagrant@drupal:~$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
+fmadu.sql&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;Crea otra máquina con vagrant, conectada con una red interna a la anterior y configura un servidor de base de datos.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Creamos una máquina nueva con vagrant&lt;/p&gt;
-&lt;pre&gt;
- bdd.vm.box = &quot;debian/buster64&quot;
- bdd.vm.hostname = &quot;bdd&quot;
- bdd.vm.network :public_network,:bridge=&gt;&quot;wlo1&quot;
- bdd.vm.network :private_network, ip: &quot;192.168.100.6&quot;, virtualbox__intnet: &quot;drupal&quot;
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt; bdd.vm.box &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;debian/buster64&quot;&lt;/span&gt;
+ bdd.vm.hostname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;bdd&quot;&lt;/span&gt;
+ bdd.vm.network :public_network,:bridge&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;wlo1&quot;&lt;/span&gt;
+ bdd.vm.network :private_network, ip: &lt;span class=&quot;token string&quot;&gt;&quot;192.168.100.6&quot;&lt;/span&gt;, virtualbox__intnet: &lt;span class=&quot;token string&quot;&gt;&quot;drupal&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Crea un usuario en la base de datos para trabajar con la nueva base de datos.&lt;/p&gt;
-&lt;pre&gt;
-Creamos un usuario en el nuevo servidor:
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Creamos un usuario en el nuevo servidor:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;vagrant@bdd:~$ sudo mysql -u root -p&lt;/p&gt;
@@ -16543,158 +16560,191 @@ Creamos un usuario en el nuevo servidor:
 &lt;p&gt;MariaDB [(none)]&gt; create database &apos;drupal2_db&apos;;&lt;/p&gt;
 &lt;p&gt;Ahora le damos permisos también a la máquina con drupal:&lt;/p&gt;
 &lt;p&gt;MariaDB [(none)]&gt; grant all on drupal2_db.* to drupal2@192.168.2.171 identified by &apos;dios&apos;;&lt;/p&gt;
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* Restaura la copia de seguridad en el nuevo servidor de base datos.
+He usado git para pasar el archivo de una maquina a otra.
+```shell
+mysql -u drupal2 --password=dios drupal2_db &amp;lt; /home/vagrant/prueba/fmadu.sql &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Restaura la copia de seguridad en el nuevo servidor de base datos.
-He usado git para pasar el archivo de una maquina a otra.&lt;/p&gt;
-&lt;pre&gt;
-mysql -u drupal2 --password=dios drupal2_db &lt; /home/vagrant/prueba/fmadu.sql 
-&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;Desinstala el servidor de base de datos en el servidor principal.&lt;/p&gt;
-&lt;pre&gt;
-vagrant@drupal:~$ sudo apt purge mariadb-*
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; purge mariadb-*&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;Realiza los cambios de configuración necesario en drupal para que la página funcione.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Modificamos el fichero 50-server.cnf&lt;/p&gt;
-&lt;pre&gt;
-vagrant@drupal2:~$ sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf 
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal2:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/mysql/mariadb.conf.d/50-server.cnf 
 
-bind-address            = 0.0.0.0
-&lt;/pre&gt;
+bind-address            &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Nos vamos a nuestra maquina drupal, en drupal.conf:&lt;/p&gt;
-&lt;pre&gt;
-        ServerName www.madu-drupal.org
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;        ServerName www.madu-drupal.org
 
         ServerAdmin webmaster@localhost
         DocumentRoot /var/www/drupal
 
-        &lt;Directory /var/www/drupal&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory /var/www/drupal&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
                 Options FollowSymLinks
                 AllowOverride All
                 Order allow,deny
                 allow from all
-        &lt;/Directory&gt;
-&lt;/pre&gt;
-&lt;pre&gt;
-vagrant@drupal:/var/www/drupal/sites/default$ sudo nano settings.php 
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:/var/www/drupal/sites/default$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; settings.php 
 
-$databases[&apos;default&apos;][&apos;default&apos;] = array (
-  &apos;database&apos; =&gt; &apos;drupal2_db&apos;,
-  &apos;username&apos; =&gt; &apos;drupal2&apos;,
-  &apos;password&apos; =&gt; &apos;dios&apos;,
-  &apos;prefix&apos; =&gt; &apos;&apos;,
-  &apos;host&apos; =&gt; &apos;192.168.2.63,
-  &apos;port&apos; =&gt; &apos;3306&apos;,
-  &apos;namespace&apos; =&gt; &apos;Drupal\\Core\\Database\\Driver\\mysql&apos;,
-  &apos;driver&apos; =&gt; &apos;mysql&apos;,
-);
-&lt;/pre&gt;
-&lt;p&gt;h1. Tarea 4: Instalación de otro CMS PHP&lt;/p&gt;
+&lt;span class=&quot;token variable&quot;&gt;$databases&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; array &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token string&quot;&gt;&apos;database&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;drupal2_db&apos;&lt;/span&gt;,
+  &lt;span class=&quot;token string&quot;&gt;&apos;username&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;drupal2&apos;&lt;/span&gt;,
+  &lt;span class=&quot;token string&quot;&gt;&apos;password&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;dios&apos;&lt;/span&gt;,
+  &lt;span class=&quot;token string&quot;&gt;&apos;prefix&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;,
+  &lt;span class=&quot;token string&quot;&gt;&apos;host&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;192.168.2.63,
+  &apos;&lt;/span&gt;port&lt;span class=&quot;token string&quot;&gt;&apos; =&gt; &apos;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3306&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;,
+  &apos;&lt;/span&gt;namespace&lt;span class=&quot;token string&quot;&gt;&apos; =&gt; &apos;&lt;/span&gt;Drupal&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;Core&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;Database&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;Driver&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;mysql&lt;span class=&quot;token string&quot;&gt;&apos;,
+  &apos;&lt;/span&gt;driver&lt;span class=&quot;token string&quot;&gt;&apos; =&gt; &apos;&lt;/span&gt;mysql&apos;,
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h1 id=&quot;tarea-4-instalación-de-otro-cms-php&quot;&gt;&lt;a href=&quot;#tarea-4-instalaci%C3%B3n-de-otro-cms-php&quot; aria-label=&quot;tarea 4 instalación de otro cms php permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 4: Instalación de otro CMS PHP.&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Elige otro CMS realizado en PHP y realiza la instalación en tu infraestructura.
-vagrant@drupal:/var/www$ sudo wget &lt;a href=&quot;https://downloads.joomla.org/es/cms/joomla3/3-9-22/Joomla_3-9-22-Stable-Full_Package.zip?format=zip&quot;&gt;https://downloads.joomla.org/es/cms/joomla3/3-9-22/Joomla_3-9-22-Stable-Full_Package.zip?format=zip&lt;/a&gt;
-vagrant@drupal:/var/www/joomla$ ls
+&lt;p&gt;Elige otro CMS realizado en PHP y realiza la instalación en tu infraestructura.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:/var/www$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; https://downloads.joomla.org/es/cms/joomla3/3-9-22/Joomla_3-9-22-Stable-Full_Package.zip?format&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;zip
+vagrant@drupal:/var/www/joomla$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
 administrator   cli            images      installation                                        layouts       media     README.txt        tmp
-bin             components     includes   &apos;Joomla&lt;em&gt;3-9-22-Stable-Full&lt;/em&gt;Package.zip?format=zip&apos;   libraries     modules   robots.txt.dist   web.config.txt
-cache           htaccess.txt   index.php   language&lt;br&gt;
-vagrant@drupal:/var/www$ sudo chown -R www-data:www-data joomla/&lt;/p&gt;
-&lt;/pre&gt;
+bin             components     includes   &lt;span class=&quot;token string&quot;&gt;&apos;Joomla_3-9-22-Stable-Full_Package.zip?format=zip&apos;&lt;/span&gt;   libraries     modules   robots.txt.dist   web.config.txt
+cache           htaccess.txt   index.php   language  
+vagrant@drupal:/var/www$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; -R www-data:www-data joomla/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;
-vagrant@drupal:/etc/apache2/sites-available$ sudo cp drupal.conf joomla.conf
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; drupal.conf joomla.conf
         ServerName www.madu-joomla.org
 
         ServerAdmin webmaster@localhost
         DocumentRoot /var/www/joomla
-        &lt;Directory /var/www/joomla&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Directory /var/www/joomla&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
                 AllowOverride all
-        &lt;/Directory&gt;
-vagrant@drupal:/etc/apache2/sites-available$ sudo a2ensite joomla.conf 
-vagrant@drupal:/etc/apache2/sites-available$ sudo systemctl reload apache2
-&lt;/pre&gt;
-&lt;p&gt;creamos base de datos para joomla&lt;/p&gt;
-&lt;pre&gt;
-vagrant@drupal:/etc/apache2/sites-available$ sudo mysql -u fmadu -p
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/Directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+vagrant@drupal:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; a2ensite joomla.conf 
+vagrant@drupal:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl reload apache2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Creamos base de datos para joomla&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:/etc/apache2/sites-available$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; mysql -u fmadu -p
 
-MariaDB [(none)]&gt; create database fmadudbjoomla;
-Query OK, 1 row affected (0.017 sec)
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; create database fmadudbjoomla&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; row affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.017&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
-MariaDB [(none)]&gt; create user &apos;joomla1&apos; identified by &apos;dios&apos;;
-Query OK, 0 rows affected (0.001 sec)
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; create user &lt;span class=&quot;token string&quot;&gt;&apos;joomla1&apos;&lt;/span&gt; identified by &lt;span class=&quot;token string&quot;&gt;&apos;dios&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; rows affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.001&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
-MariaDB [(none)]&gt; grant all on fmadudbjoomla.* to joomla1 identified by &apos;joomla1&apos;
-    -&gt; ;
-Query OK, 0 rows affected (0.014 sec)
-&lt;/pre&gt;
+MariaDB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;none&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; grant all on fmadudbjoomla.* to joomla1 identified by &lt;span class=&quot;token string&quot;&gt;&apos;joomla1&apos;&lt;/span&gt;
+    -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+Query OK, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; rows affected &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.014&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Configura otro virtualhost y elige otro nombre en el mismo dominio.
 En mi maquina -&gt;&lt;/p&gt;
-&lt;pre&gt;
-192.168.100.5   www.madu-drupal.org
-192.168.100.5   www.madu-joomla.org
-&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.5   www.madu-drupal.org
+&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.5   www.madu-joomla.org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;!joomla.png!
-!joomla2.png!&lt;/p&gt;
-&lt;p&gt;Tarea 5: Necesidad de otros serviciosPermalink
-La mayoría de los CMS tienen la posibilidad de mandar correos electrónicos (por ejemplo para notificar una nueva versión, notificar un comentario,…)&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/4833bb74eda5579fbd777fc29a0e3616/b5457/joomla.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.15822784810127%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABhElEQVQoz41Sy07DMBDMnwLlob5foBYkKnFD/EH5JG5cgFtLaYNaqiTUiesmdjzsJqRUVQ9YGo3X652ddeJcDe7QuRmg1u3jonWJcqdH3MV5s4tSrY1StYaTSh1H5QZxA2eNTnZ+XGnitN5G9bKP1vUAbdKo927hjFcJ3oUmGEyiFJOQ2eJDWkwV8Oa6eB1N8Dzz8TIXeY7uzSSzxTvdH1P9iHQYTmwsYpPm0MwWSoUIpYQnYyx8Ac8PIFSCQGnImGHgy+SvjpBQHcMBLLawzIBaRxCrFUQYIolj2DTF7lpGGk9j8RsVdTkcS8EuMkG1gR8E8DwPQoQw7CBJaC8yhNQoNSaX26v/EyySv3211thsNlA0Ou8ZSiksl0ssFl/UQB8WLMbYTzDYDbuMoghpmrtkdxxzg926YjnYW7vJJKaHpzc0NB6fs+O1jCDJtdkb+aBgkWBmR8aabc4Y+rprhdF0DvdzjuB79X/BTEwbuJ6LIAy2Tn36fe7vH1BvNDEcPh4U/AEO3OoAxIimTAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;joomla1&quot;
+        src=&quot;/gatsbyjs/static/4833bb74eda5579fbd777fc29a0e3616/36727/joomla.png&quot;
+        srcset=&quot;/gatsbyjs/static/4833bb74eda5579fbd777fc29a0e3616/acf4b/joomla.png 173w,
+/gatsbyjs/static/4833bb74eda5579fbd777fc29a0e3616/fc834/joomla.png 345w,
+/gatsbyjs/static/4833bb74eda5579fbd777fc29a0e3616/36727/joomla.png 690w,
+/gatsbyjs/static/4833bb74eda5579fbd777fc29a0e3616/17fa4/joomla.png 1035w,
+/gatsbyjs/static/4833bb74eda5579fbd777fc29a0e3616/a5044/joomla.png 1380w,
+/gatsbyjs/static/4833bb74eda5579fbd777fc29a0e3616/b5457/joomla.png 1896w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/280c1f62ce53f560d256d6f7426c2213/c01b9/joomla2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.77881802223523%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABGklEQVQoz4WS206EMBCGeVVXWQ4rHrLGjfqAPoA3XpKomD1IaCm0UOB3poRVN3G3yZfpab4OE7z7xycsVw+4ul0iiBOEyTWCRYJ5FMOPL+FHixGaz4IIs3no4nkQ48wPiBAXYYyE8m/uVvCKsoJQtaOsDZQ2yIVE+p4h2+zw9rnBx3rr5rbr0QOO1nYO3uMcWY0Or6o11J4avC5Lha88h6aLWusxGoO+7zEww4CiEBBCuPPJwdEryfwbfsk0DWzbwlpLkg5dN8JrB82llA4WsmzK99SfCseDhmSnxnq7owolDFU+5XE8KuRPOxzT3vNLitc0I6E+LTTNj/A/+K5Q1fEKp82SLubU9IJ6VB08OFGTqKL+8V+y7yHFb7GZTTnEar7zAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;joomla2&quot;
+        src=&quot;/gatsbyjs/static/280c1f62ce53f560d256d6f7426c2213/36727/joomla2.png&quot;
+        srcset=&quot;/gatsbyjs/static/280c1f62ce53f560d256d6f7426c2213/acf4b/joomla2.png 173w,
+/gatsbyjs/static/280c1f62ce53f560d256d6f7426c2213/fc834/joomla2.png 345w,
+/gatsbyjs/static/280c1f62ce53f560d256d6f7426c2213/36727/joomla2.png 690w,
+/gatsbyjs/static/280c1f62ce53f560d256d6f7426c2213/17fa4/joomla2.png 1035w,
+/gatsbyjs/static/280c1f62ce53f560d256d6f7426c2213/a5044/joomla2.png 1380w,
+/gatsbyjs/static/280c1f62ce53f560d256d6f7426c2213/c01b9/joomla2.png 1709w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;tarea-5-necesidad-de-otros-servicios&quot;&gt;&lt;a href=&quot;#tarea-5-necesidad-de-otros-servicios&quot; aria-label=&quot;tarea 5 necesidad de otros servicios permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 5: Necesidad de otros servicios.&lt;/h1&gt;
+&lt;p&gt;La mayoría de los CMS tienen la posibilidad de mandar correos electrónicos (por ejemplo para notificar una nueva versión, notificar un comentario,…)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Instala un servidor de correo electrónico en tu servidor. debes configurar un servidor relay de correo, para ello en el fichero /etc/postfix/main.cf, debes poner la siguiente línea:
 relayhost = babuino-smtp.gonzalonazareno.org&lt;/p&gt;
-&lt;pre&gt;
-vagrant@drupal:/var/www/joomla$ sudo apt install postfix
-&lt;/pre&gt;
-&lt;p&gt;Selecciono Internet site y luego pongo un correo -&gt; madu.gonzalonazareno.org&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:/var/www/joomla$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; postfix&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Selecciono Internet site y luego pongo un correo -&gt; madu.gonzalonazareno.org&lt;/p&gt;
 &lt;p&gt;En /etc/postfix/main.cf:&lt;/p&gt;
-&lt;pre&gt;
-smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated defer_unauth_destination
-myhostname = drupal
-alias_maps = hash:/etc/aliases
-alias_database = hash:/etc/aliases
-myorigin = /etc/mailname
-mydestination = $myhostname, madu.gonzalonazareno.org, drupal, localhost.localdomain, localhost
-relayhost = babuino-smtp.gonzalonazareno.org
-mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
-mailbox_size_limit = 0
-recipient_delimiter = +
-inet_interfaces = all
-inet_protocols = all
-&lt;/pre&gt;
-&lt;p&gt;Se inicia el servicio&lt;/p&gt;
-&lt;pre&gt;
-vagrant@drupal:/var/www/joomla$ sudo systemctl start postfix
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;smtpd_relay_restrictions &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+myhostname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; drupal
+alias_maps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hash:/etc/aliases
+alias_database &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hash:/etc/aliases
+myorigin &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; /etc/mailname
+mydestination &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$myhostname&lt;/span&gt;, madu.gonzalonazareno.org, drupal, localhost.localdomain, localhost
+relayhost &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; babuino-smtp.gonzalonazareno.org
+mynetworks &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;127.0&lt;/span&gt;.0.0/8 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;::ffff:127.0.0.0&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;/104 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;::1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;/128
+mailbox_size_limit &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+recipient_delimiter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; +
+inet_interfaces &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; all
+inet_protocols &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; all&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Se inicia el servicio.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:/var/www/joomla$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl start postfix
 vagrant@drupal:/var/www/joomla$ mailq
-Mail queue is empty
-&lt;/pre&gt;
+Mail queue is empty&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Configura alguno de los CMS para utilizar tu servidor de correo y realiza una prueba de funcionamiento.&lt;/p&gt;
-&lt;pre&gt;
-vagrant@drupal:/var/www/joomla$ mailq
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@drupal:/var/www/joomla$ mailq
 -Queue ID-  --Size-- ----Arrival Time---- -Sender/Recipient-------
-041EF62200      706 Mon Nov  2 16:13:19  frandh1997@gmail.com
-(connect to babuino-smtp.gonzalonazareno.org[80.59.1.152]:25: Connection timed out)
-                                     frandh1997@gmail.com
+041EF62200      &lt;span class=&quot;token number&quot;&gt;706&lt;/span&gt; Mon Nov  &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;:13:19  frandh1997@gmail.com
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;connect to babuino-smtp.gonzalonazareno.org&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;80.59&lt;/span&gt;.1.152&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;:25: Connection timed out&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                                     frandh1997@gmail.com&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;01D1B623E7      993 Mon Nov  2 16:13:18  frandh1997@gmail.com
 (connect to babuino-smtp.gonzalonazareno.org[80.59.1.152]:25: Connection timed out)
 frangodh97@gmail.com&lt;/p&gt;
 &lt;p&gt;-- 1 Kbytes in 2 Requests.&lt;/p&gt;
-&lt;/pre&gt;
-&lt;p&gt; se deberian enviar esos mensajes de nuevo usuarios, al no estar conectados a la red con babuino no se pueden enviar&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube (unidad 1)]]></title><description><![CDATA[Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube rclone es una herramienta que nos permite trabajar con los ficheros que…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube-unidad-1</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube-unidad-1</guid><category><![CDATA[Rclone]]></category><pubDate>Wed, 07 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-2-rclone---gestionando-nuestro-almacenamiento-en-la-nube&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-2-rclone---gestionando-nuestro-almacenamiento-en-la-nube&quot; aria-label=&quot;práctica 2 rclone   gestionando nuestro almacenamiento en la nube permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; se deberian enviar esos mensajes de nuevo usuarios, al no estar conectados a la red con babuino no se pueden enviar&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube (unidad 1)]]></title><description><![CDATA[Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube rclone es una herramienta que nos permite trabajar con los ficheros que…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube-unidad-1</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube-unidad-1</guid><category><![CDATA[Rclone]]></category><pubDate>Wed, 07 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-2-rclone---gestionando-nuestro-almacenamiento-en-la-nube&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-2-rclone---gestionando-nuestro-almacenamiento-en-la-nube&quot; aria-label=&quot;práctica 2 rclone   gestionando nuestro almacenamiento en la nube permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube&lt;/h2&gt;
 &lt;p&gt;rclone es una herramienta que nos permite trabajar con los ficheros que tenemos almacenados en distintos servicios de almacenamiento en la nube (dropbox, google drive, mega, box,… y muchos más que puedes ver en su página principal). Por lo tanto con rclone podemos gestionar y sincronizar los ficheros de nuestros servicios preferidos desde la línea de comandos.&lt;/p&gt;
 &lt;h2 id=&quot;tarea-1-instala-rclone-en-tu-equipo&quot;&gt;&lt;a href=&quot;#tarea-1-instala-rclone-en-tu-equipo&quot; aria-label=&quot;tarea 1 instala rclone en tu equipo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Instala rclone en tu equipo.&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueo:/home/fran&lt;span class=&quot;token comment&quot;&gt;# wget https://downloads.rclone.org/v1.53.1/rclone-v1.53.1-linux-amd64.deb&lt;/span&gt;
