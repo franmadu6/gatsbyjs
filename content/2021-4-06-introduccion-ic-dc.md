@@ -236,4 +236,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 ![PracticaImg](images/iaw/Build-Heroku.png "heroku 4")
 
-Como podemos comprobrar se hace el desplieque automático.
+Como podemos comprobrar se hace el desplieque automático en heroku si realizamos un deploy desde github actions.
