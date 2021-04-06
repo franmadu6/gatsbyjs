@@ -14,10 +14,10 @@ tags:
 # Tarea 1: Instalación de un servidor LAMP
 
 1. **Crea una instancia de vagrant basado en un box debian o ubuntu.**
+
 ```shell
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
-
 Vagrant.configure("2") do |config|
 
   config.vm.box = "debian/buster64"
@@ -176,19 +176,17 @@ Creamos una máquina nueva con vagrant
 ```
 
 * Crea un usuario en la base de datos para trabajar con la nueva base de datos.
-```shell
+
 Creamos un usuario en el nuevo servidor:
-
+```shell
 vagrant@bdd:~$ sudo mysql -u root -p
-
 MariaDB [(none)]> create user 'drupal2' identified by 'dios';
-
 MariaDB [(none)]> grant all privileges on *.* to 'drupal2'@'localhost' identified by 'dios' with grant option;
-
 MariaDB [(none)]> create database 'drupal2_db';
+```
 
 Ahora le damos permisos también a la máquina con drupal:
-
+```shell
 MariaDB [(none)]> grant all on drupal2_db.* to drupal2@192.168.2.171 identified by 'dios';
 ```
 
@@ -245,6 +243,7 @@ $databases['default']['default'] = array (
 # Tarea 4: Instalación de otro CMS PHP.
 
 * Elige otro CMS realizado en PHP y realiza la instalación en tu infraestructura.
+
 ```shell
 vagrant@drupal:/var/www$ sudo wget https://downloads.joomla.org/es/cms/joomla3/3-9-22/Joomla_3-9-22-Stable-Full_Package.zip?format=zip
 vagrant@drupal:/var/www/joomla$ ls
