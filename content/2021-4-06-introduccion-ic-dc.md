@@ -167,3 +167,71 @@ Le daremos a **Start Commit** para añadir el archivo al directorio, Ahora compr
 ![PracticaImg](images/iaw/Build-software-better-together.png "prueba mala")
 
 
+A continuación vamos a realziar el despliegue coontinuo en un servicio de hosting, **Heroku**.
+
+Deberemos irnos a nuestro perfil de usuario en Heroku, buscamos API_KEY la copiamos, ahora nos iremos a nuestro repositorio -> Settings -> Secrets y pegaremos ahí el codigo copiado.
+
+![PracticaImg](images/iaw/heroku-api-key.png "heroku key")
+
+![PracticaImg](images/iaw/heroku-api-key2.png "heroku key 2")
+
+Ahora crearemos un nuevo proyecto en heroku y lo conectaremos con GitHub.
+
+![PracticaImg](images/iaw/django-tutorial-franmadu6GitHubHeroku.png "heroku 3")
+
+Modificaremos el fichero main nueva mente añadiendo las sigueinte lineas para implementarlo en heroku:
+```shell
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9]
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: akhileshns/heroku-deploy@v3.8.9 # This is the action
+      with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "django-tutorial-franmadu6" #Must be unique in Heroku
+          heroku_email: "frandh1997@gmail.com"
+          procfile: "web: npm start"    
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Instalar requerimientos
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+      
+    - name: Probar python3
+      run: python3 manage.py test
+```
+
+También modificaremos el fichero settings.py y le añadiremos en la primera línea:
+```shell
+import os
+```
+Y en la ultima:
+```shell
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+```
+
+![PracticaImg](images/iaw/Build-Heroku.png "heroku 4")
+
+Como podemos comprobrar se hace el desplieque automático.

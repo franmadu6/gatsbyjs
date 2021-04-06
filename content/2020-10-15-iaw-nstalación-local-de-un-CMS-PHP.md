@@ -283,6 +283,7 @@ Query OK, 0 rows affected (0.014 sec)
 
 * Configura otro virtualhost y elige otro nombre en el mismo dominio.
 En mi maquina ->
+
 ```shell
 192.168.100.5   www.madu-drupal.org
 192.168.100.5   www.madu-joomla.org
@@ -297,6 +298,7 @@ La mayoría de los CMS tienen la posibilidad de mandar correos electrónicos (po
 
 * Instala un servidor de correo electrónico en tu servidor. debes configurar un servidor relay de correo, para ello en el fichero /etc/postfix/main.cf, debes poner la siguiente línea:
       relayhost = babuino-smtp.gonzalonazareno.org
+
 ```shell
 vagrant@drupal:/var/www/joomla$ sudo apt install postfix
 ```
