@@ -25,6 +25,8 @@ tags:
 
 ### Entrega un breve descripción de los pasos más importantes para realizar el despliegue desde el sistema de CI/CS y entrega una prueba de funcionamiento donde se compruebe cómo se hace el despliegue automático.
 
+<hr>
+
 Para esta práctica utilizaremos el fork de django_tutorial utilizado anteriormente.
 
 Crearemos un entorno virtual.
