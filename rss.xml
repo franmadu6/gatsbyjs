@@ -1,11 +1,188 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 06 Apr 2021 09:39:20 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[IAW] - Práctica: Implantación de aplicaciones web PHP en docker ]]></title><description><![CDATA[Práctica: Implantación de aplicaciones web PHP en docker.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</guid><category><![CDATA[PHP]]></category><category><![CDATA[Docker]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-implantación-de-aplicaciones-web-php-en-docker&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-implantaci%C3%B3n-de-aplicaciones-web-php-en-docker&quot; aria-label=&quot;práctica implantación de aplicaciones web php en docker permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Implantación de aplicaciones web PHP en docker.&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] Introducción a la IC/DC]]></title><description><![CDATA[Tarea: Integración continúa de aplicación django (Test + Deploy). Vamos a trabajar con el repositorio de la aplicación django_tutorial. Esta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</guid><category><![CDATA[Integración Continúa]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-integración-continúa-de-aplicación-django-test--deploy&quot;&gt;&lt;a href=&quot;#tarea-integraci%C3%B3n-contin%C3%BAa-de-aplicaci%C3%B3n-django-test--deploy&quot; aria-label=&quot;tarea integración continúa de aplicación django test  deploy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea: Integración continúa de aplicación django (Test + Deploy).&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 06 Apr 2021 10:51:41 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[IAW] - Práctica: Implantación de aplicaciones web PHP en docker ]]></title><description><![CDATA[Práctica: Implantación de aplicaciones web PHP en docker.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</guid><category><![CDATA[PHP]]></category><category><![CDATA[Docker]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-implantación-de-aplicaciones-web-php-en-docker&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-implantaci%C3%B3n-de-aplicaciones-web-php-en-docker&quot; aria-label=&quot;práctica implantación de aplicaciones web php en docker permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Implantación de aplicaciones web PHP en docker.&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] Introducción a la IC/DC]]></title><description><![CDATA[Tarea: Integración continúa de aplicación django (Test + Deploy). Vamos a trabajar con el repositorio de la aplicación django_tutorial. Esta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</guid><category><![CDATA[Integración Continúa]]></category><category><![CDATA[GitHub Actions]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-integración-continúa-de-aplicación-django-test--deploy&quot;&gt;&lt;a href=&quot;#tarea-integraci%C3%B3n-contin%C3%BAa-de-aplicaci%C3%B3n-django-test--deploy&quot; aria-label=&quot;tarea integración continúa de aplicación django test  deploy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea: Integración continúa de aplicación django (Test + Deploy).&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Vamos a trabajar con el repositorio de la aplicación &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;django_tutorial&lt;/a&gt;. Esta aplicación tiene definidas una serie de test, que podemos estudiar en el fichero tests.py del directorio polls.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Para ejecutar las pruebas unitarias, ejecutamos la instrucción python3 manage.py test.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&quot;estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-código-de-la-aplicación-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot;&gt;&lt;a href=&quot;#estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-c%C3%B3digo-de-la-aplicaci%C3%B3n-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot; aria-label=&quot;estudia las distintas pruebas que se han realizado y modifica el código de la aplicación debes modificar el fichero viewspy o los templates no debes cambiar el fichero testspy para que al menos una de ella no se ejecute de manera exitosa permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Estudia las distintas pruebas que se han realizado, y modifica el código de la aplicación (debes modificar el fichero views.py o los templates, no debes cambiar el fichero tests.py para que al menos una de ella no se ejecute de manera exitosa.&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;A continuación vamos a configurar la integración continúa para que cada vez que hagamos un commit se haga la ejecución de test en la herramienta de CI/CD que haya elegido.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&quot;crea-el-pipeline-en-el-sistema-de-cicd-para-que-pase-automáticamente-los-tests-muestra-el-fichero-de-configuración-y-una-captura-de-pantalla-con-un-resultado-exitoso-de-la-ic-y-otro-con-un-error&quot;&gt;&lt;a href=&quot;#crea-el-pipeline-en-el-sistema-de-cicd-para-que-pase-autom%C3%A1ticamente-los-tests-muestra-el-fichero-de-configuraci%C3%B3n-y-una-captura-de-pantalla-con-un-resultado-exitoso-de-la-ic-y-otro-con-un-error&quot; aria-label=&quot;crea el pipeline en el sistema de cicd para que pase automáticamente los tests muestra el fichero de configuración y una captura de pantalla con un resultado exitoso de la ic y otro con un error permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Crea el pipeline en el sistema de CI/CD para que pase automáticamente los tests. Muestra el fichero de configuración y una captura de pantalla con un resultado exitoso de la IC y otro con un error.&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;A continuación vamos a realziar el despliegue coontinuo en un servicio de hosting, por ejemplo heroku.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&quot;entrega-un-breve-descripción-de-los-pasos-más-importantes-para-realizar-el-despliegue-desde-el-sistema-de-cics-y-entrega-una-prueba-de-funcionamiento-donde-se-compruebe-cómo-se-hace-el-despliegue-automático&quot;&gt;&lt;a href=&quot;#entrega-un-breve-descripci%C3%B3n-de-los-pasos-m%C3%A1s-importantes-para-realizar-el-despliegue-desde-el-sistema-de-cics-y-entrega-una-prueba-de-funcionamiento-donde-se-compruebe-c%C3%B3mo-se-hace-el-despliegue-autom%C3%A1tico&quot; aria-label=&quot;entrega un breve descripción de los pasos más importantes para realizar el despliegue desde el sistema de cics y entrega una prueba de funcionamiento donde se compruebe cómo se hace el despliegue automático permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Entrega un breve descripción de los pasos más importantes para realizar el despliegue desde el sistema de CI/CS y entrega una prueba de funcionamiento donde se compruebe cómo se hace el despliegue automático.&lt;/h3&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[SAD] - Cortafuegos - OpenStack]]></title><description><![CDATA[Cortafuegos Vamos a construir un cortafuegos en dulcinea que nos permita controlar el tráfico de nuestra red. El cortafuegos que vamos a…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sad-cortafuegos-open-stack</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sad-cortafuegos-open-stack</guid><category><![CDATA[Cortafuegos]]></category><category><![CDATA[Iptables]]></category><category><![CDATA[OpenStack]]></category><pubDate>Sun, 04 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;cortafuegos&quot;&gt;&lt;a href=&quot;#cortafuegos&quot; aria-label=&quot;cortafuegos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Cortafuegos&lt;/h1&gt;
+&lt;h3 id=&quot;entrega-un-breve-descripción-de-los-pasos-más-importantes-para-realizar-el-despliegue-desde-el-sistema-de-cics-y-entrega-una-prueba-de-funcionamiento-donde-se-compruebe-cómo-se-hace-el-despliegue-automático&quot;&gt;&lt;a href=&quot;#entrega-un-breve-descripci%C3%B3n-de-los-pasos-m%C3%A1s-importantes-para-realizar-el-despliegue-desde-el-sistema-de-cics-y-entrega-una-prueba-de-funcionamiento-donde-se-compruebe-c%C3%B3mo-se-hace-el-despliegue-autom%C3%A1tico&quot; aria-label=&quot;entrega un breve descripción de los pasos más importantes para realizar el despliegue desde el sistema de cics y entrega una prueba de funcionamiento donde se compruebe cómo se hace el despliegue automático permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Entrega un breve descripción de los pasos más importantes para realizar el despliegue desde el sistema de CI/CS y entrega una prueba de funcionamiento donde se compruebe cómo se hace el despliegue automático.&lt;/h3&gt;
+&lt;p&gt;Para esta práctica utilizaremos el fork de django_tutorial utilizado anteriormente.&lt;/p&gt;
+&lt;p&gt;Crearemos un entorno virtual.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; .virtualenvs/
+fran@debian:~/.virtualenvs$ python3 -m venv django
+fran@debian:~/.virtualenvs$ &lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; django/bin/activate
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/.virtualenvs$ &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Instalamos los requerimientos.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial$ pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -r requirements.txt 
+Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;asgiref&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.3&lt;/span&gt;.0 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
+  Using cached https://files.pythonhosted.org/packages/c0/e8/578887011652048c2d273bf98839a11020891917f3aa638a0bc9ac04d653/asgiref-3.3.0-py3-none-any.whl
+Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;Django&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.1&lt;/span&gt;.3 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
+  Using cached https://files.pythonhosted.org/packages/7f/17/16267e782a30ea2ce08a9a452c1db285afb0ff226cfe3753f484d3d65662/Django-3.1.3-py3-none-any.whl
+Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;pytz&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2020.4&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
+  Using cached https://files.pythonhosted.org/packages/12/f8/ff09af6ff61a3efaad5f61ba5facdf17e7722c4393f7d8a66674d2dbd29f/pytz-2020.4-py2.py3-none-any.whl
+Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;sqlparse&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;.1 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
+  Using cached https://files.pythonhosted.org/packages/14/05/6e8eb62ca685b10e34051a80d7ea94b7137369d8c0be5c3b9d9b6e3f5dae/sqlparse-0.4.1-py3-none-any.whl
+Installing collected packages: asgiref, pytz, sqlparse, Django
+Successfully installed Django-3.1.3 asgiref-3.3.0 pytz-2020.4 sqlparse-0.4.1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Realizaremos una comprobación de los test.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial$ python3 manage.py &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;
+Creating &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; database &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+System check identified no issues &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; silenced&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;
+----------------------------------------------------------------------
+Ran &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; tests &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;.029s
+
+OK
+Destroying &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; database &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modificaremos la aplicación para producir un error.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial/polls/templates/polls$ &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; index.html 
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% load static %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;link &lt;span class=&quot;token assign-left variable&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;text/css&quot;&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;{% static &apos;polls/style.css&apos; %}&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; latest_question_list %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;question&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; latest_question_list %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;a &lt;span class=&quot;token assign-left variable&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;{% url &apos;polls:detail&apos; question.id %}&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; question.question_text &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% endfor %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Generando un error&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% endif %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como podemos comprobar al realizar un nuevo test.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial$ python3 manage.py &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;
+Creating &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; database &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+System check identified no issues &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; silenced&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;F.F&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
+FAIL: test_future_question &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;polls.tests.QuestionIndexViewTests&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+----------------------------------------------------------------------
+Traceback &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;most recent call last&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:
+  File &lt;span class=&quot;token string&quot;&gt;&quot;/home/fran/GitHub/django_tutorial/polls/tests.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;73&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; test_future_question
+    self.assertContains&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;response, &lt;span class=&quot;token string&quot;&gt;&quot;No polls are available.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  File &lt;span class=&quot;token string&quot;&gt;&quot;/home/fran/.virtualenvs/django/lib/python3.7/site-packages/django/test/testcases.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;470&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; assertContains
+    self.assertTrue&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;real_count &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, msg_prefix + &lt;span class=&quot;token string&quot;&gt;&quot;Couldn&apos;t find %s in response&quot;&lt;/span&gt; % text_repr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+AssertionError: False is not &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Couldn&lt;span class=&quot;token string&quot;&gt;&apos;t find &apos;&lt;/span&gt;No polls are available.&lt;span class=&quot;token string&quot;&gt;&apos; in response
+
+======================================================================
+FAIL: test_no_questions (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/home/fran/GitHub/django_tutorial/polls/tests.py&quot;, line 51, in test_no_questions
+    self.assertContains(response, &quot;No polls are available.&quot;)
+  File &quot;/home/fran/.virtualenvs/django/lib/python3.7/site-packages/django/test/testcases.py&quot;, line 470, in assertContains
+    self.assertTrue(real_count != 0, msg_prefix + &quot;Couldn&apos;&lt;/span&gt;t &lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt; %s &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; response&quot; % text_repr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+AssertionError: False is not &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Couldn&lt;span class=&quot;token string&quot;&gt;&apos;t find &apos;&lt;/span&gt;No polls are available.&lt;span class=&quot;token string&quot;&gt;&apos; in response
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.029s
+
+FAILED (failures=2)
+Destroying test database for alias &apos;&lt;/span&gt;default&apos;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Nos produce un error, la respuesta debería ser &quot;No polls are available.&quot; pero se la hemos modificado.&lt;/p&gt;
+&lt;p&gt;Ahora daremos paso a un sistema IC/DC que en mi caso usare &lt;strong&gt;GitHub Actions&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Para poder acceder a &lt;strong&gt;GitHub Actions&lt;/strong&gt; deberemos entrar en nuestro repositorio -&gt; Acceder a la pestaña Actions -&gt; Le daremos a la primera opción &quot;set up a workflow yourself&quot; para seleccionar el flujo de trabajo.&lt;/p&gt;
+&lt;p&gt;Editaremos el fichero generado &lt;strong&gt;main.yml&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# This is a basic workflow to help you get started with Actions&lt;/span&gt;
+
+name: CI
+
+&lt;span class=&quot;token comment&quot;&gt;# Controls when the action will run. &lt;/span&gt;
+on:
+  &lt;span class=&quot;token comment&quot;&gt;# Triggers the workflow on push or pull request events but only for the master branch&lt;/span&gt;
+  push:
+    branches: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  pull_request:
+    branches: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python &lt;span class=&quot;token variable&quot;&gt;${{ matrix.python-version }&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      uses: actions/setup-python@v2
+      with:
+        python-version: &lt;span class=&quot;token variable&quot;&gt;${{ matrix.python-version }&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    - name: Instalar requerimientos
+      run: &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+        pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; --upgrade pip
+        pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -r requirements.txt
+      
+    - name: Probar python3
+      run: python3 manage.py &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Le daremos a &lt;strong&gt;Start Commit&lt;/strong&gt; para añadir el archivo al directorio, Ahora comprobaremos algunos test.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Test Bueno
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/a987b/franmadu6-django_tutorial.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.65625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABG0lEQVQoz42S226DMBBEeWu4GRtjG2NuTZUQ9an//3PT9UKlIIWGhyNfGM/OYid+ekD7K5QdEKY7uvGGfl5gw7pXuxGaqJ/4WzftBEe6qI3nPJHUYUEzPND4GUI5lKolHETdomo6HgtpXxK/aUdFbU/Fe0jSJ364wrRUlRaV9iTyLCzZ3O3mr8grw5qYNBonNnyyuyCzuGG7GYrakabn6sqErdCxMXezaZK4UVCViHY9SmlwKSSyskYuNI9ZqbbxmJQ0UZ/Ef8HRRYP+a8Ht+wdhvkNT2o9M4JJXJxFIC7Um5JRkLI2H8RPd3kgtOBamlPYdUZdXmlp2a8LnlCm3oHleUPtnKZXlV7JL+N9tvqOQq8cu4dF7O0v0+AXvU/Jou/o4bQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;prueba buena&quot;
+        src=&quot;/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/36727/franmadu6-django_tutorial.png&quot;
+        srcset=&quot;/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/acf4b/franmadu6-django_tutorial.png 173w,
+/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/fc834/franmadu6-django_tutorial.png 345w,
+/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/36727/franmadu6-django_tutorial.png 690w,
+/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/17fa4/franmadu6-django_tutorial.png 1035w,
+/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/a5044/franmadu6-django_tutorial.png 1380w,
+/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/a987b/franmadu6-django_tutorial.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Test Erroneo (Modificando nueva mente el un fichero del repositorio.)
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/99445/Build-software-better-together.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 81.70859538784066%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAAB2UlEQVQ4y41T2XKjMBDkLbsIdCIJBMZO1nGlKv//fbM9w2EnIdl96BoJSa3u1lDN13fqz2/khxcK/ZnK/ErlfANeZe7TiXxmzGu9j0M/U57+UBpfaMA5RuXiRN3pjeJ0o4BN2vfUukwtqvYDmTDIvLHpC/g7n3dxlIttV6jq00R5vFDscXO3HGZon/dx6w7I1qpMlPU4XEA6UbUd2hYbE+h3Y+mXMlL/idZR3XqMUbWnKiIHlrxZjQNL74Xwf1CDUOkgxFyriNwcpJpQJLcYC/XTM0gHsdLaxdKPWPdwTJXYtHG3rF2kkEYhNNjA88Z0YumjXSeqdmyW78FnIebbQh6pyxN5qA2pCLHCZoV8OeO6dXvOj2DianuQe2t0opBJmdCD0MVBctWwtWTmpT4+3DeEq8I0CpEQAi1sP9rdFT10w48K2S73pShNi1KHTG3oJU9+zSOF9ZFCPsCZLVkt1rbKB5+UPmyfp1rL+vIoK6ECYYKaGW1TypkS1DnYNSC3uMja7+EAg/NfFDoQpukqvbl9X369bm2vDQ9zXMaO2iNChUU/3siVK5l0IZ2fBU13IuUL1TZTjX7dodGj/OsJjl4Zamy+ULNGoECgZIyW4cf4DM6XK8gVyP8CWguAW05CRskAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;prueba mala&quot;
+        src=&quot;/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/36727/Build-software-better-together.png&quot;
+        srcset=&quot;/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/acf4b/Build-software-better-together.png 173w,
+/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/fc834/Build-software-better-together.png 345w,
+/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/36727/Build-software-better-together.png 690w,
+/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/17fa4/Build-software-better-together.png 1035w,
+/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/a5044/Build-software-better-together.png 1380w,
+/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/99445/Build-software-better-together.png 1908w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[SAD] - Cortafuegos - OpenStack]]></title><description><![CDATA[Cortafuegos Vamos a construir un cortafuegos en dulcinea que nos permita controlar el tráfico de nuestra red. El cortafuegos que vamos a…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sad-cortafuegos-open-stack</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sad-cortafuegos-open-stack</guid><category><![CDATA[Cortafuegos]]></category><category><![CDATA[Iptables]]></category><category><![CDATA[OpenStack]]></category><pubDate>Sun, 04 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;cortafuegos&quot;&gt;&lt;a href=&quot;#cortafuegos&quot; aria-label=&quot;cortafuegos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Cortafuegos&lt;/h1&gt;
 &lt;h2 id=&quot;vamos-a-construir-un-cortafuegos-en-dulcinea-que-nos-permita-controlar-el-tráfico-de-nuestra-red-el-cortafuegos-que-vamos-a-construir-debe-funcionar-tras-un-reinicio&quot;&gt;&lt;a href=&quot;#vamos-a-construir-un-cortafuegos-en-dulcinea-que-nos-permita-controlar-el-tr%C3%A1fico-de-nuestra-red-el-cortafuegos-que-vamos-a-construir-debe-funcionar-tras-un-reinicio&quot; aria-label=&quot;vamos a construir un cortafuegos en dulcinea que nos permita controlar el tráfico de nuestra red el cortafuegos que vamos a construir debe funcionar tras un reinicio permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Vamos a construir un cortafuegos en dulcinea que nos permita controlar el tráfico de nuestra red. El cortafuegos que vamos a construir debe funcionar tras un reinicio.&lt;/h2&gt;
 &lt;h2 id=&quot;política-por-defecto&quot;&gt;&lt;a href=&quot;#pol%C3%ADtica-por-defecto&quot; aria-label=&quot;política por defecto permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Política por defecto&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;La política por defecto que vamos a configurar en nuestro cortafuegos será de tipo DROP.&lt;/strong&gt;&lt;/p&gt;
@@ -16202,7 +16379,322 @@ Con este Script he generado una plantilla por defecto para mis paginas que se pu
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube (unidad 1)]]></title><description><![CDATA[Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube rclone es una herramienta que nos permite trabajar con los ficheros que…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube-unidad-1</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube-unidad-1</guid><category><![CDATA[Rclone]]></category><pubDate>Wed, 07 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-2-rclone---gestionando-nuestro-almacenamiento-en-la-nube&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-2-rclone---gestionando-nuestro-almacenamiento-en-la-nube&quot; aria-label=&quot;práctica 2 rclone   gestionando nuestro almacenamiento en la nube permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube&lt;/h2&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] - P1. Instalación local de un CMS PHP]]></title><description><![CDATA[h1. Tarea 1: Instalación de un servidor LAMP 1.- Crea una instancia de vagrant basado en un box debian o ubuntu 2.- Instala en esa máquina…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-p-1-instalacion-local-de-un-cms-php</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-p-1-instalacion-local-de-un-cms-php</guid><category><![CDATA[CMS]]></category><category><![CDATA[PHP]]></category><category><![CDATA[LAMP]]></category><category><![CDATA[Drupal]]></category><pubDate>Wed, 14 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;h1. Tarea 1: Instalación de un servidor LAMP&lt;/p&gt;
+&lt;p&gt;1.- Crea una instancia de vagrant basado en un box debian o ubuntu&lt;/p&gt;
+&lt;pre&gt;
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(&quot;2&quot;) do |config|
+
+  config.vm.box = &quot;debian/buster64&quot;
+  config.vm.hostname = &quot;drupal&quot;
+  config.vm.network &quot;private_network&quot;, ip: &quot;192.168.100.5&quot;
+
+end
+
+&lt;/pre&gt;
+&lt;p&gt;2.- Instala en esa máquina virtual toda la pila LAMP&lt;/p&gt;
+&lt;pre&gt;
+#Instalamos apache2 y apache2-utils
+sudo apt-get install -y apache2 apache2-utils
+#Instalamos el servidor y el cliente de mariadb
+sudo apt-get install -y mariadb-server mariadb-client
+#los dos pasos anteriores puede que ya vengan instalados por defecto
+#Instalamos php y los módulos necesarios y recomendables de php
+sudo apt-get install php libapache2-mod-php php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
+&lt;/pre&gt;
+&lt;p&gt;h1. Tarea 2: Instalación de drupal en mi servidor local&lt;/p&gt;
+&lt;p&gt;1.- Configura el servidor web con virtual hosting para que el CMS sea accesible desde la dirección: www.nombrealumno-drupal.org.&lt;/p&gt;
+&lt;pre&gt;
+ServerName www.madu-drupal.org
+&lt;/pre&gt;
+&lt;p&gt;2.- Crea un usuario en la base de datos para trabajar con la base de datos donde se van a guardar los datos del CMS.&lt;/p&gt;
+&lt;pre&gt;
+vagrant@drupal:~$ sudo mysql -u root -p
+
+MariaDB [(none)]&gt; create user &apos;fmadu&apos; identified by &apos;dios&apos;;
+Query OK, 0 rows affected (0.005 sec)
+
+MariaDB [(none)]&gt; GRANT ALL PRIVILEGES ON *.* TO &apos;fmadu&apos;@&apos;localhost&apos;
+    -&gt; IDENTIFIED BY &apos;dios&apos; WITH GRANT OPTION;
+Query OK, 0 rows affected (0.001 sec)
+
+MariaDB [(none)]&gt; exit
+Bye
+vagrant@drupal:~$ mysql -u fmadu -p
+
+MariaDB [(none)]&gt; create database fmadudb;
+Query OK, 1 row affected (0.002 sec)
+&lt;/pre&gt;
+&lt;p&gt;3.- Descarga la versión que te parezca más oportuna de Drupal y realiza la instalación.&lt;/p&gt;
+&lt;p&gt;**  Descargamos drupal de la web oficial,(la ultima version)&lt;/p&gt;
+&lt;pre&gt;
+vagrant@drupal:/etc/apache2/sites-available$ sudo wget https://www.drupal.org/download-latest/zip
+&lt;/pre&gt;
+&lt;p&gt;** Creamos el directorio drupal en /var/www/, descomprimimos el fichero descargado y copiamos su contenido en dicho directorio&lt;/p&gt;
+&lt;pre&gt;
+sudo mkdir /var/www/drupal
+sudo apt install unzip
+sudo unzip zip
+sudo mv drupal-9.0.7/* /var/www/drupal
+&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;En /var/www/ y le damos los respectivos permisos necesarios.&lt;/p&gt;
+&lt;pre&gt;
+chown www-data drupal/
+chgrp www-data drupal/
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Añadimos la nueva ruta a nuestro archivo de configuracion&lt;/p&gt;
+&lt;pre&gt;
+DocumentRoot /var/www/drupal
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enlace simbolico:&lt;/p&gt;
+&lt;pre&gt;
+vagrant@drupal:/etc/apache2/sites-available$ sudo a2ensite drupal
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cambiamos el usuario del directorio&lt;/p&gt;
+&lt;pre&gt;
+vagrant@drupal:/etc/apache2/sites-available$ sudo chown -R www-data:www-data /var/www/drupal/
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Recargamos apache2&lt;/p&gt;
+&lt;pre&gt;
+systemctl reload apache2
+&lt;/pre&gt;
+&lt;p&gt;-Modificamos el fichero  hosts en nuestra maquina fisica&lt;/p&gt;
+&lt;pre&gt;
+192.168.100.5       www.madu-drupal.org
+&lt;/pre&gt;
+&lt;p&gt;-El contenido de este archivo es un bloque Directory para el directorio de Drupal en el que una directiva AllowOverride permitirá el uso de los archivos .htaccess:&lt;/p&gt;
+&lt;pre&gt;
+    &lt;Directory /var/www/drupal&gt;
+            AllowOverride all
+    &lt;/Directory&gt;
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;-Con estos pasos hechos correctamente podremos ver como podemos usar drupal desde nuestro navegador
+!drupalfound.png!&lt;/p&gt;
+&lt;p&gt;Una vez realizado todos los procedimientos de configuración del asistente de instalación, tendremos instalado drupal en nuestro servidor.
+El proceso es muy simple típico siguiente,siguiente,siguiente...&lt;/p&gt;
+&lt;p&gt;Me salia un error de no tener URL limpia configurada lo he solucionado, activando el mod_rewrite y modificando el fichero apache.conf en la siguiente linea&lt;/p&gt;
+&lt;pre&gt;
+#Para tener una URL limpia, añadimos el siguiente módulo y cambiamos el AllowOverride de &quot;None&quot; a &quot;All&quot;:
+vagrant@drupal:/var/www/html$ sudo a2enmod rewrite
+vagrant@drupal:/etc/apache2$ sudo nano apache2.conf
+&lt;Directory /var/www/&gt;
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+&lt;/Directory&gt;
+&lt;/pre&gt;
+&lt;p&gt;Una vez terminada la configuración inicial podremos ver esta pantalla.
+!drupal1.png!&lt;/p&gt;
+&lt;p&gt;4.- Realiza una configuración mínima de la aplicación (Cambia la plantilla, crea algún contenido, …)
+Dentro de nuestra web de drupal accederemos a apariencias -&gt; nueva plantilla -&gt; ponemos la URL de la plantilla que hayamos buscado -&gt;
+&lt;a href=&quot;https://ftp.drupal.org/files/projects/adminimal_theme-8.x-1.6.tar.gz&quot;&gt;https://ftp.drupal.org/files/projects/adminimal_theme-8.x-1.6.tar.gz&lt;/a&gt;
+y creamos un poco de contenido:
+!drupalnode1.png!&lt;/p&gt;
+&lt;p&gt;5.- Instala un módulo para añadir alguna funcionalidad a drupal.
+He instalado un nuevo modulo -&gt; &lt;a href=&quot;https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-rc8.tar.gz&quot;&gt;https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-rc8.tar.gz&lt;/a&gt;
+Lo activamos, este modulo se encarga de proporciona un widget para la gestión en línea (creación, modificación, eliminación) de entidades referenciadas.&lt;/p&gt;
+&lt;p&gt;En este momento, muestra al profesor la aplicación funcionando en local. (4 puntos)&lt;/p&gt;
+&lt;p&gt;h1. Tarea 3: Configuración multinodo&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Realiza un copia de seguridad de la base de datos&lt;/p&gt;
+&lt;pre&gt;
+vagrant@drupal:~$ mysqldump -v --opt --events --routines --triggers --default-character-set=utf8 -u fmadu -p fmadudb &gt; fmadu.sql
+Enter password: 
+-- Connecting to localhost...
+-- Disconnecting from localhost...
+vagrant@drupal:~$ ls
+fmadu.sql
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;Crea otra máquina con vagrant, conectada con una red interna a la anterior y configura un servidor de base de datos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Creamos una máquina nueva con vagrant&lt;/p&gt;
+&lt;pre&gt;
+ bdd.vm.box = &quot;debian/buster64&quot;
+ bdd.vm.hostname = &quot;bdd&quot;
+ bdd.vm.network :public_network,:bridge=&gt;&quot;wlo1&quot;
+ bdd.vm.network :private_network, ip: &quot;192.168.100.6&quot;, virtualbox__intnet: &quot;drupal&quot;
+&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Crea un usuario en la base de datos para trabajar con la nueva base de datos.&lt;/p&gt;
+&lt;pre&gt;
+Creamos un usuario en el nuevo servidor:
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;vagrant@bdd:~$ sudo mysql -u root -p&lt;/p&gt;
+&lt;p&gt;MariaDB [(none)]&gt; create user &apos;drupal2&apos; identified by &apos;dios&apos;;&lt;/p&gt;
+&lt;p&gt;MariaDB [(none)]&gt; grant all privileges on &lt;em&gt;.&lt;/em&gt; to &apos;drupal2&apos;@&apos;localhost&apos; identified by &apos;dios&apos; with grant option;&lt;/p&gt;
+&lt;p&gt;MariaDB [(none)]&gt; create database &apos;drupal2_db&apos;;&lt;/p&gt;
+&lt;p&gt;Ahora le damos permisos también a la máquina con drupal:&lt;/p&gt;
+&lt;p&gt;MariaDB [(none)]&gt; grant all on drupal2_db.* to drupal2@192.168.2.171 identified by &apos;dios&apos;;&lt;/p&gt;
+&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Restaura la copia de seguridad en el nuevo servidor de base datos.
+He usado git para pasar el archivo de una maquina a otra.&lt;/p&gt;
+&lt;pre&gt;
+mysql -u drupal2 --password=dios drupal2_db &lt; /home/vagrant/prueba/fmadu.sql 
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Desinstala el servidor de base de datos en el servidor principal.&lt;/p&gt;
+&lt;pre&gt;
+vagrant@drupal:~$ sudo apt purge mariadb-*
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;Realiza los cambios de configuración necesario en drupal para que la página funcione.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Modificamos el fichero 50-server.cnf&lt;/p&gt;
+&lt;pre&gt;
+vagrant@drupal2:~$ sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf 
+
+bind-address            = 0.0.0.0
+&lt;/pre&gt;
+&lt;p&gt;Nos vamos a nuestra maquina drupal, en drupal.conf:&lt;/p&gt;
+&lt;pre&gt;
+        ServerName www.madu-drupal.org
+
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/drupal
+
+        &lt;Directory /var/www/drupal&gt;
+                Options FollowSymLinks
+                AllowOverride All
+                Order allow,deny
+                allow from all
+        &lt;/Directory&gt;
+&lt;/pre&gt;
+&lt;pre&gt;
+vagrant@drupal:/var/www/drupal/sites/default$ sudo nano settings.php 
+
+$databases[&apos;default&apos;][&apos;default&apos;] = array (
+  &apos;database&apos; =&gt; &apos;drupal2_db&apos;,
+  &apos;username&apos; =&gt; &apos;drupal2&apos;,
+  &apos;password&apos; =&gt; &apos;dios&apos;,
+  &apos;prefix&apos; =&gt; &apos;&apos;,
+  &apos;host&apos; =&gt; &apos;192.168.2.63,
+  &apos;port&apos; =&gt; &apos;3306&apos;,
+  &apos;namespace&apos; =&gt; &apos;Drupal\\Core\\Database\\Driver\\mysql&apos;,
+  &apos;driver&apos; =&gt; &apos;mysql&apos;,
+);
+&lt;/pre&gt;
+&lt;p&gt;h1. Tarea 4: Instalación de otro CMS PHP&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Elige otro CMS realizado en PHP y realiza la instalación en tu infraestructura.
+vagrant@drupal:/var/www$ sudo wget &lt;a href=&quot;https://downloads.joomla.org/es/cms/joomla3/3-9-22/Joomla_3-9-22-Stable-Full_Package.zip?format=zip&quot;&gt;https://downloads.joomla.org/es/cms/joomla3/3-9-22/Joomla_3-9-22-Stable-Full_Package.zip?format=zip&lt;/a&gt;
+vagrant@drupal:/var/www/joomla$ ls
+administrator   cli            images      installation                                        layouts       media     README.txt        tmp
+bin             components     includes   &apos;Joomla&lt;em&gt;3-9-22-Stable-Full&lt;/em&gt;Package.zip?format=zip&apos;   libraries     modules   robots.txt.dist   web.config.txt
+cache           htaccess.txt   index.php   language&lt;br&gt;
+vagrant@drupal:/var/www$ sudo chown -R www-data:www-data joomla/&lt;/p&gt;
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;
+vagrant@drupal:/etc/apache2/sites-available$ sudo cp drupal.conf joomla.conf
+        ServerName www.madu-joomla.org
+
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/joomla
+        &lt;Directory /var/www/joomla&gt;
+                AllowOverride all
+        &lt;/Directory&gt;
+vagrant@drupal:/etc/apache2/sites-available$ sudo a2ensite joomla.conf 
+vagrant@drupal:/etc/apache2/sites-available$ sudo systemctl reload apache2
+&lt;/pre&gt;
+&lt;p&gt;creamos base de datos para joomla&lt;/p&gt;
+&lt;pre&gt;
+vagrant@drupal:/etc/apache2/sites-available$ sudo mysql -u fmadu -p
+
+MariaDB [(none)]&gt; create database fmadudbjoomla;
+Query OK, 1 row affected (0.017 sec)
+
+MariaDB [(none)]&gt; create user &apos;joomla1&apos; identified by &apos;dios&apos;;
+Query OK, 0 rows affected (0.001 sec)
+
+MariaDB [(none)]&gt; grant all on fmadudbjoomla.* to joomla1 identified by &apos;joomla1&apos;
+    -&gt; ;
+Query OK, 0 rows affected (0.014 sec)
+&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Configura otro virtualhost y elige otro nombre en el mismo dominio.
+En mi maquina -&gt;&lt;/p&gt;
+&lt;pre&gt;
+192.168.100.5   www.madu-drupal.org
+192.168.100.5   www.madu-joomla.org
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;!joomla.png!
+!joomla2.png!&lt;/p&gt;
+&lt;p&gt;Tarea 5: Necesidad de otros serviciosPermalink
+La mayoría de los CMS tienen la posibilidad de mandar correos electrónicos (por ejemplo para notificar una nueva versión, notificar un comentario,…)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Instala un servidor de correo electrónico en tu servidor. debes configurar un servidor relay de correo, para ello en el fichero /etc/postfix/main.cf, debes poner la siguiente línea:
+relayhost = babuino-smtp.gonzalonazareno.org&lt;/p&gt;
+&lt;pre&gt;
+vagrant@drupal:/var/www/joomla$ sudo apt install postfix
+&lt;/pre&gt;
+&lt;p&gt;Selecciono Internet site y luego pongo un correo -&gt; madu.gonzalonazareno.org&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En /etc/postfix/main.cf:&lt;/p&gt;
+&lt;pre&gt;
+smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+myhostname = drupal
+alias_maps = hash:/etc/aliases
+alias_database = hash:/etc/aliases
+myorigin = /etc/mailname
+mydestination = $myhostname, madu.gonzalonazareno.org, drupal, localhost.localdomain, localhost
+relayhost = babuino-smtp.gonzalonazareno.org
+mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+mailbox_size_limit = 0
+recipient_delimiter = +
+inet_interfaces = all
+inet_protocols = all
+&lt;/pre&gt;
+&lt;p&gt;Se inicia el servicio&lt;/p&gt;
+&lt;pre&gt;
+vagrant@drupal:/var/www/joomla$ sudo systemctl start postfix
+vagrant@drupal:/var/www/joomla$ mailq
+Mail queue is empty
+&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Configura alguno de los CMS para utilizar tu servidor de correo y realiza una prueba de funcionamiento.&lt;/p&gt;
+&lt;pre&gt;
+vagrant@drupal:/var/www/joomla$ mailq
+-Queue ID-  --Size-- ----Arrival Time---- -Sender/Recipient-------
+041EF62200      706 Mon Nov  2 16:13:19  frandh1997@gmail.com
+(connect to babuino-smtp.gonzalonazareno.org[80.59.1.152]:25: Connection timed out)
+                                     frandh1997@gmail.com
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;01D1B623E7      993 Mon Nov  2 16:13:18  frandh1997@gmail.com
+(connect to babuino-smtp.gonzalonazareno.org[80.59.1.152]:25: Connection timed out)
+frangodh97@gmail.com&lt;/p&gt;
+&lt;p&gt;-- 1 Kbytes in 2 Requests.&lt;/p&gt;
+&lt;/pre&gt;
+&lt;p&gt; se deberian enviar esos mensajes de nuevo usuarios, al no estar conectados a la red con babuino no se pueden enviar&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube (unidad 1)]]></title><description><![CDATA[Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube rclone es una herramienta que nos permite trabajar con los ficheros que…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube-unidad-1</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube-unidad-1</guid><category><![CDATA[Rclone]]></category><pubDate>Wed, 07 Oct 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-2-rclone---gestionando-nuestro-almacenamiento-en-la-nube&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-2-rclone---gestionando-nuestro-almacenamiento-en-la-nube&quot; aria-label=&quot;práctica 2 rclone   gestionando nuestro almacenamiento en la nube permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica 2: rclone - Gestionando nuestro almacenamiento en la nube&lt;/h2&gt;
 &lt;p&gt;rclone es una herramienta que nos permite trabajar con los ficheros que tenemos almacenados en distintos servicios de almacenamiento en la nube (dropbox, google drive, mega, box,… y muchos más que puedes ver en su página principal). Por lo tanto con rclone podemos gestionar y sincronizar los ficheros de nuestros servicios preferidos desde la línea de comandos.&lt;/p&gt;
 &lt;h2 id=&quot;tarea-1-instala-rclone-en-tu-equipo&quot;&gt;&lt;a href=&quot;#tarea-1-instala-rclone-en-tu-equipo&quot; aria-label=&quot;tarea 1 instala rclone en tu equipo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Instala rclone en tu equipo.&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@madueo:/home/fran&lt;span class=&quot;token comment&quot;&gt;# wget https://downloads.rclone.org/v1.53.1/rclone-v1.53.1-linux-amd64.deb&lt;/span&gt;
