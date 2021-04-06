@@ -333,12 +333,12 @@ vagrant@drupal:/var/www/joomla$ mailq
 041EF62200      706 Mon Nov  2 16:13:19  frandh1997@gmail.com
 (connect to babuino-smtp.gonzalonazareno.org[80.59.1.152]:25: Connection timed out)
                                          frandh1997@gmail.com
-
+#
 01D1B623E7      993 Mon Nov  2 16:13:18  frandh1997@gmail.com
 (connect to babuino-smtp.gonzalonazareno.org[80.59.1.152]:25: Connection timed out)
                                          frangodh97@gmail.com
-
+#
 -- 1 Kbytes in 2 Requests.
 ```
 
- se deberian enviar esos mensajes de nuevo usuarios, al no estar conectados a la red con babuino no se pueden enviar
+Se deberian enviar esos mensajes de nuevo usuarios, al no estar conectados a la red con babuino no se pueden enviar.
