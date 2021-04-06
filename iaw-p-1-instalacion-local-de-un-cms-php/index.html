@@ -292,13 +292,11 @@ MariaDB <span class="token punctuation">[</span><span class="token punctuation">
     -<span class="token operator">></span> <span class="token punctuation">;</span>
 Query OK, <span class="token number">0</span> rows affected <span class="token punctuation">(</span><span class="token number">0.014</span> sec<span class="token punctuation">)</span></code></pre></div>
 <ul>
-<li>
-<p>Configura otro virtualhost y elige otro nombre en el mismo dominio.
-En mi maquina -></p>
+<li>Configura otro virtualhost y elige otro nombre en el mismo dominio.
+En mi maquina -></li>
+</ul>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token number">192.168</span>.100.5   www.madu-drupal.org
 <span class="token number">192.168</span>.100.5   www.madu-joomla.org</code></pre></div>
-</li>
-</ul>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
@@ -364,12 +362,10 @@ En mi maquina -></p>
 <h1 id="tarea-5-necesidad-de-otros-servicios"><a href="#tarea-5-necesidad-de-otros-servicios" aria-label="tarea 5 necesidad de otros servicios permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tarea 5: Necesidad de otros servicios.</h1>
 <p>La mayoría de los CMS tienen la posibilidad de mandar correos electrónicos (por ejemplo para notificar una nueva versión, notificar un comentario,…)</p>
 <ul>
-<li>
-<p>Instala un servidor de correo electrónico en tu servidor. debes configurar un servidor relay de correo, para ello en el fichero /etc/postfix/main.cf, debes poner la siguiente línea:
-relayhost = babuino-smtp.gonzalonazareno.org</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@drupal:/var/www/joomla$ <span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> postfix</code></pre></div>
-</li>
+<li>Instala un servidor de correo electrónico en tu servidor. debes configurar un servidor relay de correo, para ello en el fichero /etc/postfix/main.cf, debes poner la siguiente línea:
+relayhost = babuino-smtp.gonzalonazareno.org</li>
 </ul>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@drupal:/var/www/joomla$ <span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> postfix</code></pre></div>
 <p>Selecciono Internet site y luego pongo un correo -> madu.gonzalonazareno.org</p>
 <p>En /etc/postfix/main.cf:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">smtpd_relay_restrictions <span class="token operator">=</span> permit_mynetworks permit_sasl_authenticated defer_unauth_destination
