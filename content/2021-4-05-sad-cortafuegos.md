@@ -67,19 +67,26 @@ iptables -A FORWARD -i eth0 -o eth2 -p icmp -m icmp --icmp-type echo-request -j 
 iptables -A FORWARD -i eth2 -o eth0 -p icmp -m icmp --icmp-type echo-reply -j ACCEPT
 ```
 
+Prueba ping
+dulcinea - dmz y interna
+interna - dmz
+dmz - interna
+
 * **Todas las máquinas pueden hacer ping a una máquina del exterior.**
 
 ```shell
 #Permitir ping red interna al exterior
-
 iptables -A FORWARD -i eth0 -o eth1 -p icmp -m icmp --icmp-type echo-request -j ACCEPT
 iptables -A FORWARD -i eth1 -o eth0 -p icmp -m icmp --icmp-type echo-reply -j ACCEPT
-
+#
 #Permitir ping DMZ al exterior
-
 iptables -A FORWARD -i eth2 -o eth1 -p icmp -m icmp --icmp-type echo-request -j ACCEPT
 iptables -A FORWARD -i eth1 -o eth2 -p icmp -m icmp --icmp-type echo-reply -j ACCEPT
 ```
+
+prueba ping al exterior
+freston -fuera
+quijote - fuera
 
 * **Desde el exterior se puede hacer ping a dulcinea.**
 
@@ -88,12 +95,24 @@ iptables -A INPUT -i eth1 -p icmp -m icmp --icmp-type echo-request -j ACCEPT
 iptables -A OUTPUT -o eth1 -p icmp -m icmp --icmp-type echo-reply -j ACCEPT
 ```
 
+prueba ping a dulcinea
+
 * **A dulcinea se le puede hacer ping desde la DMZ, pero desde la LAN se le debe rechazar la conexión (REJECT).**
 
 ```shell
-
+#Permitir ping de DMZ hacia Dulcinea
+iptables -A INPUT -i eth2 -p icmp -m icmp --icmp-type echo-request -j ACCEPT
+iptables -A OUTPUT -o eth2 -p icmp -m icmp --icmp-type echo-reply -j ACCEPT
+#Rechazar ping de red interna hacia Dulcinea
+iptables -A INPUT -i eth0 -p icmp -m icmp --icmp-type echo-request -j REJECT --reject-with icmp-port-unreachable
+iptables -A OUTPUT -o eth0 -p icmp -j ACCEPT
+#(realmente con indicar el tipo de conexión icmp en el OUTPUT ya valdría, es decir, la regla quedaría así:
+iptables -A OUTPUT -o eth0 -p icmp -m icmp --icmp-type icmp-port-unreachable -j ACCEPT
 ```
 
+prueba dmz a dulcinea
+
+prueba rechazo ping sancho - dulcinea
 
 ### ssh
 
