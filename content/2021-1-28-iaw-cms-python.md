@@ -183,17 +183,63 @@ Ahora realizaremos un dumpdata para guardar información de la base de datos en 
 Crearemos un repositorio en GitHub y guardaremos los datos, en mi caso es: https://github.com/franmadu6/Mezzanine-OpenStack
 
 
-Accederemos a Freston y crearemos un nuevo registro DNS que llamaremos "python".
+Accederemos a **Freston** y crearemos un nuevo registro DNS que llamaremos "python".
 ```shell
+debian@freston:~$ sudo nano /var/cache/bind/db.madu.interna 
+dulcinea        IN      A       10.0.1.7
+sancho  IN      A       10.0.1.10
+quijote IN      A       10.0.2.4
+freston IN      A       10.0.1.3
+www     IN      CNAME   quijote
+bd      IN      CNAME   sancho
+python  IN      CNAME   quijote
 
+debian@freston:~$ sudo nano /var/cache/bind/db.madu.dmz 
+dulcinea        IN      A       10.0.2.6
+sancho  IN      A       10.0.1.10
+quijote IN      A       10.0.2.4
+freston IN      A       10.0.1.3
+www     IN      CNAME   quijote
+bd      IN      CNAME   sancho
+python  IN      CNAME   quijote
+
+debian@freston:~$ sudo nano /var/cache/bind/db.madu.externa 
+dulcinea        IN      A       172.22.201.38
+www     IN      CNAME   dulcinea
+test    IN      CNAME   dulcinea
+python  IN      CNAME   dulcinea
+
+debian@freston:~$ sudo systemctl restart bind9
 ```
 
+Accederemos a **Sancho** y crearemos una base de datos y un usuario con privilegios para acceder.
 ```shell
+ubuntu@sancho:~$ sudo mysql -u root -p
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 126
+Server version: 10.3.25-MariaDB-0ubuntu0.20.04.1 Ubuntu 20.04
 
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> CREATE DATABASE mezzanine;
+Query OK, 1 row affected (0.621 sec)
+
+MariaDB [(none)]> GRANT USAGE ON *.* TO 'quijote'@'10.0.2.4' IDENTIFIED BY 'fran';
+Query OK, 0 rows affected (0.230 sec)
+
+MariaDB [(none)]> GRANT ALL PRIVILEGES ON mezzanine.* to 'quijote'@'10.0.2.4';
+Query OK, 0 rows affected (0.018 sec)
+
+MariaDB [(none)]> exit
+Bye
 ```
 
+En **Quijote** instalaremos las dependencias necesarias para que nuestra aplicación funcione.
 ```shell
-
+[root@quijote centos]# dnf install virtualenv git python3-mod_wsgi gcc python3-devel mysql-devel
 ```
 
 ```shell
