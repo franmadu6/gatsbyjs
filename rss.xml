@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 13 Apr 2021 10:48:37 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[IAW] - Práctica: Implantación de aplicaciones web PHP en docker ]]></title><description><![CDATA[Práctica: Implantación de aplicaciones web PHP en docker.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</guid><category><![CDATA[PHP]]></category><category><![CDATA[Docker]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-implantación-de-aplicaciones-web-php-en-docker&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-implantaci%C3%B3n-de-aplicaciones-web-php-en-docker&quot; aria-label=&quot;práctica implantación de aplicaciones web php en docker permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Implantación de aplicaciones web PHP en docker.&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] Introducción a la IC/DC]]></title><description><![CDATA[Tarea: Integración continúa de aplicación django (Test + Deploy). Vamos a trabajar con el repositorio de la aplicación django_tutorial. Esta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</guid><category><![CDATA[Integración Continúa]]></category><category><![CDATA[GitHub Actions]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-integración-continúa-de-aplicación-django-test--deploy&quot;&gt;&lt;a href=&quot;#tarea-integraci%C3%B3n-contin%C3%BAa-de-aplicaci%C3%B3n-django-test--deploy&quot; aria-label=&quot;tarea integración continúa de aplicación django test  deploy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea: Integración continúa de aplicación django (Test + Deploy).&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 13 Apr 2021 11:37:26 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[IAW] - Práctica: Implantación de aplicaciones web PHP en docker ]]></title><description><![CDATA[Práctica: Implantación de aplicaciones web PHP en docker.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</guid><category><![CDATA[PHP]]></category><category><![CDATA[Docker]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-implantación-de-aplicaciones-web-php-en-docker&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-implantaci%C3%B3n-de-aplicaciones-web-php-en-docker&quot; aria-label=&quot;práctica implantación de aplicaciones web php en docker permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Implantación de aplicaciones web PHP en docker.&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] Introducción a la IC/DC]]></title><description><![CDATA[Tarea: Integración continúa de aplicación django (Test + Deploy). Vamos a trabajar con el repositorio de la aplicación django_tutorial. Esta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</guid><category><![CDATA[Integración Continúa]]></category><category><![CDATA[GitHub Actions]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-integración-continúa-de-aplicación-django-test--deploy&quot;&gt;&lt;a href=&quot;#tarea-integraci%C3%B3n-contin%C3%BAa-de-aplicaci%C3%B3n-django-test--deploy&quot; aria-label=&quot;tarea integración continúa de aplicación django test  deploy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea: Integración continúa de aplicación django (Test + Deploy).&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Vamos a trabajar con el repositorio de la aplicación &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;django_tutorial&lt;/a&gt;. Esta aplicación tiene definidas una serie de test, que podemos estudiar en el fichero tests.py del directorio polls.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Para ejecutar las pruebas unitarias, ejecutamos la instrucción python3 manage.py test.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&quot;estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-código-de-la-aplicación-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot;&gt;&lt;a href=&quot;#estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-c%C3%B3digo-de-la-aplicaci%C3%B3n-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot; aria-label=&quot;estudia las distintas pruebas que se han realizado y modifica el código de la aplicación debes modificar el fichero viewspy o los templates no debes cambiar el fichero testspy para que al menos una de ella no se ejecute de manera exitosa permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Estudia las distintas pruebas que se han realizado, y modifica el código de la aplicación (debes modificar el fichero views.py o los templates, no debes cambiar el fichero tests.py para que al menos una de ella no se ejecute de manera exitosa.&lt;/h3&gt;
@@ -4929,7 +4929,210 @@ B(100) = (300 * 100) - 9.200 = 20800 €  &lt;/p&gt;
 &lt;li&gt;Personaliza la página (cambia el nombre al blog y pon tu nombre) y añade contenido (algún artículo con alguna imagen).&lt;/li&gt;
 &lt;li&gt;Guarda los ficheros generados durante la instalación en un repositorio github. Guarda también en ese repositorio la copia de seguridad de la bese de datos. Te en cuenta que en el entorno de desarrolla vas a tener una base de datos sqlite, y en el entorno de producción una mariadb, por lo tanto es recomendable para hacer la copia de seguridad y recuperarla los comandos: python manage.py dumpdata y python manage.py loaddata, para más información: &lt;a href=&quot;https://coderwall.com/p/mvsoyg/django-dumpdata-and-loaddata&quot;&gt;https://coderwall.com/p/mvsoyg/django-dumpdata-and-loaddata&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Realiza el despliegue de la aplicación en tu entorno de producción (servidor web y servidor de base de datos en el cloud). Utiliza un entorno virtual. Como servidor de aplicación puedes usar gunicorn o uwsgi (crea una unidad systemd para gestionar este servicio). El contenido estático debe servirlo el servidor web. La aplicación será accesible en la url python.tunombre.gonzalonazareno.org.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Sistemas de ficheros 'avanzados' ZFS/Btrfs]]></title><description><![CDATA[Elige uno de los dos sistemas de ficheros "avanzados". Crea un escenario que incluya una máquina y varios discos asociados a ella. Instala…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</guid><category><![CDATA[ZFS/Btrfs]]></category><category><![CDATA[Sistemas de ficheros avanzados]]></category><pubDate>Tue, 26 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Elige uno de los dos sistemas de ficheros &quot;avanzados&quot;.&lt;/p&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Crearemos un entorno virtual donde instalaremos &lt;strong&gt;Mezzanine&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/.virtualenvs$ python3 -m venv despliegue
+fran@debian:~/.virtualenvs$ &lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; despliegue/bin/activate
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;despliegue&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/.virtualenvs$ &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Instalamos &lt;strong&gt;Mezzanine&lt;/strong&gt; haciendo uso de pip y crearemos una nueva carpeta que llamaremos cms(da igual el nombre).&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;despliegue&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub$ pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; mezzanine
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;despliegue&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub$ mezzanine-project cms
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;despliegue&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub$ tree cms
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;despliegue&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub$ tree cms
+cms
+├── cms
+│   ├── __init__.py
+│   ├── local_settings.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── deploy
+│   ├── crontab.template
+│   ├── gunicorn.conf.py.template
+│   ├── local_settings.py.template
+│   ├── nginx.conf.template
+│   └── supervisor.conf.template
+├── fabfile.py
+├── manage.py
+└── requirements.txt
+
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; directories, &lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt; files&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modificaremos el fichero cms/settings.py para modificar la base de datos ya que estamos en fase de desarrollo.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;despliegue&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/cms$ &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; cms/settings.py
+DATABASES &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;default&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# Add &quot;postgresql_psycopg2&quot;, &quot;mysql&quot;, &quot;sqlite3&quot; or &quot;oracle&quot;.&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;ENGINE&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;django.db.backends.sqlite3&quot;&lt;/span&gt;,
+        &lt;span class=&quot;token comment&quot;&gt;# DB name or path to database file if using sqlite3.&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;NAME&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;,
+        &lt;span class=&quot;token comment&quot;&gt;# Not used with sqlite3.&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;USER&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;,
+        &lt;span class=&quot;token comment&quot;&gt;# Not used with sqlite3.&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;PASSWORD&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;,
+        &lt;span class=&quot;token comment&quot;&gt;# Set to empty string for localhost. Not used with sqlite3.&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;HOST&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;,
+        &lt;span class=&quot;token comment&quot;&gt;# Set to empty string for default. Not used with sqlite3.&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;PORT&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;,
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Haremos una migración para generar tablas en la base de datos.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;despliegue&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/cms$ python3 manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, blog, conf, contenttypes, core, django_comments, forms, galleries, generic, pages, redirects, sessions, sites, twitter
+Running migrations:
+  Applying contenttypes.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying admin.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying admin.0002_logentry_remove_auto_add&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying contenttypes.0002_remove_content_type_name&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0002_alter_permission_name_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0003_alter_user_email_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0004_alter_user_username_opts&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0005_alter_user_last_login_null&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0006_require_contenttypes_0002&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0007_alter_validators_add_error_messages&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying auth.0008_alter_user_username_max_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying sites.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying blog.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying blog.0002_auto_20150527_1555&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying blog.0003_auto_20170411_0504&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying conf.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying core.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying core.0002_auto_20150414_2140&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying django_comments.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying django_comments.0002_update_user_email_field_length&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying django_comments.0003_add_submit_date_index&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying django_comments.0004_add_object_pk_is_removed_index&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying pages.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying forms.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying forms.0002_auto_20141227_0224&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying forms.0003_emailfield&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying forms.0004_auto_20150517_0510&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying forms.0005_auto_20151026_1600&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying forms.0006_auto_20170425_2225&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying galleries.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying galleries.0002_auto_20141227_0224&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying generic.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying generic.0002_auto_20141227_0224&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying generic.0003_auto_20170411_0504&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying pages.0002_auto_20141227_0224&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying pages.0003_auto_20150527_1555&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying pages.0004_auto_20170411_0504&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying redirects.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying sessions.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying sites.0002_alter_domain_unique&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK
+  Applying twitter.0001_initial&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. OK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Crearemos un usuario para poder administrarlas.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;despliegue&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/cms$ python3 manage.py createsuperuser
+Username &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;leave blank to use &lt;span class=&quot;token string&quot;&gt;&apos;fran&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: 
+Email address: frandh1997@gmail.com
+Password: 
+Password &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;again&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: 
+Superuser created successfully.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ejecutamos el servidor web.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;despliegue&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/cms$ python3 manage.py runserver
+              &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+          _d^^^^^^^^^b_
+       .d&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;           `&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;b.
+     .p&apos;                &lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;q.
+    .d&lt;span class=&quot;token string&quot;&gt;&apos;                   &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;b.
+   .d&apos;                     &lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;b.   * Mezzanine 4.3.1
+   ::                       ::   * Django 1.11.29
+  ::    M E Z Z A N I N E    ::  * Python 3.7.3
+   ::                       ::   * SQLite 3.27.2
+   &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;p.                     .q&apos;   * Linux &lt;span class=&quot;token number&quot;&gt;4.19&lt;/span&gt;.0-16-amd64
+    &lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;p.                   .q&apos;&lt;/span&gt;
+     &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;b.                 .d&apos;
+       &lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;q&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;          &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;p&lt;span class=&quot;token string&quot;&gt;&apos;
+          ^q........p^
+              &apos;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 13, 2021 - 11:00:12
+Django version 1.11.29, using settings &apos;&lt;/span&gt;cms.settings&apos;
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Accedemos al puerto indicado (127.0.0.1:8000) y podremos ver la aplicación.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/73d6aa0a885cc35d719b766db1b77cbc/a987b/Home-Mezzanine.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.65625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAArklEQVQoz62R4QrDIAyE8/7vOej+SFc1Wmt7M5ZAOrqVQQ8+gnq5Rku1VijjOIKZsSwLSimwZ4Ldzzkjxtj3rIfQtG2bFHjvD4HaLGtt1DOp67rC9otIFhbRNHkMwxPOuT6JMs9zD7ETaaBCMNIPhVTwcIypVTFJiHKl0wklcHhlhFw/7EfvGSTX+EZKDB8iAieE9gM4ZfzyC2Svc8b+Vnu98gqEm0VXb/Ivt0/4BuMsFrKqRH2XAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;home web mezzanine&quot;
+        src=&quot;/gatsbyjs/static/73d6aa0a885cc35d719b766db1b77cbc/36727/Home-Mezzanine.png&quot;
+        srcset=&quot;/gatsbyjs/static/73d6aa0a885cc35d719b766db1b77cbc/acf4b/Home-Mezzanine.png 173w,
+/gatsbyjs/static/73d6aa0a885cc35d719b766db1b77cbc/fc834/Home-Mezzanine.png 345w,
+/gatsbyjs/static/73d6aa0a885cc35d719b766db1b77cbc/36727/Home-Mezzanine.png 690w,
+/gatsbyjs/static/73d6aa0a885cc35d719b766db1b77cbc/17fa4/Home-Mezzanine.png 1035w,
+/gatsbyjs/static/73d6aa0a885cc35d719b766db1b77cbc/a5044/Home-Mezzanine.png 1380w,
+/gatsbyjs/static/73d6aa0a885cc35d719b766db1b77cbc/a987b/Home-Mezzanine.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ahora procederemos a realizar una nueva entrada y modificaremos algunas cosas como el titulo también añadiremos links.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e21a37b41ef5d35ef8884709db826731/99445/Entrada-Mezzanine.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.955974842767304%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABDElEQVQoz31Sy46DMAzk/79jb/she1mp6mEPhV8ANu8Q8pjGgVRBtFgaeSTbk4mTLoSIEAK892CMYZqmkoUQBcSllHDOYV3XAuo31sIYU3iLLqWEGlIpzPOMcRxL5pwX1EE6lFCHY4zbYKPREa+iaglwPmZhDcYFlmV5NVIPgYToYHJYBWuN0FVCEWNC3Id82NzQUNvjfcDMBKzLTmM6C7YOdoarIEGt9UGojd3hsWishNL/sFbk/fGCddX5YVTODlzIk7OXYOswpm0nt/4LP7/fGPo/PB439P0dw3Av3BiVr3o08FGwFpwX2Y3N10sZMbsK+YHo2/iDyKXgeZefo+057fCdw3Y373Dl8AlOHBJeLknE/wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;nueva entrada mezzanine&quot;
+        src=&quot;/gatsbyjs/static/e21a37b41ef5d35ef8884709db826731/36727/Entrada-Mezzanine.png&quot;
+        srcset=&quot;/gatsbyjs/static/e21a37b41ef5d35ef8884709db826731/acf4b/Entrada-Mezzanine.png 173w,
+/gatsbyjs/static/e21a37b41ef5d35ef8884709db826731/fc834/Entrada-Mezzanine.png 345w,
+/gatsbyjs/static/e21a37b41ef5d35ef8884709db826731/36727/Entrada-Mezzanine.png 690w,
+/gatsbyjs/static/e21a37b41ef5d35ef8884709db826731/17fa4/Entrada-Mezzanine.png 1035w,
+/gatsbyjs/static/e21a37b41ef5d35ef8884709db826731/a5044/Entrada-Mezzanine.png 1380w,
+/gatsbyjs/static/e21a37b41ef5d35ef8884709db826731/99445/Entrada-Mezzanine.png 1908w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ahora realizaremos un dumpdata para guardar información de la base de datos en un fichero para poder migrarlo despues.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;despliegue&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/cms$ python3 manage.py dumpdata &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; backup.json&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Crearemos un repositorio en GitHub y guardaremos los datos, en mi caso es: &lt;a href=&quot;https://github.com/franmadu6/Mezzanine-OpenStack&quot;&gt;https://github.com/franmadu6/Mezzanine-OpenStack&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Accederemos a Freston y crearemos un nuevo registro DNS que llamaremos &quot;python&quot;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Sistemas de ficheros 'avanzados' ZFS/Btrfs]]></title><description><![CDATA[Elige uno de los dos sistemas de ficheros "avanzados". Crea un escenario que incluya una máquina y varios discos asociados a ella. Instala…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sistemas-de-ficheros-avanzados-zfs-btrfs</guid><category><![CDATA[ZFS/Btrfs]]></category><category><![CDATA[Sistemas de ficheros avanzados]]></category><pubDate>Tue, 26 Jan 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Elige uno de los dos sistemas de ficheros &quot;avanzados&quot;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Crea un escenario que incluya una máquina y varios discos asociados a ella.&lt;/li&gt;
 &lt;li&gt;Instala si es necesario el software de ZFS/Btrfs&lt;/li&gt;
