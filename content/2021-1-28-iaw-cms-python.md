@@ -242,30 +242,169 @@ En **Quijote** instalaremos las dependencias necesarias para que nuestra aplicac
 [root@quijote centos]# dnf install virtualenv git python3-mod_wsgi gcc python3-devel mysql-devel
 ```
 
+Crearemos un entorno virtual e instalaremos las dependencias:
 ```shell
-
+[root@quijote centos]# mkdir virtualenv
+[root@quijote centos]# cd virtualenv/
+[root@quijote virtualenv]# python3 -m venv despliegue
+[root@quijote virtualenv]# source despliegue/bin/activate
+(despliegue) [root@quijote virtualenv]# 
 ```
 
+Clonamos nuestro repositorio.
 ```shell
-
+(despliegue) [root@quijote centos]# git clone https://github.com/franmadu6/Mezzanine-OpenStack.git
+Cloning into 'Mezzanine-OpenStack'...
+remote: Enumerating objects: 33, done.
+remote: Counting objects: 100% (33/33), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 33 (delta 0), reused 30 (delta 0), pack-reused 0
+Unpacking objects: 100% (33/33), 71.16 KiB | 877.00 KiB/s, done.
 ```
 
+Instalamos los requerimientos y algunos paquetes necesarios para el despliegue.
 ```shell
-
+(despliegue) [root@quijote Mezzanine-OpenStack]# pip install -r requirements.txt
+(despliegue) [root@quijote Mezzanine-OpenStack]# pip install mysql-connector-python uwsgi mysqlclient
 ```
 
-```shell
+Modificaremos el fichero settings.py para utilizar una base de datos mysql y acceso desde localhost.
 
-```
-
-```shell
-
-```
+(Nota:Crear una secret key vale cualquier combinacion de números y digitos)
 
 ```shell
-
+(despliegue) [root@quijote Mezzanine-OpenStack]# nano cms/settings.py 
+SECRET_KEY = '8lu*6g0lg)9z!ba+a$ehk)xt)x%rxgb$i1&amp;022shmi1jcgihb*'
+ALLOWED_HOSTS = ['127.0.0.1']
+STATIC_ROOT = '/var/www/mezzanine/mysite/static/'
+DATABASES = {
+    "default": {
+        # Add "postgresql_psycopg2", "mysql", "sqlite3" or "oracle".
+        "ENGINE": "django.db.backends.mysql",
+        # DB name or path to database file if using sqlite3.
+        "NAME": "mezzanine",
+        # Not used with sqlite3.
+        "USER": "quijote",
+        # Not used with sqlite3.
+        "PASSWORD": "fran",
+        # Set to empty string for localhost. Not used with sqlite3.
+        "HOST": "bd.madu.gonzalonazareno.org",
+        # Set to empty string for default. Not used with sqlite3.
+        "PORT": "",
+    }
+}
 ```
+
 
 ```shell
-
+(mezza) [root@quijote cms]# python3 manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, blog, conf, contenttypes, core, django_comments, forms, galleries, generic, pages, redirects, sessions, sites, twitter
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying sites.0001_initial... OK
+  Applying blog.0001_initial... OK
+  Applying blog.0002_auto_20150527_1555... OK
+  Applying blog.0003_auto_20170411_0504... OK
+  Applying conf.0001_initial... OK
+  Applying core.0001_initial... OK
+  Applying core.0002_auto_20150414_2140... OK
+  Applying django_comments.0001_initial... OK
+  Applying django_comments.0002_update_user_email_field_length... OK
+  Applying django_comments.0003_add_submit_date_index... OK
+  Applying pages.0001_initial... OK
+  Applying forms.0001_initial... OK
+  Applying forms.0002_auto_20141227_0224... OK
+  Applying forms.0003_emailfield... OK
+  Applying forms.0004_auto_20150517_0510... OK
+  Applying forms.0005_auto_20151026_1600... OK
+  Applying forms.0006_auto_20170425_2225... OK
+  Applying galleries.0001_initial... OK
+  Applying galleries.0002_auto_20141227_0224... OK
+  Applying generic.0001_initial... OK
+  Applying generic.0002_auto_20141227_0224... OK
+  Applying generic.0003_auto_20170411_0504... OK
+  Applying pages.0002_auto_20141227_0224... OK
+  Applying pages.0003_auto_20150527_1555... OK
+  Applying pages.0004_auto_20170411_0504... OK
+  Applying redirects.0001_initial... OK
+  Applying sessions.0001_initial... OK
+  Applying sites.0002_alter_domain_unique... OK
+  Applying twitter.0001_initial... OK
 ```
+
+Importamos el backup.
+```shell
+(mezza) [root@quijote cms]# python3 manage.py loaddata backup.json
+Installed 126 object(s) from 1 fixture(s)
+```
+
+Generamos el contenido estático.
+```shell
+(mezza) [root@quijote cms]# python manage.py collectstatic
+412 static files copied to '/home/centos/mezza/cms/static'.
+```
+
+Moveremos la carpeta a /www/var/ y crearemos un virtualhost.
+```shell
+(mezza) [root@quijote cms]# nano /etc/httpd/sites-available/mezzanine.conf
+<VirtualHost *:80>
+    ServerName python.madu.gonzalonazareno.org
+    DocumentRoot /var/www/mezzanine_django/
+
+    <Proxy "unix:/run/php-fpm/www.sock|fcgi://php-fpm">
+           ProxySet disablereuse=off
+    </Proxy>
+
+    <FilesMatch \.php$>
+           SetHandler proxy:fcgi://php-fpm
+    </FilesMatch>
+
+    Alias /static "/var/www/mezzanine_django/static"
+
+    <Directory /var/www/mezzanine_django/static>
+           Require all granted
+    </Directory>
+
+     ProxyPass /static !
+     ProxyPass / http://127.0.0.1:8080/
+</VirtualHost>
+```
+
+Creamo un directorio para los logs y damos los permisos necesarios para la que la aplicación sea servida.
+```shell
+(mezza) [root@quijote mezzanine_django]# mkdir log
+(mezza) [root@quijote mezzanine_django]# touch log/{error.log,requests.log}
+(mezza) [root@quijote mezzanine_django]# chown -R apache:apache ../mezzanine_django/
+(mezza) [root@quijote mezzanine_django]# ln -s /etc/httpd/sites-available/mezzanine.conf /etc/httpd/sites-enabled/
+(mezza) [root@quijote mezzanine_django]# systemctl restart httpd
+```
+
+Configuramos el servidor de aplicaciones uwsgi para que escuche el puerto 8080.
+```shell
+
+[uwsgi]
+http = :8080
+chdir = /var/www/mezzanine_django
+wsgi-file = /var/www/mezzanine_django/cms/wsgi.py
+processes = 4
+threads = 2
+```
+
+Reiniciamos servicio y comprobamos el resultado.
+```shell
+(mezza) [root@quijote mezzanine_django]# systemctl restart httpd
+```
+
+FOTO
