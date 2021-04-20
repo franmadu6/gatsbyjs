@@ -357,6 +357,7 @@ DATABASES <span class="token operator">=</span> <span class="token punctuation">
         <span class="token string">"PORT"</span><span class="token builtin class-name">:</span> <span class="token string">""</span>,
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre></div>
+<p>NOTA: Si da el error <strong>django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.</strong> deberás generar tu una y añadirla a <strong>settings.py</strong>.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token punctuation">(</span>mezza<span class="token punctuation">)</span> <span class="token punctuation">[</span>root@quijote cms<span class="token punctuation">]</span><span class="token comment"># python3 manage.py migrate</span>
 Operations to perform:
   Apply all migrations: admin, auth, blog, conf, contenttypes, core, django_comments, forms, galleries, generic, pages, redirects, sessions, sites, twitter
@@ -438,7 +439,8 @@ Installed <span class="token number">126</span> object<span class="token punctua
 <span class="token punctuation">(</span>mezza<span class="token punctuation">)</span> <span class="token punctuation">[</span>root@quijote mezzanine_django<span class="token punctuation">]</span><span class="token comment"># ln -s /etc/httpd/sites-available/mezzanine.conf /etc/httpd/sites-enabled/</span>
 <span class="token punctuation">(</span>mezza<span class="token punctuation">)</span> <span class="token punctuation">[</span>root@quijote mezzanine_django<span class="token punctuation">]</span><span class="token comment"># systemctl restart httpd</span></code></pre></div>
 <p>Configuramos el servidor de aplicaciones uwsgi para que escuche el puerto 8080.</p>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token punctuation">[</span>uwsgi<span class="token punctuation">]</span>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token punctuation">(</span>mezza<span class="token punctuation">)</span> <span class="token punctuation">[</span>root@quijote mezzanine_django<span class="token punctuation">]</span><span class="token comment"># nano uwsgi.ini</span>
+<span class="token punctuation">[</span>uwsgi<span class="token punctuation">]</span>
 http <span class="token operator">=</span> :8080
 chdir <span class="token operator">=</span> /var/www/mezzanine_django
 wsgi-file <span class="token operator">=</span> /var/www/mezzanine_django/cms/wsgi.py
