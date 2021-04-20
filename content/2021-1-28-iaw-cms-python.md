@@ -294,7 +294,7 @@ DATABASES = {
     }
 }
 ```
-
+NOTA: Si da el error **django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.** deberás generar tu una y añadirla a **settings.py**.
 
 ```shell
 (mezza) [root@quijote cms]# python3 manage.py migrate
@@ -393,7 +393,7 @@ Creamo un directorio para los logs y damos los permisos necesarios para la que l
 
 Configuramos el servidor de aplicaciones uwsgi para que escuche el puerto 8080.
 ```shell
-
+(mezza) [root@quijote mezzanine_django]# nano uwsgi.ini
 [uwsgi]
 http = :8080
 chdir = /var/www/mezzanine_django
