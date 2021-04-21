@@ -275,8 +275,8 @@ Modificaremos el fichero settings.py para utilizar una base de datos mysql y acc
 ```shell
 (despliegue) [root@quijote Mezzanine-OpenStack]# nano cms/settings.py 
 SECRET_KEY = '8lu*6g0lg)9z!ba+a$ehk)xt)x%rxgb$i1&amp;022shmi1jcgihb*'
-ALLOWED_HOSTS = ['127.0.0.1']
-STATIC_ROOT = '/var/www/mezzanine/mysite/static/'
+ALLOWED_HOSTS = ['127.0.0.1','python.madu.gonzalonazareno.org']
+STATIC_ROOT = '/var/www/mezzanine_django/static/'
 DATABASES = {
     "default": {
         # Add "postgresql_psycopg2", "mysql", "sqlite3" or "oracle".
@@ -363,23 +363,21 @@ Moveremos la carpeta a /www/var/ y crearemos un virtualhost.
     ServerName python.madu.gonzalonazareno.org
     DocumentRoot /var/www/mezzanine_django/
 
-    <Proxy "unix:/run/php-fpm/www.sock|fcgi://php-fpm">
-           ProxySet disablereuse=off
-    </Proxy>
+    WSGIDaemonProcess mysite user=apache group=apache processes=1 threads=5 python-path=/var/www/mezzanine_django
+    WSGIScriptAlias / /var/www/mezzanine_django/cms/wsgi.py
 
-    <FilesMatch \.php$>
-           SetHandler proxy:fcgi://php-fpm
-    </FilesMatch>
-
-    Alias /static "/var/www/mezzanine_django/static"
-
-    <Directory /var/www/mezzanine_django/static>
-           Require all granted
+    <Directory /var/www/mezzanine_django>
+          WSGIProcessGroup mysite
+          WSGIApplicationGroup %{GLOBAL}
+          Require all granted
     </Directory>
 
-     ProxyPass /static !
-     ProxyPass / http://127.0.0.1:8080/
+    ProxyPass /static !
+    ProxyPass / http://127.0.0.1:8080/
+    ProxyPassReverse / http://127.0.0.1:8080/
+
 </VirtualHost>
+
 ```
 
 Creamo un directorio para los logs y damos los permisos necesarios para la que la aplicación sea servida.
@@ -402,9 +400,49 @@ processes = 4
 threads = 2
 ```
 
-Reiniciamos servicio y comprobamos el resultado.
+Lo activamos y comprobamos
 ```shell
-(mezza) [root@quijote mezzanine_django]# systemctl restart httpd
+(mezza) [centos@quijote mezzanine_django]$ uwsgi --ini uwsgi.ini
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Apr 20 13:46:39 2021] ***
+compiled with version: 8.3.1 20191121 (Red Hat 8.3.1-5) on 15 April 2021 10:48:42
+os: Linux-4.18.0-240.10.1.el8_3.x86_64 #1 SMP Mon Jan 18 17:05:51 UTC 2021
+nodename: quijote.madu.gonzalonazareno.org
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/mezzanine_django
+detected binary path: /home/centos/virtualenv/mezza/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /var/www/mezzanine_django
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1655
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8080 fd 4
+spawned uWSGI http 1 (pid: 111431)
+uwsgi socket 0 bound to TCP address 127.0.0.1:46643 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Aug 24 2020, 17:57:11)  [GCC 8.3.1 20191121 (Red Hat 8.3.1-5)]
+Python main interpreter initialized at 0x1b1e0d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 333504 bytes (325 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x1b1e0d0 pid: 111430 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 111430, cores: 2)
+spawned uWSGI worker 2 (pid: 111433, cores: 2)
+spawned uWSGI worker 3 (pid: 111434, cores: 2)
+spawned uWSGI worker 4 (pid: 111435, cores: 2)
 ```
 
-FOTO
+![PracticaImg](images/iaw/pythonopenstack.png "python1")
+
+Como se puede apreciar en la imagen la paguina se despliega pero no puede cargar los ficheros css y js.
+
+Econtre un post con varias ideas interesantes que según el motivo alguna puede funcionar:
+
+https://stackoverflow.com/questions/5836674/why-does-debug-false-setting-make-my-django-static-files-access-fail
