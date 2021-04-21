@@ -62,34 +62,70 @@ fran@debian:~/GitHub/PHP-en-Docker/deploy$ sudo apt-get install docker-compose
 
 Crearemos el documento de **docker-compose.yml**.
 ```shell
-version: '3.1'
+version: "3.1"
 
-db:
-     container_name: servidor_mysql
-     image: mariadb
-     restart: always
-     environment:
-           MYSQL_DATABASE: bookmedik
-           MYSQL_USER: user_bookmedik
-           MYSQL_PASSWORD: pass_bookmedik
-           MYSQL_ROOT_PASSWORD: asdasd
-     volumes:
-           - /opt/mysql:/var/lib/mysql
+services:
+  db:
+    container_name: servidor_mysql
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_DATABASE: bookmedik
+      MYSQL_USER: bookmedik
+      MYSQL_PASSWORD: bookmedik
+      MYSQL_ROOT_PASSWORD: fran
+    volumes:
+      - /opt/mysql_wp:/var/lib/mysql
 ```
 
 Lo ejecutaremos:
 ```shell
-
+root@debian:/home/fran/GitHub/PHP-en-Docker/deploy# docker-compose up -d
+Creating network "deploy_default" with the default driver
+Creating servidor_mysql ... done
 ```
 
+En el directorio **Build** deberemos crear el fichero **Dockerfile** en el que indicaremos como se genera nuestra imagen y tambien clone el repositorio de bookmedik:
 ```shell
+FROM debian
 
+RUN apt-get update && apt-get install -y apache2 libapache2-mod-php7.3 php7.3 php7.3-mysql && apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN rm /var/www/html/index.html
+
+ENV APACHE_SERVER_NAME=www.bookmedik-madu.org
+ENV DATABASE_USER=bookmedik
+ENV DATABASE_PASSWORD=bookmedik
+ENV DATABASE_HOST=bd
+
+EXPOSE 80
+
+COPY ./bookmedik /var/www/html
+ADD script.sh /usr/local/bin/script.sh
+
+RUN chmod +x /usr/local/bin/script.sh
+
+CMD ["/usr/local/bin/script.sh"]
 ```
 
+En el mismo directorio **Build** crearemos un fichero llamado **script.sh** en el cual indicaremo las variables de entorno necesarias.
 ```shell
-
+sed -i 's/$this->user="root";/$this->user="'${DATABASE_USER}'";/g' /var/www/html/core/controller/Database.php
+sed -i 's/$this->pass="";/$this->pass="'${DATABASE_PASSWORD}'";/g' /var/www/html/core/controller/Database.php
+sed -i 's/$this->host="localhost";/$this->host="'${DATABASE_HOST}'";/g' /var/www/html/core/controller/Database.php
+apache2ctl -D FOREGROUND
 ```
 
+Una vez echo esto debemos generar nuestra nueva imagen a partir del fichero **Dockerfile** en **Build** ejecutaremos el siguiente comando:
 ```shell
+root@debian:/home/fran/GitHub/PHP-en-Docker/build# docker build -t fran/bookmedik:v1 .
+#comprobación
+root@debian:/home/fran/GitHub/PHP-en-Docker/build# docker image list
+REPOSITORY                    TAG                 IMAGE ID            CREATED             SIZE
+fran/bookmedik                v1                  3f5a2e37e3b6        3 seconds ago       251MB
+```
+
+Despligue de docker-compose, ya con la imagen creada, editaremos nuevamente el fichero **docker-compose.yml** para añadir el nuevo contenedor donde estará alojada nuestra aplicación de bookmedik:
+```shell
+
 
 ```
