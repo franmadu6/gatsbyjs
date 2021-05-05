@@ -84,7 +84,7 @@ create database bookmedik;
 
 Ahora vamos a cargar los datos en la base de datos.
 ```shell
-root@debian:/home/fran/Docker/tarea1/bookmedik# cat schema.sql | docker exec -i servidor_mysql /usr/bin/mysql -u root --password=asdasd bookmedik
+root@debian:/home/fran/Docker/tarea1/bookmedik# cat schema.sql | docker exec -i servidor_mysql /usr/bin/mysql -u root --password=root bookmedik
 ```
 
 Creamos el **Dockerfile** para el contenedor, el cual tendrá apache con el modulo de php.
@@ -192,6 +192,8 @@ Creating bookmedik        ... done
 * Crea un script con docker compose que levante el escenario con los dos contenedores.
 
 <hr>
+
+Reutilizaremos la tarea1 para ello copiaremos el directorio.
 
 Nos bajaremos la imagen de php.
 ```shell
@@ -464,7 +466,6 @@ wget https://www.drupal.org/download-latest/zip
 ```
 
 ```shell
-.
 ├── build
 │   ├── Dockerfile
 │   ├── drupal
@@ -630,3 +631,5 @@ Configuramos joomla:
 
 Comprobación de que la instalación se ha realizado correctamente.
 ![PracticaImg](images/iaw/dockerxjoomla2.png "demostración de joomla 2")
+
+Todos los ejercicios los puedes econtrar en: https://github.com/franmadu6/PHP-en-Docker
