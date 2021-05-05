@@ -295,25 +295,141 @@ A lo mejor te puede ayudar el siguiente enlace: Dockerise your PHP application w
 
 <hr>
 
+En esta ocasión la estructura a seguir es algo mas compleja, la haremos de la siguiente manera:
 ```shell
+├── build
+│   ├── bookmedik
+│   ├── default.conf
+│   ├── Dockerfile
+│   └── script.sh
+├── build-php
+│   └── Dockerfile
+├── deploy
+│   └── docker-compose.yml
+```
 
+Realizaremos la creación de dos imágenes, una imagen oficial de nginx y otra oficial de php-fpm.
+
+Dockerfile para nginx:
+```shell
+FROM nginx
+MAINTAINER Fran Madueño "frandh1997@gmail.com"
+
+EXPOSE 80
+
+RUN rm /etc/nginx/conf.d/default.conf
+COPY bookmedik /opt/bookmedik
+COPY default.conf /etc/nginx/conf.d/default.conf
+
+ADD script.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/script.sh
+
+ENV DATABASE_USER=user_bookmedik
+ENV DATABASE_PASSWORD=pass_bookmedik
+ENV DATABASE_HOST=servidor_mysql
+
+CMD ["script.sh"]
 ```
 
 ```shell
+#!/bin/bash
 
+cp -R /opt/bookmedik/* /code
+sed -i "s/$this->user=\"root\";/$this->user=\"$DATABASE_USER\";/g" /code/core/controller/Database.php
+sed -i "s/$this->pass=\"\";/$this->pass=\"$DATABASE_PASSWORD\";/g" /code/core/controller/Database.php
+sed -i "s/$this->host=\"localhost\";/$this->host=\"$DATABASE_HOST\";/g" /code/core/controller/Database.php
+
+nginx -g 'daemon off;'
 ```
 
+default.conf
 ```shell
+server {
+    index index.php index.html;
+    server_name _;
+    error_log  /var/log/nginx/error.log;
+    access_log /var/log/nginx/access.log;
+    root /code;
 
+    location ~ \.php$ {
+        try_files $uri =404;
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass php:9000;
+        fastcgi_index index.php;
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param PATH_INFO $fastcgi_path_info;
+    }
+}
 ```
 
+Creamos la primera imagen:
 ```shell
-
+root@debian:/home/fran/Docker/tarea3/build# docker build -t franmadu6/bookmedik:v3 .
 ```
 
+Creación del Dockerfile para php-fpm:
 ```shell
+FROM php:7.2-fpm
+MAINTAINER Fran Madueño "frandh1997@gmail.com"
 
+RUN docker-php-ext-install mysqli
 ```
+
+Creamos la segunda imagen:
+```shell
+root@debian:/home/fran/Docker/tarea3/build-php# docker build -t franmadu6/php-fpm-mysqli:v1 .
+```
+
+Creación del **docker-compose**:
+```shell
+version: '3.1'
+
+services:
+
+  db:
+     container_name: servidor_mysql
+     image: mariadb
+     restart: always
+     environment:
+           MYSQL_DATABASE: bookmedik
+           MYSQL_USER: user_bookmedik
+           MYSQL_PASSWORD: pass_bookmedik
+           MYSQL_ROOT_PASSWORD: asdasd
+     volumes:
+           - /opt/mysql:/var/lib/mysql
+
+  bookmedik:
+     container_name: bookmedik
+     image: franmadu6/bookmedik:v3
+     restart: always
+     ports:
+         - 8080:80
+     volumes:
+         - /opt/bookmedik-php:/code
+
+  php:
+     container_name: php
+     image: franmadu6/php-fpm-mysqli:v1
+     restart: always
+     volumes:
+          - /opt/bookmedik-php:/code
+```
+
+Ejecución del deploy:
+```shell
+root@debian:/home/fran/Docker/tarea3/deploy# docker-compose up -d
+Recreating servidor_mysql ... done
+Recreating bookmedik      ... done
+Creating php              ... done
+```
+
+Error:
+```shell
+Fatal error: Uncaught Error: Call to a member function fetch_array() on boolean in /code/core/app/view/processlogin-view.php:17 Stack trace: #0 /code/core/controller/View.php(31): include() #1 /code/core/app/layouts/layout.php(176): View::load('login') #2 /code/core/controller/Module.php(12): include('/code/core/app/...') #3 /code/core/app/init.php(9): Module::loadLayout('index') #4 /code/core/controller/Lb.php(15): include('/code/core/app/...') #5 /code/index.php(25): Lb->start() #6 {main} thrown in /code/core/app/view/processlogin-view.php on line 17
+```
+
+
 
 ### Tarea 4: Ejecución de un CMS en docker.
 
@@ -324,7 +440,29 @@ A lo mejor te puede ayudar el siguiente enlace: Dockerise your PHP application w
 
 <hr>
 
-Descargaremos y descomprimiremos la imagen de drupal y estructuraremos la tarea
+En este apartado utilizaremos [Drupal](https://hub.docker.com/_/drupal).
+
+![PracticaImg](https://www.solucionex.com/sites/default/files/posts/imagen/solucionex_davidjguru_drupal_logo.png "drupal icon")
+
+### ¿Qué es Drupal?
+
+Drupal es un CMS o sistema de gestión de contenidos que se utiliza para crear sitios web
+dinámicos y con gran variedad de funcionalidades.
+Drupal es un software libre, escrito en PHP, que cuenta con una amplia y activa comunidad de usuarios
+y desarrolladores que colaboran conjuntamente en su mejora y ampliación.
+Esta ampliación es posible gracias a que se trata de un sistema modular con una arquitectura muy consistente,
+que permite que los módulos creados por cualquier desarrollador puedan interactuar con el núcleo del sistema
+y con los módulos creados por otros miembros de la comunidad.
+Con Drupal es posible implementar una gran variedad de sitios web: un blog personal o profesional,
+un portal corporativo, una tienda virtual, una red social o comunidad virtual, etc.
+
+
+Para comenzar descargaremos y descomprimiremos la imagen de drupal y estructuraremos la tarea de la siguente forma:
+
+```shell
+wget https://www.drupal.org/download-latest/zip
+```
+
 ```shell
 .
 ├── build
