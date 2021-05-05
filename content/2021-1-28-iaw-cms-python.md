@@ -446,29 +446,3 @@ Como se puede apreciar en la imagen la paguina se despliega pero no puede cargar
 Econtre un post con varias ideas interesantes que según el motivo alguna puede funcionar:
 
 https://stackoverflow.com/questions/5836674/why-does-debug-false-setting-make-my-django-static-files-access-fail
-
-<VirtualHost *:80>
-        ServerAdmin webmaster@localhost
-        DocumentRoot /home/usuario/juanluramirez/
- 
-        Alias /static /home/usuario/juanluramirez/static
- 
-        <Directory /home/usuario/juanluramirez/static>
-                Require all granted
-        </Directory>
- 
-        <Directory /home/usuario/juanluramirez/juanluramirez>
-                <Files wsgi.py>
-                        Require all granted
-                </Files>
-        </Directory>
- 
-        WSGIDaemonProcess mezzanine \
-                python-home=/home/usuario/mezzanine \
-                python-path=/home/usuario/juanluramirez/:/home/usuario
-        WSGIProcessGroup mezzanine
-        WSGIScriptAlias / /home/usuario/juanluramirez/juanluramirez/wsgi.py
-        
-	ErrorLog ${APACHE_LOG_DIR}/error.log
-        CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
