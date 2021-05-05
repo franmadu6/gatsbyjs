@@ -27,9 +27,14 @@ tags:
 
 <hr>
 
+Instalaremos la paquetería necesaria.
+```shell
+apt install docker-compose docker.io
+```
+
 El primer paso será clonar el repo de la aplicación.
 ```shell
-root@debian:/home/fran/Docker# git clone https://github.com/evilnapsis/bookmedik.git
+root@debian:/home/fran/Docker/tarea1# git clone https://github.com/evilnapsis/bookmedik.git
 Clonando en 'bookmedik'...
 remote: Enumerating objects: 856, done.
 remote: Total 856 (delta 0), reused 0 (delta 0), pack-reused 856
@@ -45,15 +50,9 @@ Crearemos un repositorio en GitHub con la siguiente estructura, donde bookmedik 
 │   └── script.sh
 ├── deploy
 │   └── docker-compose.yml
-└── README.md
 ```
 
-Instalaremos docker-compose.
-```shell
-fran@debian:~/GitHub/PHP-en-Docker/deploy$ sudo apt-get install docker-compose
-```
-
-Crearemos el documento de **docker-compose.yml**.
+Para crear el volumen con las tablas que nos hacen falta, crearemos el fichero **docker-compose** con la siguiente información:
 ```shell
 version: "3.1"
 
@@ -66,58 +65,83 @@ services:
       MYSQL_DATABASE: bookmedik
       MYSQL_USER: bookmedik
       MYSQL_PASSWORD: bookmedik
-      MYSQL_ROOT_PASSWORD: fran
+      MYSQL_ROOT_PASSWORD: root
     volumes:
       - /opt/mysql_wp:/var/lib/mysql
 ```
 
 Lo ejecutaremos:
 ```shell
-root@debian:/home/fran/GitHub/PHP-en-Docker/deploy# docker-compose up -d
+root@debian:/home/fran/Docker/tarea1/bookmedik# docker-compose up -d
 Creating network "deploy_default" with the default driver
 Creating servidor_mysql ... done
 ```
 
-En el directorio **Build** deberemos crear el fichero **Dockerfile** en el que indicaremos como se genera nuestra imagen y tambien clone el repositorio de bookmedik:
+Dentro del repositorio de bookmedik iremos al fichero **schema.sql** y borraremos o comentaremos la siguiente linea:
+```shell
+create database bookmedik;
+```
+
+Ahora vamos a cargar los datos en la base de datos.
+```shell
+root@debian:/home/fran/Docker/tarea1/bookmedik# cat schema.sql | docker exec -i servidor_mysql /usr/bin/mysql -u root --password=asdasd bookmedik
+```
+
+Creamos el **Dockerfile** para el contenedor, el cual tendrá apache con el modulo de php.
 ```shell
 FROM debian
+MAINTAINER Fran Madueño "frandh1997@gmail.com"
 
-RUN apt-get update && apt-get install -y apache2 libapache2-mod-php7.3 php7.3 php7.3-mysql && apt-get clean && rm -rf /var/lib/apt/lists/*
-RUN rm /var/www/html/index.html
-
-ENV APACHE_SERVER_NAME=www.bookmedik-madu.org
-ENV DATABASE_USER=bookmedik
-ENV DATABASE_PASSWORD=bookmedik
-ENV DATABASE_HOST=bd
+RUN apt-get update && apt-get install -y apache2 \
+libapache2-mod-php7.3 \
+php7.3 \
+php7.3-mysql \
+&& apt-get clean \
+&& rm -rf /var/lib/apt/lists/*
 
 EXPOSE 80
 
-COPY ./bookmedik /var/www/html
-ADD script.sh /usr/local/bin/script.sh
+RUN rm /var/www/html/index.html
+COPY bookmedik /var/www/html/
+ADD script.sh /usr/local/bin/
 
 RUN chmod +x /usr/local/bin/script.sh
 
-CMD ["/usr/local/bin/script.sh"]
+ENV DATABASE_USER bookmedik
+ENV DATABASE_PASSWORD bookmedik
+ENV DATABASE_HOST db
+
+CMD ["script.sh"]
 ```
 
-En el mismo directorio **Build** crearemos un fichero llamado **script.sh** en el cual indicaremo las variables de entorno necesarias.
+Crearemos ahora el fichero **script.sh**.
 ```shell
-sed -i 's/$this->user="root";/$this->user="'${DATABASE_USER}'";/g' /var/www/html/core/controller/Database.php
-sed -i 's/$this->pass="";/$this->pass="'${DATABASE_PASSWORD}'";/g' /var/www/html/core/controller/Database.php
-sed -i 's/$this->host="localhost";/$this->host="'${DATABASE_HOST}'";/g' /var/www/html/core/controller/Database.php
+#!/bin/bash
+
+sed -i "s/$this->user=\"root\";/$this->user=\"$DATABASE_USER\";/g" /var/www/html/core/controller/Database.php
+sed -i "s/$this->pass=\"\";/$this->pass=\"$DATABASE_PASSWORD\";/g" /var/www/html/core/controller/Database.php
+sed -i "s/$this->host=\"localhost\";/$this->host=\"$DATABASE_HOST\";/g" /var/www/html/core/controller/Database.php
 apache2ctl -D FOREGROUND
 ```
 
-Una vez echo esto debemos generar nuestra nueva imagen a partir del fichero **Dockerfile** en **Build** ejecutaremos el siguiente comando:
+Ejecutaremos la instrucción para la creación de la imagen:
 ```shell
-root@debian:/home/fran/GitHub/PHP-en-Docker/build# docker build -t fran/bookmedik:v1 .
-#comprobación
-root@debian:/home/fran/GitHub/PHP-en-Docker/build# docker image list
-REPOSITORY                    TAG                 IMAGE ID            CREATED             SIZE
-fran/bookmedik                v1                  3f5a2e37e3b6        3 seconds ago       251MB
+root@debian:/home/fran/Docker/tarea1# docker build -t franmadu6/bookmedik:v1 .
+Sending build context to Docker daemon  5.774MB
+Step 1/12 : FROM debian
+ ---> e7d08cddf791
+Step 2/12 : RUN apt-get update && apt-get install -y apache2 libapache2-mod-php7.3 php7.3 php7.3-mysql && apt-get clean && rm -rf /var/lib/apt/lists/*
+ ---> Using cache
+ ---> bd943a2e2877
+Step 3/12 : RUN rm /var/www/html/index.html
+ ---> Using cache
+ ---> 0eaa00c1c86f
+ ...
+Successfully built e51a62207187
+Successfully tagged franmadu6/bookmedik:v1
 ```
 
-Despligue de docker-compose, ya con la imagen creada, editaremos nuevamente el fichero **docker-compose.yml** para añadir el nuevo contenedor donde estará alojada nuestra aplicación de bookmedik:
+Modificaremos nuevamente el fichero **docker-compose.yml** y añadiremos los siguientes campos:
 ```shell
 version: "3.1"
 
@@ -130,31 +154,35 @@ services:
       MYSQL_DATABASE: bookmedik
       MYSQL_USER: bookmedik
       MYSQL_PASSWORD: bookmedik
-      MYSQL_ROOT_PASSWORD: fran
+      MYSQL_ROOT_PASSWORD: root
     volumes:
-      - /opt/mysql_bookmedik:/var/lib/mysql
+      - /opt/mysql_wp:/var/lib/mysql
 
   bookmedik:
-    container_name: bookmedik
-    image: fran/bookmedik:v1
-    restart: always
-    ports:
-      - 8082:80
-    volumes:
-      - /opt/bookmedik:/var/log/apache2
+     container_name: bookmedik
+     image: franmadu6/bookmedik:v1
+     restart: always
+     environment:
+       USER: bookmedik
+       PASSWORD: bookmedik
+       HOST: db
+     ports:
+         - 8080:80
+     volumes:
+         - /opt/bookmedik_logs:/var/log/apache2
 ```
 
-Ejecutamos nuevamente:
+Lo volvemos a ejecutar con **docker-compose up -d**.
+Ejecutamos:
 ```shell
-root@debian:/home/fran/GitHub/PHP-en-Docker/deploy# docker-compose up -d
+root@debian:/home/fran/Docker/tarea1/deploy# docker-compose up -d
 Recreating servidor_mysql ... done
 Creating bookmedik        ... done
 ```
 
-```shell
+![PracticaImg](images/iaw/phpxdocker.png "demostracion de bookmedik")
 
-```
-
+![PracticaImg](images/iaw/phpxdocker4.png "demostracion de bookmedik")
 
 ### Tarea 2: Ejecución de una aplicación web PHP en docker.
 
@@ -165,6 +193,95 @@ Creating bookmedik        ... done
 
 <hr>
 
+Nos bajaremos la imagen de php.
+```shell
+root@debian:/home/fran/Docker/tarea2/build# docker pull php
+Using default tag: latest
+latest: Pulling from library/php
+f7ec5a41d630: Pull complete 
+941223b59841: Pull complete 
+a5f2415e5a0c: Pull complete 
+b9844b87f0e3: Pull complete 
+e6344d1b495a: Pull complete 
+56b9ec0a1707: Pull complete 
+a28bc80345cd: Pull complete 
+41cae6f1fa59: Pull complete 
+f5ab0cee411f: Pull complete 
+Digest: sha256:c3b4938968e6a7b6245c9536203e6eaa5c7552d3673cd2fb92c349772737b313
+Status: Downloaded newer image for php:latest
+```
+
+Modificaremos el Dockerfile para usar la imagen.
+```shell
+root@debian:/home/fran/Docker/tarea2/build# cat Dockerfile 
+FROM php:7.2-apache
+MAINTAINER Fran Madueño "frandh1997@gmail.com"
+
+EXPOSE 80
+
+RUN docker-php-ext-install mysqli
+COPY bookmedik /var/www/html/
+ADD script.sh /usr/local/bin/
+
+RUN chmod +x /usr/local/bin/script.sh
+
+ENV DATABASE_USER=bookmedik
+ENV DATABASE_PASSWORD=bookmedik
+ENV DATABASE_HOST=servidor_mysql
+
+CMD ["script.sh"]
+```
+
+
+Creamos la nueva imagen.
+```shell
+root@debian:/home/fran/Docker/tarea2# docker build -t franmadu6/bookmedik:v2 .
+...
+Successfully tagged franmadu6/bookmedik:v2
+```
+
+Modificamos el antiguo fichero de **docker-compose.yml**:
+```shell
+root@debian:/home/fran/Docker/tarea2/deploy# cat docker-compose.yml 
+version: "3.1"
+
+services:
+  db:
+    container_name: servidor_mysql
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_DATABASE: bookmedik
+      MYSQL_USER: bookmedik
+      MYSQL_PASSWORD: bookmedik
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - /opt/mysql_wp:/var/lib/mysql
+
+  bookmedik:
+     container_name: bookmedik
+     image: franmadu6/bookmedik:v2
+     restart: always
+     environment:
+       USER: bookmedik
+       PASSWORD: bookmedik
+       HOST: db
+     ports:
+         - 8080:80
+     volumes:
+         - /opt/bookmedik_logs:/var/log/apache2
+```
+
+```shell
+root@debian:/home/fran/Docker/tarea2/deploy# docker-compose up -d
+Recreating servidor_mysql ... done
+Creating bookmedik        ... done
+```
+
+![PracticaImg](images/iaw/phpxdocker2.png "demostracion de bookmedik")
+
+
+![PracticaImg](images/iaw/phpxdocker3.png "demostracion de bookmedik")
 
 ### Tarea 3: Ejecución de una aplicación PHP en docker.
 
@@ -178,6 +295,26 @@ A lo mejor te puede ayudar el siguiente enlace: Dockerise your PHP application w
 
 <hr>
 
+```shell
+
+```
+
+```shell
+
+```
+
+```shell
+
+```
+
+```shell
+
+```
+
+```shell
+
+```
+
 ### Tarea 4: Ejecución de un CMS en docker.
 
 
@@ -187,8 +324,171 @@ A lo mejor te puede ayudar el siguiente enlace: Dockerise your PHP application w
 
 <hr>
 
+Descargaremos y descomprimiremos la imagen de drupal y estructuraremos la tarea
+```shell
+.
+├── build
+│   ├── Dockerfile
+│   ├── drupal
+│   └── script.sh
+├── deploy
+│   └── docker-compose.yml
+```
+
+Creación de **Dockerfile** para la generación de la imagen:
+```shell
+FROM debian
+MAINTAINER Fran Madueño "frandh1997@gmail.com"
+
+EXPOSE 80
+
+RUN apt-get update && apt-get install -y apache2 \
+libapache2-mod-php \
+php \
+php-mysql \
+php-dom  \
+php-gd \
+php-simplexml \
+php-xml \
+php7.3-mbstring \
+&& apt-get clean \
+&& rm -rf /var/lib/apt/lists/*
+
+RUN rm /var/www/html/index.html
+COPY drupal /var/www/html/
+COPY drupal/sites /opt/drupal/sites
+COPY drupal/profiles /opt/drupal/profiles
+COPY drupal/modules /opt/drupal/modules
+COPY drupal/themes /opt/drupal/themes
+
+ADD script.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/script.sh
+
+CMD ["script.sh"]
+```
+
+Creación de **script.sh**:
+```shell
+#!/bin/bash
+
+cp -R /opt/drupal/sites /var/www/html/
+cp -R /opt/drupal/modules /var/www/html/
+cp -R /opt/drupal/themes /var/www/html/
+cp -R /opt/drupal/profiles /var/www/html/
+mkdir -p /var/www/html/sites/default/files/translations
+chmod -R 777 /var/www/html/sites/default
+cp /var/www/html/sites/default/default.settings.php /var/www/html/sites/d$
+chmod -R 777 /var/www/html/sites/default/settings.php
+
+apache2ctl -D FOREGROUND
+```
+
+Creación de **docker-compose.yml**:
+```shell
+version: '3.1'
+
+services:
+
+  db:
+     container_name: servidor_mysql
+     image: mariadb
+     restart: always
+     environment:
+           MYSQL_DATABASE: db_drupal
+           MYSQL_USER: user_drupal
+           MYSQL_PASSWORD: pass_drupal
+           MYSQL_ROOT_PASSWORD: root
+     volumes:
+           - /opt/mysql:/var/lib/mysql
+
+  drupal:
+     container_name: drupal
+     image: franmadu6/drupal:v1
+     restart: always
+     ports:
+         - 8082:80
+     volumes:
+         - /opt/drupal/sites:/var/www/html/sites/
+         - /opt/drupal/themes:/var/www/html/themes/
+         - /opt/drupal/profiles:/var/www/html/profiles/
+         - /opt/drupal/modules:/var/www/html/modules/
+```
+
+Generamos la imagen.
+```shell
+root@debian:/home/fran/Docker/tarea4/build# docker build -t franmadu6/drupal:v1 .
+Successfully built b76accf07b39
+Successfully tagged franmadu6/drupal:v1
+```
+
+Ejecutamos el escenario.
+```shell
+root@debian:/home/fran/Docker/tarea4/deploy# docker-compose up -d
+Recreating servidor_mysql ... done
+Creating drupal           ... done
+```
+
+![PracticaImg](images/iaw/drupalxdocker.png "demostración de drupal")
+
+
+Correción de errores:
+Archivo de configuración -> Copiaremos el archivo ./sites/default/settings.php como ./sites/default/settings.php
+
+![PracticaImg](images/iaw/dockerxphp2.png "demostración de drupal 2")
+
 ### Tarea 5: Ejecución de un CMS en docker.
 
 Busca una imagen oficial de un CMS PHP en docker hub (distinto al que has instalado en la tarea anterior, ni wordpress), y crea los contenedores necesarios para servir el CMS, siguiendo la documentación de docker hub.
 
 <hr>
+
+En este apartado utilizaremos [Joomla](https://hub.docker.com/_/joomla).
+
+![PracticaImg](https://raw.githubusercontent.com/docker-library/docs/593aeead7600f80c50ea4f0cdde05998f743789b/joomla/logo.png "joomla icon")
+
+### ¿Qué es Joomla?
+
+Joomla es un sistema de gestión de contenido (CMS) gratuito y de código abierto para publicar contenido web. Se basa en un marco de aplicación web modelo-vista-controlador que se puede utilizar independientemente del CMS. Joomla está escrito en PHP, utiliza técnicas de programación orientada a objetos (OOP) y patrones de diseño de software, almacena datos en una base de datos MySQL, MS SQL o PostgreSQL e incluye características como almacenamiento en caché de páginas, feeds RSS, versiones imprimibles de páginas, noticias flashes, blogs, búsqueda y soporte para la internacionalización de idiomas.
+
+Comenzaremos con la creación del **docker-compose**:
+```shell
+version: '3.1'
+
+services:
+
+  joomladb:
+    container_name: servidor_mysql
+    image: mariadb
+    restart: always
+    environment:
+           MYSQL_ROOT_PASSWORD: root
+           MYSQL_DATABASE: db_joomla
+           MYSQL_USER: user_joomla
+           MYSQL_PASSWORD: pass_joomla
+
+  joomla:
+    container_name: joomla
+    image: joomla
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      JOOMLA_DB_HOST: joomladb
+      JOOMLA_DB_USER: user_joomla
+      JOOMLA_DB_PASSWORD: pass_joomla
+      JOOMLA_DB_NAME: db_joomla
+```
+
+Comprobamos que se han realizado las imagenes correctamente.
+```shell
+root@debian:/home/fran/Docker/tarea5# docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
+52181b414ddc        joomla              "/entrypoint.sh apac…"   9 minutes ago       Up 9 minutes        0.0.0.0:8080->80/tcp   joomla
+d1e9182b4cf8        mariadb             "docker-entrypoint.s…"   9 minutes ago       Up 9 minutes        3306/tcp               servidor_mysql
+```
+
+Configuramos joomla:
+![PracticaImg](images/iaw/dockerxjoomla.png "demostración de joomla")
+
+Comprobación de que la instalación se ha realizado correctamente.
+![PracticaImg](images/iaw/dockerxjoomla2.png "demostración de joomla 2")
