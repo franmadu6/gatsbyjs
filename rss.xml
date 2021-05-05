@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 05 May 2021 16:21:04 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[IAW] Introducción a la IC/DC]]></title><description><![CDATA[Tarea: Integración continúa de aplicación django (Test + Deploy). Vamos a trabajar con el repositorio de la aplicación django_tutorial. Esta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</guid><category><![CDATA[Integración Continúa]]></category><category><![CDATA[GitHub Actions]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-integración-continúa-de-aplicación-django-test--deploy&quot;&gt;&lt;a href=&quot;#tarea-integraci%C3%B3n-contin%C3%BAa-de-aplicaci%C3%B3n-django-test--deploy&quot; aria-label=&quot;tarea integración continúa de aplicación django test  deploy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea: Integración continúa de aplicación django (Test + Deploy).&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 05 May 2021 16:52:17 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[IAW] Introducción a la IC/DC]]></title><description><![CDATA[Tarea: Integración continúa de aplicación django (Test + Deploy). Vamos a trabajar con el repositorio de la aplicación django_tutorial. Esta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</guid><category><![CDATA[Integración Continúa]]></category><category><![CDATA[GitHub Actions]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-integración-continúa-de-aplicación-django-test--deploy&quot;&gt;&lt;a href=&quot;#tarea-integraci%C3%B3n-contin%C3%BAa-de-aplicaci%C3%B3n-django-test--deploy&quot; aria-label=&quot;tarea integración continúa de aplicación django test  deploy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea: Integración continúa de aplicación django (Test + Deploy).&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Vamos a trabajar con el repositorio de la aplicación &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;django_tutorial&lt;/a&gt;. Esta aplicación tiene definidas una serie de test, que podemos estudiar en el fichero tests.py del directorio polls.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Para ejecutar las pruebas unitarias, ejecutamos la instrucción python3 manage.py test.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&quot;estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-código-de-la-aplicación-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot;&gt;&lt;a href=&quot;#estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-c%C3%B3digo-de-la-aplicaci%C3%B3n-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot; aria-label=&quot;estudia las distintas pruebas que se han realizado y modifica el código de la aplicación debes modificar el fichero viewspy o los templates no debes cambiar el fichero testspy para que al menos una de ella no se ejecute de manera exitosa permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Estudia las distintas pruebas que se han realizado, y modifica el código de la aplicación (debes modificar el fichero views.py o los templates, no debes cambiar el fichero tests.py para que al menos una de ella no se ejecute de manera exitosa.&lt;/h3&gt;
@@ -687,18 +687,129 @@ Creating bookmedik        &lt;span class=&quot;token punctuation&quot;&gt;..&lt;
 &lt;/ul&gt;
 &lt;p&gt;A lo mejor te puede ayudar el siguiente enlace: Dockerise your PHP application with Nginx and PHP7-FPM&lt;/p&gt;
 &lt;hr&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En esta ocasión la estructura a seguir es algo mas compleja, la haremos de la siguiente manera:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;├── build
+│   ├── bookmedik
+│   ├── default.conf
+│   ├── Dockerfile
+│   └── script.sh
+├── build-php
+│   └── Dockerfile
+├── deploy
+│   └── docker-compose.yml&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Realizaremos la creación de dos imágenes, una imagen oficial de nginx y otra oficial de php-fpm.&lt;/p&gt;
+&lt;p&gt;Dockerfile para nginx:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;FROM nginx
+MAINTAINER Fran Madueño &lt;span class=&quot;token string&quot;&gt;&quot;frandh1997@gmail.com&quot;&lt;/span&gt;
+
+EXPOSE &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
+
+RUN &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; /etc/nginx/conf.d/default.conf
+COPY bookmedik /opt/bookmedik
+COPY default.conf /etc/nginx/conf.d/default.conf
+
+ADD script.sh /usr/local/bin/
+RUN &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; +x /usr/local/bin/script.sh
+
+ENV &lt;span class=&quot;token assign-left variable&quot;&gt;DATABASE_USER&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;user_bookmedik
+ENV &lt;span class=&quot;token assign-left variable&quot;&gt;DATABASE_PASSWORD&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;pass_bookmedik
+ENV &lt;span class=&quot;token assign-left variable&quot;&gt;DATABASE_HOST&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;servidor_mysql
+
+CMD &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;script.sh&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; -R /opt/bookmedik/* /code
+&lt;span class=&quot;token function&quot;&gt;sed&lt;/span&gt; -i &lt;span class=&quot;token string&quot;&gt;&quot;s/&lt;span class=&quot;token variable&quot;&gt;$this&lt;/span&gt;-&gt;user=&lt;span class=&quot;token entity&quot; title=&quot;\&amp;quot;&quot;&gt;\&quot;&lt;/span&gt;root&lt;span class=&quot;token entity&quot; title=&quot;\&amp;quot;&quot;&gt;\&quot;&lt;/span&gt;;/&lt;span class=&quot;token variable&quot;&gt;$this&lt;/span&gt;-&gt;user=&lt;span class=&quot;token entity&quot; title=&quot;\&amp;quot;&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$DATABASE_USER&lt;/span&gt;&lt;span class=&quot;token entity&quot; title=&quot;\&amp;quot;&quot;&gt;\&quot;&lt;/span&gt;;/g&quot;&lt;/span&gt; /code/core/controller/Database.php
+&lt;span class=&quot;token function&quot;&gt;sed&lt;/span&gt; -i &lt;span class=&quot;token string&quot;&gt;&quot;s/&lt;span class=&quot;token variable&quot;&gt;$this&lt;/span&gt;-&gt;pass=&lt;span class=&quot;token entity&quot; title=&quot;\&amp;quot;&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;token entity&quot; title=&quot;\&amp;quot;&quot;&gt;\&quot;&lt;/span&gt;;/&lt;span class=&quot;token variable&quot;&gt;$this&lt;/span&gt;-&gt;pass=&lt;span class=&quot;token entity&quot; title=&quot;\&amp;quot;&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$DATABASE_PASSWORD&lt;/span&gt;&lt;span class=&quot;token entity&quot; title=&quot;\&amp;quot;&quot;&gt;\&quot;&lt;/span&gt;;/g&quot;&lt;/span&gt; /code/core/controller/Database.php
+&lt;span class=&quot;token function&quot;&gt;sed&lt;/span&gt; -i &lt;span class=&quot;token string&quot;&gt;&quot;s/&lt;span class=&quot;token variable&quot;&gt;$this&lt;/span&gt;-&gt;host=&lt;span class=&quot;token entity&quot; title=&quot;\&amp;quot;&quot;&gt;\&quot;&lt;/span&gt;localhost&lt;span class=&quot;token entity&quot; title=&quot;\&amp;quot;&quot;&gt;\&quot;&lt;/span&gt;;/&lt;span class=&quot;token variable&quot;&gt;$this&lt;/span&gt;-&gt;host=&lt;span class=&quot;token entity&quot; title=&quot;\&amp;quot;&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$DATABASE_HOST&lt;/span&gt;&lt;span class=&quot;token entity&quot; title=&quot;\&amp;quot;&quot;&gt;\&quot;&lt;/span&gt;;/g&quot;&lt;/span&gt; /code/core/controller/Database.php
+
+nginx -g &lt;span class=&quot;token string&quot;&gt;&apos;daemon off;&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;default.conf&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;server &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    index index.php index.html&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    server_name _&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    error_log  /var/log/nginx/error.log&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    access_log /var/log/nginx/access.log&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    root /code&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    location ~ &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;.php$ &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        try_files &lt;span class=&quot;token variable&quot;&gt;$uri&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        fastcgi_split_path_info ^&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;.+&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;.php&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;/.+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;$&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        fastcgi_pass php:9000&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        fastcgi_index index.php&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        include fastcgi_params&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        fastcgi_param SCRIPT_FILENAME &lt;span class=&quot;token variable&quot;&gt;$document_root&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$fastcgi_script_name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        fastcgi_param PATH_INFO &lt;span class=&quot;token variable&quot;&gt;$fastcgi_path_info&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Creamos la primera imagen:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran/Docker/tarea3/build&lt;span class=&quot;token comment&quot;&gt;# docker build -t franmadu6/bookmedik:v3 .&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Creación del Dockerfile para php-fpm:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;FROM php:7.2-fpm
+MAINTAINER Fran Madueño &lt;span class=&quot;token string&quot;&gt;&quot;frandh1997@gmail.com&quot;&lt;/span&gt;
+
+RUN docker-php-ext-install mysqli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Creamos la segunda imagen:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran/Docker/tarea3/build-php&lt;span class=&quot;token comment&quot;&gt;# docker build -t franmadu6/php-fpm-mysqli:v1 .&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Creación del &lt;strong&gt;docker-compose&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;version: &lt;span class=&quot;token string&quot;&gt;&apos;3.1&apos;&lt;/span&gt;
+
+services:
+
+  db:
+     container_name: servidor_mysql
+     image: mariadb
+     restart: always
+     environment:
+           MYSQL_DATABASE: bookmedik
+           MYSQL_USER: user_bookmedik
+           MYSQL_PASSWORD: pass_bookmedik
+           MYSQL_ROOT_PASSWORD: asdasd
+     volumes:
+           - /opt/mysql:/var/lib/mysql
+
+  bookmedik:
+     container_name: bookmedik
+     image: franmadu6/bookmedik:v3
+     restart: always
+     ports:
+         - &lt;span class=&quot;token number&quot;&gt;8080&lt;/span&gt;:80
+     volumes:
+         - /opt/bookmedik-php:/code
+
+  php:
+     container_name: php
+     image: franmadu6/php-fpm-mysqli:v1
+     restart: always
+     volumes:
+          - /opt/bookmedik-php:/code&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ejecución del deploy:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran/Docker/tarea3/deploy&lt;span class=&quot;token comment&quot;&gt;# docker-compose up -d&lt;/span&gt;
+Recreating servidor_mysql &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+Recreating bookmedik      &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+Creating php              &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Error:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;Fatal error: Uncaught Error: Call to a member &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; fetch_array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; on boolean &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; /code/core/app/view/processlogin-view.php:17 Stack trace: &lt;span class=&quot;token comment&quot;&gt;#0 /code/core/controller/View.php(31): include() #1 /code/core/app/layouts/layout.php(176): View::load(&apos;login&apos;) #2 /code/core/controller/Module.php(12): include(&apos;/code/core/app/...&apos;) #3 /code/core/app/init.php(9): Module::loadLayout(&apos;index&apos;) #4 /code/core/controller/Lb.php(15): include(&apos;/code/core/app/...&apos;) #5 /code/index.php(25): Lb-&gt;start() #6 {main} thrown in /code/core/app/view/processlogin-view.php on line 17&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&quot;tarea-4-ejecución-de-un-cms-en-docker&quot;&gt;&lt;a href=&quot;#tarea-4-ejecuci%C3%B3n-de-un-cms-en-docker&quot; aria-label=&quot;tarea 4 ejecución de un cms en docker permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 4: Ejecución de un CMS en docker.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;A partir de una imagen base (que no sea una imagen con el CMS), genera una imagen que despliegue un CMS PHP (que no sea wordpress).&lt;/li&gt;
 &lt;li&gt;Crea los volúmenes necesarios para que la información que se guarda sea persistente.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;Descargaremos y descomprimiremos la imagen de drupal y estructuraremos la tarea&lt;/p&gt;
+&lt;p&gt;En este apartado utilizaremos &lt;a href=&quot;https://hub.docker.com/_/drupal&quot;&gt;Drupal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.solucionex.com/sites/default/files/posts/imagen/solucionex_davidjguru_drupal_logo.png&quot; alt=&quot;PracticaImg&quot; title=&quot;drupal icon&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;¿qué-es-drupal&quot;&gt;&lt;a href=&quot;#%C2%BFqu%C3%A9-es-drupal&quot; aria-label=&quot;¿qué es drupal permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;¿Qué es Drupal?&lt;/h3&gt;
+&lt;p&gt;Drupal es un CMS o sistema de gestión de contenidos que se utiliza para crear sitios web
+dinámicos y con gran variedad de funcionalidades.
+Drupal es un software libre, escrito en PHP, que cuenta con una amplia y activa comunidad de usuarios
+y desarrolladores que colaboran conjuntamente en su mejora y ampliación.
+Esta ampliación es posible gracias a que se trata de un sistema modular con una arquitectura muy consistente,
+que permite que los módulos creados por cualquier desarrollador puedan interactuar con el núcleo del sistema
+y con los módulos creados por otros miembros de la comunidad.
+Con Drupal es posible implementar una gran variedad de sitios web: un blog personal o profesional,
+un portal corporativo, una tienda virtual, una red social o comunidad virtual, etc.&lt;/p&gt;
+&lt;p&gt;Para comenzar descargaremos y descomprimiremos la imagen de drupal y estructuraremos la tarea de la siguente forma:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; https://www.drupal.org/download-latest/zip&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
 ├── build
 │   ├── Dockerfile
