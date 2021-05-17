@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 13 May 2021 12:17:05 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[IAW] Introducción a la IC/DC]]></title><description><![CDATA[Tarea: Integración continúa de aplicación django (Test + Deploy). Vamos a trabajar con el repositorio de la aplicación django_tutorial. Esta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</guid><category><![CDATA[Integración Continúa]]></category><category><![CDATA[GitHub Actions]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-integración-continúa-de-aplicación-django-test--deploy&quot;&gt;&lt;a href=&quot;#tarea-integraci%C3%B3n-contin%C3%BAa-de-aplicaci%C3%B3n-django-test--deploy&quot; aria-label=&quot;tarea integración continúa de aplicación django test  deploy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea: Integración continúa de aplicación django (Test + Deploy).&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 17 May 2021 18:22:05 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[[IAW] Introducción a la IC/DC]]></title><description><![CDATA[Tarea: Integración continúa de aplicación django (Test + Deploy). Vamos a trabajar con el repositorio de la aplicación django_tutorial. Esta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</guid><category><![CDATA[Integración Continúa]]></category><category><![CDATA[GitHub Actions]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-integración-continúa-de-aplicación-django-test--deploy&quot;&gt;&lt;a href=&quot;#tarea-integraci%C3%B3n-contin%C3%BAa-de-aplicaci%C3%B3n-django-test--deploy&quot; aria-label=&quot;tarea integración continúa de aplicación django test  deploy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea: Integración continúa de aplicación django (Test + Deploy).&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Vamos a trabajar con el repositorio de la aplicación &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;django_tutorial&lt;/a&gt;. Esta aplicación tiene definidas una serie de test, que podemos estudiar en el fichero tests.py del directorio polls.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Para ejecutar las pruebas unitarias, ejecutamos la instrucción python3 manage.py test.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&quot;estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-código-de-la-aplicación-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot;&gt;&lt;a href=&quot;#estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-c%C3%B3digo-de-la-aplicaci%C3%B3n-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot; aria-label=&quot;estudia las distintas pruebas que se han realizado y modifica el código de la aplicación debes modificar el fichero viewspy o los templates no debes cambiar el fichero testspy para que al menos una de ella no se ejecute de manera exitosa permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Estudia las distintas pruebas que se han realizado, y modifica el código de la aplicación (debes modificar el fichero views.py o los templates, no debes cambiar el fichero tests.py para que al menos una de ella no se ejecute de manera exitosa.&lt;/h3&gt;
@@ -10162,8 +10162,217 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[LDAPs]]></title><description><![CDATA[Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/lda-ps</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Frestón]]></category><category><![CDATA[x509]]></category><pubDate>Tue, 08 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configura-el-servidor-ldap-de-frestón-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-práctica-de-https-o-solicitando-el-correspondiente-a-través-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frestón-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot;&gt;&lt;a href=&quot;#configura-el-servidor-ldap-de-frest%C3%B3n-para-que-utilice-el-protocolo-ldaps-a-la-vez-que-el-ldap-utilizando-el-certificado-x509-de-la-pr%C3%A1ctica-de-https-o-solicitando-el-correspondiente-a-trav%C3%A9s-de-gestiona-realiza-las-modificaciones-adecuadas-en-el-cliente-ldap-de-frest%C3%B3n-para-que-todas-las-consultas-se-realicen-por-defecto-utilizando-ldaps&quot; aria-label=&quot;configura el servidor ldap de frestón para que utilice el protocolo ldaps a la vez que el ldap utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configura el servidor LDAP de frestón para que utilice el protocolo ldaps:// a la vez que el ldap:// utilizando el certificado x509 de la práctica de https o solicitando el correspondiente a través de gestiona. Realiza las modificaciones adecuadas en el cliente ldap de frestón para que todas las consultas se realicen por defecto utilizando ldaps://&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación y configuración inicial de OpenLDAP]]></title><description><![CDATA[Realiza la instalación y configuración básica de OpenLDAP en frestón utilizando como base el nombre DNS asignado.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-open-ldap</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-open-ldap</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Iniciación]]></category><pubDate>Tue, 08 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;realiza-la-instalación-y-configuración-básica-de-openldap-en-frestón-utilizando-como-base-el-nombre-dns-asignado&quot;&gt;&lt;a href=&quot;#realiza-la-instalaci%C3%B3n-y-configuraci%C3%B3n-b%C3%A1sica-de-openldap-en-frest%C3%B3n-utilizando-como-base-el-nombre-dns-asignado&quot; aria-label=&quot;realiza la instalación y configuración básica de openldap en frestón utilizando como base el nombre dns asignado permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Realiza la instalación y configuración básica de OpenLDAP en frestón utilizando como base el nombre DNS asignado.&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Elección de Forma Jurídica]]></title><description><![CDATA[¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta. Descargar archivo Sociedades.odt La forma jurídica elegida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</guid><category><![CDATA[Forma Jurídica]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Instalación y configuración inicial de OpenLDAP]]></title><description><![CDATA[Realiza la instalación y configuración básica de OpenLDAP en frestón utilizando como base el nombre DNS asignado. 
+OpenLDAP es una…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-open-ldap</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/instalacion-y-configuracion-inicial-de-open-ldap</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Iniciación]]></category><pubDate>Tue, 08 Dec 2020 23:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;realiza-la-instalación-y-configuración-básica-de-openldap-en-frestón-utilizando-como-base-el-nombre-dns-asignado&quot;&gt;&lt;a href=&quot;#realiza-la-instalaci%C3%B3n-y-configuraci%C3%B3n-b%C3%A1sica-de-openldap-en-frest%C3%B3n-utilizando-como-base-el-nombre-dns-asignado&quot; aria-label=&quot;realiza la instalación y configuración básica de openldap en frestón utilizando como base el nombre dns asignado permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Realiza la instalación y configuración básica de OpenLDAP en frestón utilizando como base el nombre DNS asignado.&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/f0af6a41aeb9b24cb5a524cadb09c014/3cea3/openldaplogo.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 42%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABQAwCdASoUAAgAPtFUo0uoJKMhsAgBABoJaQAAXE8GrNR0AAD+9hKwjVhGSuEpqvu89aiy13X9T4EAAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;ldap logo&quot;
+        src=&quot;/gatsbyjs/static/f0af6a41aeb9b24cb5a524cadb09c014/de8ee/openldaplogo.webp&quot;
+        srcset=&quot;/gatsbyjs/static/f0af6a41aeb9b24cb5a524cadb09c014/ca0f9/openldaplogo.webp 173w,
+/gatsbyjs/static/f0af6a41aeb9b24cb5a524cadb09c014/fdd64/openldaplogo.webp 345w,
+/gatsbyjs/static/f0af6a41aeb9b24cb5a524cadb09c014/de8ee/openldaplogo.webp 690w,
+/gatsbyjs/static/f0af6a41aeb9b24cb5a524cadb09c014/3cea3/openldaplogo.webp 1000w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+OpenLDAP es una implementación libre y de código abierto del protocolo Lightweight Directory Access Protocol (LDAP) desarrollada por el proyecto OpenLDAP.&lt;/p&gt;
+&lt;p&gt;Está liberada bajo su propia licencia OpenLDAP Public License. LDAP es un protocolo de comunicación independiente de la plataforma.&lt;/p&gt;
+&lt;p&gt;Muchas distribuciones GNU/Linux incluyen el software OpenLDAP para el soporte LDAP. Este software también corre en plataformas BSD, AIX, HP-UX, Mac OS X, Solaris, Microsoft Windows (NT y derivados, incluyendo 2000, XP, Vista), y z/OS. &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Para comenzar deberemos verificar que nuestro FQDN de la máquina este correctamentez, ya que se hará uso de el para la configuración base inicial.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;debian@freston:~$ &lt;span class=&quot;token function&quot;&gt;hostname&lt;/span&gt; -f
+freston.madu.gonzalonazareno.org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Actualizaremos la máquina y procederemos a la instalación de &lt;strong&gt;OpenLdap&lt;/strong&gt;(slapd).&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# apt update &amp;amp;&amp;amp; apt upgrade &amp;amp;&amp;amp; apt install slapd&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Durante la instalación nos pedirán una contraseña para el administrador.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 664px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e74211cbcc2fa217aaad86b6e4c9f543/a700e/ldappassword.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 26.506024096385538%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA20lEQVQY03WQ2W7CMBBF89tVoSpKSVsEiaqGxGtikQWyiYQfvIxt1Cf6cHTujBd5HEjDIUqPNMJDOdc5tDzCpDH07wGKXBJKZRDG7+UFAy+Zsz1v2gKBaRTqi0Wj7Us0XYHqrFwelwbDrUVP7ucaw9JimKl3rTHa+lq5bG3ry1QhSDKOl/CIVZRhHeVYbTO8EutPhvdvQXBsdsJhs+u5/PCDty+BH6YRpFLjI1aIEoVt4u1ybJGOzY4h3Iu/+hnhXiKVNHLdGUwLPXv2YzzDfkM3nf5dd9Ad5/GEO8DTGXLN9PMKAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;ldap password&quot;
+        src=&quot;/gatsbyjs/static/e74211cbcc2fa217aaad86b6e4c9f543/a700e/ldappassword.png&quot;
+        srcset=&quot;/gatsbyjs/static/e74211cbcc2fa217aaad86b6e4c9f543/acf4b/ldappassword.png 173w,
+/gatsbyjs/static/e74211cbcc2fa217aaad86b6e4c9f543/fc834/ldappassword.png 345w,
+/gatsbyjs/static/e74211cbcc2fa217aaad86b6e4c9f543/a700e/ldappassword.png 664w&quot;
+        sizes=&quot;(max-width: 664px) 100vw, 664px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+contraseña: fran&lt;/p&gt;
+&lt;p&gt;Una vez finalizada la instalacion tendremos un nuevo puerto abierto por defecto para LDAP(389) que estará escuchando peticiones de todas las interfaces de la máquina(0.0.0.0).&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# netstat -tlnp&lt;/span&gt;
+Active Internet connections &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;only servers&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;127.0&lt;/span&gt;.0.1:3306          &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0:*               LISTEN      &lt;span class=&quot;token number&quot;&gt;11772&lt;/span&gt;/mysqld        
+tcp        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10.0&lt;/span&gt;.1.3:53             &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0:*               LISTEN      &lt;span class=&quot;token number&quot;&gt;19788&lt;/span&gt;/named         
+tcp        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;127.0&lt;/span&gt;.0.1:53            &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0:*               LISTEN      &lt;span class=&quot;token number&quot;&gt;19788&lt;/span&gt;/named         
+tcp        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0:22              &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0:*               LISTEN      &lt;span class=&quot;token number&quot;&gt;446&lt;/span&gt;/sshd            
+tcp        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;127.0&lt;/span&gt;.0.1:953           &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0:*               LISTEN      &lt;span class=&quot;token number&quot;&gt;19788&lt;/span&gt;/named         
+tcp        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0:10050           &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0:*               LISTEN      &lt;span class=&quot;token number&quot;&gt;13773&lt;/span&gt;/zabbix_agentd 
+tcp        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0:10051           &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0:*               LISTEN      &lt;span class=&quot;token number&quot;&gt;13704&lt;/span&gt;/zabbix_server 
+tcp        &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0:389             &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0:*               LISTEN      &lt;span class=&quot;token number&quot;&gt;22466&lt;/span&gt;/slapd         
+tcp6       &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; :::80                   :::*                    LISTEN      &lt;span class=&quot;token number&quot;&gt;13627&lt;/span&gt;/apache2       
+tcp6       &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; :::22                   :::*                    LISTEN      &lt;span class=&quot;token number&quot;&gt;446&lt;/span&gt;/sshd            
+tcp6       &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; :::10050                :::*                    LISTEN      &lt;span class=&quot;token number&quot;&gt;13773&lt;/span&gt;/zabbix_agentd 
+tcp6       &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; :::10051                :::*                    LISTEN      &lt;span class=&quot;token number&quot;&gt;13704&lt;/span&gt;/zabbix_server 
+tcp6       &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; :::389                  :::*                    LISTEN      &lt;span class=&quot;token number&quot;&gt;22466&lt;/span&gt;/slapd         &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Una vez que tenemos el proceso de &lt;strong&gt;slapd&lt;/strong&gt; operativo procederemos a la intalación de &lt;strong&gt;ldap-utils&lt;/strong&gt;, nos permitirá interactuar de una manera mas desarrollada con nuestro servidor (busquedas,modificaciones,nuevas inserciones...)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# apt install ldap-utils&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Una vez instalado procederemos a ver su uso, con &lt;strong&gt;ldapsearch&lt;/strong&gt; podremos realzar una búsqueda con datos abreviados sobre el directorio.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# ldapsearch -x -b &quot;dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# extended LDIF&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# LDAPv3&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# base &amp;lt;dc=madu,dc=gonzalonazareno,dc=org&gt; with scope subtree&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# filter: (objectclass=*)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# requesting: ALL&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# madu.gonzalonazareno.org&lt;/span&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;dc&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+objectClass: dcObject
+objectClass: organization
+o: madu.gonzalonazareno.org
+dc: madu
+
+&lt;span class=&quot;token comment&quot;&gt;# admin, madu.gonzalonazareno.org&lt;/span&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;admin,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+
+&lt;span class=&quot;token comment&quot;&gt;# search result&lt;/span&gt;
+search: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+result: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; Success
+
+&lt;span class=&quot;token comment&quot;&gt;# numResponses: 3&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# numEntries: 2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ahora realizaremos una busqueda completa, en la cual es necesario una autentificación puesto que muestra datos con mayor nivel de seguridad.(como por ejemplo contraseñas, aunque esten encriptadas.)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# ldapsearch -x -D &quot;cn=admin,dc=madu,dc=gonzalonazareno,dc=org&quot; -b &quot;dc=madu,dc=gonzalonazareno,dc=org&quot; -W&lt;/span&gt;
+Enter LDAP Password: 
+&lt;span class=&quot;token comment&quot;&gt;# extended LDIF&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# LDAPv3&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# base &amp;lt;dc=madu,dc=gonzalonazareno,dc=org&gt; with scope subtree&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# filter: (objectclass=*)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# requesting: ALL&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# madu.gonzalonazareno.org&lt;/span&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;dc&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+objectClass: dcObject
+objectClass: organization
+o: madu.gonzalonazareno.org
+dc: madu
+
+&lt;span class=&quot;token comment&quot;&gt;# admin, madu.gonzalonazareno.org&lt;/span&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;admin,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+userPassword:: &lt;span class=&quot;token assign-left variable&quot;&gt;e1NTSEF9bVVHb08vRDFNdk1qZUxRRFVBWm82WWVsVURwelVDbGk&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# search result&lt;/span&gt;
+search: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+result: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; Success
+
+&lt;span class=&quot;token comment&quot;&gt;# numResponses: 3&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# numEntries: 2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Los usuarios, grupos y unidades organizativas pueden realizarse a través de un único fichero con extensión &lt;strong&gt;.ldif&lt;/strong&gt; :&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# nano ramas.ldif&lt;/span&gt;
+
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;ou&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: organizationalUnit
+ou: Personas 
+
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;ou&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: organizationalUnit
+ou: Grupos&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Una vez definido el fichero, lo importaremos con el comando &lt;strong&gt;ldapadd&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# ldapadd -x -D &quot;cn=admin,dc=madu,dc=gonzalonazareno,dc=org&quot; -f ramas.ldif -W&lt;/span&gt;
+Enter LDAP Password: 
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;ou=Personas,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Comprobaremos que las nuevas entradas han sido correctamente añadidas, para ello realizaremos una busqueda anónima:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# ldapsearch -x -b &quot;dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# extended LDIF&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# LDAPv3&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# base &amp;lt;dc=madu,dc=gonzalonazareno,dc=org&gt; with scope subtree&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# filter: (objectclass=*)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# requesting: ALL&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# madu.gonzalonazareno.org&lt;/span&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;dc&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+objectClass: dcObject
+objectClass: organization
+o: madu.gonzalonazareno.org
+dc: madu
+
+&lt;span class=&quot;token comment&quot;&gt;# admin, madu.gonzalonazareno.org&lt;/span&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;admin,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+
+&lt;span class=&quot;token comment&quot;&gt;# Personas, madu.gonzalonazareno.org&lt;/span&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;ou&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: organizationalUnit
+ou:: UGVyc29uYXMg
+
+&lt;span class=&quot;token comment&quot;&gt;# Grupos, madu.gonzalonazareno.org&lt;/span&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;ou&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: organizationalUnit
+ou: Grupos
+
+&lt;span class=&quot;token comment&quot;&gt;# search result&lt;/span&gt;
+search: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+result: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; Success
+
+&lt;span class=&quot;token comment&quot;&gt;# numResponses: 5&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# numEntries: 4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como hemos comprado de la base (dc=madu,dc=gonzalonazareno,dc=org) se despliegan tres objetos, estando añadidas las unidades organizativas que acabamos de crear, desde esas unidades podremos añadir nuevas ramas, tantas como nos sea necesario para el desarrollo de nuestra base.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Elección de Forma Jurídica]]></title><description><![CDATA[¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta. Descargar archivo Sociedades.odt La forma jurídica elegida…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/eleccion-de-forma-juridica</guid><category><![CDATA[Forma Jurídica]]></category><pubDate>Sun, 29 Nov 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;¿Cual es la forma jurídica elegida para vuestra empresa? Justifica tu respuesta.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/gatsbyjs/3448904c8dfde8472ac0c47331328f23/sociedades.ods&quot;&gt;Descargar archivo Sociedades.odt&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La forma jurídica elegida es &lt;strong&gt;Sociedad Limitada&lt;/strong&gt; razones:&lt;/p&gt;
 &lt;ol&gt;
