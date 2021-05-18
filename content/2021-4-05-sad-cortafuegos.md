@@ -849,13 +849,12 @@ System clock synchronized: yes
 
 **Para finalizar guardaremos las reglas en un fichero para que la configuración perdure tras un reinicio**
 
-
-
-Ahora es el momento de poner las politicas a drop y guardar el fichero de nftables.
+Ahora es el momento de poner las politicas a drop y guardar el fichero de nftables para que perduren tras un reinicio.
 
 ```shell
 nft chain inet filter input { policy drop \; }
 nft chain inet filter forward { policy drop \; }
+nft chain inet filter output { policy drop \; }
 ```
 ```shell
 nft list ruleset > /etc/nftables.conf
