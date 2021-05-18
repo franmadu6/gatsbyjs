@@ -282,8 +282,14 @@ Last login: Tue May 11 12:45:35 2021 from 10.0.2.6
 
 Dulcinea
 ```shell
-nft add rule inet filter input ip saddr 172.22.0.0/15 iifname "eth0" tcp dport 22 ct state new,established counter accept
-nft add rule inet filter output ip daddr 172.22.0.0/15 oifname "eth0" tcp sport 22 ct state established counter accept
+#desde la red del gonzalonazareno
+nft add rule inet filter input ip saddr 172.22.0.0/16 iifname "eth0" tcp dport 22 ct state new,established counter accept
+nft add rule inet filter output ip daddr 172.22.0.0/16 oifname "eth0" tcp sport 22 ct state established counter accept
+
+#desde la vpn externa novnc
+root@dulcinea:/home/debian# nft add rule inet filter input ip saddr 172.29.0.0/16 iifname "eth0" tcp dport 22 ct state new,established counter accept
+root@dulcinea:/home/debian# nft add rule inet filter output ip daddr 172.29.0.0/16 oifname "eth0" tcp sport 22 ct state established counter accept
+
 ```
 ```shell
 root@debian:/home/fran# ssh debian@dulcinea
@@ -843,42 +849,14 @@ System clock synchronized: yes
 
 **Para finalizar guardaremos las reglas en un fichero para que la configuración perdure tras un reinicio**
 
-```shell
-nft list ruleset > /etc/nftables.conf
-```
+
 
 Ahora es el momento de poner las politicas a drop y guardar el fichero de nftables.
 
 ```shell
-
+nft chain inet filter input { policy drop \; }
+nft chain inet filter forward { policy drop \; }
 ```
-
-Antiguo fichero de configuración
 ```shell
-table inet filter {
-        chain input {
-                type filter hook input priority 0; policy accept;
-        }
-
-        chain forward {
-                type filter hook forward priority 0; policy accept;
-        }
-
-        chain output {
-                type filter hook output priority 0; policy accept;
-        }
-}
-table ip nat {
-        chain postrouting {
-                type nat hook postrouting priority 100; policy accept;
-                oifname "eth0" ip saddr 10.0.1.0/24 counter packets 669 bytes 47431 snat $
-                oifname "eth0" ip saddr 10.0.2.0/24 counter packets 265 bytes 17754 snat $
-        }
-        chain prerouting {
-                type nat hook prerouting priority 0; policy accept;
-                iifname "eth0" udp dport domain counter packets 0 bytes 0 dnat to 10.0.1.3
-                iifname "eth0" tcp dport http counter packets 0 bytes 0 dnat to 10.0.2.4
-                iifname "eth0" tcp dport https counter packets 0 bytes 0 dnat to 10.0.2.4
-        }
-}
+nft list ruleset > /etc/nftables.conf
 ```
