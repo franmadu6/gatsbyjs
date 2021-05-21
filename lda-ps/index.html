@@ -82,7 +82,7 @@ claves/
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">debian@freston:~/claves$ <span class="token function">sudo</span> <span class="token function">mv</span> gonzalonazareno.crt /etc/ssl/certs/
 debian@freston:~/claves$ <span class="token function">sudo</span> <span class="token function">mv</span> openstack.crt /etc/ssl/certs/
 debian@freston:~/claves$ <span class="token function">sudo</span> <span class="token function">mv</span> openstack.key /etc/ssl/private/</code></pre></div>
-<p>Vamos a otorgar los permisos necesarios sobre el fichero y directorio que lo contiene al usuario openldap, para ello necesitaremos instalar el paquete <strong>acl</strong> para una mejor y mas precisaa asignación de permisos.</p>
+<p>Vamos a otorgar los permisos necesarios sobre el fichero y directorio que lo contiene al usuario openldap, para ello necesitaremos instalar el paquete <strong>acl</strong> para una mejor y mas precisa asignación de permisos.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@freston:/home/debian/claves<span class="token comment"># setfacl -m u:openldap:r-x /etc/ssl/private</span>
 root@freston:/home/debian/claves<span class="token comment"># setfacl -m u:openldap:r-x /etc/ssl/private/openstack.key</span></code></pre></div>
 <p>Antes de comenzar la configuración verificaremos el puerto que utiliza el servicio <strong>slapd</strong> que deberán ser el mismo que ldap (389/TCP).</p>
