@@ -40,19 +40,246 @@
         }
       }
     })
-  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-360d5f69abc3d37b17b0.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-eb5db3a92bd8bd9c1015.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/usuarios-grupos-y-ac-ls-en-ldap/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">SysAdmin Nazareno</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/abd">ABD<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/aso">ASO<strong> (<!-- -->8<!-- -->)</strong></a></li><li><a href="/gatsbyjs/eie">EIE<strong> (<!-- -->10<!-- -->)</strong></a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->9<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sad">SAD<strong> (<!-- -->9<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sri">SRI<strong> (<!-- -->11<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Usuarios, grupos y ACLs en LDAP</h1><p class="post-module--post-meta--1ci95">May 21, 2021<!-- --> — <!-- -->1<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/ldap"><span>LDAP</span></a><a href="/gatsbyjs/tags/servidor"><span>Servidor</span></a><a href="/gatsbyjs/tags/freston"><span>Frestón</span></a><a href="/gatsbyjs/tags/acl"><span>ACL</span></a><a href="/gatsbyjs/tags/usuarios"><span>Usuarios</span></a><a href="/gatsbyjs/tags/grupos"><span>Grupos</span></a></div></div><div><ol>
+  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/gatsbyjs/sitemap.xml"/><link rel="manifest" href="/gatsbyjs/manifest.webmanifest"/><meta name="theme-color" content="#c62828"/><link rel="apple-touch-icon" sizes="48x48" href="/gatsbyjs/logos/logo-48.png"/><link rel="apple-touch-icon" sizes="1024x1024" href="/gatsbyjs/logos/logo-1024.png"/><link rel="alternate" type="application/rss+xml" title="/rss.xml" href="/gatsbyjs/rss.xml"/><link as="script" rel="preload" href="/gatsbyjs/styles-eac94caeae57308993bd.js"/><link as="script" rel="preload" href="/gatsbyjs/component---src-templates-post-js-eb4f70b974a2837e45a6.js"/><link as="script" rel="preload" href="/gatsbyjs/commons-360d5f69abc3d37b17b0.js"/><link as="script" rel="preload" href="/gatsbyjs/app-3faf24a9353f23273b6b.js"/><link as="script" rel="preload" href="/gatsbyjs/webpack-runtime-eb5db3a92bd8bd9c1015.js"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/usuarios-grupos-y-ac-ls-en-ldap/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/gatsbyjs/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header><h1><a href="/gatsbyjs/">SysAdmin Nazareno</a></h1><nav><ul class="Header-module--main-nav--2C0n8"><li><a href="/gatsbyjs/about">Sobre Mí</a></li><li><a href="/gatsbyjs/abd">ABD<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/aso">ASO<strong> (<!-- -->8<!-- -->)</strong></a></li><li><a href="/gatsbyjs/eie">EIE<strong> (<!-- -->10<!-- -->)</strong></a></li><li><a href="/gatsbyjs/hlc">HLC<strong> (<!-- -->5<!-- -->)</strong></a></li><li><a href="/gatsbyjs/iaw">IAW<strong> (<!-- -->9<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sad">SAD<strong> (<!-- -->9<!-- -->)</strong></a></li><li><a href="/gatsbyjs/sri">SRI<strong> (<!-- -->11<!-- -->)</strong></a></li><li><a href="/gatsbyjs/contact">Contacto</a></li></ul></nav></header><main><div><h1>Usuarios, grupos y ACLs en LDAP</h1><p class="post-module--post-meta--1ci95">May 21, 2021<!-- --> — <!-- -->6<!-- --> Min Read<!-- --> </p><div class="post-module--post-meta--1ci95"><div class="PostTags-module--tag-container--ksSgQ"><a href="/gatsbyjs/tags/ldap"><span>LDAP</span></a><a href="/gatsbyjs/tags/servidor"><span>Servidor</span></a><a href="/gatsbyjs/tags/freston"><span>Frestón</span></a><a href="/gatsbyjs/tags/acl"><span>ACL</span></a><a href="/gatsbyjs/tags/usuarios"><span>Usuarios</span></a><a href="/gatsbyjs/tags/grupos"><span>Grupos</span></a></div></div><div><ol>
 <li>
 <h2 id="crea-10-usuarios-con-los-nombres-que-prefieras-en-ldap-esos-usuarios-deben-ser-objetos-de-los-tipos-posixaccount-e-inetorgperson-estos-usuarios-tendrán-un-atributo-userpassword"><a href="#crea-10-usuarios-con-los-nombres-que-prefieras-en-ldap-esos-usuarios-deben-ser-objetos-de-los-tipos-posixaccount-e-inetorgperson-estos-usuarios-tendr%C3%A1n-un-atributo-userpassword" aria-label="crea 10 usuarios con los nombres que prefieras en ldap esos usuarios deben ser objetos de los tipos posixaccount e inetorgperson estos usuarios tendrán un atributo userpassword permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Crea 10 usuarios con los nombres que prefieras en LDAP, esos usuarios deben ser objetos de los tipos posixAccount e inetOrgPerson. Estos usuarios tendrán un atributo userPassword.</h2>
 </li>
+<li>Atributos obligatorios del objectClass posixAccount son: cn, uid, uidNumber, gidNumber, homeDirectory</li>
+<li>El atributo userPassword no es obligatorio.</li>
+<li>El objectClass inetOrgPerson no tiene atributos obligatorios.</li>
+<li>En cuanto a la unidad organizativa reutilizaremos la anteriormente creada llamada <strong>Personas</strong>.</li>
+</ol>
+<p>Crearemos el fichero <strong>usuarios.ldif</strong>:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dn: <span class="token assign-left variable">uid</span><span class="token operator">=</span>fran,ou<span class="token operator">=</span>Personas,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn:: <span class="token assign-left variable">TWFudWVsIExvcmEgUm9tw6FuCg</span><span class="token operator">==</span>
+uid: fran
+uidNumber: <span class="token number">2001</span>
+gidNumber: <span class="token number">2500</span>
+homeDirectory: /home/fran
+loginShell: /bin/bash
+userPassword:: <span class="token punctuation">{</span>SSHA<span class="token punctuation">}</span>R1KeFc7CI0TScCwdyQFMIEIutcEknB1F
+sn:: TG9yYSBSb23DoW4K
+mail: frangodh97@gmail.com
+givenName: Fran
+
+dn: <span class="token assign-left variable">uid</span><span class="token operator">=</span>miriam,ou<span class="token operator">=</span>Personas,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+cn:: <span class="token assign-left variable">TWFyaWEgZGVsIENhcm1lbiBMb3JhIFJvbcOhbgo</span><span class="token operator">=</span>
+uid: miriam
+uidNumber: <span class="token number">2002</span>
+gidNumber: <span class="token number">2502</span>
+homeDirectory: /home/miriam
+loginShell: /bin/bash
+userPassword:: <span class="token punctuation">{</span>SSHA<span class="token punctuation">}</span>OuK8ryroLXs+fpudBXcJrMTZ3ASD/H46
+sn:: TG9yYSBSb23DoW4K
+mail: miriamromanolopez@gmail.com
+givenName: Miriam
+
+dn: <span class="token assign-left variable">uid</span><span class="token operator">=</span>juan,ou<span class="token operator">=</span>Personas,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: posixAccount
+objectClass: inetOrgPerson
+cn:: <span class="token assign-left variable">Um9zYXVyYSBIYWJhIFBlcmVhCg</span><span class="token operator">==</span>
+uid: juan
+uidNumber: <span class="token number">2003</span>
+gidNumber: <span class="token number">2503</span>
+homeDirectory: /home/juan
+loginShell: /bin/bash
+userPassword: <span class="token punctuation">{</span>SSHA<span class="token punctuation">}</span>sgJUlNb20SdYbUclyXQNFCe0tjjdijdS
+sn: <span class="token assign-left variable">SGFiYSBQZXJlYQo</span><span class="token operator">=</span>
+mail: juancaespinosa@gmail.com
+givenName: Juan
+
+dn: <span class="token assign-left variable">uid</span><span class="token operator">=</span>manuel,ou<span class="token operator">=</span>Personas,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: posixAccount
+objectClass: inetOrgPerson
+cn:: <span class="token assign-left variable">TGF1cmEgTW9yYWxlcyBDYWJlbGxvCg</span><span class="token operator">==</span>
+uid: manuel
+uidNumber: <span class="token number">2004</span>
+gidNumber: <span class="token number">2504</span>
+homeDirectory: /home/manuel
+loginShell: /bin/bash
+userPassword: <span class="token punctuation">{</span>SSHA<span class="token punctuation">}</span>bZ1BzoZWQGN25d5ecDzOVfaSi35h7/Dq
+sn: <span class="token assign-left variable">TW9yYWxlcyBDYWJlbGxvCg</span><span class="token operator">==</span>
+mail: manuelsanchezvarela@gmail.com
+givenName: Manuel
+
+dn: <span class="token assign-left variable">uid</span><span class="token operator">=</span>brayan,ou<span class="token operator">=</span>Personas,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: posixAccount
+objectClass: inetOrgPerson
+cn:: <span class="token assign-left variable">UGFibG8gU3VzbyBHb256YWxlego</span><span class="token operator">=</span>
+uid: brayan
+uidNumber: <span class="token number">2005</span>
+gidNumber: <span class="token number">2505</span>
+homeDirectory: /home/brayan
+loginShell: /bin/bash
+userPassword: <span class="token punctuation">{</span>SSHA<span class="token punctuation">}</span>1Dmh5fQgowk0Cvfzje4B71kC1SmeiIqi
+sn: <span class="token assign-left variable">U3VzbyBHb256YWxlego</span><span class="token operator">=</span>
+mail: brayanortegajuan@gmail.com
+givenName: Brayan
+
+dn: <span class="token assign-left variable">uid</span><span class="token operator">=</span>axier,ou<span class="token operator">=</span>Personas,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: posixAccount
+objectClass: inetOrgPerson
+cn:: QXJ0dXJvIEJvcnJlcm8gR29uemFsZXoK
+uid: axier
+uidNumber: <span class="token number">2006</span>
+gidNumber: <span class="token number">2506</span>
+homeDirectory: /home/axier
+loginShell: /bin/bash
+userPassword: <span class="token punctuation">{</span>SSHA<span class="token punctuation">}</span>RoA4bctGSRG537NslZYSifHAmzf0DWTv
+sn: <span class="token assign-left variable">Qm9ycmVybyBHb256YWxlego</span><span class="token operator">=</span>
+mail: axierortegajuan@gmail.com
+givenName: Axier
+
+dn: <span class="token assign-left variable">uid</span><span class="token operator">=</span>alba,ou<span class="token operator">=</span>Personas,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: posixAccount
+objectClass: inetOrgPerson
+cn:: RGllZ28gTG9zYWRhIEZ1ZW50ZXMK
+uid: alba
+uidNumber: <span class="token number">2007</span>
+gidNumber: <span class="token number">2507</span>
+homeDirectory: /home/alba
+loginShell: /bin/bash
+userPassword: <span class="token punctuation">{</span>SSHA<span class="token punctuation">}</span>pclPYfaM0zvJos+h86gu+bx//Q+UULyj
+sn: TG9zYWRhIEZ1ZW50ZXMK
+mail: albamadueñojurado@gmail.com
+givenName: Alba
+
+dn: <span class="token assign-left variable">uid</span><span class="token operator">=</span>joaquin,ou<span class="token operator">=</span>Personas,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: posixAccount
+objectClass: inetOrgPerson
+cn:: <span class="token assign-left variable">SXNhYmVsIE1vcmFsZXMgQ2FiZWxsbwo</span><span class="token operator">=</span>
+uid: joaquin
+uidNumber: <span class="token number">2008</span>
+gidNumber: <span class="token number">2508</span>
+homeDirectory: /home/joaquin
+loginShell: /bin/bash
+userPassword: <span class="token punctuation">{</span>SSHA<span class="token punctuation">}</span>cBES958lKSd7Trpj7Yrah5yHfX4Ikl/e
+sn: <span class="token assign-left variable">TW9yYWxlcyBDYWJlbGxvCg</span><span class="token operator">==</span>
+mail: joaquinligero@gmail.com
+givenName: Joaquin
+
+dn: <span class="token assign-left variable">uid</span><span class="token operator">=</span>alberto,ou<span class="token operator">=</span>Personas,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: posixAccount
+objectClass: inetOrgPerson
+cn:: <span class="token assign-left variable">QWxiZXJ0byBDb3Jkb24gQXJldmFsbwo</span><span class="token operator">=</span>
+uid: alberto
+uidNumber: <span class="token number">2009</span>
+gidNumber: <span class="token number">2509</span>
+homeDirectory: /home/alberto
+loginShell: /bin/bash
+userPassword: <span class="token punctuation">{</span>SSHA<span class="token punctuation">}</span>GMTZonB3W7TcL9D0BEVfO7Z6xUVKbir8
+sn: Q29yZG9uIEFyZXZhbG8K
+mail: albertoperez@gmail.com
+givenName: Alberto
+
+dn: <span class="token assign-left variable">uid</span><span class="token operator">=</span>moises,ou<span class="token operator">=</span>Personas,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: posixAccount
+objectClass: inetOrgPerson
+cn:: <span class="token assign-left variable">Um9zYWxpYSBDb3Jkb24gQXJldmFsbwo</span><span class="token operator">=</span>
+uid: moises
+uidNumber: <span class="token number">2010</span>
+gidNumber: <span class="token number">2510</span>
+homeDirectory: /home/moises
+loginShell: /bin/bash
+userPassword: <span class="token punctuation">{</span>SSHA<span class="token punctuation">}</span>fmbcJQuDFJY6+fW3KXBs8NDHugw5ULuO
+sn: Q29yZG9uIEFyZXZhbG8K
+mail: moisesmonge@gmail.com
+givenName: Moises</code></pre></div>
+<p>Ejecutamos el fichero:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">ldapadd -x -D <span class="token assign-left variable">cn</span><span class="token operator">=</span>admin,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org -W -f usuarios.ldif
+Enter LDAP Password: </code></pre></div>
+<ol start="2">
 <li>
-<h2 id="crea-3-grupos-en-ldap-dentro-de-una-unidad-organizativa-diferente-que-sean-objetos-del-tipo-groupofnames-estos-grupos-serán-comercial-almacen-y-admin"><a href="#crea-3-grupos-en-ldap-dentro-de-una-unidad-organizativa-diferente-que-sean-objetos-del-tipo-groupofnames-estos-grupos-ser%C3%A1n-comercial-almacen-y-admin" aria-label="crea 3 grupos en ldap dentro de una unidad organizativa diferente que sean objetos del tipo groupofnames estos grupos serán comercial almacen y admin permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Crea 3 grupos en LDAP dentro de una unidad organizativa diferente que sean objetos del tipo groupOfNames. Estos grupos serán: comercial, almacen y admin</h2>
-<p>Añade usuarios que pertenezcan a:
-Solo al grupo comercial
-Solo al grupo almacen
-Al grupo comercial y almacen
-Al grupo admin y comercial
-Solo al grupo admin</p>
+<h2 id="crea-3-grupos-en-ldap-dentro-de-una-unidad-organizativa-diferente-que-sean-objetos-del-tipo-gruposofnames-estos-grupos-serán-comercial-almacen-y-admin"><a href="#crea-3-grupos-en-ldap-dentro-de-una-unidad-organizativa-diferente-que-sean-objetos-del-tipo-gruposofnames-estos-grupos-ser%C3%A1n-comercial-almacen-y-admin" aria-label="crea 3 grupos en ldap dentro de una unidad organizativa diferente que sean objetos del tipo gruposofnames estos grupos serán comercial almacen y admin permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Crea 3 grupos en LDAP dentro de una unidad organizativa diferente que sean objetos del tipo GruposOfNames. Estos grupos serán: comercial, almacen y admin</h2>
 </li>
+</ol>
+<p>Crearemos el archivo <strong>grupos.ldif</strong>:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dn: <span class="token assign-left variable">cn</span><span class="token operator">=</span>comercial,ou<span class="token operator">=</span>Grupos,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: GruposOfNames
+cn: comercial
+member:
+
+dn: <span class="token assign-left variable">cn</span><span class="token operator">=</span>almacen,ou<span class="token operator">=</span>Grupos,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: GruposOfNames
+cn: almacen  
+member:
+
+dn: <span class="token assign-left variable">cn</span><span class="token operator">=</span>admin,ou<span class="token operator">=</span>Grupos,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+objectClass: <span class="token function">top</span>
+objectClass: GruposOfNames
+cn: admin    
+member:</code></pre></div>
+<ul>
+<li>
+<p>Añade usuarios que pertenezcan a:</p>
+<ul>
+<li>Solo al grupo comercial</li>
+<li>Solo al grupo almacen</li>
+<li>Al grupo comercial y almacen</li>
+<li>Al grupo admin y comercial</li>
+<li>Solo al grupo admin</li>
+</ul>
+</li>
+</ul>
+<p>Crearemos <strong>gruposusuarios.ldif</strong></p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">dn: <span class="token assign-left variable">cn</span><span class="token operator">=</span>comercial,ou<span class="token operator">=</span>Grupos,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+changetype:modify
+replace: member
+member: <span class="token assign-left variable">uid</span><span class="token operator">=</span>fran,ou<span class="token operator">=</span>People,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+
+dn: <span class="token assign-left variable">cn</span><span class="token operator">=</span>almacen,ou<span class="token operator">=</span>Grupos,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+changetype:modify
+replace: member
+member: <span class="token assign-left variable">uid</span><span class="token operator">=</span>miriam,ou<span class="token operator">=</span>People,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+
+dn: <span class="token assign-left variable">cn</span><span class="token operator">=</span>comercial,ou<span class="token operator">=</span>Grupos,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+changetype:modify
+add: member
+member: <span class="token assign-left variable">uid</span><span class="token operator">=</span>juan,ou<span class="token operator">=</span>People,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+
+dn: <span class="token assign-left variable">cn</span><span class="token operator">=</span>almacen,ou<span class="token operator">=</span>Grupos,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+changetype:modify
+add: member
+member: <span class="token assign-left variable">uid</span><span class="token operator">=</span>juan,ou<span class="token operator">=</span>People,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+
+dn: <span class="token assign-left variable">cn</span><span class="token operator">=</span>admin,ou<span class="token operator">=</span>Grupos,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+changetype:modify
+replace: member
+member: <span class="token assign-left variable">uid</span><span class="token operator">=</span>joaquin,ou<span class="token operator">=</span>People,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+
+dn: <span class="token assign-left variable">cn</span><span class="token operator">=</span>comercial,ou<span class="token operator">=</span>Grupos,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+changetype:modify
+add: member
+member: <span class="token assign-left variable">uid</span><span class="token operator">=</span>joaquin,ou<span class="token operator">=</span>People,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+
+dn: <span class="token assign-left variable">cn</span><span class="token operator">=</span>admin,ou<span class="token operator">=</span>Grupos,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org
+changetype:modify
+add: member
+member: <span class="token assign-left variable">uid</span><span class="token operator">=</span>alba,ou<span class="token operator">=</span>People,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org</code></pre></div>
+<p>Añadimos las modificaciones:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">ldapmodify -x -D <span class="token assign-left variable">cn</span><span class="token operator">=</span>admin,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org -W -f grupousuario.ldif
+Enter LDAP Password: </code></pre></div>
+<p>Comprobamos los cambios realizados:</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">ldapsearch -h freston -x -b <span class="token assign-left variable">ou</span><span class="token operator">=</span>Group,dc<span class="token operator">=</span>madu,dc<span class="token operator">=</span>gonzalonazareno,dc<span class="token operator">=</span>org</code></pre></div>
+<ol start="3">
 <li>
 <h2 id="modifica-openldap-apropiadamente-para-que-se-pueda-obtener-los-grupos-a-los-que-pertenece-cada-usuario-a-través-del-atributo-memberof"><a href="#modifica-openldap-apropiadamente-para-que-se-pueda-obtener-los-grupos-a-los-que-pertenece-cada-usuario-a-trav%C3%A9s-del-atributo-memberof" aria-label="modifica openldap apropiadamente para que se pueda obtener los grupos a los que pertenece cada usuario a través del atributo memberof permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Modifica OpenLDAP apropiadamente para que se pueda obtener los grupos a los que pertenece cada usuario a través del atributo "memberOf".</h2>
 </li>
