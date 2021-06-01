@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 25 May 2021 21:10:18 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Usuarios, grupos y ACLs en LDAP]]></title><description><![CDATA[Crea 10 usuarios con los nombres que prefieras en LDAP, esos usuarios deben ser objetos de los tipos posixAccount e inetOrgPerson. Estos…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/usuarios-grupos-y-ac-ls-en-ldap</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/usuarios-grupos-y-ac-ls-en-ldap</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Frestón]]></category><category><![CDATA[ACL]]></category><category><![CDATA[Usuarios]]></category><category><![CDATA[Grupos]]></category><pubDate>Fri, 21 May 2021 22:00:00 GMT</pubDate><content:encoded>&lt;ol&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 01 Jun 2021 19:20:16 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Utilización de cloud-init]]></title><description><![CDATA[PracticaImg cloud-init se define como el estándar para personalizar instancias cloud. Las imágenes para las instancias cloud empiezan siendo…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/utilizacion-de-cloud-init</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/utilizacion-de-cloud-init</guid><category><![CDATA[Cloud-init]]></category><category><![CDATA[OpenStack]]></category><pubDate>Wed, 26 May 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/gatsbyjs/a90123ac31a89e2493991affc9cc3c94/cloud-init.svg&quot; alt=&quot;PracticaImg&quot; title=&quot;cloud init logo&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;cloud-init-se-define-como-el-estándar-para-personalizar-instancias-cloud-las-imágenes-para-las-instancias-cloud-empiezan-siendo-idénticas-entre-sí-al-ser-clones-es-la-información-proporcionada-por-el-usuario-lo-que-le-da-a-la-instancia-su-personalidad-y-cloud-init-es-la-herramienta-que-aplica-esta-configuración-a-las-instancias-de-forma-automática&quot;&gt;&lt;a href=&quot;#cloud-init-se-define-como-el-est%C3%A1ndar-para-personalizar-instancias-cloud-las-im%C3%A1genes-para-las-instancias-cloud-empiezan-siendo-id%C3%A9nticas-entre-s%C3%AD-al-ser-clones-es-la-informaci%C3%B3n-proporcionada-por-el-usuario-lo-que-le-da-a-la-instancia-su-personalidad-y-cloud-init-es-la-herramienta-que-aplica-esta-configuraci%C3%B3n-a-las-instancias-de-forma-autom%C3%A1tica&quot; aria-label=&quot;cloud init se define como el estándar para personalizar instancias cloud las imágenes para las instancias cloud empiezan siendo idénticas entre sí al ser clones es la información proporcionada por el usuario lo que le da a la instancia su personalidad y cloud init es la herramienta que aplica esta configuración a las instancias de forma automática permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;cloud-init se define como el estándar para personalizar instancias cloud. Las imágenes para las instancias cloud empiezan siendo idénticas entre sí, al ser clones. Es la información proporcionada por el usuario lo que le da a la instancia su personalidad y cloud-init es la herramienta que aplica esta configuración a las instancias de forma automática.&lt;/h3&gt;
+&lt;h3 id=&quot;cloud-init-fue-desarrollado-inicialmente-por-canonical-para-las-imágenes-cloud-de-ubuntu-usadas-por-aws-desde-entonces-la-aplicación-ha-evolucionado-y-puede-ser-usada-en-otras-muchas-distribuciones-y-en-otros-entornos-cloud-y-no-cloud&quot;&gt;&lt;a href=&quot;#cloud-init-fue-desarrollado-inicialmente-por-canonical-para-las-im%C3%A1genes-cloud-de-ubuntu-usadas-por-aws-desde-entonces-la-aplicaci%C3%B3n-ha-evolucionado-y-puede-ser-usada-en-otras-muchas-distribuciones-y-en-otros-entornos-cloud-y-no-cloud&quot; aria-label=&quot;cloud init fue desarrollado inicialmente por canonical para las imágenes cloud de ubuntu usadas por aws desde entonces la aplicación ha evolucionado y puede ser usada en otras muchas distribuciones y en otros entornos cloud y no cloud permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;cloud-init fue desarrollado inicialmente por Canonical para las imágenes cloud de Ubuntu usadas por AWS. Desde entonces, la aplicación ha evolucionado y puede ser usada en otras muchas distribuciones y en otros entornos cloud (y no cloud).&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;elige-una-instancia-del-escenario-de-openstack-y-vuelve-a-crearla-utilizando-el-mismo-volumen-para-el-sistema-raíz-pero-realizando-toda-la-configuración-posible-con-cloud-init-de-manera-que-la-instancia-permanezca-bien-configurada-aunque-se-reinicie&quot;&gt;&lt;a href=&quot;#elige-una-instancia-del-escenario-de-openstack-y-vuelve-a-crearla-utilizando-el-mismo-volumen-para-el-sistema-ra%C3%ADz-pero-realizando-toda-la-configuraci%C3%B3n-posible-con-cloud-init-de-manera-que-la-instancia-permanezca-bien-configurada-aunque-se-reinicie&quot; aria-label=&quot;elige una instancia del escenario de openstack y vuelve a crearla utilizando el mismo volumen para el sistema raíz pero realizando toda la configuración posible con cloud init de manera que la instancia permanezca bien configurada aunque se reinicie permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Elige una instancia del escenario de OpenStack y vuelve a crearla utilizando el mismo volumen para el sistema raíz, pero realizando toda la configuración posible con cloud-init, de manera que la instancia permanezca bien configurada aunque se reinicie.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sube a la tarea el fichero &lt;strong&gt;cloud-config&lt;/strong&gt; utilizado.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[iSCSI]]></title><description><![CDATA[Configura un escenario con vagrant o similar que incluya varias máquinas que permita realizar la configuración de un servidor iSCSI y dos…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/i-scsi</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/i-scsi</guid><category><![CDATA[iSCSI]]></category><category><![CDATA[Linux]]></category><category><![CDATA[windows]]></category><pubDate>Wed, 26 May 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configura-un-escenario-con-vagrant-o-similar-que-incluya-varias-máquinas-que-permita-realizar-la-configuración-de-un-servidor-iscsi-y-dos-clientes-uno-linux-y-otro-windows-explica-de-forma-detallada-en-la-tarea-los-pasos-realizados&quot;&gt;&lt;a href=&quot;#configura-un-escenario-con-vagrant-o-similar-que-incluya-varias-m%C3%A1quinas-que-permita-realizar-la-configuraci%C3%B3n-de-un-servidor-iscsi-y-dos-clientes-uno-linux-y-otro-windows-explica-de-forma-detallada-en-la-tarea-los-pasos-realizados&quot; aria-label=&quot;configura un escenario con vagrant o similar que incluya varias máquinas que permita realizar la configuración de un servidor iscsi y dos clientes uno linux y otro windows explica de forma detallada en la tarea los pasos realizados permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configura un escenario con vagrant o similar que incluya varias máquinas que permita realizar la configuración de un servidor iSCSI y dos clientes (uno linux y otro windows). Explica de forma detallada en la tarea los pasos realizados.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Crea un target con una LUN y conéctala a un cliente GNU/Linux. Explica cómo escaneas desde el cliente buscando los targets disponibles y utiliza la unidad lógica proporcionada, formateándola si es necesario y montándola.&lt;/li&gt;
+&lt;li&gt;Utiliza systemd mount para que el target se monte automáticamente al arrancar el cliente&lt;/li&gt;
+&lt;li&gt;Crea un target con 2 LUN y autenticación por CHAP y conéctala a un cliente windows. Explica cómo se escanea la red en windows y cómo se utilizan las unidades nuevas (formateándolas con NTFS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nota: Es posible realizar esta tarea en un entorno virtual y corregirlo en clase o alternativamente montar un playbook con ansible que configure todo el escenario de forma automática y permita corregirlo a distancia montándolo desde cero.&lt;/p&gt;
+&lt;hr&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Usuarios, grupos y ACLs en LDAP]]></title><description><![CDATA[Crea 10 usuarios con los nombres que prefieras en LDAP, esos usuarios deben ser objetos de los tipos posixAccount e inetOrgPerson. Estos…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/usuarios-grupos-y-ac-ls-en-ldap</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/usuarios-grupos-y-ac-ls-en-ldap</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Frestón]]></category><category><![CDATA[ACL]]></category><category><![CDATA[Usuarios]]></category><category><![CDATA[Grupos]]></category><pubDate>Fri, 21 May 2021 22:00:00 GMT</pubDate><content:encoded>&lt;ol&gt;
 &lt;li&gt;
 &lt;h2 id=&quot;crea-10-usuarios-con-los-nombres-que-prefieras-en-ldap-esos-usuarios-deben-ser-objetos-de-los-tipos-posixaccount-e-inetorgperson-estos-usuarios-tendrán-un-atributo-userpassword&quot;&gt;&lt;a href=&quot;#crea-10-usuarios-con-los-nombres-que-prefieras-en-ldap-esos-usuarios-deben-ser-objetos-de-los-tipos-posixaccount-e-inetorgperson-estos-usuarios-tendr%C3%A1n-un-atributo-userpassword&quot; aria-label=&quot;crea 10 usuarios con los nombres que prefieras en ldap esos usuarios deben ser objetos de los tipos posixaccount e inetorgperson estos usuarios tendrán un atributo userpassword permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Crea 10 usuarios con los nombres que prefieras en LDAP, esos usuarios deben ser objetos de los tipos posixAccount e inetOrgPerson. Estos usuarios tendrán un atributo userPassword.&lt;/h2&gt;
 &lt;/li&gt;
@@ -8,160 +22,187 @@
 &lt;li&gt;En cuanto a la unidad organizativa reutilizaremos la anteriormente creada llamada &lt;strong&gt;Personas&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Crearemos el fichero &lt;strong&gt;usuarios.ldif&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;fran,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
-objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: posixAccount
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;peralta,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 objectClass: inetOrgPerson
-objectClass: person
-cn:: &lt;span class=&quot;token assign-left variable&quot;&gt;TWFudWVsIExvcmEgUm9tw6FuCg&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
-uid: fran
-uidNumber: &lt;span class=&quot;token number&quot;&gt;2001&lt;/span&gt;
+objectClass: posixAccount
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+uid: peralta
 gidNumber: &lt;span class=&quot;token number&quot;&gt;2500&lt;/span&gt;
-homeDirectory: /home/fran
+uidNumber: &lt;span class=&quot;token number&quot;&gt;2000&lt;/span&gt;
+homeDirectory: /home/paco.peralta
 loginShell: /bin/bash
-userPassword:: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;R1KeFc7CI0TScCwdyQFMIEIutcEknB1F
-sn:: TG9yYSBSb23DoW4K
-mail: frangodh97@gmail.com
-givenName: Fran
+description: descripcion de paco peralta
+sn: peralta
+givenName: paco
+cn: paco peralta
+mail: pako@gmail.com
+userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;bxtPJ5LJz0JWA0/XGhc+970so1BvmsZr
 
-dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;miriam,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
-objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: posixAccount
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;iniesta,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 objectClass: inetOrgPerson
-objectClass: person
-cn:: &lt;span class=&quot;token assign-left variable&quot;&gt;TWFyaWEgZGVsIENhcm1lbiBMb3JhIFJvbcOhbgo&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
-uid: miriam
+objectClass: posixAccount
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+uid: iniesta
+gidNumber: &lt;span class=&quot;token number&quot;&gt;2500&lt;/span&gt;
+uidNumber: &lt;span class=&quot;token number&quot;&gt;2001&lt;/span&gt;
+homeDirectory: /home/andres.iniesta
+loginShell: /bin/bash
+description: descripcion de andres iniesta
+sn: iniesta
+givenName: andres
+cn: andres iniesta
+mail: diosito@gmail.com
+userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;IEvD4Fek71iVjQ/XeRiRuRPuTu2TprIi
+
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ramos,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+uid: ramos
+gidNumber: &lt;span class=&quot;token number&quot;&gt;2500&lt;/span&gt;
 uidNumber: &lt;span class=&quot;token number&quot;&gt;2002&lt;/span&gt;
-gidNumber: &lt;span class=&quot;token number&quot;&gt;2502&lt;/span&gt;
-homeDirectory: /home/miriam
+homeDirectory: /home/sergio.ramos
 loginShell: /bin/bash
-userPassword:: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;OuK8ryroLXs+fpudBXcJrMTZ3ASD/H46
-sn:: TG9yYSBSb23DoW4K
-mail: miriamromanolopez@gmail.com
-givenName: Miriam
+description: descripcion de sergio ramos
+sn: ramos
+givenName: sergio
+cn: sergio ramos
+mail: pelotero@gmail.com
+userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;q106tZuNnwgWY24/PNaPOAWqUIGfP8KN
 
-dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;juan,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
-objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: posixAccount
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nadal,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 objectClass: inetOrgPerson
-cn:: &lt;span class=&quot;token assign-left variable&quot;&gt;Um9zYXVyYSBIYWJhIFBlcmVhCg&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
-uid: juan
+objectClass: posixAccount
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+uid: nadal
+gidNumber: &lt;span class=&quot;token number&quot;&gt;2500&lt;/span&gt;
 uidNumber: &lt;span class=&quot;token number&quot;&gt;2003&lt;/span&gt;
-gidNumber: &lt;span class=&quot;token number&quot;&gt;2503&lt;/span&gt;
-homeDirectory: /home/juan
+homeDirectory: /home/rafael.nadal
 loginShell: /bin/bash
-userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;sgJUlNb20SdYbUclyXQNFCe0tjjdijdS
-sn: &lt;span class=&quot;token assign-left variable&quot;&gt;SGFiYSBQZXJlYQo&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
-mail: juancaespinosa@gmail.com
-givenName: Juan
+description: descripcion de rafael nadal
+sn: nadal
+givenName: rafael
+cn: rafael nadal
+mail: rafatenis@gmail.com
+userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;Um7G3DheRZQRWmEJXCpQtHwJtZAihDIq
 
-dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;manuel,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
-objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: posixAccount
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;rico,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 objectClass: inetOrgPerson
-cn:: &lt;span class=&quot;token assign-left variable&quot;&gt;TGF1cmEgTW9yYWxlcyBDYWJlbGxvCg&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
-uid: manuel
+objectClass: posixAccount
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+uid: rico
+gidNumber: &lt;span class=&quot;token number&quot;&gt;2500&lt;/span&gt;
 uidNumber: &lt;span class=&quot;token number&quot;&gt;2004&lt;/span&gt;
-gidNumber: &lt;span class=&quot;token number&quot;&gt;2504&lt;/span&gt;
-homeDirectory: /home/manuel
+homeDirectory: /home/javi.rico
 loginShell: /bin/bash
-userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;bZ1BzoZWQGN25d5ecDzOVfaSi35h7/Dq
-sn: &lt;span class=&quot;token assign-left variable&quot;&gt;TW9yYWxlcyBDYWJlbGxvCg&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
-mail: manuelsanchezvarela@gmail.com
-givenName: Manuel
+description: descripcion de javi rico
+sn: rico
+givenName: javi
+cn: javi rico
+mail: javirico@gmail.com
+userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;2IAjgCgQfJg1vT8k5qEASBrRKwAJG0Yu
 
-dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;brayan,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
-objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: posixAccount
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;simson,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 objectClass: inetOrgPerson
-cn:: &lt;span class=&quot;token assign-left variable&quot;&gt;UGFibG8gU3VzbyBHb256YWxlego&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
-uid: brayan
+objectClass: posixAccount
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+uid: simson
+gidNumber: &lt;span class=&quot;token number&quot;&gt;2500&lt;/span&gt;
 uidNumber: &lt;span class=&quot;token number&quot;&gt;2005&lt;/span&gt;
-gidNumber: &lt;span class=&quot;token number&quot;&gt;2505&lt;/span&gt;
-homeDirectory: /home/brayan
+homeDirectory: /home/homer.simson
 loginShell: /bin/bash
-userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;1Dmh5fQgowk0Cvfzje4B71kC1SmeiIqi
-sn: &lt;span class=&quot;token assign-left variable&quot;&gt;U3VzbyBHb256YWxlego&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
-mail: brayanortegajuan@gmail.com
-givenName: Brayan
+description: descripcion de homer simson
+sn: simson
+givenName: homer
+cn: homer simson
+mail: homero@gmail.com
+userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;MKmeM70l2fTa03Nb7+KRL6Tm+BV6GBRS
 
-dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;axier,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
-objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: posixAccount
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;pataki,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 objectClass: inetOrgPerson
-cn:: QXJ0dXJvIEJvcnJlcm8gR29uemFsZXoK
-uid: axier
+objectClass: posixAccount
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+uid: pataki
+gidNumber: &lt;span class=&quot;token number&quot;&gt;2500&lt;/span&gt;
 uidNumber: &lt;span class=&quot;token number&quot;&gt;2006&lt;/span&gt;
-gidNumber: &lt;span class=&quot;token number&quot;&gt;2506&lt;/span&gt;
-homeDirectory: /home/axier
+homeDirectory: /home/elsa.pataki
 loginShell: /bin/bash
-userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;RoA4bctGSRG537NslZYSifHAmzf0DWTv
-sn: &lt;span class=&quot;token assign-left variable&quot;&gt;Qm9ycmVybyBHb256YWxlego&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
-mail: axierortegajuan@gmail.com
-givenName: Axier
+description: descripcion de elsa pataki
+sn: pataki
+givenName: elsa
+cn: elsa pataki
+mail: elsapa@gmail.com
+userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;uUsheb7UZ/0EtMpXR02L7TPOn27LKsPg
 
-dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;alba,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
-objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: posixAccount
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;merced,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 objectClass: inetOrgPerson
-cn:: RGllZ28gTG9zYWRhIEZ1ZW50ZXMK
-uid: alba
+objectClass: posixAccount
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+uid: merced
+gidNumber: &lt;span class=&quot;token number&quot;&gt;2500&lt;/span&gt;
 uidNumber: &lt;span class=&quot;token number&quot;&gt;2007&lt;/span&gt;
-gidNumber: &lt;span class=&quot;token number&quot;&gt;2507&lt;/span&gt;
-homeDirectory: /home/alba
+homeDirectory: /home/jose.merced
 loginShell: /bin/bash
-userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;pclPYfaM0zvJos+h86gu+bx//Q+UULyj
-sn: TG9zYWRhIEZ1ZW50ZXMK
-mail: albamadueñojurado@gmail.com
-givenName: Alba
+description: descripcion de jose merced
+sn: merced
+givenName: jose
+cn: jose merced
+mail: joseme@gmail.com
+userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;S02IXcYNs/wU054fCsnvcTsIFDfKGzpu
 
-dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;joaquin,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
-objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: posixAccount
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;perez,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 objectClass: inetOrgPerson
-cn:: &lt;span class=&quot;token assign-left variable&quot;&gt;SXNhYmVsIE1vcmFsZXMgQ2FiZWxsbwo&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
-uid: joaquin
+objectClass: posixAccount
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+uid: perez
+gidNumber: &lt;span class=&quot;token number&quot;&gt;2500&lt;/span&gt;
 uidNumber: &lt;span class=&quot;token number&quot;&gt;2008&lt;/span&gt;
-gidNumber: &lt;span class=&quot;token number&quot;&gt;2508&lt;/span&gt;
-homeDirectory: /home/joaquin
+homeDirectory: /home/alberto.perez
 loginShell: /bin/bash
-userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;cBES958lKSd7Trpj7Yrah5yHfX4Ikl/e
-sn: &lt;span class=&quot;token assign-left variable&quot;&gt;TW9yYWxlcyBDYWJlbGxvCg&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
-mail: joaquinligero@gmail.com
-givenName: Joaquin
+description: descripcion de alberto perez
+sn: perez
+givenName: alberto
+cn: alberto perez
+mail: albertpe@gmail.com
+userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;2s8JtaEp8v+bXfN598MlG2uEm+Yf4N4Z
 
-dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;alberto,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
-objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: posixAccount
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;jurado,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 objectClass: inetOrgPerson
-cn:: &lt;span class=&quot;token assign-left variable&quot;&gt;QWxiZXJ0byBDb3Jkb24gQXJldmFsbwo&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
-uid: alberto
+objectClass: posixAccount
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+uid: jurado
+gidNumber: &lt;span class=&quot;token number&quot;&gt;2500&lt;/span&gt;
 uidNumber: &lt;span class=&quot;token number&quot;&gt;2009&lt;/span&gt;
-gidNumber: &lt;span class=&quot;token number&quot;&gt;2509&lt;/span&gt;
-homeDirectory: /home/alberto
+homeDirectory: /home/fran.jurado
 loginShell: /bin/bash
-userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;GMTZonB3W7TcL9D0BEVfO7Z6xUVKbir8
-sn: Q29yZG9uIEFyZXZhbG8K
-mail: albertoperez@gmail.com
-givenName: Alberto
-
-dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;moises,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
-objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: posixAccount
-objectClass: inetOrgPerson
-cn:: &lt;span class=&quot;token assign-left variable&quot;&gt;Um9zYWxpYSBDb3Jkb24gQXJldmFsbwo&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
-uid: moises
-uidNumber: &lt;span class=&quot;token number&quot;&gt;2010&lt;/span&gt;
-gidNumber: &lt;span class=&quot;token number&quot;&gt;2510&lt;/span&gt;
-homeDirectory: /home/moises
-loginShell: /bin/bash
-userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;fmbcJQuDFJY6+fW3KXBs8NDHugw5ULuO
-sn: Q29yZG9uIEFyZXZhbG8K
-mail: moisesmonge@gmail.com
-givenName: Moises&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+description: descripcion de fran jurado
+sn: jurado
+givenName: fran
+cn: fran jurado
+mail: franjur@gmail.com
+userPassword: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SSHA&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;jjEEhPdIjcLJHC+VWA+U05lvEYJQwVoV&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Ejecutamos el fichero:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ldapadd -x -D &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;admin,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org -W -f usuarios.ldif
-Enter LDAP Password: &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# ldapadd -x -D cn=admin,dc=madu,dc=gonzalonazareno,dc=org -W -f personas.ldif &lt;/span&gt;
+Enter LDAP Password: 
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;uid=peralta,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;uid=iniesta,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;uid=ramos,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;uid=nadal,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;uid=rico,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;uid=simson,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;uid=pataki,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;uid=merced,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;uid=perez,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;uid=jurado,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;
 &lt;h2 id=&quot;crea-3-grupos-en-ldap-dentro-de-una-unidad-organizativa-diferente-que-sean-objetos-del-tipo-gruposofnames-estos-grupos-serán-comercial-almacen-y-admin&quot;&gt;&lt;a href=&quot;#crea-3-grupos-en-ldap-dentro-de-una-unidad-organizativa-diferente-que-sean-objetos-del-tipo-gruposofnames-estos-grupos-ser%C3%A1n-comercial-almacen-y-admin&quot; aria-label=&quot;crea 3 grupos en ldap dentro de una unidad organizativa diferente que sean objetos del tipo gruposofnames estos grupos serán comercial almacen y admin permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Crea 3 grupos en LDAP dentro de una unidad organizativa diferente que sean objetos del tipo GruposOfNames. Estos grupos serán: comercial, almacen y admin&lt;/h2&gt;
@@ -170,21 +211,28 @@ Enter LDAP Password: &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Crearemos el archivo &lt;strong&gt;grupos.ldif&lt;/strong&gt;:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;comercial,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: GruposOfNames
+objectClass: groupOfNames
 cn: comercial
 member:
 
 dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;almacen,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: GruposOfNames
+objectClass: groupOfNames
 cn: almacen  
 member:
 
 dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;admin,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
-objectClass: GruposOfNames
+objectClass: groupOfNames
 cn: admin    
 member:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# ldapadd -x -D cn=admin,dc=madu,dc=gonzalonazareno,dc=org -W -f grupos.ldif&lt;/span&gt;
+Enter LDAP Password: 
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=almacen,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=admin,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Añade usuarios que pertenezcan a:&lt;/p&gt;
@@ -201,406 +249,247 @@ member:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;comercial,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 changetype:modify
 replace: member
-member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;fran,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;peralta,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 
 dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;almacen,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 changetype:modify
 replace: member
-member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;miriam,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;iniesta,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 
 dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;comercial,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 changetype:modify
 add: member
-member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;juan,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ramos,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 
 dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;almacen,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 changetype:modify
 add: member
-member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;juan,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ramos,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 
 dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;admin,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 changetype:modify
 replace: member
-member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;joaquin,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;rico,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 
 dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;comercial,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 changetype:modify
 add: member
-member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;joaquin,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;rico,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 
 dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;admin,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
 changetype:modify
 add: member
-member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;alba,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;pataki,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Añadimos las modificaciones:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ldapmodify -x -D &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;admin,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org -W -f grupousuario.ldif
-Enter LDAP Password: &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# ldapmodify -x -D cn=admin,dc=madu,dc=gonzalonazareno,dc=org -W -f gruposusuarios.ldif &lt;/span&gt;
+Enter LDAP Password: 
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=almacen,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=almacen,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=admin,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=admin,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Comprobamos los cambios realizados:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ldapsearch -h freston -x -b &lt;span class=&quot;token assign-left variable&quot;&gt;ou&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Group,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# ldapsearch -h freston -x -b ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# extended LDIF&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# LDAPv3&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# base &amp;lt;ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&gt; with scope subtree&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# filter: (objectclass=*)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# requesting: ALL&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Grupos, madu.gonzalonazareno.org&lt;/span&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;ou&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: organizationalUnit
+ou: Grupos
+
+&lt;span class=&quot;token comment&quot;&gt;# admin, Grupos, madu.gonzalonazareno.org&lt;/span&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;admin,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+objectClass: groupOfNames
+cn:: YWRtaW4gICAg
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;rico,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;pataki,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+
+&lt;span class=&quot;token comment&quot;&gt;# almacen, Grupos, madu.gonzalonazareno.org&lt;/span&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;almacen,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+objectClass: groupOfNames
+cn:: YWxtYWNlbiAg
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;iniesta,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ramos,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+
+&lt;span class=&quot;token comment&quot;&gt;# comercial, Grupos, madu.gonzalonazareno.org&lt;/span&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;comercial,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+objectClass: groupOfNames
+cn: comercial
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;peralta,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ramos,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+member: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;rico,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;People,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org
+
+&lt;span class=&quot;token comment&quot;&gt;# search result&lt;/span&gt;
+search: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+result: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; Success
+
+&lt;span class=&quot;token comment&quot;&gt;# numResponses: 5&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# numEntries: 4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;
 &lt;h2 id=&quot;modifica-openldap-apropiadamente-para-que-se-pueda-obtener-los-grupos-a-los-que-pertenece-cada-usuario-a-través-del-atributo-memberof&quot;&gt;&lt;a href=&quot;#modifica-openldap-apropiadamente-para-que-se-pueda-obtener-los-grupos-a-los-que-pertenece-cada-usuario-a-trav%C3%A9s-del-atributo-memberof&quot; aria-label=&quot;modifica openldap apropiadamente para que se pueda obtener los grupos a los que pertenece cada usuario a través del atributo memberof permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Modifica OpenLDAP apropiadamente para que se pueda obtener los grupos a los que pertenece cada usuario a través del atributo &quot;memberOf&quot;.&lt;/h2&gt;
 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para ello añadiremos el atributo &quot;memberOf&quot; a un nuevo fichero de configuración el cual nos permitirá cargar el módulo &lt;strong&gt;memberof.la&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# nano memberof.ldif&lt;/span&gt;
+
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;module,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;config
+cn: module
+objectClass: olcModuleList
+objectclass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+olcModuleLoad: memberof.la
+olcModulePath: /usr/lib/ldap
+
+root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# nano config_memberof.ldif&lt;/span&gt;
+
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;olcOverlay&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;memberof,olcDatabase&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;mdb,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;config
+objectClass: olcConfig
+objectClass: olcMemberOf
+objectClass: olcOverlayConfig
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+olcOverlay: memberof
+olcMemberOfDangling: ignore
+olcMemberOfRefInt: TRUE
+olcMemberOfGroupOC: groupOfNames
+olcMemberOfMemberAD: member
+olcMemberOfMemberOfAD: memberOf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ahora configuraremos la &lt;strong&gt;integridad refencial&lt;/strong&gt; que basicamente es hacer relaciones entre usuarios y grupos. Para ello crearemos los siguientes dos archivos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#primer archivo&lt;/span&gt;
+root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# nano referencial1.ldif&lt;/span&gt;
+
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;cn&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;module,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;config
+cn: module
+objectclass: olcModuleList
+objectclass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+olcmoduleload: refint.la
+olcmodulepath: /usr/lib/ldap
+
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;olcOverlay&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;refint,olcDatabase&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;mdb,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;config
+objectClass: olcConfig
+objectClass: olcOverlayConfig
+objectClass: olcRefintConfig
+objectClass: &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt;
+olcOverlay: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;refint
+olcRefintAttribute: memberof member manager owne
+&lt;span class=&quot;token comment&quot;&gt;#segundo archivo&lt;/span&gt;
+root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# nano referencial2.ldif&lt;/span&gt;
+
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;olcOverlay&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;memberof,olcDatabase&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;mdb,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;config
+objectClass: olcOverlayConfig
+objectClass: olcMemberOf
+olcOverlay: memberof
+olcMemberOfRefint: TRUE&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Los cargamos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; ldapadd -Q -Y EXTERNAL -H ldapi:/// -f memberof.ldif
+&lt;span class=&quot;token comment&quot;&gt;#nota en algun momento carge el modulo y olvide copiar la entrada aún así lo podemos comprobar viendo los modulos que tenemos cargados actualmente:(lo mismo paso con el modulo de refint.la)&lt;/span&gt;
+root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# slapcat -n 0 | grep olcModuleLoad&lt;/span&gt;
+olcModuleLoad: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;back_mdb
+olcModuleLoad: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;refint.la
+olcModuleLoad: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;memberof.la
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# sudo ldapadd -Y EXTERNAL -H ldapi:/// -f config_memberof.ldif &lt;/span&gt;
+SASL/EXTERNAL authentication started
+SASL username: &lt;span class=&quot;token assign-left variable&quot;&gt;gidNumber&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;+uidNumber&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;peercred,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;external,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;auth
+SASL SSF: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;olcOverlay={0}memberof,olcDatabase={1}mdb,cn=config&quot;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; ldapadd -Q -Y EXTERNAL -H ldapi:/// -f referencial1.ldif 
+
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# sudo ldapadd -Q -Y EXTERNAL -H ldapi:/// -f referencial2.ldif &lt;/span&gt;
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;olcOverlay=memberof,olcDatabase={1}mdb,cn=config&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Deberemos borrar los objetos creados anteriormente en el grupo para que se apliquen los cambios:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# sudo ldapdelete -x -D &quot;cn=admin,dc=madu,dc=gonzalonazareno,dc=org&quot; &apos;cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&apos; -W&lt;/span&gt;
+Enter LDAP Password: 
+root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# sudo ldapdelete -x -D &quot;cn=admin,dc=madu,dc=gonzalonazareno,dc=org&quot; &apos;cn=almacen,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&apos; -W&lt;/span&gt;
+Enter LDAP Password: 
+root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# sudo ldapdelete -x -D &quot;cn=admin,dc=madu,dc=gonzalonazareno,dc=org&quot; &apos;cn=admin,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&apos; -W&lt;/span&gt;
+Enter LDAP Password: &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;y los volvemos a añadir:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian/ldap&lt;span class=&quot;token comment&quot;&gt;# ldapadd -x -D cn=admin,dc=madu,dc=gonzalonazareno,dc=org -W -f grupos.ldif&lt;/span&gt;
+Enter LDAP Password: 
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=almacen,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+adding new entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=admin,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+root@freston:/home/debian/ldap&lt;span class=&quot;token comment&quot;&gt;# ldapmodify -x -D cn=admin,dc=madu,dc=gonzalonazareno,dc=org -W -f gruposusuarios.ldif &lt;/span&gt;
+Enter LDAP Password: 
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=almacen,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=almacen,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=admin,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;
+
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;cn=admin,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Y finalmente comprobaremos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian&lt;span class=&quot;token comment&quot;&gt;# sudo ldapsearch -LL -Y EXTERNAL -H ldapi:/// &quot;(uid=ramos)&quot; -b dc=madu,dc=gonzalonazareno,dc=org memberOf&lt;/span&gt;
+SASL/EXTERNAL authentication started
+SASL username: &lt;span class=&quot;token assign-left variable&quot;&gt;gidNumber&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;+uidNumber&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;peercred,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;external,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;auth
+SASL SSF: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+version: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;uid&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ramos,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Personas,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;
 &lt;h2 id=&quot;crea-las-acls-necesarias-para-que-los-usuarios-del-grupo-almacen-puedan-ver-todos-los-atributos-de-todos-los-usuarios-pero-solo-puedan-modificar-las-suyas&quot;&gt;&lt;a href=&quot;#crea-las-acls-necesarias-para-que-los-usuarios-del-grupo-almacen-puedan-ver-todos-los-atributos-de-todos-los-usuarios-pero-solo-puedan-modificar-las-suyas&quot; aria-label=&quot;crea las acls necesarias para que los usuarios del grupo almacen puedan ver todos los atributos de todos los usuarios pero solo puedan modificar las suyas permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Crea las ACLs necesarias para que los usuarios del grupo almacen puedan ver todos los atributos de todos los usuarios pero solo puedan modificar las suyas.&lt;/h2&gt;
 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Crearemos un nuevo fichero para configurar la &lt;strong&gt;ACL&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian/ldap&lt;span class=&quot;token comment&quot;&gt;# nano acl.ldif&lt;/span&gt;
+
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;olcDatabase&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;mdb,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;config
+changetype: modify
+add: olcAccess
+olcAccess: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;to &lt;span class=&quot;token assign-left variable&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;objectclass&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;inetOrgPerson&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;memberof&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;almacen,ou&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Grupos,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;madu,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;gonzalonazareno,dc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;org&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt; by group.exact&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;cn=almacen,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;y lo añadiremos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian/ldap&lt;span class=&quot;token comment&quot;&gt;# sudo ldapmodify -Y EXTERNAL -H ldapi:/// -f acl.ldif&lt;/span&gt;
+SASL/EXTERNAL authentication started
+SASL username: &lt;span class=&quot;token assign-left variable&quot;&gt;gidNumber&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;+uidNumber&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;peercred,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;external,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;auth
+SASL SSF: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;olcDatabase={1}mdb,cn=config&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;5&quot;&gt;
 &lt;li&gt;
 &lt;h2 id=&quot;crea-las-acls-necesarias-para-que-los-usuarios-del-grupo-admin-puedan-ver-y-modificar-cualquier-atributo-de-cualquier-objeto&quot;&gt;&lt;a href=&quot;#crea-las-acls-necesarias-para-que-los-usuarios-del-grupo-admin-puedan-ver-y-modificar-cualquier-atributo-de-cualquier-objeto&quot; aria-label=&quot;crea las acls necesarias para que los usuarios del grupo admin puedan ver y modificar cualquier atributo de cualquier objeto permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Crea las ACLs necesarias para que los usuarios del grupo admin puedan ver y modificar cualquier atributo de cualquier objeto.&lt;/h2&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] Introducción a la IC/DC]]></title><description><![CDATA[Tarea: Integración continúa de aplicación django (Test + Deploy). Vamos a trabajar con el repositorio de la aplicación django_tutorial. Esta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</guid><category><![CDATA[Integración Continúa]]></category><category><![CDATA[GitHub Actions]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-integración-continúa-de-aplicación-django-test--deploy&quot;&gt;&lt;a href=&quot;#tarea-integraci%C3%B3n-contin%C3%BAa-de-aplicaci%C3%B3n-django-test--deploy&quot; aria-label=&quot;tarea integración continúa de aplicación django test  deploy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea: Integración continúa de aplicación django (Test + Deploy).&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Vamos a trabajar con el repositorio de la aplicación &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;django_tutorial&lt;/a&gt;. Esta aplicación tiene definidas una serie de test, que podemos estudiar en el fichero tests.py del directorio polls.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Para ejecutar las pruebas unitarias, ejecutamos la instrucción python3 manage.py test.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&quot;estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-código-de-la-aplicación-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot;&gt;&lt;a href=&quot;#estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-c%C3%B3digo-de-la-aplicaci%C3%B3n-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot; aria-label=&quot;estudia las distintas pruebas que se han realizado y modifica el código de la aplicación debes modificar el fichero viewspy o los templates no debes cambiar el fichero testspy para que al menos una de ella no se ejecute de manera exitosa permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Estudia las distintas pruebas que se han realizado, y modifica el código de la aplicación (debes modificar el fichero views.py o los templates, no debes cambiar el fichero tests.py para que al menos una de ella no se ejecute de manera exitosa.&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;A continuación vamos a configurar la integración continúa para que cada vez que hagamos un commit se haga la ejecución de test en la herramienta de CI/CD que haya elegido.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&quot;crea-el-pipeline-en-el-sistema-de-cicd-para-que-pase-automáticamente-los-tests-muestra-el-fichero-de-configuración-y-una-captura-de-pantalla-con-un-resultado-exitoso-de-la-ic-y-otro-con-un-error&quot;&gt;&lt;a href=&quot;#crea-el-pipeline-en-el-sistema-de-cicd-para-que-pase-autom%C3%A1ticamente-los-tests-muestra-el-fichero-de-configuraci%C3%B3n-y-una-captura-de-pantalla-con-un-resultado-exitoso-de-la-ic-y-otro-con-un-error&quot; aria-label=&quot;crea el pipeline en el sistema de cicd para que pase automáticamente los tests muestra el fichero de configuración y una captura de pantalla con un resultado exitoso de la ic y otro con un error permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Crea el pipeline en el sistema de CI/CD para que pase automáticamente los tests. Muestra el fichero de configuración y una captura de pantalla con un resultado exitoso de la IC y otro con un error.&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;A continuación vamos a realziar el despliegue coontinuo en un servicio de hosting, por ejemplo heroku.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&quot;entrega-un-breve-descripción-de-los-pasos-más-importantes-para-realizar-el-despliegue-desde-el-sistema-de-cics-y-entrega-una-prueba-de-funcionamiento-donde-se-compruebe-cómo-se-hace-el-despliegue-automático&quot;&gt;&lt;a href=&quot;#entrega-un-breve-descripci%C3%B3n-de-los-pasos-m%C3%A1s-importantes-para-realizar-el-despliegue-desde-el-sistema-de-cics-y-entrega-una-prueba-de-funcionamiento-donde-se-compruebe-c%C3%B3mo-se-hace-el-despliegue-autom%C3%A1tico&quot; aria-label=&quot;entrega un breve descripción de los pasos más importantes para realizar el despliegue desde el sistema de cics y entrega una prueba de funcionamiento donde se compruebe cómo se hace el despliegue automático permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Entrega un breve descripción de los pasos más importantes para realizar el despliegue desde el sistema de CI/CS y entrega una prueba de funcionamiento donde se compruebe cómo se hace el despliegue automático.&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p&gt;Para esta práctica utilizaremos el fork de django_tutorial utilizado anteriormente.&lt;/p&gt;
-&lt;p&gt;Crearemos un entorno virtual.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; .virtualenvs/
-fran@debian:~/.virtualenvs$ python3 -m venv django
-fran@debian:~/.virtualenvs$ &lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; django/bin/activate
-&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/.virtualenvs$ &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Instalamos los requerimientos.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial$ pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -r requirements.txt 
-Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;asgiref&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.3&lt;/span&gt;.0 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
-  Using cached https://files.pythonhosted.org/packages/c0/e8/578887011652048c2d273bf98839a11020891917f3aa638a0bc9ac04d653/asgiref-3.3.0-py3-none-any.whl
-Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;Django&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.1&lt;/span&gt;.3 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
-  Using cached https://files.pythonhosted.org/packages/7f/17/16267e782a30ea2ce08a9a452c1db285afb0ff226cfe3753f484d3d65662/Django-3.1.3-py3-none-any.whl
-Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;pytz&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2020.4&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
-  Using cached https://files.pythonhosted.org/packages/12/f8/ff09af6ff61a3efaad5f61ba5facdf17e7722c4393f7d8a66674d2dbd29f/pytz-2020.4-py2.py3-none-any.whl
-Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;sqlparse&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;.1 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
-  Using cached https://files.pythonhosted.org/packages/14/05/6e8eb62ca685b10e34051a80d7ea94b7137369d8c0be5c3b9d9b6e3f5dae/sqlparse-0.4.1-py3-none-any.whl
-Installing collected packages: asgiref, pytz, sqlparse, Django
-Successfully installed Django-3.1.3 asgiref-3.3.0 pytz-2020.4 sqlparse-0.4.1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Realizaremos una comprobación de los test.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial$ python3 manage.py &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;
-Creating &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; database &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
-System check identified no issues &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; silenced&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
-&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;
-----------------------------------------------------------------------
-Ran &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; tests &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;.029s
+&lt;/ol&gt;
+&lt;p&gt;Crearemos otro fichero para la nueva configuración de &lt;strong&gt;ACL&lt;/strong&gt; que contrenda la siguiente:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian/ldap&lt;span class=&quot;token comment&quot;&gt;# nano acl2.ldif&lt;/span&gt;
 
-OK
-Destroying &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; database &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Modificaremos la aplicación para producir un error.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial/polls/templates/polls$ &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; index.html 
-&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% load static %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;link &lt;span class=&quot;token assign-left variable&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;text/css&quot;&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;{% static &apos;polls/style.css&apos; %}&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-
-&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; latest_question_list %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;question&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; latest_question_list %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;a &lt;span class=&quot;token assign-left variable&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;{% url &apos;polls:detail&apos; question.id %}&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; question.question_text &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% endfor %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Generando un error&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% endif %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Como podemos comprobar al realizar un nuevo test.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial$ python3 manage.py &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;
-Creating &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; database &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
-System check identified no issues &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; silenced&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
-&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;F.F&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
-&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
-FAIL: test_future_question &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;polls.tests.QuestionIndexViewTests&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-----------------------------------------------------------------------
-Traceback &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;most recent call last&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:
-  File &lt;span class=&quot;token string&quot;&gt;&quot;/home/fran/GitHub/django_tutorial/polls/tests.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;73&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; test_future_question
-    self.assertContains&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;response, &lt;span class=&quot;token string&quot;&gt;&quot;No polls are available.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  File &lt;span class=&quot;token string&quot;&gt;&quot;/home/fran/.virtualenvs/django/lib/python3.7/site-packages/django/test/testcases.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;470&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; assertContains
-    self.assertTrue&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;real_count &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, msg_prefix + &lt;span class=&quot;token string&quot;&gt;&quot;Couldn&apos;t find %s in response&quot;&lt;/span&gt; % text_repr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-AssertionError: False is not &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Couldn&lt;span class=&quot;token string&quot;&gt;&apos;t find &apos;&lt;/span&gt;No polls are available.&lt;span class=&quot;token string&quot;&gt;&apos; in response
-
-======================================================================
-FAIL: test_no_questions (polls.tests.QuestionIndexViewTests)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File &quot;/home/fran/GitHub/django_tutorial/polls/tests.py&quot;, line 51, in test_no_questions
-    self.assertContains(response, &quot;No polls are available.&quot;)
-  File &quot;/home/fran/.virtualenvs/django/lib/python3.7/site-packages/django/test/testcases.py&quot;, line 470, in assertContains
-    self.assertTrue(real_count != 0, msg_prefix + &quot;Couldn&apos;&lt;/span&gt;t &lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt; %s &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; response&quot; % text_repr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-AssertionError: False is not &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Couldn&lt;span class=&quot;token string&quot;&gt;&apos;t find &apos;&lt;/span&gt;No polls are available.&lt;span class=&quot;token string&quot;&gt;&apos; in response
-
-----------------------------------------------------------------------
-Ran 10 tests in 0.029s
-
-FAILED (failures=2)
-Destroying test database for alias &apos;&lt;/span&gt;default&apos;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Nos produce un error, la respuesta debería ser &quot;No polls are available.&quot; pero se la hemos modificado.&lt;/p&gt;
-&lt;p&gt;Ahora daremos paso a un sistema IC/DC que en mi caso usare &lt;strong&gt;GitHub Actions&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Para poder acceder a &lt;strong&gt;GitHub Actions&lt;/strong&gt; deberemos entrar en nuestro repositorio -&gt; Acceder a la pestaña Actions -&gt; Le daremos a la primera opción &quot;set up a workflow yourself&quot; para seleccionar el flujo de trabajo.&lt;/p&gt;
-&lt;p&gt;Editaremos el fichero generado &lt;strong&gt;main.yml&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# This is a basic workflow to help you get started with Actions&lt;/span&gt;
-
-name: CI
-
-&lt;span class=&quot;token comment&quot;&gt;# Controls when the action will run. &lt;/span&gt;
-on:
-  &lt;span class=&quot;token comment&quot;&gt;# Triggers the workflow on push or pull request events but only for the master branch&lt;/span&gt;
-  push:
-    branches: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-  pull_request:
-    branches: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python &lt;span class=&quot;token variable&quot;&gt;${{ matrix.python-version }&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-      uses: actions/setup-python@v2
-      with:
-        python-version: &lt;span class=&quot;token variable&quot;&gt;${{ matrix.python-version }&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-    - name: Instalar requerimientos
-      run: &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
-        pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; --upgrade pip
-        pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -r requirements.txt
-      
-    - name: Probar python3
-      run: python3 manage.py &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Le daremos a &lt;strong&gt;Start Commit&lt;/strong&gt; para añadir el archivo al directorio, Ahora comprobaremos algunos test.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Test Bueno
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/a987b/franmadu6-django_tutorial.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 47.65625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABG0lEQVQoz42S226DMBBEeWu4GRtjG2NuTZUQ9an//3PT9UKlIIWGhyNfGM/OYid+ekD7K5QdEKY7uvGGfl5gw7pXuxGaqJ/4WzftBEe6qI3nPJHUYUEzPND4GUI5lKolHETdomo6HgtpXxK/aUdFbU/Fe0jSJ364wrRUlRaV9iTyLCzZ3O3mr8grw5qYNBonNnyyuyCzuGG7GYrakabn6sqErdCxMXezaZK4UVCViHY9SmlwKSSyskYuNI9ZqbbxmJQ0UZ/Ef8HRRYP+a8Ht+wdhvkNT2o9M4JJXJxFIC7Um5JRkLI2H8RPd3kgtOBamlPYdUZdXmlp2a8LnlCm3oHleUPtnKZXlV7JL+N9tvqOQq8cu4dF7O0v0+AXvU/Jou/o4bQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;prueba buena&quot;
-        src=&quot;/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/36727/franmadu6-django_tutorial.png&quot;
-        srcset=&quot;/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/acf4b/franmadu6-django_tutorial.png 173w,
-/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/fc834/franmadu6-django_tutorial.png 345w,
-/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/36727/franmadu6-django_tutorial.png 690w,
-/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/17fa4/franmadu6-django_tutorial.png 1035w,
-/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/a5044/franmadu6-django_tutorial.png 1380w,
-/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/a987b/franmadu6-django_tutorial.png 1920w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Test Erroneo (Modificando nueva mente el un fichero del repositorio.)
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/99445/Build-software-better-together.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 81.70859538784066%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAAB2UlEQVQ4y41T2XKjMBDkLbsIdCIJBMZO1nGlKv//fbM9w2EnIdl96BoJSa3u1lDN13fqz2/khxcK/ZnK/ErlfANeZe7TiXxmzGu9j0M/U57+UBpfaMA5RuXiRN3pjeJ0o4BN2vfUukwtqvYDmTDIvLHpC/g7n3dxlIttV6jq00R5vFDscXO3HGZon/dx6w7I1qpMlPU4XEA6UbUd2hYbE+h3Y+mXMlL/idZR3XqMUbWnKiIHlrxZjQNL74Xwf1CDUOkgxFyriNwcpJpQJLcYC/XTM0gHsdLaxdKPWPdwTJXYtHG3rF2kkEYhNNjA88Z0YumjXSeqdmyW78FnIebbQh6pyxN5qA2pCLHCZoV8OeO6dXvOj2DianuQe2t0opBJmdCD0MVBctWwtWTmpT4+3DeEq8I0CpEQAi1sP9rdFT10w48K2S73pShNi1KHTG3oJU9+zSOF9ZFCPsCZLVkt1rbKB5+UPmyfp1rL+vIoK6ECYYKaGW1TypkS1DnYNSC3uMja7+EAg/NfFDoQpukqvbl9X369bm2vDQ9zXMaO2iNChUU/3siVK5l0IZ2fBU13IuUL1TZTjX7dodGj/OsJjl4Zamy+ULNGoECgZIyW4cf4DM6XK8gVyP8CWguAW05CRskAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;prueba mala&quot;
-        src=&quot;/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/36727/Build-software-better-together.png&quot;
-        srcset=&quot;/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/acf4b/Build-software-better-together.png 173w,
-/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/fc834/Build-software-better-together.png 345w,
-/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/36727/Build-software-better-together.png 690w,
-/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/17fa4/Build-software-better-together.png 1035w,
-/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/a5044/Build-software-better-together.png 1380w,
-/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/99445/Build-software-better-together.png 1908w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A continuación vamos a realziar el despliegue coontinuo en un servicio de hosting, &lt;strong&gt;Heroku&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Deberemos irnos a nuestro perfil de usuario en Heroku, buscamos API_KEY la copiamos, ahora nos iremos a nuestro repositorio -&gt; Settings -&gt; Secrets y pegaremos ahí el codigo copiado.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/68cbc/heroku-api-key.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 12.705530642750373%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAcklEQVQI121OywqAMAzb//+SFy9eBPGgIKIgiHjQg6Lzsbk2PkDcwJaSUJI2gpnxN3bp44BS+sFf/dVEhH3VELb55TemUYXASxD6GfpuwDRLyGV1dDY3hiDHDeJd2smYGHXRIY8blEkLrYxz4JZ96dwHJ7K46tgN0+dYAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;heroku key&quot;
-        src=&quot;/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/36727/heroku-api-key.png&quot;
-        srcset=&quot;/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/acf4b/heroku-api-key.png 173w,
-/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/fc834/heroku-api-key.png 345w,
-/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/36727/heroku-api-key.png 690w,
-/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/17fa4/heroku-api-key.png 1035w,
-/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/68cbc/heroku-api-key.png 1338w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/6cfee17a43c7b6393cf539862e47991d/bd128/heroku-api-key2.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 57.961783439490446%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABnklEQVQoz4WS2XKkMAxFeU53oAGbzYCh2XrJJJn8/78p9wpCTU+qkodTkm1ZupYc+OEqrpul7hY5RFaO4LBxPGW7/++a9ik0Yksvw+VNzsur9POLnEwlARMxISnqs2RVL2U7KrbspGgGafrLdubVqu96qRBT94u0EMV7LBTkOMgRQJyfETRB7ayBZTOuxfyE80ESN0uctRKlBSglTAp5jnO1TKYJO0j1412a80UsqmRuVbmDgtwnpjqLgWpTeFi/WpDqupMQRQI+jc/ixQg9iFJg3Eb1wElxO7Gtd5K8UaUBZTKQ0qlyvv+VfrrLuPyR6fomw/KidsE+/fHyKvPtXSaQZPVWpNLnMkfARVq0epiiioFv60myZt7J2+Vhrc9ELFXxHmEyTfj/1zjgOzybWkLrJTQt7HeOp/zxDtgTfkle+1euPUQvwmSd3mof0bi935vFniacbx/oyzv+2lUnxSlbTvoHdNKAk+eEU67hM2kQO0yLVE7Hvqr6mTRvtdfsZTPcpOHnB0cqjDLIB6Et9j78BlsUW6dW/yL8FDDhJzVfM6DHwZOEAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;heroku key 2&quot;
-        src=&quot;/gatsbyjs/static/6cfee17a43c7b6393cf539862e47991d/36727/heroku-api-key2.png&quot;
-        srcset=&quot;/gatsbyjs/static/6cfee17a43c7b6393cf539862e47991d/acf4b/heroku-api-key2.png 173w,
-/gatsbyjs/static/6cfee17a43c7b6393cf539862e47991d/fc834/heroku-api-key2.png 345w,
-/gatsbyjs/static/6cfee17a43c7b6393cf539862e47991d/36727/heroku-api-key2.png 690w,
-/gatsbyjs/static/6cfee17a43c7b6393cf539862e47991d/bd128/heroku-api-key2.png 942w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Ahora crearemos un nuevo proyecto en heroku y lo conectaremos con GitHub.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/99445/django-tutorial-franmadu6GitHubHeroku.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 47.955974842767304%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABU0lEQVQoz21Si27DMAjM/39nN02T0jSOX+DH7XDjru2GdAKDDQd4SSFDtUKkQHIZOmdFpo5J4Rk3mC1274TFs9AuEw2XyweWmAoSE/kgWFePbQu4bh67iwhRByyZ3Zmw83GwkLdCv353RCy9dxhaa2QmZKkoZGDnUshYdWhDrZV324g1e0N7vjeYLJVUDdb2fiOz3Y+WW+0IPuF7dWS+03+QgcdK9sbkOAJizCxyfz+xaK54QJ5sIkVB4ChK6WTdRjwnm3Ud0H/w1HLngzIqTt8oQN/ttiFJYhfWej3jONFfsOCUkbS2kXiKzUrZRmIi4QyVydo5q85Yp+9dljlMY+Yc5xLSGL6JciGOm9xCpU4Ds4MmgurDYxkPhs8OYzQCdweUi0nakQn7Z1LuOnOe2ezaXxK+May4Xh03l8ZXMdmD4nON+NrILjV46fC54zgR5G/CH+OMEW40YrE+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;heroku 3&quot;
-        src=&quot;/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/36727/django-tutorial-franmadu6GitHubHeroku.png&quot;
-        srcset=&quot;/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/acf4b/django-tutorial-franmadu6GitHubHeroku.png 173w,
-/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/fc834/django-tutorial-franmadu6GitHubHeroku.png 345w,
-/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/36727/django-tutorial-franmadu6GitHubHeroku.png 690w,
-/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/17fa4/django-tutorial-franmadu6GitHubHeroku.png 1035w,
-/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/a5044/django-tutorial-franmadu6GitHubHeroku.png 1380w,
-/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/99445/django-tutorial-franmadu6GitHubHeroku.png 1908w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Modificaremos el fichero main nueva mente añadiendo las sigueinte lineas para implementarlo en heroku:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# This is a basic workflow to help you get started with Actions&lt;/span&gt;
-
-name: CI
-
-&lt;span class=&quot;token comment&quot;&gt;# Controls when the action will run. &lt;/span&gt;
-on:
-  &lt;span class=&quot;token comment&quot;&gt;# Triggers the workflow on push or pull request events but only for the master branch&lt;/span&gt;
-  push:
-    branches: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-  pull_request:
-    branches: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-
-    steps:
-    - uses: actions/checkout@v2
-    - uses: akhileshns/heroku-deploy@v3.8.9 &lt;span class=&quot;token comment&quot;&gt;# This is the action&lt;/span&gt;
-      with:
-          heroku_api_key: &lt;span class=&quot;token variable&quot;&gt;${{secrets.HEROKU_API_KEY}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-          heroku_app_name: &lt;span class=&quot;token string&quot;&gt;&quot;django-tutorial-franmadu6&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#Must be unique in Heroku&lt;/span&gt;
-          heroku_email: &lt;span class=&quot;token string&quot;&gt;&quot;frandh1997@gmail.com&quot;&lt;/span&gt;
-          procfile: &lt;span class=&quot;token string&quot;&gt;&quot;web: npm start&quot;&lt;/span&gt;    
-
-    - name: Set up Python &lt;span class=&quot;token variable&quot;&gt;${{ matrix.python-version }&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-      uses: actions/setup-python@v2
-      with:
-        python-version: &lt;span class=&quot;token variable&quot;&gt;${{ matrix.python-version }&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-    - name: Instalar requerimientos
-      run: &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
-        pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; --upgrade pip
-        pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -r requirements.txt
-      
-    - name: Probar python3
-      run: python3 manage.py &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;También modificaremos el fichero settings.py y le añadiremos en la primera línea:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;import&lt;/span&gt; os&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Y en la ultima:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;STATIC_ROOT &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; os.path.join&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;BASE_DIR, &lt;span class=&quot;token string&quot;&gt;&apos;static&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/c84b40c9ddf73d233a45239b04e2882e/f570d/Build-Heroku.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 95.3125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAACKklEQVQ4y41U7XabMAzl/R9oT7D93zld119ZmqaEJBAMGOMvyK0kQka20JRzLgLbkq+ubCWpsmjbDs45zJ9+GEb0A2Lfkx1xPp8F/z4+eOSHDEmZaRSEpnIU2KOpO2htoSqDY1GjKGm+bFGoEdp4tF1Aa4PYRjvoLmKfV3j69RvJfldjlyooRQH2DbKsxPuuwNPLmmwOQ06djVfbSkAvgSvavDy1grqyND8gMdah1kZYmdahMwF102G1yaBbixAHOB/hCWxD7AUxshQz0H8IEYn3Ad4RQiCHQIuj6DaQTj058hyPRfrm+Um/Ud9J21HngcYST1oY0sE6T5Q9DZ6vBeHv4VKEq+UxmjOdkww0FVQbK1lyjMSHnsRXeNtmpNkB2/SANMspbQPDm3UM3iwIrIsCJxL0N+C0E0cp7Q8nrNZbrDcpBT3K/yFXKE71+H0sqZpWAk2B74HJJbzTkZzXrykFfReGu30uYyfVUCodVdbN2P1lOcc14JhyJew2lPbr244CFjLGDE9lg4rSv8fobsBAr5yc/xBDTpOFnhjxkfFhkIWs0eT4KUN2YiacLls+g6qmw6q0YPpWVSuFmuu4yJAryaw0HWy2S+BqPwzIr6U0llJ7WBRZ9MlxWCrEYsp86R+dsa9gZOjHDnK7+9cl+I8hX2wOwPeTn6l33tzfGaTBXtaNON/4JNxyGNJ1QpSOwp3n548Vvn97lk4yLWbHcOk6fsLFx1Jj4TgfWY/Dfsi8lfwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;heroku 4&quot;
-        src=&quot;/gatsbyjs/static/c84b40c9ddf73d233a45239b04e2882e/36727/Build-Heroku.png&quot;
-        srcset=&quot;/gatsbyjs/static/c84b40c9ddf73d233a45239b04e2882e/acf4b/Build-Heroku.png 173w,
-/gatsbyjs/static/c84b40c9ddf73d233a45239b04e2882e/fc834/Build-Heroku.png 345w,
-/gatsbyjs/static/c84b40c9ddf73d233a45239b04e2882e/36727/Build-Heroku.png 690w,
-/gatsbyjs/static/c84b40c9ddf73d233a45239b04e2882e/f570d/Build-Heroku.png 960w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Como podemos comprobrar se hace el desplieque automático en heroku si realizamos un deploy desde github actions.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] - Práctica: Implantación de aplicaciones web PHP en docker ]]></title><description><![CDATA[Práctica: Implantación de aplicaciones web PHP en docker. Tarea 1: Ejecución de una aplicación web PHP en docker. Queremos ejecutar en un…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</guid><category><![CDATA[PHP]]></category><category><![CDATA[Docker]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-implantación-de-aplicaciones-web-php-en-docker&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-implantaci%C3%B3n-de-aplicaciones-web-php-en-docker&quot; aria-label=&quot;práctica implantación de aplicaciones web php en docker permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Implantación de aplicaciones web PHP en docker.&lt;/h2&gt;
+dn: &lt;span class=&quot;token assign-left variable&quot;&gt;olcDatabase&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;mdb,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;config
+changetype: modify
+add: olcAccess
+olcAccess: &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;to * by group.exact&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;cn=admin,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org&quot;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;y lo añadiremos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@freston:/home/debian/ldap&lt;span class=&quot;token comment&quot;&gt;# sudo ldapmodify -Y EXTERNAL -H ldapi:/// -f acl2.ldif &lt;/span&gt;
+SASL/EXTERNAL authentication started
+SASL username: &lt;span class=&quot;token assign-left variable&quot;&gt;gidNumber&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;+uidNumber&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;peercred,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;external,cn&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;auth
+SASL SSF: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+modifying entry &lt;span class=&quot;token string&quot;&gt;&quot;olcDatabase={1}mdb,cn=config&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] - Práctica: Implantación de aplicaciones web PHP en docker ]]></title><description><![CDATA[Práctica: Implantación de aplicaciones web PHP en docker. Tarea 1: Ejecución de una aplicación web PHP en docker. Queremos ejecutar en un…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-practica-implantacion-de-aplicaciones-web-php-en-docker</guid><category><![CDATA[PHP]]></category><category><![CDATA[Docker]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;práctica-implantación-de-aplicaciones-web-php-en-docker&quot;&gt;&lt;a href=&quot;#pr%C3%A1ctica-implantaci%C3%B3n-de-aplicaciones-web-php-en-docker&quot; aria-label=&quot;práctica implantación de aplicaciones web php en docker permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Práctica: Implantación de aplicaciones web PHP en docker.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&quot;tarea-1-ejecución-de-una-aplicación-web-php-en-docker&quot;&gt;&lt;a href=&quot;#tarea-1-ejecuci%C3%B3n-de-una-aplicaci%C3%B3n-web-php-en-docker&quot; aria-label=&quot;tarea 1 ejecución de una aplicación web php en docker permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea 1: Ejecución de una aplicación web PHP en docker.&lt;/h3&gt;
 &lt;ul&gt;
@@ -1304,7 +1193,360 @@ d1e9182b4cf8        mariadb             &lt;span class=&quot;token string&quot;&
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Todos los ejercicios los puedes econtrar en: &lt;a href=&quot;https://github.com/franmadu6/PHP-en-Docker&quot;&gt;https://github.com/franmadu6/PHP-en-Docker&lt;/a&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[SAD] - Cortafuegos - OpenStack]]></title><description><![CDATA[Cortafuegos Vamos a construir un cortafuegos en dulcinea que nos permita controlar el tráfico de nuestra red. El cortafuegos que vamos a…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sad-cortafuegos-open-stack</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sad-cortafuegos-open-stack</guid><category><![CDATA[Cortafuegos]]></category><category><![CDATA[Iptables]]></category><category><![CDATA[OpenStack]]></category><pubDate>Sun, 04 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;cortafuegos&quot;&gt;&lt;a href=&quot;#cortafuegos&quot; aria-label=&quot;cortafuegos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Cortafuegos&lt;/h1&gt;
+&lt;p&gt;Todos los ejercicios los puedes econtrar en: &lt;a href=&quot;https://github.com/franmadu6/PHP-en-Docker&quot;&gt;https://github.com/franmadu6/PHP-en-Docker&lt;/a&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[IAW] Introducción a la IC/DC]]></title><description><![CDATA[Tarea: Integración continúa de aplicación django (Test + Deploy). Vamos a trabajar con el repositorio de la aplicación django_tutorial. Esta…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/iaw-introduccion-a-la-ic-dc</guid><category><![CDATA[Integración Continúa]]></category><category><![CDATA[GitHub Actions]]></category><pubDate>Mon, 05 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;tarea-integración-continúa-de-aplicación-django-test--deploy&quot;&gt;&lt;a href=&quot;#tarea-integraci%C3%B3n-contin%C3%BAa-de-aplicaci%C3%B3n-django-test--deploy&quot; aria-label=&quot;tarea integración continúa de aplicación django test  deploy permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tarea: Integración continúa de aplicación django (Test + Deploy).&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Vamos a trabajar con el repositorio de la aplicación &lt;a href=&quot;https://github.com/josedom24/django_tutorial&quot;&gt;django_tutorial&lt;/a&gt;. Esta aplicación tiene definidas una serie de test, que podemos estudiar en el fichero tests.py del directorio polls.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Para ejecutar las pruebas unitarias, ejecutamos la instrucción python3 manage.py test.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-código-de-la-aplicación-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot;&gt;&lt;a href=&quot;#estudia-las-distintas-pruebas-que-se-han-realizado-y-modifica-el-c%C3%B3digo-de-la-aplicaci%C3%B3n-debes-modificar-el-fichero-viewspy-o-los-templates-no-debes-cambiar-el-fichero-testspy-para-que-al-menos-una-de-ella-no-se-ejecute-de-manera-exitosa&quot; aria-label=&quot;estudia las distintas pruebas que se han realizado y modifica el código de la aplicación debes modificar el fichero viewspy o los templates no debes cambiar el fichero testspy para que al menos una de ella no se ejecute de manera exitosa permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Estudia las distintas pruebas que se han realizado, y modifica el código de la aplicación (debes modificar el fichero views.py o los templates, no debes cambiar el fichero tests.py para que al menos una de ella no se ejecute de manera exitosa.&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A continuación vamos a configurar la integración continúa para que cada vez que hagamos un commit se haga la ejecución de test en la herramienta de CI/CD que haya elegido.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;crea-el-pipeline-en-el-sistema-de-cicd-para-que-pase-automáticamente-los-tests-muestra-el-fichero-de-configuración-y-una-captura-de-pantalla-con-un-resultado-exitoso-de-la-ic-y-otro-con-un-error&quot;&gt;&lt;a href=&quot;#crea-el-pipeline-en-el-sistema-de-cicd-para-que-pase-autom%C3%A1ticamente-los-tests-muestra-el-fichero-de-configuraci%C3%B3n-y-una-captura-de-pantalla-con-un-resultado-exitoso-de-la-ic-y-otro-con-un-error&quot; aria-label=&quot;crea el pipeline en el sistema de cicd para que pase automáticamente los tests muestra el fichero de configuración y una captura de pantalla con un resultado exitoso de la ic y otro con un error permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Crea el pipeline en el sistema de CI/CD para que pase automáticamente los tests. Muestra el fichero de configuración y una captura de pantalla con un resultado exitoso de la IC y otro con un error.&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A continuación vamos a realziar el despliegue coontinuo en un servicio de hosting, por ejemplo heroku.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;entrega-un-breve-descripción-de-los-pasos-más-importantes-para-realizar-el-despliegue-desde-el-sistema-de-cics-y-entrega-una-prueba-de-funcionamiento-donde-se-compruebe-cómo-se-hace-el-despliegue-automático&quot;&gt;&lt;a href=&quot;#entrega-un-breve-descripci%C3%B3n-de-los-pasos-m%C3%A1s-importantes-para-realizar-el-despliegue-desde-el-sistema-de-cics-y-entrega-una-prueba-de-funcionamiento-donde-se-compruebe-c%C3%B3mo-se-hace-el-despliegue-autom%C3%A1tico&quot; aria-label=&quot;entrega un breve descripción de los pasos más importantes para realizar el despliegue desde el sistema de cics y entrega una prueba de funcionamiento donde se compruebe cómo se hace el despliegue automático permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Entrega un breve descripción de los pasos más importantes para realizar el despliegue desde el sistema de CI/CS y entrega una prueba de funcionamiento donde se compruebe cómo se hace el despliegue automático.&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Para esta práctica utilizaremos el fork de django_tutorial utilizado anteriormente.&lt;/p&gt;
+&lt;p&gt;Crearemos un entorno virtual.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; .virtualenvs/
+fran@debian:~/.virtualenvs$ python3 -m venv django
+fran@debian:~/.virtualenvs$ &lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; django/bin/activate
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/.virtualenvs$ &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Instalamos los requerimientos.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial$ pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -r requirements.txt 
+Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;asgiref&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.3&lt;/span&gt;.0 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
+  Using cached https://files.pythonhosted.org/packages/c0/e8/578887011652048c2d273bf98839a11020891917f3aa638a0bc9ac04d653/asgiref-3.3.0-py3-none-any.whl
+Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;Django&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.1&lt;/span&gt;.3 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
+  Using cached https://files.pythonhosted.org/packages/7f/17/16267e782a30ea2ce08a9a452c1db285afb0ff226cfe3753f484d3d65662/Django-3.1.3-py3-none-any.whl
+Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;pytz&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2020.4&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
+  Using cached https://files.pythonhosted.org/packages/12/f8/ff09af6ff61a3efaad5f61ba5facdf17e7722c4393f7d8a66674d2dbd29f/pytz-2020.4-py2.py3-none-any.whl
+Collecting &lt;span class=&quot;token assign-left variable&quot;&gt;sqlparse&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.4&lt;/span&gt;.1 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from -r requirements.txt &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;line &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;))&lt;/span&gt;
+  Using cached https://files.pythonhosted.org/packages/14/05/6e8eb62ca685b10e34051a80d7ea94b7137369d8c0be5c3b9d9b6e3f5dae/sqlparse-0.4.1-py3-none-any.whl
+Installing collected packages: asgiref, pytz, sqlparse, Django
+Successfully installed Django-3.1.3 asgiref-3.3.0 pytz-2020.4 sqlparse-0.4.1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Realizaremos una comprobación de los test.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial$ python3 manage.py &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;
+Creating &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; database &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+System check identified no issues &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; silenced&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;
+----------------------------------------------------------------------
+Ran &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; tests &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;.029s
+
+OK
+Destroying &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; database &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Modificaremos la aplicación para producir un error.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial/polls/templates/polls$ &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; index.html 
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% load static %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;link &lt;span class=&quot;token assign-left variable&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;text/css&quot;&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;{% static &apos;polls/style.css&apos; %}&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; latest_question_list %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;question&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; latest_question_list %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;a &lt;span class=&quot;token assign-left variable&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;{% url &apos;polls:detail&apos; question.id %}&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; question.question_text &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% endfor %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Generando un error&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;% endif %&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como podemos comprobar al realizar un nuevo test.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;django&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; fran@debian:~/GitHub/django_tutorial$ python3 manage.py &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;
+Creating &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; database &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;default&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+System check identified no issues &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; silenced&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;F.F&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;
+FAIL: test_future_question &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;polls.tests.QuestionIndexViewTests&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+----------------------------------------------------------------------
+Traceback &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;most recent call last&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:
+  File &lt;span class=&quot;token string&quot;&gt;&quot;/home/fran/GitHub/django_tutorial/polls/tests.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;73&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; test_future_question
+    self.assertContains&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;response, &lt;span class=&quot;token string&quot;&gt;&quot;No polls are available.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  File &lt;span class=&quot;token string&quot;&gt;&quot;/home/fran/.virtualenvs/django/lib/python3.7/site-packages/django/test/testcases.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;470&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; assertContains
+    self.assertTrue&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;real_count &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, msg_prefix + &lt;span class=&quot;token string&quot;&gt;&quot;Couldn&apos;t find %s in response&quot;&lt;/span&gt; % text_repr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+AssertionError: False is not &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Couldn&lt;span class=&quot;token string&quot;&gt;&apos;t find &apos;&lt;/span&gt;No polls are available.&lt;span class=&quot;token string&quot;&gt;&apos; in response
+
+======================================================================
+FAIL: test_no_questions (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/home/fran/GitHub/django_tutorial/polls/tests.py&quot;, line 51, in test_no_questions
+    self.assertContains(response, &quot;No polls are available.&quot;)
+  File &quot;/home/fran/.virtualenvs/django/lib/python3.7/site-packages/django/test/testcases.py&quot;, line 470, in assertContains
+    self.assertTrue(real_count != 0, msg_prefix + &quot;Couldn&apos;&lt;/span&gt;t &lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt; %s &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; response&quot; % text_repr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+AssertionError: False is not &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; Couldn&lt;span class=&quot;token string&quot;&gt;&apos;t find &apos;&lt;/span&gt;No polls are available.&lt;span class=&quot;token string&quot;&gt;&apos; in response
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.029s
+
+FAILED (failures=2)
+Destroying test database for alias &apos;&lt;/span&gt;default&apos;&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Nos produce un error, la respuesta debería ser &quot;No polls are available.&quot; pero se la hemos modificado.&lt;/p&gt;
+&lt;p&gt;Ahora daremos paso a un sistema IC/DC que en mi caso usare &lt;strong&gt;GitHub Actions&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Para poder acceder a &lt;strong&gt;GitHub Actions&lt;/strong&gt; deberemos entrar en nuestro repositorio -&gt; Acceder a la pestaña Actions -&gt; Le daremos a la primera opción &quot;set up a workflow yourself&quot; para seleccionar el flujo de trabajo.&lt;/p&gt;
+&lt;p&gt;Editaremos el fichero generado &lt;strong&gt;main.yml&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# This is a basic workflow to help you get started with Actions&lt;/span&gt;
+
+name: CI
+
+&lt;span class=&quot;token comment&quot;&gt;# Controls when the action will run. &lt;/span&gt;
+on:
+  &lt;span class=&quot;token comment&quot;&gt;# Triggers the workflow on push or pull request events but only for the master branch&lt;/span&gt;
+  push:
+    branches: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  pull_request:
+    branches: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python &lt;span class=&quot;token variable&quot;&gt;${{ matrix.python-version }&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      uses: actions/setup-python@v2
+      with:
+        python-version: &lt;span class=&quot;token variable&quot;&gt;${{ matrix.python-version }&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    - name: Instalar requerimientos
+      run: &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+        pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; --upgrade pip
+        pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -r requirements.txt
+      
+    - name: Probar python3
+      run: python3 manage.py &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Le daremos a &lt;strong&gt;Start Commit&lt;/strong&gt; para añadir el archivo al directorio, Ahora comprobaremos algunos test.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Test Bueno
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/a987b/franmadu6-django_tutorial.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.65625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABG0lEQVQoz42S226DMBBEeWu4GRtjG2NuTZUQ9an//3PT9UKlIIWGhyNfGM/OYid+ekD7K5QdEKY7uvGGfl5gw7pXuxGaqJ/4WzftBEe6qI3nPJHUYUEzPND4GUI5lKolHETdomo6HgtpXxK/aUdFbU/Fe0jSJ364wrRUlRaV9iTyLCzZ3O3mr8grw5qYNBonNnyyuyCzuGG7GYrakabn6sqErdCxMXezaZK4UVCViHY9SmlwKSSyskYuNI9ZqbbxmJQ0UZ/Ef8HRRYP+a8Ht+wdhvkNT2o9M4JJXJxFIC7Um5JRkLI2H8RPd3kgtOBamlPYdUZdXmlp2a8LnlCm3oHleUPtnKZXlV7JL+N9tvqOQq8cu4dF7O0v0+AXvU/Jou/o4bQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;prueba buena&quot;
+        src=&quot;/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/36727/franmadu6-django_tutorial.png&quot;
+        srcset=&quot;/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/acf4b/franmadu6-django_tutorial.png 173w,
+/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/fc834/franmadu6-django_tutorial.png 345w,
+/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/36727/franmadu6-django_tutorial.png 690w,
+/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/17fa4/franmadu6-django_tutorial.png 1035w,
+/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/a5044/franmadu6-django_tutorial.png 1380w,
+/gatsbyjs/static/934278570c75424ad943c48c83ef1f2d/a987b/franmadu6-django_tutorial.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Test Erroneo (Modificando nueva mente el un fichero del repositorio.)
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/99445/Build-software-better-together.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 81.70859538784066%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAAB2UlEQVQ4y41T2XKjMBDkLbsIdCIJBMZO1nGlKv//fbM9w2EnIdl96BoJSa3u1lDN13fqz2/khxcK/ZnK/ErlfANeZe7TiXxmzGu9j0M/U57+UBpfaMA5RuXiRN3pjeJ0o4BN2vfUukwtqvYDmTDIvLHpC/g7n3dxlIttV6jq00R5vFDscXO3HGZon/dx6w7I1qpMlPU4XEA6UbUd2hYbE+h3Y+mXMlL/idZR3XqMUbWnKiIHlrxZjQNL74Xwf1CDUOkgxFyriNwcpJpQJLcYC/XTM0gHsdLaxdKPWPdwTJXYtHG3rF2kkEYhNNjA88Z0YumjXSeqdmyW78FnIebbQh6pyxN5qA2pCLHCZoV8OeO6dXvOj2DianuQe2t0opBJmdCD0MVBctWwtWTmpT4+3DeEq8I0CpEQAi1sP9rdFT10w48K2S73pShNi1KHTG3oJU9+zSOF9ZFCPsCZLVkt1rbKB5+UPmyfp1rL+vIoK6ECYYKaGW1TypkS1DnYNSC3uMja7+EAg/NfFDoQpukqvbl9X369bm2vDQ9zXMaO2iNChUU/3siVK5l0IZ2fBU13IuUL1TZTjX7dodGj/OsJjl4Zamy+ULNGoECgZIyW4cf4DM6XK8gVyP8CWguAW05CRskAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;prueba mala&quot;
+        src=&quot;/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/36727/Build-software-better-together.png&quot;
+        srcset=&quot;/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/acf4b/Build-software-better-together.png 173w,
+/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/fc834/Build-software-better-together.png 345w,
+/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/36727/Build-software-better-together.png 690w,
+/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/17fa4/Build-software-better-together.png 1035w,
+/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/a5044/Build-software-better-together.png 1380w,
+/gatsbyjs/static/612e36562591ab1e4980da5f99acbb55/99445/Build-software-better-together.png 1908w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A continuación vamos a realziar el despliegue coontinuo en un servicio de hosting, &lt;strong&gt;Heroku&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Deberemos irnos a nuestro perfil de usuario en Heroku, buscamos API_KEY la copiamos, ahora nos iremos a nuestro repositorio -&gt; Settings -&gt; Secrets y pegaremos ahí el codigo copiado.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/68cbc/heroku-api-key.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 12.705530642750373%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAcklEQVQI121OywqAMAzb//+SFy9eBPGgIKIgiHjQg6Lzsbk2PkDcwJaSUJI2gpnxN3bp44BS+sFf/dVEhH3VELb55TemUYXASxD6GfpuwDRLyGV1dDY3hiDHDeJd2smYGHXRIY8blEkLrYxz4JZ96dwHJ7K46tgN0+dYAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;heroku key&quot;
+        src=&quot;/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/36727/heroku-api-key.png&quot;
+        srcset=&quot;/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/acf4b/heroku-api-key.png 173w,
+/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/fc834/heroku-api-key.png 345w,
+/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/36727/heroku-api-key.png 690w,
+/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/17fa4/heroku-api-key.png 1035w,
+/gatsbyjs/static/9cc3701c465362da7b664f8694d57dbc/68cbc/heroku-api-key.png 1338w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/6cfee17a43c7b6393cf539862e47991d/bd128/heroku-api-key2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.961783439490446%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABnklEQVQoz4WS2XKkMAxFeU53oAGbzYCh2XrJJJn8/78p9wpCTU+qkodTkm1ZupYc+OEqrpul7hY5RFaO4LBxPGW7/++a9ik0Yksvw+VNzsur9POLnEwlARMxISnqs2RVL2U7KrbspGgGafrLdubVqu96qRBT94u0EMV7LBTkOMgRQJyfETRB7ayBZTOuxfyE80ESN0uctRKlBSglTAp5jnO1TKYJO0j1412a80UsqmRuVbmDgtwnpjqLgWpTeFi/WpDqupMQRQI+jc/ixQg9iFJg3Eb1wElxO7Gtd5K8UaUBZTKQ0qlyvv+VfrrLuPyR6fomw/KidsE+/fHyKvPtXSaQZPVWpNLnMkfARVq0epiiioFv60myZt7J2+Vhrc9ELFXxHmEyTfj/1zjgOzybWkLrJTQt7HeOp/zxDtgTfkle+1euPUQvwmSd3mof0bi935vFniacbx/oyzv+2lUnxSlbTvoHdNKAk+eEU67hM2kQO0yLVE7Hvqr6mTRvtdfsZTPcpOHnB0cqjDLIB6Et9j78BlsUW6dW/yL8FDDhJzVfM6DHwZOEAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;heroku key 2&quot;
+        src=&quot;/gatsbyjs/static/6cfee17a43c7b6393cf539862e47991d/36727/heroku-api-key2.png&quot;
+        srcset=&quot;/gatsbyjs/static/6cfee17a43c7b6393cf539862e47991d/acf4b/heroku-api-key2.png 173w,
+/gatsbyjs/static/6cfee17a43c7b6393cf539862e47991d/fc834/heroku-api-key2.png 345w,
+/gatsbyjs/static/6cfee17a43c7b6393cf539862e47991d/36727/heroku-api-key2.png 690w,
+/gatsbyjs/static/6cfee17a43c7b6393cf539862e47991d/bd128/heroku-api-key2.png 942w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ahora crearemos un nuevo proyecto en heroku y lo conectaremos con GitHub.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/99445/django-tutorial-franmadu6GitHubHeroku.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.955974842767304%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABU0lEQVQoz21Si27DMAjM/39nN02T0jSOX+DH7XDjru2GdAKDDQd4SSFDtUKkQHIZOmdFpo5J4Rk3mC1274TFs9AuEw2XyweWmAoSE/kgWFePbQu4bh67iwhRByyZ3Zmw83GwkLdCv353RCy9dxhaa2QmZKkoZGDnUshYdWhDrZV324g1e0N7vjeYLJVUDdb2fiOz3Y+WW+0IPuF7dWS+03+QgcdK9sbkOAJizCxyfz+xaK54QJ5sIkVB4ChK6WTdRjwnm3Ud0H/w1HLngzIqTt8oQN/ttiFJYhfWej3jONFfsOCUkbS2kXiKzUrZRmIi4QyVydo5q85Yp+9dljlMY+Yc5xLSGL6JciGOm9xCpU4Ds4MmgurDYxkPhs8OYzQCdweUi0nakQn7Z1LuOnOe2ezaXxK+May4Xh03l8ZXMdmD4nON+NrILjV46fC54zgR5G/CH+OMEW40YrE+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;heroku 3&quot;
+        src=&quot;/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/36727/django-tutorial-franmadu6GitHubHeroku.png&quot;
+        srcset=&quot;/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/acf4b/django-tutorial-franmadu6GitHubHeroku.png 173w,
+/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/fc834/django-tutorial-franmadu6GitHubHeroku.png 345w,
+/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/36727/django-tutorial-franmadu6GitHubHeroku.png 690w,
+/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/17fa4/django-tutorial-franmadu6GitHubHeroku.png 1035w,
+/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/a5044/django-tutorial-franmadu6GitHubHeroku.png 1380w,
+/gatsbyjs/static/ee8567ac9c8fc8efa4f0678b527aa503/99445/django-tutorial-franmadu6GitHubHeroku.png 1908w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Modificaremos el fichero main nueva mente añadiendo las sigueinte lineas para implementarlo en heroku:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# This is a basic workflow to help you get started with Actions&lt;/span&gt;
+
+name: CI
+
+&lt;span class=&quot;token comment&quot;&gt;# Controls when the action will run. &lt;/span&gt;
+on:
+  &lt;span class=&quot;token comment&quot;&gt;# Triggers the workflow on push or pull request events but only for the master branch&lt;/span&gt;
+  push:
+    branches: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  pull_request:
+    branches: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: akhileshns/heroku-deploy@v3.8.9 &lt;span class=&quot;token comment&quot;&gt;# This is the action&lt;/span&gt;
+      with:
+          heroku_api_key: &lt;span class=&quot;token variable&quot;&gt;${{secrets.HEROKU_API_KEY}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+          heroku_app_name: &lt;span class=&quot;token string&quot;&gt;&quot;django-tutorial-franmadu6&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#Must be unique in Heroku&lt;/span&gt;
+          heroku_email: &lt;span class=&quot;token string&quot;&gt;&quot;frandh1997@gmail.com&quot;&lt;/span&gt;
+          procfile: &lt;span class=&quot;token string&quot;&gt;&quot;web: npm start&quot;&lt;/span&gt;    
+
+    - name: Set up Python &lt;span class=&quot;token variable&quot;&gt;${{ matrix.python-version }&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      uses: actions/setup-python@v2
+      with:
+        python-version: &lt;span class=&quot;token variable&quot;&gt;${{ matrix.python-version }&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    - name: Instalar requerimientos
+      run: &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+        pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; --upgrade pip
+        pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -r requirements.txt
+      
+    - name: Probar python3
+      run: python3 manage.py &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;También modificaremos el fichero settings.py y le añadiremos en la primera línea:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;import&lt;/span&gt; os&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Y en la ultima:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;STATIC_ROOT &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; os.path.join&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;BASE_DIR, &lt;span class=&quot;token string&quot;&gt;&apos;static&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/c84b40c9ddf73d233a45239b04e2882e/f570d/Build-Heroku.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 95.3125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAACKklEQVQ4y41U7XabMAzl/R9oT7D93zld119ZmqaEJBAMGOMvyK0kQka20JRzLgLbkq+ubCWpsmjbDs45zJ9+GEb0A2Lfkx1xPp8F/z4+eOSHDEmZaRSEpnIU2KOpO2htoSqDY1GjKGm+bFGoEdp4tF1Aa4PYRjvoLmKfV3j69RvJfldjlyooRQH2DbKsxPuuwNPLmmwOQ06djVfbSkAvgSvavDy1grqyND8gMdah1kZYmdahMwF102G1yaBbixAHOB/hCWxD7AUxshQz0H8IEYn3Ad4RQiCHQIuj6DaQTj058hyPRfrm+Um/Ud9J21HngcYST1oY0sE6T5Q9DZ6vBeHv4VKEq+UxmjOdkww0FVQbK1lyjMSHnsRXeNtmpNkB2/SANMspbQPDm3UM3iwIrIsCJxL0N+C0E0cp7Q8nrNZbrDcpBT3K/yFXKE71+H0sqZpWAk2B74HJJbzTkZzXrykFfReGu30uYyfVUCodVdbN2P1lOcc14JhyJew2lPbr244CFjLGDE9lg4rSv8fobsBAr5yc/xBDTpOFnhjxkfFhkIWs0eT4KUN2YiacLls+g6qmw6q0YPpWVSuFmuu4yJAryaw0HWy2S+BqPwzIr6U0llJ7WBRZ9MlxWCrEYsp86R+dsa9gZOjHDnK7+9cl+I8hX2wOwPeTn6l33tzfGaTBXtaNON/4JNxyGNJ1QpSOwp3n548Vvn97lk4yLWbHcOk6fsLFx1Jj4TgfWY/Dfsi8lfwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;heroku 4&quot;
+        src=&quot;/gatsbyjs/static/c84b40c9ddf73d233a45239b04e2882e/36727/Build-Heroku.png&quot;
+        srcset=&quot;/gatsbyjs/static/c84b40c9ddf73d233a45239b04e2882e/acf4b/Build-Heroku.png 173w,
+/gatsbyjs/static/c84b40c9ddf73d233a45239b04e2882e/fc834/Build-Heroku.png 345w,
+/gatsbyjs/static/c84b40c9ddf73d233a45239b04e2882e/36727/Build-Heroku.png 690w,
+/gatsbyjs/static/c84b40c9ddf73d233a45239b04e2882e/f570d/Build-Heroku.png 960w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Como podemos comprobrar se hace el desplieque automático en heroku si realizamos un deploy desde github actions.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[[SAD] - Cortafuegos - OpenStack]]></title><description><![CDATA[Cortafuegos Vamos a construir un cortafuegos en dulcinea que nos permita controlar el tráfico de nuestra red. El cortafuegos que vamos a…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sad-cortafuegos-open-stack</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/sad-cortafuegos-open-stack</guid><category><![CDATA[Cortafuegos]]></category><category><![CDATA[Iptables]]></category><category><![CDATA[OpenStack]]></category><pubDate>Sun, 04 Apr 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;cortafuegos&quot;&gt;&lt;a href=&quot;#cortafuegos&quot; aria-label=&quot;cortafuegos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Cortafuegos&lt;/h1&gt;
 &lt;h2 id=&quot;vamos-a-construir-un-cortafuegos-en-dulcinea-que-nos-permita-controlar-el-tráfico-de-nuestra-red-el-cortafuegos-que-vamos-a-construir-debe-funcionar-tras-un-reinicio&quot;&gt;&lt;a href=&quot;#vamos-a-construir-un-cortafuegos-en-dulcinea-que-nos-permita-controlar-el-tr%C3%A1fico-de-nuestra-red-el-cortafuegos-que-vamos-a-construir-debe-funcionar-tras-un-reinicio&quot; aria-label=&quot;vamos a construir un cortafuegos en dulcinea que nos permita controlar el tráfico de nuestra red el cortafuegos que vamos a construir debe funcionar tras un reinicio permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Vamos a construir un cortafuegos en dulcinea que nos permita controlar el tráfico de nuestra red. El cortafuegos que vamos a construir debe funcionar tras un reinicio.&lt;/h2&gt;
 &lt;p&gt;El primer paso antes de ponernos a configurar la seguridad de nuestra red es necesario la instalación de nftables.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#instalación&lt;/span&gt;
