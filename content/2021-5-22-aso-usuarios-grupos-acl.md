@@ -380,7 +380,7 @@ olcMemberOfMemberAD: member
 olcMemberOfMemberOfAD: memberOf
 ```
 
-Ahora configuraremos la **integridad refencial** que basicamente es hacer relaciones entre usuarios y grupos. Para ello crearemos los siguientes dos archivos:
+Ahora configuraremos la **integridad refencial** que basicamente es hacer relaciones entre usuarios y grupos. Para ello crearemos el siguiente archivo:
 ```shell
 root@freston:/home/debian/prueba# cat refintla.ldif 
 dn: cn=module,cn=config
