@@ -20,5 +20,11 @@ tags:
 ## Elige una instancia del escenario de OpenStack y vuelve a crearla utilizando el mismo volumen para el sistema raíz, pero realizando toda la configuración posible con cloud-init, de manera que la instancia permanezca bien configurada aunque se reinicie.
 * Sube a la tarea el fichero **cloud-config** utilizado.
 
+habilitaremos el servidor dhcp de la subred
+![PracticaImg](images/hlc/subred-cloud-init.png "subred-cloud-init")
 
+
+```shell
+root@debian:/home/fran/Documentos# echo "export OS_VOLUME_API_VERSION=2" >> Proyecto\ de\ francisco.madu-openrc.sh 
+```
 

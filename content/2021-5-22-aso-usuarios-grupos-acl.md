@@ -254,37 +254,37 @@ Crearemos **gruposusuarios.ldif**
 dn: cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org
 changetype:modify
 replace: member
-member: uid=peralta,ou=People,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=peralta,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
 
 dn: cn=almacen,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org
 changetype:modify
 replace: member
-member: uid=iniesta,ou=People,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=iniesta,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
 
 dn: cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org
 changetype:modify
 add: member
-member: uid=ramos,ou=People,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=ramos,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
 
 dn: cn=almacen,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org
 changetype:modify
 add: member
-member: uid=ramos,ou=People,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=ramos,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
 
 dn: cn=admin,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org
 changetype:modify
 replace: member
-member: uid=rico,ou=People,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=rico,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
 
 dn: cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org
 changetype:modify
 add: member
-member: uid=rico,ou=People,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=rico,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
 
 dn: cn=admin,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org
 changetype:modify
 add: member
-member: uid=pataki,ou=People,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=pataki,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
 ```
 
 Añadimos las modificaciones:
@@ -327,25 +327,25 @@ dn: cn=admin,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org
 objectClass: top
 objectClass: groupOfNames
 cn:: YWRtaW4gICAg
-member: uid=rico,ou=People,dc=madu,dc=gonzalonazareno,dc=org
-member: uid=pataki,ou=People,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=rico,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=pataki,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
 
 # almacen, Grupos, madu.gonzalonazareno.org
 dn: cn=almacen,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org
 objectClass: top
 objectClass: groupOfNames
 cn:: YWxtYWNlbiAg
-member: uid=iniesta,ou=People,dc=madu,dc=gonzalonazareno,dc=org
-member: uid=ramos,ou=People,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=iniesta,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=ramos,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
 
 # comercial, Grupos, madu.gonzalonazareno.org
 dn: cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org
 objectClass: top
 objectClass: groupOfNames
 cn: comercial
-member: uid=peralta,ou=People,dc=madu,dc=gonzalonazareno,dc=org
-member: uid=ramos,ou=People,dc=madu,dc=gonzalonazareno,dc=org
-member: uid=rico,ou=People,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=peralta,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=ramos,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
+member: uid=rico,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
 
 # search result
 search: 2
@@ -359,16 +359,13 @@ result: 0 Success
 
 Para ello añadiremos el atributo "memberOf" a un nuevo fichero de configuración el cual nos permitirá cargar el módulo **memberof.la**.
 ```shell
-root@freston:/home/debian# nano memberof.ldif
-
+root@freston:/home/debian/prueba# cat memberofdef.ldif 
 dn: cn=module,cn=config
 cn: module
 objectClass: olcModuleList
 objectclass: top
 olcModuleLoad: memberof.la
 olcModulePath: /usr/lib/ldap
-
-root@freston:/home/debian# nano config_memberof.ldif
 
 dn: olcOverlay={0}memberof,olcDatabase={1}mdb,cn=config
 objectClass: olcConfig
@@ -385,9 +382,7 @@ olcMemberOfMemberOfAD: memberOf
 
 Ahora configuraremos la **integridad refencial** que basicamente es hacer relaciones entre usuarios y grupos. Para ello crearemos los siguientes dos archivos:
 ```shell
-#primer archivo
-root@freston:/home/debian# nano referencial1.ldif
-
+root@freston:/home/debian/prueba# cat refintla.ldif 
 dn: cn=module,cn=config
 cn: module
 objectclass: olcModuleList
@@ -401,9 +396,7 @@ objectClass: olcOverlayConfig
 objectClass: olcRefintConfig
 objectClass: top
 olcOverlay: {1}refint
-olcRefintAttribute: memberof member manager owne
-#segundo archivo
-root@freston:/home/debian# nano referencial2.ldif
+olcRefintAttribute: memberof member manager owner
 
 dn: olcOverlay=memberof,olcDatabase={1}mdb,cn=config
 objectClass: olcOverlayConfig
@@ -414,24 +407,26 @@ olcMemberOfRefint: TRUE
 
 Los cargamos:
 ```shell
-sudo ldapadd -Q -Y EXTERNAL -H ldapi:/// -f memberof.ldif
-#nota en algun momento carge el modulo y olvide copiar la entrada aún así lo podemos comprobar viendo los modulos que tenemos cargados actualmente:(lo mismo paso con el modulo de refint.la)
+root@freston:/home/debian/prueba# ldapadd -Q -Y EXTERNAL -H ldapi:/// -f memberofdef.ldif 
+adding new entry "cn=module,cn=config"
+
+adding new entry "olcOverlay={0}memberof,olcDatabase={1}mdb,cn=config"
+
+root@freston:/home/debian/prueba# nano refintla.ldif
+root@freston:/home/debian/prueba# sudo ldapadd -Y EXTERNAL -H ldapi:/// -f refintla.ldif 
+SASL/EXTERNAL authentication started
+SASL username: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+SASL SSF: 0
+adding new entry "cn=module,cn=config"
+
+adding new entry "olcOverlay={1}refint,olcDatabase={1}mdb,cn=config"
+
+adding new entry "olcOverlay=memberof,olcDatabase={1}mdb,cn=config"
+
 root@freston:/home/debian# slapcat -n 0 | grep olcModuleLoad
 olcModuleLoad: {0}back_mdb
 olcModuleLoad: {0}refint.la
 olcModuleLoad: {0}memberof.la
-#
-root@freston:/home/debian# sudo ldapadd -Y EXTERNAL -H ldapi:/// -f config_memberof.ldif 
-SASL/EXTERNAL authentication started
-SASL username: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-SASL SSF: 0
-adding new entry "olcOverlay={0}memberof,olcDatabase={1}mdb,cn=config"
-#
-sudo ldapadd -Q -Y EXTERNAL -H ldapi:/// -f referencial1.ldif 
-
-#
-root@freston:/home/debian# sudo ldapadd -Q -Y EXTERNAL -H ldapi:/// -f referencial2.ldif 
-adding new entry "olcOverlay=memberof,olcDatabase={1}mdb,cn=config"
 ```
 
 Deberemos borrar los objetos creados anteriormente en el grupo para que se apliquen los cambios:
@@ -473,13 +468,15 @@ modifying entry "cn=admin,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org"
 
 Y finalmente comprobaremos:
 ```shell
-root@freston:/home/debian# sudo ldapsearch -LL -Y EXTERNAL -H ldapi:/// "(uid=ramos)" -b dc=madu,dc=gonzalonazareno,dc=org memberOf
+root@freston:/home/debian/prueba# sudo ldapsearch -LL -Y EXTERNAL -H ldapi:/// "(uid=ramos)" -b dc=madu,dc=gonzalonazareno,dc=org memberOf
 SASL/EXTERNAL authentication started
 SASL username: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
 SASL SSF: 0
 version: 1
 
 dn: uid=ramos,ou=Personas,dc=madu,dc=gonzalonazareno,dc=org
+memberOf: cn=comercial,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org
+memberOf: cn=almacen,ou=Grupos,dc=madu,dc=gonzalonazareno,dc=org
 ```
 
 4. ## Crea las ACLs necesarias para que los usuarios del grupo almacen puedan ver todos los atributos de todos los usuarios pero solo puedan modificar las suyas.
