@@ -395,7 +395,7 @@ olcMemberOfRefInt: TRUE
 olcMemberOfGroupOC: groupOfNames
 olcMemberOfMemberAD: member
 olcMemberOfMemberOfAD: memberOf</code></pre></div>
-<p>Ahora configuraremos la <strong>integridad refencial</strong> que basicamente es hacer relaciones entre usuarios y grupos. Para ello crearemos los siguientes dos archivos:</p>
+<p>Ahora configuraremos la <strong>integridad refencial</strong> que basicamente es hacer relaciones entre usuarios y grupos. Para ello crearemos el siguiente archivo:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">root@freston:/home/debian/prueba<span class="token comment"># cat refintla.ldif </span>
 dn: <span class="token assign-left variable">cn</span><span class="token operator">=</span>module,cn<span class="token operator">=</span>config
 cn: module
