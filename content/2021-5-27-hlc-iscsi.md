@@ -198,7 +198,7 @@ Synchronizing state of open-iscsi.service with SysV service script with /lib/sys
 Executing: /lib/systemd/systemd-sysv-install enable open-iscsi
 ```
 
-Lo que haremos ahora será crear la unidad de systemd para que se monte automáticamente cuando inicie el sistema, para ello, primero crearemos la carpeta dónde se montarán las unidades iSCSI y acto sigueinte crearemos la unidad systemd tipo mount teniendo en cuenta que el nombre que deben de tener tiene que ser igual que el del directorio donde se va a montar y el UUID que tenemos que poner es el del disco del target :
+Lo que haremos ahora será crear la unidad de systemd para que se monte automáticamente cuando inicie el sistema, para ello, primero crearemos la carpeta dónde se montarán las unidades iSCSI y acto siguiente crearemos la unidad systemd tipo mount teniendo en cuenta que el nombre que deben de tener tiene que ser igual que el del directorio donde se va a montar y el UUID que tenemos que poner es el del disco del target :
 ```shell
 vagrant@cliente:~$ sudo mkdir /media/iSCSI
 vagrant@cliente:~$ sudo nano /etc/systemd/system/media-iSCSI-target1.mount
@@ -243,7 +243,7 @@ vagrant@server:~$ sudo nano /etc/tgt/conf.d/target2.conf
 <target iqn.2021-01-target2>
     backing-store /dev/sdc
     backing-store /dev/sdd
-    incominguser user password12345678
+    incominguser user franciscomadu123
 </target>
 ```
 
