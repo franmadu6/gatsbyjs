@@ -206,7 +206,7 @@ sdb      <span class="token number">8</span>:32   <span class="token number">0</
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@cliente:~$ <span class="token function">sudo</span> systemctl <span class="token builtin class-name">enable</span> open-iscsi.service
 Synchronizing state of open-iscsi.service with SysV <span class="token function">service</span> script with /lib/systemd/systemd-sysv-install.
 Executing: /lib/systemd/systemd-sysv-install <span class="token builtin class-name">enable</span> open-iscsi</code></pre></div>
-<p>Lo que haremos ahora será crear la unidad de systemd para que se monte automáticamente cuando inicie el sistema, para ello, primero crearemos la carpeta dónde se montarán las unidades iSCSI y acto sigueinte crearemos la unidad systemd tipo mount teniendo en cuenta que el nombre que deben de tener tiene que ser igual que el del directorio donde se va a montar y el UUID que tenemos que poner es el del disco del target :</p>
+<p>Lo que haremos ahora será crear la unidad de systemd para que se monte automáticamente cuando inicie el sistema, para ello, primero crearemos la carpeta dónde se montarán las unidades iSCSI y acto siguiente crearemos la unidad systemd tipo mount teniendo en cuenta que el nombre que deben de tener tiene que ser igual que el del directorio donde se va a montar y el UUID que tenemos que poner es el del disco del target :</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">vagrant@cliente:~$ <span class="token function">sudo</span> <span class="token function">mkdir</span> /media/iSCSI
 vagrant@cliente:~$ <span class="token function">sudo</span> <span class="token function">nano</span> /etc/systemd/system/media-iSCSI-target1.mount
 
@@ -240,7 +240,7 @@ sdb    ext4         3a221b23-0abc-4590-9a3d-1e8c369ea47c  <span class="token num
 <span class="token operator">&lt;</span>target iqn.2021-01-target<span class="token operator"><span class="token file-descriptor important">2</span>></span>
     backing-store /dev/sdc
     backing-store /dev/sdd
-    incominguser user password12345678
+    incominguser user franciscomadu123
 <span class="token operator">&lt;</span>/target<span class="token operator">></span></code></pre></div>
 <p>Reiniciamos servicio:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">sudo</span> systemctl restart tgt</code></pre></div>
