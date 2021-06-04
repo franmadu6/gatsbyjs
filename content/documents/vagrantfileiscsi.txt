@@ -1,0 +1,44 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+        config.vm.define :server do |server|
+                disco1 = '.vagrant/disco1.vdi'
+                disco2 = '.vagrant/disco2.vdi'
+                disco3 = '.vagrant/disco3.vdi'
+                disco4 = '.vagrant/disco4.vdi'
+                server.vm.box = "debian/buster64"
+                server.vm.hostname = "server"
+                server.vm.network "public_network",:bridge=>"wlo1"
+                server.vm.network "private_network", ip: "192.168.100.1",
+                        virtualbox__intnet: "intranet"
+                server.vm.provider :virtualbox do |v|
+                        if not File.exist?(disco1)
+                                v.customize ["createhd", "--filename", disco1, "--size", 1024]
+                                v.customize ["storageattach", :id, "--storagectl", "SATA Controller", "--port", 1, "--device", 0, "--type", "hdd", "--medium", disco1]
+                        end
+                        if not File.exist?(disco2)
+                                v.customize ["createhd", "--filename", disco2, "--size", 1024]
+                                v.customize ["storageattach", :id, "--storagectl", "SATA Controller", "--port", 2, "--device", 0, "--type", "hdd", "--medium", disco2]
+                        end
+                        if not File.exist?(disco3)
+                                v.customize ["createhd", "--filename", disco3, "--size", 1024]
+                                v.customize ["storageattach", :id, "--storagectl", "SATA Controller", "--port", 3, "--device", 0, "--type", "hdd", "--medium", disco3]
+                        end
+                        if not File.exist?(disco4)
+                                v.customize ["createhd", "--filename", disco4, "--size", 1024]
+                                v.customize ["storageattach", :id, "--storagectl", "SATA Controller", "--port", 4, "--device", 0, "--type", "hdd", "--medium", disco4]
+                        end
+                end
+        end
+
+        config.vm.define :debian do |debian|
+                debian.vm.box = "debian/buster64"
+                debian.vm.hostname = "cliente"
+                debian.vm.network "public_network",:bridge=>"wlo1"
+                debian.vm.network "private_network", ip:"192.168.100.2",
+                        virtualbox__intnet: "intranet"
+        end
+
+end
