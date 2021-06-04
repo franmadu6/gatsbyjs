@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 02 Jun 2021 15:45:57 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[iSCSI]]></title><description><![CDATA[Configura un escenario con vagrant o similar que incluya varias máquinas que permita realizar la configuración de un servidor iSCSI y dos…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/i-scsi</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/i-scsi</guid><category><![CDATA[iSCSI]]></category><category><![CDATA[Linux]]></category><category><![CDATA[windows]]></category><pubDate>Wed, 26 May 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configura-un-escenario-con-vagrant-o-similar-que-incluya-varias-máquinas-que-permita-realizar-la-configuración-de-un-servidor-iscsi-y-dos-clientes-uno-linux-y-otro-windows-explica-de-forma-detallada-en-la-tarea-los-pasos-realizados&quot;&gt;&lt;a href=&quot;#configura-un-escenario-con-vagrant-o-similar-que-incluya-varias-m%C3%A1quinas-que-permita-realizar-la-configuraci%C3%B3n-de-un-servidor-iscsi-y-dos-clientes-uno-linux-y-otro-windows-explica-de-forma-detallada-en-la-tarea-los-pasos-realizados&quot; aria-label=&quot;configura un escenario con vagrant o similar que incluya varias máquinas que permita realizar la configuración de un servidor iscsi y dos clientes uno linux y otro windows explica de forma detallada en la tarea los pasos realizados permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configura un escenario con vagrant o similar que incluya varias máquinas que permita realizar la configuración de un servidor iSCSI y dos clientes (uno linux y otro windows). Explica de forma detallada en la tarea los pasos realizados.&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Crea un target con una LUN y conéctala a un cliente GNU/Linux. Explica cómo escaneas desde el cliente buscando los targets disponibles y utiliza la unidad lógica proporcionada, formateándola si es necesario y montándola.&lt;/li&gt;
-&lt;li&gt;Utiliza systemd mount para que el target se monte automáticamente al arrancar el cliente&lt;/li&gt;
-&lt;li&gt;Crea un target con 2 LUN y autenticación por CHAP y conéctala a un cliente windows. Explica cómo se escanea la red en windows y cómo se utilizan las unidades nuevas (formateándolas con NTFS)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Nota: Es posible realizar esta tarea en un entorno virtual y corregirlo en clase o alternativamente montar un playbook con ansible que configure todo el escenario de forma automática y permita corregirlo a distancia montándolo desde cero.&lt;/p&gt;
-&lt;hr&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Utilización de cloud-init]]></title><description><![CDATA[PracticaImg cloud-init se define como el estándar para personalizar instancias cloud. Las imágenes para las instancias cloud empiezan siendo…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/utilizacion-de-cloud-init</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/utilizacion-de-cloud-init</guid><category><![CDATA[Cloud-init]]></category><category><![CDATA[OpenStack]]></category><pubDate>Wed, 26 May 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/gatsbyjs/a90123ac31a89e2493991affc9cc3c94/cloud-init.svg&quot; alt=&quot;PracticaImg&quot; title=&quot;cloud init logo&quot;&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 04 Jun 2021 11:35:56 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Utilización de cloud-init]]></title><description><![CDATA[PracticaImg cloud-init se define como el estándar para personalizar instancias cloud. Las imágenes para las instancias cloud empiezan siendo…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/utilizacion-de-cloud-init</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/utilizacion-de-cloud-init</guid><category><![CDATA[Cloud-init]]></category><category><![CDATA[OpenStack]]></category><pubDate>Wed, 26 May 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/gatsbyjs/a90123ac31a89e2493991affc9cc3c94/cloud-init.svg&quot; alt=&quot;PracticaImg&quot; title=&quot;cloud init logo&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;cloud-init-se-define-como-el-estándar-para-personalizar-instancias-cloud-las-imágenes-para-las-instancias-cloud-empiezan-siendo-idénticas-entre-sí-al-ser-clones-es-la-información-proporcionada-por-el-usuario-lo-que-le-da-a-la-instancia-su-personalidad-y-cloud-init-es-la-herramienta-que-aplica-esta-configuración-a-las-instancias-de-forma-automática&quot;&gt;&lt;a href=&quot;#cloud-init-se-define-como-el-est%C3%A1ndar-para-personalizar-instancias-cloud-las-im%C3%A1genes-para-las-instancias-cloud-empiezan-siendo-id%C3%A9nticas-entre-s%C3%AD-al-ser-clones-es-la-informaci%C3%B3n-proporcionada-por-el-usuario-lo-que-le-da-a-la-instancia-su-personalidad-y-cloud-init-es-la-herramienta-que-aplica-esta-configuraci%C3%B3n-a-las-instancias-de-forma-autom%C3%A1tica&quot; aria-label=&quot;cloud init se define como el estándar para personalizar instancias cloud las imágenes para las instancias cloud empiezan siendo idénticas entre sí al ser clones es la información proporcionada por el usuario lo que le da a la instancia su personalidad y cloud init es la herramienta que aplica esta configuración a las instancias de forma automática permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;cloud-init se define como el estándar para personalizar instancias cloud. Las imágenes para las instancias cloud empiezan siendo idénticas entre sí, al ser clones. Es la información proporcionada por el usuario lo que le da a la instancia su personalidad y cloud-init es la herramienta que aplica esta configuración a las instancias de forma automática.&lt;/h3&gt;
 &lt;h3 id=&quot;cloud-init-fue-desarrollado-inicialmente-por-canonical-para-las-imágenes-cloud-de-ubuntu-usadas-por-aws-desde-entonces-la-aplicación-ha-evolucionado-y-puede-ser-usada-en-otras-muchas-distribuciones-y-en-otros-entornos-cloud-y-no-cloud&quot;&gt;&lt;a href=&quot;#cloud-init-fue-desarrollado-inicialmente-por-canonical-para-las-im%C3%A1genes-cloud-de-ubuntu-usadas-por-aws-desde-entonces-la-aplicaci%C3%B3n-ha-evolucionado-y-puede-ser-usada-en-otras-muchas-distribuciones-y-en-otros-entornos-cloud-y-no-cloud&quot; aria-label=&quot;cloud init fue desarrollado inicialmente por canonical para las imágenes cloud de ubuntu usadas por aws desde entonces la aplicación ha evolucionado y puede ser usada en otras muchas distribuciones y en otros entornos cloud y no cloud permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;cloud-init fue desarrollado inicialmente por Canonical para las imágenes cloud de Ubuntu usadas por AWS. Desde entonces, la aplicación ha evolucionado y puede ser usada en otras muchas distribuciones y en otros entornos cloud (y no cloud).&lt;/h3&gt;
 &lt;hr&gt;
@@ -42,7 +35,421 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran/Documentos&lt;span class=&quot;token comment&quot;&gt;# echo &quot;export OS_VOLUME_API_VERSION=2&quot; &gt;&gt; Proyecto\ de\ francisco.madu-openrc.sh &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Usuarios, grupos y ACLs en LDAP]]></title><description><![CDATA[Crea 10 usuarios con los nombres que prefieras en LDAP, esos usuarios deben ser objetos de los tipos posixAccount e inetOrgPerson. Estos…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/usuarios-grupos-y-ac-ls-en-ldap</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/usuarios-grupos-y-ac-ls-en-ldap</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Frestón]]></category><category><![CDATA[ACL]]></category><category><![CDATA[Usuarios]]></category><category><![CDATA[Grupos]]></category><pubDate>Fri, 21 May 2021 22:00:00 GMT</pubDate><content:encoded>&lt;ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@debian:/home/fran/Documentos&lt;span class=&quot;token comment&quot;&gt;# echo &quot;export OS_VOLUME_API_VERSION=2&quot; &gt;&gt; Proyecto\ de\ francisco.madu-openrc.sh &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[iSCSI]]></title><description><![CDATA[Configura un escenario con vagrant o similar que incluya varias máquinas que permita realizar la configuración de un servidor iSCSI y dos…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/i-scsi</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/i-scsi</guid><category><![CDATA[iSCSI]]></category><category><![CDATA[Linux]]></category><category><![CDATA[windows]]></category><pubDate>Wed, 26 May 2021 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;configura-un-escenario-con-vagrant-o-similar-que-incluya-varias-máquinas-que-permita-realizar-la-configuración-de-un-servidor-iscsi-y-dos-clientes-uno-linux-y-otro-windows-explica-de-forma-detallada-en-la-tarea-los-pasos-realizados&quot;&gt;&lt;a href=&quot;#configura-un-escenario-con-vagrant-o-similar-que-incluya-varias-m%C3%A1quinas-que-permita-realizar-la-configuraci%C3%B3n-de-un-servidor-iscsi-y-dos-clientes-uno-linux-y-otro-windows-explica-de-forma-detallada-en-la-tarea-los-pasos-realizados&quot; aria-label=&quot;configura un escenario con vagrant o similar que incluya varias máquinas que permita realizar la configuración de un servidor iscsi y dos clientes uno linux y otro windows explica de forma detallada en la tarea los pasos realizados permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configura un escenario con vagrant o similar que incluya varias máquinas que permita realizar la configuración de un servidor iSCSI y dos clientes (uno linux y otro windows). Explica de forma detallada en la tarea los pasos realizados.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Crea un target con una LUN y conéctala a un cliente GNU/Linux. Explica cómo escaneas desde el cliente buscando los targets disponibles y utiliza la unidad lógica proporcionada, formateándola si es necesario y montándola.&lt;/li&gt;
+&lt;li&gt;Utiliza systemd mount para que el target se monte automáticamente al arrancar el cliente&lt;/li&gt;
+&lt;li&gt;Crea un target con 2 LUN y autenticación por CHAP y conéctala a un cliente windows. Explica cómo se escanea la red en windows y cómo se utilizan las unidades nuevas (formateándolas con NTFS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nota: Es posible realizar esta tarea en un entorno virtual y corregirlo en clase o alternativamente montar un playbook con ansible que configure todo el escenario de forma automática y permita corregirlo a distancia montándolo desde cero.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/060c1503b123c4a5ce6fa16a9c96bdf8/971c4/iscsi_logo.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.7%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHahcIxg//EABkQAQADAQEAAAAAAAAAAAAAAAEAAhEQMf/aAAgBAQABBQK26VSHiTOf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAABAxAf/aAAgBAQAGPwKl11f/xAAZEAACAwEAAAAAAAAAAAAAAAAAEQEhMWH/2gAIAQEAAT8hYlI4WBMj0ZOjiMP/2gAMAwEAAgADAAAAEOPP/8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQMBAT8Qp//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EBJ//8QAGhABAQEBAQEBAAAAAAAAAAAAAREhADFRkf/aAAgBAQABPxAuKnjhu+8iVUyuL+vNNNBZ5yZQTSe8oSp8nCA+Hf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;iscsi_logo.jpg&quot;
+        src=&quot;/gatsbyjs/static/060c1503b123c4a5ce6fa16a9c96bdf8/8c996/iscsi_logo.jpg&quot;
+        srcset=&quot;/gatsbyjs/static/060c1503b123c4a5ce6fa16a9c96bdf8/6f483/iscsi_logo.jpg 173w,
+/gatsbyjs/static/060c1503b123c4a5ce6fa16a9c96bdf8/0fa0d/iscsi_logo.jpg 345w,
+/gatsbyjs/static/060c1503b123c4a5ce6fa16a9c96bdf8/8c996/iscsi_logo.jpg 690w,
+/gatsbyjs/static/060c1503b123c4a5ce6fa16a9c96bdf8/971c4/iscsi_logo.jpg 1000w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Para esta practica utilizaremos el siguiente fichero de configuración de vagrant.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/gatsbyjs/599b7942934b4adbc4ae2471b31a8459/vagrantfileiscsi.txt&quot; title=&quot;archivo de vagrant&quot;&gt;Vagrantfile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;desde-el-lado-del-servidor&quot;&gt;&lt;a href=&quot;#desde-el-lado-del-servidor&quot; aria-label=&quot;desde el lado del servidor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Desde el lado del Servidor&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Instalaremos &lt;strong&gt;tgt&lt;/strong&gt; que es una herramienta que nos hace poder utilizar iSCSI(configurar targets pra iSCSI):&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@server:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; tgt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Una vez instalada daremos comienzo a la creación del target para debian, para crear el target permanente(que no desaparezca tras un reinicio) deberemos de crear un archivo de configuración del mismo:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@server:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/tgt/conf.d/target1.conf
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;target iqn.2021-01-target&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;1&lt;/span&gt;&gt;&lt;/span&gt;
+    backing-store /dev/sdb
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/target&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Lo realizaremos de un solo LUN(Que quiere decir un solo disco), tras ello reiniciaremos el servicio:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@server:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart tgt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Podremos ver la información del target creado:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@server:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; tgtadm --mode target --op show
+Target &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;: iqn.2021-01-target1
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+            Type: controller
+            SCSI ID: IET     00010000
+            SCSI SN: beaf10
+            Size: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; MB, Block size: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            SWP: No
+            Thin-provisioning: No
+            Backing store type: null
+            Backing store path: None
+            Backing store flags: 
+        LUN: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+            Type: disk
+            SCSI ID: IET     00010001
+            SCSI SN: beaf11
+            Size: &lt;span class=&quot;token number&quot;&gt;1074&lt;/span&gt; MB, Block size: &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            SWP: No
+            Thin-provisioning: No
+            Backing store type: rdwr
+            Backing store path: /dev/sdb
+            Backing store flags: 
+    Account information:
+    ACL information:
+        ALL&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;desde-el-lado-del-cliente-debian&quot;&gt;&lt;a href=&quot;#desde-el-lado-del-cliente-debian&quot; aria-label=&quot;desde el lado del cliente debian permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Desde el lado del Cliente (debian)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Deberemos instalar el paquete &lt;strong&gt;open-iscsi&lt;/strong&gt; para que pueda realizar búsquedas de targets desde el cliente:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; open-iscsi
+&lt;span class=&quot;token comment&quot;&gt;#Realizamos una busqueda de targets disponibles:&lt;/span&gt;
+vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; iscsiadm --mode discovery --type sendtargets --portal &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1
+&lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1:3260,1 iqn.2021-01-target1
+&lt;span class=&quot;token comment&quot;&gt;#Conectamos al target encontrado(en este caso el nuestro).&lt;/span&gt;
+vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; iscsiadm --mode node -T iqn.2021-01-target1 --portal &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1 -l
+Logging &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; to &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;iface: default, target: iqn.2021-01-target1, portal: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1,3260&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;multiple&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Login to &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;iface: default, target: iqn.2021-01-target1, portal: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1,3260&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; successful.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Podemos comprobar la conexión con dicho target de la siguiente forma:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; journalctl -k -f
+-- Logs begin at Wed &lt;span class=&quot;token number&quot;&gt;2021&lt;/span&gt;-06-02 &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;:16:45 UTC. --
+Jun 02 &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;:37:41 cliente kernel: scsi &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;:0:0:0: RAID              IET      Controller       0001 PQ: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; ANSI: &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
+Jun 02 &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;:37:41 cliente kernel: scsi &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;:0:0:0: Attached scsi generic sg1 &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;12&lt;/span&gt;
+Jun 02 &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;:37:41 cliente kernel: scsi &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;:0:0:1: Direct-Access     IET      VIRTUAL-DISK     0001 PQ: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; ANSI: &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
+Jun 02 &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;:37:41 cliente kernel: sd &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;:0:0:1: Attached scsi generic sg2 &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+Jun 02 &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;:37:41 cliente kernel: sd &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;:0:0:1: Power-on or device reset occurred
+Jun 02 &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;:37:41 cliente kernel: sd &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;:0:0:1: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;sdb&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2097152&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;-byte logical blocks: &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.07&lt;/span&gt; GB/1.00 GiB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Jun 02 &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;:37:41 cliente kernel: sd &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;:0:0:1: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;sdb&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Write Protect is off
+Jun 02 &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;:37:41 cliente kernel: sd &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;:0:0:1: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;sdb&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Mode Sense: &lt;span class=&quot;token number&quot;&gt;69&lt;/span&gt; 00 &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; 08
+Jun 02 &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;:37:41 cliente kernel: sd &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;:0:0:1: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;sdb&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Write cache: enabled, &lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; cache: enabled, supports DPO and FUA
+Jun 02 &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;:37:41 cliente kernel: sd &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;:0:0:1: &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;sdb&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Attached SCSI disk&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;otros&quot;&gt;&lt;a href=&quot;#otros&quot; aria-label=&quot;otros permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Otros&lt;/h3&gt;
+&lt;h3 id=&quot;formateo-y-uso-del-target&quot;&gt;&lt;a href=&quot;#formateo-y-uso-del-target&quot; aria-label=&quot;formateo y uso del target permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Formateo y uso del target&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Podemos hacer uso del nuevo dispositivo como si estuviera en nuestro propio equipo, como formatearlo:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; mkfs.ext4 /dev/sdb 
+&lt;span class=&quot;token function&quot;&gt;mke2fs&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.44&lt;/span&gt;.5 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;-Dec-2018&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Creating filesystem with &lt;span class=&quot;token number&quot;&gt;262144&lt;/span&gt; 4k blocks and &lt;span class=&quot;token number&quot;&gt;65536&lt;/span&gt; inodes
+Filesystem UUID: 3a221b23-0abc-4590-9a3d-1e8c369ea47c
+Superblock backups stored on blocks: 
+	&lt;span class=&quot;token number&quot;&gt;32768&lt;/span&gt;, &lt;span class=&quot;token number&quot;&gt;98304&lt;/span&gt;, &lt;span class=&quot;token number&quot;&gt;163840&lt;/span&gt;, &lt;span class=&quot;token number&quot;&gt;229376&lt;/span&gt;
+
+Allocating group tables: &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;                            
+Writing inode tables: &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;                            
+Creating journal &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8192&lt;/span&gt; blocks&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+Writing superblocks and filesystem accounting information: &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Comprobamos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ lsblk -f
+NAME   FSTYPE LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINT
+sda                                                                     
+└─sda1 ext4         d3d2a9a3-92f6-4777-bb0f-1d806e57bfec   &lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;.1G     &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;% /
+sdb    ext4         3a221b23-0abc-4590-9a3d-1e8c369ea47c    &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Podemos montarlo para escribir datos en el:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mount&lt;/span&gt; -t ext4 /dev/sdb /mnt/
+vagrant@cliente:~$ lsblk -f
+NAME   FSTYPE LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINT
+sda                                                                     
+└─sda1 ext4         d3d2a9a3-92f6-4777-bb0f-1d806e57bfec   &lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;.1G     &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;% /
+sdb    ext4         3a221b23-0abc-4590-9a3d-1e8c369ea47c  &lt;span class=&quot;token number&quot;&gt;906&lt;/span&gt;.2M     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% /mnt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ejemplo:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; /mnt/fichero1
+vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; /mnt/
+fichero1  lost+found&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;automontar-al-inicio&quot;&gt;&lt;a href=&quot;#automontar-al-inicio&quot; aria-label=&quot;automontar al inicio permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Automontar al inicio&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Primero vamos a cargar el target con la siguiente configuración no sin antes desmontarlo:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; iscsiadm --mode node -T iqn.2021-01-target1 --portal &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1 -u
+Logging out of session &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;sid: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, target: iqn.2021-01-target1, portal: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1,3260&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+Logout of &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;sid: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, target: iqn.2021-01-target1, portal: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1,3260&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; successful.
+vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; iscsiadm --mode node -T iqn.2021-01-target1 -o update -n node.startup -v automatic&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Nos iremos al fichero &lt;strong&gt;/etc/iscsi/iscsid.conf&lt;/strong&gt; y modificaremos la linea de &lt;strong&gt;node.startup = manual&lt;/strong&gt; por &lt;strong&gt;node.startup = automatic&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/iscsi/iscsid.conf
+
+node.startup &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; automatic&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Reiniciamos el servicio y vemos como se carga de manera automática:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart iscsi.service 
+vagrant@cliente:~$ lsblk
+NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT
+sda      &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:0    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  20G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; disk 
+└─sda1   &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:1    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  20G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part /
+sdb      &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:32   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   1G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; disk &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Lo habilitaremos de forma permanente para que se ejecute tras un reincio.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl &lt;span class=&quot;token builtin class-name&quot;&gt;enable&lt;/span&gt; open-iscsi.service
+Synchronizing state of open-iscsi.service with SysV &lt;span class=&quot;token function&quot;&gt;service&lt;/span&gt; script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install &lt;span class=&quot;token builtin class-name&quot;&gt;enable&lt;/span&gt; open-iscsi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Lo que haremos ahora será crear la unidad de systemd para que se monte automáticamente cuando inicie el sistema, para ello, primero crearemos la carpeta dónde se montarán las unidades iSCSI y acto sigueinte crearemos la unidad systemd tipo mount teniendo en cuenta que el nombre que deben de tener tiene que ser igual que el del directorio donde se va a montar y el UUID que tenemos que poner es el del disco del target :&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; /media/iSCSI
+vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/systemd/system/media-iSCSI-target1.mount
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Unit&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;Description&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;target1
+&lt;span class=&quot;token assign-left variable&quot;&gt;After&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;open-iscsi.service
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Mount&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;What&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/dev/disk/by-uuid/3a221b23-0abc-4590-9a3d-1e8c369ea47c
+&lt;span class=&quot;token assign-left variable&quot;&gt;Where&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/media/iSCSI/target1
+&lt;span class=&quot;token assign-left variable&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ext4
+&lt;span class=&quot;token assign-left variable&quot;&gt;Options&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;defaults
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Install&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;WantedBy&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;multi-user.target&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ya sólo nos falta reiniciar los demonios, habilitar la unidad e iniciarla:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ daemon-reload
+vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl &lt;span class=&quot;token builtin class-name&quot;&gt;enable&lt;/span&gt; media-iSCSI-target1.mount
+Created symlink /etc/systemd/system/multi-user.target.wants/media-iSCSI-target1.mount → /etc/systemd/system/media-iSCSI-target1.mount.
+vagrant@cliente:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl start media-iSCSI-target1.mount&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Comprobamos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@cliente:~$ lsblk -f
+NAME   FSTYPE LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINT
+sda                                                                     
+└─sda1 ext4         d3d2a9a3-92f6-4777-bb0f-1d806e57bfec   &lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;.1G     &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;% /
+sdb    ext4         3a221b23-0abc-4590-9a3d-1e8c369ea47c  &lt;span class=&quot;token number&quot;&gt;906&lt;/span&gt;.2M     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% /media/iSCSI/target1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;creación-de-target-para-windows&quot;&gt;&lt;a href=&quot;#creaci%C3%B3n-de-target-para-windows&quot; aria-label=&quot;creación de target para windows permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Creación de target para windows&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Realizaremos los mismos pasos que para la configuración anterior, con un nuevo fichero:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@server:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/tgt/conf.d/target2.conf
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;target iqn.2021-01-target&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;2&lt;/span&gt;&gt;&lt;/span&gt;
+    backing-store /dev/sdc
+    backing-store /dev/sdd
+    incominguser user password12345678
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/target&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Reiniciamos servicio:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart tgt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como podemos observar ya disponemos de un nuevo target:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@server:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; tgtadm --mode target --op show
+Target &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;: iqn.2021-01-target1
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+            Type: controller
+            SCSI ID: IET     00010000
+            SCSI SN: beaf10
+            Size: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; MB, Block size: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            SWP: No
+            Thin-provisioning: No
+            Backing store type: null
+            Backing store path: None
+            Backing store flags: 
+        LUN: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+            Type: disk
+            SCSI ID: IET     00010001
+            SCSI SN: beaf11
+            Size: &lt;span class=&quot;token number&quot;&gt;1074&lt;/span&gt; MB, Block size: &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            SWP: No
+            Thin-provisioning: No
+            Backing store type: rdwr
+            Backing store path: /dev/sdb
+            Backing store flags: 
+    Account information:
+    ACL information:
+        ALL
+Target &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;: iqn.2021-01-target2
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+            Type: controller
+            SCSI ID: IET     00020000
+            SCSI SN: beaf20
+            Size: &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; MB, Block size: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            SWP: No
+            Thin-provisioning: No
+            Backing store type: null
+            Backing store path: None
+            Backing store flags: 
+        LUN: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+            Type: disk
+            SCSI ID: IET     00020001
+            SCSI SN: beaf21
+            Size: &lt;span class=&quot;token number&quot;&gt;1074&lt;/span&gt; MB, Block size: &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            SWP: No
+            Thin-provisioning: No
+            Backing store type: rdwr
+            Backing store path: /dev/sdc
+            Backing store flags: 
+        LUN: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+            Type: disk
+            SCSI ID: IET     00020002
+            SCSI SN: beaf22
+            Size: &lt;span class=&quot;token number&quot;&gt;1074&lt;/span&gt; MB, Block size: &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            SWP: No
+            Thin-provisioning: No
+            Backing store type: rdwr
+            Backing store path: /dev/sdd
+            Backing store flags: 
+    Account information:
+        user
+    ACL information:
+        ALL&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;cliente-windows&quot;&gt;&lt;a href=&quot;#cliente-windows&quot; aria-label=&quot;cliente windows permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Cliente windows&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Para conectarnos a nuestro target desde windows deberemos realizar los siguientes pasos:&lt;/p&gt;
+&lt;p&gt;Inicio -&gt; Buscador iSCSI -&gt; Seleccionar &quot;Iniciador iSCSI&quot; -&gt; Introducimos los datos del servidor y actualizamos:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 485px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/9cb64d75a875be176f6b278f13c3c802/d40d9/iscsiwin.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 146.59793814432987%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAdCAYAAACqhkzFAAAACXBIWXMAAAsSAAALEgHS3X78AAAEXklEQVRIx61UaW/bRhDV//8BRdugBfqltYO2QALkS+GidewktS1b903dEkWJokhKPCTqeH0ztA1fCVKgCwyGO9ydnePNy/z4LodvfvuIb3//hFdvr/DqzSW+f3uJn/4o4/isg1/+buFnyvH7Nl6fc39q4IgitiPajs/aOPrQx+s3H/Duux+QKRkmmu0+boo1XBeqyJXq+Cdb4L6O9sBCZ2hhMHFQbnRwU2ro3uibGJg2akYf+UoLpUYXBn0YlQoyfR5exyG6nQ6us9cYj8awJhPUa3UYrRay2SwuLy5QLpVRKBRgGIZK9iqL96en+PPkBOdn5+jwfm8wRMZyVrBnNgbctGl0PR+HwwFhFMNfrjCfO5g7DparAEEQwveXKrbYKVPelXNxvIZHe2bqLNFqSiTXqFZraNRryOcKGmGlXEGxWESn3UGF6bSaTdprKBVLyOcLMM2JOt3tdpAVxTEyo5mPbbLBZrPBgUZvGcBxfTjeEqswRrROEMYbBNFav0X2+z0jirHUyGKsVqkOwyh1aNu2yn5/gDWbw5xYquNNgi1tyW5PSXWcpNE4LINEKVnkcnkMhyMEYYjMcOZhNp1hYllqlDSS7VYv7RjJlk52uydaIlyvWbslFq4Hj3UPGF0YRanDhOmu1xskScLUE9UiWzp+Kkmy1ZpJo6T2V+x2mVGOxyZWQZCmPCJUmq02axJoXVbsprz4TGiP2M3RyESj0dK9iJyXDkeRNMVeYtAfoFQqoUXc5XI5fU2KHPDFkHW5E9mLfTgc8nxFU42i9KElG6MOh4xw6fvEFjVrMp1O9dKXVkwnjrO4h4ssKYXWcGC5OOx3zy4JuD8nT8/J2rDmqcOpSxwm94cFY19y9rkHHjnc3cLk6etfs547ZMrbbfLgwIPDLziQDKR2oh+uNaGXNmXqaVNcz9NCe9Su62KxcPVbSED2MhkCYiEBAbh0fDabkVQGOhRy/370Br2egrRebxA6BsmgTViUibeRPqIPiEM+IqnJEkSIsxrJotvt8uG5wkcdCgc26bBNnusTk8JtE86zRDW5ZZTFYgGLkYiWJYQguK1Wq8pSEu29Q5NA7vX76PfIukZbD9r2XB0KPkULiJ1bx4q5MNCBkOiEA8R+Sw4+ozA1QmHtRr2JNvlP+LBWTdORCLqdLjmxipubvBJqFIU819aUJSN5VCMUh/JTWNhj0VdkZp8FlhpJ4cUmYycj5vJbopMlDasp2ZbV8ZSMpRGObB9dRiSMIRFVylU2p65NkSYVCyVl6BHLIlFEt2O5Jn0Jh4qjNLogxaHU8L+upxi8W/fkYFgx6mak0rJSqU9S3Zyk3zUz1P/dWcxvajvmEKRkezeuQiqZMenrIRngBfnaeX7k8P9YMkWc5QWiMNCiviQhRajd8lYqUz/Agpj0PJdoSDlUQK6IYOczXXMBhyM1my84Po9FbHOOnmm7OKn28et5Dn81xigbPXz8+AkXVzcYjicYcZq6gxGmPP8v0jaNLnHw+0IAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;iscsiwin.png&quot;
+        src=&quot;/gatsbyjs/static/9cb64d75a875be176f6b278f13c3c802/d40d9/iscsiwin.png&quot;
+        srcset=&quot;/gatsbyjs/static/9cb64d75a875be176f6b278f13c3c802/acf4b/iscsiwin.png 173w,
+/gatsbyjs/static/9cb64d75a875be176f6b278f13c3c802/fc834/iscsiwin.png 345w,
+/gatsbyjs/static/9cb64d75a875be176f6b278f13c3c802/d40d9/iscsiwin.png 485w&quot;
+        sizes=&quot;(max-width: 485px) 100vw, 485px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;En opciones avanzadas deberemos de introduccir nuestra cuenta(usuario y contraseña) -&gt; Habilitamos el inicio de sesión CHAP para poder introducir el usuario y contraseña:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 535px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e9d855815d854c90a119c35d4c71e86b/fd7a0/iscsiwin2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 118.50467289719626%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAAsSAAALEgHS3X78AAADmElEQVQ4y31V2W7bVhDV//9CgaDoS9AmD20RFHkrmrZ2Ui/yJomLKNHUQoqbuFMbdTozFGmqcUPgeK7uJc+d5cy498PHe3z3yxe8+XCN73+7lfXb3xW8+2uCn/408O4baM5//KTj/Ye/8fObt+jp0wUMYwpF1fE0UOD5IbxgXcNfw6XfbnfvFci568Fe2Oj56xRpEmM2m8GcmpjPF8iyHNvtFofDAVVVCXi93++/iSQv0QvjjAgT+H6AKIpRFAWOxyP4Wa1WmNIlfJnn+3QeYb1eE6IX0J5PZ3xhsdnWHoZhAMdZIQhCdB9d13F1dY1+vw9V1WCaJl0w/QqGYWC326EoiXAVJojoVg7VXtrI8zpcfpjk8uKSSK+EnD21np9hWdYZasItciZ0wxR5liEk98OQCkDJLcuNEC7pAiaaTCawHYciCCQ8Aa/ld0DfuBKyEPoR5TBNJVw+XJ+8DcLz8LsPp7iiP11w1rNiQx5KDsM6ZNvGcrGkwpTyId9q2yvydCk5dshL69kSFfBTK+AoFg2hR4QZ5Y1DTtMMSZKKzana+30tm1oWB8GO1rzHSmhQnVSRM2EQ53Bshyp5B13TCGOMhiMMnobi9YYKVJMSIXnc6rGrS1qfeehQqOOxIcmfzea0HrcSGQyGpEdXCsLgonmejziO5TdrlfXYEnKVWTYOHbj0Ib/A4I98AleQU1DkBTVAekpLIk3AtizLtlgtoTpScHPTx+PDAz5ffsHT0wB3/Xtck6gf7h9we3sn58pohBG9q6oqhkMFGlldN6hbYiFM8xNhTO3DHrGo+Vb2xCUvufoJhcbhsbT+T0OV5PD4ksNYPkradzjRAeVlT5LY7asTDig3u6+xrS0Xpg259tCTajPxgYjmpD1zRqPNtDCeTBGluVywJeItXdDFhuV0qF4ICwqVk9xUrpkofKt0QnVsBSy22etYdDtlrI9xcfGZEj2EwfIxJlAUReTiua5Ym7xncCTcURwN65TPDofqvMpcevaqmTLN0wxY7gZes+UxxTmu63E8sy0hi5W91DRdpkuz1mh8qYpKa408VmWPJ1BTwG77/cfDjfRwQqJNs0zEK/1MYk5O/Z3RfpnnryrnLIcr+kdUFpkU5gwF23q/pHVCE2bqR9CWHqyAVOHSFFrQmKPZyFqN1qEMmJ6xCDBzAlg2wXkFtD8nqy9D/Hpn4v0/Gj7pK9w+Kvjj8gaPygTmwoM6nWOy8PEvEfQS7Cesn3kAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;iscsiwin2.png&quot;
+        src=&quot;/gatsbyjs/static/e9d855815d854c90a119c35d4c71e86b/fd7a0/iscsiwin2.png&quot;
+        srcset=&quot;/gatsbyjs/static/e9d855815d854c90a119c35d4c71e86b/acf4b/iscsiwin2.png 173w,
+/gatsbyjs/static/e9d855815d854c90a119c35d4c71e86b/fc834/iscsiwin2.png 345w,
+/gatsbyjs/static/e9d855815d854c90a119c35d4c71e86b/fd7a0/iscsiwin2.png 535w&quot;
+        sizes=&quot;(max-width: 535px) 100vw, 535px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Nos saldra una pantalla confirmando su conexión:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 524px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/6004ed76a9998a2a544e654c8b315f88/606d7/iscsiwin3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.778625954198475%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABIElEQVQoz52PSU/DMBCF8/9/Ai0XJBaxSAEOXJBAgASFSy+VEFtpkiZ20mxO06RJ7MfUbVGKemKkT/P8/GZkGx3zEZ3zHnYvX9C96Gnd1foZO+YTDm5ecfLwieO7Dxzevm/hDfv3Q5wdXcHcO4XxPY4xJGwudLdYCstL8bXS7iSHxXM4wQxZUW+nlBBxijSMYEySErGYI5lW8KMCYUKDeYUkm5NfIiH8KNdslvrDsgzmjsE5B/M8BL6PIPDhka7r6jcUzyIw7pLP4LoMRVFCKoWmkWikRN0skVLBkNpoNIvAOri4XGiNlJpmlVHkrYFSrUfTwiLPkE/biFYXrfNmZpoJFNR5ItAfMfQt+iVpw2YRRl74LxyaHdghrgc24Wj9A60SC0YLRn82AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;iscsiwin3.png&quot;
+        src=&quot;/gatsbyjs/static/6004ed76a9998a2a544e654c8b315f88/606d7/iscsiwin3.png&quot;
+        srcset=&quot;/gatsbyjs/static/6004ed76a9998a2a544e654c8b315f88/acf4b/iscsiwin3.png 173w,
+/gatsbyjs/static/6004ed76a9998a2a544e654c8b315f88/fc834/iscsiwin3.png 345w,
+/gatsbyjs/static/6004ed76a9998a2a544e654c8b315f88/606d7/iscsiwin3.png 524w&quot;
+        sizes=&quot;(max-width: 524px) 100vw, 524px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;formateo-y-uso-unidad-iscsi-desde-windows&quot;&gt;&lt;a href=&quot;#formateo-y-uso-unidad-iscsi-desde-windows&quot; aria-label=&quot;formateo y uso unidad iscsi desde windows permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Formateo y uso unidad iSCSI desde windows&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Nos iremos al gestor de disco y comprobaremos que podemos trabajar o formatear el disco perfectamente:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/ce8e7789cafd12c78423b152f575030d/91b5d/iscsiwin4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 121.8872870249017%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAC4jAAAuIwF4pT92AAADfUlEQVQ4y61UbWvbVhjVD9CvXxsItE1oQikNFJpmsMISWNYP7eo6JZZfJEuyLNmyJVvylfyWxJ5ydu5NbbLa3mDswuGRrq7OPc+r9ur0I04+lPDmly9ECW/Pv+H8q4+LcoDzsk8E6vni6rtdPV91lJXf5fkVtMuSjabjoPTNxKevDsrXDVx+/IxGs4umG8N0+jDtHt9DZS2+160QNaurbNON4HhDBdsbQKvVGgjaHlquC9dpwfPaqFYN9Ho9jMcTTKdTOLYNu2nDdVtoWk1l+/0+HAqR+0HQge/76HS60EbpEF7LRdvzEXBzMOBNPNgmcRiGmEwm6Pf6ECOBNEngtwN1iVyT8VgJkaSe6yF8IEzQckySdYhAKYvjAbIsUyTz2Ryz6Qzz+VxBXnB3d6cIb29v1bmcyESmzmn9OIZtO7BMS5GlScqDDz/807q/v9+6r7Xpf61eR82oMT4WYxHg5uZm/dMu7PqujShVunBDdySmlC1d+TfCXdBWAV6txWK5JvwvS5NBfhyTW6odDAZIGEuZnF4vZonEazsaZUT+3f4dSSI2CReLBa6vK7AsE6bZxtMnv2Jv7wL7+7/h+fNLPHv2Ow4PP+Hly88KR0d/rCHftxJelcswGyZvHaFaqcCoGKome2FX1V0cxaoWZ7MZkqGsz+zBpvkmoUxQxFJKkqFy07IihXo9pHIflUpA+OrZMAKSpKzNMbsqV9ggXC6XKH0p0V2TbdjDk59+xt7TDzg5KePdOwOnp1W8f19V9uysim63r4pbeiOxReGChW6zxXweFCyljN2SyxNbsyrPSMIVNgkZw1arhZBd4zJex8evGPBjvHhxuMbBgbQHTMIRB0KHro4hhFDYmRTZ8Cn73LFNJiFkEnIiY7wyFTeJ4XCooPpeiB0K6XIQBGryhGHEwPsqIb6fMaYpvwl1qYy1bABJ/CNhQZ6ChMoulsuCZVIYRqVoNFrF/v4FcV6wBovXr8vF2ZlRUFUhxKhgEmhFQaK11Vaj6PFyOX26nZB1NoVII46mIYo/5cBYPsxBeiVHmazDHyEVRjwTUaGybD2WYRwlSRJRSZSJPBIii9J0xL2RslQWUQ33hcLqWVpJqJNIJ6GyJNTZFXqe5zpJdc5K3fM8vR9FOuelzqzqzKpOAp0EG9D+90WFmpw6VKgsFWr0WaNbGjO4FVSnUc3aPsZfAACHKTL0vfIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;iscsiwin4.png&quot;
+        src=&quot;/gatsbyjs/static/ce8e7789cafd12c78423b152f575030d/36727/iscsiwin4.png&quot;
+        srcset=&quot;/gatsbyjs/static/ce8e7789cafd12c78423b152f575030d/acf4b/iscsiwin4.png 173w,
+/gatsbyjs/static/ce8e7789cafd12c78423b152f575030d/fc834/iscsiwin4.png 345w,
+/gatsbyjs/static/ce8e7789cafd12c78423b152f575030d/36727/iscsiwin4.png 690w,
+/gatsbyjs/static/ce8e7789cafd12c78423b152f575030d/91b5d/iscsiwin4.png 763w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Usuarios, grupos y ACLs en LDAP]]></title><description><![CDATA[Crea 10 usuarios con los nombres que prefieras en LDAP, esos usuarios deben ser objetos de los tipos posixAccount e inetOrgPerson. Estos…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/usuarios-grupos-y-ac-ls-en-ldap</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/usuarios-grupos-y-ac-ls-en-ldap</guid><category><![CDATA[LDAP]]></category><category><![CDATA[Servidor]]></category><category><![CDATA[Frestón]]></category><category><![CDATA[ACL]]></category><category><![CDATA[Usuarios]]></category><category><![CDATA[Grupos]]></category><pubDate>Fri, 21 May 2021 22:00:00 GMT</pubDate><content:encoded>&lt;ol&gt;
 &lt;li&gt;
 &lt;h2 id=&quot;crea-10-usuarios-con-los-nombres-que-prefieras-en-ldap-esos-usuarios-deben-ser-objetos-de-los-tipos-posixaccount-e-inetorgperson-estos-usuarios-tendrán-un-atributo-userpassword&quot;&gt;&lt;a href=&quot;#crea-10-usuarios-con-los-nombres-que-prefieras-en-ldap-esos-usuarios-deben-ser-objetos-de-los-tipos-posixaccount-e-inetorgperson-estos-usuarios-tendr%C3%A1n-un-atributo-userpassword&quot; aria-label=&quot;crea 10 usuarios con los nombres que prefieras en ldap esos usuarios deben ser objetos de los tipos posixaccount e inetorgperson estos usuarios tendrán un atributo userpassword permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Crea 10 usuarios con los nombres que prefieras en LDAP, esos usuarios deben ser objetos de los tipos posixAccount e inetOrgPerson. Estos usuarios tendrán un atributo userPassword.&lt;/h2&gt;
 &lt;/li&gt;
