@@ -29,7 +29,7 @@ Para esta practica utilizaremos el siguiente fichero de configuración de vagran
 
 ### **Desde el lado del Servidor**
 
-Instalaremos **tgt** que es una herramienta que nos hace poder utilizar iSCSI(configurar targets pra iSCSI):
+Instalaremos **tgt** que es una herramienta que nos hace poder utilizar iSCSI(configurar targets para iSCSI):
 ```shell
 vagrant@server:~$ sudo apt install tgt
 ```
