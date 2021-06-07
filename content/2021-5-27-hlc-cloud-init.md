@@ -434,3 +434,5 @@ permitted by applicable law.
 Last login: Sun Jun  6 10:57:03 2021 from 10.0.1.7
 debian@freston:~$ 
 ```
+
+Como hemos podido comprobar ya tenemos la instancia correctamente configurada y en funcionamiento creada nuevamente con **cloud-init**.
