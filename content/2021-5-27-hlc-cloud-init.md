@@ -155,9 +155,7 @@ Ahora toca configurar nuestro fichero **cloud-config.yaml**, para ello rellenare
 * Creamos los usuarios "ubuntu" (que tendrá contraseña) y "profesor" y les permitimos hacer "sudo" sin contraseña, así como añadir las claves públicas necesarias.
 ```shell
 (openstackclient) fran@debian:~/Documentos$ nano cloud-config.yaml
-#cloud-config
- 
-# 
+#cloud-config 
 apt:
   disable_suites:
     - backports
@@ -167,22 +165,18 @@ apt:
   security:
     - arches: [default]
       uri: http://security.ubuntu.com/ubuntu
- 
 # 
 manage_etc_hosts: true
 fqdn: sancho.madu.gonzalonazareno.org
 hostname: sancho
- 
 #
 ntp:
   enabled: true
   ntp_client: systemd-timesyncd
   servers:
     - es.pool.ntp.org
- 
 # 
 timezone: Europe/Madrid
- 
 # hashed_passwd => se obtiene atraves del comando [mkpasswd --method=SHA-512 --rounds=4096] (necesita estar instalador el paquete whois)
 users:
   - name: ubuntu
