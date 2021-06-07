@@ -184,56 +184,46 @@ No server with a name or ID of <span class="token string">'Sancho'</span> exists
 <li>
 <p>Creamos los usuarios "ubuntu" (que tendrá contraseña) y "profesor" y les permitimos hacer "sudo" sin contraseña, así como añadir las claves públicas necesarias.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token punctuation">(</span>openstackclient<span class="token punctuation">)</span> fran@debian:~/Documentos$ <span class="token function">nano</span> cloud-config.yaml
-<span class="token comment">#cloud-config</span></code></pre></div>
-</li>
-</ul>
-<h1 id=""><a href="#" aria-label=" permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a></h1>
-<p>apt:
+<span class="token comment">#cloud-config </span>
+apt:
 disable_suites:
 - backports
 primary:
-- arches: [default]
-uri: <a href="http://archive.ubuntu.com/ubuntu/">http://archive.ubuntu.com/ubuntu/</a>
+- arches: <span class="token punctuation">[</span>default<span class="token punctuation">]</span>
+  uri: http://archive.ubuntu.com/ubuntu/
 security:
-- arches: [default]
-uri: <a href="http://security.ubuntu.com/ubuntu">http://security.ubuntu.com/ubuntu</a></p>
-<h1 id="-1"><a href="#-1" aria-label=" 1 permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a></h1>
-<p>manage<em>etc</em>hosts: true
+- arches: <span class="token punctuation">[</span>default<span class="token punctuation">]</span>
+  uri: http://security.ubuntu.com/ubuntu
+<span class="token comment"># </span>
+manage_etc_hosts: <span class="token boolean">true</span>
 fqdn: sancho.madu.gonzalonazareno.org
-hostname: sancho</p>
-<h1 id="-2"><a href="#-2" aria-label=" 2 permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a></h1>
-<p>ntp:
-enabled: true
+hostname: sancho
+<span class="token comment">#</span>
+ntp:
+enabled: <span class="token boolean">true</span>
 ntp_client: systemd-timesyncd
 servers:
-- es.pool.ntp.org</p>
-<h1 id="-3"><a href="#-3" aria-label=" 3 permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a></h1>
-<p>timezone: Europe/Madrid</p>
-<h1 id="hashed_passwd--se-obtiene-atraves-del-comando-mkpasswd---methodsha-512---rounds4096-necesita-estar-instalador-el-paquete-whois"><a href="#hashed_passwd--se-obtiene-atraves-del-comando-mkpasswd---methodsha-512---rounds4096-necesita-estar-instalador-el-paquete-whois" aria-label="hashed_passwd  se obtiene atraves del comando mkpasswd   methodsha 512   rounds4096 necesita estar instalador el paquete whois permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>hashed_passwd => se obtiene atraves del comando [mkpasswd --method=SHA-512 --rounds=4096] (necesita estar instalador el paquete whois)</h1>
-<p>users:</p>
-<ul>
-<li>name: ubuntu
-sudo: ALL=(ALL) NOPASSWD:ALL
+- es.pool.ntp.org
+<span class="token comment"># </span>
+timezone: Europe/Madrid
+<span class="token comment"># hashed_passwd => se obtiene atraves del comando [mkpasswd --method=SHA-512 --rounds=4096] (necesita estar instalador el paquete whois)</span>
+users:
+- name: ubuntu
+sudo: <span class="token assign-left variable">ALL</span><span class="token operator">=</span><span class="token punctuation">(</span>ALL<span class="token punctuation">)</span> NOPASSWD:ALL
 shell: /bin/bash
-lock<em>passwd: false
-hashed</em>passwd: $6$rounds=4096$oLDEh24L$DgaQvLjcmUEd1mf.yVzfgFLpXwneTx3njGQPrfMI1s5o1Swe9V.Y0zAnV2NNF7jVlYu4pThZqkKJAp8A7ur3m/
-ssh<em>authorized</em>keys:
--ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDObn8DOhTKNI6ofl7o0ZGkvz7Q9VVXmu445nULNB+NPovmYROGut/ZMG543cez/uUbfKq1UJAvQw5AH9lMKaTsBr8VZLqwiSuk7kEOqTZmfocbDFP+Nr1vO+yhegIJiciAw65Aw9/jz/ubS/1Gsw+FIdUEoApg/Hqr0qmi/DXvi8mUzYfTYZ+Y9y0r7PolhULJGdMoTIkuGLjOZm4KUSjjo9Q3k9mJROHTeHyR6FxOzOV3xlDQWAKqmu0wpCrywoupUr5UCLdqcPQMCWTorSt4d3yENGUG3W/u2DwZggzkrHo9ZGzBNYIuNqx8whxR6FVBeBl3n9858Cx2eqW/mmIx Generated-by-Nova
--ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4c54Ans5kqEEL/qItQT/zyuhUV2nYLeyli7lb+n2mIsuz2UCNggN5njlSR1jg11fsXbQ8FLPRmXK0dml/alFvP6+gZJ7TwDqnZMr8tbLIOh5DumG4SpJYCPQTbAu2COWqJMlFknm1yWK905p0hNbTpvdkjEWmoVa5YQbY8Z/ajreGtVE6htiJJ9dbzXhxucuk6n7/hlwg4GsMox6GeS8CnSkLKdzqCpcrF31yqtbPkXaVuImo4+QvTM81xClk400rUYQz75mNfqDyuMjEapB6AECCPYj7WHVgW8r6vnqFhpCIaz7uh3Pypqv/k8kF7Unz/xfMGwvtuib/m+fMwRhZ fran@debian
--ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCjJLKyf2WmQr7yBO3Sro6/016tk2xWe/cJfc++gkbai9SKGaTn/z+ei8LXQYDlkJbJBeBrgLEaJCzs5b9Whj3Q8GUdTbLBOqTjq7CQ/29rcS1QLCbYcztnKMRBlihARS9KdkTnVQxkBTADqsUmF+vvPBDNfJX4TUA1hGZhL3sIdn9R3U0mIl/oXe8LP8pfuBUYOQGNDi1p+Tb60vCBD5G47CFnzLwoL4eP4qcGpHMvvEujUy4XOe9U1BzFFSzXnNWEuOCEdfE9adE/94J0xszBfRn3WnR+OshUDvexNX9Wa5bhTInjUlyPbYdBkz7rEP8q4Wkhn6OnauZOoz1x5ikjScGWSmZzrFnBDegBhA8verVHXDd73yElbtP3L1REIPbTyIrN1CcDNM6irQr5NPYpwgL7DKjDP8qSxe5yfPVesCrKPtuyO+atyyxVJ+r5BXFQshYz7hGzH1zoKAhTReha3GmFfzf6yDaTeH3wSTtdy1Cll1GMgjwPxpe9YI2YWqSoX2EYCf8SNGf/qnK+VqHfBmBeUHXpkBuQIzWR2Bxq+CtLFfvpF1jziHzTujQUrtnhh0CnqCoyPnpxl7I+M2w8J2BW2wsJNNNgcqIl+xSTJmJT4ZbXamMfQ1zakbZOPNb2Dx+en5slP0UR3sPPM7MKnuVwupslsoTNOWuWYTabpw== frandh1997@gmail.com</li>
-<li>
-<p>name: profesor
-sudo: ALL=(ALL) NOPASSWD:ALL
+lock_passwd: <span class="token boolean">false</span>
+hashed_passwd: <span class="token variable">$6</span><span class="token variable">$rounds</span><span class="token operator">=</span><span class="token number">4096</span><span class="token variable">$oLDEh24L</span><span class="token variable">$DgaQvLjcmUEd1mf</span>.yVzfgFLpXwneTx3njGQPrfMI1s5o1Swe9V.Y0zAnV2NNF7jVlYu4pThZqkKJAp8A7ur3m/
+ssh_authorized_keys:
+  -ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDObn8DOhTKNI6ofl7o0ZGkvz7Q9VVXmu445nULNB+NPovmYROGut/ZMG543cez/uUbfKq1UJAvQw5AH9lMKaTsBr8VZLqwiSuk7kEOqTZmfocbDFP+Nr1vO+yhegIJiciAw65Aw9/jz/ubS/1Gsw+FIdUEoApg/Hqr0qmi/DXvi8mUzYfTYZ+Y9y0r7PolhULJGdMoTIkuGLjOZm4KUSjjo9Q3k9mJROHTeHyR6FxOzOV3xlDQWAKqmu0wpCrywoupUr5UCLdqcPQMCWTorSt4d3yENGUG3W/u2DwZggzkrHo9ZGzBNYIuNqx8whxR6FVBeBl3n9858Cx2eqW/mmIx Generated-by-Nova
+  -ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4c54Ans5kqEEL/qItQT/zyuhUV2nYLeyli7lb+n2mIsuz2UCNggN5njlSR1jg11fsXbQ8FLPRmXK0dml/alFvP6+gZJ7TwDqnZMr8tbLIOh5DumG4SpJYCPQTbAu2COWqJMlFknm1yWK905p0hNbTpvdkjEWmoVa5YQbY8Z/ajreGtVE6htiJJ9dbzXhxucuk6n7/hlwg4GsMox6GeS8CnSkLKdzqCpcrF31yqtbPkXaVuImo4+QvTM81xClk400rUYQz75mNfqDyuMjEapB6AECCPYj7WHVgW8r6vnqFhpCIaz7uh3Pypqv/k8kF7Unz/xfMGwvtuib/m+fMwRhZ fran@debian
+  -ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCjJLKyf2WmQr7yBO3Sro6/016tk2xWe/cJfc++gkbai9SKGaTn/z+ei8LXQYDlkJbJBeBrgLEaJCzs5b9Whj3Q8GUdTbLBOqTjq7CQ/29rcS1QLCbYcztnKMRBlihARS9KdkTnVQxkBTADqsUmF+vvPBDNfJX4TUA1hGZhL3sIdn9R3U0mIl/oXe8LP8pfuBUYOQGNDi1p+Tb60vCBD5G47CFnzLwoL4eP4qcGpHMvvEujUy4XOe9U1BzFFSzXnNWEuOCEdfE9adE/94J0xszBfRn3WnR+OshUDvexNX9Wa5bhTInjUlyPbYdBkz7rEP8q4Wkhn6OnauZOoz1x5ikjScGWSmZzrFnBDegBhA8verVHXDd73yElbtP3L1REIPbTyIrN1CcDNM6irQr5NPYpwgL7DKjDP8qSxe5yfPVesCrKPtuyO+atyyxVJ+r5BXFQshYz7hGzH1zoKAhTReha3GmFfzf6yDaTeH3wSTtdy1Cll1GMgjwPxpe9YI2YWqSoX2EYCf8SNGf/qnK+VqHfBmBeUHXpkBuQIzWR2Bxq+CtLFfvpF1jziHzTujQUrtnhh0CnqCoyPnpxl7I+M2w8J2BW2wsJNNNgcqIl+xSTJmJT4ZbXamMfQ1zakbZOPNb2Dx+en5slP0UR3sPPM7MKnuVwupslsoTNOWuWYTabpw<span class="token operator">==</span> frandh1997@gmail.com
+- name: profesor
+sudo: <span class="token assign-left variable">ALL</span><span class="token operator">=</span><span class="token punctuation">(</span>ALL<span class="token punctuation">)</span> NOPASSWD:ALL
 shell: /bin/bash
-ssh<em>authorized</em>keys:</p>
-<ul>
-<li>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCfk9mRtOHM3T1KpmGi0KiN2uAM6CDXM3WFcm1wkzKXx7RaLtf9pX+KCuVqHdy/N/9d9wtH7iSmLFX/4gQKQVG00jHiGf3ABufWeIpjmHtT1WaI0+vV47fofEIjDDfSZPlI3p5/c7tefHsIAK6GbQn31yepAcFYy9ZfqAh8H/Y5eLpf3egPZn9Czsvx+lm0I8Q+e/HSayRaiAPUukF57N2nnw7yhPZCHSZJqFbXyK3fVQ/UQVBeNS2ayp0my8X9sIBZnNkcYHFLIWBqJYdnu1ZFhnbu3yy94jmJdmELy3+54hqiwFEfjZAjUYSl8eGPixOfdTgc8ObbHbkHyIrQ91Kz rafa@eco</li>
-<li>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmjoVIoZCx4QFXvljqozXGqxxlSvO7V2aizqyPgMfGqnyl0J9YXo6zrcWYwyWMnMdRdwYZgHqfiiFCUn2QDm6ZuzC4Lcx0K3ZwO2lgL4XaATykVLneHR1ib6RNroFcClN69cxWsdwQW6dpjpiBDXf8m6/qxVP3EHwUTsP8XaOV7WkcCAqfYAMvpWLISqYme6e+6ZGJUIPkDTxavu5JTagDLwY+py1WB53eoDWsG99gmvyit2O1Eo+jRWN+mgRHIxJTrFtLS6o4iWeshPZ6LvCZ/Pum12Oj4B4bjGSHzrKjHZgTwhVJ/LDq3v71/PP4zaI3gVB9ZalemSxqomgbTlnT jose@debian</li>
-<li>
-<p>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3AUDWjyPANntK+qwHmlJihKQZ1H+AGN02k06dzRHmkvWiNgou/VcCgowhMTGR+0I6nWVwgRSWKJEUEaMu1r9rEeL63GRtUSepCWpClHJG1CuySuJKVGtRdUq+/szDntpJnJW207a78hTeQLjQsyPvbOqkbulQG7xTRCycdT3bH2UO4JI2d+341gkOlxSG/stPQ52Dsbfb274oMRom5r5f2apD3wbfxE9A6qwm4m70G9NYS7T3uKgCiXegO/3GTJD4UbK0ylGUamG5obdS5yD8Ib12vRCCXWav23SAj/4f9MzAnXX8U4ATM/du2FHZBiIzWVH12LYvIEZpUIVYKPSf alberto@roma</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"></code></pre></div>
-</li>
-</ul>
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCfk9mRtOHM3T1KpmGi0KiN2uAM6CDXM3WFcm1wkzKXx7RaLtf9pX+KCuVqHdy/N/9d9wtH7iSmLFX/4gQKQVG00jHiGf3ABufWeIpjmHtT1WaI0+vV47fofEIjDDfSZPlI3p5/c7tefHsIAK6GbQn31yepAcFYy9ZfqAh8H/Y5eLpf3egPZn9Czsvx+lm0I8Q+e/HSayRaiAPUukF57N2nnw7yhPZCHSZJqFbXyK3fVQ/UQVBeNS2ayp0my8X9sIBZnNkcYHFLIWBqJYdnu1ZFhnbu3yy94jmJdmELy3+54hqiwFEfjZAjUYSl8eGPixOfdTgc8ObbHbkHyIrQ91Kz rafa@eco
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmjoVIoZCx4QFXvljqozXGqxxlSvO7V2aizqyPgMfGqnyl0J9YXo6zrcWYwyWMnMdRdwYZgHqfiiFCUn2QDm6ZuzC4Lcx0K3ZwO2lgL4XaATykVLneHR1ib6RNroFcClN69cxWsdwQW6dpjpiBDXf8m6/qxVP3EHwUTsP8XaOV7WkcCAqfYAMvpWLISqYme6e+6ZGJUIPkDTxavu5JTagDLwY+py1WB53eoDWsG99gmvyit2O1Eo+jRWN+mgRHIxJTrFtLS6o4iWeshPZ6LvCZ/Pum12Oj4B4bjGSHzrKjHZgTwhVJ/LDq3v71/PP4zaI3gVB9ZalemSxqomgbTlnT jose@debian
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3AUDWjyPANntK+qwHmlJihKQZ1H+AGN02k06dzRHmkvWiNgou/VcCgowhMTGR+0I6nWVwgRSWKJEUEaMu1r9rEeL63GRtUSepCWpClHJG1CuySuJKVGtRdUq+/szDntpJnJW207a78hTeQLjQsyPvbOqkbulQG7xTRCycdT3bH2UO4JI2d+341gkOlxSG/stPQ52Dsbfb274oMRom5r5f2apD3wbfxE9A6qwm4m70G9NYS7T3uKgCiXegO/3GTJD4UbK0ylGUamG5obdS5yD8Ib12vRCCXWav23SAj/4f9MzAnXX8U4ATM/du2FHZBiIzWVH12LYvIEZpUIVYKPSf alberto@roma</code></pre></div>
 </li>
 </ul>
 <p>Crearemos las nueva instancia de Sancho con el siguiente comando:</p>
