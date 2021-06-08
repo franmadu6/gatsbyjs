@@ -104,7 +104,7 @@ RDC R-321x GPIO support (GPIO_RDC321X) [N/m/y/?] n
 ```
 
 
-Nota: Para solucionar el error <<System keyring enabled but keys "debian/certs/debian-uefi-certs.pem" not found. Resetting keys to default value.>> deberemos comentar la siguiente linea en nuestro archivo **.config**.
+Nota: Para solucionar el error 'System keyring enabled but keys "debian/certs/debian-uefi-certs.pem" not found. Resetting keys to default value.' deberemos comentar la siguiente linea en nuestro archivo **.config**.
 ```shell
 debian@fran:~/compilacionkernel/linux-source-4.19$ sed -ri '/CONFIG_SYSTEM_TRUSTED_KEYS/s/=.+/=""/g' .config
 ```
@@ -123,7 +123,7 @@ debian@fran:~/compilacionkernel/linux-source-4.19$ nproc
 2
 ```
 
-Ya podríamos compilar dicho kernel con el comando **make -j <<numero de hilos>> bindeb-pkg** construyendo asi un paquete **.deb** para que pudiéramos instalarlo en nuestra máquina:
+Ya podríamos compilar dicho kernel con el comando **make -j 'numero de hilos' bindeb-pkg** construyendo asi un paquete **.deb** para que pudiéramos instalarlo en nuestra máquina:
 
 Nota: Paquetería necesaria **sudo apt install libelf-dev libssl-dev**
 ```shell
@@ -186,4 +186,4 @@ debian@fran:~/compilacionkernel/linux-source-4.19$ egrep '=m' .config | wc -l
 193
 ```
 
-Por lo que hemos bajado aun mas los componentes necesarios para nuestro **kernel a medida**.
+Por lo que hemos bajado aun mas los componentes necesarios para nuestro **kernel a medida** a menos de 1000!.
