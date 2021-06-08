@@ -38,8 +38,8 @@ Descomprimiremos y checkearemos su contenido:
 ```shell
 debian@fran:~/compilacionkernel$ tar xf linux-4.19.tar.xz
 debian@fran:~/compilacionkernel$ cd linux-source-4.19/
-debian@fran:~/compilacionkernel/linux-source-4.19$ 
-debian@fran:~/compilacionkernel/linux-source-4.19$ ls
+debian@fran:~/compilacionkernel/linux-4.19$ 
+debian@fran:~/compilacionkernel/linux-4.19$ ls
 COPYING        Kconfig      README  crypto    include  lib      scripts   usr
 CREDITS        LICENSES     arch    drivers   init     mm       security  virt
 Documentation  MAINTAINERS  block   firmware  ipc      net      sound
@@ -48,7 +48,7 @@ Kbuild         Makefile     certs   fs        kernel   samples  tools
 
 Para realizarse la compilación se utiliza un fichero llamado **.config** que contiene la información de los componentes que se enlazaran y los que no. Para generar dicho fichero haremos uso del comando **make oldconfig**:
 ```shell
-debian@fran:~/compilacionkernel/linux-source-4.19$ make oldconfig
+debian@fran:~/compilacionkernel/linux-4.19$ make oldconfig
   HOSTCC  scripts/basic/fixdep
   HOSTCC  scripts/kconfig/conf.o
   YACC    scripts/kconfig/zconf.tab.c
@@ -66,7 +66,7 @@ scripts/kconfig/conf  --oldconfig Kconfig
 
 Tras negar el enlace a varios componentes que no seran necesarios con el comando anteriormente comentado obtendremos el fichero **.config**.
 ```shell
-debian@fran:~/compilacionkernel/linux-source-4.19$ ls -la | egrep '.config'
+debian@fran:~/compilacionkernel/linux-4.19$ ls -la | egrep '.config'
 -rw-r--r--   1 vagrant vagrant     59 Mar 17 15:43 .cocciconfig
 -rw-r--r--   1 vagrant vagrant 206240 Jun  8 20:15 .config
 -rw-r--r--   1 vagrant vagrant    563 Mar 17 15:43 Kconfig
@@ -74,15 +74,15 @@ debian@fran:~/compilacionkernel/linux-source-4.19$ ls -la | egrep '.config'
 
 Comprobaremos la cantidad de componentes enlazados estáticamente(y) y dinámicamente(m) de nuestra configuración actual.
 ```shell
-debian@fran:~/compilacionkernel/linux-source-4.19$ egrep '=y' .config | wc -l
+debian@fran:~/compilacionkernel/linux-4.19$ egrep '=y' .config | wc -l
 2016
-debian@fran:~/compilacionkernel/linux-source-4.19$ egrep '=m' .config | wc -l
+debian@fran:~/compilacionkernel/linux-4.19$ egrep '=m' .config | wc -l
 3381
 ```
 
 Son mas de 5000 elementos los que poseemos ahora mismo en nuestra configuración, para rebajarlos de manera significativa haremos uso del comando **make localmodconfig** que comprobará los componentes que se estan usando actualmente descartando el resto modificando así nuestro **.config**.
 ```shell
-debian@fran:~/compilacionkernel/linux-source-4.19$ make localmodconfig
+debian@fran:~/compilacionkernel/linux-4.19$ make localmodconfig
 using config: '.config'
 vboxsf config not found!!
 System keyring enabled but keys "debian/certs/debian-uefi-certs.pem" not found. Resetting keys to default value.
@@ -106,20 +106,20 @@ RDC R-321x GPIO support (GPIO_RDC321X) [N/m/y/?] n
 
 Nota: Para solucionar el error 'System keyring enabled but keys "debian/certs/debian-uefi-certs.pem" not found. Resetting keys to default value.' deberemos comentar la siguiente linea en nuestro archivo **.config**.
 ```shell
-debian@fran:~/compilacionkernel/linux-source-4.19$ sed -ri '/CONFIG_SYSTEM_TRUSTED_KEYS/s/=.+/=""/g' .config
+debian@fran:~/compilacionkernel/linux-4.19$ sed -ri '/CONFIG_SYSTEM_TRUSTED_KEYS/s/=.+/=""/g' .config
 ```
 
 Una vez realizado el comando **make localmodconfig** podemos comprobrar que satisfactoriamente hemos reducido la cantidad de componente necesarios de mas de 5000 a al menos de 1550 componentes.
 ```shell
-debian@fran:~/compilacionkernel/linux-source-4.19$ egrep '=y' .config | wc -l
+debian@fran:~/compilacionkernel/linux-4.19$ egrep '=y' .config | wc -l
 1325
-debian@fran:~/compilacionkernel/linux-source-4.19$ egrep '=m' .config | wc -l
+debian@fran:~/compilacionkernel/linux-4.19$ egrep '=m' .config | wc -l
 193
 ```
 
 Con el comando **nproc** podremos ver la cantidad de hilos existentes que nos haran falta saber para la implementación del siguiente comando:
 ```shell
-debian@fran:~/compilacionkernel/linux-source-4.19$ nproc
+debian@fran:~/compilacionkernel/linux-4.19$ nproc
 2
 ```
 
@@ -127,7 +127,7 @@ Ya podríamos compilar dicho kernel con el comando **make -j 'numero de hilos' b
 
 Nota: Paquetería necesaria **sudo apt install libelf-dev libssl-dev**
 ```shell
-debian@fran:~/compilacionkernel/linux-source-4.19$ make -j2 bindeb-pkg
+debian@fran:~/compilacionkernel/linux-4.19$ make -j2 bindeb-pkg
 /bin/bash ./scripts/package/mkdebian
 dpkg-buildpackage -r"fakeroot -u" -a$(cat debian/arch) -b -nc -uc
 dpkg-buildpackage: info: source package linux-4.19.181
@@ -180,9 +180,9 @@ fran@debian:~/compilacionkernel/linux-4.19$ grep "=m" .config|wc -l
 
 Con un antiguo **make localmodconfig** llegamos a:
 ```shell
-debian@fran:~/compilacionkernel/linux-source-4.19$ egrep '=y' .config | wc -l
+debian@fran:~/compilacionkernel/linux-4.19$ egrep '=y' .config | wc -l
 1325
-debian@fran:~/compilacionkernel/linux-source-4.19$ egrep '=m' .config | wc -l
+debian@fran:~/compilacionkernel/linux-4.19$ egrep '=m' .config | wc -l
 193
 ```
 
