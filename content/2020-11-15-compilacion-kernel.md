@@ -37,7 +37,7 @@ linux-4.19.tar.xz     100%[=======================>]  98.34M  5.26MB/s    in 23s
 Descomprimiremos y checkearemos su contenido:
 ```shell
 debian@fran:~/compilacionkernel$ tar xf linux-4.19.tar.xz
-debian@fran:~/compilacionkernel$ cd linux-source-4.19/
+debian@fran:~/compilacionkernel$ cd linux-4.19/
 debian@fran:~/compilacionkernel/linux-4.19$ 
 debian@fran:~/compilacionkernel/linux-4.19$ ls
 COPYING        Kconfig      README  crypto    include  lib      scripts   usr
