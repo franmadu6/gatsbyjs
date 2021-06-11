@@ -172,10 +172,10 @@ Cuando hayamos finalizado la configuración pulsamos el disquete para guardar lo
 
 Despues de ir reduciendo tediosamente los componentes he llegado al siguiente punto:
 ```shell
-fran@debian:~/compilacionkernel/linux-4.19$ grep "=y" .config|wc -l
-725
-fran@debian:~/compilacionkernel/linux-4.19$ grep "=m" .config|wc -l
-87
+fran@debian:~/prueba/kernel/linux-source-4.19$ egrep '=y' .config | wc -l
+781
+fran@debian:~/prueba/kernel/linux-source-4.19$ egrep '=m' .config | wc -l
+107
 ```
 
 Con un antiguo **make localmodconfig** llegamos a:
@@ -185,5 +185,7 @@ debian@fran:~/compilacionkernel/linux-4.19$ egrep '=y' .config | wc -l
 debian@fran:~/compilacionkernel/linux-4.19$ egrep '=m' .config | wc -l
 193
 ```
+
+[Imagen final del kernel compilado](documents/linux-image-4.19.181_4.19.181-3_amd64.deb)
 
 Por lo que hemos bajado aun mas los componentes necesarios para nuestro **kernel a medida** a menos de 1000!.
