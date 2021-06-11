@@ -186,6 +186,6 @@ debian@fran:~/compilacionkernel/linux-4.19$ egrep '=m' .config | wc -l
 193
 ```
 
-[Imagen final del kernel compilado](documents/linux-image-4.19.181_4.19.181-3_amd64.deb)
-
 Por lo que hemos bajado aun mas los componentes necesarios para nuestro **kernel a medida** a menos de 1000!.
+
+[Imagen final del kernel compilado](documents/linux-image-4.19.181_4.19.181-3_amd64.deb)
