@@ -236,6 +236,12 @@ NAME                                         CLASS    HOSTS              ADDRESS
 ingress.networking.k8s.io/ingress-letschat   <none>   www.letschat.com   192.168.1.11,192.168.1.117,192.168.1.41   80      6m13s
 ```
 
+Servicios desplegados:
+- mongo-deployment, mongo-srv: Despliegue y conexión con una base de datos mongo.
+- letschat-deployment, letschat-srv: Despligue y servicio de la aplicación letschat y su conexión con una base de datos.
+- ingress: Para poder acceder a la apliación mediante un nombre.
+
+
 ## Escalado
 
 Para que podamos comprobar el funcionamiento de escalado bastara con ejecutar el siguiente comando:
