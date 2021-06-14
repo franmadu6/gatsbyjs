@@ -182,7 +182,7 @@ Cargaremos el fichero con las credenciales:
 fran@debian:~/vagrant/kubernete$ export KUBECONFIG=~/.kube/config
 ```
 
-Y ya podremos comprobar que tenemos nuestros nodos operativos desde nuestra maquina anfitriona:
+Y ya podremos comprobar que tenemos nuestros nodos estan operativos desde nuestra maquina anfitriona:
 ```shell
 fran@debian:~/vagrant/kubernete$ kubectl get nodes
 NAME         STATUS   ROLES                  AGE     VERSION
