@@ -192,7 +192,7 @@ users:
     client-key-data: <span class="token assign-left variable">LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSU1KSXk4VkZjUHJ3Y2JiblNyRmNhN2JnT2JtaURqSjA1OUkzM2psdjBHV0hvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFQ3pjVFcvazhYazJJSEFSVFdieDMzTnZoSDhyTFFGQXNOVllkb1lxNnU5NnhiOERhTFBLMApvOUI3MndJRjFZZUlKbE1SZ2FNTndUSXRRUnVWbXA4YmZRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQo</span><span class="token operator">=</span></code></pre></div>
 <p>Cargaremos el fichero con las credenciales:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~/vagrant/kubernete$ <span class="token builtin class-name">export</span> <span class="token assign-left variable">KUBECONFIG</span><span class="token operator">=</span>~/.kube/config</code></pre></div>
-<p>Y ya podremos comprobar que tenemos nuestros nodos operativos desde nuestra maquina anfitriona:</p>
+<p>Y ya podremos comprobar que tenemos nuestros nodos estan operativos desde nuestra maquina anfitriona:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">fran@debian:~/vagrant/kubernete$ kubectl get nodes
 NAME         STATUS   ROLES                  AGE     VERSION
 worker1      Ready    <span class="token operator">&lt;</span>none<span class="token operator">></span>                 9m21s   v1.21.1+k3s1
