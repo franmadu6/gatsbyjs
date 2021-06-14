@@ -193,7 +193,7 @@ worker2      Ready    <none>                 8m7s    v1.21.1+k3s1
 
 ## Despliegue Letschat
 
-Ahora realizaremos un despliegue de la aplicación **Letschat**, clonaremos el repositorio del centro el cual aparte del ejemplo que vamos a utilizar posee varios mas sobre la utilizaicon de kubectl:
+Ahora realizaremos un despliegue de la aplicación **Letschat**, clonaremos el repositorio del centro, el cual aparte del ejemplo que vamos a utilizar posee varios mas sobre la utilizaicon de kubectl:
 ```shell
 fran@debian:~/vagrant/kubernete$ git clone https://github.com/iesgn/kubernetes-storm.git
 ```
