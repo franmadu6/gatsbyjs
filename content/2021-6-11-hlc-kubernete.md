@@ -283,6 +283,8 @@ replicaset.apps/letschat-7c66bd64f5   10        10        10      10m
 fran@debian:~/vagrant/kubernete/kubernetes-storm/unidad3/ejemplos-3.2/ej
 ```
 
+kubectl get deploy,rs,po -o wide
+
 ## Componente ingress
 
 Para comprobar que el **componente ingress** este operativo (recordemos que sirve para poder acceder a la aplicación mediante un nombre) intentaremos acceder nuestra pagina de letschat generada anteriormente, para ello añadiremos la ip a nuestro fichero de hosts y accederemos via web:

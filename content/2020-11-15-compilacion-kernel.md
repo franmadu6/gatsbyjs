@@ -173,9 +173,9 @@ Cuando hayamos finalizado la configuración pulsamos el disquete para guardar lo
 Despues de ir reduciendo tediosamente los componentes he llegado al siguiente punto:
 ```shell
 fran@debian:~/prueba/kernel/linux-source-4.19$ egrep '=y' .config | wc -l
-781
+853
 fran@debian:~/prueba/kernel/linux-source-4.19$ egrep '=m' .config | wc -l
-107
+135
 ```
 
 Con un antiguo **make localmodconfig** llegamos a:
