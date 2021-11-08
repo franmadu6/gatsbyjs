@@ -61,10 +61,14 @@
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/iaw-p-1-instalacion-local-de-un-cms-php</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/practica-3-integridad-de-ficheros-unidad-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/practica-2-rclone-gestionando-nuestro-almacenamiento-en-la-nube-unidad-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/kubernete/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/new-relic/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/kubernetes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/web/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/despligue/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/monitorizacion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/logs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/metricas/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/kubernete/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/cluster/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/cloud-init/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/open-stack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -99,9 +103,6 @@
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/instalacion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/servidores/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/https/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/metricas/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/logs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/monitorizacion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/graphite/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/grafana/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/gatsbyjs/tags/centreon/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
