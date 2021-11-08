@@ -18,13 +18,13 @@ tags:
 
 Este proyecto contemplará la utilización de **New Relic** para obtener metricas y logs de una **web** desplegada a traves de **kubernetes**, para comenzar explicaremos un poco que es **New Relic** y como funciona.
 
-## New Relic
+# New Relic
 
 ### ¿Que es New Relic?
 
 New Relic es una herramienta de monitorización. ¿Qué nos permite hacer?
 
-### Este software es capaz de realizar las siguientes tareas (entre otras muchas):
+**Este software es capaz de realizar las siguientes tareas (entre otras muchas):**
 
 - Monitorizar Conexiones HTTP (tiempos de respuesta, nº de peticiones…).
 - Monitorización de errores (avisos cuando se detectan fallos de ejecución o conexión).
@@ -58,7 +58,7 @@ Servidores (Servers)
 **Nos da una vista del servidor desde la perspectiva de la propia aplicación.**
 Otros
 
-Además de las características arriba descritas, nos ofrece un amplio abanico de Plugins para ayudarnos con ellas, e incluso añadir nuevas funcionalidades.
+Además de las características arriba descritas, nos ofrece un amplio abanico de **Plugins** para ayudarnos con ellas, e incluso añadir nuevas funcionalidades, soporte en la nube y integración con kubernete que veremos mas adelante.
 
-Como conclusión a esta pequeña review sobre NewRelic, mencionar que tiene soporte en la nube y que se puede integrar con Docker, herramienta que nos explicaba nuestro compañero Jorge Pacheco aquí.
+
 
