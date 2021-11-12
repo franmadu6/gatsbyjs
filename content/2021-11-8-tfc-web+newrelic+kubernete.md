@@ -20,9 +20,9 @@ Este proyecto contemplará la utilización de **New Relic** para obtener metrica
 
 # New Relic
 
-### ¿Que es New Relic?
+## ¿Que es New Relic?
 
-New Relic es una herramienta de monitorización. ¿Qué nos permite hacer?
+New Relic es una herramienta de medición del rendimiento de una infraestructura de servicios, desde backend hasta frontend: medición del rendimiento de navegadores, APIs, servidores, aplicaciones móviles… ¿Qué nos permite hacer?
 
 **Este software es capaz de realizar las siguientes tareas (entre otras muchas):**
 
@@ -60,7 +60,18 @@ Otros
 
 Además de las características arriba descritas, nos ofrece un amplio abanico de **Plugins** para ayudarnos con ellas, e incluso añadir nuevas funcionalidades, soporte en la nube y integración con kubernete que veremos mas adelante.
 
+## ¿Como funciona?
 
+**New Relic** consta con varias aplicaciones, para no hablar de todas ellas veremos las que utilizaremos en este proyecto:
+
+- **New Relic Browser**: New Relic monitoriza todo lo relacionado a las peticiones HTTP y HTTPs que realizamos dentro de un navegador, desde los tiempos de carga con histogramas, percentiles y gráficos con segmentación hasta reportes geográficos, rendimiento con toda la parte de backend y alertas relacionadas con peticiones AJAX y errores del Javascript. Lógicamente todos los tableros de monitorización son personalizables. 
+
+
+![PracticaImg](images/proyecto/newrelic-browser-ejemplo.png "Ejemplo de new relic browser")
+
+- **New Relic Synthetics**: Permite monitorizar una aplicación móvil en todo su ciclo de vida, incluso en la fase de preproducción, desde la fase de desarrollo hasta las pruebas de testeo. Y una vez lanzado, también facilita la recolección de insights para medir el rendimiento. 
+
+Ya tenemos una idea de que es **New Relic**, que datos recoge y como funciona, ahora daremos paso al proyecto comenzando con la instalacion de **New Relic**.
 
 
 
