@@ -16,7 +16,19 @@ tags:
 
 ![PracticaImg](images/proyecto/portada.png "Portada principal")
 
+
+<ol>
+  <li><a href="newrelic">New Relic</a></li>
+  <li><a href="web">Pagina web</a></li>
+  <li><a href="kubernetes">Kubernetes</a></li>
+  <li><a href="integracion">Integración</a></li>
+</ol>
+
+
+
 Este proyecto contemplará la utilización de **New Relic** para obtener metricas y logs de una **web** desplegada a traves de **kubernetes**, para comenzar explicaremos un poco que es **New Relic** y como funciona.
+
+<hr id="newrelic" >
 
 # New Relic
 
@@ -73,6 +85,28 @@ Además de las características arriba descritas, nos ofrece un amplio abanico d
 - **New Relic Synthetics**: Permite monitorizar una aplicación móvil en todo su ciclo de vida, incluso en la fase de preproducción, desde la fase de desarrollo hasta las pruebas de testeo. Y una vez lanzado, también facilita la recolección de insights para medir el rendimiento. 
 
 Ya tenemos una idea de que es **New Relic**, que datos recoge y como funciona, ahora daremos paso al proyecto comenzando con la instalacion de **New Relic**.
+
+<hr>
+
+Para instalar **New Relic** primero deberemos acceder a su [website](https://newrelic.com/), nos registraremos:
+![PracticaImg](images/proyecto/newrelic-singin.png "registro new relic")
+
+
+Una vez registrado procederemos a su instalación:
+![PracticaImg](images/proyecto/newrelic-instalacion.png "instalación new relic")
+
+<hr id="web" >
+
+
+
+
+<hr id="kubernete" >
+
+
+
+
+<hr id="integracion" >
+
 
 
 
