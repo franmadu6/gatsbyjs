@@ -18,10 +18,10 @@ tags:
 
 
 <ol>
-  <li><a href="newrelic">New Relic</a></li>
-  <li><a href="web">Pagina web</a></li>
-  <li><a href="kubernetes">Kubernetes</a></li>
-  <li><a href="integracion">Integración</a></li>
+  <li><a href="#newrelic">New Relic</a></li>
+  <li><a href="#web">Pagina web</a></li>
+  <li><a href="#kubernetes">Kubernetes</a></li>
+  <li><a href="#integracion">Integración</a></li>
 </ol>
 
 
