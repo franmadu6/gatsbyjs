@@ -30,8 +30,7 @@ Este proyecto contemplará la utilización de **New Relic** para obtener metrica
 
 <hr id="newrelic" >
 
-
-
+<br>
 
 # New Relic
 
