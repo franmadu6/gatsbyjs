@@ -1,7 +1,7 @@
 {
   "name": "SysAdmin Nazareno",
   "description": "Blog de un administrador de sistemas informaticos en red.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "FranMadu6 <frandh1997@gmail.com>",
   "dependencies": {
     "gatsby": "^2.19.49",
