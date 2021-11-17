@@ -90,15 +90,18 @@ Ya tenemos una idea de que es **New Relic**, que datos recoge y como funciona, a
 
 <hr>
 
-Para instalar **New Relic**(La configuración basica) primero deberemos acceder a su [website](https://newrelic.com/), nos registraremos:
+Para instalar **New Relic** primero deberemos acceder a su [website](https://newrelic.com/) para registrarnos:
+
 ![PracticaImg](images/proyecto/newrelic-singin.png "registro new relic")
 
 
 Una vez registrado procederemos a su instalación, en la que seleccionamos linux:
+
 ![PracticaImg](images/proyecto/newrelic-instalacion.png "instalación new relic")
 
 
 En el plan de instalación nos pedira que instalemos el agente de **New Relic**
+
 ![PracticaImg](images/proyecto/newrelic-instalacion2.png "instalación new relic")
 
 - Mensaje:
