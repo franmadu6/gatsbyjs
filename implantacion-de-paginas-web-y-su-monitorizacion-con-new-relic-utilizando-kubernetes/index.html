@@ -158,7 +158,7 @@ Otros</p>
         loading="lazy"
       />
     </span></p>
-<p>Una vez registrado procederemos a su instalación, en la que seleccionaremos linux:
+<p>Una vez registrado procederemos a su instalación, en la que seleccionamos linux:
 <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
@@ -182,7 +182,8 @@ Otros</p>
         loading="lazy"
       />
     </span></p>
-<p><span
+<p>En el plan de instalación nos pedira que instalemos el agente de <strong>New Relic</strong>
+<span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
     >
@@ -210,6 +211,16 @@ Otros</p>
 <strong>Install the New Relic agents</strong>
 Install the latest New Relic agents on your host to get insight into the performance of your system and applications</li>
 </ul>
+<p>Para ello seguí la <a href="https://docs.newrelic.com/docs/apm/agents/php-agent/installation/php-agent-installation-ubuntu-debian/">guia</a> proporcionada por <strong>New Relic</strong>.</p>
+<p>Configuramos el repositorio de <strong>New Relic</strong>:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">echo &#39;deb http://apt.newrelic.com/debian/ newrelic non-free&#39; | sudo tee /etc/apt/sources.list.d/newrelic.list</code></pre></div>
+<p>Comprobamos la relación de confianza la clave GPG:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">wget -O- https://download.newrelic.com/548C16BF.gpg | sudo apt-key add -</code></pre></div>
+<p>Actualizamos los paquetes:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">sudo apt-get update</code></pre></div>
+<p>Instalamos el agente de PHP:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">sudo apt-get install newrelic-php5</code></pre></div>
+<p>Y listo! Ya tendremos nuestro agente instalado y listo para usarse.</p>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;"
