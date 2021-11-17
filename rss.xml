@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 17 Nov 2021 10:50:23 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 17 Nov 2021 11:41:56 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -92,7 +92,7 @@ Otros&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Ya tenemos una idea de que es &lt;strong&gt;New Relic&lt;/strong&gt;, que datos recoge y como funciona, ahora daremos paso al proyecto comenzando con la instalacion de &lt;strong&gt;New Relic&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;Para instalar &lt;strong&gt;New Relic&lt;/strong&gt; primero deberemos acceder a su &lt;a href=&quot;https://newrelic.com/&quot;&gt;website&lt;/a&gt;, nos registraremos:
+&lt;p&gt;Para instalar &lt;strong&gt;New Relic&lt;/strong&gt;(La configuración basica) primero deberemos acceder a su &lt;a href=&quot;https://newrelic.com/&quot;&gt;website&lt;/a&gt;, nos registraremos:
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -116,7 +116,7 @@ Otros&lt;/p&gt;
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Una vez registrado procederemos a su instalación:
+&lt;p&gt;Una vez registrado procederemos a su instalación, en la que seleccionaremos linux:
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -136,6 +136,309 @@ Otros&lt;/p&gt;
 /gatsbyjs/static/db8ea0531da4e42cd20124736392d321/17fa4/newrelic-instalacion.png 1035w,
 /gatsbyjs/static/db8ea0531da4e42cd20124736392d321/a5044/newrelic-instalacion.png 1380w,
 /gatsbyjs/static/db8ea0531da4e42cd20124736392d321/a987b/newrelic-instalacion.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.552083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABD0lEQVQoz62S3W6DMAyF8/53baGgPcGeZtr1HmCtgBAIJCH8ndkZkei2atU0S0d2FPuzTRCH4xFFWeBaFCilRNf3D6s3Bsba4Pmsuw7ilCSQuoOsaxi6WJYF8zwHHzV/iePZOodWawzDgGmaMI4jxDnLoY1DxUDqxkmWvPceIyWt64p7xpO9X66olYJqGjgCByAXq6pCSeJJWZzQtG2Ylo3Be7FZN6AjKE/IMD9OEE95jrdS4vnlFSV1mrfRo2Lx3seYN1JNS1AXhuK1RZZlcESWxoYVf7L92gH4GVDdAuPpe273E20jkjT9VvybbvJ2DTdg8hDkHpCiW+DhlOIvtodH4wcU6TmH41/lH8SP9AE6rwRvRHXebwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;instalación new relic&quot;
+        src=&quot;/gatsbyjs/static/e36f5fdbfbbea28407a0186c52ff7196/36727/newrelic-instalacion2.png&quot;
+        srcset=&quot;/gatsbyjs/static/e36f5fdbfbbea28407a0186c52ff7196/acf4b/newrelic-instalacion2.png 173w,
+/gatsbyjs/static/e36f5fdbfbbea28407a0186c52ff7196/fc834/newrelic-instalacion2.png 345w,
+/gatsbyjs/static/e36f5fdbfbbea28407a0186c52ff7196/36727/newrelic-instalacion2.png 690w,
+/gatsbyjs/static/e36f5fdbfbbea28407a0186c52ff7196/17fa4/newrelic-instalacion2.png 1035w,
+/gatsbyjs/static/e36f5fdbfbbea28407a0186c52ff7196/a5044/newrelic-instalacion2.png 1380w,
+/gatsbyjs/static/e36f5fdbfbbea28407a0186c52ff7196/a987b/newrelic-instalacion2.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mensaje:
+&lt;strong&gt;Install the New Relic agents&lt;/strong&gt;
+Install the latest New Relic agents on your host to get insight into the performance of your system and applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.65625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABrklEQVQoz3WSW0sCQRTH9+v0WA+FFt3IzD5VRZnWF+g96UJ3CfQxgopMSVIIogu09iDp6q476+7srv/OzFptVAM/zszs4XfOzKyysLiIzUwGF5eX6JgmGo0GtFYLbV2XtNpttGj9ifYHTU1Do9mUKCvJJPYOD1EslWB0OngnoZBYlgVGeJ4H3/fR6/XgE38NkcNdF47jQEml0tg/OsZ1oQCdOhIVhVCjqrphwKSu1VoNtbc3Gev1epATok35BuUyxgJhNptFqViUXYgqbr+aGNe0Pzw9hbF4HNHZGCKxGUk0FvuK4tvQ+Dh26aTKejqNja0dZM/OpYBzHhyBohhXhRsMTkxiLDGP0bkEEcQoEYnP9fcSGBiJYPvgQHS4ipPTU5Ruy19C0aFA3B1jBh6fqnh+uYeqPkB9DaF+UyN0vf8o+Xwe1WpFCj9lnieiR5HD90zCAnrsf8Dg8i6UJAlzuRzuKj+F31JXXoFHcjcE/zX3g1deWhYd5lAJCaWgj/gdug6Hw12JTXMeKhrGdmzqMLWGE3rlcvn3HQZJHGbXgWVzMNsBo7ktC/zEJqyujQ8Cm8BEZqNHugAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;instalación new relic&quot;
+        src=&quot;/gatsbyjs/static/1c178b2660d32adb751141f4c0120dd5/36727/newrelic-instalacion3.png&quot;
+        srcset=&quot;/gatsbyjs/static/1c178b2660d32adb751141f4c0120dd5/acf4b/newrelic-instalacion3.png 173w,
+/gatsbyjs/static/1c178b2660d32adb751141f4c0120dd5/fc834/newrelic-instalacion3.png 345w,
+/gatsbyjs/static/1c178b2660d32adb751141f4c0120dd5/36727/newrelic-instalacion3.png 690w,
+/gatsbyjs/static/1c178b2660d32adb751141f4c0120dd5/17fa4/newrelic-instalacion3.png 1035w,
+/gatsbyjs/static/1c178b2660d32adb751141f4c0120dd5/a5044/newrelic-instalacion3.png 1380w,
+/gatsbyjs/static/1c178b2660d32adb751141f4c0120dd5/a987b/newrelic-instalacion3.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash &amp;amp;&amp;amp; sudo  NEW_RELIC_API_KEY=NRAK-H3WMTJBX8HDGGCWEG3KV1Y407ML NEW_RELIC_ACCOUNT_ID=3341847 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;fran@debian:~$ curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash &amp;amp;&amp;amp; sudo  NEW_RELIC_API_KEY=NRAK-H3WMTJBX8HDGGCWEG3KV1Y407ML NEW_RELIC_ACCOUNT_ID=3341847 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install
+Starting installation.
+Installing New Relic CLI v0.37.19
+Installing to /usr/local/bin using sudo
+[sudo] password for fran: 
+
+   _   _                 ____      _ _
+  | \ | | _____      __ |  _ \ ___| (_) ___
+  |  \| |/ _ \ \ /\ / / | |_) / _ | | |/ __|
+  | |\  |  __/\ V  V /  |  _ |  __| | | (__
+  |_| \_|\___| \_/\_/   |_| \_\___|_|_|\___|
+
+  Welcome to New Relic. Let&amp;#39;s install some instrumentation.
+
+  Questions? Read more about our installation process at
+  https://docs.newrelic.com/
+
+	
+INFO Validating connectivity to the New Relic platform... 
+The guided installation will begin by installing the latest version of the New Relic Infrastructure agent, which is required for additional instrumentation.
+
+? Please choose from the following instrumentation to be installed: Logs integration, Golden Signal Alerts, Apache Open Source Integration, MySQL Open Source Integration
+
+The following will be installed:
+  Infrastructure Agent
+  Logs integration
+  Golden Signal Alerts
+  Apache Open Source Integration
+  MySQL Open Source Integration
+
+==&amp;gt; Installing Infrastructure Agent...
+
+Obj:1 http://repo.mysql.com/apt/debian buster InRelease
+Ign:2 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 InRelease
+Obj:3 http://dl.google.com/linux/chrome/deb stable InRelease
+Obj:4 http://security.debian.org/debian-security buster/updates InRelease
+Obj:5 http://deb.debian.org/debian buster InRelease
+Obj:6 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 Release
+Obj:7 http://packages.microsoft.com/repos/code stable InRelease
+Obj:8 http://deb.debian.org/debian buster-updates InRelease
+Obj:9 https://download.newrelic.com/infrastructure_agent/linux/apt buster InRelease
+Obj:10 https://download.virtualbox.org/virtualbox/debian buster InRelease
+Des:11 https://packages.cloud.google.com/apt kubernetes-xenial InRelease [9.383 B]
+Descargados 9.383 B en 2s (5.494 B/s)
+Leyendo lista de paquetes...
+Warning: apt-key output should not be parsed (stdout is not a terminal)
+OK
+Ign:1 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 InRelease
+Obj:2 http://repo.mysql.com/apt/debian buster InRelease
+Obj:3 http://dl.google.com/linux/chrome/deb stable InRelease
+Obj:4 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 Release
+Obj:5 http://security.debian.org/debian-security buster/updates InRelease
+Obj:6 http://deb.debian.org/debian buster InRelease
+Obj:7 http://packages.microsoft.com/repos/code stable InRelease
+Obj:8 http://deb.debian.org/debian buster-updates InRelease
+Obj:9 https://download.newrelic.com/infrastructure_agent/linux/apt buster InRelease
+Obj:10 https://download.virtualbox.org/virtualbox/debian buster InRelease
+Des:11 https://packages.cloud.google.com/apt kubernetes-xenial InRelease [9.383 B]
+Descargados 9.383 B en 1s (8.114 B/s)
+Leyendo lista de paquetes...
+Running agent status check attempt...
+Agent status check ok.
+
+  ✅ Checking for data in New Relic (this may take a few minutes)...success.
+
+  ⚙️  The Infrastructure Agent configuration file can be found in /etc/newrelic-infra.yml
+  Edit this file to make changes or configure advanced features for the agent. See the docs for options:
+  https://docs.newrelic.com/docs/infrastructure/install-infrastructure-agent/configuration/infrastructure-agent-configuration-settings
+  
+  Note: Process monitoring has been enabled by default - all other config options are left to the user.
+
+==&amp;gt; Installing Infrastructure Agent...success.
+
+==&amp;gt; Installing Logs integration...
+
+The log files below have been detected:
+  /var/log/alternatives.log
+  /var/log/auth.log
+  /var/log/dpkg.log
+  /var/log/messages
+  /var/lib/docker/containers/*/*.log
+  /var/log/apache2/*access.log
+  /var/log/apache2/error.log
+  /var/log/mysql/error.log
+Would you like to tail those log files to New Relic Y/N (default: Y)? Y  
+
+
+  ✅ Checking for data in New Relic (this may take a few minutes)...success.
+
+  ⚙️  The Logs configuration file (base configuration) can be found in /etc/newrelic-infra/logging.d/logging.yml
+  ⚙️  The Logs configuration file for discovered processes can be found in /etc/newrelic-infra/logging.d/discovered.yml
+  Edit these files to make changes or configure advanced features for the Logs integration. See the docs for options:
+  https://docs.newrelic.com/docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/forward-your-logs-using-infrastructure-agent#parameters
+
+==&amp;gt; Installing Logs integration...success.
+
+==&amp;gt; Installing Golden Signal Alerts...
+
+  This installation will setup alerts for any existing, and future, hosts and applications reporting to newrelic with the Golden Signal conditions:
+  - High CPU
+  - High Application Error Rate
+  - High Application Response Time
+  - Low Application Throughput
+  This policy can be modified under Alerts &amp;amp; AI\Policies.
+
+Creating alert policy Golden Signals...
+done
+Adding alert condition High CPU...
+done
+Adding alert condition High Application Error percentage...
+done
+Adding alert condition High Application Response Time...
+done
+Adding alert condition Low Application Throughput...
+done
+Would you like to be notified on your registered email address frangodh97@gmail.com when this alert triggers Y/N (default: Y)? Y
+
+Notification channel not found for email address frangodh97@gmail.com, creating notification channel...
+done
+Subscribing alert policy to notification channel...
+done
+==&amp;gt; Installing Golden Signal Alerts...success.
+
+==&amp;gt; Installing Apache Open Source Integration...
+
+  To capture data from the Apache integration, you&amp;#39;ll first need to meet these prerequisites:
+  - Apache version requirement (see https://docs.newrelic.com/docs/integrations/host-integrations/host-integrations-list/apache-monitoring-integration#comp-req)
+  - Apache status module enabled and configured for Apache instance
+  - Apache status module endpoint (default server-status) available
+
+Obj:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Obj:2 http://repo.mysql.com/apt/debian buster InRelease
+Ign:3 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 InRelease
+Obj:4 http://deb.debian.org/debian buster InRelease
+Obj:5 http://security.debian.org/debian-security buster/updates InRelease
+Obj:6 http://packages.microsoft.com/repos/code stable InRelease
+Obj:7 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 Release
+Obj:8 https://download.virtualbox.org/virtualbox/debian buster InRelease
+Obj:9 http://deb.debian.org/debian buster-updates InRelease
+Obj:10 https://download.newrelic.com/infrastructure_agent/linux/apt buster InRelease
+Obj:11 https://packages.cloud.google.com/apt kubernetes-xenial InRelease
+Leyendo lista de paquetes...
+Leyendo lista de paquetes...
+Creando árbol de dependencias...
+Leyendo la información de estado...
+nri-apache ya está en su versión más reciente (1.7.1).
+0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+
+  ✅ Checking for data in New Relic (this may take a few minutes)...success.
+
+  ⚙️  The Apache configuration file can be found in /etc/newrelic-infra/integrations.d/apache-config.yml
+  Edit this file to make changes or configure advanced features for this integration. See the docs for options:
+  https://docs.newrelic.com/docs/integrations/host-integrations/host-integrations-list/apache-monitoring-integration#config
+
+==&amp;gt; Installing Apache Open Source Integration...success.
+
+==&amp;gt; Installing MySQL Open Source Integration...
+
+  To capture data from the MySQL integration, we need to create a new MySql user with specific permissions (REPLICATION, SELECT).
+  The installation will create a strong randomly generated password for that new user.
+  This installation may prompt for your MySql root user password in order to create this new user.
+  More information regarding the prerequisites can be found at https://docs.newrelic.com/docs/integrations/host-integrations/host-integrations-list/mysql-monitoring-integration#req
+
+Obj:1 http://repo.mysql.com/apt/debian buster InRelease
+Ign:2 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 InRelease
+Obj:3 http://dl.google.com/linux/chrome/deb stable InRelease
+Obj:4 http://security.debian.org/debian-security buster/updates InRelease
+Obj:5 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 Release
+Obj:6 http://deb.debian.org/debian buster InRelease
+Obj:7 http://packages.microsoft.com/repos/code stable InRelease
+Obj:8 http://deb.debian.org/debian buster-updates InRelease
+Obj:9 https://download.newrelic.com/infrastructure_agent/linux/apt buster InRelease
+Obj:10 https://download.virtualbox.org/virtualbox/debian buster InRelease
+Obj:11 https://packages.cloud.google.com/apt kubernetes-xenial InRelease
+Leyendo lista de paquetes...
+Leyendo lista de paquetes...
+Creando árbol de dependencias...
+Leyendo la información de estado...
+nri-mysql ya está en su versión más reciente (1.7.1).
+0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+
+  ✅ Checking for data in New Relic (this may take a few minutes)...success.
+
+  ⚙️  The MySQL configuration file can be found in /etc/newrelic-infra/integrations.d/mysql-config.yml
+  Edit this file to make changes or configure advanced features for this integration. See the docs for options:
+  https://docs.newrelic.com/docs/integrations/host-integrations/host-integrations-list/mysql-monitoring-integration#config
+
+==&amp;gt; Installing MySQL Open Source Integration...success.
+
+
+  New Relic installation complete 
+
+  --------------------
+  Installation Summary
+
+  ✔  Infrastructure Agent  (installed)  
+  ✔  Logs integration  (installed)  
+  ✔  Golden Signal Alerts  (installed)  
+  ✔  Apache Open Source Integration  (installed)  
+  ✔  MySQL Open Source Integration  (installed)  
+
+  View your data at the link below:
+  ⮕  https://onenr.io/0dBj39mGvwX
+
+  --------------------&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.552083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABFUlEQVQoz6VSXU+EMBDk/yd+xBygP8snH72AF4UWOKAUKIVxuwcEzXmncZNJl213dnaCd3N7hyiOsY8ixIcDpJQQv4TMMsbynQoBb+fvUKgax7KE1hrjOJ4wTVfRdh3atoUZBgzW8ukFYQihSgiaVFYVLJG5mKjhx5jvqrrGR5IgyzPOHTkTSlLI0rPTxZbM5efgolaKenJUSq9KPT8IcFQNkjRdPen6HsYYXv0s6axS9xa1NhgGy3W3thcQIXUiLwoo8tD5opoGiqZrmrqo+W7BVukS1hGGRPhWVnjNC57gVC2Pt/ml1ZeTFT6Rh8/vCV5SycXxCsElYia8f/C/rPGf4JX94BENeeXQ/gF6xloj791//AkMZAKdcXXwzQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;instalación new relic&quot;
+        src=&quot;/gatsbyjs/static/bfb2c1179e7e4f366c30c22e696b611b/36727/newrelic-instalacion4.png&quot;
+        srcset=&quot;/gatsbyjs/static/bfb2c1179e7e4f366c30c22e696b611b/acf4b/newrelic-instalacion4.png 173w,
+/gatsbyjs/static/bfb2c1179e7e4f366c30c22e696b611b/fc834/newrelic-instalacion4.png 345w,
+/gatsbyjs/static/bfb2c1179e7e4f366c30c22e696b611b/36727/newrelic-instalacion4.png 690w,
+/gatsbyjs/static/bfb2c1179e7e4f366c30c22e696b611b/17fa4/newrelic-instalacion4.png 1035w,
+/gatsbyjs/static/bfb2c1179e7e4f366c30c22e696b611b/a5044/newrelic-instalacion4.png 1380w,
+/gatsbyjs/static/bfb2c1179e7e4f366c30c22e696b611b/a987b/newrelic-instalacion4.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.552083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABX0lEQVQoz21TW3LDIAz0/a/UU/SjM/lPmqap4xcGYWy81SrYTTLVzA7CSGKlxdXpckHdNmjaFn3fo1PY2nVoFX3ZE9zzvL7dDNe6xtf1im9dzz93VGGeIYpxHDHruq4rsmKaJozeI+e8g3uJETTGzcuCIMHiaUEElR2WBAat5fBxb9Dkp5g1I6VJWd6MPQk451AtL4Hm8xtR9jmvz8UNMIa98/ASEUuX1damD+Gv5XKBrSDuvmhLjKFPIoQPXkcxYtFvjgW39lJKtm7z2VpfAiDtbH7XqTAqnigj5+4zJ5FJc2lPBTfbW8rGC4f3Aw5vR4ydChLEBs/LCRYcdG4oY6O/F5QodhODHlt3kz6nsYHXtl6NMVT943jCp4ojm8pM5M2cyS7OJsiyqoqDnXt9NlELEEymsr2yej+d0eq3WQn92zIl5JBlSoiaxEJ86E3TGCP6vGAYBvshOIqYSCriFw14DWWfbD/gAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;instalación new relic&quot;
+        src=&quot;/gatsbyjs/static/e0495c74853e25ce81ad62867e68fbc9/36727/newrelic-instalacion5.png&quot;
+        srcset=&quot;/gatsbyjs/static/e0495c74853e25ce81ad62867e68fbc9/acf4b/newrelic-instalacion5.png 173w,
+/gatsbyjs/static/e0495c74853e25ce81ad62867e68fbc9/fc834/newrelic-instalacion5.png 345w,
+/gatsbyjs/static/e0495c74853e25ce81ad62867e68fbc9/36727/newrelic-instalacion5.png 690w,
+/gatsbyjs/static/e0495c74853e25ce81ad62867e68fbc9/17fa4/newrelic-instalacion5.png 1035w,
+/gatsbyjs/static/e0495c74853e25ce81ad62867e68fbc9/a5044/newrelic-instalacion5.png 1380w,
+/gatsbyjs/static/e0495c74853e25ce81ad62867e68fbc9/a987b/newrelic-instalacion5.png 1920w&quot;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
