@@ -99,16 +99,20 @@ Una vez registrado procederemos a su instalación:
 
 <hr id="web" >
 
+<br>
+
 
 
 
 <hr id="kubernete" >
+
+<br>
 
 
 
 
 <hr id="integracion" >
 
-
+<br>
 
 
