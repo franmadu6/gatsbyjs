@@ -94,16 +94,40 @@ Para instalar **New Relic**(La configuración basica) primero deberemos acceder 
 ![PracticaImg](images/proyecto/newrelic-singin.png "registro new relic")
 
 
-Una vez registrado procederemos a su instalación, en la que seleccionaremos linux:
+Una vez registrado procederemos a su instalación, en la que seleccionamos linux:
 ![PracticaImg](images/proyecto/newrelic-instalacion.png "instalación new relic")
 
+
+En el plan de instalación nos pedira que instalemos el agente de **New Relic**
 ![PracticaImg](images/proyecto/newrelic-instalacion2.png "instalación new relic")
 
 - Mensaje:
 **Install the New Relic agents**
 Install the latest New Relic agents on your host to get insight into the performance of your system and applications
 
+Para ello seguí la [guia](https://docs.newrelic.com/docs/apm/agents/php-agent/installation/php-agent-installation-ubuntu-debian/) proporcionada por **New Relic**.
 
+Configuramos el repositorio de **New Relic**:
+```
+echo 'deb http://apt.newrelic.com/debian/ newrelic non-free' | sudo tee /etc/apt/sources.list.d/newrelic.list
+```
+
+Comprobamos la relación de confianza la clave GPG:
+```
+wget -O- https://download.newrelic.com/548C16BF.gpg | sudo apt-key add -
+```
+
+Actualizamos los paquetes:
+```
+sudo apt-get update
+```
+
+Instalamos el agente de PHP:
+```
+sudo apt-get install newrelic-php5
+```
+
+Y listo! Ya tendremos nuestro agente instalado y listo para usarse.
 
 ![PracticaImg](images/proyecto/newrelic-instalacion3.png "instalación new relic")
 
