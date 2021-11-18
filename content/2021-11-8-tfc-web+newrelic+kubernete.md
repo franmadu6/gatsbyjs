@@ -100,7 +100,7 @@ Una vez registrado procederemos a su instalación, en la que seleccionamos linux
 ![PracticaImg](images/proyecto/newrelic-instalacion.png "instalación new relic")
 
 
-En el plan de instalación nos pedira que instalemos el agente de **New Relic**
+En el plan de instalación nos pedira que instalemos el agente de **New Relic**:
 
 ![PracticaImg](images/proyecto/newrelic-instalacion2.png "instalación new relic")
 
@@ -115,7 +115,7 @@ Configuramos el repositorio de **New Relic**:
 echo 'deb http://apt.newrelic.com/debian/ newrelic non-free' | sudo tee /etc/apt/sources.list.d/newrelic.list
 ```
 
-Comprobamos la relación de confianza la clave GPG:
+Comprobamos la relación de confianza con la **clave GPG**:
 ```
 wget -O- https://download.newrelic.com/548C16BF.gpg | sudo apt-key add -
 ```
@@ -134,6 +134,7 @@ Y listo! Ya tendremos nuestro agente instalado y listo para usarse.
 
 ![PracticaImg](images/proyecto/newrelic-instalacion3.png "instalación new relic")
 
+Para poder añadir nuestra maquina al navegador de new relic deberemos realizar un **curl** para conectarnos.
 ```
 curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-H3WMTJBX8HDGGCWEG3KV1Y407ML NEW_RELIC_ACCOUNT_ID=3341847 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install
 ```
@@ -346,6 +347,8 @@ nri-mysql ya está en su versión más reciente (1.7.1).
 
   --------------------
 ```
+
+Podremos elegir que parametros recoje, para este caso cogermos todos los posibles como ejemplo.
 
 ![PracticaImg](images/proyecto/newrelic-instalacion4.png "instalación new relic")
 
