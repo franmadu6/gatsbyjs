@@ -361,6 +361,8 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 
 <br>
 
+## Web
+
 Para este proyecto montaremos una web sencilla, la funcion de la misma es poderla producir con kubernete.
 
 
@@ -368,11 +370,12 @@ Para este proyecto montaremos una web sencilla, la funcion de la misma es poderl
 
 <br>
 
+## Kubernete
 
-
+(Anteriormente)[https://franmadu6.github.io/gatsbyjs/despliegue-de-un-cluster-de-kubernetes]
 
 <hr id="integracion" >
 
 <br>
 
-
+## Integración
