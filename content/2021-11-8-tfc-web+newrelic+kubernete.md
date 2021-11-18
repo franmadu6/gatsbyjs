@@ -139,7 +139,7 @@ Para poder añadir nuestra maquina al navegador de new relic deberemos realizar 
 curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-H3WMTJBX8HDGGCWEG3KV1Y407ML NEW_RELIC_ACCOUNT_ID=3341847 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install
 ```
 
-
+Podremos elegir que parametros recoje, para este caso cogermos todos los posibles como ejemplo.
 ```
 fran@debian:~$ curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-H3WMTJBX8HDGGCWEG3KV1Y407ML NEW_RELIC_ACCOUNT_ID=3341847 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install
 Starting installation.
@@ -348,24 +348,20 @@ nri-mysql ya está en su versión más reciente (1.7.1).
   --------------------
 ```
 
-Podremos elegir que parametros recoje, para este caso cogermos todos los posibles como ejemplo.
+Una vez la instalación haya sido finalizada volveremos al navegador y veremos como la pantalla ha cambiado, nos dira que ha finalizado y nos propondra instalar alguna instrumentación adicional.
 
 ![PracticaImg](images/proyecto/newrelic-instalacion4.png "instalación new relic")
 
+Si no deseamos instalar mas herramientas le daremos a **See your data** y ya podremos hacer uso de sus herramientas de monitoreo.
 
 ![PracticaImg](images/proyecto/newrelic-instalacion5.png "instalación new relic")
-
-
-
-
-
 
 
 <hr id="web" >
 
 <br>
 
-
+Para este proyecto montaremos una web sencilla, la funcion de la misma es poderla producir con kubernete.
 
 
 <hr id="kubernete" >
