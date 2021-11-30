@@ -495,3 +495,30 @@ hello-minikube   NodePort   10.98.127.54   <none>        8080:30972/TCP   46s
 ![PracticaImg](images/proyecto/newrelic8.png "monitorización de minikube deployment")
 
 Como podemos comprobar se han añadido un cluster con su consiguiente deploy nuevos al diagrama.
+
+
+```shell
+root@svKube:/home/vagrant# nano ingress.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-letschat
+spec:
+  rules:
+  - host: www.letschat.com
+    http:
+      paths:
+      - path: "/"
+        pathType: Prefix
+        backend:
+          service:
+            name: letschat
+            port:
+              number: 8080
+root@svKube:/home/vagrant# kubectl apply -f ingress.yaml 
+ingress.networking.k8s.io/ingress-letschat created
+root@svKube:/home/vagrant# kubectl get ingress
+NAME               CLASS    HOSTS              ADDRESS   PORTS   AGE
+ingress-letschat   <none>   www.letschat.com             80      12s
+```
+
