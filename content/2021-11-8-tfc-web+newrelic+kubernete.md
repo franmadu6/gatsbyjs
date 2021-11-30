@@ -356,11 +356,11 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 ![PracticaImg](images/proyecto/newrelic-instalacion5.png "instalación new relic")
 
 
-<hr id="kubernete" >
+<hr id="kubernetes" >
 
 <br>
 
-## Kubernete
+## Kubernetes
 
 Ahora toca configurar minikube en nuestra maquina virtual:
 ```shell
