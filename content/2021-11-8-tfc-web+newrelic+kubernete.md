@@ -471,3 +471,27 @@ minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-
 
 ## Pruebas con kubernetes
 
+Para usar minikube de una manera mucho mas sencilla añadiremos un alias para no tener que estar poniendo minikube en cada linea:
+```shell
+alias kubectl="minikube kubectl --"
+```
+
+Crearemos un deployment sencilla en lo expondremos por el puesto 8080:
+```shell
+root@svKube:/home/vagrant# kubectl create deployment hello-minikube --image=k8s.gcr.io/echoserver:1.4
+deployment.apps/hello-minikube created
+root@svKube:/home/vagrant# kubectl expose deployment hello-minikube --type=NodePort --port=8080
+service/hello-minikube exposed
+```
+
+```shell
+root@svKube:/home/vagrant# kubectl get services hello-minikube
+NAME             TYPE       CLUSTER-IP     EXTERNAL-IP   PORT(S)          AGE
+hello-minikube   NodePort   10.98.127.54   <none>        8080:30972/TCP   46s
+```
+
+![PracticaImg](images/proyecto/newrelic7.png "monitorización de minikube deployment")
+
+![PracticaImg](images/proyecto/newrelic8.png "monitorización de minikube deployment")
+
+Como podemos comprobar se han añadido un cluster con su consiguiente deploy nuevos al diagrama.
