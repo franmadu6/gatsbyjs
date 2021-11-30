@@ -19,7 +19,6 @@ tags:
 
 <ol>
   <li><a href="#newrelic">New Relic</a></li>
-  <li><a href="#web">Pagina web</a></li>
   <li><a href="#kubernetes">Kubernetes</a></li>
   <li><a href="#integracion">Integración</a></li>
 </ol>
@@ -357,22 +356,111 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 ![PracticaImg](images/proyecto/newrelic-instalacion5.png "instalación new relic")
 
 
-<hr id="web" >
-
-<br>
-
-## Web
-
-Para este proyecto montaremos una web sencilla, la funcion de la misma es poderla producir con kubernete.
-
-
 <hr id="kubernete" >
 
 <br>
 
 ## Kubernete
 
-(Anteriormente)[https://franmadu6.github.io/gatsbyjs/despliegue-de-un-cluster-de-kubernetes]
+Ahora toca configurar minikube en nuestra maquina virtual:
+```shell
+vagrant@svKube:~$ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 66.3M  100 66.3M    0     0  3995k      0  0:00:17  0:00:17 --:--:-- 3952k
+vagrant@svKube:~$ sudo install minikube-linux-amd64 /usr/local/bin/minikube
+
+#Al inicializarlo nos da varios errores en mi casa tuve que ejecutarlo con minikube start --vm-driver=none y instalar docker,docker.io y conntrack
+vagrant@svKube:~$ minikube start
+vagrant@svKube:~$ minikube start --vm-driver=none
+root@svKube:/home/vagrant# apt install docker docker.io
+root@svKube:/home/vagrant# minikube start --vm-driver=none
+root@svKube:/home/vagrant# sudo apt-get install -y conntrack
+```
+
+```shell
+root@svKube:/home/vagrant# minikube start --vm-driver=none
+😄  minikube v1.24.0 on Debian 10.11 (vbox/amd64)
+✨  Using the none driver based on user configuration
+
+🧯  The requested memory allocation of 1995MiB does not leave room for system overhead (total system memory: 1995MiB). You may face stability issues.
+💡  Suggestion: Start minikube with less memory allocated: 'minikube start --memory=1995mb'
+
+👍  Starting control plane node minikube in cluster minikube
+🤹  Running on localhost (CPUs=2, Memory=1995MB, Disk=20029MB) ...
+ℹ️  OS release is Debian GNU/Linux 10 (buster)
+    > kubeadm.sha256: 64 B / 64 B [--------------------------] 100.00% ? p/s 0s
+    > kubectl.sha256: 64 B / 64 B [--------------------------] 100.00% ? p/s 0s
+    > kubelet.sha256: 64 B / 64 B [--------------------------] 100.00% ? p/s 0s
+    > kubeadm: 43.71 MiB / 43.71 MiB [---------------] 100.00% 3.84 MiB p/s 12s
+    > kubectl: 44.73 MiB / 44.73 MiB [---------------] 100.00% 3.86 MiB p/s 12s
+    > kubelet: 115.57 MiB / 115.57 MiB [-------------] 100.00% 4.01 MiB p/s 29s
+
+    ▪ Generating certificates and keys ...
+    ▪ Booting up control plane ...
+    ▪ Configuring RBAC rules ...
+🤹  Configuring local host environment ...
+
+❗  The 'none' driver is designed for experts who need to integrate with an existing VM
+💡  Most users should use the newer 'docker' driver instead, which does not require root!
+📘  For more information, see: https://minikube.sigs.k8s.io/docs/reference/drivers/none/
+
+❗  kubectl and minikube configuration will be stored in /root
+❗  To use kubectl or minikube commands as your own user, you may need to relocate them. For example, to overwrite your own settings, run:
+
+    ▪ sudo mv /root/.kube /root/.minikube $HOME
+    ▪ sudo chown -R $USER $HOME/.kube $HOME/.minikube
+
+💡  This can also be done automatically by setting the env var CHANGE_MINIKUBE_NONE_USER=true
+🔎  Verifying Kubernetes components...
+    ▪ Using image gcr.io/k8s-minikube/storage-provisioner:v5
+🌟  Enabled addons: default-storageclass, storage-provisioner
+💡  kubectl not found. If you need it, try: 'minikube kubectl -- get pods -A'
+🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+```
+
+Podremos apreciar su correcta instalación observando sus pods.
+```shell
+root@svKube:/home/vagrant# minikube kubectl -- get pods -A
+NAMESPACE     NAME                             READY   STATUS    RESTARTS   AGE
+kube-system   coredns-78fcd69978-hchrh         1/1     Running   0          2m23s
+kube-system   etcd-svkube                      1/1     Running   0          2m36s
+kube-system   kube-apiserver-svkube            1/1     Running   0          2m36s
+kube-system   kube-controller-manager-svkube   1/1     Running   0          2m38s
+kube-system   kube-proxy-hv5zs                 1/1     Running   0          2m23s
+kube-system   kube-scheduler-svkube            1/1     Running   0          2m36s
+kube-system   storage-provisioner              1/1     Running   0          2m35s
+```
+
+Para comenzar su monitorización con **New relic** deberemos instalar **Helm**, La principal función de Helm es definir, instalar y actualizar aplicaciones complejas de Kubernetes. 
+```shell
+root@svKube:/home/vagrant# curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+root@svKube:/home/vagrant# chmod 700 get_helm.sh
+root@svKube:/home/vagrant# ./get_helm.sh
+Downloading https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz
+Verifying checksum... Done.
+Preparing to install helm into /usr/local/bin
+helm installed into /usr/local/bin/helm
+```
+
+El comando que nos proporciona **New relic** para establece una conexión con nuestro cluster no es valido para minikube, para ejecutarlo correctamente simplemente deberemos modificar la linea:
+kubectl create namespace kube-system ; helm upgrade --install newrelic-bundle newrelic/nri-bundle \
+por:
+minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-bundle newrelic/nri-bundle \
+
+```shell
+helm repo add newrelic https://helm-charts.newrelic.com && helm repo update && \
+minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-bundle newrelic/nri-bundle \
+ --set global.licenseKey=eu01xx48059720c231a1080bc348906513e7NRAL \
+ --set global.cluster=minikube \
+ --namespace=kube-system \
+ --set newrelic-infrastructure.privileged=true \
+ --set global.lowDataMode=true \
+ --set ksm.enabled=true \
+ --set kubeEvents.enabled=true 
+ ```
+
+![PracticaImg](images/proyecto/newrelic6.png "monitorización de minikube")
 
 <hr id="integracion" >
 
