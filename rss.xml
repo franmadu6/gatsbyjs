@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 30 Nov 2021 10:07:44 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 30 Nov 2021 10:24:28 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -567,7 +567,64 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
     &lt;/span&gt;&lt;/p&gt;
 &lt;hr id=&quot;pruebaskube&quot; &gt;
 &lt;br&gt;
-&lt;h2 id=&quot;pruebas-con-kubernetes&quot;&gt;&lt;a href=&quot;#pruebas-con-kubernetes&quot; aria-label=&quot;pruebas con kubernetes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pruebas con kubernetes&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;h2 id=&quot;pruebas-con-kubernetes&quot;&gt;&lt;a href=&quot;#pruebas-con-kubernetes&quot; aria-label=&quot;pruebas con kubernetes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pruebas con kubernetes&lt;/h2&gt;
+&lt;p&gt;Para usar minikube de una manera mucho mas sencilla añadiremos un alias para no tener que estar poniendo minikube en cada linea:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;kubectl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;minikube kubectl --&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Crearemos un deployment sencilla en lo expondremos por el puesto 8080:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# kubectl create deployment hello-minikube --image=k8s.gcr.io/echoserver:1.4&lt;/span&gt;
+deployment.apps/hello-minikube created
+root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# kubectl expose deployment hello-minikube --type=NodePort --port=8080&lt;/span&gt;
+service/hello-minikube exposed&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# kubectl get services hello-minikube&lt;/span&gt;
+NAME             TYPE       CLUSTER-IP     EXTERNAL-IP   PORT&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;S&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;          AGE
+hello-minikube   NodePort   &lt;span class=&quot;token number&quot;&gt;10.98&lt;/span&gt;.127.54   &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;        &lt;span class=&quot;token number&quot;&gt;8080&lt;/span&gt;:30972/TCP   46s&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.708333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABB0lEQVQoz41S266DMAzr/3/l3o60MegNeqPNsSc6mATTLEUpbeo6DurvfhdjrYxai3FO5mWReZ4vY8G5MUYm1Pc9772EGGUYBlEaBxZEJDXbQQhhj/6NzMf4qEPdcxxfZNzPOQtBDlXWVX5Fa01qrVKR/daJpkKsuU/lyuP1FaQs/hZ1yx0Vd9gqu+sYp0mUcVZiSu/iK8KjSqKUInrzkvcJ2qdKyx9Ex3XdWuT6Fp9iS/gg5IAeGAQ9fRPGnCAfl6Sdqnx5hghrklJ3v0kYoIx/h8YwOBgqVpTM6Vy1fDYYggQOChnLseWzdr95eSTklCN+mw5r3U54lq+87YRaG0lQx1aZ6eU/58oRIl2rv/AAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de minikube deployment&quot;
+        src=&quot;/gatsbyjs/static/7648fea367402f05ef8b8288d4148068/36727/newrelic7.png&quot;
+        srcset=&quot;/gatsbyjs/static/7648fea367402f05ef8b8288d4148068/acf4b/newrelic7.png 173w,
+/gatsbyjs/static/7648fea367402f05ef8b8288d4148068/fc834/newrelic7.png 345w,
+/gatsbyjs/static/7648fea367402f05ef8b8288d4148068/36727/newrelic7.png 690w,
+/gatsbyjs/static/7648fea367402f05ef8b8288d4148068/17fa4/newrelic7.png 1035w,
+/gatsbyjs/static/7648fea367402f05ef8b8288d4148068/a5044/newrelic7.png 1380w,
+/gatsbyjs/static/7648fea367402f05ef8b8288d4148068/a987b/newrelic7.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.28884254431699%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABBUlEQVQoz41S2Y7DIBDj//9tn/q4H9DttW04whHAOyYkStOu1JFGgsFjbAb1dTjgcrvBWIuH1rDjCO89xn/ShwDnHAbBGsGetcH35QqGFQ71czrNh7IZjBGQR4gRQRr3STLiGrb38BLiGVr6lfMBKWd8GrXWltM04VcIz9bhThG5tEuUlqKTQkppBb9LtHwmpiMrqqdS2lFTaKwUvUMWlWvzRkntRIWqalnPiY9ideljNIXWWeSan0i26yK3Cxvu04hjHOb9jjAvCmfLBg+j22QXor3CF/sbQr4ln4t7IxNXnBDJYp/USvoBYUpdYbc9yjdSC+Dl3d6p3DigdX4j2qVK1insD+vlwvrFkZ86AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de minikube deployment&quot;
+        src=&quot;/gatsbyjs/static/a15b4fd91eeb40be23a42de25aae44ef/36727/newrelic8.png&quot;
+        srcset=&quot;/gatsbyjs/static/a15b4fd91eeb40be23a42de25aae44ef/acf4b/newrelic8.png 173w,
+/gatsbyjs/static/a15b4fd91eeb40be23a42de25aae44ef/fc834/newrelic8.png 345w,
+/gatsbyjs/static/a15b4fd91eeb40be23a42de25aae44ef/36727/newrelic8.png 690w,
+/gatsbyjs/static/a15b4fd91eeb40be23a42de25aae44ef/17fa4/newrelic8.png 1035w,
+/gatsbyjs/static/a15b4fd91eeb40be23a42de25aae44ef/a5044/newrelic8.png 1380w,
+/gatsbyjs/static/a15b4fd91eeb40be23a42de25aae44ef/4d600/newrelic8.png 1918w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Como podemos comprobar se han añadido un cluster con su consiguiente deploy nuevos al diagrama.&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
