@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 18 Nov 2021 09:48:26 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 30 Nov 2021 09:46:33 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -21,7 +21,6 @@
     &lt;/span&gt;&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;#newrelic&quot;&gt;New Relic&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#web&quot;&gt;Pagina web&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#kubernetes&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#integracion&quot;&gt;Integración&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -458,14 +457,114 @@ nri-mysql ya está en su versión más reciente (1.7.1).
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;hr id=&quot;web&quot; &gt;
-&lt;br&gt;
-&lt;h2 id=&quot;web&quot;&gt;&lt;a href=&quot;#web&quot; aria-label=&quot;web permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Web&lt;/h2&gt;
-&lt;p&gt;Para este proyecto montaremos una web sencilla, la funcion de la misma es poderla producir con kubernete.&lt;/p&gt;
 &lt;hr id=&quot;kubernete&quot; &gt;
 &lt;br&gt;
 &lt;h2 id=&quot;kubernete&quot;&gt;&lt;a href=&quot;#kubernete&quot; aria-label=&quot;kubernete permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kubernete&lt;/h2&gt;
-&lt;p&gt;(Anteriormente)[https://franmadu6.github.io/gatsbyjs/despliegue-de-un-cluster-de-kubernetes]&lt;/p&gt;
+&lt;p&gt;Ahora toca configurar minikube en nuestra maquina virtual:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@svKube:~$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;66&lt;/span&gt;.3M  &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;66&lt;/span&gt;.3M    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  3995k      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;:00:17  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;:00:17 --:--:-- 3952k
+vagrant@svKube:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; minikube-linux-amd64 /usr/local/bin/minikube
+
+&lt;span class=&quot;token comment&quot;&gt;#Al inicializarlo nos da varios errores en mi casa tuve que ejecutarlo con minikube start --vm-driver=none y instalar docker,docker.io y conntrack&lt;/span&gt;
+vagrant@svKube:~$ minikube start
+vagrant@svKube:~$ minikube start --vm-driver&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;none
+root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# apt install docker docker.io&lt;/span&gt;
+root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# minikube start --vm-driver=none&lt;/span&gt;
+root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# sudo apt-get install -y conntrack&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# minikube start --vm-driver=none&lt;/span&gt;
+😄  minikube v1.24.0 on Debian &lt;span class=&quot;token number&quot;&gt;10.11&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;vbox/amd64&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+✨  Using the none driver based on user configuration
+
+🧯  The requested memory allocation of 1995MiB does not leave room &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; system overhead &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;total system memory: 1995MiB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;. You may face stability issues.
+💡  Suggestion: Start minikube with &lt;span class=&quot;token function&quot;&gt;less&lt;/span&gt; memory allocated: &lt;span class=&quot;token string&quot;&gt;&apos;minikube start --memory=1995mb&apos;&lt;/span&gt;
+
+👍  Starting control plane node minikube &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; cluster minikube
+🤹  Running on localhost &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;CPUs&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;Memory&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;1995MB, &lt;span class=&quot;token assign-left variable&quot;&gt;Disk&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;20029MB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+ℹ️  OS release is Debian GNU/Linux &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;buster&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; kubeadm.sha256: &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; B / &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; B &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;--------------------------&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100.00&lt;/span&gt;% ? p/s 0s
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; kubectl.sha256: &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; B / &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; B &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;--------------------------&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100.00&lt;/span&gt;% ? p/s 0s
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; kubelet.sha256: &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; B / &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; B &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;--------------------------&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100.00&lt;/span&gt;% ? p/s 0s
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; kubeadm: &lt;span class=&quot;token number&quot;&gt;43.71&lt;/span&gt; MiB / &lt;span class=&quot;token number&quot;&gt;43.71&lt;/span&gt; MiB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;---------------&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100.00&lt;/span&gt;% &lt;span class=&quot;token number&quot;&gt;3.84&lt;/span&gt; MiB p/s 12s
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; kubectl: &lt;span class=&quot;token number&quot;&gt;44.73&lt;/span&gt; MiB / &lt;span class=&quot;token number&quot;&gt;44.73&lt;/span&gt; MiB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;---------------&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100.00&lt;/span&gt;% &lt;span class=&quot;token number&quot;&gt;3.86&lt;/span&gt; MiB p/s 12s
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; kubelet: &lt;span class=&quot;token number&quot;&gt;115.57&lt;/span&gt; MiB / &lt;span class=&quot;token number&quot;&gt;115.57&lt;/span&gt; MiB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;-------------&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100.00&lt;/span&gt;% &lt;span class=&quot;token number&quot;&gt;4.01&lt;/span&gt; MiB p/s 29s
+
+    ▪ Generating certificates and keys &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+    ▪ Booting up control plane &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+    ▪ Configuring RBAC rules &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+🤹  Configuring &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;host&lt;/span&gt; environment &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+
+❗  The &lt;span class=&quot;token string&quot;&gt;&apos;none&apos;&lt;/span&gt; driver is designed &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; experts &lt;span class=&quot;token function&quot;&gt;who&lt;/span&gt; need to integrate with an existing VM
+💡  Most &lt;span class=&quot;token function&quot;&gt;users&lt;/span&gt; should use the newer &lt;span class=&quot;token string&quot;&gt;&apos;docker&apos;&lt;/span&gt; driver instead, &lt;span class=&quot;token function&quot;&gt;which&lt;/span&gt; does not require root&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;
+📘  For &lt;span class=&quot;token function&quot;&gt;more&lt;/span&gt; information, see: https://minikube.sigs.k8s.io/docs/reference/drivers/none/
+
+❗  kubectl and minikube configuration will be stored &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; /root
+❗  To use kubectl or minikube commands as your own user, you may need to relocate them. For example, to overwrite your own settings, run:
+
+    ▪ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mv&lt;/span&gt; /root/.kube /root/.minikube &lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;
+    ▪ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; -R &lt;span class=&quot;token environment constant&quot;&gt;$USER&lt;/span&gt; &lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;/.kube &lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;/.minikube
+
+💡  This can also be &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt; automatically by setting the &lt;span class=&quot;token function&quot;&gt;env&lt;/span&gt; var &lt;span class=&quot;token assign-left variable&quot;&gt;CHANGE_MINIKUBE_NONE_USER&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true
+🔎  Verifying Kubernetes components&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+    ▪ Using image gcr.io/k8s-minikube/storage-provisioner:v5
+🌟  Enabled addons: default-storageclass, storage-provisioner
+💡  kubectl not found. If you need it, try: &lt;span class=&quot;token string&quot;&gt;&apos;minikube kubectl -- get pods -A&apos;&lt;/span&gt;
+🏄  Done&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; kubectl is now configured to use &lt;span class=&quot;token string&quot;&gt;&quot;minikube&quot;&lt;/span&gt; cluster and &lt;span class=&quot;token string&quot;&gt;&quot;default&quot;&lt;/span&gt; namespace by default&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Podremos apreciar su correcta instalación observando sus pods.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# minikube kubectl -- get pods -A&lt;/span&gt;
+NAMESPACE     NAME                             READY   STATUS    RESTARTS   AGE
+kube-system   coredns-78fcd69978-hchrh         &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m23s
+kube-system   etcd-svkube                      &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m36s
+kube-system   kube-apiserver-svkube            &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m36s
+kube-system   kube-controller-manager-svkube   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m38s
+kube-system   kube-proxy-hv5zs                 &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m23s
+kube-system   kube-scheduler-svkube            &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m36s
+kube-system   storage-provisioner              &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m35s&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Para comenzar su monitorización con &lt;strong&gt;New relic&lt;/strong&gt; deberemos instalar &lt;strong&gt;Helm&lt;/strong&gt;, La principal función de Helm es definir, instalar y actualizar aplicaciones complejas de Kubernetes. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3&lt;/span&gt;
+root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# chmod 700 get_helm.sh&lt;/span&gt;
+root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# ./get_helm.sh&lt;/span&gt;
+Downloading https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz
+Verifying checksum&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. Done.
+Preparing to &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; helm into /usr/local/bin
+helm installed into /usr/local/bin/helm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;El comando que nos proporciona &lt;strong&gt;New relic&lt;/strong&gt; para establece una conexión con nuestro cluster no es valido para minikube, para ejecutarlo correctamente simplemente deberemos modificar la linea:
+kubectl create namespace kube-system ; helm upgrade --install newrelic-bundle newrelic/nri-bundle &lt;br&gt;
+por:
+minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-bundle newrelic/nri-bundle \&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;helm repo &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; newrelic https://helm-charts.newrelic.com &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; helm repo update &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+minikube kubectl create namespace kube-system &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; helm upgrade --install newrelic-bundle newrelic/nri-bundle &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --set global.licenseKey&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;eu01xx48059720c231a1080bc348906513e7NRAL &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --set global.cluster&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;minikube &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --namespace&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;kube-system &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --set newrelic-infrastructure.privileged&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --set global.lowDataMode&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --set ksm.enabled&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --set kubeEvents.enabled&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.39583333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABI0lEQVQoz51SQU7DMBD01znyAj7CD7hw4sIFIVEpakuSNq1Tx2s7duJhnQRIo4AQlka7tnbHOx6LoixxUQpN04zRGDjnYBlugXTWaD0g1daNRlFfkEuJnPcZcwltLdquw19XjHFA4B7jA7ayxuZYIdeEjKNQfAvxVK33X8VrwICJdCI3THr3usFD/o69sdhWJwgyBHIGfd9/N88miRNRF3uE2F3VJGW3Ty+4eXzG/dsO2eHIkklzcbgimefpIvQRMhiUXo37aaXccL9vW1iWfzqfIdIDKz50fPhJtJxwOe28JieJnTwghADLTycsm0JEg4M/GbCWDxNyLBqJrapgWSWxMWIu4TdT1iZNvcTKfBh/iWa1Irmbxv0PPKNjY8IU01/+AGZOv8QdkAbiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de minikube&quot;
+        src=&quot;/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/36727/newrelic6.png&quot;
+        srcset=&quot;/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/acf4b/newrelic6.png 173w,
+/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/fc834/newrelic6.png 345w,
+/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/36727/newrelic6.png 690w,
+/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/17fa4/newrelic6.png 1035w,
+/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/a5044/newrelic6.png 1380w,
+/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/a987b/newrelic6.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;hr id=&quot;integracion&quot; &gt;
 &lt;br&gt;
 &lt;h2 id=&quot;integración&quot;&gt;&lt;a href=&quot;#integraci%C3%B3n&quot; aria-label=&quot;integración permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Integración&lt;/h2&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
