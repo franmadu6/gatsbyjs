@@ -20,7 +20,7 @@ tags:
 <ol>
   <li><a href="#newrelic">New Relic</a></li>
   <li><a href="#kubernetes">Kubernetes</a></li>
-  <li><a href="#integracion">Integración</a></li>
+  <li><a href="#pruebaskube">Pruebas con Kubernetes</a></li>
 </ol>
 
 
@@ -362,15 +362,17 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 
 ## Kubernetes
 
-Ahora toca configurar minikube en nuestra maquina virtual:
+Antes monitorizar nuestro cluster deberemos de confirgurarlo primero, para ello utilizaremos **minikube** para crear nuestros clusters, procederemos a su instalación.
 ```shell
 vagrant@svKube:~$ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100 66.3M  100 66.3M    0     0  3995k      0  0:00:17  0:00:17 --:--:-- 3952k
 vagrant@svKube:~$ sudo install minikube-linux-amd64 /usr/local/bin/minikube
+```
 
-#Al inicializarlo nos da varios errores en mi casa tuve que ejecutarlo con minikube start --vm-driver=none y instalar docker,docker.io y conntrack
+Al inicializarlo nos da varios errores en mi casa tuve que ejecutarlo con minikube start --vm-driver=none y instalar docker,docker.io y conntrack, este fue un poco el historial de comandos que ejecute.
+```shell
 vagrant@svKube:~$ minikube start
 vagrant@svKube:~$ minikube start --vm-driver=none
 root@svKube:/home/vagrant# apt install docker docker.io
@@ -378,6 +380,7 @@ root@svKube:/home/vagrant# minikube start --vm-driver=none
 root@svKube:/home/vagrant# sudo apt-get install -y conntrack
 ```
 
+Ahora si podremos ejecutarlo correctamente:
 ```shell
 root@svKube:/home/vagrant# minikube start --vm-driver=none
 😄  minikube v1.24.0 on Debian 10.11 (vbox/amd64)
@@ -419,7 +422,7 @@ root@svKube:/home/vagrant# minikube start --vm-driver=none
 🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
 ```
 
-Podremos apreciar su correcta instalación observando sus pods.
+Podremos apreciar su correcta instalación observando que sus pods estan corriendo.
 ```shell
 root@svKube:/home/vagrant# minikube kubectl -- get pods -A
 NAMESPACE     NAME                             READY   STATUS    RESTARTS   AGE
@@ -432,7 +435,7 @@ kube-system   kube-scheduler-svkube            1/1     Running   0          2m36
 kube-system   storage-provisioner              1/1     Running   0          2m35s
 ```
 
-Para comenzar su monitorización con **New relic** deberemos instalar **Helm**, La principal función de Helm es definir, instalar y actualizar aplicaciones complejas de Kubernetes. 
+Para comenzar su monitorización con **New relic** deberemos instalar **Helm**, la principal función de Helm es definir, instalar y actualizar aplicaciones complejas de Kubernetes. 
 ```shell
 root@svKube:/home/vagrant# curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
 root@svKube:/home/vagrant# chmod 700 get_helm.sh
@@ -462,8 +465,9 @@ minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-
 
 ![PracticaImg](images/proyecto/newrelic6.png "monitorización de minikube")
 
-<hr id="integracion" >
+<hr id="pruebaskube" >
 
 <br>
 
-## Integración
+## Pruebas con kubernetes
+
