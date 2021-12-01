@@ -501,7 +501,8 @@ Como podemos comprobar se han añadido un cluster con su consiguiente deploy nue
 
 <br>
 
-Hasta ahora hemos visualizado un cluster simple, añadamos dificultad despleguemos la [ultima practica de kubernetes](https://franmadu6.github.io/gatsbyjs/despliegue-de-un-cluster-de-kubernetes) que realizamos, la replicaremos y probaremos su comportamiento.
+Hasta ahora hemos visualizado un cluster simple, añadamos dificultad despleguemos la ultima [practica de kubernetes](https://franmadu6.github.io/gatsbyjs/despliegue-de-un-cluster-de-kubernetes) que realizamos, la replicaremos y probaremos su comportamiento.
 
-Para ello montaremos el escenario nuevamente y meteremos el daemon de new relic para kubernetes para que registre
+Para ello montaremos el escenario nuevamente y meteremos el daemon de new relic para kubernetes para que registre y monitorice el escenario.
+
 ![PracticaImg](images/proyecto/newrelic9.png "monitorización de cluster")
