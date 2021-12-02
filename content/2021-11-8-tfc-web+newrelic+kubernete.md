@@ -514,7 +514,7 @@ Para ello montaremos el escenario nuevamente y meteremos el daemon de new relic 
 
 Nos muestra bastantes datos del cluster creado, pero ¿Nos mostrara si falla algun nodo?
 
-```shell
+Para hacer una simulación de fallo apagaremos el **worker2** seguira funcionando todo correctamente pero no podremos hacer uso de el, como se muestra en la grafica .
 
-```
+![PracticaImg](images/proyecto/newrelic15.png "monitorización de cluster")
 
