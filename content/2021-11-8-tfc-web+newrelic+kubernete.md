@@ -506,3 +506,15 @@ Hasta ahora hemos visualizado un cluster simple, añadamos dificultad despleguem
 Para ello montaremos el escenario nuevamente y meteremos el daemon de new relic para kubernetes para que registre y monitorice el escenario.
 
 ![PracticaImg](images/proyecto/newrelic9.png "monitorización de cluster")
+![PracticaImg](images/proyecto/newrelic10.png "monitorización de cluster")
+![PracticaImg](images/proyecto/newrelic11.png "monitorización de cluster")
+![PracticaImg](images/proyecto/newrelic12.png "monitorización de cluster")
+![PracticaImg](images/proyecto/newrelic14.png "monitorización de cluster")
+![PracticaImg](images/proyecto/newrelic13.png "monitorización de cluster")
+
+Nos muestra bastantes datos del cluster creado, pero ¿Nos mostrara si falla algun nodo?
+
+```shell
+
+```
+
