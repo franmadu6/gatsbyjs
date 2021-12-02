@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 01 Dec 2021 12:20:03 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 02 Dec 2021 09:11:18 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -652,7 +652,124 @@ hello-minikube   NodePort   &lt;span class=&quot;token number&quot;&gt;10.98&lt;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.447916666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABUklEQVQoz2VSXW+DMAzk//+7PVR76yatqwrt8kkSwCE32y2s6oKs4Ng539npBmtRiJDnGSklrOu6m/hTKVhrVX/inJwzWmtqlc/iOOq5LOc9usrJsiQBT7Zd2mKvvuRIEes8fAiYpgmWyXVSkR4MaFmYDe2M6mPfTH2N0+67MCKVCZULWOfQLQyi9DmYRM7Tp2w2RryERc5FcxduE1FF4TuV7iqNMX+SqzLkysSVF2ZUGwMUPdsApXhhNsRgAi7KfBoxFgZtK5wwFKCtLz4aXK4nXG7fuJket3DGYM7/ergv9j99j3d7UjdyL3dAYRpzBK2LWm2kgrn1Kk+svQxI+mhihMsJojPwxHfJEizTjDIzIAlIVUmCIhIl7xlsezZfLuD4Y9GngmuI96Fok3kXS9wb83hbs4BzbOb/kd+kDI10GPcCmQm8HXscPgYcPq84DRa/oujBFZPCrjUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/36727/newrelic10.png&quot;
+        srcset=&quot;/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/acf4b/newrelic10.png 173w,
+/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/fc834/newrelic10.png 345w,
+/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/36727/newrelic10.png 690w,
+/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/17fa4/newrelic10.png 1035w,
+/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/a5044/newrelic10.png 1380w,
+/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/a987b/newrelic10.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.651356993736954%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABGUlEQVQoz32SiW6DMBBE+f+vbAJplQQoBszhg+ksNsi1aJFGrPD6ecZL8fl8oVMKbdei63voacKo9S/pqKMO/R2eTYN3+42GdcO91euNQrFQvcL+ZvO8LFhE6xrEes50rOl5hhqGXQONfNFcYa2DdQ754/hNtG0b/ntk/eir6xrFxFNmY+C8PzdLg0QTF3KYj2tXOqHsqR6PCLQWPnEiwHEcIWtypyIXU6SOU6gAy7IMwMlYWH44gawHAi0PSjenkFw7sEqBzmcONQyvQuKm15FHPYHcU1YVgZzauBqYZDDeC7DHKndIl6IUkkcWycEft1twaKK7ozkA1f7LGMLE6RrdXsVHjHy73wPQJlM8I3PKNv4OV1P9K/IP0v8QjZtiRr0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/36727/newrelic11.png&quot;
+        srcset=&quot;/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/acf4b/newrelic11.png 173w,
+/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/fc834/newrelic11.png 345w,
+/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/36727/newrelic11.png 690w,
+/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/17fa4/newrelic11.png 1035w,
+/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/a5044/newrelic11.png 1380w,
+/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/bda01/newrelic11.png 1916w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.10416666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABQElEQVQoz11S0W6EIBD0/3+xySXt3UutcAqIiMB0FtDelWSzyi4zswPDqBSeywJrLVbv8Xn/wsftBreuMH1v27a3OGsSM8/OxkIbw7AYQghQT4WVTfu+Y55nLNYhxIz9yEi5oJSCfObS8mukzL6CSjQIo4BJ4X2VSpBS+tv5B3QuIRVATTGDgP1MUz24x1jHaIoyQgeU/+M4LpCNU3laEdkvZyTnnOAcR7bOVf9kieTvcbwARWFTQHCCNN2tJgTxAsu1JiTVw7i3zcQmR4LC79JBJEOUVXVNofSeIKcVF6APG57WYCNTEoNZOAoVcITZrXAki9yLpUcn8vReQF/9bAqpyhyxxhL3Kzz/lX5g0nfmHuYBtWr6mi9b6mTdZ7mP4VX6+yXzIrRBmhYkxawWgNNwYFoU6mHf36Uok/eqtcYvqA/AZSsQcyQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/36727/newrelic12.png&quot;
+        srcset=&quot;/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/acf4b/newrelic12.png 173w,
+/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/fc834/newrelic12.png 345w,
+/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/36727/newrelic12.png 690w,
+/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/17fa4/newrelic12.png 1035w,
+/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/a5044/newrelic12.png 1380w,
+/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/a987b/newrelic12.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.23958333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABRUlEQVQoz4VS7W7EIAzr+7/opFW3K1C+KZ6d0un+DTWChsSxE7ZSClJKSDkj0w53wPmA3AZirqi1YYyO67pumxdabyi1oveOzrvWZYxPEVvlhYAErIRnzTnNb8aYwTv5wE+x8Twx+io0lDeRIgHHGKw6yeKypM7/wWqT55ILSsxoBK0M1rnkm5mAlGss179z7mYYGRwpW5Vba2a9dbKI8CHY/dOWlBMC/YEM5aurZZn7975jUy/kEMjnkjwDoUmaaV1LJE4CPjnWCi4V3kRX6NYrNrWIRaFMygkckH+/4V47jv0L758XmSWT+gCpXU/vVXyTTFU7JZumc9Ae6aNcH06Tp3OgPbEiIGCxVSs06eM4JPlmdz+bYkF/T2SZmMxrsdH0SUJF9HymDXTYrmJb1RD6eksahqb8jyknErSseOXqhXjv8Qs9OMCFWg3WfQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/36727/newrelic14.png&quot;
+        srcset=&quot;/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/acf4b/newrelic14.png 173w,
+/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/fc834/newrelic14.png 345w,
+/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/36727/newrelic14.png 690w,
+/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/17fa4/newrelic14.png 1035w,
+/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/a5044/newrelic14.png 1380w,
+/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/a987b/newrelic14.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.13541666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABKElEQVQoz4VSi27EIAzj/7+0va0PaKG8vThtddV02pCshABOYmK895iXBdu+I4SAaZ6xWIcQM7YQkXJBrRWlFAX9lDPCcaCI3wHU3tHEHvGA2YXQWquHJNyFuNWGKIfTNImNSuB9OP2U0FpT8piy2nwl9buHYYAXOrOI5cFv/wkuVs3khZVKQSwiSsWLdGqYPV5Zufjm+fgjYUw4pOLzsgTaGad8JgthvrS5K/0LXE7keMWAtZY3WsWyb9KyEJGMxGz/bvcT2R33/Dy7YnFOYDEL1s3h9f0FQ6Gpx1PH/9DZYoWiE+Vs3VmpUEdlmpWUv6USXNVSExX/GhnuiVxOmTgmHB/6jHFadGzGccQwDDqPbIcxWistcT79tV/lge7FZ4z+fZc+Z/gHC/7AkvvWzl8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/36727/newrelic13.png&quot;
+        srcset=&quot;/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/acf4b/newrelic13.png 173w,
+/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/fc834/newrelic13.png 345w,
+/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/36727/newrelic13.png 690w,
+/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/17fa4/newrelic13.png 1035w,
+/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/a5044/newrelic13.png 1380w,
+/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/a987b/newrelic13.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Nos muestra bastantes datos del cluster creado, pero ¿Nos mostrara si falla algun nodo?&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
