@@ -518,3 +518,5 @@ Para hacer una simulación de fallo apagaremos el **worker2** seguira funcionand
 
 ![PracticaImg](images/proyecto/newrelic15.png "monitorización de cluster")
 
+Buscando un poco en todas las metricas y logs que proporciona, podemos acceder al log y ver en que momento dejo de dar conexión.
+![PracticaImg](images/proyecto/newrelic16.png "monitorización de cluster")
