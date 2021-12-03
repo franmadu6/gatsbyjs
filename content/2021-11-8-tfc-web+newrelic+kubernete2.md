@@ -55,14 +55,12 @@ Aplicaciones WEB (APM)
 
 **Permite monitorizar aplicaciones web en los siguientes lenguajes:**
 
-- Ruby
-- PHP
-- Java (la miraremos un poco más en detalle)
-- .NET
+* Ruby
+  * PHP
+    * Java (la miraremos un poco más en detalle)
+* * .NET
 - Python
 - NodeJs
-
-**Aplicaciones Móviles (Mobile)**
 
 **Permite monitorizar nuestras aplicaciones para móviles (Android, iOS y Titanium).**
 Navegadores (Browser)
@@ -74,7 +72,6 @@ Usuarios (Synthetics)
 Servidores (Servers)
 
 **Nos da una vista del servidor desde la perspectiva de la propia aplicación.**
-Otros
 
 Además de las características arriba descritas, nos ofrece un amplio abanico de **Plugins** para ayudarnos con ellas, e incluso añadir nuevas funcionalidades, soporte en la nube y integración con kubernete que veremos mas adelante.
 
