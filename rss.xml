@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 02 Dec 2021 11:16:16 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 03 Dec 2021 09:05:42 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes2]]></title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-2</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-2</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/53ad20e37c1afdf492f1af309fc2e1b0/8ff1e/portada.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAC4jAAAuIwF4pT92AAACEklEQVQoz3WS324SQRTGeRbfwDt9Bq9s0sSkNnqhJk28NDFe+QZqgnohtlXTFGOkUlOallAi7QZ2WyAU1lJchRbSZXdBcGdZlv0zcxx2CtIG52Iy35z5nW/mzAnAf4aHMSdrH3+eNv4gKsm0M4FLGmNMZzSw5zeTj9LZp5XqlWh8/UeVbjqex6LTYUKIR4Yej1OZG5FNYXv7JJ97WKleXdua6n0Bdl33qFzuNuX7sZ3rK5HivnAo8DcLR/MpgUYzPC9JEvO4AFPpYUjt7qlai8qGblxbjd7isg/Kv+7lxFbPpJun9QbHccOnkQlnlgkhfWM9MpaW62Zkpdjugi+xPyuq2ul0xjLAroD6eGUPBWNKC7ks5o3y0yqwdN9l8l7wFjPe4RlL6DtT8u5r5c4rZWGxNfui2Wj7PCY0BT4H4awLHwQIZyGcg2UBTn6P4HjRpMxuuZ+rWnPB5iqH/H8+d/ZvSEQZEsewVoBPOUhWoNAYwdEDY+aZHMv3tgrm7ZfKm4Q+CTNnSRvCGyJ8LUGiAmVlotpPwu3Z5825oLLwVrU9cBzbcRwWUjXN7CE0gCWeLPPwToBQGjTDh12P9Cwsd7wvB8Zn3qi3HReDbphiqaTrOv3YUCjEKowskpQgfgzdPrCGHcL7krVTMsW6na8N0hXrm2iiPrEH/VqtpqqqbdusaKPW+LcIXNJTx7ilaB3wxMm/nKr/Ddf+oh8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;Portada principal&quot;
+        src=&quot;/gatsbyjs/static/53ad20e37c1afdf492f1af309fc2e1b0/36727/portada.png&quot;
+        srcset=&quot;/gatsbyjs/static/53ad20e37c1afdf492f1af309fc2e1b0/acf4b/portada.png 173w,
+/gatsbyjs/static/53ad20e37c1afdf492f1af309fc2e1b0/fc834/portada.png 345w,
+/gatsbyjs/static/53ad20e37c1afdf492f1af309fc2e1b0/36727/portada.png 690w,
+/gatsbyjs/static/53ad20e37c1afdf492f1af309fc2e1b0/8ff1e/portada.png 800w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;lista&quot;&gt;
+&lt;ol&gt;
+    &lt;li&gt;Monitorización y análisis de aplicaciones web con new relic: Aquí explicas las características de la herramienta.&lt;/li&gt;
+    &lt;ol&gt;
+        &lt;li&gt;1.1 ¿Cómo funciona?&lt;/li&gt;
+        &lt;li&gt;1.2. Instalación de New Relic: Dejando claro donde se está instalando.&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;li&gt;2. Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.&lt;/li&gt;
+    &lt;ol&gt;
+        &lt;li&gt;2.1 Instalación de minikube&lt;/li&gt;
+        &lt;li&gt;2.2 Instalaciión de kubectl&lt;/li&gt;
+        &lt;li&gt;2.3. Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;li&gt;3. Monitorización de nuestra aplicación con new relic
+    Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:&lt;/li&gt;
+    &lt;ol&gt;
+        &lt;li&gt;3.1 Monitorizar Conexiones HTTP&lt;/li&gt;
+        &lt;li&gt;3.2 Monitorización de errores&lt;/li&gt;
+        &lt;li&gt;3.3 Fijar alertas&lt;/li&gt;
+        &lt;li&gt;3.4 Estadísticas de rendimiento&lt;/li&gt;
+        &lt;li&gt;3.5 ...&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;li&gt;four&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -813,6 +866,30 @@ hello-minikube   NodePort   &lt;span class=&quot;token number&quot;&gt;10.98&lt;
 /gatsbyjs/static/628eea2be0487d748e4d051deb63ba3a/17fa4/newrelic16.png 1035w,
 /gatsbyjs/static/628eea2be0487d748e4d051deb63ba3a/a5044/newrelic16.png 1380w,
 /gatsbyjs/static/628eea2be0487d748e4d051deb63ba3a/a987b/newrelic16.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Podemos crear alertas para que nos
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.101036269430054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABI0lEQVQoz5WS63KDIBCFff8nrPHSmWTaPzFeQZCLpweoNjqdTqN+ssDugWXJmq7Dx73BZ9OgHUZMQmAksZ2ml8la/m7NIzIICaU0ZqUiSmsYY14iUwzsuhY9dzqJCXKWESGT+Lqu8N7/myjYtyPTnOGMh1GWK1k462C9PgYE8fMC7K9PZJppaWUgtIOkmBQagqnPHFusPjh7ayPnMRrYnii4O2zvdx/h2wJpi7KAquswHPFmgb5dky/ws8P1tO0zYQeWNG85ZFWm4ChoMF9/Edw6fwl6+nSXC4aq2tPTLNq9fo/z67OgZQEMz8LsbWIxqUDbnMhzjEUBw2JY5zBPAn1ZHgX3u7YsCdqOzo5Bzvlkk1BRy6sUiHOhwqFIvCXbEQTBL8EXDpXkyUC3AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/36727/newrelic17.png&quot;
+        srcset=&quot;/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/acf4b/newrelic17.png 173w,
+/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/fc834/newrelic17.png 345w,
+/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/36727/newrelic17.png 690w,
+/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/17fa4/newrelic17.png 1035w,
+/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/a5044/newrelic17.png 1380w,
+/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/ca44b/newrelic17.png 1544w&quot;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
