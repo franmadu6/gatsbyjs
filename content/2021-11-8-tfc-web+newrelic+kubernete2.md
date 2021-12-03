@@ -18,8 +18,8 @@ tags:
 
 
 1. Monitorización y análisis de aplicaciones web con new relic: Aquí explicas las características de la herramienta.
-  * 1.1 ¿Cómo funciona?
-  * 1.2 Instalación de New Relic: Dejando claro donde se está instalando.
+  <p>1.1 ¿Cómo funciona?</p>
+  <p>1.2 Instalación de New Relic: Dejando claro donde se está instalando.</p>
 2. Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.
   2.1 Instalación de minikube
   2.2 Instalaciión de kubectl
