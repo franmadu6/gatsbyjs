@@ -20,23 +20,23 @@ tags:
 1. <a href="#lista1">Monitorización y análisis de aplicaciones web con new relic: Aquí explicas las características de la herramienta.</a>
     <p>1.1.  <a href="#lista11">¿Cómo funciona?</a></p>
     <p>1.2.  <a href="#lista12">Instalación de New Relic: Dejando claro donde se está instalando.</a></p>
-2. <a href="#lista11">Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.</a>
-    <p>2.1.  <a href="#lista11">Instalación de minikube</a></p>
-    <p>2.2.  <a href="#lista11">Instalaciión de kubectl</a></p>
-    <p>2.3.  <a href="#lista11">Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).</a></p>
-3. <a href="#lista11">Monitorización de nuestra aplicación con new relic
+2. <a href="#lista2">Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.</a>
+    <p>2.1.  <a href="#lista21">Instalación de minikube</a></p>
+    <p>2.2.  <a href="#lista22">Instalaciión de kubectl</a></p>
+    <p>2.3.  <a href="#lista23">Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).</a></p>
+3. <a href="#lista3">Monitorización de nuestra aplicación con new relic
     Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:</a>
-    <p>3.1.  <a href="#lista11">Monitorizar Conexiones HTTP</a></p>
-    <p>3.2.  <a href="#lista11">Monitorización de errores</a></p>
-    <p>3.3.  <a href="#lista11">Fijar alertas</a></p>
-    <p>3.4.  <a href="#lista11">Estadísticas de rendimiento</a></p>
-    <p>3.5.  <a href="#lista11">...</a></p>
+    <p>3.1.  <a href="#lista31">Monitorizar Conexiones HTTP</a></p>
+    <p>3.2.  <a href="#lista32">Monitorización de errores</a></p>
+    <p>3.3.  <a href="#lista33">Fijar alertas</a></p>
+    <p>3.4.  <a href="#lista34">Estadísticas de rendimiento</a></p>
+    <p>3.5.  <a href="#lista35">...</a></p>
 
 <hr id="lista1" >
 
 <br>
 
-# New Relic
+# 1. New Relic
 
 ## ¿Que es New Relic?
 
@@ -82,7 +82,7 @@ Además de las características arriba descritas, nos ofrece un amplio abanico d
 
 <br>
 
-## ¿Como funciona?
+## 1.1 ¿Como funciona?
 
 **New Relic** consta con varias aplicaciones, para no hablar de todas ellas veremos las que utilizaremos en este proyecto:
 
@@ -99,7 +99,7 @@ Ya tenemos una idea de que es **New Relic**, que datos recoge y como funciona, a
 
 <br>
 
-## Instalación de New Relic
+## 1.2 Instalación de New Relic
 
 
 Para instalar **New Relic** primero deberemos acceder a su [website](https://newrelic.com/) para registrarnos:
@@ -367,4 +367,25 @@ Una vez la instalación haya sido finalizada volveremos al navegador y veremos c
 Si no deseamos instalar mas herramientas le daremos a **See your data** y ya podremos hacer uso de sus herramientas de monitoreo.
 
 ![PracticaImg](images/proyecto/newrelic-instalacion5.png "instalación new relic")
+
+
+<hr id="lista2" >
+
+<br>
+
+## Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.
+
+<hr id="lista21" >
+
+<br>
+
+
+<hr id="lista22" >
+
+<br>
+
+
+<hr id="lista23" >
+
+<br>
 
