@@ -63,7 +63,6 @@ Aplicaciones WEB (APM)
 - NodeJs
 
 **Aplicaciones Móviles (Mobile)**
-<hr>
 
 **Permite monitorizar nuestras aplicaciones para móviles (Android, iOS y Titanium).**
 Navegadores (Browser)
