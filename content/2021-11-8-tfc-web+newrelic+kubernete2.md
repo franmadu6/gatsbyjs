@@ -17,9 +17,9 @@ tags:
 ![PracticaImg](images/proyecto/portada.png "Portada principal")
 
 
-1. Monitorización y análisis de aplicaciones web con new relic: Aquí explicas las características de la herramienta.
-  <p>1.1.  ¿Cómo funciona?</p>
-  <p>1.2.  Instalación de New Relic: Dejando claro donde se está instalando.</p>
+1. <a href="#lista1">Monitorización y análisis de aplicaciones web con new relic: Aquí explicas las características de la herramienta.</a>
+  <p>1.1.  <a href="#lista11">¿Cómo funciona?</a></p>
+  <p>1.2.  <a href="#lista12">Instalación de New Relic: Dejando claro donde se está instalando.</a></p>
 2. Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.
   <p>2.1.  Instalación de minikube</p>
   <p>2.2.  Instalaciión de kubectl</p>
@@ -31,4 +31,7 @@ tags:
   <p>3.3.  Fijar alertas</p>
   <p>3.4.  Estadísticas de rendimiento</p>
   <p>3.5.  ...</p>
-    
+
+<hr id="lista1" >
+
+<br>
