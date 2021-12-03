@@ -99,6 +99,8 @@ Ya tenemos una idea de que es **New Relic**, que datos recoge y como funciona, a
 
 <br>
 
+## Instalación de New Relic
+
 
 Para instalar **New Relic** primero deberemos acceder a su [website](https://newrelic.com/) para registrarnos:
 
