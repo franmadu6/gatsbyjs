@@ -42,36 +42,36 @@ tags:
 
 New Relic es una herramienta de medición del rendimiento de una infraestructura de servicios, desde backend hasta frontend: medición del rendimiento de navegadores, APIs, servidores, aplicaciones móviles… ¿Qué nos permite hacer?
 
-**Este software es capaz de realizar las siguientes tareas (entre otras muchas):**
+* Este software es capaz de realizar las siguientes tareas (entre otras muchas):
 
-- Monitorizar Conexiones HTTP (tiempos de respuesta, nº de peticiones…).
-- Monitorización de errores (avisos cuando se detectan fallos de ejecución o conexión).
-- Fijar alertas sobre datos de referencia (tiempos de respuesta, errores de autenticación…).
-- Estadísticas de rendimiento en distintos dispositivos (uso de memoria, velocidad de respuesta,…).
-- Estadísticas de usuarios que la usen según el SO utilizado.
+  * Monitorizar Conexiones HTTP (tiempos de respuesta, nº de peticiones…).
+  * Monitorización de errores (avisos cuando se detectan fallos de ejecución o conexión).
+  * Fijar alertas sobre datos de referencia (tiempos de respuesta, errores de autenticación…).
+  * Estadísticas de rendimiento en distintos dispositivos (uso de memoria, velocidad de respuesta,…).
+  * Estadísticas de usuarios que la usen según el SO utilizado.
 
-**Esta herramienta además soporta diferentes plataformas:**
+* Esta herramienta además soporta diferentes plataformas:**
 Aplicaciones WEB (APM)
 
-**Permite monitorizar aplicaciones web en los siguientes lenguajes:**
+* Permite monitorizar aplicaciones web en los siguientes lenguajes:**
 
-* Ruby
+  * Ruby
   * PHP
-    * Java (la miraremos un poco más en detalle)
-* * .NET
-- Python
-- NodeJs
+  * Java (la miraremos un poco más en detalle)
+  * NET
+  * Python
+  * NodeJs
 
-**Permite monitorizar nuestras aplicaciones para móviles (Android, iOS y Titanium).**
+* Permite monitorizar nuestras aplicaciones para móviles (Android, iOS y Titanium).
 Navegadores (Browser)
 
-**Permite monitorizar nuestro sitio sobre el navegador del usuario (tiempo de respuesta, tiempo de carga de elementos…).**
+* Permite monitorizar nuestro sitio sobre el navegador del usuario (tiempo de respuesta, tiempo de carga de elementos…).
 Usuarios (Synthetics)
 
-**Permite simular usuarios (tanto flujo como interacciones) para anticiparse a los errores. Usa el servicio de alertas para avisar de esto.**
+* Permite simular usuarios (tanto flujo como interacciones) para anticiparse a los errores. Usa el servicio de alertas para avisar de esto.
 Servidores (Servers)
 
-**Nos da una vista del servidor desde la perspectiva de la propia aplicación.**
+* Nos da una vista del servidor desde la perspectiva de la propia aplicación.
 
 Además de las características arriba descritas, nos ofrece un amplio abanico de **Plugins** para ayudarnos con ellas, e incluso añadir nuevas funcionalidades, soporte en la nube y integración con kubernete que veremos mas adelante.
 
