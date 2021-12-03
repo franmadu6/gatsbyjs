@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 03 Dec 2021 12:52:26 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 03 Dec 2021 13:10:40 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -1388,13 +1388,415 @@ nri-mysql ya está en su versión más reciente (1.7.1).
     &lt;/span&gt;&lt;/p&gt;
 &lt;hr id=&quot;lista2&quot; &gt;
 &lt;br&gt;
-&lt;h2 id=&quot;kuberntes-explicas-que-vas-a-desplegar-una-aplicación-web-para-monitorizarla-con-new-relic-en-kuberntes-y-que-para-ello-vas-a-usar-minikube-para-crear-un-cluster-de-ejmplo&quot;&gt;&lt;a href=&quot;#kuberntes-explicas-que-vas-a-desplegar-una-aplicaci%C3%B3n-web-para-monitorizarla-con-new-relic-en-kuberntes-y-que-para-ello-vas-a-usar-minikube-para-crear-un-cluster-de-ejmplo&quot; aria-label=&quot;kuberntes explicas que vas a desplegar una aplicación web para monitorizarla con new relic en kuberntes y que para ello vas a usar minikube para crear un cluster de ejmplo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.&lt;/h2&gt;
+&lt;h2 id=&quot;3-kubernetes-explicas-que-vas-a-desplegar-una-aplicación-web-para-monitorizarla-con-new-relic-en-kuberntes-y-que-para-ello-vas-a-usar-minikube-para-crear-un-cluster-de-ejmplo&quot;&gt;&lt;a href=&quot;#3-kubernetes-explicas-que-vas-a-desplegar-una-aplicaci%C3%B3n-web-para-monitorizarla-con-new-relic-en-kuberntes-y-que-para-ello-vas-a-usar-minikube-para-crear-un-cluster-de-ejmplo&quot; aria-label=&quot;3 kubernetes explicas que vas a desplegar una aplicación web para monitorizarla con new relic en kuberntes y que para ello vas a usar minikube para crear un cluster de ejmplo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.&lt;/h2&gt;
+&lt;p&gt;EXPLICACIÓN SOBRE LA PRACTICA DE KUBERNETES&lt;/p&gt;
 &lt;hr id=&quot;lista21&quot; &gt;
 &lt;br&gt;
+&lt;h1 id=&quot;21-instalación-de-minikube&quot;&gt;&lt;a href=&quot;#21-instalaci%C3%B3n-de-minikube&quot; aria-label=&quot;21 instalación de minikube permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2.1 Instalación de minikube&lt;/h1&gt;
+&lt;p&gt;Antes monitorizar nuestro cluster deberemos de confirgurarlo primero, para ello utilizaremos &lt;strong&gt;minikube&lt;/strong&gt; para crear nuestros clusters, procederemos a su instalación.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@svKube:~$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;66&lt;/span&gt;.3M  &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;66&lt;/span&gt;.3M    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  3995k      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;:00:17  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;:00:17 --:--:-- 3952k
+vagrant@svKube:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; minikube-linux-amd64 /usr/local/bin/minikube&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Al inicializarlo nos da varios errores en mi casa tuve que ejecutarlo con minikube start --vm-driver=none y instalar docker,docker.io y conntrack, este fue un poco el historial de comandos que ejecute.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@svKube:~$ minikube start
+vagrant@svKube:~$ minikube start --vm-driver&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;none
+root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# apt install docker docker.io&lt;/span&gt;
+root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# minikube start --vm-driver=none&lt;/span&gt;
+root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# sudo apt-get install -y conntrack&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ahora si podremos ejecutarlo correctamente:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# minikube start --vm-driver=none&lt;/span&gt;
+😄  minikube v1.24.0 on Debian &lt;span class=&quot;token number&quot;&gt;10.11&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;vbox/amd64&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+✨  Using the none driver based on user configuration
+
+🧯  The requested memory allocation of 1995MiB does not leave room &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; system overhead &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;total system memory: 1995MiB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;. You may face stability issues.
+💡  Suggestion: Start minikube with &lt;span class=&quot;token function&quot;&gt;less&lt;/span&gt; memory allocated: &lt;span class=&quot;token string&quot;&gt;&apos;minikube start --memory=1995mb&apos;&lt;/span&gt;
+
+👍  Starting control plane node minikube &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; cluster minikube
+🤹  Running on localhost &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;CPUs&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;Memory&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;1995MB, &lt;span class=&quot;token assign-left variable&quot;&gt;Disk&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;20029MB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+ℹ️  OS release is Debian GNU/Linux &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;buster&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; kubeadm.sha256: &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; B / &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; B &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;--------------------------&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100.00&lt;/span&gt;% ? p/s 0s
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; kubectl.sha256: &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; B / &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; B &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;--------------------------&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100.00&lt;/span&gt;% ? p/s 0s
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; kubelet.sha256: &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; B / &lt;span class=&quot;token number&quot;&gt;64&lt;/span&gt; B &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;--------------------------&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100.00&lt;/span&gt;% ? p/s 0s
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; kubeadm: &lt;span class=&quot;token number&quot;&gt;43.71&lt;/span&gt; MiB / &lt;span class=&quot;token number&quot;&gt;43.71&lt;/span&gt; MiB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;---------------&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100.00&lt;/span&gt;% &lt;span class=&quot;token number&quot;&gt;3.84&lt;/span&gt; MiB p/s 12s
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; kubectl: &lt;span class=&quot;token number&quot;&gt;44.73&lt;/span&gt; MiB / &lt;span class=&quot;token number&quot;&gt;44.73&lt;/span&gt; MiB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;---------------&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100.00&lt;/span&gt;% &lt;span class=&quot;token number&quot;&gt;3.86&lt;/span&gt; MiB p/s 12s
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; kubelet: &lt;span class=&quot;token number&quot;&gt;115.57&lt;/span&gt; MiB / &lt;span class=&quot;token number&quot;&gt;115.57&lt;/span&gt; MiB &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;-------------&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100.00&lt;/span&gt;% &lt;span class=&quot;token number&quot;&gt;4.01&lt;/span&gt; MiB p/s 29s
+
+    ▪ Generating certificates and keys &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+    ▪ Booting up control plane &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+    ▪ Configuring RBAC rules &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+🤹  Configuring &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;host&lt;/span&gt; environment &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+
+❗  The &lt;span class=&quot;token string&quot;&gt;&apos;none&apos;&lt;/span&gt; driver is designed &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; experts &lt;span class=&quot;token function&quot;&gt;who&lt;/span&gt; need to integrate with an existing VM
+💡  Most &lt;span class=&quot;token function&quot;&gt;users&lt;/span&gt; should use the newer &lt;span class=&quot;token string&quot;&gt;&apos;docker&apos;&lt;/span&gt; driver instead, &lt;span class=&quot;token function&quot;&gt;which&lt;/span&gt; does not require root&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;
+📘  For &lt;span class=&quot;token function&quot;&gt;more&lt;/span&gt; information, see: https://minikube.sigs.k8s.io/docs/reference/drivers/none/
+
+❗  kubectl and minikube configuration will be stored &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; /root
+❗  To use kubectl or minikube commands as your own user, you may need to relocate them. For example, to overwrite your own settings, run:
+
+    ▪ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mv&lt;/span&gt; /root/.kube /root/.minikube &lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;
+    ▪ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; -R &lt;span class=&quot;token environment constant&quot;&gt;$USER&lt;/span&gt; &lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;/.kube &lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;/.minikube
+
+💡  This can also be &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt; automatically by setting the &lt;span class=&quot;token function&quot;&gt;env&lt;/span&gt; var &lt;span class=&quot;token assign-left variable&quot;&gt;CHANGE_MINIKUBE_NONE_USER&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true
+🔎  Verifying Kubernetes components&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+    ▪ Using image gcr.io/k8s-minikube/storage-provisioner:v5
+🌟  Enabled addons: default-storageclass, storage-provisioner
+💡  kubectl not found. If you need it, try: &lt;span class=&quot;token string&quot;&gt;&apos;minikube kubectl -- get pods -A&apos;&lt;/span&gt;
+🏄  Done&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; kubectl is now configured to use &lt;span class=&quot;token string&quot;&gt;&quot;minikube&quot;&lt;/span&gt; cluster and &lt;span class=&quot;token string&quot;&gt;&quot;default&quot;&lt;/span&gt; namespace by default&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Podremos apreciar su correcta instalación observando que sus pods estan corriendo.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# minikube kubectl -- get pods -A&lt;/span&gt;
+NAMESPACE     NAME                             READY   STATUS    RESTARTS   AGE
+kube-system   coredns-78fcd69978-hchrh         &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m23s
+kube-system   etcd-svkube                      &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m36s
+kube-system   kube-apiserver-svkube            &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m36s
+kube-system   kube-controller-manager-svkube   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m38s
+kube-system   kube-proxy-hv5zs                 &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m23s
+kube-system   kube-scheduler-svkube            &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m36s
+kube-system   storage-provisioner              &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          2m35s&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Para comenzar su monitorización con &lt;strong&gt;New relic&lt;/strong&gt; deberemos instalar &lt;strong&gt;Helm&lt;/strong&gt;, la principal función de Helm es definir, instalar y actualizar aplicaciones complejas de Kubernetes. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3&lt;/span&gt;
+root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# chmod 700 get_helm.sh&lt;/span&gt;
+root@svKube:/home/vagrant&lt;span class=&quot;token comment&quot;&gt;# ./get_helm.sh&lt;/span&gt;
+Downloading https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz
+Verifying checksum&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. Done.
+Preparing to &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; helm into /usr/local/bin
+helm installed into /usr/local/bin/helm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;El comando que nos proporciona &lt;strong&gt;New relic&lt;/strong&gt; para establece una conexión con nuestro cluster no es valido para minikube, para ejecutarlo correctamente simplemente deberemos modificar la linea:
+kubectl create namespace kube-system ; helm upgrade --install newrelic-bundle newrelic/nri-bundle &lt;br&gt;
+por:
+minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-bundle newrelic/nri-bundle \&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;helm repo &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; newrelic https://helm-charts.newrelic.com &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; helm repo update &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+minikube kubectl create namespace kube-system &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; helm upgrade --install newrelic-bundle newrelic/nri-bundle &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --set global.licenseKey&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;eu01xx48059720c231a1080bc348906513e7NRAL &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --set global.cluster&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;minikube &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --namespace&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;kube-system &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --set newrelic-infrastructure.privileged&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --set global.lowDataMode&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --set ksm.enabled&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+ --set kubeEvents.enabled&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/a987b/newrelic6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.39583333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABI0lEQVQoz51SQU7DMBD01znyAj7CD7hw4sIFIVEpakuSNq1Tx2s7duJhnQRIo4AQlka7tnbHOx6LoixxUQpN04zRGDjnYBlugXTWaD0g1daNRlFfkEuJnPcZcwltLdquw19XjHFA4B7jA7ayxuZYIdeEjKNQfAvxVK33X8VrwICJdCI3THr3usFD/o69sdhWJwgyBHIGfd9/N88miRNRF3uE2F3VJGW3Ty+4eXzG/dsO2eHIkklzcbgimefpIvQRMhiUXo37aaXccL9vW1iWfzqfIdIDKz50fPhJtJxwOe28JieJnTwghADLTycsm0JEg4M/GbCWDxNyLBqJrapgWSWxMWIu4TdT1iZNvcTKfBh/iWa1Irmbxv0PPKNjY8IU01/+AGZOv8QdkAbiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de minikube&quot;
+        src=&quot;/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/36727/newrelic6.png&quot;
+        srcset=&quot;/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/acf4b/newrelic6.png 173w,
+/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/fc834/newrelic6.png 345w,
+/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/36727/newrelic6.png 690w,
+/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/17fa4/newrelic6.png 1035w,
+/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/a5044/newrelic6.png 1380w,
+/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/a987b/newrelic6.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;hr id=&quot;lista22&quot; &gt;
 &lt;br&gt;
+&lt;h1 id=&quot;22-instalaciión-de-kubectl&quot;&gt;&lt;a href=&quot;#22-instalacii%C3%B3n-de-kubectl&quot; aria-label=&quot;22 instalaciión de kubectl permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2.2 Instalaciión de kubectl&lt;/h1&gt;
 &lt;hr id=&quot;lista23&quot; &gt;
-&lt;br&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;br&gt;
+&lt;h1 id=&quot;23-desplieque-de-la-aplicación-web-explicas-un-poco-la-aplicación-que-has-desplegado--no-hace-falta-mirar-la-última-práctica-para-enterarse-de-lo-que-vas-a-desplegar&quot;&gt;&lt;a href=&quot;#23-desplieque-de-la-aplicaci%C3%B3n-web-explicas-un-poco-la-aplicaci%C3%B3n-que-has-desplegado--no-hace-falta-mirar-la-%C3%BAltima-pr%C3%A1ctica-para-enterarse-de-lo-que-vas-a-desplegar&quot; aria-label=&quot;23 desplieque de la aplicación web explicas un poco la aplicación que has desplegado  no hace falta mirar la última práctica para enterarse de lo que vas a desplegar permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2.3 Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).&lt;/h1&gt;
+&lt;p&gt;Hasta ahora hemos visualizado un cluster simple, añadamos dificultad despleguemos la ultima &lt;a href=&quot;https://franmadu6.github.io/gatsbyjs/despliegue-de-un-cluster-de-kubernetes&quot;&gt;practica de kubernetes&lt;/a&gt; que realizamos, la replicaremos y probaremos su comportamiento.&lt;/p&gt;
+&lt;p&gt;Para ello montaremos el escenario nuevamente y meteremos el daemon de new relic para kubernetes para que registre y monitorice el escenario.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/1b4fbe37634a3de1feea62683e327be7/a987b/newrelic9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.65625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABH0lEQVQoz31SyXaDMBDz//9i22sLDRBv4N3qjBN4LEltdNHImg3RDwOstVBawtgZzns4516DYp5gSK+NwSAlRqUwMYxFN90hJJEcVERKEi7vDImfl4US66ZnE8XG2lCSQO8CfvoeIuWMV6fSvXC1opTS4FNCIHR2wm2WLaakgpgpeyZTJs6QaUGqmZ1QamncIQEZf+kOn9M3VHb4lSOEMho+hE28mvFhkSsRh2IrtnjOBR+mR+c1uM/bnQxTjRej+qyIH+dni2OaYZM/VMkxF1MzbgXQXIWPAYUIntnekNvMhFhSi6eSG9bZngvgY2hZ4k5b5s1dWqZP5wVzCY+Wd5Wt2rKb92Z4yYZVXBBz3GZ2Xsj+3VvDK/6LPX6hs+EfkBYSFSve3JEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/1b4fbe37634a3de1feea62683e327be7/36727/newrelic9.png&quot;
+        srcset=&quot;/gatsbyjs/static/1b4fbe37634a3de1feea62683e327be7/acf4b/newrelic9.png 173w,
+/gatsbyjs/static/1b4fbe37634a3de1feea62683e327be7/fc834/newrelic9.png 345w,
+/gatsbyjs/static/1b4fbe37634a3de1feea62683e327be7/36727/newrelic9.png 690w,
+/gatsbyjs/static/1b4fbe37634a3de1feea62683e327be7/17fa4/newrelic9.png 1035w,
+/gatsbyjs/static/1b4fbe37634a3de1feea62683e327be7/a5044/newrelic9.png 1380w,
+/gatsbyjs/static/1b4fbe37634a3de1feea62683e327be7/a987b/newrelic9.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/a987b/newrelic10.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.447916666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABUklEQVQoz2VSXW+DMAzk//+7PVR76yatqwrt8kkSwCE32y2s6oKs4Ng539npBmtRiJDnGSklrOu6m/hTKVhrVX/inJwzWmtqlc/iOOq5LOc9usrJsiQBT7Zd2mKvvuRIEes8fAiYpgmWyXVSkR4MaFmYDe2M6mPfTH2N0+67MCKVCZULWOfQLQyi9DmYRM7Tp2w2RryERc5FcxduE1FF4TuV7iqNMX+SqzLkysSVF2ZUGwMUPdsApXhhNsRgAi7KfBoxFgZtK5wwFKCtLz4aXK4nXG7fuJket3DGYM7/ergv9j99j3d7UjdyL3dAYRpzBK2LWm2kgrn1Kk+svQxI+mhihMsJojPwxHfJEizTjDIzIAlIVUmCIhIl7xlsezZfLuD4Y9GngmuI96Fok3kXS9wb83hbs4BzbOb/kd+kDI10GPcCmQm8HXscPgYcPq84DRa/oujBFZPCrjUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/36727/newrelic10.png&quot;
+        srcset=&quot;/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/acf4b/newrelic10.png 173w,
+/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/fc834/newrelic10.png 345w,
+/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/36727/newrelic10.png 690w,
+/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/17fa4/newrelic10.png 1035w,
+/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/a5044/newrelic10.png 1380w,
+/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/a987b/newrelic10.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/bda01/newrelic11.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.651356993736954%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABGUlEQVQoz32SiW6DMBBE+f+vbAJplQQoBszhg+ksNsi1aJFGrPD6ecZL8fl8oVMKbdei63voacKo9S/pqKMO/R2eTYN3+42GdcO91euNQrFQvcL+ZvO8LFhE6xrEes50rOl5hhqGXQONfNFcYa2DdQ754/hNtG0b/ntk/eir6xrFxFNmY+C8PzdLg0QTF3KYj2tXOqHsqR6PCLQWPnEiwHEcIWtypyIXU6SOU6gAy7IMwMlYWH44gawHAi0PSjenkFw7sEqBzmcONQyvQuKm15FHPYHcU1YVgZzauBqYZDDeC7DHKndIl6IUkkcWycEft1twaKK7ozkA1f7LGMLE6RrdXsVHjHy73wPQJlM8I3PKNv4OV1P9K/IP0v8QjZtiRr0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/36727/newrelic11.png&quot;
+        srcset=&quot;/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/acf4b/newrelic11.png 173w,
+/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/fc834/newrelic11.png 345w,
+/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/36727/newrelic11.png 690w,
+/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/17fa4/newrelic11.png 1035w,
+/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/a5044/newrelic11.png 1380w,
+/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/bda01/newrelic11.png 1916w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/a987b/newrelic12.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.10416666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABQElEQVQoz11S0W6EIBD0/3+xySXt3UutcAqIiMB0FtDelWSzyi4zswPDqBSeywJrLVbv8Xn/wsftBreuMH1v27a3OGsSM8/OxkIbw7AYQghQT4WVTfu+Y55nLNYhxIz9yEi5oJSCfObS8mukzL6CSjQIo4BJ4X2VSpBS+tv5B3QuIRVATTGDgP1MUz24x1jHaIoyQgeU/+M4LpCNU3laEdkvZyTnnOAcR7bOVf9kieTvcbwARWFTQHCCNN2tJgTxAsu1JiTVw7i3zcQmR4LC79JBJEOUVXVNofSeIKcVF6APG57WYCNTEoNZOAoVcITZrXAki9yLpUcn8vReQF/9bAqpyhyxxhL3Kzz/lX5g0nfmHuYBtWr6mi9b6mTdZ7mP4VX6+yXzIrRBmhYkxawWgNNwYFoU6mHf36Uok/eqtcYvqA/AZSsQcyQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/36727/newrelic12.png&quot;
+        srcset=&quot;/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/acf4b/newrelic12.png 173w,
+/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/fc834/newrelic12.png 345w,
+/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/36727/newrelic12.png 690w,
+/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/17fa4/newrelic12.png 1035w,
+/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/a5044/newrelic12.png 1380w,
+/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/a987b/newrelic12.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/a987b/newrelic14.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.23958333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABRUlEQVQoz4VS7W7EIAzr+7/opFW3K1C+KZ6d0un+DTWChsSxE7ZSClJKSDkj0w53wPmA3AZirqi1YYyO67pumxdabyi1oveOzrvWZYxPEVvlhYAErIRnzTnNb8aYwTv5wE+x8Twx+io0lDeRIgHHGKw6yeKypM7/wWqT55ILSsxoBK0M1rnkm5mAlGss179z7mYYGRwpW5Vba2a9dbKI8CHY/dOWlBMC/YEM5aurZZn7975jUy/kEMjnkjwDoUmaaV1LJE4CPjnWCi4V3kRX6NYrNrWIRaFMygkckH+/4V47jv0L758XmSWT+gCpXU/vVXyTTFU7JZumc9Ae6aNcH06Tp3OgPbEiIGCxVSs06eM4JPlmdz+bYkF/T2SZmMxrsdH0SUJF9HymDXTYrmJb1RD6eksahqb8jyknErSseOXqhXjv8Qs9OMCFWg3WfQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/36727/newrelic14.png&quot;
+        srcset=&quot;/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/acf4b/newrelic14.png 173w,
+/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/fc834/newrelic14.png 345w,
+/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/36727/newrelic14.png 690w,
+/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/17fa4/newrelic14.png 1035w,
+/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/a5044/newrelic14.png 1380w,
+/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/a987b/newrelic14.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/a987b/newrelic13.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.13541666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABKElEQVQoz4VSi27EIAzj/7+0va0PaKG8vThtddV02pCshABOYmK895iXBdu+I4SAaZ6xWIcQM7YQkXJBrRWlFAX9lDPCcaCI3wHU3tHEHvGA2YXQWquHJNyFuNWGKIfTNImNSuB9OP2U0FpT8piy2nwl9buHYYAXOrOI5cFv/wkuVs3khZVKQSwiSsWLdGqYPV5Zufjm+fgjYUw4pOLzsgTaGad8JgthvrS5K/0LXE7keMWAtZY3WsWyb9KyEJGMxGz/bvcT2R33/Dy7YnFOYDEL1s3h9f0FQ6Gpx1PH/9DZYoWiE+Vs3VmpUEdlmpWUv6USXNVSExX/GhnuiVxOmTgmHB/6jHFadGzGccQwDDqPbIcxWistcT79tV/lge7FZ4z+fZc+Z/gHC/7AkvvWzl8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/36727/newrelic13.png&quot;
+        srcset=&quot;/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/acf4b/newrelic13.png 173w,
+/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/fc834/newrelic13.png 345w,
+/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/36727/newrelic13.png 690w,
+/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/17fa4/newrelic13.png 1035w,
+/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/a5044/newrelic13.png 1380w,
+/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/a987b/newrelic13.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Nos muestra bastantes datos del cluster creado, pero ¿Nos mostrara si falla algun nodo?&lt;/p&gt;
+&lt;p&gt;Para hacer una simulación de fallo apagaremos el &lt;strong&gt;worker2&lt;/strong&gt; seguira funcionando todo correctamente pero no podremos hacer uso de el, como se muestra en la grafica .&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/0d2d34d2976c65e68773ae9565913f8a/a987b/newrelic15.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.39583333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABDUlEQVQoz5VS2XLDIAzk/7+vj33rTBNPMonNfUhsBfEZtw/FlmVAWnYl1HUYMGkNY83Le4+YImLcLOy8sbZbi53Ea23gJcfHhItgKRsCUiH8Nao8VHmb19otEyFL3sNp3MwIcMU0jlDaGFjnkVJagxcTLATOuJSpg3FbO56GTzfgY/zCSB7X5x3KdboezLwBzUzkIyCMVKknHw6cY76F3c0bNA3350MkOyuSykHO/r/PRQ4xifG6vzDu03nJiFrVCqwFtBV9ZbbzjWHkcmJ4OlRGI6eCNMU51zv43oz2ZpE7UTgc8t6gFVDIqVa73wIWa7IKU6/nae+t7h0w5YxSilyB0v1/LO9ySa5Rq+EPjpPEQU8X8+oAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/0d2d34d2976c65e68773ae9565913f8a/36727/newrelic15.png&quot;
+        srcset=&quot;/gatsbyjs/static/0d2d34d2976c65e68773ae9565913f8a/acf4b/newrelic15.png 173w,
+/gatsbyjs/static/0d2d34d2976c65e68773ae9565913f8a/fc834/newrelic15.png 345w,
+/gatsbyjs/static/0d2d34d2976c65e68773ae9565913f8a/36727/newrelic15.png 690w,
+/gatsbyjs/static/0d2d34d2976c65e68773ae9565913f8a/17fa4/newrelic15.png 1035w,
+/gatsbyjs/static/0d2d34d2976c65e68773ae9565913f8a/a5044/newrelic15.png 1380w,
+/gatsbyjs/static/0d2d34d2976c65e68773ae9565913f8a/a987b/newrelic15.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Buscando un poco en todas las metricas y logs que proporciona, podemos acceder al log y ver en que momento dejo de dar conexión.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/628eea2be0487d748e4d051deb63ba3a/a987b/newrelic16.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.510416666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABJUlEQVQoz42SV27EMAxEdf9T5SJBfgLHZb1uKpZcuDO0tNgkCBABD6TacETITMsiNgTx6yoBkVhrJaxBYoySUpJ933+xvXAch/TOy9v7h5iBlzccOk9sAEYROTM6/4MT7Md1rwyzwtmJCqwyBy+OTmMCUdmwTtKOmElwlfZrLWp+wfPGOnc9A5cWZ2WB42mewKzMaAnbwMIFtmJVkKMlnOsa9ozPhynqvZdxmuSzqpSmbeWrrjV2fS/3YVBYhOcKMwprxLpxEKEgn8yqdFVBpIZIf79Ld7vpGp3zNd8icMiJzRg+h2LqEDmrUIyu2q6TummegoWnAHMYKnPmhmIc6jB/HdofxlHFtY8v/eRFtqa8jN+KfUwZQ2cc/AL/HWf+Mj8HTT0Acz68zrJ1/D0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/628eea2be0487d748e4d051deb63ba3a/36727/newrelic16.png&quot;
+        srcset=&quot;/gatsbyjs/static/628eea2be0487d748e4d051deb63ba3a/acf4b/newrelic16.png 173w,
+/gatsbyjs/static/628eea2be0487d748e4d051deb63ba3a/fc834/newrelic16.png 345w,
+/gatsbyjs/static/628eea2be0487d748e4d051deb63ba3a/36727/newrelic16.png 690w,
+/gatsbyjs/static/628eea2be0487d748e4d051deb63ba3a/17fa4/newrelic16.png 1035w,
+/gatsbyjs/static/628eea2be0487d748e4d051deb63ba3a/a5044/newrelic16.png 1380w,
+/gatsbyjs/static/628eea2be0487d748e4d051deb63ba3a/a987b/newrelic16.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Podemos crear alertas para que nos
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/ca44b/newrelic17.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.101036269430054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABI0lEQVQoz5WS63KDIBCFff8nrPHSmWTaPzFeQZCLpweoNjqdTqN+ssDugWXJmq7Dx73BZ9OgHUZMQmAksZ2ml8la/m7NIzIICaU0ZqUiSmsYY14iUwzsuhY9dzqJCXKWESGT+Lqu8N7/myjYtyPTnOGMh1GWK1k462C9PgYE8fMC7K9PZJppaWUgtIOkmBQagqnPHFusPjh7ayPnMRrYnii4O2zvdx/h2wJpi7KAquswHPFmgb5dky/ws8P1tO0zYQeWNG85ZFWm4ChoMF9/Edw6fwl6+nSXC4aq2tPTLNq9fo/z67OgZQEMz8LsbWIxqUDbnMhzjEUBw2JY5zBPAn1ZHgX3u7YsCdqOzo5Bzvlkk1BRy6sUiHOhwqFIvCXbEQTBL8EXDpXkyUC3AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;monitorización de cluster&quot;
+        src=&quot;/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/36727/newrelic17.png&quot;
+        srcset=&quot;/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/acf4b/newrelic17.png 173w,
+/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/fc834/newrelic17.png 345w,
+/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/36727/newrelic17.png 690w,
+/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/17fa4/newrelic17.png 1035w,
+/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/a5044/newrelic17.png 1380w,
+/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/ca44b/newrelic17.png 1544w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
