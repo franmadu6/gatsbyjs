@@ -370,7 +370,7 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 
 <br>
 
-## 3. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.
+## 2. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.
 
 EXPLICACIÓN SOBRE LA PRACTICA DE KUBERNETES
 
