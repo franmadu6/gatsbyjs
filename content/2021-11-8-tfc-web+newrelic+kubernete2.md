@@ -50,10 +50,10 @@ New Relic es una herramienta de medición del rendimiento de una infraestructura
   * Estadísticas de rendimiento en distintos dispositivos (uso de memoria, velocidad de respuesta,…).
   * Estadísticas de usuarios que la usen según el SO utilizado.
 
-* Esta herramienta además soporta diferentes plataformas:**
+* Esta herramienta además soporta diferentes plataformas:
 Aplicaciones WEB (APM)
 
-* Permite monitorizar aplicaciones web en los siguientes lenguajes:**
+* Permite monitorizar aplicaciones web en los siguientes lenguajes:
 
   * Ruby
   * PHP
@@ -73,7 +73,7 @@ Servidores (Servers)
 
 * Nos da una vista del servidor desde la perspectiva de la propia aplicación.
 
-Además de las características arriba descritas, nos ofrece un amplio abanico de **Plugins** para ayudarnos con ellas, e incluso añadir nuevas funcionalidades, soporte en la nube y integración con kubernete que veremos mas adelante.
+Además de las características arriba descritas, nos ofrece un amplio abanico de **plugins** para ayudarnos con ellas, e incluso añadir nuevas funcionalidades, soporte en la nube y integración con kubernete que veremos mas adelante.
 
 <hr id="lista11" >
 
