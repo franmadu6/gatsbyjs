@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 09 Dec 2021 09:20:51 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 09 Dec 2021 11:17:02 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -898,7 +898,7 @@ Aquí es donde te tienes que lucir: Explicando cada una de las características 
 &lt;p&gt;New Relic es una herramienta de medición del rendimiento de una infraestructura de servicios, desde backend hasta frontend: medición del rendimiento de navegadores, APIs, servidores, aplicaciones móviles… ¿Qué nos permite hacer?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Este software es capaz de realizar las siguientes tareas (entre otras muchas):&lt;/p&gt;
+&lt;p&gt;Este software es capaz de realizar las siguientes tareas:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Monitorizar Conexiones HTTP (tiempos de respuesta, nº de peticiones…).&lt;/li&gt;
 &lt;li&gt;Monitorización de errores (avisos cuando se detectan fallos de ejecución o conexión).&lt;/li&gt;
@@ -1388,6 +1388,172 @@ nri-mysql ya está en su versión más reciente (1.7.1).
     &lt;/span&gt;&lt;/p&gt;
 &lt;hr id=&quot;lista2&quot; &gt;
 &lt;br&gt;
+&lt;details open&gt;
+&lt;summary&gt;
+&lt;h2 id=&quot;2-new-relic-onesummary&quot;&gt;&lt;a href=&quot;#2-new-relic-onesummary&quot; aria-label=&quot;2 new relic onesummary permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. New Relic One&lt;/summary&gt;&lt;/h2&gt;
+&lt;br&gt;
+Detectar, corregir y prevenir: esa es la promesa del monitoreo de software. ¿Pero qué pasa cuando las soluciones costosas impiden instrumentar todo y los enfoques poco sistemáticos producen un aumento en la cantidad de herramientas? Cuando los datos de desempeño de la aplicación, de la infraestructura y de los usuarios finales están dispersos por herramientas de monitoreo que no están conectadas, la detección y resolución de problemas puede ser innecesariamente compleja y puede consumir mucho tiempo.
+&lt;p&gt;Ahí es donde New Relic One marca la diferencia: una plataforma capaz de escalar masivamente y que recolecta y contextualiza todos los datos operativos—sin importar de dónde vengan—y simplifica la instrumentación, la ingestión de datos, la exploración, la correlación y el análisis basado en aprendizaje automático (machine learning), para reforzar la observabilidad de cada organización.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/3f7c53beec1ed8bd1765a6ddaffd964a/6ff5e/new-relic-one-platform-es.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.916666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB4ElEQVQoz5VS2Y7TQBDMv/IX/A6/wRMSEtqH1YplySFtDpvEOZz4PsfjomqcWVY8IGGplc7MdFV1d82GYcCP5Qrfnp7w8PyMsuugb7QWlqH7LMuQ5zmKokCapi7v+x7+G8cRxhj3dtYx+TRf4ePXB3z4/AWP8c09Ggi23O7w6xJjuVhguVrhdb3GgvnLy0+cTidUVY2yLB1gRyEimUlFyEvFIggR7PeidOr25zNSqqqqyqnLMqokQJ5LaYbr7Ybr9epy3UvlTDKl4DtbDrZbZGxJYLoceWfIKhUCdVFWqKlMedM0b1HX9dTyVDzwsHUH96EwtzjFsWPfkmjNdoMgwGazwW63w3w+Z9vnN/K2bb1C6zCsQHipeehr+ODxdY3ocsGZhdHx6AAOh4hxQJIkbllS5jtwgPYO0vYGRdd7gW7ALQetlsX+d3gn+GWobQeow2YwyLoWDUFbHorEsv2KzCWZj1QXRRFijkDb1f8wDHGhenu317uWBxZb3DoO2nSoGaOd2pc/QxbvuXnNb5rhlr+hm6tIkiR1QFI52YZghgqrflL4x9AWKQ2cU6GMLMtoZlqSzF0Uk31i2kbqptaNB+SWqcy73Tvfs/4rDEEEpnC26V3hVOwHLLD/CgIJTDi/AVC5mssafZ26AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;new-relic-one-platform-es.png&quot;
+        src=&quot;/gatsbyjs/static/3f7c53beec1ed8bd1765a6ddaffd964a/36727/new-relic-one-platform-es.png&quot;
+        srcset=&quot;/gatsbyjs/static/3f7c53beec1ed8bd1765a6ddaffd964a/acf4b/new-relic-one-platform-es.png 173w,
+/gatsbyjs/static/3f7c53beec1ed8bd1765a6ddaffd964a/fc834/new-relic-one-platform-es.png 345w,
+/gatsbyjs/static/3f7c53beec1ed8bd1765a6ddaffd964a/36727/new-relic-one-platform-es.png 690w,
+/gatsbyjs/static/3f7c53beec1ed8bd1765a6ddaffd964a/17fa4/new-relic-one-platform-es.png 1035w,
+/gatsbyjs/static/3f7c53beec1ed8bd1765a6ddaffd964a/6ff5e/new-relic-one-platform-es.png 1200w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Telemetry Data Platform&lt;/strong&gt;
+todos los datos de telemetría en un solo lugar&lt;/p&gt;
+&lt;p&gt;Recopile, explore y genere alertas en relación a todas las métricas, eventos, registros y rastros sin importar cuál sea su origen en una base de datos de telemetría abierta y unificada. Las integraciones—que vienen listas para usarse—con herramientas de código abierto como Prometheus y Grafana, por nombrar solo dos, eliminan el costo y la complejidad de administrar el almacenamiento de datos adicional.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/edad3b9891a9bd5c52c0481aa885f54d/6ff5e/telemetry-data-platform-es.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.08333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABcUlEQVQoz2WR3U/CMBTF+cN94EH8X/TBBwWJL/rgkxEJBhEEQvhQ1rEN6MZou649dh0fW7zJTZqTc389va08fYe4uF2geveLAWHIKthJXD0QXN4T3LTWONb1W4Bqg6DWJFgbT1Z9h6HWcMz8Es+GVYkVQFqvIL0eRObQRtDAcBXhcexgy9KcpjVCoeHPCYJ1jFRbEanSGHt7tBcUQmpUMjl0XGAf2zmlrRNRwjCiwYGlbdtyPYCzk269QsKJcs0Cm70h+q6fA1VuCmiKjxG3KXKgsvrXooOI0RJQmAsiSs/A+uAdXTIvALXZEdCZ4V/CH6cPxsMSkHMOut2cgd3BC7z1/GBSsDY6AWZ1e84Gj8mnHkcYJyUgYwwbb3kGtkcME0ccEuZAtQ8g3E/7GcXyaQwuZAkoE25TnoBCKiSmtYGpY2v72ZBSIgxDULOjTM93WvDZ1qe1VHQxQSmMxm4XYbXyMJ3ObPt+YJ7HS+mKs5n2ByXwtNtF+kOeAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;telemetry-data-platform-es.png&quot;
+        src=&quot;/gatsbyjs/static/edad3b9891a9bd5c52c0481aa885f54d/36727/telemetry-data-platform-es.png&quot;
+        srcset=&quot;/gatsbyjs/static/edad3b9891a9bd5c52c0481aa885f54d/acf4b/telemetry-data-platform-es.png 173w,
+/gatsbyjs/static/edad3b9891a9bd5c52c0481aa885f54d/fc834/telemetry-data-platform-es.png 345w,
+/gatsbyjs/static/edad3b9891a9bd5c52c0481aa885f54d/36727/telemetry-data-platform-es.png 690w,
+/gatsbyjs/static/edad3b9891a9bd5c52c0481aa885f54d/17fa4/telemetry-data-platform-es.png 1035w,
+/gatsbyjs/static/edad3b9891a9bd5c52c0481aa885f54d/6ff5e/telemetry-data-platform-es.png 1200w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Todos sus datos en un solo lugar con Telemetry Data Platform.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Con Telemetry Data Platform, obtendrá lo siguiente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Integraciones con más de 300 agentes y estándares como OpenTelemetry, lo que le permite ingerir y guardar todos los datos operativos en un solo lugar&lt;/li&gt;
+&lt;li&gt;Tiempos de consulta y respuesta ultra rápidos&lt;/li&gt;
+&lt;li&gt;La posibilidad de elegir entre crear paneles en New Relic One o conservar los flujos de trabajo existentes en Grafana&lt;/li&gt;
+&lt;li&gt;Alertas en tiempo real en relación a los datos&lt;/li&gt;
+&lt;li&gt;APIs y herramientas para crear aplicaciones personalizadas alojadas en New Relic One&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full-Stack Observability&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Visualice y resuelva problemas de todo el stack en una experiencia unificada&lt;/p&gt;
+&lt;p&gt;Full-Stack Observability amplía la capacidad de Telemetry Data Platform, y proporciona una experiencia conectada que facilita entender en qué condición se encuentra el sistema dentro de su contexto, desde registros, infraestructura, aplicaciones y datos de la experiencia del usuario final. Elimine el trabajo extra y los puntos ciegos gracias a vistas especializadas que presentan los problemas automáticamente a sus equipos incluso antes de que a usted se le ocurra preguntar.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/37f0aaf5efd2ab3fd3505a49ed36cd1a/6ff5e/kubernetes-cluster-explorer_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 72.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB60lEQVQ4y4VTQY4UMQzMQ7kBB6Q97Ic4wZPQ3uAB0z3DTCedxE4cU/ak0TBC2kildBynbJfd4df5p17zVYcMPdYY412kfdecsxKRn48VpA1lbn5haK2piDgeCZ7PKSXHddv0hn0vxe0h7cmjPUY5lsDWJzm37j59EjPzPctJ1Ht3BEu71urZXS4XPQPr+awRUW0xMjYSy5zmtxHYm/W86rquf8t2wgTCjsOPtzf9/PKiX15f9cOnj/r123ctMgkbwxl7R6Z4ZLZK7NhQssECCPoQYomuoZVVYLQL283GRoDSuBbP1jMFoT2sZYOGEf40GwlfqhoOkZ/XmOU6gflMMrNZlju0jzGi00ULdKyeBGl4b1SOEg+yo0lGYhBIsc8R+ofwmfQ430sUb4jMLL0paITpet87msbenPBM8r/lc/hwb18Z5docGpnavZM2DRB9tNYHShm4xHeDXOIY9ygO80M27oPSR9628RsjZjZCY7hiWhoyTBAzFsA6jI6aHqbbFZqYzUpllJq3qPF2cw0T/AuQax0E34LuZkFjOggLs+xEkokFkYVqFTxy215JoJlVC3uWvCdP3t6AcFgCpZLvZOMFHUPlthTiJRMtIDyh/QtIFpA58MstKPnUW11KzguCnfxNqW0O97CdJv4A1CREsYoKaaIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;kubernetes-cluster-explorer_1.png&quot;
+        src=&quot;/gatsbyjs/static/37f0aaf5efd2ab3fd3505a49ed36cd1a/36727/kubernetes-cluster-explorer_1.png&quot;
+        srcset=&quot;/gatsbyjs/static/37f0aaf5efd2ab3fd3505a49ed36cd1a/acf4b/kubernetes-cluster-explorer_1.png 173w,
+/gatsbyjs/static/37f0aaf5efd2ab3fd3505a49ed36cd1a/fc834/kubernetes-cluster-explorer_1.png 345w,
+/gatsbyjs/static/37f0aaf5efd2ab3fd3505a49ed36cd1a/36727/kubernetes-cluster-explorer_1.png 690w,
+/gatsbyjs/static/37f0aaf5efd2ab3fd3505a49ed36cd1a/17fa4/kubernetes-cluster-explorer_1.png 1035w,
+/gatsbyjs/static/37f0aaf5efd2ab3fd3505a49ed36cd1a/6ff5e/kubernetes-cluster-explorer_1.png 1200w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;El explorador de clústeres de Kubernetes de New Relic reúne todos los elementos de observabilidad: métricas, eventos, registros y rastros.&lt;/p&gt;
+&lt;p&gt;Con Full-Stack Observability, obtendrá lo siguiente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Toda la funcionalidad de New Relic que conoce y que tanto le agrada—APM, Infrastructure, Logs in Context, Distributed Tracing, Serverless, Browser, Mobile y Synthetics—todo en un solo paquete&lt;/li&gt;
+&lt;li&gt;Información contextual acerca de sus servicios distribuidos, aplicaciones y funciones sin servidor, sin importar cómo o dónde se hayan desarrollado&lt;/li&gt;
+&lt;li&gt;Visibilidad incomparable en los hosts de infraestructura, contenedores, recursos de nubes y clústers de Kubernetes&lt;/li&gt;
+&lt;li&gt;Análisis del rendimiento de extremo a extremo, desde los servicios de backend hasta la experiencia de los usuarios finales&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Applied Intelligence&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Detecte y resuelva problemas con más rapidez&lt;/p&gt;
+&lt;p&gt;Detecte, comprenda y resuelva los incidentes con más rapidez gracias a las potentes capacidades de AIOps. Applied Intelligence detecta y explica anomalías automáticamente antes de que se conviertan en incidentes, reduce el exceso de alertas repetidas gracias a que correlaciona las alertas relacionadas y diagnostica problemas enriqueciendo incidentes con contexto, lo que permite ir rápidamente a la raíz de los problemas.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/5a9521f70980e3754aea78d734a5ab6c/6ff5e/applied-intelligence-screenshot_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABd0lEQVQoz41SXW+DMBDj906b1KlUWlX4lVMlyva8h4pC+A4k4J2v0LXTHhYp4oJ8PttJsNmGeHp+wfvxiL7vcblcYK3FDGCaptue5/lfO9i/7bHZvCJJElRVhfP5jKZp8HtN0/xwZrP3/kbknLsSxnGM3W6H0ylB21ToRCWB0yzKCPQOdqhgTIGmbbWJiy7yotAz6yzLtC84HA7Yiu3Pj1TGOpnktaEdR9RDj8bW6JsvlCZDURht5hqGAXVdX2vBdl2ndRBFEcIwFIUnBXBSWZYPuckktbT+w5LvKEQ8s+YAtRxFsSjcKqGVnwQ5ke4mDy9ArySiWOzqZS2ExFUigGfWRkSoZWZIhWma6i0zQwUJ4SgAKxkOUhfGIJMXwKY1QyP/fttXy9vFMslo14mqdhzQOeZo0QtpURolWAlJQuyfhOE9oTwdWiYZ1fXyHWUAFeZ5/kB4r5BP7kehZEjLXPqeCBKycdnMk8N4k+vbI65f4mHNCHg53w/T7dxHMrqNAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;applied-intelligence-screenshot_1.png&quot;
+        src=&quot;/gatsbyjs/static/5a9521f70980e3754aea78d734a5ab6c/36727/applied-intelligence-screenshot_1.png&quot;
+        srcset=&quot;/gatsbyjs/static/5a9521f70980e3754aea78d734a5ab6c/acf4b/applied-intelligence-screenshot_1.png 173w,
+/gatsbyjs/static/5a9521f70980e3754aea78d734a5ab6c/fc834/applied-intelligence-screenshot_1.png 345w,
+/gatsbyjs/static/5a9521f70980e3754aea78d734a5ab6c/36727/applied-intelligence-screenshot_1.png 690w,
+/gatsbyjs/static/5a9521f70980e3754aea78d734a5ab6c/17fa4/applied-intelligence-screenshot_1.png 1035w,
+/gatsbyjs/static/5a9521f70980e3754aea78d734a5ab6c/6ff5e/applied-intelligence-screenshot_1.png 1200w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Applied Intelligence utiliza el aprendizaje automático para automatizar las alertas.&lt;/p&gt;
+&lt;p&gt;Con Applied Intelligence, obtendrá lo siguiente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Detección proactiva que detecta las anomalías antes de que se conviertan en incidentes&lt;/li&gt;
+&lt;li&gt;Inteligencia sobre incidentes que reduce el exceso de alertas repetidas y prioriza los problemas&lt;/li&gt;
+&lt;li&gt;Configuraciones con herramientas como Slack y PagerDuty para agilizar el diagnóstico y los tiempos de respuesta&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Observabilidad simplificada&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Con New Relic One podrá pasar menos tiempo resolviendo problemas y más tiempo diseñando software. Instrumente todo para eliminar los puntos ciegos, y hágalo a una escala de Petabytes. Practique la observabilidad del stack completo y aproveche Applied Intelligence y el aprendizaje automático para detectar problemas rápidamente y reducir el exceso de alertas repetidas. Bienvenido a la era de la observabilidad.&lt;/p&gt;
+&lt;/details&gt;
 &lt;h2 id=&quot;2-kubernetes-explicas-que-vas-a-desplegar-una-aplicación-web-para-monitorizarla-con-new-relic-en-kuberntes-y-que-para-ello-vas-a-usar-minikube-para-crear-un-cluster-de-ejmplo&quot;&gt;&lt;a href=&quot;#2-kubernetes-explicas-que-vas-a-desplegar-una-aplicaci%C3%B3n-web-para-monitorizarla-con-new-relic-en-kuberntes-y-que-para-ello-vas-a-usar-minikube-para-crear-un-cluster-de-ejmplo&quot; aria-label=&quot;2 kubernetes explicas que vas a desplegar una aplicación web para monitorizarla con new relic en kuberntes y que para ello vas a usar minikube para crear un cluster de ejmplo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.&lt;/h2&gt;
 &lt;p&gt;EXPLICACIÓN SOBRE LA PRACTICA DE KUBERNETES&lt;/p&gt;
 &lt;hr id=&quot;lista21&quot; &gt;
