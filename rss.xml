@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 09 Dec 2021 11:38:54 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 09 Dec 2021 12:01:20 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -840,38 +840,18 @@ hello-minikube   NodePort   &lt;span class=&quot;token number&quot;&gt;10.98&lt;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes2]]></title><description><![CDATA[Monitorización y análisis de aplicaciones web con new relic: Aquí explicas las características de la herramienta. Kuberntes: Explicas que…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-2</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-2</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;style&gt;
-#menu span:after /* DropDown Arrow */
-{
-   border: 0.313em solid transparent; /* 5 pixels wide */
-   border-bottom: none;  /* helps the drop-down arrow stay in the vertical centre of the parent */
-   border-top-color: #cfcfcf;   /* colour of the drop-down arrow */
-   content: &apos;&apos;; /* content of the arrow, you want to keep this empty */
-   vertical-align: middle;
-   display: inline-block;
-   position: relative;
-   right: -0.313em; /* 5 pixels right of the menu text*/
-}
-
-&lt;/style&gt;
-&lt;div class=&quot;menu&quot;&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Page with Subpages&lt;/span&gt;&lt;/a&gt;
-            &lt;ul class=&quot;children&quot;&gt;
-                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Page with another subpage&lt;/span&gt;&lt;/a&gt;
-                    &lt;ul class=&quot;children&quot;&gt;
-                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;subsubpage&lt;/a&gt;&lt;/li&gt;
-                    &lt;/ul&gt;
-                &lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;span
+    &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes2]]></title><description><![CDATA[Monitorización y análisis de aplicaciones web con new relic: Aquí explicas las características de la herramienta. New Relic One Kuberntes…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-2</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-2</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/53ad20e37c1afdf492f1af309fc2e1b0/8ff1e/portada.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 69.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAC4jAAAuIwF4pT92AAACEklEQVQoz3WS324SQRTGeRbfwDt9Bq9s0sSkNnqhJk28NDFe+QZqgnohtlXTFGOkUlOallAi7QZ2WyAU1lJchRbSZXdBcGdZlv0zcxx2CtIG52Iy35z5nW/mzAnAf4aHMSdrH3+eNv4gKsm0M4FLGmNMZzSw5zeTj9LZp5XqlWh8/UeVbjqex6LTYUKIR4Yej1OZG5FNYXv7JJ97WKleXdua6n0Bdl33qFzuNuX7sZ3rK5HivnAo8DcLR/MpgUYzPC9JEvO4AFPpYUjt7qlai8qGblxbjd7isg/Kv+7lxFbPpJun9QbHccOnkQlnlgkhfWM9MpaW62Zkpdjugi+xPyuq2ul0xjLAroD6eGUPBWNKC7ks5o3y0yqwdN9l8l7wFjPe4RlL6DtT8u5r5c4rZWGxNfui2Wj7PCY0BT4H4awLHwQIZyGcg2UBTn6P4HjRpMxuuZ+rWnPB5iqH/H8+d/ZvSEQZEsewVoBPOUhWoNAYwdEDY+aZHMv3tgrm7ZfKm4Q+CTNnSRvCGyJ8LUGiAmVlotpPwu3Z5825oLLwVrU9cBzbcRwWUjXN7CE0gCWeLPPwToBQGjTDh12P9Cwsd7wvB8Zn3qi3HReDbphiqaTrOv3YUCjEKowskpQgfgzdPrCGHcL7krVTMsW6na8N0hXrm2iiPrEH/VqtpqqqbdusaKPW+LcIXNJTx7ilaB3wxMm/nKr/Ddf+oh8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -887,6 +867,7 @@ hello-minikube   NodePort   &lt;span class=&quot;token number&quot;&gt;10.98&lt;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -894,25 +875,29 @@ hello-minikube   NodePort   &lt;span class=&quot;token number&quot;&gt;10.98&lt;
 &lt;p&gt;1.1.  &lt;a href=&quot;#lista11&quot;&gt;¿Cómo funciona?&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;1.2.  &lt;a href=&quot;#lista12&quot;&gt;Instalación de New Relic: Dejando claro donde se está instalando.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#lista2&quot;&gt;New Relic One&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;#lista2&quot;&gt;Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2.1.  &lt;a href=&quot;#lista21&quot;&gt;Instalación de minikube&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2.2.  &lt;a href=&quot;#lista22&quot;&gt;Instalaciión de kubectl&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2.3.  &lt;a href=&quot;#lista23&quot;&gt;Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3.1.  &lt;a href=&quot;#lista31&quot;&gt;Instalación de minikube&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3.2.  &lt;a href=&quot;#lista32&quot;&gt;Instalaciión de kubectl&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3.3.  &lt;a href=&quot;#lista33&quot;&gt;Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;#lista3&quot;&gt;Monitorización de nuestra aplicación con new relic
+&lt;p&gt;&lt;a href=&quot;#lista4&quot;&gt;Monitorización de nuestra aplicación con new relic
 Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;3.1.  &lt;a href=&quot;#lista31&quot;&gt;Monitorizar Conexiones HTTP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;3.2.  &lt;a href=&quot;#lista32&quot;&gt;Monitorización de errores&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;3.3.  &lt;a href=&quot;#lista33&quot;&gt;Fijar alertas&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;3.4.  &lt;a href=&quot;#lista34&quot;&gt;Estadísticas de rendimiento&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;3.5.  &lt;a href=&quot;#lista35&quot;&gt;...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.1.  &lt;a href=&quot;#lista41&quot;&gt;Monitorizar Conexiones HTTP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.2.  &lt;a href=&quot;#lista42&quot;&gt;Monitorización de errores&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.3.  &lt;a href=&quot;#lista43&quot;&gt;Fijar alertas&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.4.  &lt;a href=&quot;#lista44&quot;&gt;Estadísticas de rendimiento&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.5.  &lt;a href=&quot;#lista45&quot;&gt;...&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr id=&quot;lista1&quot; &gt;
 &lt;br&gt;
-&lt;h1 id=&quot;nuevo&quot;&gt; 1. New Relic &lt;/h1&gt;
+&lt;details open&gt;
+&lt;summary&gt;
+&lt;h2 id=&quot;1-new-relic&quot;&gt;&lt;a href=&quot;#1-new-relic&quot; aria-label=&quot;1 new relic permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. New Relic&lt;/h2&gt;
+&lt;/summary&gt;
 &lt;h2 id=&quot;¿que-es-new-relic&quot;&gt;&lt;a href=&quot;#%C2%BFque-es-new-relic&quot; aria-label=&quot;¿que es new relic permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;¿Que es New Relic?&lt;/h2&gt;
 &lt;p&gt;New Relic es una herramienta de medición del rendimiento de una infraestructura de servicios, desde backend hasta frontend: medición del rendimiento de navegadores, APIs, servidores, aplicaciones móviles… ¿Qué nos permite hacer?&lt;/p&gt;
 &lt;ul&gt;
@@ -959,7 +944,14 @@ Servidores (Servers)&lt;/li&gt;
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/a0ae723b1267c0631711be864e127e28/16abd/newrelic-browser-ejemplo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 72.44680851063829%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABcSAAAXEgFnn9JSAAACm0lEQVQ4y3VTTW/TQBD1r4YTP4AbHDmhSj2AQIg7EgckCqJUlFRNoEmbpE7sOP5a79pe74f9mF0nlUDC0rN3dmfezswbB5swRBRFcE8cx0iSBMMwoLcWq/QWr9YFVnWJOFqgYgKDc9Qci9uveB9LFPUOd8tfsKb3ccFqtUJVVZ5wTev5fO6DdN1AfHmOZ9czvLyNkC2usNun3k/xH6hunuLxrMB5uMJicoFOmZFQSgmt9eioFJwNotSWPuwjJrtPCGuN7fIG9/eh9zNGwuRvcJatwUSN2dUlakrAPYExBg6OzH2t7QnW250hj37A0EmwIkeapuSj6UzD5zD0MG2LdLdD20ofH1SMIc8yCCHAOUfTNOTXe8KCcXBWQlG6yjePyImklQpJyTHoDu5OPYzkLpGgqjjyvCB2S+V2PvW6aWGsBltO8eJyi6nIsFldId3noygqQ/n9LU5CjqQKsZj/pPiDKAXdtN7ElE2NNK+QZCXysoZoON5df8OTyQanyxjZ3RT329j36Y5FOJl8xqNZhotNhPXvKSRVNBJSWds4Ba87T7gnwqwUsJ3CGbc43VHGskF4N0e4GcerMwNe7w0+5M3BtuipTT31O6i4QF4wsIp6SIq5cptG+vJpGJ0q6EkEThfXde0bb7Sintmxb2S7mT0KGzgnToI4MbQxOD6uV5Zexg058Ne+gxlGUFKj70HIwMqWZKIbLZEZNa4daDz+i+O5KKnedoxVEj3tBVY5QkE+LY1HB2UJpkEnKwJ/gOwEOgdvH86UGOHOCZrig23T4ZzRcIoEjK3B4wg1DTHlAElD7uBmsKPaFNUuSQC/pj1nK1q3bo9sTb5BUre4LjiJskPDQjTxBjKnP4J+BU09cXAiHPGwp/6xae16+AdMxzEpBavyqQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -975,6 +967,7 @@ Servidores (Servers)&lt;/li&gt;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;New Relic Synthetics&lt;/strong&gt;: Permite monitorizar una aplicación móvil en todo su ciclo de vida, incluso en la fase de preproducción, desde la fase de desarrollo hasta las pruebas de testeo. Y una vez lanzado, también facilita la recolección de insights para medir el rendimiento. &lt;/li&gt;
@@ -988,7 +981,14 @@ Servidores (Servers)&lt;/li&gt;
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/033d64f4462ba4b928657ca5103e163b/a987b/newrelic-singin.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 51.302083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAA+klEQVQoz61Sy26DMBDkU3PpKcr3tVIUoar9g/5BD1UToAQ/wDa2J7sWjtrg5pSVRoj17njWsxUeHFWMEbcIIfwBJaGnCd+nE7TWUAQ9jpjnedW7IuSw1uKn7zESifc+5fnrnEskCfTPl60If8vNhJMxOJIaIWUCNyYSIryN3HMduXRoiLBpWzRdh0EIRCYkRZIUS2MhrYMwDs6HFWmRML+j5zdcch9Nh6eXGtv9G3aHd2yea7x+fqUzH+J9U0qXWBq5URpnUjgQeprCkOpcU3zDh6wNu3cPbIYlMxhucTejVF/xavwHqVQyhdENEq1QONPYU6GWN4M34gIXzRA/B5DePQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1006,13 +1006,21 @@ Servidores (Servers)&lt;/li&gt;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Una vez registrado procederemos a su instalación, en la que seleccionamos linux:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/db8ea0531da4e42cd20124736392d321/a987b/newrelic-instalacion.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 51.25000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABJ0lEQVQoz6VSW26DQAzcy/UKPULTz0DJEXqA/ucB9HZpEvEI7JOd2g6NEppIqWppWBvsGWOvenqe4f1jiaqusP3a4dh18N7DOncT5tK3VmAJWhu0xyPUy+wVy9UavQ1EWqPre0pwcETKCENEjLdhjMH+sBciTb4jEbVYLFCWJVwY0GstanVTkd9J0XCHkM2Q8Ha3l7+rmoZqDNRbluGTCFsPdPSCjck5+V5nZ0Jj0YxE7POoVJIk0qF2oPlpxGHAcFVMleM5JdQkemg69MbBBy9QaZqiKApJYIVA3VGpxFfP+PvkcYRTKBZCoA6JcJPn56S/4ST+I+KZkDvMR0LEC7kHLE7ypcN5mmG5LuQjb5hX/yjsJOZrpOZJivUmlytT08aatv0XvgFX4/cl3oYpHAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1030,13 +1038,21 @@ Servidores (Servers)&lt;/li&gt;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;En el plan de instalación nos pedira que instalemos el agente de &lt;strong&gt;New Relic&lt;/strong&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e36f5fdbfbbea28407a0186c52ff7196/a987b/newrelic-instalacion2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 47.552083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABD0lEQVQoz62S3W6DMAyF8/53baGgPcGeZtr1HmCtgBAIJCH8ndkZkei2atU0S0d2FPuzTRCH4xFFWeBaFCilRNf3D6s3Bsba4Pmsuw7ilCSQuoOsaxi6WJYF8zwHHzV/iePZOodWawzDgGmaMI4jxDnLoY1DxUDqxkmWvPceIyWt64p7xpO9X66olYJqGjgCByAXq6pCSeJJWZzQtG2Ylo3Be7FZN6AjKE/IMD9OEE95jrdS4vnlFSV1mrfRo2Lx3seYN1JNS1AXhuK1RZZlcESWxoYVf7L92gH4GVDdAuPpe273E20jkjT9VvybbvJ2DTdg8hDkHpCiW+DhlOIvtodH4wcU6TmH41/lH8SP9AE6rwRvRHXebwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1054,6 +1070,7 @@ Servidores (Servers)&lt;/li&gt;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Mensaje:
@@ -1074,7 +1091,14 @@ Install the latest New Relic agents on your host to get insight into the perform
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/1c178b2660d32adb751141f4c0120dd5/a987b/newrelic-instalacion3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 47.65625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABrklEQVQoz3WSW0sCQRTH9+v0WA+FFt3IzD5VRZnWF+g96UJ3CfQxgopMSVIIogu09iDp6q476+7srv/OzFptVAM/zszs4XfOzKyysLiIzUwGF5eX6JgmGo0GtFYLbV2XtNpttGj9ifYHTU1Do9mUKCvJJPYOD1EslWB0OngnoZBYlgVGeJ4H3/fR6/XgE38NkcNdF47jQEml0tg/OsZ1oQCdOhIVhVCjqrphwKSu1VoNtbc3Gev1epATok35BuUyxgJhNptFqViUXYgqbr+aGNe0Pzw9hbF4HNHZGCKxGUk0FvuK4tvQ+Dh26aTKejqNja0dZM/OpYBzHhyBohhXhRsMTkxiLDGP0bkEEcQoEYnP9fcSGBiJYPvgQHS4ipPTU5Ruy19C0aFA3B1jBh6fqnh+uYeqPkB9DaF+UyN0vf8o+Xwe1WpFCj9lnieiR5HD90zCAnrsf8Dg8i6UJAlzuRzuKj+F31JXXoFHcjcE/zX3g1deWhYd5lAJCaWgj/gdug6Hw12JTXMeKhrGdmzqMLWGE3rlcvn3HQZJHGbXgWVzMNsBo7ktC/zEJqyujQ8Cm8BEZqNHugAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1092,6 +1116,7 @@ Install the latest New Relic agents on your host to get insight into the perform
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Para poder añadir nuestra maquina al navegador de new relic deberemos realizar un &lt;strong&gt;curl&lt;/strong&gt; para conectarnos.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash &amp;amp;&amp;amp; sudo  NEW_RELIC_API_KEY=NRAK-H3WMTJBX8HDGGCWEG3KV1Y407ML NEW_RELIC_ACCOUNT_ID=3341847 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -1306,7 +1331,14 @@ nri-mysql ya está en su versión más reciente (1.7.1).
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/bfb2c1179e7e4f366c30c22e696b611b/a987b/newrelic-instalacion4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 47.552083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABFUlEQVQoz6VSXU+EMBDk/yd+xBygP8snH72AF4UWOKAUKIVxuwcEzXmncZNJl213dnaCd3N7hyiOsY8ixIcDpJQQv4TMMsbynQoBb+fvUKgax7KE1hrjOJ4wTVfRdh3atoUZBgzW8ukFYQihSgiaVFYVLJG5mKjhx5jvqrrGR5IgyzPOHTkTSlLI0rPTxZbM5efgolaKenJUSq9KPT8IcFQNkjRdPen6HsYYXv0s6axS9xa1NhgGy3W3thcQIXUiLwoo8tD5opoGiqZrmrqo+W7BVukS1hGGRPhWVnjNC57gVC2Pt/ml1ZeTFT6Rh8/vCV5SycXxCsElYia8f/C/rPGf4JX94BENeeXQ/gF6xloj791//AkMZAKdcXXwzQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1324,13 +1356,21 @@ nri-mysql ya está en su versión más reciente (1.7.1).
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Si no deseamos instalar mas herramientas le daremos a &lt;strong&gt;See your data&lt;/strong&gt; y ya podremos hacer uso de sus herramientas de monitoreo.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e0495c74853e25ce81ad62867e68fbc9/a987b/newrelic-instalacion5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 47.552083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABX0lEQVQoz21TW3LDIAz0/a/UU/SjM/lPmqap4xcGYWy81SrYTTLVzA7CSGKlxdXpckHdNmjaFn3fo1PY2nVoFX3ZE9zzvL7dDNe6xtf1im9dzz93VGGeIYpxHDHruq4rsmKaJozeI+e8g3uJETTGzcuCIMHiaUEElR2WBAat5fBxb9Dkp5g1I6VJWd6MPQk451AtL4Hm8xtR9jmvz8UNMIa98/ASEUuX1damD+Gv5XKBrSDuvmhLjKFPIoQPXkcxYtFvjgW39lJKtm7z2VpfAiDtbH7XqTAqnigj5+4zJ5FJc2lPBTfbW8rGC4f3Aw5vR4ydChLEBs/LCRYcdG4oY6O/F5QodhODHlt3kz6nsYHXtl6NMVT943jCp4ojm8pM5M2cyS7OJsiyqoqDnXt9NlELEEymsr2yej+d0eq3WQn92zIl5JBlSoiaxEJ86E3TGCP6vGAYBvshOIqYSCriFw14DWWfbD/gAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1348,16 +1388,9 @@ nri-mysql ya está en su versión más reciente (1.7.1).
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;ul id=&quot;topnav&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Servicios&lt;/a&gt;
-&lt;ul class=&quot;submenu&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Servicio 1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Servicio 2&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Servicio 3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/details&gt;
 &lt;hr id=&quot;lista2&quot; &gt;
 &lt;br&gt;
 &lt;details open&gt;
@@ -1370,7 +1403,14 @@ nri-mysql ya está en su versión más reciente (1.7.1).
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/3f7c53beec1ed8bd1765a6ddaffd964a/6ff5e/new-relic-one-platform-es.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 61.916666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB4ElEQVQoz5VS2Y7TQBDMv/IX/A6/wRMSEtqH1YplySFtDpvEOZz4PsfjomqcWVY8IGGplc7MdFV1d82GYcCP5Qrfnp7w8PyMsuugb7QWlqH7LMuQ5zmKokCapi7v+x7+G8cRxhj3dtYx+TRf4ePXB3z4/AWP8c09Ggi23O7w6xJjuVhguVrhdb3GgvnLy0+cTidUVY2yLB1gRyEimUlFyEvFIggR7PeidOr25zNSqqqqyqnLMqokQJ5LaYbr7Ybr9epy3UvlTDKl4DtbDrZbZGxJYLoceWfIKhUCdVFWqKlMedM0b1HX9dTyVDzwsHUH96EwtzjFsWPfkmjNdoMgwGazwW63w3w+Z9vnN/K2bb1C6zCsQHipeehr+ODxdY3ocsGZhdHx6AAOh4hxQJIkbllS5jtwgPYO0vYGRdd7gW7ALQetlsX+d3gn+GWobQeow2YwyLoWDUFbHorEsv2KzCWZj1QXRRFijkDb1f8wDHGhenu317uWBxZb3DoO2nSoGaOd2pc/QxbvuXnNb5rhlr+hm6tIkiR1QFI52YZghgqrflL4x9AWKQ2cU6GMLMtoZlqSzF0Uk31i2kbqptaNB+SWqcy73Tvfs/4rDEEEpnC26V3hVOwHLLD/CgIJTDi/AVC5mssafZ26AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1387,6 +1427,7 @@ nri-mysql ya está en su versión más reciente (1.7.1).
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Telemetry Data Platform&lt;/strong&gt;
 todos los datos de telemetría en un solo lugar&lt;/p&gt;
@@ -1395,7 +1436,14 @@ todos los datos de telemetría en un solo lugar&lt;/p&gt;
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/edad3b9891a9bd5c52c0481aa885f54d/6ff5e/telemetry-data-platform-es.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 45.08333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABcUlEQVQoz2WR3U/CMBTF+cN94EH8X/TBBwWJL/rgkxEJBhEEQvhQ1rEN6MZou649dh0fW7zJTZqTc389va08fYe4uF2geveLAWHIKthJXD0QXN4T3LTWONb1W4Bqg6DWJFgbT1Z9h6HWcMz8Es+GVYkVQFqvIL0eRObQRtDAcBXhcexgy9KcpjVCoeHPCYJ1jFRbEanSGHt7tBcUQmpUMjl0XGAf2zmlrRNRwjCiwYGlbdtyPYCzk269QsKJcs0Cm70h+q6fA1VuCmiKjxG3KXKgsvrXooOI0RJQmAsiSs/A+uAdXTIvALXZEdCZ4V/CH6cPxsMSkHMOut2cgd3BC7z1/GBSsDY6AWZ1e84Gj8mnHkcYJyUgYwwbb3kGtkcME0ccEuZAtQ8g3E/7GcXyaQwuZAkoE25TnoBCKiSmtYGpY2v72ZBSIgxDULOjTM93WvDZ1qe1VHQxQSmMxm4XYbXyMJ3ObPt+YJ7HS+mKs5n2ByXwtNtF+kOeAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1412,6 +1460,7 @@ todos los datos de telemetría en un solo lugar&lt;/p&gt;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Todos sus datos en un solo lugar con Telemetry Data Platform.&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1433,7 +1482,14 @@ todos los datos de telemetría en un solo lugar&lt;/p&gt;
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/37f0aaf5efd2ab3fd3505a49ed36cd1a/6ff5e/kubernetes-cluster-explorer_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 72.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB60lEQVQ4y4VTQY4UMQzMQ7kBB6Q97Ic4wZPQ3uAB0z3DTCedxE4cU/ak0TBC2kildBynbJfd4df5p17zVYcMPdYY412kfdecsxKRn48VpA1lbn5haK2piDgeCZ7PKSXHddv0hn0vxe0h7cmjPUY5lsDWJzm37j59EjPzPctJ1Ht3BEu71urZXS4XPQPr+awRUW0xMjYSy5zmtxHYm/W86rquf8t2wgTCjsOPtzf9/PKiX15f9cOnj/r123ctMgkbwxl7R6Z4ZLZK7NhQssECCPoQYomuoZVVYLQL283GRoDSuBbP1jMFoT2sZYOGEf40GwlfqhoOkZ/XmOU6gflMMrNZlju0jzGi00ULdKyeBGl4b1SOEg+yo0lGYhBIsc8R+ofwmfQ430sUb4jMLL0paITpet87msbenPBM8r/lc/hwb18Z5docGpnavZM2DRB9tNYHShm4xHeDXOIY9ygO80M27oPSR9628RsjZjZCY7hiWhoyTBAzFsA6jI6aHqbbFZqYzUpllJq3qPF2cw0T/AuQax0E34LuZkFjOggLs+xEkokFkYVqFTxy215JoJlVC3uWvCdP3t6AcFgCpZLvZOMFHUPlthTiJRMtIDyh/QtIFpA58MstKPnUW11KzguCnfxNqW0O97CdJv4A1CREsYoKaaIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1450,6 +1506,7 @@ todos los datos de telemetría en un solo lugar&lt;/p&gt;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;El explorador de clústeres de Kubernetes de New Relic reúne todos los elementos de observabilidad: métricas, eventos, registros y rastros.&lt;/p&gt;
 &lt;p&gt;Con Full-Stack Observability, obtendrá lo siguiente:&lt;/p&gt;
@@ -1466,7 +1523,14 @@ todos los datos de telemetría en un solo lugar&lt;/p&gt;
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/5a9521f70980e3754aea78d734a5ab6c/6ff5e/applied-intelligence-screenshot_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 49.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABd0lEQVQoz41SXW+DMBDj906b1KlUWlX4lVMlyva8h4pC+A4k4J2v0LXTHhYp4oJ8PttJsNmGeHp+wfvxiL7vcblcYK3FDGCaptue5/lfO9i/7bHZvCJJElRVhfP5jKZp8HtN0/xwZrP3/kbknLsSxnGM3W6H0ylB21ToRCWB0yzKCPQOdqhgTIGmbbWJiy7yotAz6yzLtC84HA7Yiu3Pj1TGOpnktaEdR9RDj8bW6JsvlCZDURht5hqGAXVdX2vBdl2ndRBFEcIwFIUnBXBSWZYPuckktbT+w5LvKEQ8s+YAtRxFsSjcKqGVnwQ5ke4mDy9ArySiWOzqZS2ExFUigGfWRkSoZWZIhWma6i0zQwUJ4SgAKxkOUhfGIJMXwKY1QyP/fttXy9vFMslo14mqdhzQOeZo0QtpURolWAlJQuyfhOE9oTwdWiYZ1fXyHWUAFeZ5/kB4r5BP7kehZEjLXPqeCBKycdnMk8N4k+vbI65f4mHNCHg53w/T7dxHMrqNAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1483,6 +1547,7 @@ todos los datos de telemetría en un solo lugar&lt;/p&gt;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Applied Intelligence utiliza el aprendizaje automático para automatizar las alertas.&lt;/p&gt;
 &lt;p&gt;Con Applied Intelligence, obtendrá lo siguiente:&lt;/p&gt;
@@ -1494,11 +1559,16 @@ todos los datos de telemetría en un solo lugar&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Observabilidad simplificada&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Con New Relic One podrá pasar menos tiempo resolviendo problemas y más tiempo diseñando software. Instrumente todo para eliminar los puntos ciegos, y hágalo a una escala de Petabytes. Practique la observabilidad del stack completo y aproveche Applied Intelligence y el aprendizaje automático para detectar problemas rápidamente y reducir el exceso de alertas repetidas. Bienvenido a la era de la observabilidad.&lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&quot;2-kubernetes-explicas-que-vas-a-desplegar-una-aplicación-web-para-monitorizarla-con-new-relic-en-kuberntes-y-que-para-ello-vas-a-usar-minikube-para-crear-un-cluster-de-ejmplo&quot;&gt;&lt;a href=&quot;#2-kubernetes-explicas-que-vas-a-desplegar-una-aplicaci%C3%B3n-web-para-monitorizarla-con-new-relic-en-kuberntes-y-que-para-ello-vas-a-usar-minikube-para-crear-un-cluster-de-ejmplo&quot; aria-label=&quot;2 kubernetes explicas que vas a desplegar una aplicación web para monitorizarla con new relic en kuberntes y que para ello vas a usar minikube para crear un cluster de ejmplo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.&lt;/h2&gt;
-&lt;p&gt;EXPLICACIÓN SOBRE LA PRACTICA DE KUBERNETES&lt;/p&gt;
-&lt;hr id=&quot;lista21&quot; &gt;
+&lt;hr id=&quot;lista3&quot; &gt;
 &lt;br&gt;
-&lt;h1 id=&quot;21-instalación-de-minikube&quot;&gt;&lt;a href=&quot;#21-instalaci%C3%B3n-de-minikube&quot; aria-label=&quot;21 instalación de minikube permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2.1 Instalación de minikube&lt;/h1&gt;
+&lt;details open&gt;
+&lt;summary&gt;
+&lt;h2 id=&quot;3-kubernetes-explicas-que-vas-a-desplegar-una-aplicación-web-para-monitorizarla-con-new-relic-en-kuberntes-y-que-para-ello-vas-a-usar-minikube-para-crear-un-cluster-de-ejmplo&quot;&gt;&lt;a href=&quot;#3-kubernetes-explicas-que-vas-a-desplegar-una-aplicaci%C3%B3n-web-para-monitorizarla-con-new-relic-en-kuberntes-y-que-para-ello-vas-a-usar-minikube-para-crear-un-cluster-de-ejmplo&quot; aria-label=&quot;3 kubernetes explicas que vas a desplegar una aplicación web para monitorizarla con new relic en kuberntes y que para ello vas a usar minikube para crear un cluster de ejmplo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.&lt;/h2&gt;
+&lt;/summary&gt;
+&lt;p&gt;EXPLICACIÓN SOBRE LA PRACTICA DE KUBERNETES&lt;/p&gt;
+&lt;hr id=&quot;lista31&quot; &gt;
+&lt;br&gt;
+&lt;h1 id=&quot;31-instalación-de-minikube&quot;&gt;&lt;a href=&quot;#31-instalaci%C3%B3n-de-minikube&quot; aria-label=&quot;31 instalación de minikube permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3.1 Instalación de minikube&lt;/h1&gt;
 &lt;p&gt;Antes monitorizar nuestro cluster deberemos de confirgurarlo primero, para ello utilizaremos &lt;strong&gt;minikube&lt;/strong&gt; para crear nuestros clusters, procederemos a su instalación.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@svKube:~$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -1585,7 +1655,14 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/c87830d6668d53039a147f500a0f2c4a/a987b/newrelic6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 47.39583333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABI0lEQVQoz51SQU7DMBD01znyAj7CD7hw4sIFIVEpakuSNq1Tx2s7duJhnQRIo4AQlka7tnbHOx6LoixxUQpN04zRGDjnYBlugXTWaD0g1daNRlFfkEuJnPcZcwltLdquw19XjHFA4B7jA7ayxuZYIdeEjKNQfAvxVK33X8VrwICJdCI3THr3usFD/o69sdhWJwgyBHIGfd9/N88miRNRF3uE2F3VJGW3Ty+4eXzG/dsO2eHIkklzcbgimefpIvQRMhiUXo37aaXccL9vW1iWfzqfIdIDKz50fPhJtJxwOe28JieJnTwghADLTycsm0JEg4M/GbCWDxNyLBqJrapgWSWxMWIu4TdT1iZNvcTKfBh/iWa1Irmbxv0PPKNjY8IU01/+AGZOv8QdkAbiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1603,20 +1680,28 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;hr id=&quot;lista22&quot; &gt;
+&lt;hr id=&quot;lista32&quot; &gt;
 &lt;br&gt;
-&lt;h1 id=&quot;22-instalaciión-de-kubectl&quot;&gt;&lt;a href=&quot;#22-instalacii%C3%B3n-de-kubectl&quot; aria-label=&quot;22 instalaciión de kubectl permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2.2 Instalaciión de kubectl&lt;/h1&gt;
-&lt;hr id=&quot;lista23&quot; &gt;
+&lt;h1 id=&quot;32-instalaciión-de-kubectl&quot;&gt;&lt;a href=&quot;#32-instalacii%C3%B3n-de-kubectl&quot; aria-label=&quot;32 instalaciión de kubectl permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3.2 Instalaciión de kubectl&lt;/h1&gt;
+&lt;hr id=&quot;lista33&quot; &gt;
 &lt;br&gt;
-&lt;h1 id=&quot;23-desplieque-de-la-aplicación-web-explicas-un-poco-la-aplicación-que-has-desplegado--no-hace-falta-mirar-la-última-práctica-para-enterarse-de-lo-que-vas-a-desplegar&quot;&gt;&lt;a href=&quot;#23-desplieque-de-la-aplicaci%C3%B3n-web-explicas-un-poco-la-aplicaci%C3%B3n-que-has-desplegado--no-hace-falta-mirar-la-%C3%BAltima-pr%C3%A1ctica-para-enterarse-de-lo-que-vas-a-desplegar&quot; aria-label=&quot;23 desplieque de la aplicación web explicas un poco la aplicación que has desplegado  no hace falta mirar la última práctica para enterarse de lo que vas a desplegar permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2.3 Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).&lt;/h1&gt;
+&lt;h1 id=&quot;33-desplieque-de-la-aplicación-web-explicas-un-poco-la-aplicación-que-has-desplegado--no-hace-falta-mirar-la-última-práctica-para-enterarse-de-lo-que-vas-a-desplegar&quot;&gt;&lt;a href=&quot;#33-desplieque-de-la-aplicaci%C3%B3n-web-explicas-un-poco-la-aplicaci%C3%B3n-que-has-desplegado--no-hace-falta-mirar-la-%C3%BAltima-pr%C3%A1ctica-para-enterarse-de-lo-que-vas-a-desplegar&quot; aria-label=&quot;33 desplieque de la aplicación web explicas un poco la aplicación que has desplegado  no hace falta mirar la última práctica para enterarse de lo que vas a desplegar permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3.3 Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).&lt;/h1&gt;
 &lt;p&gt;Hasta ahora hemos visualizado un cluster simple, añadamos dificultad despleguemos la ultima &lt;a href=&quot;https://franmadu6.github.io/gatsbyjs/despliegue-de-un-cluster-de-kubernetes&quot;&gt;practica de kubernetes&lt;/a&gt; que realizamos, la replicaremos y probaremos su comportamiento.&lt;/p&gt;
 &lt;p&gt;Para ello montaremos el escenario nuevamente y meteremos el daemon de new relic para kubernetes para que registre y monitorice el escenario.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/1b4fbe37634a3de1feea62683e327be7/a987b/newrelic9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 47.65625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABH0lEQVQoz31SyXaDMBDz//9i22sLDRBv4N3qjBN4LEltdNHImg3RDwOstVBawtgZzns4516DYp5gSK+NwSAlRqUwMYxFN90hJJEcVERKEi7vDImfl4US66ZnE8XG2lCSQO8CfvoeIuWMV6fSvXC1opTS4FNCIHR2wm2WLaakgpgpeyZTJs6QaUGqmZ1QamncIQEZf+kOn9M3VHb4lSOEMho+hE28mvFhkSsRh2IrtnjOBR+mR+c1uM/bnQxTjRej+qyIH+dni2OaYZM/VMkxF1MzbgXQXIWPAYUIntnekNvMhFhSi6eSG9bZngvgY2hZ4k5b5s1dWqZP5wVzCY+Wd5Wt2rKb92Z4yYZVXBBz3GZ2Xsj+3VvDK/6LPX6hs+EfkBYSFSve3JEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1634,12 +1719,20 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/9af587da528e4f39f52c834f1cb31064/a987b/newrelic10.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 47.447916666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABUklEQVQoz2VSXW+DMAzk//+7PVR76yatqwrt8kkSwCE32y2s6oKs4Ng539npBmtRiJDnGSklrOu6m/hTKVhrVX/inJwzWmtqlc/iOOq5LOc9usrJsiQBT7Zd2mKvvuRIEes8fAiYpgmWyXVSkR4MaFmYDe2M6mPfTH2N0+67MCKVCZULWOfQLQyi9DmYRM7Tp2w2RryERc5FcxduE1FF4TuV7iqNMX+SqzLkysSVF2ZUGwMUPdsApXhhNsRgAi7KfBoxFgZtK5wwFKCtLz4aXK4nXG7fuJket3DGYM7/ergv9j99j3d7UjdyL3dAYRpzBK2LWm2kgrn1Kk+svQxI+mhihMsJojPwxHfJEizTjDIzIAlIVUmCIhIl7xlsezZfLuD4Y9GngmuI96Fok3kXS9wb83hbs4BzbOb/kd+kDI10GPcCmQm8HXscPgYcPq84DRa/oujBFZPCrjUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1657,12 +1750,20 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/14171e217712094e5ff2e461c2783cbd/bda01/newrelic11.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 47.651356993736954%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABGUlEQVQoz32SiW6DMBBE+f+vbAJplQQoBszhg+ksNsi1aJFGrPD6ecZL8fl8oVMKbdei63voacKo9S/pqKMO/R2eTYN3+42GdcO91euNQrFQvcL+ZvO8LFhE6xrEes50rOl5hhqGXQONfNFcYa2DdQ754/hNtG0b/ntk/eir6xrFxFNmY+C8PzdLg0QTF3KYj2tXOqHsqR6PCLQWPnEiwHEcIWtypyIXU6SOU6gAy7IMwMlYWH44gawHAi0PSjenkFw7sEqBzmcONQyvQuKm15FHPYHcU1YVgZzauBqYZDDeC7DHKndIl6IUkkcWycEft1twaKK7ozkA1f7LGMLE6RrdXsVHjHy73wPQJlM8I3PKNv4OV1P9K/IP0v8QjZtiRr0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1680,12 +1781,20 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e1553f133c2ff4f4beba3912a7263c16/a987b/newrelic12.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 45.10416666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABQElEQVQoz11S0W6EIBD0/3+xySXt3UutcAqIiMB0FtDelWSzyi4zswPDqBSeywJrLVbv8Xn/wsftBreuMH1v27a3OGsSM8/OxkIbw7AYQghQT4WVTfu+Y55nLNYhxIz9yEi5oJSCfObS8mukzL6CSjQIo4BJ4X2VSpBS+tv5B3QuIRVATTGDgP1MUz24x1jHaIoyQgeU/+M4LpCNU3laEdkvZyTnnOAcR7bOVf9kieTvcbwARWFTQHCCNN2tJgTxAsu1JiTVw7i3zcQmR4LC79JBJEOUVXVNofSeIKcVF6APG57WYCNTEoNZOAoVcITZrXAki9yLpUcn8vReQF/9bAqpyhyxxhL3Kzz/lX5g0nfmHuYBtWr6mi9b6mTdZ7mP4VX6+yXzIrRBmhYkxawWgNNwYFoU6mHf36Uok/eqtcYvqA/AZSsQcyQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1703,12 +1812,20 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/80819bc9d1786cc33d200caac0ce4659/a987b/newrelic14.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 47.23958333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABRUlEQVQoz4VS7W7EIAzr+7/opFW3K1C+KZ6d0un+DTWChsSxE7ZSClJKSDkj0w53wPmA3AZirqi1YYyO67pumxdabyi1oveOzrvWZYxPEVvlhYAErIRnzTnNb8aYwTv5wE+x8Twx+io0lDeRIgHHGKw6yeKypM7/wWqT55ILSsxoBK0M1rnkm5mAlGss179z7mYYGRwpW5Vba2a9dbKI8CHY/dOWlBMC/YEM5aurZZn7975jUy/kEMjnkjwDoUmaaV1LJE4CPjnWCi4V3kRX6NYrNrWIRaFMygkckH+/4V47jv0L758XmSWT+gCpXU/vVXyTTFU7JZumc9Ae6aNcH06Tp3OgPbEiIGCxVSs06eM4JPlmdz+bYkF/T2SZmMxrsdH0SUJF9HymDXTYrmJb1RD6eksahqb8jyknErSseOXqhXjv8Qs9OMCFWg3WfQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1726,12 +1843,20 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/461e4a2ab35a5dc4d9f1190d406b66e0/a987b/newrelic13.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 47.13541666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABKElEQVQoz4VSi27EIAzj/7+0va0PaKG8vThtddV02pCshABOYmK895iXBdu+I4SAaZ6xWIcQM7YQkXJBrRWlFAX9lDPCcaCI3wHU3tHEHvGA2YXQWquHJNyFuNWGKIfTNImNSuB9OP2U0FpT8piy2nwl9buHYYAXOrOI5cFv/wkuVs3khZVKQSwiSsWLdGqYPV5Zufjm+fgjYUw4pOLzsgTaGad8JgthvrS5K/0LXE7keMWAtZY3WsWyb9KyEJGMxGz/bvcT2R33/Dy7YnFOYDEL1s3h9f0FQ6Gpx1PH/9DZYoWiE+Vs3VmpUEdlmpWUv6USXNVSExX/GhnuiVxOmTgmHB/6jHFadGzGccQwDDqPbIcxWistcT79tV/lge7FZ4z+fZc+Z/gHC/7AkvvWzl8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1749,6 +1874,7 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Nos muestra bastantes datos del cluster creado, pero ¿Nos mostrara si falla algun nodo?&lt;/p&gt;
 &lt;p&gt;Para hacer una simulación de fallo apagaremos el &lt;strong&gt;worker2&lt;/strong&gt; seguira funcionando todo correctamente pero no podremos hacer uso de el, como se muestra en la grafica .&lt;/p&gt;
@@ -1756,7 +1882,14 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/0d2d34d2976c65e68773ae9565913f8a/a987b/newrelic15.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 47.39583333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABDUlEQVQoz5VS2XLDIAzk/7+vj33rTBNPMonNfUhsBfEZtw/FlmVAWnYl1HUYMGkNY83Le4+YImLcLOy8sbZbi53Ea23gJcfHhItgKRsCUiH8Nao8VHmb19otEyFL3sNp3MwIcMU0jlDaGFjnkVJagxcTLATOuJSpg3FbO56GTzfgY/zCSB7X5x3KdboezLwBzUzkIyCMVKknHw6cY76F3c0bNA3350MkOyuSykHO/r/PRQ4xifG6vzDu03nJiFrVCqwFtBV9ZbbzjWHkcmJ4OlRGI6eCNMU51zv43oz2ZpE7UTgc8t6gFVDIqVa73wIWa7IKU6/nae+t7h0w5YxSilyB0v1/LO9ySa5Rq+EPjpPEQU8X8+oAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1774,13 +1907,21 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Buscando un poco en todas las metricas y logs que proporciona, podemos acceder al log y ver en que momento dejo de dar conexión.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/628eea2be0487d748e4d051deb63ba3a/a987b/newrelic16.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 46.510416666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABJUlEQVQoz42SV27EMAxEdf9T5SJBfgLHZb1uKpZcuDO0tNgkCBABD6TacETITMsiNgTx6yoBkVhrJaxBYoySUpJ933+xvXAch/TOy9v7h5iBlzccOk9sAEYROTM6/4MT7Md1rwyzwtmJCqwyBy+OTmMCUdmwTtKOmElwlfZrLWp+wfPGOnc9A5cWZ2WB42mewKzMaAnbwMIFtmJVkKMlnOsa9ozPhynqvZdxmuSzqpSmbeWrrjV2fS/3YVBYhOcKMwprxLpxEKEgn8yqdFVBpIZIf79Ld7vpGp3zNd8icMiJzRg+h2LqEDmrUIyu2q6TummegoWnAHMYKnPmhmIc6jB/HdofxlHFtY8v/eRFtqa8jN+KfUwZQ2cc/AL/HWf+Mj8HTT0Acz68zrJ1/D0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1798,13 +1939,21 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Podemos crear alertas para que nos
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/9a3ed9333faa4ead35f972f4f519f809/ca44b/newrelic17.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 51.101036269430054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABI0lEQVQoz5WS63KDIBCFff8nrPHSmWTaPzFeQZCLpweoNjqdTqN+ssDugWXJmq7Dx73BZ9OgHUZMQmAksZ2ml8la/m7NIzIICaU0ZqUiSmsYY14iUwzsuhY9dzqJCXKWESGT+Lqu8N7/myjYtyPTnOGMh1GWK1k462C9PgYE8fMC7K9PZJppaWUgtIOkmBQagqnPHFusPjh7ayPnMRrYnii4O2zvdx/h2wJpi7KAquswHPFmgb5dky/ws8P1tO0zYQeWNG85ZFWm4ChoMF9/Edw6fwl6+nSXC4aq2tPTLNq9fo/z67OgZQEMz8LsbWIxqUDbnMhzjEUBw2JY5zBPAn1ZHgX3u7YsCdqOzo5Bzvlkk1BRy6sUiHOhwqFIvCXbEQTBL8EXDpXkyUC3AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -1822,6 +1971,7 @@ minikube kubectl create namespace kube-system &lt;span class=&quot;token punctua
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
