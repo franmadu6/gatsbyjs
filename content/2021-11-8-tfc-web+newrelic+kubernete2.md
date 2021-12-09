@@ -372,9 +372,7 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 
 <details open>
 
-<summary>
-
-## 2. New Relic One</summary>
+<summary>2. New Relic One</summary>
 
 <br>
 Detectar, corregir y prevenir: esa es la promesa del monitoreo de software. ¿Pero qué pasa cuando las soluciones costosas impiden instrumentar todo y los enfoques poco sistemáticos producen un aumento en la cantidad de herramientas? Cuando los datos de desempeño de la aplicación, de la infraestructura y de los usuarios finales están dispersos por herramientas de monitoreo que no están conectadas, la detección y resolución de problemas puede ser innecesariamente compleja y puede consumir mucho tiempo.
