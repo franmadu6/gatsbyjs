@@ -14,60 +14,34 @@ tags:
     - Metricas
 ---
 
-<style>
-#menu span:after /* DropDown Arrow */
-{
-   border: 0.313em solid transparent; /* 5 pixels wide */
-   border-bottom: none;  /* helps the drop-down arrow stay in the vertical centre of the parent */
-   border-top-color: #cfcfcf;   /* colour of the drop-down arrow */
-   content: ''; /* content of the arrow, you want to keep this empty */
-   vertical-align: middle;
-   display: inline-block;
-   position: relative;
-   right: -0.313em; /* 5 pixels right of the menu text*/
-}
-
-</style>
-
-
-<div class="menu">
-    <ul>
-        <li><a href="#"><span>Page with Subpages</span></a>
-            <ul class="children">
-                <li><a href="#"><span>Page with another subpage</span></a>
-                    <ul class="children">
-                        <li><a href="#">subsubpage</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</div>
-
-
 ![PracticaImg](images/proyecto/portada.png "Portada principal")
 
 
 1. <a href="#lista1">Monitorización y análisis de aplicaciones web con new relic: Aquí explicas las características de la herramienta.</a>
     <p>1.1.  <a href="#lista11">¿Cómo funciona?</a></p>
     <p>1.2.  <a href="#lista12">Instalación de New Relic: Dejando claro donde se está instalando.</a></p>
-2. <a href="#lista2">Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.</a>
-    <p>2.1.  <a href="#lista21">Instalación de minikube</a></p>
-    <p>2.2.  <a href="#lista22">Instalaciión de kubectl</a></p>
-    <p>2.3.  <a href="#lista23">Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).</a></p>
-3. <a href="#lista3">Monitorización de nuestra aplicación con new relic
+2. <a href="#lista2">New Relic One</a>
+3. <a href="#lista2">Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.</a>
+    <p>3.1.  <a href="#lista31">Instalación de minikube</a></p>
+    <p>3.2.  <a href="#lista32">Instalaciión de kubectl</a></p>
+    <p>3.3.  <a href="#lista33">Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).</a></p>
+4. <a href="#lista4">Monitorización de nuestra aplicación con new relic
     Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:</a>
-    <p>3.1.  <a href="#lista31">Monitorizar Conexiones HTTP</a></p>
-    <p>3.2.  <a href="#lista32">Monitorización de errores</a></p>
-    <p>3.3.  <a href="#lista33">Fijar alertas</a></p>
-    <p>3.4.  <a href="#lista34">Estadísticas de rendimiento</a></p>
-    <p>3.5.  <a href="#lista35">...</a></p>
+    <p>4.1.  <a href="#lista41">Monitorizar Conexiones HTTP</a></p>
+    <p>4.2.  <a href="#lista42">Monitorización de errores</a></p>
+    <p>4.3.  <a href="#lista43">Fijar alertas</a></p>
+    <p>4.4.  <a href="#lista44">Estadísticas de rendimiento</a></p>
+    <p>4.5.  <a href="#lista45">...</a></p>
 
 <hr id="lista1" >
-
 <br>
+<details open>
 
-<h1 id="nuevo"> 1. New Relic </h1>
+<summary>
+
+## 1. New Relic 
+</summary>
+
 
 ## ¿Que es New Relic?
 
@@ -396,28 +370,14 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 
 ![PracticaImg](images/proyecto/newrelic-instalacion5.png "instalación new relic")
 
-<ul id="topnav">
-    <li><a href="#">Servicios</a>
-<ul class="submenu">
-    <li><a href="#">Servicio 1</a></li>
-    <li><a href="#">Servicio 2</a></li>
-    <li><a href="#">Servicio 3</a></li>
-</ul>
-</li>
-</ul>
-
-
+</details>
 
 <hr id="lista2" >
-
 <br>
-
 <details open>
-
 <summary>
 
 ## 2. New Relic One
-
 </summary>
 
 Detectar, corregir y prevenir: esa es la promesa del monitoreo de software. ¿Pero qué pasa cuando las soluciones costosas impiden instrumentar todo y los enfoques poco sistemáticos producen un aumento en la cantidad de herramientas? Cuando los datos de desempeño de la aplicación, de la infraestructura y de los usuarios finales están dispersos por herramientas de monitoreo que no están conectadas, la detección y resolución de problemas puede ser innecesariamente compleja y puede consumir mucho tiempo.
@@ -490,16 +450,23 @@ Con New Relic One podrá pasar menos tiempo resolviendo problemas y más tiempo 
 
 </details>
 
-## 2. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.
+<hr id="lista3" >
+<br>
+<details open>
+
+<summary>
+
+## 3. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.
+</summary>
 
 EXPLICACIÓN SOBRE LA PRACTICA DE KUBERNETES
 
 
-<hr id="lista21" >
+<hr id="lista31" >
 
 <br>
 
-# 2.1 Instalación de minikube
+# 3.1 Instalación de minikube
 
 Antes monitorizar nuestro cluster deberemos de confirgurarlo primero, para ello utilizaremos **minikube** para crear nuestros clusters, procederemos a su instalación.
 ```shell
@@ -604,17 +571,17 @@ minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-
 
 ![PracticaImg](images/proyecto/newrelic6.png "monitorización de minikube")
 
-<hr id="lista22" >
+<hr id="lista32" >
 
 <br>
 
-# 2.2 Instalaciión de kubectl
+# 3.2 Instalaciión de kubectl
 
-<hr id="lista23" >
+<hr id="lista33" >
 
 <br>
 
-# 2.3 Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).
+# 3.3 Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).
 
 
 Hasta ahora hemos visualizado un cluster simple, añadamos dificultad despleguemos la ultima [practica de kubernetes](https://franmadu6.github.io/gatsbyjs/despliegue-de-un-cluster-de-kubernetes) que realizamos, la replicaremos y probaremos su comportamiento.
@@ -639,3 +606,4 @@ Buscando un poco en todas las metricas y logs que proporciona, podemos acceder a
 
 Podemos crear alertas para que nos
 ![PracticaImg](images/proyecto/newrelic17.png "monitorización de cluster")
+
