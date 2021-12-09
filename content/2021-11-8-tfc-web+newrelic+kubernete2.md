@@ -42,7 +42,7 @@ tags:
 
 New Relic es una herramienta de medición del rendimiento de una infraestructura de servicios, desde backend hasta frontend: medición del rendimiento de navegadores, APIs, servidores, aplicaciones móviles… ¿Qué nos permite hacer?
 
-* Este software es capaz de realizar las siguientes tareas (entre otras muchas):
+* Este software es capaz de realizar las siguientes tareas:
 
   * Monitorizar Conexiones HTTP (tiempos de respuesta, nº de peticiones…).
   * Monitorización de errores (avisos cuando se detectan fallos de ejecución o conexión).
@@ -369,6 +369,83 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 <hr id="lista2" >
 
 <br>
+
+<details open>
+
+<summary>
+
+## 2. New Relic One</summary>
+
+<br>
+Detectar, corregir y prevenir: esa es la promesa del monitoreo de software. ¿Pero qué pasa cuando las soluciones costosas impiden instrumentar todo y los enfoques poco sistemáticos producen un aumento en la cantidad de herramientas? Cuando los datos de desempeño de la aplicación, de la infraestructura y de los usuarios finales están dispersos por herramientas de monitoreo que no están conectadas, la detección y resolución de problemas puede ser innecesariamente compleja y puede consumir mucho tiempo.
+
+Ahí es donde New Relic One marca la diferencia: una plataforma capaz de escalar masivamente y que recolecta y contextualiza todos los datos operativos—sin importar de dónde vengan—y simplifica la instrumentación, la ingestión de datos, la exploración, la correlación y el análisis basado en aprendizaje automático (machine learning), para reforzar la observabilidad de cada organización.
+
+![PracticaImg](images/proyecto/new-relic-one-platform-es.png "new-relic-one-platform-es.png")
+
+
+**Telemetry Data Platform**
+todos los datos de telemetría en un solo lugar
+
+Recopile, explore y genere alertas en relación a todas las métricas, eventos, registros y rastros sin importar cuál sea su origen en una base de datos de telemetría abierta y unificada. Las integraciones—que vienen listas para usarse—con herramientas de código abierto como Prometheus y Grafana, por nombrar solo dos, eliminan el costo y la complejidad de administrar el almacenamiento de datos adicional.
+
+![PracticaImg](images/proyecto/telemetry-data-platform-es.png "telemetry-data-platform-es.png")
+
+
+
+**Todos sus datos en un solo lugar con Telemetry Data Platform.**
+
+* Con Telemetry Data Platform, obtendrá lo siguiente:
+
+  * Integraciones con más de 300 agentes y estándares como OpenTelemetry, lo que le permite ingerir y guardar todos los datos operativos en un solo lugar
+  * Tiempos de consulta y respuesta ultra rápidos
+  * La posibilidad de elegir entre crear paneles en New Relic One o conservar los flujos de trabajo existentes en Grafana
+  * Alertas en tiempo real en relación a los datos
+  * APIs y herramientas para crear aplicaciones personalizadas alojadas en New Relic One
+
+**Full-Stack Observability**
+
+
+Visualice y resuelva problemas de todo el stack en una experiencia unificada
+
+Full-Stack Observability amplía la capacidad de Telemetry Data Platform, y proporciona una experiencia conectada que facilita entender en qué condición se encuentra el sistema dentro de su contexto, desde registros, infraestructura, aplicaciones y datos de la experiencia del usuario final. Elimine el trabajo extra y los puntos ciegos gracias a vistas especializadas que presentan los problemas automáticamente a sus equipos incluso antes de que a usted se le ocurra preguntar.
+
+![PracticaImg](images/proyecto/kubernetes-cluster-explorer_1.png "kubernetes-cluster-explorer_1.png")
+
+El explorador de clústeres de Kubernetes de New Relic reúne todos los elementos de observabilidad: métricas, eventos, registros y rastros.
+
+Con Full-Stack Observability, obtendrá lo siguiente:
+
+  * Toda la funcionalidad de New Relic que conoce y que tanto le agrada—APM, Infrastructure, Logs in Context, Distributed Tracing, Serverless, Browser, Mobile y Synthetics—todo en un solo paquete
+  * Información contextual acerca de sus servicios distribuidos, aplicaciones y funciones sin servidor, sin importar cómo o dónde se hayan desarrollado
+  * Visibilidad incomparable en los hosts de infraestructura, contenedores, recursos de nubes y clústers de Kubernetes
+  * Análisis del rendimiento de extremo a extremo, desde los servicios de backend hasta la experiencia de los usuarios finales
+
+**Applied Intelligence**
+
+
+Detecte y resuelva problemas con más rapidez
+
+Detecte, comprenda y resuelva los incidentes con más rapidez gracias a las potentes capacidades de AIOps. Applied Intelligence detecta y explica anomalías automáticamente antes de que se conviertan en incidentes, reduce el exceso de alertas repetidas gracias a que correlaciona las alertas relacionadas y diagnostica problemas enriqueciendo incidentes con contexto, lo que permite ir rápidamente a la raíz de los problemas.
+
+![PracticaImg](images/proyecto/applied-intelligence-screenshot_1.png "applied-intelligence-screenshot_1.png")
+
+
+
+Applied Intelligence utiliza el aprendizaje automático para automatizar las alertas.
+
+Con Applied Intelligence, obtendrá lo siguiente:
+
+  * Detección proactiva que detecta las anomalías antes de que se conviertan en incidentes
+  * Inteligencia sobre incidentes que reduce el exceso de alertas repetidas y prioriza los problemas
+  * Configuraciones con herramientas como Slack y PagerDuty para agilizar el diagnóstico y los tiempos de respuesta
+
+
+**Observabilidad simplificada**
+
+Con New Relic One podrá pasar menos tiempo resolviendo problemas y más tiempo diseñando software. Instrumente todo para eliminar los puntos ciegos, y hágalo a una escala de Petabytes. Practique la observabilidad del stack completo y aproveche Applied Intelligence y el aprendizaje automático para detectar problemas rápidamente y reducir el exceso de alertas repetidas. Bienvenido a la era de la observabilidad.
+
+</details>
 
 ## 2. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.
 
