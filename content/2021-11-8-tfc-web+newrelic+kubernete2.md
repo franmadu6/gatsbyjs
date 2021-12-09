@@ -14,6 +14,37 @@ tags:
     - Metricas
 ---
 
+<style>
+#menu span:after /* DropDown Arrow */
+{
+   border: 0.313em solid transparent; /* 5 pixels wide */
+   border-bottom: none;  /* helps the drop-down arrow stay in the vertical centre of the parent */
+   border-top-color: #cfcfcf;   /* colour of the drop-down arrow */
+   content: ''; /* content of the arrow, you want to keep this empty */
+   vertical-align: middle;
+   display: inline-block;
+   position: relative;
+   right: -0.313em; /* 5 pixels right of the menu text*/
+}
+
+</style>
+
+
+<div class="menu">
+    <ul>
+        <li><a href="#"><span>Page with Subpages</span></a>
+            <ul class="children">
+                <li><a href="#"><span>Page with another subpage</span></a>
+                    <ul class="children">
+                        <li><a href="#">subsubpage</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
 ![PracticaImg](images/proyecto/portada.png "Portada principal")
 
 
@@ -36,7 +67,7 @@ tags:
 
 <br>
 
-# 1. New Relic
+<h1 id="nuevo"> 1. New Relic </h1>
 
 ## ¿Que es New Relic?
 
@@ -375,41 +406,7 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 </li>
 </ul>
 
-<style>
-ul#topnav {
-list-style: none;
-margin: 0px;
-padding: 0px;
-}
-ul#topnav &gt; li{
-background-color: #ba2425;
-float: left;
-padding-top: 5px;
-}
-ul#topnav &gt; li &gt; a{
-color:#FFF;
-display: block;
-text-decoration: none;
-font-size: 13px;
-padding: 5px 25px;
-border-radius:7px 7px 0px 0px;
-}
-ul.submenu {
-position: absolute;
-background-color: #000;
-list-style: none;
-margin: 0px;
-padding: 0px;
-padding-bottom: 10px;
-border-radius:0px 7px 7px 7px;
-width: 150px;
-display: none;
-}
-ul#topnav &gt; li &gt; a.sf-with-ul::after {
-content: " \25BC";
-font-size: 11px;
-}
-</style>
+
 
 <hr id="lista2" >
 
