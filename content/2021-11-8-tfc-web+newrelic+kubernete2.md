@@ -375,6 +375,42 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 </li>
 </ul>
 
+<style>
+ul#topnav {
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+ul#topnav &gt; li{
+background-color: #ba2425;
+float: left;
+padding-top: 5px;
+}
+ul#topnav &gt; li &gt; a{
+color:#FFF;
+display: block;
+text-decoration: none;
+font-size: 13px;
+padding: 5px 25px;
+border-radius:7px 7px 0px 0px;
+}
+ul.submenu {
+position: absolute;
+background-color: #000;
+list-style: none;
+margin: 0px;
+padding: 0px;
+padding-bottom: 10px;
+border-radius:0px 7px 7px 7px;
+width: 150px;
+display: none;
+}
+ul#topnav &gt; li &gt; a.sf-with-ul::after {
+content: " \25BC";
+font-size: 11px;
+}
+</style>
+
 <hr id="lista2" >
 
 <br>
