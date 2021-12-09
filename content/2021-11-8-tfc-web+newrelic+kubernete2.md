@@ -366,8 +366,9 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 ![PracticaImg](images/proyecto/newrelic-instalacion5.png "instalación new relic")
 
 <details open>
-<summary>prueba</summary>
+<summary>&#8594; prueba</summary>
 <br>
+aaa
 </details>
 
 <hr id="lista2" >
@@ -382,7 +383,6 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 
 </summary>
 
-<br>
 Detectar, corregir y prevenir: esa es la promesa del monitoreo de software. ¿Pero qué pasa cuando las soluciones costosas impiden instrumentar todo y los enfoques poco sistemáticos producen un aumento en la cantidad de herramientas? Cuando los datos de desempeño de la aplicación, de la infraestructura y de los usuarios finales están dispersos por herramientas de monitoreo que no están conectadas, la detección y resolución de problemas puede ser innecesariamente compleja y puede consumir mucho tiempo.
 
 Ahí es donde New Relic One marca la diferencia: una plataforma capaz de escalar masivamente y que recolecta y contextualiza todos los datos operativos—sin importar de dónde vengan—y simplifica la instrumentación, la ingestión de datos, la exploración, la correlación y el análisis basado en aprendizaje automático (machine learning), para reforzar la observabilidad de cada organización.
