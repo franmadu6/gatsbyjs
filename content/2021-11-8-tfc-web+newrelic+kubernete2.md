@@ -365,11 +365,15 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 
 ![PracticaImg](images/proyecto/newrelic-instalacion5.png "instalación new relic")
 
-<details open>
-<summary>&#8594; prueba</summary>
-<br>
-aaa
-</details>
+<ul id="topnav">
+    <li><a href="#">Servicios</a>
+<ul class="submenu">
+    <li><a href="#">Servicio 1</a></li>
+    <li><a href="#">Servicio 2</a></li>
+    <li><a href="#">Servicio 3</a></li>
+</ul>
+</li>
+</ul>
 
 <hr id="lista2" >
 
