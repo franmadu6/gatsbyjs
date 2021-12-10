@@ -17,65 +17,83 @@ tags:
 ![PracticaImg](images/proyecto/portada.png "Portada principal")
 
 
-<ol>
-  <li><a href="#newrelic">New Relic</a></li>
-  <li><a href="#kubernetes">Kubernetes</a></li>
-  <li><a href="#pruebasminikube">Pruebas con minikube</a></li>
-  <li><a href="#pruebaskubernetes">Monitorización de un escenario desplegado</a></li>
-</ol>
+1. <a href="#lista1">Monitorización y análisis de aplicaciones web con new relic: Aquí explicas las características de la herramienta.</a>
+    <p>1.1.  <a href="#lista11">¿Cómo funciona?</a></p>
+    <p>1.2.  <a href="#lista12">Instalación de New Relic: Dejando claro donde se está instalando.</a></p>
+2. <a href="#lista2">New Relic One</a>
+3. <a href="#lista2">Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.</a>
+    <p>3.1.  <a href="#lista31">Instalación de minikube</a></p>
+    <p>3.2.  <a href="#lista32">Instalaciión de kubectl</a></p>
+    <p>3.3.  <a href="#lista33">Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).</a></p>
+4. <a href="#lista4">Monitorización de nuestra aplicación con new relic
+    Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:</a>
+    <p>4.1.  <a href="#lista41">Monitorizar Conexiones HTTP</a></p>
+    <p>4.2.  <a href="#lista42">Monitorización de errores</a></p>
+    <p>4.3.  <a href="#lista43">Fijar alertas</a></p>
+    <p>4.4.  <a href="#lista44">Estadísticas de rendimiento</a></p>
+    <p>4.5.  <a href="#lista45">...</a></p>
 
-
-
-Este proyecto contemplará la utilización de **New Relic** para obtener metricas y logs de una **web** desplegada a traves de **kubernetes**, para comenzar explicaremos un poco que es **New Relic** y como funciona.
-
-<hr id="newrelic" >
-
+<hr id="lista1" >
 <br>
+<details open>
+<summary>
 
-# New Relic
+## 1. New Relic 
+</summary>
+
+
+<details open>
+<summary>
 
 ## ¿Que es New Relic?
+</summary>
 
 New Relic es una herramienta de medición del rendimiento de una infraestructura de servicios, desde backend hasta frontend: medición del rendimiento de navegadores, APIs, servidores, aplicaciones móviles… ¿Qué nos permite hacer?
 
-**Este software es capaz de realizar las siguientes tareas (entre otras muchas):**
+* Este software es capaz de realizar las siguientes tareas:
 
-- Monitorizar Conexiones HTTP (tiempos de respuesta, nº de peticiones…).
-- Monitorización de errores (avisos cuando se detectan fallos de ejecución o conexión).
-- Fijar alertas sobre datos de referencia (tiempos de respuesta, errores de autenticación…).
-- Estadísticas de rendimiento en distintos dispositivos (uso de memoria, velocidad de respuesta,…).
-- Estadísticas de usuarios que la usen según el SO utilizado.
+  * Monitorizar Conexiones HTTP (tiempos de respuesta, nº de peticiones…).
+  * Monitorización de errores (avisos cuando se detectan fallos de ejecución o conexión).
+  * Fijar alertas sobre datos de referencia (tiempos de respuesta, errores de autenticación…).
+  * Estadísticas de rendimiento en distintos dispositivos (uso de memoria, velocidad de respuesta,…).
+  * Estadísticas de usuarios que la usen según el SO utilizado.
 
-**Esta herramienta además soporta diferentes plataformas:**
+* Esta herramienta además soporta diferentes plataformas:
 Aplicaciones WEB (APM)
 
-**Permite monitorizar aplicaciones web en los siguientes lenguajes:**
+* Permite monitorizar aplicaciones web en los siguientes lenguajes:
 
-- Ruby
-- PHP
-- Java (la miraremos un poco más en detalle)
-- .NET
-- Python
-- NodeJs
+  * Ruby
+  * PHP
+  * Java (la miraremos un poco más en detalle)
+  * NET
+  * Python
+  * NodeJs
 
-**Aplicaciones Móviles (Mobile)**
-<hr>
-
-**Permite monitorizar nuestras aplicaciones para móviles (Android, iOS y Titanium).**
+* Permite monitorizar nuestras aplicaciones para móviles (Android, iOS y Titanium).
 Navegadores (Browser)
 
-**Permite monitorizar nuestro sitio sobre el navegador del usuario (tiempo de respuesta, tiempo de carga de elementos…).**
+* Permite monitorizar nuestro sitio sobre el navegador del usuario (tiempo de respuesta, tiempo de carga de elementos…).
 Usuarios (Synthetics)
 
-**Permite simular usuarios (tanto flujo como interacciones) para anticiparse a los errores. Usa el servicio de alertas para avisar de esto.**
+* Permite simular usuarios (tanto flujo como interacciones) para anticiparse a los errores. Usa el servicio de alertas para avisar de esto.
 Servidores (Servers)
 
-**Nos da una vista del servidor desde la perspectiva de la propia aplicación.**
-Otros
+* Nos da una vista del servidor desde la perspectiva de la propia aplicación.
 
-Además de las características arriba descritas, nos ofrece un amplio abanico de **Plugins** para ayudarnos con ellas, e incluso añadir nuevas funcionalidades, soporte en la nube y integración con kubernete que veremos mas adelante.
+Además de las características arriba descritas, nos ofrece un amplio abanico de **plugins** para ayudarnos con ellas, e incluso añadir nuevas funcionalidades, soporte en la nube y integración con kubernete que veremos mas adelante.
+</details>
 
-## ¿Como funciona?
+<hr id="lista11" >
+<br>
+<details open>
+<summary>
+
+## 1.1 ¿Como funciona?
+</summary>
+
+
+Recopila una serie de parametros que monitoriza en el navegador,
 
 **New Relic** consta con varias aplicaciones, para no hablar de todas ellas veremos las que utilizaremos en este proyecto:
 
@@ -87,8 +105,15 @@ Además de las características arriba descritas, nos ofrece un amplio abanico d
 - **New Relic Synthetics**: Permite monitorizar una aplicación móvil en todo su ciclo de vida, incluso en la fase de preproducción, desde la fase de desarrollo hasta las pruebas de testeo. Y una vez lanzado, también facilita la recolección de insights para medir el rendimiento. 
 
 Ya tenemos una idea de que es **New Relic**, que datos recoge y como funciona, ahora daremos paso al proyecto comenzando con la instalacion de **New Relic**.
+</details>
 
-<hr>
+<hr id="lista12" >
+<br>
+<details open>
+<summary>
+
+## 1.2 Instalación de New Relic
+</summary>
 
 Para instalar **New Relic** primero deberemos acceder a su [website](https://newrelic.com/) para registrarnos:
 
@@ -355,13 +380,104 @@ Una vez la instalación haya sido finalizada volveremos al navegador y veremos c
 Si no deseamos instalar mas herramientas le daremos a **See your data** y ya podremos hacer uso de sus herramientas de monitoreo.
 
 ![PracticaImg](images/proyecto/newrelic-instalacion5.png "instalación new relic")
+</details>
+</details>
 
-
-<hr id="kubernetes" >
-
+<hr id="lista2" >
 <br>
+<details open>
+<summary>
 
-## Kubernetes
+## 2. New Relic One
+</summary>
+
+Detectar, corregir y prevenir: esa es la promesa del monitoreo de software. ¿Pero qué pasa cuando las soluciones costosas impiden instrumentar todo y los enfoques poco sistemáticos producen un aumento en la cantidad de herramientas? Cuando los datos de desempeño de la aplicación, de la infraestructura y de los usuarios finales están dispersos por herramientas de monitoreo que no están conectadas, la detección y resolución de problemas puede ser innecesariamente compleja y puede consumir mucho tiempo.
+
+Ahí es donde New Relic One marca la diferencia: una plataforma capaz de escalar masivamente y que recolecta y contextualiza todos los datos operativos—sin importar de dónde vengan—y simplifica la instrumentación, la ingestión de datos, la exploración, la correlación y el análisis basado en aprendizaje automático (machine learning), para reforzar la observabilidad de cada organización.
+
+![PracticaImg](images/proyecto/new-relic-one-platform-es.png "new-relic-one-platform-es.png")
+
+
+**Telemetry Data Platform**,todos los datos de telemetría en un solo lugar:
+
+Recopile, explore y genere alertas en relación a todas las métricas, eventos, registros y rastros sin importar cuál sea su origen en una base de datos de telemetría abierta y unificada. Las integraciones—que vienen listas para usarse—con herramientas de código abierto como Prometheus y Grafana, por nombrar solo dos, eliminan el costo y la complejidad de administrar el almacenamiento de datos adicional.
+
+![PracticaImg](images/proyecto/telemetry-data-platform-es.png "telemetry-data-platform-es.png")
+
+
+
+**Todos sus datos en un solo lugar con Telemetry Data Platform.**
+
+* Con Telemetry Data Platform, obtendrá lo siguiente:
+
+  * Integraciones con más de 300 agentes y estándares como OpenTelemetry, lo que le permite ingerir y guardar todos los datos operativos en un solo lugar
+  * Tiempos de consulta y respuesta ultra rápidos
+  * La posibilidad de elegir entre crear paneles en New Relic One o conservar los flujos de trabajo existentes en Grafana
+  * Alertas en tiempo real en relación a los datos
+  * APIs y herramientas para crear aplicaciones personalizadas alojadas en New Relic One
+
+**Full-Stack Observability**
+
+
+Visualice y resuelva problemas de todo el stack en una experiencia unificada
+
+Full-Stack Observability amplía la capacidad de Telemetry Data Platform, y proporciona una experiencia conectada que facilita entender en qué condición se encuentra el sistema dentro de su contexto, desde registros, infraestructura, aplicaciones y datos de la experiencia del usuario final. Elimine el trabajo extra y los puntos ciegos gracias a vistas especializadas que presentan los problemas automáticamente a sus equipos incluso antes de que a usted se le ocurra preguntar.
+
+![PracticaImg](images/proyecto/kubernetes-cluster-explorer_1.png "kubernetes-cluster-explorer_1.png")
+
+El explorador de clústeres de Kubernetes de New Relic reúne todos los elementos de observabilidad: métricas, eventos, registros y rastros.
+
+Con Full-Stack Observability, obtendrá lo siguiente:
+
+  * Toda la funcionalidad de New Relic que conoce y que tanto le agrada—APM, Infrastructure, Logs in Context, Distributed Tracing, Serverless, Browser, Mobile y Synthetics—todo en un solo paquete
+  * Información contextual acerca de sus servicios distribuidos, aplicaciones y funciones sin servidor, sin importar cómo o dónde se hayan desarrollado
+  * Visibilidad incomparable en los hosts de infraestructura, contenedores, recursos de nubes y clústers de Kubernetes
+  * Análisis del rendimiento de extremo a extremo, desde los servicios de backend hasta la experiencia de los usuarios finales
+
+**Applied Intelligence**
+
+
+Detecte y resuelva problemas con más rapidez
+
+Detecte, comprenda y resuelva los incidentes con más rapidez gracias a las potentes capacidades de AIOps. Applied Intelligence detecta y explica anomalías automáticamente antes de que se conviertan en incidentes, reduce el exceso de alertas repetidas gracias a que correlaciona las alertas relacionadas y diagnostica problemas enriqueciendo incidentes con contexto, lo que permite ir rápidamente a la raíz de los problemas.
+
+![PracticaImg](images/proyecto/applied-intelligence-screenshot_1.png "applied-intelligence-screenshot_1.png")
+
+
+
+Applied Intelligence utiliza el aprendizaje automático para automatizar las alertas.
+
+Con Applied Intelligence, obtendrá lo siguiente:
+
+  * Detección proactiva que detecta las anomalías antes de que se conviertan en incidentes
+  * Inteligencia sobre incidentes que reduce el exceso de alertas repetidas y prioriza los problemas
+  * Configuraciones con herramientas como Slack y PagerDuty para agilizar el diagnóstico y los tiempos de respuesta
+
+
+**Observabilidad simplificada**
+
+Con New Relic One podrá pasar menos tiempo resolviendo problemas y más tiempo diseñando software. Instrumente todo para eliminar los puntos ciegos, y hágalo a una escala de Petabytes. Practique la observabilidad del stack completo y aproveche Applied Intelligence y el aprendizaje automático para detectar problemas rápidamente y reducir el exceso de alertas repetidas. Bienvenido a la era de la observabilidad.
+
+</details>
+
+<hr id="lista3" >
+<br>
+<details open>
+<summary>
+
+## 3. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.
+</summary>
+
+EXPLICACIÓN SOBRE LA PRACTICA DE KUBERNETES
+
+
+<hr id="lista31" >
+<br>
+<details open>
+<summary>
+
+## 3.1 Instalación de minikube
+</summary>
 
 Antes monitorizar nuestro cluster deberemos de confirgurarlo primero, para ello utilizaremos **minikube** para crear nuestros clusters, procederemos a su instalación.
 ```shell
@@ -465,41 +581,27 @@ minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-
  ```
 
 ![PracticaImg](images/proyecto/newrelic6.png "monitorización de minikube")
+</details>
 
-<hr id="pruebasminikube" >
-
+<hr id="lista32" >
 <br>
+<details open>
+<summary>
 
-## Pruebas con kubernetes
+## 3.2 Instalaciión de kubectl
+</summary>
 
-Para usar minikube de una manera mucho mas sencilla añadiremos un alias para no tener que estar poniendo minikube en cada linea:
-```shell
-alias kubectl="minikube kubectl --"
-```
 
-Crearemos un deployment sencilla en lo expondremos por el puesto 8080:
-```shell
-root@svKube:/home/vagrant# kubectl create deployment hello-minikube --image=k8s.gcr.io/echoserver:1.4
-deployment.apps/hello-minikube created
-root@svKube:/home/vagrant# kubectl expose deployment hello-minikube --type=NodePort --port=8080
-service/hello-minikube exposed
-```
 
-```shell
-root@svKube:/home/vagrant# kubectl get services hello-minikube
-NAME             TYPE       CLUSTER-IP     EXTERNAL-IP   PORT(S)          AGE
-hello-minikube   NodePort   10.98.127.54   <none>        8080:30972/TCP   46s
-```
+</details>
 
-![PracticaImg](images/proyecto/newrelic7.png "monitorización de minikube deployment")
-
-![PracticaImg](images/proyecto/newrelic8.png "monitorización de minikube deployment")
-
-Como podemos comprobar se han añadido un cluster con su consiguiente deploy nuevos al diagrama.
-
-<hr id="pruebask3s" >
-
+<hr id="lista33" >
 <br>
+<details open>
+<summary>
+
+## 3.3 Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).
+</summary>
 
 Hasta ahora hemos visualizado un cluster simple, añadamos dificultad despleguemos la ultima [practica de kubernetes](https://franmadu6.github.io/gatsbyjs/despliegue-de-un-cluster-de-kubernetes) que realizamos, la replicaremos y probaremos su comportamiento.
 
@@ -523,3 +625,6 @@ Buscando un poco en todas las metricas y logs que proporciona, podemos acceder a
 
 Podemos crear alertas para que nos
 ![PracticaImg](images/proyecto/newrelic17.png "monitorización de cluster")
+
+</details>
+</details>
