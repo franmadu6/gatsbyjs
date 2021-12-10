@@ -20,7 +20,7 @@ tags:
     <p>1.1.  <a href="#lista11">¿Cómo funciona?</a></p>
     <p>1.2.  <a href="#lista12">Instalación de New Relic: Dejando claro donde se está instalando.</a></p>
 2. <a href="#lista2">New Relic One</a>
-3. <a href="#lista2">Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.</a>
+3. <a href="#lista3">Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.</a>
     <p>3.1.  <a href="#lista31">Instalación de minikube</a></p>
     <p>3.2.  <a href="#lista32">Instalaciión de kubectl</a></p>
     <p>3.3.  <a href="#lista33">Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).</a></p>
