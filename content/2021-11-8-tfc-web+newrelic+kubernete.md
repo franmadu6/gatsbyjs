@@ -16,7 +16,6 @@ tags:
 
 ![PracticaImg](images/proyecto/portada.png "Portada principal")
 
-
 1. <a href="#lista1">Monitorización y análisis de aplicaciones web con new relic: Aquí explicas las características de la herramienta.</a>
     <p>1.1.  <a href="#lista11">¿Cómo funciona?</a></p>
     <p>1.2.  <a href="#lista12">Instalación de New Relic: Dejando claro donde se está instalando.</a></p>
@@ -92,19 +91,19 @@ Además de las características arriba descritas, nos ofrece un amplio abanico d
 ## 1.1 ¿Como funciona?
 </summary>
 
+Recopila una serie de parámetros que monitoriza a traves de nuestro navegador, para ello se lanza un agente dentro de la maquina de la que se quiera recopilar información, dependiendo de si es para recolectar datos de nuestro propio sistema o un cluster de kubernetes que tenemos alojado en la misma, etc... dependiendo del tipo de dato que necesitemos New Relic los suministrará la instalación del agente adecuado.
 
-Recopila una serie de parametros que monitoriza en el navegador,
+Podremos crear vistas en las que tengamos metricas de diferentes agentes y ademas todo el sistema es codigo abierto por lo tanto podremos modificar tambien algun agente para adaptarlo a nuestra necesidades y asi tener una monitorización mas personalizada.
 
-**New Relic** consta con varias aplicaciones, para no hablar de todas ellas veremos las que utilizaremos en este proyecto:
+Podemos ver utilidades o ejemplos de monitorización como los siguientes:
 
 - **New Relic Browser**: New Relic monitoriza todo lo relacionado a las peticiones HTTP y HTTPs que realizamos dentro de un navegador, desde los tiempos de carga con histogramas, percentiles y gráficos con segmentación hasta reportes geográficos, rendimiento con toda la parte de backend y alertas relacionadas con peticiones AJAX y errores del Javascript. Lógicamente todos los tableros de monitorización son personalizables. 
-
 
 ![PracticaImg](images/proyecto/newrelic-browser-ejemplo.png "Ejemplo de new relic browser")
 
 - **New Relic Synthetics**: Permite monitorizar una aplicación móvil en todo su ciclo de vida, incluso en la fase de preproducción, desde la fase de desarrollo hasta las pruebas de testeo. Y una vez lanzado, también facilita la recolección de insights para medir el rendimiento. 
 
-Ya tenemos una idea de que es **New Relic**, que datos recoge y como funciona, ahora daremos paso al proyecto comenzando con la instalacion de **New Relic**.
+Ya tenemos una idea de que es New Relic, que datos recoge y como funciona, ahora daremos paso al proyecto comenzando con la instalacion de New Relic.
 </details>
 
 <hr id="lista12" >
@@ -115,17 +114,19 @@ Ya tenemos una idea de que es **New Relic**, que datos recoge y como funciona, a
 ## 1.2 Instalación de New Relic
 </summary>
 
-Para instalar **New Relic** primero deberemos acceder a su [website](https://newrelic.com/) para registrarnos:
+Realizaremos una instalación simple para poder para poder visualizar las metricas de mi portatil. Para instalar New Relic primero deberemos acceder a su [website](https://newrelic.com/) para registrarnos y dar de alta nuestra cuenta que será necesaria para el acceso a nuestras vistas:
 
 ![PracticaImg](images/proyecto/newrelic-singin.png "registro new relic")
 
 
-Una vez registrado procederemos a su instalación, en la que seleccionamos linux:
+Una vez registrado procederemos a su instalación en nuestra maquina, seleccionaremos linux ya que usamos Debian:
 
 ![PracticaImg](images/proyecto/newrelic-instalacion.png "instalación new relic")
 
 
-En el plan de instalación nos pedira que instalemos el agente de **New Relic**:
+En el plan de instalación nos pedira que instalemos el agente de New Relic:
+
+**Agente**: Algunas integraciones de New Relic requieren la instalación manual de un agente. La forma en que se configura el comportamiento de esos agentes depende del agente específico(APM, infraestructuras, navegadores, movil, otros...).
 
 ![PracticaImg](images/proyecto/newrelic-instalacion2.png "instalación new relic")
 
@@ -133,9 +134,9 @@ En el plan de instalación nos pedira que instalemos el agente de **New Relic**:
 **Install the New Relic agents**
 Install the latest New Relic agents on your host to get insight into the performance of your system and applications
 
-Para ello seguí la [guia](https://docs.newrelic.com/docs/apm/agents/php-agent/installation/php-agent-installation-ubuntu-debian/) proporcionada por **New Relic**.
+Para ello seguí la [guia](https://docs.newrelic.com/docs/apm/agents/php-agent/installation/php-agent-installation-ubuntu-debian/) proporcionada por New Relic.
 
-Configuramos el repositorio de **New Relic**:
+Configuramos el repositorio de New Relic:
 ```
 echo 'deb http://apt.newrelic.com/debian/ newrelic non-free' | sudo tee /etc/apt/sources.list.d/newrelic.list
 ```
@@ -164,7 +165,7 @@ Para poder añadir nuestra maquina al navegador de new relic deberemos realizar 
 curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-H3WMTJBX8HDGGCWEG3KV1Y407ML NEW_RELIC_ACCOUNT_ID=3341847 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install
 ```
 
-Podremos elegir que parametros recoje, para este caso cogermos todos los posibles como ejemplo.
+Podremos elegir que parametros recoger, para este caso cogermos todos los posibles como ejemplo.
 ```
 fran@debian:~$ curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-H3WMTJBX8HDGGCWEG3KV1Y407ML NEW_RELIC_ACCOUNT_ID=3341847 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install
 Starting installation.
