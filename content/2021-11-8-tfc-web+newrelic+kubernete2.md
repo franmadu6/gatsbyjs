@@ -36,14 +36,17 @@ tags:
 <hr id="lista1" >
 <br>
 <details open>
-
 <summary>
 
 ## 1. New Relic 
 </summary>
 
 
+<details open>
+<summary>
+
 ## ¿Que es New Relic?
+</summary>
 
 New Relic es una herramienta de medición del rendimiento de una infraestructura de servicios, desde backend hasta frontend: medición del rendimiento de navegadores, APIs, servidores, aplicaciones móviles… ¿Qué nos permite hacer?
 
@@ -79,9 +82,9 @@ Servidores (Servers)
 * Nos da una vista del servidor desde la perspectiva de la propia aplicación.
 
 Además de las características arriba descritas, nos ofrece un amplio abanico de **plugins** para ayudarnos con ellas, e incluso añadir nuevas funcionalidades, soporte en la nube y integración con kubernete que veremos mas adelante.
+</details>
 
 <hr id="lista11" >
-
 <br>
 <details open>
 <summary>
@@ -105,7 +108,6 @@ Ya tenemos una idea de que es **New Relic**, que datos recoge y como funciona, a
 </details>
 
 <hr id="lista12" >
-
 <br>
 <details open>
 <summary>
@@ -379,7 +381,6 @@ Si no deseamos instalar mas herramientas le daremos a **See your data** y ya pod
 
 ![PracticaImg](images/proyecto/newrelic-instalacion5.png "instalación new relic")
 </details>
-
 </details>
 
 <hr id="lista2" >
@@ -462,7 +463,6 @@ Con New Relic One podrá pasar menos tiempo resolviendo problemas y más tiempo 
 <hr id="lista3" >
 <br>
 <details open>
-
 <summary>
 
 ## 3. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.
@@ -472,10 +472,12 @@ EXPLICACIÓN SOBRE LA PRACTICA DE KUBERNETES
 
 
 <hr id="lista31" >
-
 <br>
+<details open>
+<summary>
 
 # 3.1 Instalación de minikube
+</summary>
 
 Antes monitorizar nuestro cluster deberemos de confirgurarlo primero, para ello utilizaremos **minikube** para crear nuestros clusters, procederemos a su instalación.
 ```shell
@@ -579,19 +581,27 @@ minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-
  ```
 
 ![PracticaImg](images/proyecto/newrelic6.png "monitorización de minikube")
+</details>
 
 <hr id="lista32" >
-
 <br>
+<details open>
+<summary>
 
 # 3.2 Instalaciión de kubectl
+</summary>
+
+
+
+</details>
 
 <hr id="lista33" >
-
 <br>
+<details open>
+<summary>
 
 # 3.3 Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).
-
+</summary>
 
 Hasta ahora hemos visualizado un cluster simple, añadamos dificultad despleguemos la ultima [practica de kubernetes](https://franmadu6.github.io/gatsbyjs/despliegue-de-un-cluster-de-kubernetes) que realizamos, la replicaremos y probaremos su comportamiento.
 
@@ -616,3 +626,5 @@ Buscando un poco en todas las metricas y logs que proporciona, podemos acceder a
 Podemos crear alertas para que nos
 ![PracticaImg](images/proyecto/newrelic17.png "monitorización de cluster")
 
+</details>
+</details>
