@@ -64,18 +64,18 @@ Aplicaciones WEB (APM)
 
   * Ruby
   * PHP
-  * Java (la miraremos un poco más en detalle)
+  * Java
   * NET
   * Python
   * NodeJs
 
-* Permite monitorizar nuestras aplicaciones para móviles (Android, iOS y Titanium).
+* Permite monitorizar nuestras aplicaciones para móviles (Android, iOS y Titanium).  
 Navegadores (Browser)
 
-* Permite monitorizar nuestro sitio sobre el navegador del usuario (tiempo de respuesta, tiempo de carga de elementos…).
+* Permite monitorizar nuestro sitio sobre el navegador del usuario (tiempo de respuesta, tiempo de carga de elementos…).  
 Usuarios (Synthetics)
 
-* Permite simular usuarios (tanto flujo como interacciones) para anticiparse a los errores. Usa el servicio de alertas para avisar de esto.
+* Permite simular usuarios (tanto flujo como interacciones) para anticiparse a los errores. Usa el servicio de alertas para avisar de esto.  
 Servidores (Servers)
 
 * Nos da una vista del servidor desde la perspectiva de la propia aplicación.
@@ -468,6 +468,8 @@ Con New Relic One podrá pasar menos tiempo resolviendo problemas y más tiempo 
 
 ## 3. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.
 </summary>
+
+![PracticaImg](images/proyecto/esquemakube.png "esquemakube.png")
 
 EXPLICACIÓN SOBRE LA PRACTICA DE KUBERNETES
 
