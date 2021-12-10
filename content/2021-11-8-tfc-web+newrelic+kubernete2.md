@@ -83,8 +83,14 @@ Además de las características arriba descritas, nos ofrece un amplio abanico d
 <hr id="lista11" >
 
 <br>
+<details open>
+<summary>
 
 ## 1.1 ¿Como funciona?
+</summary>
+
+
+Recopila una serie de parametros que monitoriza en el navegador,
 
 **New Relic** consta con varias aplicaciones, para no hablar de todas ellas veremos las que utilizaremos en este proyecto:
 
@@ -96,13 +102,16 @@ Además de las características arriba descritas, nos ofrece un amplio abanico d
 - **New Relic Synthetics**: Permite monitorizar una aplicación móvil en todo su ciclo de vida, incluso en la fase de preproducción, desde la fase de desarrollo hasta las pruebas de testeo. Y una vez lanzado, también facilita la recolección de insights para medir el rendimiento. 
 
 Ya tenemos una idea de que es **New Relic**, que datos recoge y como funciona, ahora daremos paso al proyecto comenzando con la instalacion de **New Relic**.
+</details>
 
 <hr id="lista12" >
 
 <br>
+<details open>
+<summary>
 
 ## 1.2 Instalación de New Relic
-
+</summary>
 
 Para instalar **New Relic** primero deberemos acceder a su [website](https://newrelic.com/) para registrarnos:
 
@@ -369,6 +378,7 @@ Una vez la instalación haya sido finalizada volveremos al navegador y veremos c
 Si no deseamos instalar mas herramientas le daremos a **See your data** y ya podremos hacer uso de sus herramientas de monitoreo.
 
 ![PracticaImg](images/proyecto/newrelic-instalacion5.png "instalación new relic")
+</details>
 
 </details>
 
@@ -387,8 +397,7 @@ Ahí es donde New Relic One marca la diferencia: una plataforma capaz de escalar
 ![PracticaImg](images/proyecto/new-relic-one-platform-es.png "new-relic-one-platform-es.png")
 
 
-**Telemetry Data Platform**
-todos los datos de telemetría en un solo lugar
+**Telemetry Data Platform**,todos los datos de telemetría en un solo lugar:
 
 Recopile, explore y genere alertas en relación a todas las métricas, eventos, registros y rastros sin importar cuál sea su origen en una base de datos de telemetría abierta y unificada. Las integraciones—que vienen listas para usarse—con herramientas de código abierto como Prometheus y Grafana, por nombrar solo dos, eliminan el costo y la complejidad de administrar el almacenamiento de datos adicional.
 
