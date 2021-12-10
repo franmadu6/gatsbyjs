@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 10 Dec 2021 08:06:08 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 10 Dec 2021 13:02:49 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -921,17 +921,17 @@ Aplicaciones WEB (APM)&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;Ruby&lt;/li&gt;
 &lt;li&gt;PHP&lt;/li&gt;
-&lt;li&gt;Java (la miraremos un poco más en detalle)&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
 &lt;li&gt;NET&lt;/li&gt;
 &lt;li&gt;Python&lt;/li&gt;
 &lt;li&gt;NodeJs&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Permite monitorizar nuestras aplicaciones para móviles (Android, iOS y Titanium).
+&lt;li&gt;Permite monitorizar nuestras aplicaciones para móviles (Android, iOS y Titanium).&lt;br&gt;
 Navegadores (Browser)&lt;/li&gt;
-&lt;li&gt;Permite monitorizar nuestro sitio sobre el navegador del usuario (tiempo de respuesta, tiempo de carga de elementos…).
+&lt;li&gt;Permite monitorizar nuestro sitio sobre el navegador del usuario (tiempo de respuesta, tiempo de carga de elementos…).&lt;br&gt;
 Usuarios (Synthetics)&lt;/li&gt;
-&lt;li&gt;Permite simular usuarios (tanto flujo como interacciones) para anticiparse a los errores. Usa el servicio de alertas para avisar de esto.
+&lt;li&gt;Permite simular usuarios (tanto flujo como interacciones) para anticiparse a los errores. Usa el servicio de alertas para avisar de esto.&lt;br&gt;
 Servidores (Servers)&lt;/li&gt;
 &lt;li&gt;Nos da una vista del servidor desde la perspectiva de la propia aplicación.&lt;/li&gt;
 &lt;/ul&gt;
@@ -943,8 +943,9 @@ Servidores (Servers)&lt;/li&gt;
 &lt;summary&gt;
 &lt;h2 id=&quot;11-¿como-funciona&quot;&gt;&lt;a href=&quot;#11-%C2%BFcomo-funciona&quot; aria-label=&quot;11 ¿como funciona permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1.1 ¿Como funciona?&lt;/h2&gt;
 &lt;/summary&gt;
-&lt;p&gt;Recopila una serie de parametros que monitoriza en el navegador,&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;New Relic&lt;/strong&gt; consta con varias aplicaciones, para no hablar de todas ellas veremos las que utilizaremos en este proyecto:&lt;/p&gt;
+&lt;p&gt;Recopila una serie de parámetros que monitoriza a traves de nuestro navegador, para ello se lanza un agente dentro de la maquina de la que se quiera recopilar información, dependiendo de si es para recolectar datos de nuestro propio sistema o un cluster de kubernetes que tenemos alojado en la misma, etc... dependiendo del tipo de dato que necesitemos New Relic los suministrará la instalación del agente adecuado.&lt;/p&gt;
+&lt;p&gt;Podremos crear vistas en las que tengamos metricas de diferentes agentes y ademas todo el sistema es codigo abierto por lo tanto podremos modificar tambien algun agente para adaptarlo a nuestra necesidades y asi tener una monitorización mas personalizada.&lt;/p&gt;
+&lt;p&gt;Podemos ver utilidades o ejemplos de monitorización como los siguientes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;New Relic Browser&lt;/strong&gt;: New Relic monitoriza todo lo relacionado a las peticiones HTTP y HTTPs que realizamos dentro de un navegador, desde los tiempos de carga con histogramas, percentiles y gráficos con segmentación hasta reportes geográficos, rendimiento con toda la parte de backend y alertas relacionadas con peticiones AJAX y errores del Javascript. Lógicamente todos los tableros de monitorización son personalizables. &lt;/li&gt;
 &lt;/ul&gt;
@@ -980,7 +981,7 @@ Servidores (Servers)&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;New Relic Synthetics&lt;/strong&gt;: Permite monitorizar una aplicación móvil en todo su ciclo de vida, incluso en la fase de preproducción, desde la fase de desarrollo hasta las pruebas de testeo. Y una vez lanzado, también facilita la recolección de insights para medir el rendimiento. &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Ya tenemos una idea de que es &lt;strong&gt;New Relic&lt;/strong&gt;, que datos recoge y como funciona, ahora daremos paso al proyecto comenzando con la instalacion de &lt;strong&gt;New Relic&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Ya tenemos una idea de que es New Relic, que datos recoge y como funciona, ahora daremos paso al proyecto comenzando con la instalacion de New Relic.&lt;/p&gt;
 &lt;/details&gt;
 &lt;hr id=&quot;lista12&quot; &gt;
 &lt;br&gt;
@@ -988,7 +989,7 @@ Servidores (Servers)&lt;/li&gt;
 &lt;summary&gt;
 &lt;h2 id=&quot;12-instalación-de-new-relic&quot;&gt;&lt;a href=&quot;#12-instalaci%C3%B3n-de-new-relic&quot; aria-label=&quot;12 instalación de new relic permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1.2 Instalación de New Relic&lt;/h2&gt;
 &lt;/summary&gt;
-&lt;p&gt;Para instalar &lt;strong&gt;New Relic&lt;/strong&gt; primero deberemos acceder a su &lt;a href=&quot;https://newrelic.com/&quot;&gt;website&lt;/a&gt; para registrarnos:&lt;/p&gt;
+&lt;p&gt;Realizaremos una instalación simple para poder para poder visualizar las metricas de mi portatil. Para instalar New Relic primero deberemos acceder a su &lt;a href=&quot;https://newrelic.com/&quot;&gt;website&lt;/a&gt; para registrarnos y dar de alta nuestra cuenta que será necesaria para el acceso a nuestras vistas:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -1020,7 +1021,7 @@ Servidores (Servers)&lt;/li&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Una vez registrado procederemos a su instalación, en la que seleccionamos linux:&lt;/p&gt;
+&lt;p&gt;Una vez registrado procederemos a su instalación en nuestra maquina, seleccionaremos linux ya que usamos Debian:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -1052,7 +1053,8 @@ Servidores (Servers)&lt;/li&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;En el plan de instalación nos pedira que instalemos el agente de &lt;strong&gt;New Relic&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;En el plan de instalación nos pedira que instalemos el agente de New Relic:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Agente&lt;/strong&gt;: Algunas integraciones de New Relic requieren la instalación manual de un agente. La forma en que se configura el comportamiento de esos agentes depende del agente específico(APM, infraestructuras, navegadores, movil, otros...).&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -1089,8 +1091,8 @@ Servidores (Servers)&lt;/li&gt;
 &lt;strong&gt;Install the New Relic agents&lt;/strong&gt;
 Install the latest New Relic agents on your host to get insight into the performance of your system and applications&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Para ello seguí la &lt;a href=&quot;https://docs.newrelic.com/docs/apm/agents/php-agent/installation/php-agent-installation-ubuntu-debian/&quot;&gt;guia&lt;/a&gt; proporcionada por &lt;strong&gt;New Relic&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Configuramos el repositorio de &lt;strong&gt;New Relic&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Para ello seguí la &lt;a href=&quot;https://docs.newrelic.com/docs/apm/agents/php-agent/installation/php-agent-installation-ubuntu-debian/&quot;&gt;guia&lt;/a&gt; proporcionada por New Relic.&lt;/p&gt;
+&lt;p&gt;Configuramos el repositorio de New Relic:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;echo &amp;#39;deb http://apt.newrelic.com/debian/ newrelic non-free&amp;#39; | sudo tee /etc/apt/sources.list.d/newrelic.list&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Comprobamos la relación de confianza con la &lt;strong&gt;clave GPG&lt;/strong&gt;:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;wget -O- https://download.newrelic.com/548C16BF.gpg | sudo apt-key add -&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -1132,7 +1134,7 @@ Install the latest New Relic agents on your host to get insight into the perform
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Para poder añadir nuestra maquina al navegador de new relic deberemos realizar un &lt;strong&gt;curl&lt;/strong&gt; para conectarnos.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash &amp;amp;&amp;amp; sudo  NEW_RELIC_API_KEY=NRAK-H3WMTJBX8HDGGCWEG3KV1Y407ML NEW_RELIC_ACCOUNT_ID=3341847 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Podremos elegir que parametros recoje, para este caso cogermos todos los posibles como ejemplo.&lt;/p&gt;
+&lt;p&gt;Podremos elegir que parametros recoger, para este caso cogermos todos los posibles como ejemplo.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;fran@debian:~$ curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash &amp;amp;&amp;amp; sudo  NEW_RELIC_API_KEY=NRAK-H3WMTJBX8HDGGCWEG3KV1Y407ML NEW_RELIC_ACCOUNT_ID=3341847 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install
 Starting installation.
 Installing New Relic CLI v0.37.19
@@ -1577,6 +1579,36 @@ nri-mysql ya está en su versión más reciente (1.7.1).
 &lt;summary&gt;
 &lt;h2 id=&quot;3-kubernetes-explicas-que-vas-a-desplegar-una-aplicación-web-para-monitorizarla-con-new-relic-en-kuberntes-y-que-para-ello-vas-a-usar-minikube-para-crear-un-cluster-de-ejmplo&quot;&gt;&lt;a href=&quot;#3-kubernetes-explicas-que-vas-a-desplegar-una-aplicaci%C3%B3n-web-para-monitorizarla-con-new-relic-en-kuberntes-y-que-para-ello-vas-a-usar-minikube-para-crear-un-cluster-de-ejmplo&quot; aria-label=&quot;3 kubernetes explicas que vas a desplegar una aplicación web para monitorizarla con new relic en kuberntes y que para ello vas a usar minikube para crear un cluster de ejmplo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.&lt;/h2&gt;
 &lt;/summary&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/95139/esquemakube.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.22254758418741%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcklEQVQoz5VSO6rCQBR1A67CLbgA92DrBqzFSrCxcAc29jYuIPZCBD+FRoiFiMHgByUqfvGT8965MHEmz+ZdGHLnfs6ce3IT+KeFYRj57/cbj8fDiCfUhUkV5Dfu6zHW0trtNmq1Gs7nc1Sb0F/UgXVAxl6vVwQUBAEOhwMWiwXK5TIsy/oA0iFtFsVHUwBx22w2uF6vknddV+4GYK/XQzqdlqTv+3KU7XY7lEol5PN5OI4jse12i+fzifl8jk6nY5AQQNu2kUwm0e12hS2Bl8sl9vs9JpMJMpkMUqkUWq0W7vc7RqOR5Pr9PorFovQbgOPxGNlsFoPBAI1GA57nSSN14ziFQgG5XA7D4VAaqd3pdBKWzWZTJjQAqcXtdhMdvd8xdCPj2WyG6XSK4/EYycAHedbrtbE6xl8mo/gK0ScTHtW4Wq1wuVxE62q1Kg8YDPU10QWOx5RxXK4NGVYqFdTr9b8Mvy3wt7ieI2vqT01V7Q9qjjkslYLVfQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;esquemakube.png&quot;
+        src=&quot;/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/36727/esquemakube.png&quot;
+        srcset=&quot;/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/acf4b/esquemakube.png 173w,
+/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/fc834/esquemakube.png 345w,
+/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/36727/esquemakube.png 690w,
+/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/17fa4/esquemakube.png 1035w,
+/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/95139/esquemakube.png 1366w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;EXPLICACIÓN SOBRE LA PRACTICA DE KUBERNETES&lt;/p&gt;
 &lt;hr id=&quot;lista31&quot; &gt;
 &lt;br&gt;
