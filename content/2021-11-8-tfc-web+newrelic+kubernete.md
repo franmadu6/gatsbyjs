@@ -136,8 +136,8 @@ En el plan de instalación nos pedira que instalemos el agente de New Relic:
 
 El link que nos proporcionará es el de instalación del agente a nuestro sistema operativo:
 
-**Nota**: Para no tener la web tan cargado he movido la captura de mi terminal a mi repositorio de Github:  
-https://github.com/franmadu6/tfc-data/blob/main/instalacion-newrelic
+**Nota**: Para no tener la web tan cargada he movido la captura de mi terminal a mi repositorio de Github:  
+- <a href="https://github.com/franmadu6/tfc-data/blob/main/instalacion-newrelic" target="blank">Repositorio</a>
 
 Y listo! Ya tendremos nuestro agente instalado y listo para usarse.
 
@@ -367,7 +367,7 @@ sudo apt-get update
 sudo apt-get install -y kubectl
 ```
 
-**Nota**: Para no tener la web tan cargado he movido la captura de mi terminal a mi repositorio de Github:  
+**Nota**: Para no tener la web tan cargada he movido la captura de mi terminal a mi repositorio de Github:  
 https://github.com/franmadu6/tfc-data/blob/main/instalacion-kubectl
 
 Para verificar su instalación veremos que versión fue instalada:
