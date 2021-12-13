@@ -114,15 +114,17 @@ Ya tenemos una idea de que es New Relic, que datos recoge y como funciona, ahora
 ## 1.2 Instalación de New Relic
 </summary>
 
-Realizaremos una instalación simple para poder para poder visualizar las metricas de mi portatil. Para instalar New Relic primero deberemos acceder a su [website](https://newrelic.com/) para registrarnos y dar de alta nuestra cuenta que será necesaria para el acceso a nuestras vistas:
+Realizaremos una instalación simple para poder para poder visualizar las metricas de nuestra maquina llamada **Central** en Openstacks. Para instalar New Relic primero deberemos acceder a su [website](https://newrelic.com/) para registrarnos y dar de alta nuestra cuenta que será necesaria para el acceso a nuestras vistas:
 
 ![PracticaImg](images/proyecto/newrelic-singin.png "registro new relic")
 
+Una vez registrado procederemos a la implementación de new relic en nuestro entorno, para comenzar le daremos al icono [+ add more data]
 
-Una vez registrado procederemos a su instalación en nuestra maquina, seleccionaremos linux ya que usamos Debian:
+![PracticaImg](images/proyecto/newrelic-addmoredata.png "newrelic-addmoredata.png")
+
+Nos iremos a la sección de host y seleccionaremos Ubuntu:
 
 ![PracticaImg](images/proyecto/newrelic-instalacion.png "instalación new relic")
-
 
 En el plan de instalación nos pedira que instalemos el agente de New Relic:
 
@@ -130,257 +132,21 @@ En el plan de instalación nos pedira que instalemos el agente de New Relic:
 
 ![PracticaImg](images/proyecto/newrelic-instalacion2.png "instalación new relic")
 
-- Mensaje:
-**Install the New Relic agents**
-Install the latest New Relic agents on your host to get insight into the performance of your system and applications
+![PracticaImg](images/proyecto/newrelic-instalacion3.png "instalación new relic")
 
-Para ello seguí la [guia](https://docs.newrelic.com/docs/apm/agents/php-agent/installation/php-agent-installation-ubuntu-debian/) proporcionada por New Relic.
+El link que nos proporcionará es el de instalación del agente a nuestro sistema operativo:
 
-Configuramos el repositorio de New Relic:
-```
-echo 'deb http://apt.newrelic.com/debian/ newrelic non-free' | sudo tee /etc/apt/sources.list.d/newrelic.list
-```
-
-Comprobamos la relación de confianza con la **clave GPG**:
-```
-wget -O- https://download.newrelic.com/548C16BF.gpg | sudo apt-key add -
-```
-
-Actualizamos los paquetes:
-```
-sudo apt-get update
-```
-
-Instalamos el agente de PHP:
-```
-sudo apt-get install newrelic-php5
-```
+**Nota**: Para no tener la web tan cargado he movido la captura de mi terminal a mi repositorio de Github:  
+https://github.com/franmadu6/tfc-data/blob/main/instalacion-newrelic
 
 Y listo! Ya tendremos nuestro agente instalado y listo para usarse.
 
-![PracticaImg](images/proyecto/newrelic-instalacion3.png "instalación new relic")
+Una vez la instalación haya sido finalizada volveremos al navegador y veremos como la pantalla ha cambiado, nos dejara darle a siguiente para concluir la instlación, he de destaca que si nuestro equipo posee php, java, alguna base de datos, etc... Tambien lo detectaria el agente y nos lo instalaria al ejecutarlo.
 
-Para poder añadir nuestra maquina al navegador de new relic deberemos realizar un **curl** para conectarnos.
-```
-curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-H3WMTJBX8HDGGCWEG3KV1Y407ML NEW_RELIC_ACCOUNT_ID=3341847 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install
-```
-
-Podremos elegir que parametros recoger, para este caso cogermos todos los posibles como ejemplo.
-```
-fran@debian:~$ curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-H3WMTJBX8HDGGCWEG3KV1Y407ML NEW_RELIC_ACCOUNT_ID=3341847 NEW_RELIC_REGION=EU /usr/local/bin/newrelic install
-Starting installation.
-Installing New Relic CLI v0.37.19
-Installing to /usr/local/bin using sudo
-[sudo] password for fran: 
-
-   _   _                 ____      _ _
-  | \ | | _____      __ |  _ \ ___| (_) ___
-  |  \| |/ _ \ \ /\ / / | |_) / _ | | |/ __|
-  | |\  |  __/\ V  V /  |  _ |  __| | | (__
-  |_| \_|\___| \_/\_/   |_| \_\___|_|_|\___|
-
-  Welcome to New Relic. Let's install some instrumentation.
-
-  Questions? Read more about our installation process at
-  https://docs.newrelic.com/
-
-	
-INFO Validating connectivity to the New Relic platform... 
-The guided installation will begin by installing the latest version of the New Relic Infrastructure agent, which is required for additional instrumentation.
-
-? Please choose from the following instrumentation to be installed: Logs integration, Golden Signal Alerts, Apache Open Source Integration, MySQL Open Source Integration
-
-The following will be installed:
-  Infrastructure Agent
-  Logs integration
-  Golden Signal Alerts
-  Apache Open Source Integration
-  MySQL Open Source Integration
-
-==> Installing Infrastructure Agent...
-
-Obj:1 http://repo.mysql.com/apt/debian buster InRelease
-Ign:2 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 InRelease
-Obj:3 http://dl.google.com/linux/chrome/deb stable InRelease
-Obj:4 http://security.debian.org/debian-security buster/updates InRelease
-Obj:5 http://deb.debian.org/debian buster InRelease
-Obj:6 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 Release
-Obj:7 http://packages.microsoft.com/repos/code stable InRelease
-Obj:8 http://deb.debian.org/debian buster-updates InRelease
-Obj:9 https://download.newrelic.com/infrastructure_agent/linux/apt buster InRelease
-Obj:10 https://download.virtualbox.org/virtualbox/debian buster InRelease
-Des:11 https://packages.cloud.google.com/apt kubernetes-xenial InRelease [9.383 B]
-Descargados 9.383 B en 2s (5.494 B/s)
-Leyendo lista de paquetes...
-Warning: apt-key output should not be parsed (stdout is not a terminal)
-OK
-Ign:1 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 InRelease
-Obj:2 http://repo.mysql.com/apt/debian buster InRelease
-Obj:3 http://dl.google.com/linux/chrome/deb stable InRelease
-Obj:4 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 Release
-Obj:5 http://security.debian.org/debian-security buster/updates InRelease
-Obj:6 http://deb.debian.org/debian buster InRelease
-Obj:7 http://packages.microsoft.com/repos/code stable InRelease
-Obj:8 http://deb.debian.org/debian buster-updates InRelease
-Obj:9 https://download.newrelic.com/infrastructure_agent/linux/apt buster InRelease
-Obj:10 https://download.virtualbox.org/virtualbox/debian buster InRelease
-Des:11 https://packages.cloud.google.com/apt kubernetes-xenial InRelease [9.383 B]
-Descargados 9.383 B en 1s (8.114 B/s)
-Leyendo lista de paquetes...
-Running agent status check attempt...
-Agent status check ok.
-
-  ✅ Checking for data in New Relic (this may take a few minutes)...success.
-
-  ⚙️  The Infrastructure Agent configuration file can be found in /etc/newrelic-infra.yml
-  Edit this file to make changes or configure advanced features for the agent. See the docs for options:
-  https://docs.newrelic.com/docs/infrastructure/install-infrastructure-agent/configuration/infrastructure-agent-configuration-settings
-  
-  Note: Process monitoring has been enabled by default - all other config options are left to the user.
-
-==> Installing Infrastructure Agent...success.
-
-==> Installing Logs integration...
-
-The log files below have been detected:
-  /var/log/alternatives.log
-  /var/log/auth.log
-  /var/log/dpkg.log
-  /var/log/messages
-  /var/lib/docker/containers/*/*.log
-  /var/log/apache2/*access.log
-  /var/log/apache2/error.log
-  /var/log/mysql/error.log
-Would you like to tail those log files to New Relic Y/N (default: Y)? Y  
-
-
-  ✅ Checking for data in New Relic (this may take a few minutes)...success.
-
-  ⚙️  The Logs configuration file (base configuration) can be found in /etc/newrelic-infra/logging.d/logging.yml
-  ⚙️  The Logs configuration file for discovered processes can be found in /etc/newrelic-infra/logging.d/discovered.yml
-  Edit these files to make changes or configure advanced features for the Logs integration. See the docs for options:
-  https://docs.newrelic.com/docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/forward-your-logs-using-infrastructure-agent#parameters
-
-==> Installing Logs integration...success.
-
-==> Installing Golden Signal Alerts...
-
-  This installation will setup alerts for any existing, and future, hosts and applications reporting to newrelic with the Golden Signal conditions:
-  - High CPU
-  - High Application Error Rate
-  - High Application Response Time
-  - Low Application Throughput
-  This policy can be modified under Alerts & AI\Policies.
-
-Creating alert policy Golden Signals...
-done
-Adding alert condition High CPU...
-done
-Adding alert condition High Application Error percentage...
-done
-Adding alert condition High Application Response Time...
-done
-Adding alert condition Low Application Throughput...
-done
-Would you like to be notified on your registered email address frangodh97@gmail.com when this alert triggers Y/N (default: Y)? Y
-
-Notification channel not found for email address frangodh97@gmail.com, creating notification channel...
-done
-Subscribing alert policy to notification channel...
-done
-==> Installing Golden Signal Alerts...success.
-
-==> Installing Apache Open Source Integration...
-
-  To capture data from the Apache integration, you'll first need to meet these prerequisites:
-  - Apache version requirement (see https://docs.newrelic.com/docs/integrations/host-integrations/host-integrations-list/apache-monitoring-integration#comp-req)
-  - Apache status module enabled and configured for Apache instance
-  - Apache status module endpoint (default server-status) available
-
-Obj:1 http://dl.google.com/linux/chrome/deb stable InRelease
-Obj:2 http://repo.mysql.com/apt/debian buster InRelease
-Ign:3 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 InRelease
-Obj:4 http://deb.debian.org/debian buster InRelease
-Obj:5 http://security.debian.org/debian-security buster/updates InRelease
-Obj:6 http://packages.microsoft.com/repos/code stable InRelease
-Obj:7 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 Release
-Obj:8 https://download.virtualbox.org/virtualbox/debian buster InRelease
-Obj:9 http://deb.debian.org/debian buster-updates InRelease
-Obj:10 https://download.newrelic.com/infrastructure_agent/linux/apt buster InRelease
-Obj:11 https://packages.cloud.google.com/apt kubernetes-xenial InRelease
-Leyendo lista de paquetes...
-Leyendo lista de paquetes...
-Creando árbol de dependencias...
-Leyendo la información de estado...
-nri-apache ya está en su versión más reciente (1.7.1).
-0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
-
-  ✅ Checking for data in New Relic (this may take a few minutes)...success.
-
-  ⚙️  The Apache configuration file can be found in /etc/newrelic-infra/integrations.d/apache-config.yml
-  Edit this file to make changes or configure advanced features for this integration. See the docs for options:
-  https://docs.newrelic.com/docs/integrations/host-integrations/host-integrations-list/apache-monitoring-integration#config
-
-==> Installing Apache Open Source Integration...success.
-
-==> Installing MySQL Open Source Integration...
-
-  To capture data from the MySQL integration, we need to create a new MySql user with specific permissions (REPLICATION, SELECT).
-  The installation will create a strong randomly generated password for that new user.
-  This installation may prompt for your MySql root user password in order to create this new user.
-  More information regarding the prerequisites can be found at https://docs.newrelic.com/docs/integrations/host-integrations/host-integrations-list/mysql-monitoring-integration#req
-
-Obj:1 http://repo.mysql.com/apt/debian buster InRelease
-Ign:2 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 InRelease
-Obj:3 http://dl.google.com/linux/chrome/deb stable InRelease
-Obj:4 http://security.debian.org/debian-security buster/updates InRelease
-Obj:5 http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 Release
-Obj:6 http://deb.debian.org/debian buster InRelease
-Obj:7 http://packages.microsoft.com/repos/code stable InRelease
-Obj:8 http://deb.debian.org/debian buster-updates InRelease
-Obj:9 https://download.newrelic.com/infrastructure_agent/linux/apt buster InRelease
-Obj:10 https://download.virtualbox.org/virtualbox/debian buster InRelease
-Obj:11 https://packages.cloud.google.com/apt kubernetes-xenial InRelease
-Leyendo lista de paquetes...
-Leyendo lista de paquetes...
-Creando árbol de dependencias...
-Leyendo la información de estado...
-nri-mysql ya está en su versión más reciente (1.7.1).
-0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
-
-  ✅ Checking for data in New Relic (this may take a few minutes)...success.
-
-  ⚙️  The MySQL configuration file can be found in /etc/newrelic-infra/integrations.d/mysql-config.yml
-  Edit this file to make changes or configure advanced features for this integration. See the docs for options:
-  https://docs.newrelic.com/docs/integrations/host-integrations/host-integrations-list/mysql-monitoring-integration#config
-
-==> Installing MySQL Open Source Integration...success.
-
-
-  New Relic installation complete 
-
-  --------------------
-  Installation Summary
-
-  ✔  Infrastructure Agent  (installed)  
-  ✔  Logs integration  (installed)  
-  ✔  Golden Signal Alerts  (installed)  
-  ✔  Apache Open Source Integration  (installed)  
-  ✔  MySQL Open Source Integration  (installed)  
-
-  View your data at the link below:
-  ⮕  https://onenr.io/0dBj39mGvwX
-
-  --------------------
-```
-
-Una vez la instalación haya sido finalizada volveremos al navegador y veremos como la pantalla ha cambiado, nos dira que ha finalizado y nos propondra instalar alguna instrumentación adicional.
-
-![PracticaImg](images/proyecto/newrelic-instalacion4.png "instalación new relic")
-
-Si no deseamos instalar mas herramientas le daremos a **See your data** y ya podremos hacer uso de sus herramientas de monitoreo.
-
-![PracticaImg](images/proyecto/newrelic-instalacion5.png "instalación new relic")
+Estos son algunos datos de los que podemos obtener atraves de new relic, que profundizaremos en ellos mas adelante.
+![PracticaImg](images/proyecto/newrelic-instalacion20.png "instalación new relic")
+![PracticaImg](images/proyecto/newrelic-instalacion21.png "instalación new relic")
+![PracticaImg](images/proyecto/newrelic-instalacion22.png "instalación new relic")
 </details>
 </details>
 
@@ -468,8 +234,6 @@ Con New Relic One podrá pasar menos tiempo resolviendo problemas y más tiempo 
 
 ## 3. Kubernetes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.
 </summary>
-
-![PracticaImg](images/proyecto/esquemakube.png "esquemakube.png")
 
 EXPLICACIÓN SOBRE LA PRACTICA DE KUBERNETES
 
@@ -591,10 +355,26 @@ minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-
 <details open>
 <summary>
 
-## 3.2 Instalaciión de kubectl
+## 3.2 Instalación de kubectl
 </summary>
 
+Instalaremos kubectl atraves del gestor de paquetes pues es la manera mas comoda y sencilla:
+```shell
+sudo apt-get update && sudo apt-get install -y apt-transport-https gnupg2 curl
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
+sudo apt-get update
+sudo apt-get install -y kubectl
+```
 
+**Nota**: Para no tener la web tan cargado he movido la captura de mi terminal a mi repositorio de Github:  
+https://github.com/franmadu6/tfc-data/blob/main/instalacion-kubectl
+
+Para verificar su instalación veremos que versión fue instalada:
+```shell
+ubuntu@controlador:~$  kubectl version --client
+Client Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.0", GitCommit:"ab69524f795c42094a6630298ff53f3c3ebab7f4", GitTreeState:"clean", BuildDate:"2021-12-07T18:16:20Z", GoVersion:"go1.17.3", Compiler:"gc", Platform:"linux/amd64"}
+```
 
 </details>
 
@@ -606,28 +386,13 @@ minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-
 ## 3.3 Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).
 </summary>
 
-Hasta ahora hemos visualizado un cluster simple, añadamos dificultad despleguemos la ultima [practica de kubernetes](https://franmadu6.github.io/gatsbyjs/despliegue-de-un-cluster-de-kubernetes) que realizamos, la replicaremos y probaremos su comportamiento.
+![PracticaImg](images/proyecto/esquemakube.png "esquemakube.png")
 
-Para ello montaremos el escenario nuevamente y meteremos el daemon de new relic para kubernetes para que registre y monitorice el escenario.
+Para esta demostración de como New Relic monitoriza un cluster que tenga desplegado una app web, crearemos un escenario con 5 maquinas que constaran de una maquina central que será la que monitorizaremos y esta a su vez estara a cargo de un controlador con 3 workers que se encargaran de balancear y replicar la aplicación web que instalaremos en el controlador. 
+![PracticaImg](images/proyecto/instancias.png "imagen de las instancias")
 
-![PracticaImg](images/proyecto/newrelic9.png "monitorización de cluster")
-![PracticaImg](images/proyecto/newrelic10.png "monitorización de cluster")
-![PracticaImg](images/proyecto/newrelic11.png "monitorización de cluster")
-![PracticaImg](images/proyecto/newrelic12.png "monitorización de cluster")
-![PracticaImg](images/proyecto/newrelic14.png "monitorización de cluster")
-![PracticaImg](images/proyecto/newrelic13.png "monitorización de cluster")
 
-Nos muestra bastantes datos del cluster creado, pero ¿Nos mostrara si falla algun nodo?
 
-Para hacer una simulación de fallo apagaremos el **worker2** seguira funcionando todo correctamente pero no podremos hacer uso de el, como se muestra en la grafica .
-
-![PracticaImg](images/proyecto/newrelic15.png "monitorización de cluster")
-
-Buscando un poco en todas las metricas y logs que proporciona, podemos acceder al log y ver en que momento dejo de dar conexión.
-![PracticaImg](images/proyecto/newrelic16.png "monitorización de cluster")
-
-Podemos crear alertas para que nos
-![PracticaImg](images/proyecto/newrelic17.png "monitorización de cluster")
 
 </details>
 </details>
