@@ -138,7 +138,7 @@ En el plan de instalación nos pedira que instalemos el agente de New Relic:
 El link que nos proporcionará es el de instalación del agente a nuestro sistema operativo:
 
 **Nota**: Para no tener la web tan cargada he movido la captura de mi terminal a mi repositorio de Github:  
-- <a href="https://github.com/franmadu6/tfc-data/blob/main/instalacion-newrelic-v" target="blank">Repositorio</a>
+- <a href="https://github.com/franmadu6/tfc-data/blob/main/instalacion-newrelic-v" target="blank">Repositorio instalación New Relic</a>
 
 Una vez la instalación haya sido finalizada volveremos al navegador y veremos como la pantalla ha cambiado, nos dejara darle a **See your data** para concluir la instalación, he de destaca que si nuestro equipo posee php, java, alguna base de datos, etc... Tambien lo detectaria el agente y nos lo instalaria al ejecutarlo.
 
@@ -374,7 +374,7 @@ sudo apt-get install -y kubectl
   
   
 **Nota**: Para no tener la web tan cargada he movido la captura de mi terminal a mi repositorio de Github:  
-https://github.com/franmadu6/tfc-data/blob/main/instalacion-kubectl
+- <a href="https://github.com/franmadu6/tfc-data/blob/main/instalacion-kubectl-v" target="blank">Repositorio instalación kubectl</a>
 
 Para verificar su instalación veremos que versión fue instalada:
 ```shell
