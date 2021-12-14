@@ -1,17 +1,18 @@
 ---
 date: 2021-11-8
-title: "Implantación de paginas web y su monitorización con New Relic utilizando kubernetes"
+title: "Implantación de aplicación web y su monitorización con New Relic utilizando kubernetes"
 cover: "https://img.icons8.com/ios/452/work.png"
 categories: 
     - TFC
 tags:
     - New Relic
     - Kubernetes
-    - Web
+    - Aplicación Web
     - Despligue
     - Monitorización
     - Logs
     - Metricas
+    - Alertas
 ---
 
 ![PracticaImg](images/proyecto/portada.png "Portada principal")
@@ -358,15 +359,16 @@ minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-
 ## 3.2 Instalación de kubectl
 </summary>
 
-Instalaremos kubectl atraves del gestor de paquetes pues es la manera mas comoda y sencilla:
+Instalaremos kubectl atraves del gestor de paquetes pues es la manera mas comoda y sencilla, en la cual añadiremos el repositorio de kubernete a nuestra maquina para utilizar su gestor:
 ```shell
 sudo apt-get update && sudo apt-get install -y apt-transport-https gnupg2 curl
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
 sudo apt-get update
 sudo apt-get install -y kubectl
-```
-
+```  
+  
+  
 **Nota**: Para no tener la web tan cargada he movido la captura de mi terminal a mi repositorio de Github:  
 https://github.com/franmadu6/tfc-data/blob/main/instalacion-kubectl
 
@@ -375,7 +377,8 @@ Para verificar su instalación veremos que versión fue instalada:
 ubuntu@controlador:~$  kubectl version --client
 Client Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.0", GitCommit:"ab69524f795c42094a6630298ff53f3c3ebab7f4", GitTreeState:"clean", BuildDate:"2021-12-07T18:16:20Z", GoVersion:"go1.17.3", Compiler:"gc", Platform:"linux/amd64"}
 ```
-
+  
+  
 </details>
 
 <hr id="lista33" >
@@ -388,7 +391,9 @@ Client Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.0", GitCom
 
 ![PracticaImg](images/proyecto/esquemakube.png "esquemakube.png")
 
-Para esta demostración de como New Relic monitoriza un cluster que tenga desplegado una app web, crearemos un escenario con 5 maquinas que constaran de una maquina central que será la que monitorizaremos y esta a su vez estara a cargo de un controlador con 3 workers que se encargaran de balancear y replicar la aplicación web que instalaremos en el controlador. 
+Para esta demostración de como New Relic monitoriza un cluster que tenga desplegado una app web, crearemos un escenario con 5 maquinas que constaran de una maquina central que será la que monitorizaremos y esta a su vez estara a cargo de un controlador con 3 workers que se encargaran de balancear y replicar la aplicación web que instalaremos en el controlador.   
+  
+  
 ![PracticaImg](images/proyecto/instancias.png "imagen de las instancias")
 
 
