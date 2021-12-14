@@ -400,7 +400,7 @@ Client Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.0", GitCom
 Para esta demostración de como New Relic monitoriza un cluster que tenga desplegado una app web, crearemos un escenario con 3 maquinas que constaran de un controlador con 2 workers que se encargaran de balancear y replicar la aplicación web que instalaremos en el controlador.   
   
 
-<p color="green">Instalación de k3s en el controlador.</p> 
+### Instalación de k3s en el controlador.
 
 Ejecutaremos el siguiente comando el cual realizará una instalación automática de k3s:
 ```shell
@@ -429,7 +429,7 @@ NAME          STATUS   ROLES                  AGE   VERSION
 controlador   Ready    control-plane,master   72m   v1.21.7+k3s1
 ```
 
-**Parámetros necesarios para los workers**
+### Parámetros necesarios para los workers
 
 Necesitaremos la INTERNAL-IP que podremos obtener de la salida del siguiente comando:
 ```shell
@@ -445,7 +445,7 @@ K105a63e1097066148871e29940800e6dc96e5f053d48087f632b9bd27044190d52::server:848c
 ```
 
 
-<p color="green">Instalación de k3s en los workers.</p>
+### Instalación de k3s en los workers.
 
 La siguiente acción que realizaremos se hará de igual manera en ambos workers y consistira en añadire tanto la ip y el token obtenidos anteriormente a variables de entorno:
 ```shell
@@ -483,7 +483,7 @@ worker1       Ready    <none>                 4m52s   v1.21.7+k3s1
 worker2       Ready    <none>                 13s     v1.21.7+k3s1
 ```
 
-<p color="green">Gestionar el cluster desde fuera del escenario.</p>
+### Gestionar el cluster desde fuera del escenario.
 
 
 </details>
