@@ -352,7 +352,7 @@ Servidores (Servers)</li>
 <p>El link que nos proporcionará es el de instalación del agente a nuestro sistema operativo:</p>
 <p><strong>Nota</strong>: Para no tener la web tan cargada he movido la captura de mi terminal a mi repositorio de Github:  </p>
 <ul>
-<li><a href="https://github.com/franmadu6/tfc-data/blob/main/instalacion-newrelic-v" target="blank">Repositorio</a></li>
+<li><a href="https://github.com/franmadu6/tfc-data/blob/main/instalacion-newrelic-v" target="blank">Repositorio instalación New Relic</a></li>
 </ul>
 <p>Una vez la instalación haya sido finalizada volveremos al navegador y veremos como la pantalla ha cambiado, nos dejara darle a <strong>See your data</strong> para concluir la instalación, he de destaca que si nuestro equipo posee php, java, alguna base de datos, etc... Tambien lo detectaria el agente y nos lo instalaria al ejecutarlo.</p>
 <p><span
@@ -790,8 +790,10 @@ minikube kubectl create namespace kube-system <span class="token punctuation">;<
 <span class="token builtin class-name">echo</span> <span class="token string">"deb https://apt.kubernetes.io/ kubernetes-xenial main"</span> <span class="token operator">|</span> <span class="token function">sudo</span> <span class="token function">tee</span> -a /etc/apt/sources.list.d/kubernetes.list
 <span class="token function">sudo</span> <span class="token function">apt-get</span> update
 <span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> -y kubectl</code></pre></div>
-<p><strong>Nota</strong>: Para no tener la web tan cargada he movido la captura de mi terminal a mi repositorio de Github:<br>
-<a href="https://github.com/franmadu6/tfc-data/blob/main/instalacion-kubectl">https://github.com/franmadu6/tfc-data/blob/main/instalacion-kubectl</a></p>
+<p><strong>Nota</strong>: Para no tener la web tan cargada he movido la captura de mi terminal a mi repositorio de Github:  </p>
+<ul>
+<li><a href="https://github.com/franmadu6/tfc-data/blob/main/instalacion-kubectl-v" target="blank">Repositorio instalación kubectl</a></li>
+</ul>
 <p>Para verificar su instalación veremos que versión fue instalada:</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">ubuntu@controlador:~$  kubectl version --client
 Client Version: version.Info<span class="token punctuation">{</span>Major:<span class="token string">"1"</span>, Minor:<span class="token string">"23"</span>, GitVersion:<span class="token string">"v1.23.0"</span>, GitCommit:<span class="token string">"ab69524f795c42094a6630298ff53f3c3ebab7f4"</span>, GitTreeState:<span class="token string">"clean"</span>, BuildDate:<span class="token string">"2021-12-07T18:16:20Z"</span>, GoVersion:<span class="token string">"go1.17.3"</span>, Compiler:<span class="token string">"gc"</span>, Platform:<span class="token string">"linux/amd64"</span><span class="token punctuation">}</span></code></pre></div>
