@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 14 Dec 2021 08:03:51 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Tue, 14 Dec 2021 10:03:23 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -1124,26 +1124,26 @@ Servidores (Servers)&lt;/li&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/30b279de2312b94ac7af85fd70030702/a987b/newrelic-instalacion3.png&quot;
+    href=&quot;/gatsbyjs/static/34c761bb3156e0464dce55315204c190/a987b/newrelic30.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 51.40625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABrklEQVQoz3WSW0sCQRTH9+v0WA+FFt3IzD5VRZnWF+g96UJ3CfQxgopMSVIIogu09iDp6q476+7srv/OzFptVAM/zszs4XfOzKyysLiIzUwGF5eX6JgmGo0GtFYLbV2XtNpttGj9ifYHTU1Do9mUKCvJJPYOD1EslWB0OngnoZBYlgVGeJ4H3/fR6/XgE38NkcNdF47jQEml0tg/OsZ1oQCdOhIVhVCjqrphwKSu1VoNtbc3Gev1epATok35BuUyxgJhNptFqViUXYgqbr+aGNe0Pzw9hbF4HNHZGCKxGUk0FvuK4tvQ+Dh26aTKejqNja0dZM/OpYBzHhyBohhXhRsMTkxiLDGP0bkEEcQoEYnP9fcSGBiJYPvgQHS4ipPTU5Ruy19C0aFA3B1jBh6fqnh+uYeqPkB9DaF+UyN0vf8o+Xwe1WpFCj9lnieiR5HD90zCAnrsf8Dg8i6UJAlzuRzuKj+F31JXXoFHcjcE/zX3g1deWhYd5lAJCaWgj/gdug6Hw12JTXMeKhrGdmzqMLWGE3rlcvn3HQZJHGbXgWVzMNsBo7ktC/zEJqyujQ8Cm8BEZqNHugAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 51.354166666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABv0lEQVQoz52Sy0sbYRTFvz9AodBlBSFLI3GbR/8S9ypaupHMaKHtQpq2GWySlSuhJPggiZpau6gQGiyFZtNYm8mkTUAha0WbMZlHYo73jkbrY6G98OMM3+PMuXdGjI1P4E1YwWpmDX8qFVi2jb/1OkzLQrvdRuscu9VyMG0LlnUJn2sahnNHbzQgZFmGMjuLtfWPUFUVh0dH2D84cJRp0CF0OrhrCUmW8C4SwcbGJ2ilEprNJnRdh358jDopp8h93cJ8PI744iIWkkkspVJXWE6nnb0i3ReSJCFChsnMB+xQQq4WtcbtMlzDoyPo6XuEhy4Xad8NHvT3Q/T2Ijo3BxGklmPRKOZTK/i+88sx4DmyKdOhdlOZDGYUBW9jMbyi8VznNQV6EQrhWz4PMRkMIkyLX7JZ7O3uniUkw25CNr1PCYkMFXr7581NVKrVs4Q0N5tMu5imSRgXajDGVXiPVchTz+ijRJHL5VCr1fC/xf/BCY1HjD15iunnL/E+kUCWTH9TSlXToJbLKBGs26rm8LOkoXCuvF6kcw70/KOookAIT8CPoccBeAIBDPp8GPB64SYG/sHtuwXvNejuoN+PUwQAhRqQ0xeeAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PracticaImg&quot;
         title=&quot;instalación new relic&quot;
-        src=&quot;/gatsbyjs/static/30b279de2312b94ac7af85fd70030702/36727/newrelic-instalacion3.png&quot;
-        srcset=&quot;/gatsbyjs/static/30b279de2312b94ac7af85fd70030702/acf4b/newrelic-instalacion3.png 173w,
-/gatsbyjs/static/30b279de2312b94ac7af85fd70030702/fc834/newrelic-instalacion3.png 345w,
-/gatsbyjs/static/30b279de2312b94ac7af85fd70030702/36727/newrelic-instalacion3.png 690w,
-/gatsbyjs/static/30b279de2312b94ac7af85fd70030702/17fa4/newrelic-instalacion3.png 1035w,
-/gatsbyjs/static/30b279de2312b94ac7af85fd70030702/a5044/newrelic-instalacion3.png 1380w,
-/gatsbyjs/static/30b279de2312b94ac7af85fd70030702/a987b/newrelic-instalacion3.png 1920w&quot;
+        src=&quot;/gatsbyjs/static/34c761bb3156e0464dce55315204c190/36727/newrelic30.png&quot;
+        srcset=&quot;/gatsbyjs/static/34c761bb3156e0464dce55315204c190/acf4b/newrelic30.png 173w,
+/gatsbyjs/static/34c761bb3156e0464dce55315204c190/fc834/newrelic30.png 345w,
+/gatsbyjs/static/34c761bb3156e0464dce55315204c190/36727/newrelic30.png 690w,
+/gatsbyjs/static/34c761bb3156e0464dce55315204c190/17fa4/newrelic30.png 1035w,
+/gatsbyjs/static/34c761bb3156e0464dce55315204c190/a5044/newrelic30.png 1380w,
+/gatsbyjs/static/34c761bb3156e0464dce55315204c190/a987b/newrelic30.png 1920w&quot;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -1152,37 +1152,69 @@ Servidores (Servers)&lt;/li&gt;
 &lt;p&gt;El link que nos proporcionará es el de instalación del agente a nuestro sistema operativo:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt;: Para no tener la web tan cargada he movido la captura de mi terminal a mi repositorio de Github:  &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/franmadu6/tfc-data/blob/main/instalacion-newrelic&quot; target=&quot;blank&quot;&gt;Repositorio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/franmadu6/tfc-data/blob/main/instalacion-newrelic-v&quot; target=&quot;blank&quot;&gt;Repositorio&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Una vez la instalación haya sido finalizada volveremos al navegador y veremos como la pantalla ha cambiado, nos dejara darle a &lt;strong&gt;See your data&lt;/strong&gt; para concluir la instalación, he de destaca que si nuestro equipo posee php, java, alguna base de datos, etc... Tambien lo detectaria el agente y nos lo instalaria al ejecutarlo.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/1580f78cd389dfffd546a25531bd3581/a987b/newrelic31.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.041666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABVElEQVQoz62Rz0rDQBDG86T2UooILU2DF2vSgNKCB/Eutkn0ZXwBtYX2JEibJqlJ3CabTT5nQ/9ZsYI48MHM7M5vZmeVSuUIjUYdZqeDs3YbhmHA0HXoO5I5faVzY5tv033TNNHr9UhddC8voFRrNdze9RHFMfzFAsskgchzZEJsJHb8/VisxLMMSZpC0TQNfcuCzyL4vg+2ZMjzgpQfVFEUYIzBo5owikq/BLZaLViOXQLnnoeApsyomyw4JGkSMp1N4QVBCd0ABzYBP2K4rksXZngPQ+zaT8BlkiIIY7CEl0+WT1dUAjrOPTjPMJu7JSyibrKj3Ku8uIbudaFdF+D5NiV3qtSbTVg0YUrBnGApz74sXe5rf0qKvvkboKqqsOlTHl/fMPb88kD88iFriVXD9SdxzgmoncJ2HvBfplSPT3B1fYPxZIKX0QjPf5SsfRoO8QnvnNVghDZ6ewAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;instalación new relic&quot;
+        src=&quot;/gatsbyjs/static/1580f78cd389dfffd546a25531bd3581/36727/newrelic31.png&quot;
+        srcset=&quot;/gatsbyjs/static/1580f78cd389dfffd546a25531bd3581/acf4b/newrelic31.png 173w,
+/gatsbyjs/static/1580f78cd389dfffd546a25531bd3581/fc834/newrelic31.png 345w,
+/gatsbyjs/static/1580f78cd389dfffd546a25531bd3581/36727/newrelic31.png 690w,
+/gatsbyjs/static/1580f78cd389dfffd546a25531bd3581/17fa4/newrelic31.png 1035w,
+/gatsbyjs/static/1580f78cd389dfffd546a25531bd3581/a5044/newrelic31.png 1380w,
+/gatsbyjs/static/1580f78cd389dfffd546a25531bd3581/a987b/newrelic31.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Y listo! Ya tendremos nuestro agente instalado y listo para usarse.&lt;/p&gt;
-&lt;p&gt;Una vez la instalación haya sido finalizada volveremos al navegador y veremos como la pantalla ha cambiado, nos dejara darle a siguiente para concluir la instlación, he de destaca que si nuestro equipo posee php, java, alguna base de datos, etc... Tambien lo detectaria el agente y nos lo instalaria al ejecutarlo.&lt;/p&gt;
-&lt;p&gt;Estos son algunos datos de los que podemos obtener atraves de new relic, que profundizaremos en ellos mas adelante.
+&lt;p&gt;Estos son algunos datos de los que podemos obtener atraves de new relic, que profundizaremos en ellos mas adelante.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Debian&lt;/strong&gt;
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/052b955da6c6bb8a2d56e9ef778ae670/a987b/newrelic-instalacion20.png&quot;
+    href=&quot;/gatsbyjs/static/42a474b9b20242263057871bf2d88722/a987b/newrelic32.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 51.197916666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABXUlEQVQoz62RW0/CQBCF9w9rIoIKKkWMEl998RUVw+8gMUEBn7wQrlFjFBWF3ku35ThTLhaJkQdP9svsbGdOZ1uh7B1gO51BIrmLWELB+mYK0XgSqwFKEKNBHBGhfGVtC8vRBJYiG4hRfTyVQXJnHyklDZEt3OO4+Il8WUX+SkO+ouLkckxJRa6s46xiTMkxdHZa0gKyF31kiz0cFjo4On+CeHzu4K1n4qOvQjcMGKY5g2lZc1iWPcJ2oFNNX9Pw8N7F7csrhJQuBq4LTddh2ybC8jxvikt1HKWUAZ4n4VKfTn3AkJYP13EgnMGAiiUZakETazgcfjM2D0c+Z3GfStP5vj/NhUkj85s48gRzhr/AklTv0FThGwljbGjb9ozhX8Ysnmyyn+Siq6pQyaxHo7MxF/CDRfDCOfXxtxX8Q/jubPYfEtd3d7ipVlGt1VBvNtFot9FotRai/jOn/i+zs+I1P48KCQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 51.25000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAC4jAAAuIwF4pT92AAABJ0lEQVQoz61Sy04DMQzM94BUrq3a/+eEKGpRKzgA4gKl0H0ku3ntDp50U616qhCWRo4Tezxxop5fXvFTGZimgfN+gEveC2KM6LouIWbIHhEErXOotcbTxydu396hCu2wKx0OpYZzFiGEI1iQ1yN4H1IjCih1jUY84xA8mrYVwrpF2UR8Hwp87ffDYUDf9wlUNvZsZEUVc+gPRQEva5qTWBmj0XcRWmRXApof1MShmGTW2uTdQEYjuTEmNcqxIpG1DloOQjwm5oRzn9c5ZmPOj41PhOkxnBeF5nQwLhr78z2OpyjL0zgYq53Mrmptui438oteAirkQ+SfkAgpk1/hv0zdLZe4X63wsF5jvdngcbu9HGf5rFeT+Rw3iwUmguvZDFfT6Z/B+l/lJNsWanjGUgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PracticaImg&quot;
         title=&quot;instalación new relic&quot;
-        src=&quot;/gatsbyjs/static/052b955da6c6bb8a2d56e9ef778ae670/36727/newrelic-instalacion20.png&quot;
-        srcset=&quot;/gatsbyjs/static/052b955da6c6bb8a2d56e9ef778ae670/acf4b/newrelic-instalacion20.png 173w,
-/gatsbyjs/static/052b955da6c6bb8a2d56e9ef778ae670/fc834/newrelic-instalacion20.png 345w,
-/gatsbyjs/static/052b955da6c6bb8a2d56e9ef778ae670/36727/newrelic-instalacion20.png 690w,
-/gatsbyjs/static/052b955da6c6bb8a2d56e9ef778ae670/17fa4/newrelic-instalacion20.png 1035w,
-/gatsbyjs/static/052b955da6c6bb8a2d56e9ef778ae670/a5044/newrelic-instalacion20.png 1380w,
-/gatsbyjs/static/052b955da6c6bb8a2d56e9ef778ae670/a987b/newrelic-instalacion20.png 1920w&quot;
+        src=&quot;/gatsbyjs/static/42a474b9b20242263057871bf2d88722/36727/newrelic32.png&quot;
+        srcset=&quot;/gatsbyjs/static/42a474b9b20242263057871bf2d88722/acf4b/newrelic32.png 173w,
+/gatsbyjs/static/42a474b9b20242263057871bf2d88722/fc834/newrelic32.png 345w,
+/gatsbyjs/static/42a474b9b20242263057871bf2d88722/36727/newrelic32.png 690w,
+/gatsbyjs/static/42a474b9b20242263057871bf2d88722/17fa4/newrelic32.png 1035w,
+/gatsbyjs/static/42a474b9b20242263057871bf2d88722/a5044/newrelic32.png 1380w,
+/gatsbyjs/static/42a474b9b20242263057871bf2d88722/a987b/newrelic32.png 1920w&quot;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -1194,26 +1226,26 @@ Servidores (Servers)&lt;/li&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/9dbf0d6116dd4866abe4f3d9b5ce7789/4d600/newrelic-instalacion21.png&quot;
+    href=&quot;/gatsbyjs/static/336e6e8274419166a1a24a1bddcbba3b/a987b/newrelic33.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 51.30344108446299%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABtklEQVQoz3VR207bQBD1D7eCFFISKFWF+hu0XCToB/SZt5a2KUgxcW0SIkTLE7l4L7bX9tqnMxsHUlWMdDT3MzO73tu99+ju7mGru4tWu4tXr7fR2uxgvQHHVrHW7mBtYwsvW228WN/EBtV3qL/z5h262zvw9s/GODyf4aQn8OlC4/SnwvF3iSPC8Q/lcLTq9xQOvwl8PI9xQPjwdY79LzPSM3z2Y3jh7R0mSmOqFCazGDo1SLLcYRpLzKVGYha+UAkmc7HIm8LpB/Il9ejCYioUvKqqwFLXNay1WJWqspzgLDkWNcHFHqVGHMdQtIwtC0gp4KVZ5oiYmEkZbD8H5q9cDfXY0l2gkhQ5cQgp4RljYJviNE2fmqnADUAzgOyiKGDy3PmWCBm8UE4xFkdom5NZ59Sw2LI52dbIxdOJ3Ki0djrLjLssSRKUZenyStMbssMTy+ZsLlo+QWZSRDc+ERgaZrCsXdYwNBEmNIS14Df85xdQ438paWMaUJd4Tnq/7/FHKmd70WiE4XiMaDiEPxg4fU2xqMFofEvxAJd9H33Ksz34FcIPAgRRRPE+Lq+uEFJtEIb4C+j43us6kW4kAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50.88541666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABi0lEQVQoz21Ri07CQBDsZ5MQ2orK36mJ8goICb4iGL222Pddx9mth5q4zWQf3Zud2wvCOMJkMsH5eIwojnFGRFGIMIroe8Ra+84Zj0YjDIdDDAYDjMIQF5eXxAXGZzGC6WqFtChQNA1qous69B/QtC1aa+HNOqc1xx7XOc1r5hV7CvoszxFIwbKhaVksS1j+dGwUlMzruu5z1iWWmuQdYW0LkxitiaVpisA3aJOoU7g/NU8oXkwVOquE70kGk2YoqwrGmJ7Qq2p45Z7Ingis+1Hs+2SIEjPOi1JXJaOSJEHgp0pzzh38UYr+oHcVr2xMooNFiPhPnnn/+NBYCa2/xq/JnlAWfzi8Yv/yiozXSk2qeyrkEQlRltM7Xl0syzIELR9FDouvuAeZJMtv9YVbPJglHg5rPL1tcKzMaaAXIUofD2/YU+XxSEL8MiH513je2e7fXyLg+vEZe+6SExCs7u+x3m4hXuPNRrEiFus1/20wXcxxO5vh6uYG0/lC47v5/IQte3e7HWbLJb4AW2Lr5iHPJwEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PracticaImg&quot;
         title=&quot;instalación new relic&quot;
-        src=&quot;/gatsbyjs/static/9dbf0d6116dd4866abe4f3d9b5ce7789/36727/newrelic-instalacion21.png&quot;
-        srcset=&quot;/gatsbyjs/static/9dbf0d6116dd4866abe4f3d9b5ce7789/acf4b/newrelic-instalacion21.png 173w,
-/gatsbyjs/static/9dbf0d6116dd4866abe4f3d9b5ce7789/fc834/newrelic-instalacion21.png 345w,
-/gatsbyjs/static/9dbf0d6116dd4866abe4f3d9b5ce7789/36727/newrelic-instalacion21.png 690w,
-/gatsbyjs/static/9dbf0d6116dd4866abe4f3d9b5ce7789/17fa4/newrelic-instalacion21.png 1035w,
-/gatsbyjs/static/9dbf0d6116dd4866abe4f3d9b5ce7789/a5044/newrelic-instalacion21.png 1380w,
-/gatsbyjs/static/9dbf0d6116dd4866abe4f3d9b5ce7789/4d600/newrelic-instalacion21.png 1918w&quot;
+        src=&quot;/gatsbyjs/static/336e6e8274419166a1a24a1bddcbba3b/36727/newrelic33.png&quot;
+        srcset=&quot;/gatsbyjs/static/336e6e8274419166a1a24a1bddcbba3b/acf4b/newrelic33.png 173w,
+/gatsbyjs/static/336e6e8274419166a1a24a1bddcbba3b/fc834/newrelic33.png 345w,
+/gatsbyjs/static/336e6e8274419166a1a24a1bddcbba3b/36727/newrelic33.png 690w,
+/gatsbyjs/static/336e6e8274419166a1a24a1bddcbba3b/17fa4/newrelic33.png 1035w,
+/gatsbyjs/static/336e6e8274419166a1a24a1bddcbba3b/a5044/newrelic33.png 1380w,
+/gatsbyjs/static/336e6e8274419166a1a24a1bddcbba3b/a987b/newrelic33.png 1920w&quot;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -1225,26 +1257,26 @@ Servidores (Servers)&lt;/li&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/62db3f86919211267029ef818ea29a0f/a987b/newrelic-instalacion22.png&quot;
+    href=&quot;/gatsbyjs/static/3555a95e69b83606f331a17c4c824ea5/a987b/newrelic34.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 47.708333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABeElEQVQoz1WS207CQBCG+/4voPHAhV54iBwCT2A8hTsTFRHRxEAUBNPS0rLtdvs7M9stZdM/s//MN9udgnd4u8Rp38dJPxA17gMc3fk4pth4WEncelvfv16I9kS/Eg9uFug9LuENpz5G3wEGEx8fszXGpPdZjNfpCk9ffxj9RBjPY4nP5AeTgHwiGkwDvBD3RvyQ9DlfwYOsgh5N0WC7crJZzRtClM0zX/XkVV8Sh/DS3CDNcxRU18buU50jNxYyphBpzhFbEMg1Fue5L+d+YsMwgqe1FkilKbIsK0EDziul4OqcU6lCRt4eVAifUp8pXx5GdKCD4zjGZrMRkBeD6/VaDpQPQLeoe+aYT5Kk6pED7VimegvP4F7iFvPCcK28nRMl6Knd0I0n1yfx6Cqz49uRaEzKafHEpRRVBk3R9WXEGNpHYeh+ZTtS/VYut+P1ruflPoH7t3itXg9X3S4u2m2ct1q47HREvK97qTebEiVX8sKUuTOq/wPSe/Gxq+2EAgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 51.61458333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABVElEQVQoz61Sy27CMBD0f7Q9tIUDcCpHpPaABP9/ooTAD1QlpMTx25nuGrtCFVIvtTSatXc9O95EbHY7SKVgnIUPAcMwECJCHOAJkWIXIsURMfJ5THXOucSWWFmLzhhIrSE8HfDy3kP2fSoKMUBbh2PXw1DRp9Q4awutFZS6oKdaFmNwE24c6K74oqT2AYoSH6cWkjq1VHyWEsbo1AjZNbuP2WmJtTbwzqc6S04FP9eSIDs7Ng1cdtq0bXJ+GcENsLCjEdE4CgLpCE2OuCBkQe7Cgqc/BCNdjp6EkM+olp8uWIgX87nrErNbkxvddkeC4UosI82Q3x7zhlHmc70vX7dwytHcYolzjrUE/nmJqq5RHw6o9ntwvGPe13ivKmy2W2zpP/1B9YuvUV/uiNfVCm/rNRbLJV4WC8wJk/kcj5MJnmczPBVMp3gYj3E3GuGecIs5/w1j79sxXyRvYgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PracticaImg&quot;
         title=&quot;instalación new relic&quot;
-        src=&quot;/gatsbyjs/static/62db3f86919211267029ef818ea29a0f/36727/newrelic-instalacion22.png&quot;
-        srcset=&quot;/gatsbyjs/static/62db3f86919211267029ef818ea29a0f/acf4b/newrelic-instalacion22.png 173w,
-/gatsbyjs/static/62db3f86919211267029ef818ea29a0f/fc834/newrelic-instalacion22.png 345w,
-/gatsbyjs/static/62db3f86919211267029ef818ea29a0f/36727/newrelic-instalacion22.png 690w,
-/gatsbyjs/static/62db3f86919211267029ef818ea29a0f/17fa4/newrelic-instalacion22.png 1035w,
-/gatsbyjs/static/62db3f86919211267029ef818ea29a0f/a5044/newrelic-instalacion22.png 1380w,
-/gatsbyjs/static/62db3f86919211267029ef818ea29a0f/a987b/newrelic-instalacion22.png 1920w&quot;
+        src=&quot;/gatsbyjs/static/3555a95e69b83606f331a17c4c824ea5/36727/newrelic34.png&quot;
+        srcset=&quot;/gatsbyjs/static/3555a95e69b83606f331a17c4c824ea5/acf4b/newrelic34.png 173w,
+/gatsbyjs/static/3555a95e69b83606f331a17c4c824ea5/fc834/newrelic34.png 345w,
+/gatsbyjs/static/3555a95e69b83606f331a17c4c824ea5/36727/newrelic34.png 690w,
+/gatsbyjs/static/3555a95e69b83606f331a17c4c824ea5/17fa4/newrelic34.png 1035w,
+/gatsbyjs/static/3555a95e69b83606f331a17c4c824ea5/a5044/newrelic34.png 1380w,
+/gatsbyjs/static/3555a95e69b83606f331a17c4c824ea5/a987b/newrelic34.png 1920w&quot;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -1568,7 +1600,7 @@ Client Version: version.Info&lt;span class=&quot;token punctuation&quot;&gt;{&lt
 &lt;br&gt;
 &lt;details open&gt;
 &lt;summary&gt;
-&lt;h2 id=&quot;33-desplieque-de-la-aplicación-web-explicas-un-poco-la-aplicación-que-has-desplegado--no-hace-falta-mirar-la-última-práctica-para-enterarse-de-lo-que-vas-a-desplegar&quot;&gt;&lt;a href=&quot;#33-desplieque-de-la-aplicaci%C3%B3n-web-explicas-un-poco-la-aplicaci%C3%B3n-que-has-desplegado--no-hace-falta-mirar-la-%C3%BAltima-pr%C3%A1ctica-para-enterarse-de-lo-que-vas-a-desplegar&quot; aria-label=&quot;33 desplieque de la aplicación web explicas un poco la aplicación que has desplegado  no hace falta mirar la última práctica para enterarse de lo que vas a desplegar permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3.3 Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).&lt;/h2&gt;
+&lt;h2 id=&quot;33-desplieque-de-una-aplicación-web&quot;&gt;&lt;a href=&quot;#33-desplieque-de-una-aplicaci%C3%B3n-web&quot; aria-label=&quot;33 desplieque de una aplicación web permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3.3 Desplieque de una aplicación web&lt;/h2&gt;
 &lt;/summary&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -1576,62 +1608,53 @@ Client Version: version.Info&lt;span class=&quot;token punctuation&quot;&gt;{&lt
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/95139/esquemakube.png&quot;
+    href=&quot;/gatsbyjs/static/f3f26d2e3b32aae8b0b96acae601d176/95139/esquemakubevagrant.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.22254758418741%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcklEQVQoz5VSO6rCQBR1A67CLbgA92DrBqzFSrCxcAc29jYuIPZCBD+FRoiFiMHgByUqfvGT8965MHEmz+ZdGHLnfs6ce3IT+KeFYRj57/cbj8fDiCfUhUkV5Dfu6zHW0trtNmq1Gs7nc1Sb0F/UgXVAxl6vVwQUBAEOhwMWiwXK5TIsy/oA0iFtFsVHUwBx22w2uF6vknddV+4GYK/XQzqdlqTv+3KU7XY7lEol5PN5OI4jse12i+fzifl8jk6nY5AQQNu2kUwm0e12hS2Bl8sl9vs9JpMJMpkMUqkUWq0W7vc7RqOR5Pr9PorFovQbgOPxGNlsFoPBAI1GA57nSSN14ziFQgG5XA7D4VAaqd3pdBKWzWZTJjQAqcXtdhMdvd8xdCPj2WyG6XSK4/EYycAHedbrtbE6xl8mo/gK0ScTHtW4Wq1wuVxE62q1Kg8YDPU10QWOx5RxXK4NGVYqFdTr9b8Mvy3wt7ieI2vqT01V7Q9qjjkslYLVfQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 56.22254758418741%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABRElEQVQoz51SwaqCUBDtB/wKf6EP8B/atnRTW5f+T9BWcOGyTVDiJgSDQhRUKEQTLMXK85gL3ndV3DQwOHdkzpmZMzP8YG3b8vj7/fI3fWddMPwxjEUnK8sS1+t1RDIT2URgEZByn8+Hx2SXywWqqmK32/WIWYdN0yDLstFYXbFoYm673cI0zV4NA7RtG/P5HJ7nIYoi5p2laQpd17FareC6LstRt1VVIY5jPJ9P9u4B7vd7SJKE4/HIuiXgJEmQ5znO5zMURYEsy7Asi+0uCIL/rgYTMEBiXiwWcBwHm80GYRiirmvGfLvdoGkalsslTqcTK6KuHo8HDofDWJRuLzQC7TEU2Lv9+r7PFC2KgueJdL1es657oogqi0p2eYrf7zd38QIMw+CAozsUgady4mi0kvv9jtfr1Rdl6oCHwMPbnCL6A9KEQPziydrWAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PracticaImg&quot;
         title=&quot;esquemakube.png&quot;
-        src=&quot;/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/36727/esquemakube.png&quot;
-        srcset=&quot;/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/acf4b/esquemakube.png 173w,
-/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/fc834/esquemakube.png 345w,
-/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/36727/esquemakube.png 690w,
-/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/17fa4/esquemakube.png 1035w,
-/gatsbyjs/static/4a2534c42109580c83a71d7120be2546/95139/esquemakube.png 1366w&quot;
+        src=&quot;/gatsbyjs/static/f3f26d2e3b32aae8b0b96acae601d176/36727/esquemakubevagrant.png&quot;
+        srcset=&quot;/gatsbyjs/static/f3f26d2e3b32aae8b0b96acae601d176/acf4b/esquemakubevagrant.png 173w,
+/gatsbyjs/static/f3f26d2e3b32aae8b0b96acae601d176/fc834/esquemakubevagrant.png 345w,
+/gatsbyjs/static/f3f26d2e3b32aae8b0b96acae601d176/36727/esquemakubevagrant.png 690w,
+/gatsbyjs/static/f3f26d2e3b32aae8b0b96acae601d176/17fa4/esquemakubevagrant.png 1035w,
+/gatsbyjs/static/f3f26d2e3b32aae8b0b96acae601d176/95139/esquemakubevagrant.png 1366w&quot;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Para esta demostración de como New Relic monitoriza un cluster que tenga desplegado una app web, crearemos un escenario con 5 maquinas que constaran de una maquina central que será la que monitorizaremos y esta a su vez estara a cargo de un controlador con 3 workers que se encargaran de balancear y replicar la aplicación web que instalaremos en el controlador.   &lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/69740e4b76b979e8a91fa0dd4bd2553f/a987b/instancias.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 51.40625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAA/UlEQVQoz61RTU8DIRTk//82E9OTN6NJoxfXssvXA3aZvmGlNtZTleRleMMwDGCQI9AqUgxYFgcRQa0V67re1LZtN1xltYaUS99rHl9nPDxPeJ9mLLPVTQ3Xo7W9p1kppSO50ZeUkI9H1NMnNuXN05vD4WXCh/UQXeQpXfhVTEEkPyqpjlyMEaKVpwnJ2p7WaAZgLcg5IySB916vvnSxVRENfBSEELpRN5G9p5ZYNa1X5Nwknqpmom8QpXTy2/C0G6bcexqOdMOMSM451+eGMZmSCWOSy/WIFPKDctmvzfn4MOrJDRxlrh9/fMBfhvlpNPp7ywyz34zvSoh/HmfMpRJh3A99cQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;imagen de las instancias&quot;
-        src=&quot;/gatsbyjs/static/69740e4b76b979e8a91fa0dd4bd2553f/36727/instancias.png&quot;
-        srcset=&quot;/gatsbyjs/static/69740e4b76b979e8a91fa0dd4bd2553f/acf4b/instancias.png 173w,
-/gatsbyjs/static/69740e4b76b979e8a91fa0dd4bd2553f/fc834/instancias.png 345w,
-/gatsbyjs/static/69740e4b76b979e8a91fa0dd4bd2553f/36727/instancias.png 690w,
-/gatsbyjs/static/69740e4b76b979e8a91fa0dd4bd2553f/17fa4/instancias.png 1035w,
-/gatsbyjs/static/69740e4b76b979e8a91fa0dd4bd2553f/a5044/instancias.png 1380w,
-/gatsbyjs/static/69740e4b76b979e8a91fa0dd4bd2553f/a987b/instancias.png 1920w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/franmadu6/tfc-data/blob/main/Vagrantfile&quot; target=&quot;blank&quot;&gt;Vagrantfile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para esta demostración de como New Relic monitoriza un cluster que tenga desplegado una app web, crearemos un escenario con 3 maquinas que constaran de un controlador con 2 workers que se encargaran de balancear y replicar la aplicación web que instalaremos en el controlador.   &lt;/p&gt;
+&lt;p&gt;Nos iremos a nuestro controlador y realizaremos la instalación de k3s:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ubuntu@controlador:~$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -sfL https://get.k3s.io &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sh&lt;/span&gt; -
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  Finding release &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; channel stable
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  Using v1.21.7+k3s1 as release
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  Downloading &lt;span class=&quot;token builtin class-name&quot;&gt;hash&lt;/span&gt; https://github.com/k3s-io/k3s/releases/download/v1.21.7+k3s1/sha256sum-amd64.txt
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  Downloading binary https://github.com/k3s-io/k3s/releases/download/v1.21.7+k3s1/k3s
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  Verifying binary download
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  Installing k3s to /usr/local/bin/k3s
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  Skipping installation of SELinux RPM
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  Skipping /usr/local/bin/kubectl symlink to k3s, &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt; exists &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token environment constant&quot;&gt;PATH&lt;/span&gt; at /usr/bin/kubectl
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  Creating /usr/local/bin/crictl symlink to k3s
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  Creating /usr/local/bin/ctr symlink to k3s
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  Creating &lt;span class=&quot;token function&quot;&gt;killall&lt;/span&gt; script /usr/local/bin/k3s-killall.sh
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  Creating uninstall script /usr/local/bin/k3s-uninstall.sh
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  env: Creating environment &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; /etc/systemd/system/k3s.service.env
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  systemd: Creating &lt;span class=&quot;token function&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; /etc/systemd/system/k3s.service
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  systemd: Enabling k3s unit
+Created symlink /etc/systemd/system/multi-user.target.wants/k3s.service → /etc/systemd/system/k3s.service.
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;INFO&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  systemd: Starting k3s&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/details&gt;
 &lt;/details&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
