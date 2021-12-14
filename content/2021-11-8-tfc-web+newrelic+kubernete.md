@@ -400,19 +400,19 @@ Client Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.0", GitCom
 Para esta demostración de como New Relic monitoriza un cluster que tenga desplegado una app web, crearemos un escenario con 3 maquinas que constaran de un controlador con 2 workers que se encargaran de balancear y replicar la aplicación web que instalaremos en el controlador.   
   
 
-Nos iremos a nuestro controlador y realizaremos la instalación de k3s:
+<p color="green">Instalación de k3s en el controlador.</p> 
+
+Ejecutaremos el siguiente comando el cual realizará una instalación automática de k3s:
 ```shell
-ubuntu@controlador:~$ curl -sfL https://get.k3s.io | sh -
+vagrant@controlador:~$ curl -sfL https://get.k3s.io | sh -
 [INFO]  Finding release for channel stable
 [INFO]  Using v1.21.7+k3s1 as release
 [INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.21.7+k3s1/sha256sum-amd64.txt
-[INFO]  Downloading binary https://github.com/k3s-io/k3s/releases/download/v1.21.7+k3s1/k3s
-[INFO]  Verifying binary download
-[INFO]  Installing k3s to /usr/local/bin/k3s
+[INFO]  Skipping binary downloaded, installed k3s matches hash
 [INFO]  Skipping installation of SELinux RPM
-[INFO]  Skipping /usr/local/bin/kubectl symlink to k3s, command exists in PATH at /usr/bin/kubectl
-[INFO]  Creating /usr/local/bin/crictl symlink to k3s
-[INFO]  Creating /usr/local/bin/ctr symlink to k3s
+[INFO]  Skipping /usr/local/bin/kubectl symlink to k3s, already exists
+[INFO]  Skipping /usr/local/bin/crictl symlink to k3s, already exists
+[INFO]  Skipping /usr/local/bin/ctr symlink to k3s, already exists
 [INFO]  Creating killall script /usr/local/bin/k3s-killall.sh
 [INFO]  Creating uninstall script /usr/local/bin/k3s-uninstall.sh
 [INFO]  env: Creating environment file /etc/systemd/system/k3s.service.env
@@ -420,6 +420,36 @@ ubuntu@controlador:~$ curl -sfL https://get.k3s.io | sh -
 [INFO]  systemd: Enabling k3s unit
 Created symlink /etc/systemd/system/multi-user.target.wants/k3s.service → /etc/systemd/system/k3s.service.
 [INFO]  systemd: Starting k3s
+```
+
+Una vez instalado podremos obtener información de los nodos:
+```shell
+vagrant@controlador:~$ sudo kubectl get nodes
+NAME          STATUS   ROLES                  AGE   VERSION
+controlador   Ready    control-plane,master   72m   v1.21.7+k3s1
+```
+
+Parámetros necesarios para los workers
+
+Necesitaremos la INTERNAL-IP que podremos obtener de la salida del siguiente comando:
+```shell
+vagrant@controlador:~$ sudo kubectl get nodes -o wide
+NAME          STATUS   ROLES                  AGE   VERSION        INTERNAL-IP     EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION    CONTAINER-RUNTIME
+controlador   Ready    control-plane,master   73m   v1.21.7+k3s1   10.15.198.198   <none>        Debian GNU/Linux 10 (buster)   4.19.0-18-amd64   containerd://1.4.12-k3s1
+```
+
+Para vincular los nuevos nodos con el controlador necesitaremos además de la ip de controller su token de verificación:
+```shell
+vagrant@controlador:~$ sudo cat /var/lib/rancher/k3s/server/node-token
+K105a63e1097066148871e29940800e6dc96e5f053d48087f632b9bd27044190d52::server:848c555ce0c19353f1a452c9c570e832
+```
+
+
+<p color="green">Instalación de k3s en los workers.</p>
+
+
+```shell
+
 ```
 
 </details>
