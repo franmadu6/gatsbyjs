@@ -510,6 +510,197 @@ worker2       Ready    <none>                 23m    v1.21.7+k3s1
 
 ### Despligue de Letschat.
 
+Ahora realizaremos un despliegue de la aplicación Letschat, clonaremos el repositorio del centro, el cual aparte del ejemplo que vamos a utilizar posee varios mas sobre la utilizaicon de kubectl:
+```shell
+fran@debian:~/vagrant/proyectonewrelic$ git clone https://github.com/iesgn/kubernetes-storm.git
+Clonando en 'kubernetes-storm'...
+remote: Enumerating objects: 288, done.
+remote: Counting objects: 100% (288/288), done.
+remote: Compressing objects: 100% (213/213), done.
+remote: Total 288 (delta 119), reused 224 (delta 60), pack-reused 0
+Recibiendo objetos: 100% (288/288), 6.36 MiB | 3.15 MiB/s, listo.
+Resolviendo deltas: 100% (119/119), listo.
+```
+
+Nos desplazaremos al ejemplo8 citado en la tarea y ejecutaremos el siguiente comando:
+```shell
+fran@debian:~/vagrant/proyectonewrelic$ ls
+1  kubernetes-storm  Vagrantfile
+fran@debian:~/vagrant/proyectonewrelic$ cd kubernetes-storm/unidad3/ejemplos-3.2/ejemplo8/
+fran@debian:~/vagrant/proyectonewrelic/kubernetes-storm/unidad3/ejemplos-3.2/ejemplo8$ kubectl apply -f .
+Warning: networking.k8s.io/v1beta1 Ingress is deprecated in v1.19+, unavailable in v1.22+; use networking.k8s.io/v1 Ingress
+ingress.networking.k8s.io/ingress-letschat created
+deployment.apps/letschat created
+service/letschat created
+deployment.apps/mongo created
+service/mongo created
+```
+
+El fichero desplegará varios servicios, pasado unos segundos podremos observar que ya estará todo listo:
+```shell
+fran@debian:~/vagrant/proyectonewrelic/kubernetes-storm/unidad3/ejemplos-3.2/ejemplo8$ kubectl get all,ingress
+NAME                            READY   STATUS              RESTARTS   AGE
+pod/letschat-7c66bd64f5-p6z55   0/1     ContainerCreating   0          18s
+pod/mongo-5c694c878b-5nwmp      0/1     ContainerCreating   0          18s
+
+NAME                 TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+service/kubernetes   ClusterIP   10.43.0.1       <none>        443/TCP          4h46m
+service/letschat     NodePort    10.43.173.187   <none>        8080:32241/TCP   18s
+service/mongo        ClusterIP   10.43.20.221    <none>        27017/TCP        18s
+
+NAME                       READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/mongo      0/1     1            0           18s
+deployment.apps/letschat   0/1     1            0           18s
+
+NAME                                  DESIRED   CURRENT   READY   AGE
+replicaset.apps/mongo-5c694c878b      1         1         0       18s
+replicaset.apps/letschat-7c66bd64f5   1         1         0       18s
+
+NAME                                         CLASS    HOSTS              ADDRESS                                    PORTS   AGE
+ingress.networking.k8s.io/ingress-letschat   <none>   www.letschat.com   10.108.155.90,10.15.198.198,10.99.38.185   80      18s
+```
+
+Servicios desplegados:
+
+  * mongo-deployment, mongo-srv: Despliegue y conexión con una base de datos mongo.
+  * letschat-deployment, letschat-srv: Despligue y servicio de la aplicación letschat y su conexión con una base de datos.
+  * ingress: Para poder acceder a la apliación mediante un nombre.
+
+
+### Escalado
+
+Para que podamos comprobar el funcionamiento de escalado bastara con ejecutar el siguiente comando:
+```shell
+fran@debian:~$ kubectl scale deployment letschat --replicas=6
+deployment.apps/letschat scaled
+```
+
+Pasados unos segundos las replicas estaran ya escaladas.
+
+Nota: Deberás de tener en cuenta la capicidad de tu ordenador a la hora de escalar las replicas, ya que el proceso podria suponer demasiado estres en la maquina dando lugar a una relentizacióń o incluso caida de alguna de las máquinas del escenario:
+```shell
+fran@debian:~$ kubectl get all
+NAME                            READY   STATUS    RESTARTS   AGE
+pod/mongo-5c694c878b-5nwmp      1/1     Running   0          12m
+pod/letschat-7c66bd64f5-p6z55   1/1     Running   3          12m
+pod/letschat-7c66bd64f5-lsjk9   1/1     Running   0          92s
+pod/letschat-7c66bd64f5-6p76p   1/1     Running   0          92s
+pod/letschat-7c66bd64f5-gzx4v   1/1     Running   0          92s
+pod/letschat-7c66bd64f5-ml8ww   1/1     Running   0          92s
+pod/letschat-7c66bd64f5-vbt4d   1/1     Running   0          92s
+
+NAME                 TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+service/kubernetes   ClusterIP   10.43.0.1       <none>        443/TCP          4h58m
+service/letschat     NodePort    10.43.173.187   <none>        8080:32241/TCP   12m
+service/mongo        ClusterIP   10.43.20.221    <none>        27017/TCP        12m
+
+NAME                       READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/mongo      1/1     1            1           12m
+deployment.apps/letschat   6/6     6            6           12m
+
+NAME                                  DESIRED   CURRENT   READY   AGE
+replicaset.apps/mongo-5c694c878b      1         1         1       12m
+replicaset.apps/letschat-7c66bd64f5   6         6         6       12m
+fran@debian:~$ kubectl get deploy,rs,po -o wide
+NAME                       READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES                 SELECTOR
+deployment.apps/mongo      1/1     1            1           12m   mongo        mongo                  name=mongo
+deployment.apps/letschat   6/6     6            6           12m   letschat     sdelements/lets-chat   name=letschat
+
+NAME                                  DESIRED   CURRENT   READY   AGE   CONTAINERS   IMAGES                 SELECTOR
+replicaset.apps/mongo-5c694c878b      1         1         1       12m   mongo        mongo                  name=mongo,pod-template-hash=5c694c878b
+replicaset.apps/letschat-7c66bd64f5   6         6         6       12m   letschat     sdelements/lets-chat   name=letschat,pod-template-hash=7c66bd64f5
+
+NAME                            READY   STATUS    RESTARTS   AGE   IP          NODE      NOMINATED NODE   READINESS GATES
+pod/mongo-5c694c878b-5nwmp      1/1     Running   0          12m   10.42.2.4   worker2   <none>           <none>
+pod/letschat-7c66bd64f5-p6z55   1/1     Running   3          12m   10.42.1.4   worker1   <none>           <none>
+pod/letschat-7c66bd64f5-lsjk9   1/1     Running   0          96s   10.42.1.7   worker1   <none>           <none>
+pod/letschat-7c66bd64f5-6p76p   1/1     Running   0          96s   10.42.1.6   worker1   <none>           <none>
+pod/letschat-7c66bd64f5-gzx4v   1/1     Running   0          96s   10.42.2.7   worker2   <none>           <none>
+pod/letschat-7c66bd64f5-ml8ww   1/1     Running   0          96s   10.42.2.8   worker2   <none>           <none>
+pod/letschat-7c66bd64f5-vbt4d   1/1     Running   0          96s   10.42.2.6   worker2   <none>           <none>
+```
+
+### Componente ingress
+
+Para comprobar que el componente ingress este operativo (recordemos que sirve para poder acceder a la aplicación mediante un nombre) intentaremos acceder nuestra pagina de letschat generada anteriormente, para ello añadiremos la ip a nuestro fichero de hosts y accederemos via web:
+```shell
+sudo nano /etc/hosts
+10.43.173.187  www.letschat.com
+```
+
+[Foto de la web]- Actualmente me es imposible porque se me para la maquina por no tener recursos suficientes.
+
+### Prueba balanceo
+
+
+</details>
+</details>
+
+
+<hr id="lista4" >
+<br>
+<details open>
+<summary>
+
+## 4. Monitorización de nuestra aplicación con new relic.
+</summary>
+
+Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:
+
+
+
+<hr id="lista41" >
+<br>
+<details open>
+<summary>
+
+## 4.1 Monitorizar Conexiones HTTP
+</summary>
+
+
+</details>
+
+<hr id="lista42" >
+<br>
+<details open>
+<summary>
+
+## 4.2 Monitorización de errores
+</summary>
+
+
+</details>
+
+<hr id="lista43" >
+<br>
+<details open>
+<summary>
+
+## 4.3 Fijar alertas
+</summary>
+
+
+</details>
+
+<hr id="lista44" >
+<br>
+<details open>
+<summary>
+
+## 4.4 Estadísticas de rendimiento
+</summary>
+
+
+</details>
+
+
+<hr id="lista45" >
+<br>
+<details open>
+<summary>
+
+## 4.5 ...
+</summary>
 
 
 </details>
