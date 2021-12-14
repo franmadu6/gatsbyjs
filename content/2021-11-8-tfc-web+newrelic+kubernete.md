@@ -133,21 +133,25 @@ En el plan de instalación nos pedira que instalemos el agente de New Relic:
 
 ![PracticaImg](images/proyecto/newrelic-instalacion2.png "instalación new relic")
 
-![PracticaImg](images/proyecto/newrelic-instalacion3.png "instalación new relic")
+![PracticaImg](images/proyecto/newrelic30.png "instalación new relic")
 
 El link que nos proporcionará es el de instalación del agente a nuestro sistema operativo:
 
 **Nota**: Para no tener la web tan cargada he movido la captura de mi terminal a mi repositorio de Github:  
-- <a href="https://github.com/franmadu6/tfc-data/blob/main/instalacion-newrelic" target="blank">Repositorio</a>
+- <a href="https://github.com/franmadu6/tfc-data/blob/main/instalacion-newrelic-v" target="blank">Repositorio</a>
+
+Una vez la instalación haya sido finalizada volveremos al navegador y veremos como la pantalla ha cambiado, nos dejara darle a **See your data** para concluir la instalación, he de destaca que si nuestro equipo posee php, java, alguna base de datos, etc... Tambien lo detectaria el agente y nos lo instalaria al ejecutarlo.
+
+![PracticaImg](images/proyecto/newrelic31.png "instalación new relic")
 
 Y listo! Ya tendremos nuestro agente instalado y listo para usarse.
 
-Una vez la instalación haya sido finalizada volveremos al navegador y veremos como la pantalla ha cambiado, nos dejara darle a siguiente para concluir la instlación, he de destaca que si nuestro equipo posee php, java, alguna base de datos, etc... Tambien lo detectaria el agente y nos lo instalaria al ejecutarlo.
-
 Estos son algunos datos de los que podemos obtener atraves de new relic, que profundizaremos en ellos mas adelante.
-![PracticaImg](images/proyecto/newrelic-instalacion20.png "instalación new relic")
-![PracticaImg](images/proyecto/newrelic-instalacion21.png "instalación new relic")
-![PracticaImg](images/proyecto/newrelic-instalacion22.png "instalación new relic")
+
+**Debian**
+![PracticaImg](images/proyecto/newrelic32.png "instalación new relic")
+![PracticaImg](images/proyecto/newrelic33.png "instalación new relic")
+![PracticaImg](images/proyecto/newrelic34.png "instalación new relic")
 </details>
 </details>
 
@@ -386,18 +390,37 @@ Client Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.0", GitCom
 <details open>
 <summary>
 
-## 3.3 Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).
+## 3.3 Desplieque de una aplicación web
 </summary>
 
-![PracticaImg](images/proyecto/esquemakube.png "esquemakube.png")
+![PracticaImg](images/proyecto/esquemakubevagrant.png "esquemakube.png")
 
-Para esta demostración de como New Relic monitoriza un cluster que tenga desplegado una app web, crearemos un escenario con 5 maquinas que constaran de una maquina central que será la que monitorizaremos y esta a su vez estara a cargo de un controlador con 3 workers que se encargaran de balancear y replicar la aplicación web que instalaremos en el controlador.   
+- <a href="https://github.com/franmadu6/tfc-data/blob/main/Vagrantfile" target="blank">Vagrantfile</a>
+
+Para esta demostración de como New Relic monitoriza un cluster que tenga desplegado una app web, crearemos un escenario con 3 maquinas que constaran de un controlador con 2 workers que se encargaran de balancear y replicar la aplicación web que instalaremos en el controlador.   
   
-  
-![PracticaImg](images/proyecto/instancias.png "imagen de las instancias")
 
-
-
+Nos iremos a nuestro controlador y realizaremos la instalación de k3s:
+```shell
+ubuntu@controlador:~$ curl -sfL https://get.k3s.io | sh -
+[INFO]  Finding release for channel stable
+[INFO]  Using v1.21.7+k3s1 as release
+[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.21.7+k3s1/sha256sum-amd64.txt
+[INFO]  Downloading binary https://github.com/k3s-io/k3s/releases/download/v1.21.7+k3s1/k3s
+[INFO]  Verifying binary download
+[INFO]  Installing k3s to /usr/local/bin/k3s
+[INFO]  Skipping installation of SELinux RPM
+[INFO]  Skipping /usr/local/bin/kubectl symlink to k3s, command exists in PATH at /usr/bin/kubectl
+[INFO]  Creating /usr/local/bin/crictl symlink to k3s
+[INFO]  Creating /usr/local/bin/ctr symlink to k3s
+[INFO]  Creating killall script /usr/local/bin/k3s-killall.sh
+[INFO]  Creating uninstall script /usr/local/bin/k3s-uninstall.sh
+[INFO]  env: Creating environment file /etc/systemd/system/k3s.service.env
+[INFO]  systemd: Creating service file /etc/systemd/system/k3s.service
+[INFO]  systemd: Enabling k3s unit
+Created symlink /etc/systemd/system/multi-user.target.wants/k3s.service → /etc/systemd/system/k3s.service.
+[INFO]  systemd: Starting k3s
+```
 
 </details>
 </details>
