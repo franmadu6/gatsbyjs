@@ -445,7 +445,7 @@ K105a63e1097066148871e29940800e6dc96e5f053d48087f632b9bd27044190d52::server:848c
 ```
 
 
-### Instalación de k3s en los workers.
+### Instalación de k3s en los workers.  
 
 La siguiente acción que realizaremos se hará de igual manera en ambos workers y consistira en añadire tanto la ip y el token obtenidos anteriormente a variables de entorno:
 ```shell
@@ -482,8 +482,34 @@ controlador   Ready    control-plane,master   89m     v1.21.7+k3s1
 worker1       Ready    <none>                 4m52s   v1.21.7+k3s1
 worker2       Ready    <none>                 13s     v1.21.7+k3s1
 ```
+  
+### Gestionar el cluster desde fuera del escenario.  
 
-### Gestionar el cluster desde fuera del escenario.
+Deberemos instalar **kubectl** como hemos echo <a href="#lista32">anteriormente</a>, nos iremos a nuestro controlador y copiaremos el archivo /etc/rancher/k3s/k3s.yaml:
+  
+- <a href="https://github.com/franmadu6/tfc-data/blob/main/k3s.yaml-controlador" target="blank">k3s.yaml-controlador</a>
+
+Crearemos un nuevo fichero de configuración y cambiaremos su ip por la de nuestro controlador para que quede así: 
+
+- <a href="https://github.com/franmadu6/tfc-data/blob/main/k3s.yaml-central" target="blank">k3s.yaml-central</a>
+
+
+Cargaremos el fichero con las credenciales:
+```shell
+fran@debian:~$ export KUBECONFIG=~/.kube/config
+```
+
+Y ya podremos comprobar que tenemos nuestros nodos estan operativos desde nuestra maquina anfitriona:
+```shell
+fran@debian:~$ kubectl get nodes
+NAME          STATUS   ROLES                  AGE    VERSION
+controlador   Ready    control-plane,master   111m   v1.21.7+k3s1
+worker1       Ready    <none>                 27m    v1.21.7+k3s1
+worker2       Ready    <none>                 23m    v1.21.7+k3s1
+```
+
+### Despligue de Letschat.
+
 
 
 </details>
