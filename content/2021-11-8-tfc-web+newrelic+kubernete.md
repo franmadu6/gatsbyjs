@@ -22,10 +22,10 @@ tags:
     <p>1.2.  <a href="#lista12">Instalación de New Relic: Dejando claro donde se está instalando.</a></p>
 2. <a href="#lista2">New Relic One</a>
 3. <a href="#lista3">Kuberntes: Explicas que vas a desplegar una aplicación web para monitorizarla con new relic, en kuberntes, y que para ello vas a usar minikube, para crear un cluster de ejmplo.</a>
-    <p>3.1.  <a href="#lista31">Instalación de minikube</a></p>
-    <p>3.2.  <a href="#lista32">Instalaciión de kubectl</a></p>
-    <p>3.3.  <a href="#lista33">Desplieque de la aplicación web: Explicas un poco la aplicación que has desplegado,  (no hace falta mirar la última práctica para enterarse de lo que vas a desplegar).</a></p>
-4. <a href="#lista4">Monitorización de nuestra aplicación con new relic
+    <p>3.1.  <a href="#lista31">Instalación de minikube.</a></p>
+    <p>3.2.  <a href="#lista32">Instalaciión de kubectl.</a></p>
+    <p>3.3.  <a href="#lista33">Escenario: Desplieque de una aplicación web.</a></p>
+4. <a href="#lista4">Monitorización de nuestra aplicación con new relic.
     Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:</a>
     <p>4.1.  <a href="#lista41">Monitorizar Conexiones HTTP</a></p>
     <p>4.2.  <a href="#lista42">Monitorización de errores</a></p>
@@ -390,10 +390,10 @@ Client Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.0", GitCom
 <details open>
 <summary>
 
-## 3.3 Desplieque de una aplicación web
+## 3.3 Escenario: Desplieque de una aplicación web.
 </summary>
 
-![PracticaImg](images/proyecto/esquemakubevagrant.png "esquemakube.png")
+![PracticaImg](images/proyecto/esquemakubevagrant.png "esquemakubevagrant.png")
 
 - <a href="https://github.com/franmadu6/tfc-data/blob/main/Vagrantfile" target="blank">Vagrantfile</a>
 
