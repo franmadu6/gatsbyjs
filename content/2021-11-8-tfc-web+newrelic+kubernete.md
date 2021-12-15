@@ -740,8 +740,10 @@ pod/letschat-7c66bd64f5-dxpdr   1/1     Running   0          11m    10.42.1.11  
 pod/letschat-7c66bd64f5-44lxf   1/1     Running   0          11m    10.42.1.10   worker1       <none>           <none>
 ```
 
+Tanto el controlador como el worker1 se han repartido la carga, siguen siendo 6 replicas y sigue estan operativa:
 ![PracticaImg](images/proyecto/letschatnodo1.png "letschatnodo1.png")
 
+Ya hemos dado un buen repaso al cluster ahora comenzaremos con su monitorización y mas contenido que nos puede aportar new relic.
 </details>
 </details>
 
