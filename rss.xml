@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 15 Dec 2021 08:59:41 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 15 Dec 2021 10:07:51 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -1832,13 +1832,68 @@ pod/letschat-7c66bd64f5-g7dsf   &lt;span class=&quot;token number&quot;&gt;1&lt;
 pod/letschat-7c66bd64f5-lsjk9   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Terminating   &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;          18h   &lt;span class=&quot;token number&quot;&gt;10.42&lt;/span&gt;.1.7    worker1       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;           &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&quot;componente-ingress&quot;&gt;&lt;a href=&quot;#componente-ingress&quot; aria-label=&quot;componente ingress permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Componente ingress&lt;/h3&gt;
 &lt;p&gt;Para comprobar que el componente ingress este operativo (recordemos que sirve para poder acceder a la aplicación mediante un nombre) intentaremos acceder nuestra pagina de letschat generada anteriormente, para ello añadiremos la ip a nuestro fichero de hosts y accederemos via web:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/hosts
-&lt;span class=&quot;token number&quot;&gt;10.43&lt;/span&gt;.173.187  www.letschat.com&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;[Foto de la web]- Actualmente me es imposible porque se me para la maquina por no tener recursos suficientes.&lt;/p&gt;
-&lt;h3 id=&quot;prueba-balanceo&quot;&gt;&lt;a href=&quot;#prueba-balanceo&quot; aria-label=&quot;prueba balanceo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Prueba balanceo&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;vagrant@controlador:~$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; kubectl get ingress
+NAME               CLASS    HOSTS              ADDRESS                                    PORTS   AGE
+ingress-letschat   &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;   www.letschat.com   &lt;span class=&quot;token number&quot;&gt;10.108&lt;/span&gt;.155.90,10.15.198.198,10.99.38.185   &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;      19h
+
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; /etc/hosts
+&lt;span class=&quot;token number&quot;&gt;10.108&lt;/span&gt;.155.90	www.letschat.com&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;La API que se usa en el proyecto se ha quedado obsoleta y no nos permite acceder via web, deberemos actualizarla el contenido para adaptarlo a la versión v1, para ello deberemos modificar el siguiente fichero para que quede así:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/vagrant/proyectonewrelic/kubernetes-storm/unidad3/ejemplos-3.2/ejemplo8$ &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; ingress.yaml 
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-letschat
+spec:
+  rules:
+  - host: www.letschat.com
+    http:
+      paths:
+      - path: &lt;span class=&quot;token string&quot;&gt;&quot;/&quot;&lt;/span&gt;
+        pathType: Prefix
+        backend:
+          service:
+            name: letschat
+            port:
+              number: &lt;span class=&quot;token number&quot;&gt;8080&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ahora si podremos acceder a la aplicación:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/9a4619a5ddbb4b165d3291206fef45b7/a987b/letschat.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAADJElEQVQozz2Sa0yTBxSGvx+TgWkpmHJRMxItAx22aEdGMhxsVi7ihFEKeMFoS4njEoOAbg7iuoGlAxZAC7iAWsrXegvY1hYMWoGkAgJmqBN3zRL/7N8S5q8lS559NtlO8uYk5yRvTp7zCsdPdlNk6sDc0MnHJis1zZ3Y++z09drp7urF2t7Nl+c6aGlp5/QZC41N52g83c7BT/Ts0qjRZmSiVmtI12hISkpCCEw9wzX+GNuVJY7bFhi8tszq05958fwXHs2vEJx6hOi8zdUrkhwBBi+NMTg8waf6Yt5P307qDi3JqmQOl5chCALChH+W6+4J+oYmMdkeMOpZZGX5KYsL3zMdfMgd7wNuuANcvjzGN7Z+CvML2ZO7j+rd73BCl8GmzW+RmvI2Az1daHdpEMY8c1gGZrAOzXDTF2Jxfpm50AKh2XnJcI77UyH840HGPXdpqK2lOG8vmgwt1ZlbEA07qdimRKXaStf5No4eKkfweENccs9zw7vE6pPnPF5aYXZ6Dr8viNPpZeXJC5798COrP/3GPc9t6rIySFdtYY9aRb+xgJr899ClbORkfR0lElfBId5nyDnN8MhdJgOzzEhXTQZmwmZXHT7+WnvFf/XPqzXGy/L47INMmgqyOF+mw5ijpXRbAifMVRQXlSCc/aoPx6gXl2sSt8RSHPVxzeVHFP20We38/vKPsNmva38Tevkn4ikzZ48dodeg49uDuTTnaShPUbJfQmE8WolQUnEI+4AL58gdunuctNmG6b0ocvHCMOYqM11ft3JLdBC4F+T6mI/vTAa+OFwqPWUHNdkqDKr15CXHc6q2Gl3ObgRFbCz1DRbpyil6Lrjp6b9FfV0zlYZSbJZWWutMjAzaGei00mg+xgGJoaEgh7TUrShjI4mLjSBug4zaaiPv7lS/jo5AVnYulvZ+znzegbFKgvtRNvq9+zBWHsFUoaelqYHi/A/RHygkcWMimzclsCFGwbo31hERERHOX1rador2FyAkxSmRRcuJUUQjl8vDyzcjo5BHK6QeiSImBplM9r9em0StjyIxMY6E+Hjk0iwcaElKpZJ/AZla/OxLGMsDAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;letschat.png&quot;
+        src=&quot;/gatsbyjs/static/9a4619a5ddbb4b165d3291206fef45b7/36727/letschat.png&quot;
+        srcset=&quot;/gatsbyjs/static/9a4619a5ddbb4b165d3291206fef45b7/acf4b/letschat.png 173w,
+/gatsbyjs/static/9a4619a5ddbb4b165d3291206fef45b7/fc834/letschat.png 345w,
+/gatsbyjs/static/9a4619a5ddbb4b165d3291206fef45b7/36727/letschat.png 690w,
+/gatsbyjs/static/9a4619a5ddbb4b165d3291206fef45b7/17fa4/letschat.png 1035w,
+/gatsbyjs/static/9a4619a5ddbb4b165d3291206fef45b7/a5044/letschat.png 1380w,
+/gatsbyjs/static/9a4619a5ddbb4b165d3291206fef45b7/a987b/letschat.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;simulacro-de-fallo&quot;&gt;&lt;a href=&quot;#simulacro-de-fallo&quot; aria-label=&quot;simulacro de fallo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Simulacro de fallo&lt;/h3&gt;
+&lt;p&gt;Simularemos una situación real en la que uno de los workers llegara a caerse, como usamos vagrant bastará con apagar la maquina worker2.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/vagrant/proyectonewrelic$ vagrant &lt;span class=&quot;token function&quot;&gt;halt&lt;/span&gt; worker2
 &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; worker2: Attempting graceful &lt;span class=&quot;token function&quot;&gt;shutdown&lt;/span&gt; of VM&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
 &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; worker2: Forcing &lt;span class=&quot;token function&quot;&gt;shutdown&lt;/span&gt; of VM&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como podemos comprobar tras volver a listar deply,replpicaset y pods estan empezando a fallar ya que se perdio la conexión con el worker2 &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/vagrant/proyectonewrelic$ kubectl get deploy,rs,po -o wide
 NAME                       READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES                 SELECTOR
 deployment.apps/mongo      &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;           17h   mongo        mongo                  &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;mongo
@@ -1860,6 +1915,56 @@ pod/letschat-7c66bd64f5-xmj76   &lt;span class=&quot;token number&quot;&gt;0&lt;
 pod/letschat-7c66bd64f5-p6z55   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running            &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;          17h    &lt;span class=&quot;token number&quot;&gt;10.42&lt;/span&gt;.1.4    worker1       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;           &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
 pod/letschat-7c66bd64f5-6p76p   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running            &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;          17h    &lt;span class=&quot;token number&quot;&gt;10.42&lt;/span&gt;.1.6    worker1       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;           &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
 pod/letschat-7c66bd64f5-9z6fl   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;/1     ErrImagePull       &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          3m3s   &lt;span class=&quot;token number&quot;&gt;10.42&lt;/span&gt;.0.24   controlador   &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;           &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Existe un parámetro llamado pod-eviction-timeout que especifica el tiempo que trascurre hasta que otro nodo/nodos recogen la carga dejada por el caido cuyo valor pode defecto es de 5 minutos.&lt;/p&gt;
+&lt;p&gt;Si comprobamos 5 minutos despues de la caida, podemos apreciar lo siguiente:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;fran@debian:~/vagrant/proyectonewrelic$ kubectl get deploy,rs,po -o wide
+NAME                       READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES                 SELECTOR
+deployment.apps/mongo      &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;           19h   mongo        mongo                  &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;mongo
+deployment.apps/letschat   &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;/6     &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;            &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;           19h   letschat     sdelements/lets-chat   &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;letschat
+
+NAME                                  DESIRED   CURRENT   READY   AGE   CONTAINERS   IMAGES                 SELECTOR
+replicaset.apps/mongo-5c694c878b      &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;         &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;         &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;       19h   mongo        mongo                  &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;mongo,pod-template-hash&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;5c694c878b
+replicaset.apps/letschat-7c66bd64f5   &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;         &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;         &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;       19h   letschat     sdelements/lets-chat   &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;letschat,pod-template-hash&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;7c66bd64f5
+
+NAME                            READY   STATUS    RESTARTS   AGE    IP           NODE          NOMINATED NODE   READINESS GATES
+pod/mongo-5c694c878b-tgsnk      &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          129m   &lt;span class=&quot;token number&quot;&gt;10.42&lt;/span&gt;.1.8    worker1       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;           &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+pod/letschat-7c66bd64f5-9z6fl   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          129m   &lt;span class=&quot;token number&quot;&gt;10.42&lt;/span&gt;.0.24   controlador   &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;           &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+pod/letschat-7c66bd64f5-q8zm4   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          11m    &lt;span class=&quot;token number&quot;&gt;10.42&lt;/span&gt;.0.26   controlador   &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;           &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+pod/letschat-7c66bd64f5-gfqr2   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          11m    &lt;span class=&quot;token number&quot;&gt;10.42&lt;/span&gt;.1.12   worker1       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;           &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+pod/letschat-7c66bd64f5-vzt9s   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          11m    &lt;span class=&quot;token number&quot;&gt;10.42&lt;/span&gt;.1.13   worker1       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;           &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+pod/letschat-7c66bd64f5-dxpdr   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          11m    &lt;span class=&quot;token number&quot;&gt;10.42&lt;/span&gt;.1.11   worker1       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;           &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+pod/letschat-7c66bd64f5-44lxf   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;/1     Running   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;          11m    &lt;span class=&quot;token number&quot;&gt;10.42&lt;/span&gt;.1.10   worker1       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;           &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;none&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/41a88e2425fd32b649889a2931a72449/a987b/letschatnodo1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAC4jAAAuIwF4pT92AAADJElEQVQozz2Sa0yTBxSGvx+TgWkpmHJRMxItAx22aEdGMhxsVi7ihFEKeMFoS4njEoOAbg7iuoGlAxZAC7iAWsrXegvY1hYMWoGkAgJmqBN3zRL/7N8S5q8lS559NtlO8uYk5yRvTp7zCsdPdlNk6sDc0MnHJis1zZ3Y++z09drp7urF2t7Nl+c6aGlp5/QZC41N52g83c7BT/Ts0qjRZmSiVmtI12hISkpCCEw9wzX+GNuVJY7bFhi8tszq05958fwXHs2vEJx6hOi8zdUrkhwBBi+NMTg8waf6Yt5P307qDi3JqmQOl5chCALChH+W6+4J+oYmMdkeMOpZZGX5KYsL3zMdfMgd7wNuuANcvjzGN7Z+CvML2ZO7j+rd73BCl8GmzW+RmvI2Az1daHdpEMY8c1gGZrAOzXDTF2Jxfpm50AKh2XnJcI77UyH840HGPXdpqK2lOG8vmgwt1ZlbEA07qdimRKXaStf5No4eKkfweENccs9zw7vE6pPnPF5aYXZ6Dr8viNPpZeXJC5798COrP/3GPc9t6rIySFdtYY9aRb+xgJr899ClbORkfR0lElfBId5nyDnN8MhdJgOzzEhXTQZmwmZXHT7+WnvFf/XPqzXGy/L47INMmgqyOF+mw5ijpXRbAifMVRQXlSCc/aoPx6gXl2sSt8RSHPVxzeVHFP20We38/vKPsNmva38Tevkn4ikzZ48dodeg49uDuTTnaShPUbJfQmE8WolQUnEI+4AL58gdunuctNmG6b0ocvHCMOYqM11ft3JLdBC4F+T6mI/vTAa+OFwqPWUHNdkqDKr15CXHc6q2Gl3ObgRFbCz1DRbpyil6Lrjp6b9FfV0zlYZSbJZWWutMjAzaGei00mg+xgGJoaEgh7TUrShjI4mLjSBug4zaaiPv7lS/jo5AVnYulvZ+znzegbFKgvtRNvq9+zBWHsFUoaelqYHi/A/RHygkcWMimzclsCFGwbo31hERERHOX1rador2FyAkxSmRRcuJUUQjl8vDyzcjo5BHK6QeiSImBplM9r9em0StjyIxMY6E+Hjk0iwcaElKpZJ/AZla/OxLGMsDAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;letschatnodo1.png&quot;
+        src=&quot;/gatsbyjs/static/41a88e2425fd32b649889a2931a72449/36727/letschatnodo1.png&quot;
+        srcset=&quot;/gatsbyjs/static/41a88e2425fd32b649889a2931a72449/acf4b/letschatnodo1.png 173w,
+/gatsbyjs/static/41a88e2425fd32b649889a2931a72449/fc834/letschatnodo1.png 345w,
+/gatsbyjs/static/41a88e2425fd32b649889a2931a72449/36727/letschatnodo1.png 690w,
+/gatsbyjs/static/41a88e2425fd32b649889a2931a72449/17fa4/letschatnodo1.png 1035w,
+/gatsbyjs/static/41a88e2425fd32b649889a2931a72449/a5044/letschatnodo1.png 1380w,
+/gatsbyjs/static/41a88e2425fd32b649889a2931a72449/a987b/letschatnodo1.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;/details&gt;
 &lt;hr id=&quot;lista4&quot; &gt;
