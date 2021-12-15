@@ -620,6 +620,33 @@ pod/letschat-7c66bd64f5-ml8ww   1/1     Running   0          96s   10.42.2.8   w
 pod/letschat-7c66bd64f5-vbt4d   1/1     Running   0          96s   10.42.2.6   worker2   <none>           <none>
 ```
 
+Volvemos a rebajar el número de replicas a 1 para cuidar los recursos de nuestra maquina, como podemos comprobar esto no es instantaneo y se van parando los procesos poco a poco.
+```shell
+fran@debian:~/vagrant/proyectonewrelic$ kubectl scale deploy letschat --replicas=1
+deployment.apps/letschat scaled
+fran@debian:~/vagrant/proyectonewrelic$ kubectl get deploy,rs,po -o wide
+NAME                       READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES                 SELECTOR
+deployment.apps/mongo      1/1     1            1           18h   mongo        mongo                  name=mongo
+deployment.apps/letschat   1/1     1            1           18h   letschat     sdelements/lets-chat   name=letschat
+
+NAME                                  DESIRED   CURRENT   READY   AGE   CONTAINERS   IMAGES                 SELECTOR
+replicaset.apps/mongo-5c694c878b      1         1         1       18h   mongo        mongo                  name=mongo,pod-template-hash=5c694c878b
+replicaset.apps/letschat-7c66bd64f5   1         1         1       18h   letschat     sdelements/lets-chat   name=letschat,pod-template-hash=7c66bd64f5
+
+NAME                            READY   STATUS        RESTARTS   AGE   IP           NODE          NOMINATED NODE   READINESS GATES
+pod/mongo-5c694c878b-tgsnk      1/1     Running       0          69m   10.42.1.8    worker1       <none>           <none>
+pod/letschat-7c66bd64f5-9z6fl   1/1     Running       0          69m   10.42.0.24   controlador   <none>           <none>
+pod/letschat-7c66bd64f5-ml8ww   0/1     Terminating   0          18h   <none>       worker2       <none>           <none>
+pod/mongo-5c694c878b-5nwmp      0/1     Terminating   0          18h   <none>       worker2       <none>           <none>
+pod/letschat-7c66bd64f5-vbt4d   0/1     Terminating   0          18h   <none>       worker2       <none>           <none>
+pod/letschat-7c66bd64f5-gzx4v   0/1     Terminating   0          18h   <none>       worker2       <none>           <none>
+pod/letschat-7c66bd64f5-xmj76   1/1     Terminating   0          69m   10.42.0.25   controlador   <none>           <none>
+pod/letschat-7c66bd64f5-6p76p   1/1     Terminating   5          18h   10.42.1.6    worker1       <none>           <none>
+pod/letschat-7c66bd64f5-p6z55   1/1     Terminating   8          18h   10.42.1.4    worker1       <none>           <none>
+pod/letschat-7c66bd64f5-g7dsf   1/1     Terminating   2          69m   10.42.1.9    worker1       <none>           <none>
+pod/letschat-7c66bd64f5-lsjk9   1/1     Terminating   6          18h   10.42.1.7    worker1       <none>           <none>
+```
+
 ### Componente ingress
 
 Para comprobar que el componente ingress este operativo (recordemos que sirve para poder acceder a la aplicación mediante un nombre) intentaremos acceder nuestra pagina de letschat generada anteriormente, para ello añadiremos la ip a nuestro fichero de hosts y accederemos via web:
@@ -632,6 +659,36 @@ sudo nano /etc/hosts
 
 ### Prueba balanceo
 
+
+```shell
+fran@debian:~/vagrant/proyectonewrelic$ vagrant halt worker2
+==> worker2: Attempting graceful shutdown of VM...
+==> worker2: Forcing shutdown of VM...
+```
+
+```shell
+fran@debian:~/vagrant/proyectonewrelic$ kubectl get deploy,rs,po -o wide
+NAME                       READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES                 SELECTOR
+deployment.apps/mongo      1/1     1            1           17h   mongo        mongo                  name=mongo
+deployment.apps/letschat   3/6     6            3           17h   letschat     sdelements/lets-chat   name=letschat
+
+NAME                                  DESIRED   CURRENT   READY   AGE   CONTAINERS   IMAGES                 SELECTOR
+replicaset.apps/mongo-5c694c878b      1         1         1       17h   mongo        mongo                  name=mongo,pod-template-hash=5c694c878b
+replicaset.apps/letschat-7c66bd64f5   6         6         3       17h   letschat     sdelements/lets-chat   name=letschat,pod-template-hash=7c66bd64f5
+
+NAME                            READY   STATUS             RESTARTS   AGE    IP           NODE          NOMINATED NODE   READINESS GATES
+pod/letschat-7c66bd64f5-vbt4d   1/1     Terminating        0          17h    10.42.2.6    worker2       <none>           <none>
+pod/letschat-7c66bd64f5-gzx4v   1/1     Terminating        0          17h    10.42.2.7    worker2       <none>           <none>
+pod/mongo-5c694c878b-5nwmp      1/1     Terminating        0          17h    10.42.2.4    worker2       <none>           <none>
+pod/letschat-7c66bd64f5-ml8ww   1/1     Terminating        0          17h    10.42.2.8    worker2       <none>           <none>
+pod/letschat-7c66bd64f5-lsjk9   0/1     CrashLoopBackOff   5          17h    10.42.1.7    worker1       <none>           <none>
+pod/mongo-5c694c878b-tgsnk      1/1     Running            0          3m3s   10.42.1.8    worker1       <none>           <none>
+pod/letschat-7c66bd64f5-g7dsf   1/1     Running            2          3m3s   10.42.1.9    worker1       <none>           <none>
+pod/letschat-7c66bd64f5-xmj76   0/1     ImagePullBackOff   0          3m3s   10.42.0.25   controlador   <none>           <none>
+pod/letschat-7c66bd64f5-p6z55   1/1     Running            8          17h    10.42.1.4    worker1       <none>           <none>
+pod/letschat-7c66bd64f5-6p76p   1/1     Running            5          17h    10.42.1.6    worker1       <none>           <none>
+pod/letschat-7c66bd64f5-9z6fl   0/1     ErrImagePull       0          3m3s   10.42.0.24   controlador   <none>           <none>
+```
 
 </details>
 </details>
