@@ -820,14 +820,31 @@ Comenzaremos monitorizando del trafico de nuestro navegador
 
 </summary>
 
+No iremos nuevamente a [+ add more data] y selecionaremos en Cloud and platform technologies Kubernetes
 ![PracticaImg](images/proyecto/newrelic45.png "newrelic45.png")
+
+Le daremos un nombre para que new relic lo identifique
 ![PracticaImg](images/proyecto/newrelic451.png "newrelic451.png")
+
+Seleccionamos el contenido adicional que vemos conveniente
 ![PracticaImg](images/proyecto/newrelic452.png "newrelic452.png")
+
+Iremos a nuestra maquina e instalaremos el codigo que nos proporciona.  
+Nota:Si no tenemos instalado Helm sigue estas breves instrucciones.
+```shell
+$ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+$ chmod 700 get_helm.sh
+$ ./get_helm.sh
+```
 ![PracticaImg](images/proyecto/newrelic453.png "newrelic453.png")
+
+Tendremos que esperar a que new relic recopile los datos necesarios para monitorizar nuestro cluster.
 ![PracticaImg](images/proyecto/newrelic454.png "newrelic454.png")
 ![PracticaImg](images/proyecto/newrelic455.png "newrelic454.png")
-![PracticaImg](images/proyecto/newrelic456.png "newrelic456.png")
 
+Una vez finalizado podremos explorar el cluster monitorizado!
+![PracticaImg](images/proyecto/newrelic456.png "newrelic456.png")
+Como podemos comprobar nos muestra nuestro proyecto realizado anteriormente el cual constaba de 3 maquinas (controlador y 2 workers).
 
 </details>
 </details>
