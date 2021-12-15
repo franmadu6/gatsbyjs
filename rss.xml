@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 15 Dec 2021 10:16:53 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 15 Dec 2021 13:44:26 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -1975,13 +1975,76 @@ pod/letschat-7c66bd64f5-44lxf   &lt;span class=&quot;token number&quot;&gt;1&lt;
 &lt;summary&gt;
 &lt;h2 id=&quot;4-monitorización-de-nuestra-aplicación-con-new-relic&quot;&gt;&lt;a href=&quot;#4-monitorizaci%C3%B3n-de-nuestra-aplicaci%C3%B3n-con-new-relic&quot; aria-label=&quot;4 monitorización de nuestra aplicación con new relic permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. Monitorización de nuestra aplicación con new relic.&lt;/h2&gt;
 &lt;/summary&gt;
-&lt;p&gt;Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:&lt;/p&gt;
+&lt;p&gt;New Relic utiliza New Relic One que es su plataforma de monitorizacion,logs y alertas como ya hemos explicado anteriormente, ahora daremos paso a explicar detalladamente su uso.&lt;/p&gt;
 &lt;hr id=&quot;lista41&quot; &gt;
 &lt;br&gt;
 &lt;details open&gt;
 &lt;summary&gt;
-&lt;h2 id=&quot;41-monitorizar-conexiones-http&quot;&gt;&lt;a href=&quot;#41-monitorizar-conexiones-http&quot; aria-label=&quot;41 monitorizar conexiones http permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.1 Monitorizar Conexiones HTTP&lt;/h2&gt;
+&lt;h2 id=&quot;41-monitorizar-conexiones-httpnavegador&quot;&gt;&lt;a href=&quot;#41-monitorizar-conexiones-httpnavegador&quot; aria-label=&quot;41 monitorizar conexiones httpnavegador permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.1 Monitorizar Conexiones HTTP(Navegador)&lt;/h2&gt;
 &lt;/summary&gt;
+&lt;p&gt;Comenzaremos monitorizando del trafico de nuestro navegador&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/32a6abe418109a1264015aca60858201/a987b/newrelic41.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.45833333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABRklEQVQoz6VRW07DMBDMNYAi1OfFUPvFRwg5BYITIEFTKeepKKXtISBR7LqOXxnWjtofVCmIlUZxnJ3ZmU00nc0wn89hAQil4KyFaxo0Z+ACHJxrYQmGOLKuwfcCUZykeH3LoI1BWTHUJHoWRPJEbexJ8AhfjDFEd/EDXrwgXX7xPfbagNUKldL4FpJck4iSOEiJoijAtEIhOCSJ1tRryIgQKrgvyxLRfZJgsVhA0YeKcyitg5t2cnOKH6LSXTg7e3o/Pn1x4gfBLMtQ0x64ELD2d5wu8IME8aPEC5JDL8SDQwVFMY9NXeErCMZxHP6y3wUjQSkP5LQK0Y1td9QF3kCInKYp8jwPE/zu/lM+ZXQ7neLx+Qmr3Q7L1QfWmw3W220Lf+6IT+pfrt4R9UYjXI/HuJlM0BsOcdHvtxgMcPkHeM4V8X8A5cO/o4MLl9AAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelic41.png&quot;
+        src=&quot;/gatsbyjs/static/32a6abe418109a1264015aca60858201/36727/newrelic41.png&quot;
+        srcset=&quot;/gatsbyjs/static/32a6abe418109a1264015aca60858201/acf4b/newrelic41.png 173w,
+/gatsbyjs/static/32a6abe418109a1264015aca60858201/fc834/newrelic41.png 345w,
+/gatsbyjs/static/32a6abe418109a1264015aca60858201/36727/newrelic41.png 690w,
+/gatsbyjs/static/32a6abe418109a1264015aca60858201/17fa4/newrelic41.png 1035w,
+/gatsbyjs/static/32a6abe418109a1264015aca60858201/a5044/newrelic41.png 1380w,
+/gatsbyjs/static/32a6abe418109a1264015aca60858201/a987b/newrelic41.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/bcaba/newrelic411.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.173708920187785%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABqElEQVQoz3WSeU/CQBDF+5EJtCUq8uG8gBhRjsQQjfyhRQ5betHu9nrODFSRxE1eJt2d/c2b2Rpn52fodru4oGjZNtrtNmzLgmWZJAu27NkSWaZtodVqodlsotFowDRNXNL9TqeDDjGM1/kcURwjSVMorSWmSiHLMlFRlihZVSWxwt/F50VZQFNuEEUwdkmC1WoFz3XheS622y00gXlVBKnFMF5c8Hk2E81eXrBcLkUp7e92OxjswvNDbLwAvh8goip8wAn5wSWrBuZ5DmexwPvHBxzHIRMe3fNlP6ZOjaIoEIYRgnAP2isWlyorkJI4mV3WroMgEFBMxRPqsO5IgJwchiEl+XLI38eqHR4DEyoaHcE4/gDTVEmr7Iw3OJGTfqEFuIsayKMYT6d4o8f82mywXq9lhgxV9JhGqhN8+Qt6DB9bmkVAbhkqrnkMVFBphZygZVnJXOfOBm+fHlw/EhMs7oKhBlcNE5da3oP4FROlxaXONDJymJenP8v/yxhNprgdDHHVv8dNr4/rux6u+wPcD4eiwcMQ/YdHPI3HGE0meDpodNDp9zc1W+CseF8U5gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelic411.png&quot;
+        src=&quot;/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/36727/newrelic411.png&quot;
+        srcset=&quot;/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/acf4b/newrelic411.png 173w,
+/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/fc834/newrelic411.png 345w,
+/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/36727/newrelic411.png 690w,
+/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/17fa4/newrelic411.png 1035w,
+/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/a5044/newrelic411.png 1380w,
+/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/bcaba/newrelic411.png 1917w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;hr id=&quot;lista42&quot; &gt;
 &lt;br&gt;
@@ -2008,8 +2071,195 @@ pod/letschat-7c66bd64f5-44lxf   &lt;span class=&quot;token number&quot;&gt;1&lt;
 &lt;br&gt;
 &lt;details open&gt;
 &lt;summary&gt;
-&lt;h2 id=&quot;45-&quot;&gt;&lt;a href=&quot;#45-&quot; aria-label=&quot;45  permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.5 ...&lt;/h2&gt;
+&lt;h2 id=&quot;45-monitorización-de-un-cluster-de-kubernetes&quot;&gt;&lt;a href=&quot;#45-monitorizaci%C3%B3n-de-un-cluster-de-kubernetes&quot; aria-label=&quot;45 monitorización de un cluster de kubernetes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.5 Monitorización de un cluster de kubernetes&lt;/h2&gt;
 &lt;/summary&gt;
+&lt;p&gt;&lt;img src=&quot;images/proyecto/newrelic45.png&quot; alt=&quot;PracticaImg&quot; title=&quot;newrelic45.png&quot;&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/f71802f291c5be1c2d7b146a236b01f1/a987b/newrelic451.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.354166666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABlElEQVQoz32Sy07CUBCG+z5K1Lii4NsocWNCgdcwro3BQngA40ZdmsjFBboRFbkYwHAJASHSFnr9nTmAViOe5OuZmfPPf+YklXYje1BVFTPTxMdkAmM6heu6cBjH+Y6/cGA7PmwbJvVquk4YkKJKAsnTlDDr9noYjcfQDQMGYS4v4XhqQKcmjp2F0W9YLx0ocRwnVSGcUPNE00TjbDbDaDRCNpdDq9NBqdHCW7stzv4y5JowVGIxpNJp8TTLsr4EnudhTNNeXV7g+v4OJzcFFIpFaHQxa1caxtgwlQIv/yE38TSNZhMu5WBo8aX/ThiPx8WEfkO/qNfvo93tismWNT+ixvqlYVRRoNKE/EQu8ARLOB8MBxi+v4vYNC36GyzxR/i1JuHxBbRLiUQCmUwGq5br0WvpYzsuTId2ym3KXc/9oRsYU/Q1HVJkfx+HR0eovb6iXKmgXK0KXhb7Q7mC0gKOH1/mmmeG9E9ErV7Hef4WZ9k8pIAsYyMcxubODgKhENaCQaz7kf3Ic36cy6Jnizy2yeMTyzq+ORmLWZ8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelic451.png&quot;
+        src=&quot;/gatsbyjs/static/f71802f291c5be1c2d7b146a236b01f1/36727/newrelic451.png&quot;
+        srcset=&quot;/gatsbyjs/static/f71802f291c5be1c2d7b146a236b01f1/acf4b/newrelic451.png 173w,
+/gatsbyjs/static/f71802f291c5be1c2d7b146a236b01f1/fc834/newrelic451.png 345w,
+/gatsbyjs/static/f71802f291c5be1c2d7b146a236b01f1/36727/newrelic451.png 690w,
+/gatsbyjs/static/f71802f291c5be1c2d7b146a236b01f1/17fa4/newrelic451.png 1035w,
+/gatsbyjs/static/f71802f291c5be1c2d7b146a236b01f1/a5044/newrelic451.png 1380w,
+/gatsbyjs/static/f71802f291c5be1c2d7b146a236b01f1/a987b/newrelic451.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/97dc9c8fe79ffee9e9ce382d155b60c5/a987b/newrelic452.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.25000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABUUlEQVQoz6WRy07CUBCG+zziLa4QeByFlUlt+xaGBzBRW8JeH8LLUqNCgbA2kSCxtT29QMvvzCklQsqCeJIvczJz5p8/c5TTeh2maSKKY7iehyAMkc5TYo4kzeJ8QZpD+SRNkCQZ8XQKEQQSRdUMXN1Y+CGxz9EIjuNAiAABFWMa4gsha4zv+/A8H1EUSaHZbLYCv1fOznVcXlsIyZlHTR418SQWDKIYH5MJxuMxHNeV4lwPCwSlUxbUNA1Wq0WuhBT9+zAmvsmRS2I8YF1go6BpWXI6J/K95A1F90013qWi67p0yGd9J9siHaqqKh3yL3JiSlO2hZ2Bf50dGoaBdruN/54v2v/IF1BOGg1cNJvoD4fo9HpLuov40rGXPBOvXZvyNt7tjDeiPxjg7uEJt/ePUPYqFezXajggdum+Uy6jROSxdFxAeRV+e1it4og0fgGQbMHlYZHRYQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelic452.png&quot;
+        src=&quot;/gatsbyjs/static/97dc9c8fe79ffee9e9ce382d155b60c5/36727/newrelic452.png&quot;
+        srcset=&quot;/gatsbyjs/static/97dc9c8fe79ffee9e9ce382d155b60c5/acf4b/newrelic452.png 173w,
+/gatsbyjs/static/97dc9c8fe79ffee9e9ce382d155b60c5/fc834/newrelic452.png 345w,
+/gatsbyjs/static/97dc9c8fe79ffee9e9ce382d155b60c5/36727/newrelic452.png 690w,
+/gatsbyjs/static/97dc9c8fe79ffee9e9ce382d155b60c5/17fa4/newrelic452.png 1035w,
+/gatsbyjs/static/97dc9c8fe79ffee9e9ce382d155b60c5/a5044/newrelic452.png 1380w,
+/gatsbyjs/static/97dc9c8fe79ffee9e9ce382d155b60c5/a987b/newrelic452.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/a649fdb4b7c2fdd1688b7325f0f57631/a987b/newrelic453.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.51041666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAB10lEQVQoz52SS0sbURTHs+0nsFLXSmNjVBB8JCLZdyHdRNGNGkHowiRddle6K0WaSpt3JDsXIvohWisIlmoe1dRdQyk0TeaVmcz8Pef2ZjCSVS/8OPfMPfd/HnM9G5EIcvk8DMNAs9WCpuvodDoCy7JgyT1jkt8Po92GoqoCz3b0BbK5AprNJn7W6/jTaEDTNIFpmlA1VSRSKZhF7Y7tJhBwUkmbhD3Po3Eks3noho6WoghUKcgBfykRJ2uRqEHVcycMJ7MYKcbiQjAWi6GwtweFhHTZrimD+NLLV6/xbHUVy+vrCK+tYYlYoTE9DYdxcHwMXtxyj2C+UBD9t+UBi9m2LfzlyAbGg0FMhULwkx0LBOAnBoaH8TGX+ydIFbuC8XhcVMjLujMPWwYsUnWjMzPwTk/jkfcxHo6MYGjUiweDg0ikUq6g1RXcjkZFhY7jiA/cZhf29w8PsZvJ4EM2i3fJFBLpNN6nM3iTSOD07MwVdGz6QXRHVFgsFvG/y5H2N83/l0LPZnNrC293dlC7uUH16grV62vBd7bkfy1VXM4vy/hWKuOyUsEFUapWUaaY2o8ajj5/wdGnE3h8c3NiyBPz8xij/ZPZ2R58fbh/znYyGMDUwgJuAcYWix6e2rduAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelic453.png&quot;
+        src=&quot;/gatsbyjs/static/a649fdb4b7c2fdd1688b7325f0f57631/36727/newrelic453.png&quot;
+        srcset=&quot;/gatsbyjs/static/a649fdb4b7c2fdd1688b7325f0f57631/acf4b/newrelic453.png 173w,
+/gatsbyjs/static/a649fdb4b7c2fdd1688b7325f0f57631/fc834/newrelic453.png 345w,
+/gatsbyjs/static/a649fdb4b7c2fdd1688b7325f0f57631/36727/newrelic453.png 690w,
+/gatsbyjs/static/a649fdb4b7c2fdd1688b7325f0f57631/17fa4/newrelic453.png 1035w,
+/gatsbyjs/static/a649fdb4b7c2fdd1688b7325f0f57631/a5044/newrelic453.png 1380w,
+/gatsbyjs/static/a649fdb4b7c2fdd1688b7325f0f57631/a987b/newrelic453.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/b2c11c088d72b68b44a57c44a2717992/a987b/newrelic454.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.302083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABJUlEQVQoz62R207CQBCG932U6C2nx4FwY0JpX8Nw7QW2hDfSIGUx3Mqd2POJ/s5M2kYRITFu8mV2pjv//LtVg+EAtm0jSVN4vo8ojnE4HFAQeVFIlJz2+SnyHCn1BmFIRFBjw8Ls0SExD2+7Hd73e4RRhIjIsgxBEODD86SpqAR+g8+oO8PEw8xGTM58cuiTAAsyfIDrIU3n/TkxHiaCk8kEznwulrn52AXnzZWr/KKg7TgiWF+r5lRTHY8HiCA9kTJNUxzyOnelSzQOx4YhDsuylAL/iL/AokmSQFmWhcVigf9YbEoNRyPcT6d43W7hag13sxHWVXx2dcPTSmO51ljp77wQS9cVVKvTwU2vh9t+H61uF1ftNq6/Qt9rWvVe6j/PcP8nZYzEllSLMCQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelic454.png&quot;
+        src=&quot;/gatsbyjs/static/b2c11c088d72b68b44a57c44a2717992/36727/newrelic454.png&quot;
+        srcset=&quot;/gatsbyjs/static/b2c11c088d72b68b44a57c44a2717992/acf4b/newrelic454.png 173w,
+/gatsbyjs/static/b2c11c088d72b68b44a57c44a2717992/fc834/newrelic454.png 345w,
+/gatsbyjs/static/b2c11c088d72b68b44a57c44a2717992/36727/newrelic454.png 690w,
+/gatsbyjs/static/b2c11c088d72b68b44a57c44a2717992/17fa4/newrelic454.png 1035w,
+/gatsbyjs/static/b2c11c088d72b68b44a57c44a2717992/a5044/newrelic454.png 1380w,
+/gatsbyjs/static/b2c11c088d72b68b44a57c44a2717992/a987b/newrelic454.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/787b58e76f81291acf335f486d1d5cdc/a987b/newrelic455.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.40625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABXElEQVQoz6WR207CQBCG+xieRUB9LxO4M4FiX8ArE97AqC0JlxoT38AQ7wwKbcMraPXCntPj78zSaiGoF27yZacz//4zu5Va7TZUTUUURbBdF2EYIs9zQZZloAi88pKyRqRUZ+I4hh8ECOis1JVPcHGlwSGzV8vCh23D930EJOAmLuVtytmOI3bWuQ41Jk2SJkiSb1gvHXd7OL/UyD0Qh13Pm3crDD36dsiMm5TwLWKqVc3SNJ0byrIMbTAQJizkQlXI116GNV+6Yl8wVDUNHnXmRCleNl5FVSMM6S0ludcTE/L6y+A307h8w06nA1VVxZ/jBHeJC6rxT7AmJ1MxEE+oKAqGwyH+s96CEOMXC++0S0etFs76fZizGSa6jolhYFrA8eNEX2A8ZY2OZ9I+EYZp4uZ+hNPrW9yNHiBt1uvYajaxTWxQvFarYb3K3goqddbvNBrYPzzALnl8Ajozu9TEmrQ4AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelic454.png&quot;
+        src=&quot;/gatsbyjs/static/787b58e76f81291acf335f486d1d5cdc/36727/newrelic455.png&quot;
+        srcset=&quot;/gatsbyjs/static/787b58e76f81291acf335f486d1d5cdc/acf4b/newrelic455.png 173w,
+/gatsbyjs/static/787b58e76f81291acf335f486d1d5cdc/fc834/newrelic455.png 345w,
+/gatsbyjs/static/787b58e76f81291acf335f486d1d5cdc/36727/newrelic455.png 690w,
+/gatsbyjs/static/787b58e76f81291acf335f486d1d5cdc/17fa4/newrelic455.png 1035w,
+/gatsbyjs/static/787b58e76f81291acf335f486d1d5cdc/a5044/newrelic455.png 1380w,
+/gatsbyjs/static/787b58e76f81291acf335f486d1d5cdc/a987b/newrelic455.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/3dc5bccfb33b4beac722a21f7533068a/a987b/newrelic456.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.145833333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABg0lEQVQoz6VR23KCMBTkt9sZL6Cj/kQf+9ZP6Dd0OrZWRO1Yqx1bQYGAIQlheyLeaPtWYMmeZHeTA1bTsdHt9dBpt2HbNlqOQ2Nzz49w9nMlN/pGo4FarYar62vUiXe7XXQI7ZYNa+C6CLZbJClDlDCkmYDK8wPUBS8hlYKQEpkQpM3AOEdCiAh+FMFK0hScCkGC7ABJBmM6jiduQnY7pOTxwwhhkmC5DTFbB1hGMWafX7AYCSTt/NelihxFUey5Gff3RZ2pHKNgg9lmgzXP8Lb2YUWMIaadhBSlqTibhFZYqZjcZQDK6dP6jgLrj0PcelO8bCO8+wEs0wIXHFrrStiRS02npLW80CW/0Ciav/PmuOlPcT/7wMIExvQjpJaVkAqnR+caPJcI1Q65Pn8ecwjFU2jJjQFxHFPL9NqEIRi1bQSXMGYTdKyNqaKhjebMx8hfgFGX5nAW/nmtFENYZBDE4yyF5XoevMkEI4PxuAL3R/173cPDYID+0MV0+oqn5wG+AUIo6RxFFor1AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelic456.png&quot;
+        src=&quot;/gatsbyjs/static/3dc5bccfb33b4beac722a21f7533068a/36727/newrelic456.png&quot;
+        srcset=&quot;/gatsbyjs/static/3dc5bccfb33b4beac722a21f7533068a/acf4b/newrelic456.png 173w,
+/gatsbyjs/static/3dc5bccfb33b4beac722a21f7533068a/fc834/newrelic456.png 345w,
+/gatsbyjs/static/3dc5bccfb33b4beac722a21f7533068a/36727/newrelic456.png 690w,
+/gatsbyjs/static/3dc5bccfb33b4beac722a21f7533068a/17fa4/newrelic456.png 1035w,
+/gatsbyjs/static/3dc5bccfb33b4beac722a21f7533068a/a5044/newrelic456.png 1380w,
+/gatsbyjs/static/3dc5bccfb33b4beac722a21f7533068a/a987b/newrelic456.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;/details&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
