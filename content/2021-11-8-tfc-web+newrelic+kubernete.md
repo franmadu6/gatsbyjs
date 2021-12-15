@@ -756,17 +756,23 @@ Ya hemos dado un buen repaso al cluster ahora comenzaremos con su monitorizació
 ## 4. Monitorización de nuestra aplicación con new relic.
 </summary>
 
-Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:
-
-
+New Relic utiliza New Relic One que es su plataforma de monitorizacion,logs y alertas como ya hemos explicado anteriormente, ahora daremos paso a explicar detalladamente su uso.
 
 <hr id="lista41" >
 <br>
 <details open>
 <summary>
 
-## 4.1 Monitorizar Conexiones HTTP
+## 4.1 Monitorizar Conexiones HTTP(Navegador)
 </summary>
+
+Comenzaremos monitorizando del trafico de nuestro navegador
+
+![PracticaImg](images/proyecto/newrelic41.png "newrelic41.png")
+![PracticaImg](images/proyecto/newrelic411.png "newrelic411.png")
+
+
+
 
 
 </details>
@@ -810,8 +816,17 @@ Aquí es donde te tienes que lucir: Explicando cada una de las características 
 <details open>
 <summary>
 
-## 4.5 ...
+## 4.5 Monitorización de un cluster de kubernetes
+
 </summary>
+
+![PracticaImg](images/proyecto/newrelic45.png "newrelic45.png")
+![PracticaImg](images/proyecto/newrelic451.png "newrelic451.png")
+![PracticaImg](images/proyecto/newrelic452.png "newrelic452.png")
+![PracticaImg](images/proyecto/newrelic453.png "newrelic453.png")
+![PracticaImg](images/proyecto/newrelic454.png "newrelic454.png")
+![PracticaImg](images/proyecto/newrelic455.png "newrelic454.png")
+![PracticaImg](images/proyecto/newrelic456.png "newrelic456.png")
 
 
 </details>
