@@ -651,21 +651,48 @@ pod/letschat-7c66bd64f5-lsjk9   1/1     Terminating   6          18h   10.42.1.7
 
 Para comprobar que el componente ingress este operativo (recordemos que sirve para poder acceder a la aplicación mediante un nombre) intentaremos acceder nuestra pagina de letschat generada anteriormente, para ello añadiremos la ip a nuestro fichero de hosts y accederemos via web:
 ```shell
+vagrant@controlador:~$ sudo kubectl get ingress
+NAME               CLASS    HOSTS              ADDRESS                                    PORTS   AGE
+ingress-letschat   <none>   www.letschat.com   10.108.155.90,10.15.198.198,10.99.38.185   80      19h
+
 sudo nano /etc/hosts
-10.43.173.187  www.letschat.com
+10.108.155.90	www.letschat.com
 ```
 
-[Foto de la web]- Actualmente me es imposible porque se me para la maquina por no tener recursos suficientes.
+La API que se usa en el proyecto se ha quedado obsoleta y no nos permite acceder via web, deberemos actualizarla el contenido para adaptarlo a la versión v1, para ello deberemos modificar el siguiente fichero para que quede así:
+```shell
+fran@debian:~/vagrant/proyectonewrelic/kubernetes-storm/unidad3/ejemplos-3.2/ejemplo8$ cat ingress.yaml 
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-letschat
+spec:
+  rules:
+  - host: www.letschat.com
+    http:
+      paths:
+      - path: "/"
+        pathType: Prefix
+        backend:
+          service:
+            name: letschat
+            port:
+              number: 8080
+```
 
-### Prueba balanceo
+Ahora si podremos acceder a la aplicación:
+![PracticaImg](images/proyecto/letschat.png "letschat.png")
 
+### Simulacro de fallo
 
+Simularemos una situación real en la que uno de los workers llegara a caerse, como usamos vagrant bastará con apagar la maquina worker2.
 ```shell
 fran@debian:~/vagrant/proyectonewrelic$ vagrant halt worker2
 ==> worker2: Attempting graceful shutdown of VM...
 ==> worker2: Forcing shutdown of VM...
 ```
 
+Como podemos comprobar tras volver a listar deply,replpicaset y pods estan empezando a fallar ya que se perdio la conexión con el worker2 
 ```shell
 fran@debian:~/vagrant/proyectonewrelic$ kubectl get deploy,rs,po -o wide
 NAME                       READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES                 SELECTOR
@@ -689,6 +716,31 @@ pod/letschat-7c66bd64f5-p6z55   1/1     Running            8          17h    10.
 pod/letschat-7c66bd64f5-6p76p   1/1     Running            5          17h    10.42.1.6    worker1       <none>           <none>
 pod/letschat-7c66bd64f5-9z6fl   0/1     ErrImagePull       0          3m3s   10.42.0.24   controlador   <none>           <none>
 ```
+
+Existe un parámetro llamado pod-eviction-timeout que especifica el tiempo que trascurre hasta que otro nodo/nodos recogen la carga dejada por el caido cuyo valor pode defecto es de 5 minutos.
+
+Si comprobamos 5 minutos despues de la caida, podemos apreciar lo siguiente:
+```shell
+fran@debian:~/vagrant/proyectonewrelic$ kubectl get deploy,rs,po -o wide
+NAME                       READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES                 SELECTOR
+deployment.apps/mongo      1/1     1            1           19h   mongo        mongo                  name=mongo
+deployment.apps/letschat   6/6     6            6           19h   letschat     sdelements/lets-chat   name=letschat
+
+NAME                                  DESIRED   CURRENT   READY   AGE   CONTAINERS   IMAGES                 SELECTOR
+replicaset.apps/mongo-5c694c878b      1         1         1       19h   mongo        mongo                  name=mongo,pod-template-hash=5c694c878b
+replicaset.apps/letschat-7c66bd64f5   6         6         6       19h   letschat     sdelements/lets-chat   name=letschat,pod-template-hash=7c66bd64f5
+
+NAME                            READY   STATUS    RESTARTS   AGE    IP           NODE          NOMINATED NODE   READINESS GATES
+pod/mongo-5c694c878b-tgsnk      1/1     Running   0          129m   10.42.1.8    worker1       <none>           <none>
+pod/letschat-7c66bd64f5-9z6fl   1/1     Running   0          129m   10.42.0.24   controlador   <none>           <none>
+pod/letschat-7c66bd64f5-q8zm4   1/1     Running   0          11m    10.42.0.26   controlador   <none>           <none>
+pod/letschat-7c66bd64f5-gfqr2   1/1     Running   0          11m    10.42.1.12   worker1       <none>           <none>
+pod/letschat-7c66bd64f5-vzt9s   1/1     Running   0          11m    10.42.1.13   worker1       <none>           <none>
+pod/letschat-7c66bd64f5-dxpdr   1/1     Running   0          11m    10.42.1.11   worker1       <none>           <none>
+pod/letschat-7c66bd64f5-44lxf   1/1     Running   0          11m    10.42.1.10   worker1       <none>           <none>
+```
+
+![PracticaImg](images/proyecto/letschatnodo1.png "letschatnodo1.png")
 
 </details>
 </details>
