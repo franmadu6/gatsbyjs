@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 15 Dec 2021 14:04:26 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Wed, 15 Dec 2021 14:13:13 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -2073,7 +2073,39 @@ pod/letschat-7c66bd64f5-44lxf   &lt;span class=&quot;token number&quot;&gt;1&lt;
 &lt;summary&gt;
 &lt;h2 id=&quot;45-monitorización-de-un-cluster-de-kubernetes&quot;&gt;&lt;a href=&quot;#45-monitorizaci%C3%B3n-de-un-cluster-de-kubernetes&quot; aria-label=&quot;45 monitorización de un cluster de kubernetes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.5 Monitorización de un cluster de kubernetes&lt;/h2&gt;
 &lt;/summary&gt;
-&lt;p&gt;&lt;img src=&quot;images/proyecto/newrelic45.png&quot; alt=&quot;PracticaImg&quot; title=&quot;newrelic45.png&quot;&gt;
+&lt;p&gt;No iremos nuevamente a [+ add more data] y selecionaremos en Cloud and platform technologies Kubernetes
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/512208aeb6f2080eeb73308d713e9ad7/3ad9e/newrelic45.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 10.052600818234952%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAVklEQVQI122MWQrDMBQDc//T1lvst07stp8RDJJA6BIRSq18SqGPwenuxlFkEnEIcuf895/HK5e703tDVJFRWfNmqjNFMRV6q99hG7Y3RoZhsvYpr3oAvWedcdWE2NoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelic45.png&quot;
+        src=&quot;/gatsbyjs/static/512208aeb6f2080eeb73308d713e9ad7/36727/newrelic45.png&quot;
+        srcset=&quot;/gatsbyjs/static/512208aeb6f2080eeb73308d713e9ad7/acf4b/newrelic45.png 173w,
+/gatsbyjs/static/512208aeb6f2080eeb73308d713e9ad7/fc834/newrelic45.png 345w,
+/gatsbyjs/static/512208aeb6f2080eeb73308d713e9ad7/36727/newrelic45.png 690w,
+/gatsbyjs/static/512208aeb6f2080eeb73308d713e9ad7/17fa4/newrelic45.png 1035w,
+/gatsbyjs/static/512208aeb6f2080eeb73308d713e9ad7/a5044/newrelic45.png 1380w,
+/gatsbyjs/static/512208aeb6f2080eeb73308d713e9ad7/3ad9e/newrelic45.png 1711w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Le daremos un nombre para que new relic lo identifique
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -2104,7 +2136,8 @@ pod/letschat-7c66bd64f5-44lxf   &lt;span class=&quot;token number&quot;&gt;1&lt;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Seleccionamos el contenido adicional que vemos conveniente
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -2135,8 +2168,13 @@ pod/letschat-7c66bd64f5-44lxf   &lt;span class=&quot;token number&quot;&gt;1&lt;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
-&lt;span
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Iremos a nuestra maquina e instalaremos el codigo que nos proporciona.&lt;br&gt;
+Nota:Si no tenemos instalado Helm sigue estas breves instrucciones.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+$ &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;700&lt;/span&gt; get_helm.sh
+$ ./get_helm.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -2166,7 +2204,8 @@ pod/letschat-7c66bd64f5-44lxf   &lt;span class=&quot;token number&quot;&gt;1&lt;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Tendremos que esperar a que new relic recopile los datos necesarios para monitorizar nuestro cluster.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -2228,7 +2267,8 @@ pod/letschat-7c66bd64f5-44lxf   &lt;span class=&quot;token number&quot;&gt;1&lt;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Una vez finalizado podremos explorar el cluster monitorizado!
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -2259,7 +2299,8 @@ pod/letschat-7c66bd64f5-44lxf   &lt;span class=&quot;token number&quot;&gt;1&lt;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
+    &lt;/span&gt;
+Como podemos comprobar nos muestra nuestro proyecto realizado anteriormente el cual constaba de 3 maquinas (controlador y 2 workers).&lt;/p&gt;
 &lt;/details&gt;
 &lt;/details&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
