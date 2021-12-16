@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 16 Dec 2021 18:54:13 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 16 Dec 2021 20:24:51 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -2719,7 +2719,10 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97&lt;/code&gt;&lt
 &lt;summary&gt;
 &lt;h2 id=&quot;45-fijar-alertas&quot;&gt;&lt;a href=&quot;#45-fijar-alertas&quot; aria-label=&quot;45 fijar alertas permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.5 Fijar alertas&lt;/h2&gt;
 &lt;/summary&gt;
-&lt;p&gt;&lt;span
+&lt;p&gt;New relic cuenta con alertas predeterminadas que pueden aumentar según los objetos que tengas añadidos a el como(hosts,cluster de kubernetes,bdd,etc...). Posee varias secciones donde tiene alojadas diferentes alertas cada una relacionada con un objeto diferente como podemos ver acontinuación:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alertas relacionadas con el cluster de kubernetes que tenemos creado:
+&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -2745,37 +2748,6 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97&lt;/code&gt;&lt
 /gatsbyjs/static/67c5576bf362fd465977138d28508840/17fa4/newrelicalerts.png 1035w,
 /gatsbyjs/static/67c5576bf362fd465977138d28508840/a5044/newrelicalerts.png 1380w,
 /gatsbyjs/static/67c5576bf362fd465977138d28508840/a987b/newrelicalerts.png 1920w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/a987b/newrelicalert2.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 51.302083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABMUlEQVQoz62Ry07DMBBF/TsI1B1qq3bRj+YDWMAONkDbJYsiAVKb+Bknju3LTEIK7QIVxERHtpx53JkR1jk4wnuPmBJe39/wvHlBEzPqELszpIzvlulL+ROK4bjQtqjqBsLWNXwbEWJCTffKOxhnYSuPiqib0AWkIzIVyfkLNhYlHAW17ESPRVFCKQ1rKKG1UFJR0qpXlfOPsLGviDHuWym1RCklqfTwpNbafhynJuwUdvLRP+zsFqayiNR+S4U4qTbm5ITcleD57BUqhe2u6H6wfEktK61xuJHDBQ3F2CTFi5a20w85QWqamzZoQujwnhRSwkB3Xtjge8wwNku+Av9kjkRuCgnxsFziab3G42r1Z5bE9d09rm5uIUazGUbzOfg8n05xNh7/nskEF8TlYoEPikba5nQaUJUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;newrelicalert2.png&quot;
-        src=&quot;/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/36727/newrelicalert2.png&quot;
-        srcset=&quot;/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/acf4b/newrelicalert2.png 173w,
-/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/fc834/newrelicalert2.png 345w,
-/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/36727/newrelicalert2.png 690w,
-/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/17fa4/newrelicalert2.png 1035w,
-/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/a5044/newrelicalert2.png 1380w,
-/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/a987b/newrelicalert2.png 1920w&quot;
         sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -2842,38 +2814,8 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97&lt;/code&gt;&lt
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/a987b/newrelicalertlogs.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 51.51041666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAB2UlEQVQoz5VSy27TUBT0d5RVWwlYoKZSF5VglW5QF6ibfgXqIiRSfqOqWBXR5kGz4AP4CVI1iVLHeTSUVlQUEuP4ETu2rz3MvRYI0UqIK43n6ozP+DysvSoU8PrwDd53DZy0uzhpddFoZzg+beOo2cLRaSvje/C2eUY+Q534oPehFYtFvKvXgUQgcF2k4QKIIyAiRIz/OYHrQCvQsEpD15vj23QK3w/gBwuCvAgQCfFvxDESGk5MkxWWSqjRMI4EHI9GvoDv0cxfIIwDpKkgUvCh+NcdaZIxkMV4LMuCVpKGtZoKJEmChKJgq4Hjwrr5CvvqWmmzLzfwbm+VPhl/wvfhCBG7+NPQ5cjUDI8rld+G8qsiFvCsGZzLS9iDgdImF2P8+HylDK3zc8w6HUTz+f2GlWpVBWPOQsiZhCHcqQlvfAG714OQhoMhTFYWU7c7bZjNjwhtW81O5sh82+FSyuUyGo3G3ZVF3DBfSDkXVQWTU1agDpeXsP07KfwztJd7e9g/OEB/NEJX1xV0w4AxHMJgrEfu9fsZs32p6ZJZubpTkyy1FsegPd/ZwYvdXeS3t/F4fR0P19aQ29zEs60tPM3n8WRjA49yOYUHq6tYWlnB0vJyxn9B6j8BsVmxpz+eglMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;newrelicalertlogs.png&quot;
-        src=&quot;/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/36727/newrelicalertlogs.png&quot;
-        srcset=&quot;/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/acf4b/newrelicalertlogs.png 173w,
-/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/fc834/newrelicalertlogs.png 345w,
-/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/36727/newrelicalertlogs.png 690w,
-/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/17fa4/newrelicalertlogs.png 1035w,
-/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/a5044/newrelicalertlogs.png 1380w,
-/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/a987b/newrelicalertlogs.png 1920w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Alertas globales o mas enfocadas con el host.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -2904,8 +2846,101 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97&lt;/code&gt;&lt
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;También podemos crear nosotros mismo alertas en función de nuestras necesidades. Podemos crear alertas de dos maneras diferentes, mediante codigo:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/a987b/newrelicalertlogs.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.51041666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAB2UlEQVQoz5VSy27TUBT0d5RVWwlYoKZSF5VglW5QF6ibfgXqIiRSfqOqWBXR5kGz4AP4CVI1iVLHeTSUVlQUEuP4ETu2rz3MvRYI0UqIK43n6ozP+DysvSoU8PrwDd53DZy0uzhpddFoZzg+beOo2cLRaSvje/C2eUY+Q534oPehFYtFvKvXgUQgcF2k4QKIIyAiRIz/OYHrQCvQsEpD15vj23QK3w/gBwuCvAgQCfFvxDESGk5MkxWWSqjRMI4EHI9GvoDv0cxfIIwDpKkgUvCh+NcdaZIxkMV4LMuCVpKGtZoKJEmChKJgq4Hjwrr5CvvqWmmzLzfwbm+VPhl/wvfhCBG7+NPQ5cjUDI8rld+G8qsiFvCsGZzLS9iDgdImF2P8+HylDK3zc8w6HUTz+f2GlWpVBWPOQsiZhCHcqQlvfAG714OQhoMhTFYWU7c7bZjNjwhtW81O5sh82+FSyuUyGo3G3ZVF3DBfSDkXVQWTU1agDpeXsP07KfwztJd7e9g/OEB/NEJX1xV0w4AxHMJgrEfu9fsZs32p6ZJZubpTkyy1FsegPd/ZwYvdXeS3t/F4fR0P19aQ29zEs60tPM3n8WRjA49yOYUHq6tYWlnB0vJyxn9B6j8BsVmxpz+eglMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelicalertlogs.png&quot;
+        src=&quot;/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/36727/newrelicalertlogs.png&quot;
+        srcset=&quot;/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/acf4b/newrelicalertlogs.png 173w,
+/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/fc834/newrelicalertlogs.png 345w,
+/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/36727/newrelicalertlogs.png 690w,
+/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/17fa4/newrelicalertlogs.png 1035w,
+/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/a5044/newrelicalertlogs.png 1380w,
+/gatsbyjs/static/8271f6702ce12b99a2ebf77fcb1b9312/a987b/newrelicalertlogs.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;alerts&amp;#x26;ai -&gt; anomaly detection -&gt; crear avisos slack&lt;/p&gt;
+&lt;p&gt;O atraves de su plataforma, la cual cuenta con bastantes opciones y ademas podremos hacer una mezcla entra ambas y generar una alerta que luego podamos modificar atraves de su codigo.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/a987b/newrelicalert2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.302083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABMUlEQVQoz62Ry07DMBBF/TsI1B1qq3bRj+YDWMAONkDbJYsiAVKb+Bknju3LTEIK7QIVxERHtpx53JkR1jk4wnuPmBJe39/wvHlBEzPqELszpIzvlulL+ROK4bjQtqjqBsLWNXwbEWJCTffKOxhnYSuPiqib0AWkIzIVyfkLNhYlHAW17ESPRVFCKQ1rKKG1UFJR0qpXlfOPsLGviDHuWym1RCklqfTwpNbafhynJuwUdvLRP+zsFqayiNR+S4U4qTbm5ITcleD57BUqhe2u6H6wfEktK61xuJHDBQ3F2CTFi5a20w85QWqamzZoQujwnhRSwkB3Xtjge8wwNku+Av9kjkRuCgnxsFziab3G42r1Z5bE9d09rm5uIUazGUbzOfg8n05xNh7/nskEF8TlYoEPikba5nQaUJUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelicalert2.png&quot;
+        src=&quot;/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/36727/newrelicalert2.png&quot;
+        srcset=&quot;/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/acf4b/newrelicalert2.png 173w,
+/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/fc834/newrelicalert2.png 345w,
+/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/36727/newrelicalert2.png 690w,
+/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/17fa4/newrelicalert2.png 1035w,
+/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/a5044/newrelicalert2.png 1380w,
+/gatsbyjs/static/928ded90fb2cad87c33a213b66c0ded2/a987b/newrelicalert2.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Podremos configurar tambien que nos mande avisos de algunas de las alertas mas importantes de manera predeterminada:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 659px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/a507fd20195c84703380d0c843705214/f4d47/newrelicalert5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 119.11987860394537%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAAsSAAALEgHS3X78AAACEElEQVQ4y51V127DMAz0/39cX/rSNHVG0RSJM7z3YHkMZcirSSvgQJmRKI4j4yRpSjffJz8IBNfbrd97lwuFUURd1z0Np6oqquqaIGuVtq4sS2r54NyaNVjypcv1Kt545zMdTyf5vrCn8BZ6RFGw4bwoBmjbdvKIUzcNpVlGURxTxOHJ5dFF/A59agHfDd8de+qYCwYZ5MylpdVpOox0kDeE+H080klDxj4Iw/7Qo2WfkxwiRHiW5bmEaGQ1KhIKhPOlFhDf0A88hDF4YwoBmiCfkNAb4NumF3RxkkixBgaRIxyAwTMDl3DYZ0ghrPzawG+myoOQG1ZmWmV4i/ByhMzAhSUC/1oUfCBvxQy3cA5He+jFSnM/8RA8RJKRD4QNb2EUqYAcw9DorIyYGmQPvw4Hel+v6W21Itd1abvb0Wa77bFVbDYbgcvY7fdS5YlByZuSu1CZccIriz6mOI84KAZzfuUzuFMErVdz+CEb2vsBG07u1FBOLhVn4GFe1fTiMV2UX/AsYN2rx0NBuQhPlzyaDIeCX/4I475v+1cfjKklLx0wvVTeFSZvCuwxJGwPH/cyG0RbAaalzN60HyQMyyNcHPMgClWPexkKOaykBi8ROvSN7gEURSa6SjPdx+0nBuHNyfN65v91TYiNZXfBM4VYLArygIGaaU5C/RtoZzj2zJIqJ0xeM0hlaLLs/mnwB1ljVwsP6BLjAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelicalert5.png&quot;
+        src=&quot;/gatsbyjs/static/a507fd20195c84703380d0c843705214/f4d47/newrelicalert5.png&quot;
+        srcset=&quot;/gatsbyjs/static/a507fd20195c84703380d0c843705214/acf4b/newrelicalert5.png 173w,
+/gatsbyjs/static/a507fd20195c84703380d0c843705214/fc834/newrelicalert5.png 345w,
+/gatsbyjs/static/a507fd20195c84703380d0c843705214/f4d47/newrelicalert5.png 659w&quot;
+        sizes=&quot;(max-width: 659px) 100vw, 659px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;hr id=&quot;lista46&quot; &gt;
 &lt;br&gt;
