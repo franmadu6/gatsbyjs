@@ -830,6 +830,47 @@ Comenzaremos monitorizando del trafico de nuestro navegador
 ![PracticaImg](images/proyecto/newrelic411.png "newrelic411.png")
 
 
+![PracticaImg](images/proyecto/newrelicnetwork.png "newrelicnetwork.png")
+![PracticaImg](images/proyecto/newrelicnetwork2.png "newrelicnetwork2.png")
+
+
+![PracticaImg](images/proyecto/newrelicnetwork3.png "newrelicnetwork3.png")
+```shell
+fran@debian:~$ docker run -d --name ktranslate-ipfix --restart unless-stopped --net=host \
+> -v `pwd`/snmp-base.yaml:/snmp-base.yaml \
+> -e NEW_RELIC_API_KEY=eu01xxecd80a49b9c4fc36c38f31aadaFFFFNRAL  \
+> kentik/ktranslate:v2 \
+>   -snmp /snmp-base.yaml \
+>   -nr_account_id=3333111 \
+>   -log_level=info \
+>   -metrics=jchf \
+>   -flow_only=true \
+>   -nf.source=ipfix \
+>   -tee_logs=true \
+>   -service_name=ipfix \
+>   -nr_region=EU \
+>   nr1.flow
+Unable to find image 'kentik/ktranslate:v2' locally
+v2: Pulling from kentik/ktranslate
+97518928ae5f: Pull complete 
+c5ab775387cf: Pull complete 
+3fb672fad4c3: Pull complete 
+6e1574d9f562: Pull complete 
+d84e6cfa7dfa: Pull complete 
+2c08d50c8195: Pull complete 
+801ef62de11b: Pull complete 
+009b5c293950: Pull complete 
+d7216316c0e3: Pull complete 
+8d149d0516da: Pull complete 
+7dc919990f13: Pull complete 
+Digest: sha256:5ab5a1e2b753bad01911be240ff2df5deae2f65ec985b21b731c1885a720831e
+Status: Downloaded newer image for kentik/ktranslate:v2
+ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97
+```
+
+
+![PracticaImg](images/proyecto/newrelicnetwork4.png "newrelicnetwork4.png")
+
 
 
 
