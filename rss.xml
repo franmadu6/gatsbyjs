@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 16 Dec 2021 07:36:16 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 16 Dec 2021 07:42:38 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -885,11 +885,11 @@ hello-minikube   NodePort   &lt;span class=&quot;token number&quot;&gt;10.98&lt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;#lista4&quot;&gt;Monitorización de nuestra aplicación con new relic.
 Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4.1  &lt;a href=&quot;#lista41&quot;&gt;Monitorizar Conexiones HTTP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4.2  &lt;a href=&quot;#lista42&quot;&gt;Monitorización de errores&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4.3  &lt;a href=&quot;#lista43&quot;&gt;Fijar alertas&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4.4  &lt;a href=&quot;#lista44&quot;&gt;Estadísticas de rendimiento&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4.5  &lt;a href=&quot;#lista45&quot;&gt;Monitorización de un cluster de kubernetes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.1  &lt;a href=&quot;#lista41&quot;&gt;Monitorización de un cluster de kubernetes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.2  &lt;a href=&quot;#lista42&quot;&gt;Monitorizar Conexiones HTTP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.3  &lt;a href=&quot;#lista43&quot;&gt;Monitorización de errores&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.4  &lt;a href=&quot;#lista44&quot;&gt;Fijar alertas&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.5  &lt;a href=&quot;#lista45&quot;&gt;Estadísticas de rendimiento&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr id=&quot;lista1&quot; &gt;
@@ -1980,98 +1980,7 @@ pod/letschat-7c66bd64f5-44lxf   &lt;span class=&quot;token number&quot;&gt;1&lt;
 &lt;br&gt;
 &lt;details open&gt;
 &lt;summary&gt;
-&lt;h2 id=&quot;41-monitorizar-conexiones-httpnavegador&quot;&gt;&lt;a href=&quot;#41-monitorizar-conexiones-httpnavegador&quot; aria-label=&quot;41 monitorizar conexiones httpnavegador permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.1 Monitorizar Conexiones HTTP(Navegador)&lt;/h2&gt;
-&lt;/summary&gt;
-&lt;p&gt;Comenzaremos monitorizando del trafico de nuestro navegador&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/32a6abe418109a1264015aca60858201/a987b/newrelic41.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 51.45833333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABRklEQVQoz6VRW07DMBDMNYAi1OfFUPvFRwg5BYITIEFTKeepKKXtISBR7LqOXxnWjtofVCmIlUZxnJ3ZmU00nc0wn89hAQil4KyFaxo0Z+ACHJxrYQmGOLKuwfcCUZykeH3LoI1BWTHUJHoWRPJEbexJ8AhfjDFEd/EDXrwgXX7xPfbagNUKldL4FpJck4iSOEiJoijAtEIhOCSJ1tRryIgQKrgvyxLRfZJgsVhA0YeKcyitg5t2cnOKH6LSXTg7e3o/Pn1x4gfBLMtQ0x64ELD2d5wu8IME8aPEC5JDL8SDQwVFMY9NXeErCMZxHP6y3wUjQSkP5LQK0Y1td9QF3kCInKYp8jwPE/zu/lM+ZXQ7neLx+Qmr3Q7L1QfWmw3W220Lf+6IT+pfrt4R9UYjXI/HuJlM0BsOcdHvtxgMcPkHeM4V8X8A5cO/o4MLl9AAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;newrelic41.png&quot;
-        src=&quot;/gatsbyjs/static/32a6abe418109a1264015aca60858201/36727/newrelic41.png&quot;
-        srcset=&quot;/gatsbyjs/static/32a6abe418109a1264015aca60858201/acf4b/newrelic41.png 173w,
-/gatsbyjs/static/32a6abe418109a1264015aca60858201/fc834/newrelic41.png 345w,
-/gatsbyjs/static/32a6abe418109a1264015aca60858201/36727/newrelic41.png 690w,
-/gatsbyjs/static/32a6abe418109a1264015aca60858201/17fa4/newrelic41.png 1035w,
-/gatsbyjs/static/32a6abe418109a1264015aca60858201/a5044/newrelic41.png 1380w,
-/gatsbyjs/static/32a6abe418109a1264015aca60858201/a987b/newrelic41.png 1920w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/bcaba/newrelic411.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 51.173708920187785%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABqElEQVQoz3WSeU/CQBDF+5EJtCUq8uG8gBhRjsQQjfyhRQ5betHu9nrODFSRxE1eJt2d/c2b2Rpn52fodru4oGjZNtrtNmzLgmWZJAu27NkSWaZtodVqodlsotFowDRNXNL9TqeDDjGM1/kcURwjSVMorSWmSiHLMlFRlihZVSWxwt/F50VZQFNuEEUwdkmC1WoFz3XheS622y00gXlVBKnFMF5c8Hk2E81eXrBcLkUp7e92OxjswvNDbLwAvh8goip8wAn5wSWrBuZ5DmexwPvHBxzHIRMe3fNlP6ZOjaIoEIYRgnAP2isWlyorkJI4mV3WroMgEFBMxRPqsO5IgJwchiEl+XLI38eqHR4DEyoaHcE4/gDTVEmr7Iw3OJGTfqEFuIsayKMYT6d4o8f82mywXq9lhgxV9JhGqhN8+Qt6DB9bmkVAbhkqrnkMVFBphZygZVnJXOfOBm+fHlw/EhMs7oKhBlcNE5da3oP4FROlxaXONDJymJenP8v/yxhNprgdDHHVv8dNr4/rux6u+wPcD4eiwcMQ/YdHPI3HGE0meDpodNDp9zc1W+CseF8U5gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;PracticaImg&quot;
-        title=&quot;newrelic411.png&quot;
-        src=&quot;/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/36727/newrelic411.png&quot;
-        srcset=&quot;/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/acf4b/newrelic411.png 173w,
-/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/fc834/newrelic411.png 345w,
-/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/36727/newrelic411.png 690w,
-/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/17fa4/newrelic411.png 1035w,
-/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/a5044/newrelic411.png 1380w,
-/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/bcaba/newrelic411.png 1917w&quot;
-        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;hr id=&quot;lista42&quot; &gt;
-&lt;br&gt;
-&lt;details open&gt;
-&lt;summary&gt;
-&lt;h2 id=&quot;42-monitorización-de-errores&quot;&gt;&lt;a href=&quot;#42-monitorizaci%C3%B3n-de-errores&quot; aria-label=&quot;42 monitorización de errores permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.2 Monitorización de errores&lt;/h2&gt;
-&lt;/summary&gt;
-&lt;/details&gt;
-&lt;hr id=&quot;lista43&quot; &gt;
-&lt;br&gt;
-&lt;details open&gt;
-&lt;summary&gt;
-&lt;h2 id=&quot;43-fijar-alertas&quot;&gt;&lt;a href=&quot;#43-fijar-alertas&quot; aria-label=&quot;43 fijar alertas permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.3 Fijar alertas&lt;/h2&gt;
-&lt;/summary&gt;
-&lt;/details&gt;
-&lt;hr id=&quot;lista44&quot; &gt;
-&lt;br&gt;
-&lt;details open&gt;
-&lt;summary&gt;
-&lt;h2 id=&quot;44-estadísticas-de-rendimiento&quot;&gt;&lt;a href=&quot;#44-estad%C3%ADsticas-de-rendimiento&quot; aria-label=&quot;44 estadísticas de rendimiento permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.4 Estadísticas de rendimiento&lt;/h2&gt;
-&lt;/summary&gt;
-&lt;/details&gt;
-&lt;hr id=&quot;lista45&quot; &gt;
-&lt;br&gt;
-&lt;details open&gt;
-&lt;summary&gt;
-&lt;h2 id=&quot;45-monitorización-de-un-cluster-de-kubernetes&quot;&gt;&lt;a href=&quot;#45-monitorizaci%C3%B3n-de-un-cluster-de-kubernetes&quot; aria-label=&quot;45 monitorización de un cluster de kubernetes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.5 Monitorización de un cluster de kubernetes&lt;/h2&gt;
+&lt;h2 id=&quot;41-monitorización-de-un-cluster-de-kubernetes&quot;&gt;&lt;a href=&quot;#41-monitorizaci%C3%B3n-de-un-cluster-de-kubernetes&quot; aria-label=&quot;41 monitorización de un cluster de kubernetes permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.1 Monitorización de un cluster de kubernetes&lt;/h2&gt;
 &lt;/summary&gt;
 &lt;p&gt;No iremos nuevamente a [+ add more data] y selecionaremos en Cloud and platform technologies Kubernetes
 &lt;span
@@ -2301,6 +2210,97 @@ $ ./get_helm.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &lt;/a&gt;
     &lt;/span&gt;
 Como podemos comprobar nos muestra nuestro proyecto realizado anteriormente el cual constaba de 3 maquinas (controlador y 2 workers).&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr id=&quot;lista42&quot; &gt;
+&lt;br&gt;
+&lt;details open&gt;
+&lt;summary&gt;
+&lt;h2 id=&quot;42-monitorizar-conexiones-httpnavegador&quot;&gt;&lt;a href=&quot;#42-monitorizar-conexiones-httpnavegador&quot; aria-label=&quot;42 monitorizar conexiones httpnavegador permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.2 Monitorizar Conexiones HTTP(Navegador)&lt;/h2&gt;
+&lt;/summary&gt;
+&lt;p&gt;Comenzaremos monitorizando del trafico de nuestro navegador&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/32a6abe418109a1264015aca60858201/a987b/newrelic41.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.45833333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABRklEQVQoz6VRW07DMBDMNYAi1OfFUPvFRwg5BYITIEFTKeepKKXtISBR7LqOXxnWjtofVCmIlUZxnJ3ZmU00nc0wn89hAQil4KyFaxo0Z+ACHJxrYQmGOLKuwfcCUZykeH3LoI1BWTHUJHoWRPJEbexJ8AhfjDFEd/EDXrwgXX7xPfbagNUKldL4FpJck4iSOEiJoijAtEIhOCSJ1tRryIgQKrgvyxLRfZJgsVhA0YeKcyitg5t2cnOKH6LSXTg7e3o/Pn1x4gfBLMtQ0x64ELD2d5wu8IME8aPEC5JDL8SDQwVFMY9NXeErCMZxHP6y3wUjQSkP5LQK0Y1td9QF3kCInKYp8jwPE/zu/lM+ZXQ7neLx+Qmr3Q7L1QfWmw3W220Lf+6IT+pfrt4R9UYjXI/HuJlM0BsOcdHvtxgMcPkHeM4V8X8A5cO/o4MLl9AAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelic41.png&quot;
+        src=&quot;/gatsbyjs/static/32a6abe418109a1264015aca60858201/36727/newrelic41.png&quot;
+        srcset=&quot;/gatsbyjs/static/32a6abe418109a1264015aca60858201/acf4b/newrelic41.png 173w,
+/gatsbyjs/static/32a6abe418109a1264015aca60858201/fc834/newrelic41.png 345w,
+/gatsbyjs/static/32a6abe418109a1264015aca60858201/36727/newrelic41.png 690w,
+/gatsbyjs/static/32a6abe418109a1264015aca60858201/17fa4/newrelic41.png 1035w,
+/gatsbyjs/static/32a6abe418109a1264015aca60858201/a5044/newrelic41.png 1380w,
+/gatsbyjs/static/32a6abe418109a1264015aca60858201/a987b/newrelic41.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/bcaba/newrelic411.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.173708920187785%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABqElEQVQoz3WSeU/CQBDF+5EJtCUq8uG8gBhRjsQQjfyhRQ5betHu9nrODFSRxE1eJt2d/c2b2Rpn52fodru4oGjZNtrtNmzLgmWZJAu27NkSWaZtodVqodlsotFowDRNXNL9TqeDDjGM1/kcURwjSVMorSWmSiHLMlFRlihZVSWxwt/F50VZQFNuEEUwdkmC1WoFz3XheS622y00gXlVBKnFMF5c8Hk2E81eXrBcLkUp7e92OxjswvNDbLwAvh8goip8wAn5wSWrBuZ5DmexwPvHBxzHIRMe3fNlP6ZOjaIoEIYRgnAP2isWlyorkJI4mV3WroMgEFBMxRPqsO5IgJwchiEl+XLI38eqHR4DEyoaHcE4/gDTVEmr7Iw3OJGTfqEFuIsayKMYT6d4o8f82mywXq9lhgxV9JhGqhN8+Qt6DB9bmkVAbhkqrnkMVFBphZygZVnJXOfOBm+fHlw/EhMs7oKhBlcNE5da3oP4FROlxaXONDJymJenP8v/yxhNprgdDHHVv8dNr4/rux6u+wPcD4eiwcMQ/YdHPI3HGE0meDpodNDp9zc1W+CseF8U5gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newrelic411.png&quot;
+        src=&quot;/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/36727/newrelic411.png&quot;
+        srcset=&quot;/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/acf4b/newrelic411.png 173w,
+/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/fc834/newrelic411.png 345w,
+/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/36727/newrelic411.png 690w,
+/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/17fa4/newrelic411.png 1035w,
+/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/a5044/newrelic411.png 1380w,
+/gatsbyjs/static/b49f0a55b23d38872ad490ebc513ae10/bcaba/newrelic411.png 1917w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;hr id=&quot;lista43&quot; &gt;
+&lt;br&gt;
+&lt;details open&gt;
+&lt;summary&gt;
+&lt;h2 id=&quot;43-monitorización-de-errores&quot;&gt;&lt;a href=&quot;#43-monitorizaci%C3%B3n-de-errores&quot; aria-label=&quot;43 monitorización de errores permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.3 Monitorización de errores&lt;/h2&gt;
+&lt;/summary&gt;
+&lt;/details&gt;
+&lt;hr id=&quot;lista44&quot; &gt;
+&lt;br&gt;
+&lt;details open&gt;
+&lt;summary&gt;
+&lt;h2 id=&quot;44-fijar-alertas&quot;&gt;&lt;a href=&quot;#44-fijar-alertas&quot; aria-label=&quot;44 fijar alertas permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.4 Fijar alertas&lt;/h2&gt;
+&lt;/summary&gt;
+&lt;/details&gt;
+&lt;hr id=&quot;lista45&quot; &gt;
+&lt;br&gt;
+&lt;details open&gt;
+&lt;summary&gt;
+&lt;h2 id=&quot;45-estadísticas-de-rendimiento&quot;&gt;&lt;a href=&quot;#45-estad%C3%ADsticas-de-rendimiento&quot; aria-label=&quot;45 estadísticas de rendimiento permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.5 Estadísticas de rendimiento&lt;/h2&gt;
+&lt;/summary&gt;
 &lt;/details&gt;
 &lt;/details&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
