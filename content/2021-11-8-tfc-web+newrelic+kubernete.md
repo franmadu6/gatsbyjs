@@ -29,9 +29,11 @@ tags:
     Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:</a>
     <p>4.1  <a href="#lista41">Monitorización de un cluster de kubernetes</a></p>
     <p>4.2  <a href="#lista42">Monitorizar Conexiones HTTP</a></p>
-    <p>4.3  <a href="#lista43">Monitorización de errores</a></p>
+    <p>4.3  <a href="#lista43">Mostrar Eventos</a></p>
     <p>4.4  <a href="#lista44">Fijar alertas</a></p>
-    <p>4.5  <a href="#lista45">Estadísticas de rendimiento</a></p>
+    <p>4.5  <a href="#lista45">Monitorización de logs</a></p>
+    <p>4.6  <a href="#lista46">Estadísticas de rendimiento</a></p>
+    <p>4.7  <a href="#lista47">Creación y gestión de nuevas Dashboard</a></p>
 
 <hr id="lista1" >
 <br>
@@ -742,6 +744,7 @@ pod/letschat-7c66bd64f5-44lxf   1/1     Running   0          11m    10.42.1.10  
 
 Tanto el controlador como el worker1 se han repartido la carga, siguen siendo 6 replicas y sigue estan operativa:
 ![PracticaImg](images/proyecto/letschatnodo1.png "letschatnodo1.png")
+![PracticaImg](images/proyecto/letschatconnect.png "letschatconnect.png")
 
 Ya hemos dado un buen repaso al cluster ahora comenzaremos con su monitorización y mas contenido que nos puede aportar new relic.
 </details>
@@ -767,16 +770,28 @@ New Relic utiliza New Relic One que es su plataforma de monitorizacion,logs y al
 
 </summary>
 
-No iremos nuevamente a [+ add more data] y selecionaremos en Cloud and platform technologies Kubernetes
+No iremos a [+ add more data] en la esquina superior derecha y selecionaremos en Cloud and platform technologies Kubernetes
 ![PracticaImg](images/proyecto/newrelic45.png "newrelic45.png")
 
-Le daremos un nombre para que new relic lo identifique
+Le daremos un nombre para que new relic lo identifique, el nombre que recibe el cluster en new relic es orientativo y no modifica nada en nuestro cluster.
 ![PracticaImg](images/proyecto/newrelic451.png "newrelic451.png")
 
-Seleccionamos el contenido adicional que vemos conveniente
+Podremos seleccionar contenido adicional, en mi caso deje los que se marcaban por defecto, en especial los dos ultimos marcados que me parecian mas interesantes: recopilar datos de registro y reducir la cantidad de datos ingeridos, esto hará que los datos obtenidos sean los justos y necesarios para lograr una correcta monitorización aumentando así la velocidad de refresco de los mismos.
 ![PracticaImg](images/proyecto/newrelic452.png "newrelic452.png")
 
-Iremos a nuestra maquina e instalaremos el codigo que nos proporciona.  
+Iremos a nuestra maquina e instalaremos el codigo que nos proporciona.
+```shell
+helm repo add newrelic https://helm-charts.newrelic.com && helm repo update && \
+minikube kubectl create namespace kube-system ; helm upgrade --install newrelic-bundle newrelic/nri-bundle \
+ --set global.licenseKey=eu01xx48059720c231a1080bc348906513e7NRAL \
+ --set global.cluster=minikube \
+ --namespace=kube-system \
+ --set newrelic-infrastructure.privileged=true \
+ --set global.lowDataMode=true \
+ --set ksm.enabled=true \
+ --set kubeEvents.enabled=true 
+```
+
 Nota:Si no tenemos instalado Helm sigue estas breves instrucciones.
 ```shell
 $ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
@@ -785,14 +800,20 @@ $ ./get_helm.sh
 ```
 ![PracticaImg](images/proyecto/newrelic453.png "newrelic453.png")
 
-Tendremos que esperar a que new relic recopile los datos necesarios para monitorizar nuestro cluster.
+Tendremos que esperar a que new relic recopile los primeros datos necesarios para monitorizar nuestro cluster.
 ![PracticaImg](images/proyecto/newrelic454.png "newrelic454.png")
 ![PracticaImg](images/proyecto/newrelic455.png "newrelic454.png")
 
-Una vez finalizado podremos explorar el cluster monitorizado!
+Una vez finalizado el proceso podremos explorar el cluster monitorizado!
 ![PracticaImg](images/proyecto/newrelic456.png "newrelic456.png")
 Como podemos comprobar nos muestra nuestro proyecto realizado anteriormente el cual constaba de 3 maquinas (controlador y 2 workers).
 
+Como podemos comprobar
+![PracticaImg](images/proyecto/newrelic457.png "newrelic457.png")
+
+![PracticaImg](images/proyecto/newrelic458.png "newrelic458.png")
+![PracticaImg](images/proyecto/newrelic459.png "newrelic459.png")
+![PracticaImg](images/proyecto/newrelic4510.png "newrelic4510.png")
 </details>
 
 <hr id="lista42" >
@@ -819,8 +840,11 @@ Comenzaremos monitorizando del trafico de nuestro navegador
 <details open>
 <summary>
 
-## 4.3 Monitorización de errores
+## 4.3 Mostrar eventos
 </summary>
+
+![PracticaImg](images/proyecto/newreliceventos.png "newreliceventos.png")
+![PracticaImg](images/proyecto/newreliceventos2.png "newreliceventos2.png")
 
 
 </details>
@@ -830,9 +854,15 @@ Comenzaremos monitorizando del trafico de nuestro navegador
 <details open>
 <summary>
 
-## 4.4 Fijar alertas
+## 4.4 Monitorización de Logs
 </summary>
 
+![PracticaImg](images/proyecto/newreliclogs.png "newreliclogs.png")
+![PracticaImg](images/proyecto/newreliclogs2.png "newreliclogs2.png")
+![PracticaImg](images/proyecto/newreliclogs3.png "newreliclogs3.png")
+
+detalles
+![PracticaImg](images/proyecto/newreliclogs4.png "newreliclogs4.png")
 
 </details>
 
@@ -841,12 +871,43 @@ Comenzaremos monitorizando del trafico de nuestro navegador
 <details open>
 <summary>
 
-## 4.5 Estadísticas de rendimiento
+## 4.5 Fijar alertas
+</summary>
+
+![PracticaImg](images/proyecto/newrelicalerts.png "newrelicalerts.png")
+![PracticaImg](images/proyecto/newrelicalert2.png "newrelicalert2.png")
+![PracticaImg](images/proyecto/newrelicalert3.png "newrelicalert3.png")
+![PracticaImg](images/proyecto/newrelicalert4.png "newrelicalert4.png")
+
+![PracticaImg](images/proyecto/newrelicalertlogs.png "newrelicalertlogs.png")
+![PracticaImg](images/proyecto/newrelicalertlogs2.png "newrelicalertlogs2.png")
+
+
+alerts&ai -> anomaly detection -> crear avisos slack
+</details>
+
+<hr id="lista46" >
+<br>
+<details open>
+<summary>
+
+## 4.6 Estadísticas de rendimiento
 </summary>
 
 
 </details>
 
+<hr id="lista47" >
+<br>
+<details open>
+<summary>
 
+## 4.7 Creación y gestión de nuevas Dashboard
+</summary>
+
+![PracticaImg](images/proyecto/newreliccreardashboard.png "newreliccreardashboard.png")
+
+
+</details>
 
 </details>
