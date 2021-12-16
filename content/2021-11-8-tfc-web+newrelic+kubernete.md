@@ -27,11 +27,11 @@ tags:
     <p>3.3  <a href="#lista33">Escenario: Desplieque de una aplicación web.</a></p>
 4. <a href="#lista4">Monitorización de nuestra aplicación con new relic.
     Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:</a>
-    <p>4.1  <a href="#lista41">Monitorizar Conexiones HTTP</a></p>
-    <p>4.2  <a href="#lista42">Monitorización de errores</a></p>
-    <p>4.3  <a href="#lista43">Fijar alertas</a></p>
-    <p>4.4  <a href="#lista44">Estadísticas de rendimiento</a></p>
-    <p>4.5  <a href="#lista45">Monitorización de un cluster de kubernetes</a></p>
+    <p>4.1  <a href="#lista41">Monitorización de un cluster de kubernetes</a></p>
+    <p>4.2  <a href="#lista42">Monitorizar Conexiones HTTP</a></p>
+    <p>4.3  <a href="#lista43">Monitorización de errores</a></p>
+    <p>4.4  <a href="#lista44">Fijar alertas</a></p>
+    <p>4.5  <a href="#lista45">Estadísticas de rendimiento</a></p>
 
 <hr id="lista1" >
 <br>
@@ -763,60 +763,7 @@ New Relic utiliza New Relic One que es su plataforma de monitorizacion,logs y al
 <details open>
 <summary>
 
-## 4.1 Monitorizar Conexiones HTTP(Navegador)
-</summary>
-
-Comenzaremos monitorizando del trafico de nuestro navegador
-
-![PracticaImg](images/proyecto/newrelic41.png "newrelic41.png")
-![PracticaImg](images/proyecto/newrelic411.png "newrelic411.png")
-
-
-
-
-
-</details>
-
-<hr id="lista42" >
-<br>
-<details open>
-<summary>
-
-## 4.2 Monitorización de errores
-</summary>
-
-
-</details>
-
-<hr id="lista43" >
-<br>
-<details open>
-<summary>
-
-## 4.3 Fijar alertas
-</summary>
-
-
-</details>
-
-<hr id="lista44" >
-<br>
-<details open>
-<summary>
-
-## 4.4 Estadísticas de rendimiento
-</summary>
-
-
-</details>
-
-
-<hr id="lista45" >
-<br>
-<details open>
-<summary>
-
-## 4.5 Monitorización de un cluster de kubernetes
+## 4.1 Monitorización de un cluster de kubernetes
 
 </summary>
 
@@ -847,4 +794,59 @@ Una vez finalizado podremos explorar el cluster monitorizado!
 Como podemos comprobar nos muestra nuestro proyecto realizado anteriormente el cual constaba de 3 maquinas (controlador y 2 workers).
 
 </details>
+
+<hr id="lista42" >
+<br>
+<details open>
+<summary>
+
+## 4.2 Monitorizar Conexiones HTTP(Navegador)
+</summary>
+
+Comenzaremos monitorizando del trafico de nuestro navegador
+
+![PracticaImg](images/proyecto/newrelic41.png "newrelic41.png")
+![PracticaImg](images/proyecto/newrelic411.png "newrelic411.png")
+
+
+
+
+
+</details>
+
+<hr id="lista43" >
+<br>
+<details open>
+<summary>
+
+## 4.3 Monitorización de errores
+</summary>
+
+
+</details>
+
+<hr id="lista44" >
+<br>
+<details open>
+<summary>
+
+## 4.4 Fijar alertas
+</summary>
+
+
+</details>
+
+<hr id="lista45" >
+<br>
+<details open>
+<summary>
+
+## 4.5 Estadísticas de rendimiento
+</summary>
+
+
+</details>
+
+
+
 </details>
