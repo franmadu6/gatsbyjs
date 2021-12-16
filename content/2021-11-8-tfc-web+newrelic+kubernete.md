@@ -915,16 +915,28 @@ detalles
 ## 4.5 Fijar alertas
 </summary>
 
+New relic cuenta con alertas predeterminadas que pueden aumentar según los objetos que tengas añadidos a el como(hosts,cluster de kubernetes,bdd,etc...). Posee varias secciones donde tiene alojadas diferentes alertas cada una relacionada con un objeto diferente como podemos ver acontinuación:
+
+- Alertas relacionadas con el cluster de kubernetes que tenemos creado:
 ![PracticaImg](images/proyecto/newrelicalerts.png "newrelicalerts.png")
-![PracticaImg](images/proyecto/newrelicalert2.png "newrelicalert2.png")
 ![PracticaImg](images/proyecto/newrelicalert3.png "newrelicalert3.png")
 ![PracticaImg](images/proyecto/newrelicalert4.png "newrelicalert4.png")
 
-![PracticaImg](images/proyecto/newrelicalertlogs.png "newrelicalertlogs.png")
+- Alertas globales o mas enfocadas con el host.
 ![PracticaImg](images/proyecto/newrelicalertlogs2.png "newrelicalertlogs2.png")
 
+También podemos crear nosotros mismo alertas en función de nuestras necesidades. Podemos crear alertas de dos maneras diferentes, mediante codigo:
+![PracticaImg](images/proyecto/newrelicalertlogs.png "newrelicalertlogs.png")
 
-alerts&ai -> anomaly detection -> crear avisos slack
+O atraves de su plataforma, la cual cuenta con bastantes opciones y ademas podremos hacer una mezcla entra ambas y generar una alerta que luego podamos modificar atraves de su codigo.
+![PracticaImg](images/proyecto/newrelicalert2.png "newrelicalert2.png")
+
+Podremos configurar tambien que nos mande avisos de algunas de las alertas mas importantes de manera predeterminada:
+![PracticaImg](images/proyecto/newrelicalert5.png "newrelicalert5.png")
+
+
+
+
 </details>
 
 <hr id="lista46" >
