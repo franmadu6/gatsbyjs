@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Thu, 16 Dec 2021 20:24:51 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 17 Dec 2021 08:30:56 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -2719,7 +2719,39 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97&lt;/code&gt;&lt
 &lt;summary&gt;
 &lt;h2 id=&quot;45-fijar-alertas&quot;&gt;&lt;a href=&quot;#45-fijar-alertas&quot; aria-label=&quot;45 fijar alertas permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.5 Fijar alertas&lt;/h2&gt;
 &lt;/summary&gt;
-&lt;p&gt;New relic cuenta con alertas predeterminadas que pueden aumentar según los objetos que tengas añadidos a el como(hosts,cluster de kubernetes,bdd,etc...). Posee varias secciones donde tiene alojadas diferentes alertas cada una relacionada con un objeto diferente como podemos ver acontinuación:&lt;/p&gt;
+&lt;p&gt;La alertas nos permiten configurar políticas de manera sólida y personalizada para cualquier cosa que pueda monitorizarse, New relic cuenta con alertas predeterminadas para(hosts,cluster de kubernetes,bdd,etc...) y tambien la creación de nuevas alertas para las todos los objetos monitorizados.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/4e5885a93142a829bf4281f10d51d3de/a987b/newrelicalertasyai.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.9375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABnUlEQVQoz4VRSY4bMQzsh/swbQfJ2PlCjvlIgAxyyCE/GMxit3vz9OJetFCqkJLb48klBAiRJbLEopLd1x12uy3S9A7r9RqbzSbEaboO+YItcXo577hmtVqF+H67Zb/Hl8+fkExaYzYGZV3DWAtyBOccPP5vUuO9hyWCJod+HJEMs4IV0BJmpSIZ54tLvmDXk5vJELx7rxPruo4nnCYms9dG4tduPWC3OCtQg0HzPGCoZzjvQr+Qtm2LZLwQGpatrGIZkVgK5dS8EuK7OGGcRoiVYEF2zMVamXBk3ZYsLEt4+XVCn81CGZrFHs8zytnwA14WBs9yxZqHJxy//+HH4t4/SmZC0oTnnzX6/RQXfiGsJo3jqGGE6Ibw7ccjDt9+A/T+fV3fIxFJYhN/SM/khmVenZtFwTRP0LwWHX6TQjwYxkDgUbhOsyZC0zZIFnblLGozoiWF1kU/e4NRd+jnCoM+YVA1zqri/Z3RFRlOr09oygyKRhg/8YRMmBcFirJEXhYoK4mjlzdn9Y8Llh8y5PsD8uzIdRX31nh53eMv/3fupy5dT7MAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;foto del panel de control de las alertas&quot;
+        src=&quot;/gatsbyjs/static/4e5885a93142a829bf4281f10d51d3de/36727/newrelicalertasyai.png&quot;
+        srcset=&quot;/gatsbyjs/static/4e5885a93142a829bf4281f10d51d3de/acf4b/newrelicalertasyai.png 173w,
+/gatsbyjs/static/4e5885a93142a829bf4281f10d51d3de/fc834/newrelicalertasyai.png 345w,
+/gatsbyjs/static/4e5885a93142a829bf4281f10d51d3de/36727/newrelicalertasyai.png 690w,
+/gatsbyjs/static/4e5885a93142a829bf4281f10d51d3de/17fa4/newrelicalertasyai.png 1035w,
+/gatsbyjs/static/4e5885a93142a829bf4281f10d51d3de/a5044/newrelicalertasyai.png 1380w,
+/gatsbyjs/static/4e5885a93142a829bf4281f10d51d3de/a987b/newrelicalertasyai.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Las alertas se dividen dependiendo del objeto que monitorizen, &lt;strong&gt;golden signals&lt;/strong&gt; son las que se utilizan de manera general pero tambien podemos contar con alertas relacionadas en este caso a kubernete la cual cuenta con un interfaz aparte y tambien vienen recogidas en otra sección.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Alertas relacionadas con el cluster de kubernetes que tenemos creado:
 &lt;span
@@ -2815,7 +2847,7 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97&lt;/code&gt;&lt
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Alertas globales o mas enfocadas con el host.
+&lt;li&gt;Alertas globales o &lt;strong&gt;golden signals&lt;/strong&gt;:
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -2937,6 +2969,101 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97&lt;/code&gt;&lt
 /gatsbyjs/static/a507fd20195c84703380d0c843705214/fc834/newrelicalert5.png 345w,
 /gatsbyjs/static/a507fd20195c84703380d0c843705214/f4d47/newrelicalert5.png 659w&quot;
         sizes=&quot;(max-width: 659px) 100vw, 659px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Por otra parte si se cumple alguna de las alertas creadas nos mandará un aviso a nuestro correo(se pueden poner mas de uno). En mi caso cree una simple para que me avisara cuando en el log apareciese la palabra &quot;OpenVPN&quot;, cuando encendí mi ordenador en casa y volvio a conectarse genero un log que este hizo que la alerta fuese enviada.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/6a5aa81a01bd68bfa61744bb85ba2aac/a987b/newreliccorreo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 24.479166666666668%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAABRklEQVQY0z3OO0vDYBTG8XxAcVAcCi4dNUZ7B8VLwcHFRUEQR4sWRfwGIoK6iIi20rtpkpLG3N62Nq3i8PdVisOP51w4cJTNXIy1TJx0SiOXXSGT1v4kE4sTKkktRlqdIqFOk1qaIaXOkFRnyWhz5NfibK3GWc/Os5qaR+k3d4n0HYR9zdC7ZezfMAruGPmyDm7l7J7ILjK29qU9omaOcSvNt57kq5Xgs7nCsKoRlJYxHjIooppn+LaNME8R7WMGnTN8/VQqELZPCKTQPCe0LhHWBaEhe6NA75dZoG+dyJsiQj+iV8uh+M8LRNYhgd/A7b4QCpOmXsE0yzhOjW63yrtMz61LDTyvhetKkxShzuCji23eYZc2UH5fjcwDhF8mcB7phXUM4xm784TnlHCdF7x3ufNe//muzIleWGHQb+EYV/SrWX4ARFJGbq5HgU0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newreliccorreo.png&quot;
+        src=&quot;/gatsbyjs/static/6a5aa81a01bd68bfa61744bb85ba2aac/36727/newreliccorreo.png&quot;
+        srcset=&quot;/gatsbyjs/static/6a5aa81a01bd68bfa61744bb85ba2aac/acf4b/newreliccorreo.png 173w,
+/gatsbyjs/static/6a5aa81a01bd68bfa61744bb85ba2aac/fc834/newreliccorreo.png 345w,
+/gatsbyjs/static/6a5aa81a01bd68bfa61744bb85ba2aac/36727/newreliccorreo.png 690w,
+/gatsbyjs/static/6a5aa81a01bd68bfa61744bb85ba2aac/17fa4/newreliccorreo.png 1035w,
+/gatsbyjs/static/6a5aa81a01bd68bfa61744bb85ba2aac/a5044/newreliccorreo.png 1380w,
+/gatsbyjs/static/6a5aa81a01bd68bfa61744bb85ba2aac/a987b/newreliccorreo.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/e834ffebd990217d87472b4c1311f48b/4d600/newreliccorreo2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.56412930135558%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAACDklEQVQoz3WRW08TURRG+/+ML8YQNfFNIvQilxqCwRi8xAcT/Qk8iZqgqRo1Jv4Baiy0IoQqUjqll6EdZubMfVpc7hlIBI0PK+ecnO+s7L1PZqF4mbmpMWYLVynkJ5meynEjP0GhMJmeE/K5CbLjF8heO8ekkD0hN36e2fxFbhWvMDd9iZuFMTLmzhLWziP8xkP6jRVM7RWqXcLpvMbrvSHsv8PX3xK2HhNrd4m0Bymxdp+oeY+gsYi/u4hVv0OnOk+mX3+CuX2buLuEsnQso4mreviewSg6JHJ1ho7OKLAZ+YrhCaPIJY49osDBl7Prh5jNF2T2v+Q4WL/O8OA5YQS2cgUvRTnJ6uO5IXEQpfwaHnEkeJ4vdw4qzTtYKqTzY0WElRmMjTyxvkwQDrEsU0I2tm2jhIGgmxa242AqJQ8Voe/jyJpkjnNyrwIGu1JhrzpDtzJB2F0mDEcitER4HPZEUmtqlCprfKh95dP2NuX9NvXBAONU7lgYYrekwsFGkYNqlqj3H2GrRUlkpfUqHze30IxDuqaJlYj+Eb4k065MY37LifCptHxWmLTVlWo0w6Atkpbsk3GMAj8dRypTfwmblQX6tSJeO/mU4Rmh67rovR7l1VXWPpdZ26zzrFznfW1XZur+kZ4W+j/nsbcKacv/VCgt27Jv7O3R7nTo9Q2+dwd0LBdPPsY+afu08Dce3r9pl4c4HAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newreliccorreo2.png&quot;
+        src=&quot;/gatsbyjs/static/e834ffebd990217d87472b4c1311f48b/36727/newreliccorreo2.png&quot;
+        srcset=&quot;/gatsbyjs/static/e834ffebd990217d87472b4c1311f48b/acf4b/newreliccorreo2.png 173w,
+/gatsbyjs/static/e834ffebd990217d87472b4c1311f48b/fc834/newreliccorreo2.png 345w,
+/gatsbyjs/static/e834ffebd990217d87472b4c1311f48b/36727/newreliccorreo2.png 690w,
+/gatsbyjs/static/e834ffebd990217d87472b4c1311f48b/17fa4/newreliccorreo2.png 1035w,
+/gatsbyjs/static/e834ffebd990217d87472b4c1311f48b/a5044/newreliccorreo2.png 1380w,
+/gatsbyjs/static/e834ffebd990217d87472b4c1311f48b/4d600/newreliccorreo2.png 1918w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Si entramos en los detalles de la alerta nos viene de manera gáfica cuando se genero:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/c184195f6146fd663634dd2ae7981b86/a987b/newreliccorreo3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.40625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABeElEQVQoz42S607CQBCF+yKi/OD2/u+hYmJMBAkFoSgGbLvda8vxzHI1GmOTL7MsM2fOzm5irIV1DqssQ1VVcFw3TYP/fDtht4v5oa5RKIXEUlA+v9lClyW89whBCPDOow71vpiFv9Ls4v+2sMjSFRKtdSwOLBSkW+wYBV1sIK4DkehowFn+9mGfW0sNqRtsN59nQZUrVErDagtTGRhtYCUKFPGGo4lihGvHRjUFvTQmMqS8LJDI3ERQuhpjTsRiOpL5GroxzNGMlk5oCXaWQk3GKCYve8YjvE+nFKRDJ10OR7tERAP3OawTnjNrKKyeHlEM71A+3EfU8BYfo2ckSpywoxzr0uHRpTRUPMUx5iVHw3HookCV56gYFaPlhW7WayTnNyA31pxu7/h0Kjp943PYSENegGBldvIyDtiDhJwqmS8WWCyXSGczTNP0B3GfpPM5Xpmb8b0uBdZ8g3sTmWG730d7MMBNr4dWp/Mr190uWgLXV38gOV+vpNUttMAGNQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newreliccorreo3.png&quot;
+        src=&quot;/gatsbyjs/static/c184195f6146fd663634dd2ae7981b86/36727/newreliccorreo3.png&quot;
+        srcset=&quot;/gatsbyjs/static/c184195f6146fd663634dd2ae7981b86/acf4b/newreliccorreo3.png 173w,
+/gatsbyjs/static/c184195f6146fd663634dd2ae7981b86/fc834/newreliccorreo3.png 345w,
+/gatsbyjs/static/c184195f6146fd663634dd2ae7981b86/36727/newreliccorreo3.png 690w,
+/gatsbyjs/static/c184195f6146fd663634dd2ae7981b86/17fa4/newreliccorreo3.png 1035w,
+/gatsbyjs/static/c184195f6146fd663634dd2ae7981b86/a5044/newreliccorreo3.png 1380w,
+/gatsbyjs/static/c184195f6146fd663634dd2ae7981b86/a987b/newreliccorreo3.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
