@@ -759,7 +759,11 @@ Ya hemos dado un buen repaso al cluster ahora comenzaremos con su monitorizació
 </summary>
 
 New Relic utiliza New Relic One que es su plataforma de monitorizacion,logs y alertas como ya hemos explicado anteriormente, ahora daremos paso a explicar detalladamente su uso.
-![PracticaImg](images/proyecto/newrelicmoni.png "newrelicmoni.png")
+
+Antes de entrar a detallar los diferentes aspectos y funciones de monitorización que pose New relic comenzaremos con la monitorización general, en mi caso la de mi maquina debian que actualmente es la que uso para el desarrollo del proyecto.
+![PracticaImg](images/proyecto/newrelicrendhost.png "newrelicrendhost.png")
+
+Como podemos observar a simple vista nos da bastantes datos diferentes como: el uso del CPU, la memoria usada, el trafico de red, disco usado, procesos que se estran ejecutando actualmente, media de carga, entre otros muchos. Es una interfaz sencilla y bastante detallada, de facil acceso ya que solo necesitaremos acceso a internet para poder acceder a su web donde mediante una cuenta podremos hacer uso de la plataforma.
 
 <hr id="lista41" >
 <br>
@@ -829,8 +833,6 @@ Comenzaremos monitorizando del trafico de nuestro navegador
 ![PracticaImg](images/proyecto/newrelic41.png "newrelic41.png")
 ![PracticaImg](images/proyecto/newrelic411.png "newrelic411.png")
 
-
-![PracticaImg](images/proyecto/newrelicnetwork.png "newrelicnetwork.png")
 ![PracticaImg](images/proyecto/newrelicnetwork2.png "newrelicnetwork2.png")
 
 
@@ -961,6 +963,7 @@ Si entramos en los detalles de la alerta nos viene de manera gáfica cuando se g
 
 ## 4.6 Estadísticas de rendimiento
 </summary>
+
 
 
 </details>
