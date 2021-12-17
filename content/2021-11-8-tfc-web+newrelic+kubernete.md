@@ -760,6 +760,7 @@ Ya hemos dado un buen repaso al cluster ahora comenzaremos con su monitorizació
 </summary>
 
 New Relic utiliza New Relic One que es su plataforma de monitorizacion,logs y alertas como ya hemos explicado anteriormente, ahora daremos paso a explicar detalladamente su uso.
+![PracticaImg](images/proyecto/newrelicmoni.png "newrelicmoni.png")
 
 <hr id="lista41" >
 <br>
@@ -943,7 +944,6 @@ Por otra parte si se cumple alguna de las alertas creadas nos mandará un aviso 
 
 Si entramos en los detalles de la alerta nos viene de manera gáfica cuando se genero:
 ![PracticaImg](images/proyecto/newreliccorreo3.png "newreliccorreo3.png")
-
 
 </details>
 
