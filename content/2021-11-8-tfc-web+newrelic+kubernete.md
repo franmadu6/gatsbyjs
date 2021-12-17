@@ -25,8 +25,7 @@ tags:
     <p>3.1  <a href="#lista31">Instalación de minikube.</a></p>
     <p>3.2  <a href="#lista32">Instalaciión de kubectl.</a></p>
     <p>3.3  <a href="#lista33">Escenario: Desplieque de una aplicación web.</a></p>
-4. <a href="#lista4">Monitorización de nuestra aplicación con new relic.
-    Aquí es donde te tienes que lucir: Explicando cada una de las características que podemos medir.. cada característica que vas a medir ponlo en un apartado:</a>
+4. <a href="#lista4">Monitorización de nuestra aplicación con new relic.</a>
     <p>4.1  <a href="#lista41">Monitorización de un cluster de kubernetes</a></p>
     <p>4.2  <a href="#lista42">Monitorizar Conexiones HTTP</a></p>
     <p>4.3  <a href="#lista43">Mostrar Eventos</a></p>
