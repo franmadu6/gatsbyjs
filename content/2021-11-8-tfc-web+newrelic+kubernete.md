@@ -915,14 +915,17 @@ detalles
 ## 4.5 Fijar alertas
 </summary>
 
-New relic cuenta con alertas predeterminadas que pueden aumentar según los objetos que tengas añadidos a el como(hosts,cluster de kubernetes,bdd,etc...). Posee varias secciones donde tiene alojadas diferentes alertas cada una relacionada con un objeto diferente como podemos ver acontinuación:
+La alertas nos permiten configurar políticas de manera sólida y personalizada para cualquier cosa que pueda monitorizarse, New relic cuenta con alertas predeterminadas para(hosts,cluster de kubernetes,bdd,etc...) y tambien la creación de nuevas alertas para las todos los objetos monitorizados.
+![PracticaImg](images/proyecto/newrelicalertasyai.png "foto del panel de control de las alertas")
+
+Las alertas se dividen dependiendo del objeto que monitorizen, **golden signals** son las que se utilizan de manera general pero tambien podemos contar con alertas relacionadas en este caso a kubernete la cual cuenta con un interfaz aparte y tambien vienen recogidas en otra sección.
 
 - Alertas relacionadas con el cluster de kubernetes que tenemos creado:
 ![PracticaImg](images/proyecto/newrelicalerts.png "newrelicalerts.png")
 ![PracticaImg](images/proyecto/newrelicalert3.png "newrelicalert3.png")
 ![PracticaImg](images/proyecto/newrelicalert4.png "newrelicalert4.png")
 
-- Alertas globales o mas enfocadas con el host.
+- Alertas globales o **golden signals**:
 ![PracticaImg](images/proyecto/newrelicalertlogs2.png "newrelicalertlogs2.png")
 
 También podemos crear nosotros mismo alertas en función de nuestras necesidades. Podemos crear alertas de dos maneras diferentes, mediante codigo:
@@ -934,7 +937,12 @@ O atraves de su plataforma, la cual cuenta con bastantes opciones y ademas podre
 Podremos configurar tambien que nos mande avisos de algunas de las alertas mas importantes de manera predeterminada:
 ![PracticaImg](images/proyecto/newrelicalert5.png "newrelicalert5.png")
 
+Por otra parte si se cumple alguna de las alertas creadas nos mandará un aviso a nuestro correo(se pueden poner mas de uno). En mi caso cree una simple para que me avisara cuando en el log apareciese la palabra "OpenVPN", cuando encendí mi ordenador en casa y volvio a conectarse genero un log que este hizo que la alerta fuese enviada.
+![PracticaImg](images/proyecto/newreliccorreo.png "newreliccorreo.png")
+![PracticaImg](images/proyecto/newreliccorreo2.png "newreliccorreo2.png")
 
+Si entramos en los detalles de la alerta nos viene de manera gáfica cuando se genero:
+![PracticaImg](images/proyecto/newreliccorreo3.png "newreliccorreo3.png")
 
 
 </details>
