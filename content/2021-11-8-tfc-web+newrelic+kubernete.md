@@ -814,7 +814,7 @@ Como podemos comprobar
 
 ![PracticaImg](images/proyecto/newrelic458.png "newrelic458.png")
 ![PracticaImg](images/proyecto/newrelic459.png "newrelic459.png")
-![PracticaImg](images/proyecto/newrelic4510.png "newrelic4510.png")
+
 </details>
 
 <hr id="lista42" >
