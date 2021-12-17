@@ -884,11 +884,14 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97
 ## 4.3 Mostrar eventos
 </summary>
 
-La API de eventos de New Relic es una forma de informar eventos personalizados a New Relic. La API de eventos le permite enviar datos de eventos personalizados a su cuenta de New Relic con un comando POST. Luego, estos eventos se pueden consultar y crear gráficos mediante NRQL(Lenguaje de consulta de New Relic) .
-
+La API de eventos de New Relic es una forma de informar eventos personalizados a New Relic, permite enviar datos de eventos personalizados a nuestra cuenta con un comando POST. Luego, estos eventos se pueden consultar y crear gráficos mediante NRQL(Lenguaje de consulta de New Relic).
 ![PracticaImg](images/proyecto/newreliceventos.png "newreliceventos.png")
+
+Eventos en New Relic:
+En New Relic, los eventos tienen varios atributos (pares clave-valor) adjuntos. Los datos de los eventos se utilizan en algunos gráficos y tablas de la interfaz de usuario, y también podemos consultarlos. El tiempo que permanecen disponibles los datos de eventos está determinado por las reglas de retención de datos(Que podemos modficar).
 ![PracticaImg](images/proyecto/newreliceventos2.png "newreliceventos2.png")
 
+Existen bastantes eventos de manera prederterminada, que se dividen dependiendo los productos que tenemos configurados en new relic(Listado de tipos de eventos)[https://docs.newrelic.com/docs/data-apis/understand-data/event-data/default-events-reported-new-relic-products/].
 
 </details>
 
@@ -907,7 +910,7 @@ Podremos buscar atraves de una interfaz sencilla el registro que necesitemos, ta
 ![PracticaImg](images/proyecto/newreliclogs2.png "newreliclogs2.png")
 ![PracticaImg](images/proyecto/newreliclogs3.png "newreliclogs3.png")
 
-Además podremos ver mas detalladamente el log segmentado.
+Además podremos ver de forma detalla el log segmentado.
 ![PracticaImg](images/proyecto/newreliclogs4.png "newreliclogs4.png")
 
 </details>
