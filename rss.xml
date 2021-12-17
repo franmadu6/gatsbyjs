@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 17 Dec 2021 08:46:29 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Fri, 17 Dec 2021 22:29:20 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -889,7 +889,7 @@ Aquí es donde te tienes que lucir: Explicando cada una de las características 
 &lt;p&gt;4.2  &lt;a href=&quot;#lista42&quot;&gt;Monitorizar Conexiones HTTP&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;4.3  &lt;a href=&quot;#lista43&quot;&gt;Mostrar Eventos&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;4.4  &lt;a href=&quot;#lista44&quot;&gt;Fijar alertas&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4.5  &lt;a href=&quot;#lista45&quot;&gt;Monitorización de logs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.5  &lt;a href=&quot;#lista45&quot;&gt;Gestión de logs&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;4.6  &lt;a href=&quot;#lista46&quot;&gt;Estadísticas de rendimiento&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;4.7  &lt;a href=&quot;#lista47&quot;&gt;Creación y gestión de nuevas Dashboard&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -2376,8 +2376,7 @@ Como podemos comprobar nos muestra nuestro proyecto realizado anteriormente el c
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
-&lt;img src=&quot;images/proyecto/newrelic4510.png&quot; alt=&quot;PracticaImg&quot; title=&quot;newrelic4510.png&quot;&gt;&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;hr id=&quot;lista42&quot; &gt;
 &lt;br&gt;
@@ -2549,6 +2548,7 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97&lt;/code&gt;&lt
 &lt;summary&gt;
 &lt;h2 id=&quot;43-mostrar-eventos&quot;&gt;&lt;a href=&quot;#43-mostrar-eventos&quot; aria-label=&quot;43 mostrar eventos permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.3 Mostrar eventos&lt;/h2&gt;
 &lt;/summary&gt;
+&lt;p&gt;La API de eventos de New Relic es una forma de informar eventos personalizados a New Relic. La API de eventos le permite enviar datos de eventos personalizados a su cuenta de New Relic con un comando POST. Luego, estos eventos se pueden consultar y crear gráficos mediante NRQL(Lenguaje de consulta de New Relic) .&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -2616,9 +2616,10 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97&lt;/code&gt;&lt
 &lt;br&gt;
 &lt;details open&gt;
 &lt;summary&gt;
-&lt;h2 id=&quot;44-monitorización-de-logs&quot;&gt;&lt;a href=&quot;#44-monitorizaci%C3%B3n-de-logs&quot; aria-label=&quot;44 monitorización de logs permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.4 Monitorización de Logs&lt;/h2&gt;
+&lt;h2 id=&quot;44-gestión-de-logs&quot;&gt;&lt;a href=&quot;#44-gesti%C3%B3n-de-logs&quot; aria-label=&quot;44 gestión de logs permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.4 Gestión de Logs&lt;/h2&gt;
 &lt;/summary&gt;
-&lt;p&gt;&lt;span
+&lt;p&gt;New relic gestiona los registros de manera rapida y sencilla, podemos buscar instántaneamente los registro, visualizarlos directamente desde la IU de registros, ademas podemos crear graficos y alertas(Que las veremos en el siguiente punto 4.5).
+&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -2648,7 +2649,8 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97&lt;/code&gt;&lt
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Podremos buscar atraves de una interfaz sencilla el registro que necesitemos, también podemos desglosar el log y buscar datos similares como podemos apreciar en la siguiente imagen en la que para el mismo registro tenemos varias ips diferentes:
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -2711,7 +2713,7 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97&lt;/code&gt;&lt
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;detalles
+&lt;p&gt;Además podremos ver mas detalladamente el log segmentado.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
