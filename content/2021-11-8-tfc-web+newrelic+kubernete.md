@@ -31,7 +31,7 @@ tags:
     <p>4.2  <a href="#lista42">Monitorizar Conexiones HTTP</a></p>
     <p>4.3  <a href="#lista43">Mostrar Eventos</a></p>
     <p>4.4  <a href="#lista44">Fijar alertas</a></p>
-    <p>4.5  <a href="#lista45">Monitorización de logs</a></p>
+    <p>4.5  <a href="#lista45">Gestión de logs</a></p>
     <p>4.6  <a href="#lista46">Estadísticas de rendimiento</a></p>
     <p>4.7  <a href="#lista47">Creación y gestión de nuevas Dashboard</a></p>
 
@@ -885,6 +885,8 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97
 ## 4.3 Mostrar eventos
 </summary>
 
+La API de eventos de New Relic es una forma de informar eventos personalizados a New Relic. La API de eventos le permite enviar datos de eventos personalizados a su cuenta de New Relic con un comando POST. Luego, estos eventos se pueden consultar y crear gráficos mediante NRQL(Lenguaje de consulta de New Relic) .
+
 ![PracticaImg](images/proyecto/newreliceventos.png "newreliceventos.png")
 ![PracticaImg](images/proyecto/newreliceventos2.png "newreliceventos2.png")
 
@@ -896,14 +898,17 @@ ec4c1cd7df1e240d62825ed0b0353046687592f3f5da9d5b23bfd8e627eadf97
 <details open>
 <summary>
 
-## 4.4 Monitorización de Logs
+## 4.4 Gestión de Logs
 </summary>
 
+New relic gestiona los registros de manera rapida y sencilla, podemos buscar instántaneamente los registro, visualizarlos directamente desde la IU de registros, ademas podemos crear graficos y alertas(Que las veremos en el siguiente punto 4.5).
 ![PracticaImg](images/proyecto/newreliclogs.png "newreliclogs.png")
+
+Podremos buscar atraves de una interfaz sencilla el registro que necesitemos, también podemos desglosar el log y buscar datos similares como podemos apreciar en la siguiente imagen en la que para el mismo registro tenemos varias ips diferentes:
 ![PracticaImg](images/proyecto/newreliclogs2.png "newreliclogs2.png")
 ![PracticaImg](images/proyecto/newreliclogs3.png "newreliclogs3.png")
 
-detalles
+Además podremos ver mas detalladamente el log segmentado.
 ![PracticaImg](images/proyecto/newreliclogs4.png "newreliclogs4.png")
 
 </details>
