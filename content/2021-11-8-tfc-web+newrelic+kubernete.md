@@ -26,12 +26,12 @@ tags:
     <p>3.2  <a href="#lista32">Instalaciión de kubectl.</a></p>
     <p>3.3  <a href="#lista33">Escenario: Desplieque de una aplicación web.</a></p>
 4. <a href="#lista4">Monitorización de nuestra aplicación con new relic.</a>
-    <p>4.1  <a href="#lista41">Monitorización de un cluster de kubernetes</a></p>
-    <p>4.2  <a href="#lista42">Monitorización Web</a></p>
-    <p>4.3  <a href="#lista43">Mostrar Eventos</a></p>
-    <p>4.4  <a href="#lista44">Fijar alertas</a></p>
-    <p>4.5  <a href="#lista45">Gestión de logs</a></p>
-    <p>4.6  <a href="#lista46">Creación y gestión de nuevos paneles de control personalizables</a></p>
+    <p>4.1  <a href="#lista41">Monitorización de un cluster de kubernetes.</a></p>
+    <p>4.2  <a href="#lista42">Monitorización Web.</a></p>
+    <p>4.3  <a href="#lista43">Mostrar Eventos.</a></p>
+    <p>4.4  <a href="#lista44">Fijar alertas.</a></p>
+    <p>4.5  <a href="#lista45">Gestión de logs.</a></p>
+    <p>4.6  <a href="#lista46">Creación y gestión de nuevos paneles de control personalizables.</a></p>
 
 <hr id="lista1" >
 <br>
@@ -948,7 +948,7 @@ Si entramos en los detalles de la alerta nos viene de manera gáfica cuando se g
 <details open>
 <summary>
 
-## 4.6 Creación y gestión de nuevas Dashboard
+## 4.6 Creación y gestión de nuevos paneles de control personalizables
 </summary>
 
 Con new relic podremos crear paneles de control totalmente personalizables, en los que recopilar los datos que nos sean mas importantes a simple vista de nuestros proyectos.
