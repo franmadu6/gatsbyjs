@@ -969,6 +969,6 @@ Y del uso del cpu del controlador de nuestro cluster de kubernetes.
 ![PracticaImg](images/proyecto/newrelicdb8.png "newreliccdb8.png")
 </details>
 
-En conclusión new relic nos aporta muchisimos recursos diferentes para la monitorización que podemos incluso agruparlos a nuestras necesidad y que el acceso a los mismos estan sencillo como entrar en su web desde cualquier dispositivo atraves de nuestra cuenta, tiene una interfaz bastante intuitiva y sencilla que a poco que indagas ves lo profunda que puede llegar a ser.
+En conclusión New Relic nos aporta muchisimos recursos diferentes para la monitorización que podemos incluso agruparlos a nuestras necesidades y que el acceso a los mismos estan sencillo como entrar en su web desde cualquier dispositivo atraves de nuestra cuenta. Tiene una interfaz bastante intuitiva y sencilla que a poco que indagas ves lo profunda que puede llegar a ser.
 
 </details>
