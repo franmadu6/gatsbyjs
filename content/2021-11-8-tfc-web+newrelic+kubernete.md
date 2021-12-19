@@ -31,7 +31,7 @@ tags:
     <p>4.3  <a href="#lista43">Mostrar Eventos</a></p>
     <p>4.4  <a href="#lista44">Fijar alertas</a></p>
     <p>4.5  <a href="#lista45">Gestión de logs</a></p>
-    <p>4.6  <a href="#lista47">Creación y gestión de nuevas Dashboard</a></p>
+    <p>4.6  <a href="#lista46">Creación y gestión de nuevos paneles de control personalizables</a></p>
 
 <hr id="lista1" >
 <br>
