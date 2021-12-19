@@ -957,14 +957,14 @@ Para crear un nuevo panel deberemos de darle al panel pequeño como el que se en
 ![PracticaImg](images/proyecto/newreliccreatedashboard.png "newreliccreatedashboard.png")
 ![PracticaImg](images/proyecto/newrelicdb2.png "newreliccdb2.png")
 
-El panel creado es totalmente personalizable, desde la posición de los elementos como la creación de nuevos gráficos.
+El panel creado es totalmente personalizable, desde la posición de los elementos como la creación de nuevos gráficos, añadiremos como ejemplo el uso de disco de nuestro host.
 ![PracticaImg](images/proyecto/newrelicdb4.png "newreliccdb4.png")
 ![PracticaImg](images/proyecto/newrelicdb5.png "newreliccdb5.png")
 
-Lo mas interesante es la inserción graficos externos al host como por ejemplo los de nuestra pagina web.
+Lo mas interesante es la inserción graficos externos al host como por ejemplo el rendimiento por pagina de nuestra web.
 ![PracticaImg](images/proyecto/newrelicdb6.png "newreliccdb6.png")
 
-Y de nuestro cluster de kubernetes.
+Y del uso del cpu del controlador de nuestro cluster de kubernetes.
 ![PracticaImg](images/proyecto/newrelicdb7.png "newreliccdb7.png")
 ![PracticaImg](images/proyecto/newrelicdb8.png "newreliccdb8.png")
 </details>
