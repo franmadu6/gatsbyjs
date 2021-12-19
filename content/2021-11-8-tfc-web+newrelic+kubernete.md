@@ -31,8 +31,7 @@ tags:
     <p>4.3  <a href="#lista43">Mostrar Eventos</a></p>
     <p>4.4  <a href="#lista44">Fijar alertas</a></p>
     <p>4.5  <a href="#lista45">Gestión de logs</a></p>
-    <p>4.6  <a href="#lista46">Estadísticas de rendimiento</a></p>
-    <p>4.7  <a href="#lista47">Creación y gestión de nuevas Dashboard</a></p>
+    <p>4.6  <a href="#lista47">Creación y gestión de nuevas Dashboard</a></p>
 
 <hr id="lista1" >
 <br>
@@ -949,24 +948,27 @@ Si entramos en los detalles de la alerta nos viene de manera gáfica cuando se g
 <details open>
 <summary>
 
-## 4.6 Estadísticas de rendimiento
+## 4.6 Creación y gestión de nuevas Dashboard
 </summary>
 
+Con new relic podremos crear paneles de control totalmente personalizables, en los que recopilar los datos que nos sean mas importantes a simple vista de nuestros proyectos.
 
+Para crear un nuevo panel deberemos de darle al panel pequeño como el que se encuentra en la imagen, le daremos un nombre orientativo y copiaremos el panel de nuestro host(debian) como base.
+![PracticaImg](images/proyecto/newreliccreatedashboard.png "newreliccreatedashboard.png")
+![PracticaImg](images/proyecto/newrelicdb2.png "newreliccdb2.png")
 
+El panel creado es totalmente personalizable, desde la posición de los elementos como la creación de nuevos gráficos.
+![PracticaImg](images/proyecto/newrelicdb4.png "newreliccdb4.png")
+![PracticaImg](images/proyecto/newrelicdb5.png "newreliccdb5.png")
+
+Lo mas interesante es la inserción graficos externos al host como por ejemplo los de nuestra pagina web.
+![PracticaImg](images/proyecto/newrelicdb6.png "newreliccdb6.png")
+
+Y de nuestro cluster de kubernetes.
+![PracticaImg](images/proyecto/newrelicdb7.png "newreliccdb7.png")
+![PracticaImg](images/proyecto/newrelicdb8.png "newreliccdb8.png")
 </details>
 
-<hr id="lista47" >
-<br>
-<details open>
-<summary>
-
-## 4.7 Creación y gestión de nuevas Dashboard
-</summary>
-
-![PracticaImg](images/proyecto/newreliccreardashboard.png "newreliccreardashboard.png")
-
-
-</details>
+En conclusión new relic nos aporta muchisimos recursos diferentes para la monitorización que podemos incluso agruparlos a nuestras necesidad y que el acceso a los mismos estan sencillo como entrar en su web desde cualquier dispositivo atraves de nuestra cuenta, tiene una interfaz bastante intuitiva y sencilla que a poco que indagas ves lo profunda que puede llegar a ser.
 
 </details>
