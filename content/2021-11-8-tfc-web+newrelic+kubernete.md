@@ -27,7 +27,7 @@ tags:
     <p>3.3  <a href="#lista33">Escenario: Desplieque de una aplicación web.</a></p>
 4. <a href="#lista4">Monitorización de nuestra aplicación con new relic.</a>
     <p>4.1  <a href="#lista41">Monitorización de un cluster de kubernetes</a></p>
-    <p>4.2  <a href="#lista42">Monitorizar Conexiones HTTP</a></p>
+    <p>4.2  <a href="#lista42">Monitorización Web</a></p>
     <p>4.3  <a href="#lista43">Mostrar Eventos</a></p>
     <p>4.4  <a href="#lista44">Fijar alertas</a></p>
     <p>4.5  <a href="#lista45">Gestión de logs</a></p>
@@ -828,23 +828,56 @@ Como podemos comprobar
 ## 4.2 Monitorización web
 </summary>
 
+Podemos obtener una visibilidad completa del ciclo de vida completo de nuestro sitio web o la página web de una aplicación. El navegador mide el tiempo de carga de la página, también conocido como Real User Monitoring (RUM). Pero va mucho más allá de eso para medir:
+
+Datos de rendimiento real, como por popularidad de visitas a la página , filtrados por regiones geográficas importantes para su negocio o por puntajes de satisfacción del usuario (Apdex)
+
+Datos de rendimiento percibido que mide la rapidez con sus asincrónicos o dinámicas visuales y contenidos de la página interactiva de visualización
+
+Análisis de errores de JavaScript , seguimientos de pila y mapas de origen con visibilidad de línea de código, para mostrarle los pasos del usuario final que conducen a un error en sí.
+
+Rendimiento de la sesión con un cronograma detallado y un mapa de calor de los eventos de carga e interacción durante el ciclo de vida completo de una página web
+
+Solicitudes AJAX que indican problemas con el tiempo, los puntos finales y ubicaciones específicas en la página web.
+
+Cambios de ruta basados ​​en hash en aplicaciones con arquitecturas de aplicaciones de una sola página (SPA)
+
 Podremos monitorizar el trafico de nuestra web, para ello nos iremos a la opción de añadir nuevos datos y seleccionaremos **Browser metrics**.
 ![PracticaImg](images/proyecto/newrelicbrowsermetrics.png "newrelicbrowsermetrics.png")
 
+Seleccionaremos los parametros que se adapten a nuestro sitio, como puede ser que sea externo a la aplicación(sitio web) o que ya se esten recogiendo algun tipo de datos del mismo(app web), los datos que recogerá el nombre de nuestra aplicación y nos desplegará un script para que lo podamos implementar en nuestro sitio:
 ![PracticaImg](images/proyecto/newrelicbrowser1.png "newrelicbrowser1.png")
 ![PracticaImg](images/proyecto/newrelicbrowser2.png "newrelicbrowser2.png")
 
+
+En mi caso lo implemente en una web que tengo subida a los servidores de github: https://github.com/franmadu6/madufit
+![PracticaImg](images/proyecto/madufit.png "madufit.png")
+
+Una vez añadido el script a la web deberemos de esperar entre 1-3 minutos para que new relic recopile los datos necesarios para la monitorización, una vez finalizada ya dispondremos de nuestra web en la plataforma:
 ![PracticaImg](images/proyecto/newrelicbrowser3.png "newrelicbrowser3.png")
 
 
+New relic recoge bastantes datos sobre nuestra web, para obtener algun registro mas aparte del mio le mande a varios amigos en link para que accedieran y asi registrar algunos datos mas.
 
+Estos son algunos de los datos que new relic recoge y monitoriza de nuestra web:
+* Core Web Vitals: carga de contenido(LCP) , interactividad en la web(FID) y la estabilidad visual(CLS).
+* El tiempo que estan los usuarios en la web, el tiempo en cargar la ventana.
+* Las horas a la que acceden los usuarios a nuestra web.
+* Desde que tipo de dispositivo acceden(cuanto tarda la carga completa de la web).
+* Que navegador utilizan para acceder.
+* Si posee algun error de javascript el codigo.
 ![PracticaImg](images/proyecto/newrelicbrowser4.png "newrelicbrowser4.png")
 ![PracticaImg](images/proyecto/newrelicbrowser5.png "newrelicbrowser5.png")
 
+Estos mismos datos los podemos ver de manera bastante mas detallada como podemos ver acontinuación:
 ![PracticaImg](images/proyecto/newrelicbrowser6.png "newrelicbrowser6.png")
 ![PracticaImg](images/proyecto/newrelicbrowser7.png "newrelicbrowser7.png")
 ![PracticaImg](images/proyecto/newrelicbrowser8.png "newrelicbrowser8.png")
+
+Tambien podremos observar desde que partes del mundo acceden a nuestra web:
 ![PracticaImg](images/proyecto/newrelicbrowser9.png "newrelicbrowser9.png")
+
+New relic recopila bastante información de todos los datos que podemos obtener de nuestra web trasladandolos a su plataforma, que aparte de su visualización podremos poner alertas para que nos avise si sucede algun error que complique el funcionamiento de la misma.
 </details>
 
 <hr id="lista43" >
