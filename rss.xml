@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sun, 19 Dec 2021 18:17:46 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sun, 19 Dec 2021 19:49:09 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -889,8 +889,7 @@ hello-minikube   NodePort   &lt;span class=&quot;token number&quot;&gt;10.98&lt;
 &lt;p&gt;4.3  &lt;a href=&quot;#lista43&quot;&gt;Mostrar Eventos&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;4.4  &lt;a href=&quot;#lista44&quot;&gt;Fijar alertas&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;4.5  &lt;a href=&quot;#lista45&quot;&gt;Gestión de logs&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4.6  &lt;a href=&quot;#lista46&quot;&gt;Estadísticas de rendimiento&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4.7  &lt;a href=&quot;#lista47&quot;&gt;Creación y gestión de nuevas Dashboard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.6  &lt;a href=&quot;#lista47&quot;&gt;Creación y gestión de nuevas Dashboard&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr id=&quot;lista1&quot; &gt;
@@ -3300,44 +3299,229 @@ En New Relic, los eventos tienen varios atributos (pares clave-valor) adjuntos. 
 &lt;br&gt;
 &lt;details open&gt;
 &lt;summary&gt;
-&lt;h2 id=&quot;46-estadísticas-de-rendimiento&quot;&gt;&lt;a href=&quot;#46-estad%C3%ADsticas-de-rendimiento&quot; aria-label=&quot;46 estadísticas de rendimiento permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.6 Estadísticas de rendimiento&lt;/h2&gt;
+&lt;h2 id=&quot;46-creación-y-gestión-de-nuevas-dashboard&quot;&gt;&lt;a href=&quot;#46-creaci%C3%B3n-y-gesti%C3%B3n-de-nuevas-dashboard&quot; aria-label=&quot;46 creación y gestión de nuevas dashboard permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.6 Creación y gestión de nuevas Dashboard&lt;/h2&gt;
 &lt;/summary&gt;
-&lt;/details&gt;
-&lt;hr id=&quot;lista47&quot; &gt;
-&lt;br&gt;
-&lt;details open&gt;
-&lt;summary&gt;
-&lt;h2 id=&quot;47-creación-y-gestión-de-nuevas-dashboard&quot;&gt;&lt;a href=&quot;#47-creaci%C3%B3n-y-gesti%C3%B3n-de-nuevas-dashboard&quot; aria-label=&quot;47 creación y gestión de nuevas dashboard permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.7 Creación y gestión de nuevas Dashboard&lt;/h2&gt;
-&lt;/summary&gt;
-&lt;p&gt;&lt;span
+&lt;p&gt;Con new relic podremos crear paneles de control totalmente personalizables, en los que recopilar los datos que nos sean mas importantes a simple vista de nuestros proyectos.&lt;/p&gt;
+&lt;p&gt;Para crear un nuevo panel deberemos de darle al panel pequeño como el que se encuentra en la imagen, le daremos un nombre orientativo y copiaremos el panel de nuestro host(debian) como base.
+&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 611px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsbyjs/static/95ecb56edd7d0e94ffe1c7607e43f5e9/f21ab/newreliccreardashboard.png&quot;
+    href=&quot;/gatsbyjs/static/97761479095ce8380129674d04a4530d/a987b/newreliccreatedashboard.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 137.64320785597383%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAACXBIWXMAAAsSAAALEgHS3X78AAACqUlEQVRIx6VV227aQBDlv/oJlfofRXlA5Q4Gw1u/oY+p+tBG7S9UlAAqUYIapWqrBikREK7iHmyMzenM4rUc11gRjHQ0BtvHc/bMzoaSqRRSNrLZLCKRCMrlMjgsy4I3ttutLzh0XUconU5Dgglfn5zga6m0e2C9hmma2Gw2MAxD5H0hSUO5XA4SqqoiFouhWq2Km52HB4wnE/QHA3S6XZGZVMD+EIM/KisNKYoCiXw+j2g06hDOZjMslkusVishh6FpGh7pt8yMFV3L8K2wVquJm39ub9GmKvkFzSYTxLQUTiaIewRRIZNIFItFJBIJVG1CljlfLJ5gOp9jSpV7MaP/BSHLlCgUCojH447kqS2ZH+a1nEynvs67w5dQSma5g9EIPTKDZbPTknBf64RUIlLV/E4yEbJkSfi32UTz7g7dfl9UxxWPKXO1XojqWXKGzMgoOaTZaSKNRGOo2JLvWy1RJcuWvbgmGH6g+2INc1ShQoQZamqVKnzDbUMV8kO1eh31y0tcXF2hcX2Ni0YD3V5vt4voZZNgueDjcgFJdtmuULSJ3SLu1gg0RSHJEnkijVIfViqVJ9vJHSxf11b43urgw48bfP75G2c3v/CFsr4xPYS8U4jw3CZ0bykOXsf7dhvj4RBvSxW8eHeKV+8/4eXpR5GnGg0HHggM3nqybaQpTOg3APymjyM5xZMmkwkkdL/kJfCSO6a4G9uPMGgWuvHfTkm4XPZKfk44puRsU2Iulw8ijJFEdjaZTIKvw+EwvtlHwEGEbAgjS6ZkKPOZcn5Mhc5OIbnOPDxmDd2mMLFw+ZgK5XnCpngH7EGE4ky2j1C/Ptw3SPc1eGBjY2sFnsHPPgKk5OHCwGRlYvxoYrQ06beJhW4FVxhEqBt0mJtbGAR9s8umFSz5HzXjr34F4vM7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 7.34375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAOUlEQVQI113GwQ2AIBAFUfvvzQOViCJ/YZdkSAwXObzMHGdKvOXGTMQYeMQnVvf/caf1ziNxychVTD+LTcoqOFj8AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PracticaImg&quot;
-        title=&quot;newreliccreardashboard.png&quot;
-        src=&quot;/gatsbyjs/static/95ecb56edd7d0e94ffe1c7607e43f5e9/f21ab/newreliccreardashboard.png&quot;
-        srcset=&quot;/gatsbyjs/static/95ecb56edd7d0e94ffe1c7607e43f5e9/acf4b/newreliccreardashboard.png 173w,
-/gatsbyjs/static/95ecb56edd7d0e94ffe1c7607e43f5e9/fc834/newreliccreardashboard.png 345w,
-/gatsbyjs/static/95ecb56edd7d0e94ffe1c7607e43f5e9/f21ab/newreliccreardashboard.png 611w&quot;
-        sizes=&quot;(max-width: 611px) 100vw, 611px&quot;
+        title=&quot;newreliccreatedashboard.png&quot;
+        src=&quot;/gatsbyjs/static/97761479095ce8380129674d04a4530d/36727/newreliccreatedashboard.png&quot;
+        srcset=&quot;/gatsbyjs/static/97761479095ce8380129674d04a4530d/acf4b/newreliccreatedashboard.png 173w,
+/gatsbyjs/static/97761479095ce8380129674d04a4530d/fc834/newreliccreatedashboard.png 345w,
+/gatsbyjs/static/97761479095ce8380129674d04a4530d/36727/newreliccreatedashboard.png 690w,
+/gatsbyjs/static/97761479095ce8380129674d04a4530d/17fa4/newreliccreatedashboard.png 1035w,
+/gatsbyjs/static/97761479095ce8380129674d04a4530d/a5044/newreliccreatedashboard.png 1380w,
+/gatsbyjs/static/97761479095ce8380129674d04a4530d/a987b/newreliccreatedashboard.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/220877f64ff770800cf21e8c2e08ad30/a987b/newrelicdb2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.51041666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABRklEQVQoz21R2VLDMAz0L1Hgtde/81CGfgN9oc3RCY1z+lykxG7cDsrsKJZ17Mri43DA5/EL1lo452AJ0ZsQc84Hv8RtgDIGg1K4dT0q2UA0bYtaSnjvH2AoUWkNz42okH28U9SAm6X5bLKuIXgqW2TgQqG9s3tE2sg5Q5jz2Or6BjEMQyj+r0GQ6mfvwxcZpkPYbsxQkyy2Z8nOL2yjJNVq6M6g7TpIWhPXjuOItu1oRRZV9Quh9DyNd2aTR1BmhDY6SJvZ9XLEQJgIuHlIJDPtkIYkkl2yGzcVRKl8L5uGXtdgVNSUaqZHI+mR5cywgkBiPpmWGjPmIr7jxvzPg/pAZgjnsiwhsqJAzqBDREEor9c7OHbJsin+cz7jkmf3GNde8hwF5X2fThDv+z0Yb7sdXjabBev1AjqvQmyV3K+e8l+3W/wB9Evhy1x8wIkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newreliccdb2.png&quot;
+        src=&quot;/gatsbyjs/static/220877f64ff770800cf21e8c2e08ad30/36727/newrelicdb2.png&quot;
+        srcset=&quot;/gatsbyjs/static/220877f64ff770800cf21e8c2e08ad30/acf4b/newrelicdb2.png 173w,
+/gatsbyjs/static/220877f64ff770800cf21e8c2e08ad30/fc834/newrelicdb2.png 345w,
+/gatsbyjs/static/220877f64ff770800cf21e8c2e08ad30/36727/newrelicdb2.png 690w,
+/gatsbyjs/static/220877f64ff770800cf21e8c2e08ad30/17fa4/newrelicdb2.png 1035w,
+/gatsbyjs/static/220877f64ff770800cf21e8c2e08ad30/a5044/newrelicdb2.png 1380w,
+/gatsbyjs/static/220877f64ff770800cf21e8c2e08ad30/a987b/newrelicdb2.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;El panel creado es totalmente personalizable, desde la posición de los elementos como la creación de nuevos gráficos.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/777f66ae0e466160533ce66855914d21/4d600/newrelicdb4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.45985401459854%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABw0lEQVQoz4WSTU/bQBCG/c849AZUKgegveRK1CgSh9hOaErc/ATEhVOkBMgB1IojSFVB7bVVVXEAYSc5JFHFl4iI7bV3Ny+za4eQKlJXejTjnZnXM6M1MpkMcrn3KJfLsGwbxWIRtm0Rtv62x+h7GybFrDRumiZKpRKq1SocpwJn8yOMtWwWtVoNMY/BhUjgXBMrRGoVcUxEL2yEiHwWRfCDAGEYwrAsC41GA1HEMfR9+IRK0EV0x5mEIF+S4AiYCUYjSOLmcTgRjGOu/8AY091JKSFFihS6QA4HkNddyNt+wk0PggW6y4fBAL27exiFQkEL/ntGJPAMCarDT/YQFhfBnLfEKtjGG4jWOUKKqfEFNWKoxTZ2d3WB6mpKaAztVY3Gj+sIrXmwygrY5jKJv4bw/jyPLSgvEUw7nCmmBXnS4bcDLcI+vSOoyw9LEF03FZQTwXq9rguE2hsxZYXaH8WCIcKtdfjrrxCY8wisBfj5ObCjHUg1nUhegVGi99VsNvHfI2Lgxxfg7IA4BL5/Br7uA79Pp9KMXD6Pre1teO02Ll0XV54Hl3y31Urs2O904PX/atwe2V7qd/u65oJqj3/+whOLPb01Tvsh1AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newreliccdb4.png&quot;
+        src=&quot;/gatsbyjs/static/777f66ae0e466160533ce66855914d21/36727/newrelicdb4.png&quot;
+        srcset=&quot;/gatsbyjs/static/777f66ae0e466160533ce66855914d21/acf4b/newrelicdb4.png 173w,
+/gatsbyjs/static/777f66ae0e466160533ce66855914d21/fc834/newrelicdb4.png 345w,
+/gatsbyjs/static/777f66ae0e466160533ce66855914d21/36727/newrelicdb4.png 690w,
+/gatsbyjs/static/777f66ae0e466160533ce66855914d21/17fa4/newrelicdb4.png 1035w,
+/gatsbyjs/static/777f66ae0e466160533ce66855914d21/a5044/newrelicdb4.png 1380w,
+/gatsbyjs/static/777f66ae0e466160533ce66855914d21/4d600/newrelicdb4.png 1918w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/3f0d9c88026814fff72c46f39c583508/a987b/newrelicdb5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.145833333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABiElEQVQoz51Sy06DQBTlT3XtL2iaWKYPWz/JpQt3JhoXptoC0kStxdICwzzgeO/wCGsvubnvc88M44npFLfLJeazGXwhMJkICH/sfN/3nQryRRtftznW0WiEMdnFYoH5zZwwJvDCOIbWCv8VW9cw1iJTGmlewDPGoKYka1VVqFpfa42yLFFRs8sPlPPGaNTku1myLOnhAM8yYMVDg0ECsT3QMG9gewJVT6DqANMUnmxZ9NvahsY2MX+9T6qUcsfsFvFylgMD8tFYGgBmZnpwFqMs8qTkjp5JlmU4Ho/9tWR5TldgkSS/8BT9EL5Hy5uoWdfNEBFyx9KlwWmfU904Jt2izg6Fl3hSSgdmZAH58+m0+IqhigwFbZelRKlLaj4RI4OikOAZJsHsOpbMcJ8k8NAy2j/c4enyDC/iAs9X50ge78EVTfeluj9OrE50XPaZhAMm1q5G8fduR+/w4wNRvEW4WSN8XyFcvzU2DBBQLYgip5soRLSNsQ4CF0f0fjdhCH7HXfy6WuEPYKvsv2H/4sUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newreliccdb5.png&quot;
+        src=&quot;/gatsbyjs/static/3f0d9c88026814fff72c46f39c583508/36727/newrelicdb5.png&quot;
+        srcset=&quot;/gatsbyjs/static/3f0d9c88026814fff72c46f39c583508/acf4b/newrelicdb5.png 173w,
+/gatsbyjs/static/3f0d9c88026814fff72c46f39c583508/fc834/newrelicdb5.png 345w,
+/gatsbyjs/static/3f0d9c88026814fff72c46f39c583508/36727/newrelicdb5.png 690w,
+/gatsbyjs/static/3f0d9c88026814fff72c46f39c583508/17fa4/newrelicdb5.png 1035w,
+/gatsbyjs/static/3f0d9c88026814fff72c46f39c583508/a5044/newrelicdb5.png 1380w,
+/gatsbyjs/static/3f0d9c88026814fff72c46f39c583508/a987b/newrelicdb5.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Lo mas interesante es la inserción graficos externos al host como por ejemplo los de nuestra pagina web.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/5ae403129fb906c2749b248308ab5e0b/a987b/newrelicdb6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.83333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABb0lEQVQoz51SyU7DQAzNh/dAk67hF1gkDgiOHBB8BkcQbRFtUkSpSJN2klnzsCe0EqgSFVGe7PHyPLYniDodxHGMXreLMAwRRRHJttfb7UaGUdicCUfsIzv7Wq2Wl4PhEL1Bnzg6CKZJAqUV/vtZ56CtRSEl1lWFQGsD1PTXNRw5GXXtYKSFs+6XvdElJZeUzKhIZ2itURQFE2oyCGilYK2BNYYSLbK0gBSSbmB2hBxrKEYqCVGWnlAwWCfSzyxDIInA7WuFoKiIIpKmKJFTaww+a8rbSo5huyfMHh8wOuljdDrE6CzG+PyY9AHylydIarmk6nyDnNrh8azyHJuN8GQsuagQzXmxWCBYUeLrzQVmd1dI7689kttLFNNxQ/g9Kyb2c1qvvc63EqWg9tXO986ElbG+vX0tb+f0FziOiT+WSwTO0TYdb9p61E7Tdiu/aT+nA/BjhrM0xSxNkBAamSJ9myOZz8Fv9FAwz/Nkgi/cluYjf0PXCwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newreliccdb6.png&quot;
+        src=&quot;/gatsbyjs/static/5ae403129fb906c2749b248308ab5e0b/36727/newrelicdb6.png&quot;
+        srcset=&quot;/gatsbyjs/static/5ae403129fb906c2749b248308ab5e0b/acf4b/newrelicdb6.png 173w,
+/gatsbyjs/static/5ae403129fb906c2749b248308ab5e0b/fc834/newrelicdb6.png 345w,
+/gatsbyjs/static/5ae403129fb906c2749b248308ab5e0b/36727/newrelicdb6.png 690w,
+/gatsbyjs/static/5ae403129fb906c2749b248308ab5e0b/17fa4/newrelicdb6.png 1035w,
+/gatsbyjs/static/5ae403129fb906c2749b248308ab5e0b/a5044/newrelicdb6.png 1380w,
+/gatsbyjs/static/5ae403129fb906c2749b248308ab5e0b/a987b/newrelicdb6.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Y de nuestro cluster de kubernetes.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 354px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/d0734bdf406883b600ceaed1fe88c5a8/1a1ab/newrelicdb7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 169.77401129943502%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAiCAYAAABfqvm9AAAACXBIWXMAAAsSAAALEgHS3X78AAACCklEQVRIx+1WV2/CQAzO//95lYpoGWWpjCSEkEEYwfXnnq+XQEMi9aEPRDK+4fu8zj484u96vTaSytz7dP1yudDpdCLvN8H6oTZK8Xn4ORwOtPZ92kYR7ZOEVus1LVcr2gQBRbtdJ4UCWByPtGFAHAZguN0KOChJUxE8n89CZVkKh4s6d10XQGwURSExSLOMUgbJlOe5KInjWDgUxPu9cCjMed+1UgBxeLZY0JJd3fHBrt9NDBPW/NLr0Wu/T/3BgIbjMQ1AoxG9DYffY6Z3M/808UXcESrwI4fNAiIOMB2WwhVQariMeR2WR0zgmIu8Q4jpT5Y5fpoAxAnJQZw0MW0yra5XAAECCzD22SUBM4BwCUmzxIkER0LduyiA2ECWcR9zkHEDa7Ju9uQGGNIQYe/GQmiBq5kRtrHRuRKvQaEqVg6ZSgwhOJ5O6YNpMptZms7nwnGldK7ZlQzzWMjNcpta7nIfLSBMR8lpdpEcXKd6A0B4tGrcTmSTogOtUVunJib1A1LXvAeZex3HAiKOKD1YB0u1ChAjbQB6I4IwFDlNRKX0XM0QKMEZoHSobqG7freWuzTZpsZwY2GbJ+DR8+DRH39PwCfgvwWsV0Fbemhh1+Zr35QmC/G/xzdtXh4unuu7kzpvkLa4h4AQHk0m8s8B3RzzgPslnlb0zdB098oj1eSu63ZTCHTvCxVOc2Bku1+wAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newreliccdb7.png&quot;
+        src=&quot;/gatsbyjs/static/d0734bdf406883b600ceaed1fe88c5a8/1a1ab/newrelicdb7.png&quot;
+        srcset=&quot;/gatsbyjs/static/d0734bdf406883b600ceaed1fe88c5a8/acf4b/newrelicdb7.png 173w,
+/gatsbyjs/static/d0734bdf406883b600ceaed1fe88c5a8/fc834/newrelicdb7.png 345w,
+/gatsbyjs/static/d0734bdf406883b600ceaed1fe88c5a8/1a1ab/newrelicdb7.png 354w&quot;
+        sizes=&quot;(max-width: 354px) 100vw, 354px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsbyjs/static/3577fa09aa81ee604d78f7c0febcaf7b/a987b/newrelicdb8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.302083333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABdUlEQVQoz5VSW07DMBD0hRBCfKG2ar96Kk7BIbgBR+CX76JKtElaRJM+yMOJnxl2nbSCVqpEpInHm/Xs7DpimcRQWsG3LVoA/G5bZuj3OPHfMc5hWOegrUXeNCjqGsLShs8fE67BWQ/vPRnQqEmgUeoEYwyKooAw1oQk33roRqPa1cQdHFUOcU+cirKv3aKAkhrKaEhyw6KSwZxE94cDRKMasu1DywG+a80R56oMTWAX1nSFjvEOFpocczwIGp4fVXS8klsrS8yeHpG9vUKTcE3V2UFRlDDk9DvPUVZVEKukDGJVJcM+TVNyWOaQ6Sfq7Atqn6HerLF6eUb+MUNjXRDk1nhlQZ4Tc3YtSTDMk7/RfpNuIHgGig76s1t1vTvVt3OcqXU2tB+K9JB9XrbdQuDioRv1Gtce3/8uXMT24BiPQyzjGIworFHg8SpBlHRI1usLcM4iiv6AY+/zOcT9ZALG3XiM29Gow3D4P9CZm8EAD9MpfgA20druUwgKrAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PracticaImg&quot;
+        title=&quot;newreliccdb8.png&quot;
+        src=&quot;/gatsbyjs/static/3577fa09aa81ee604d78f7c0febcaf7b/36727/newrelicdb8.png&quot;
+        srcset=&quot;/gatsbyjs/static/3577fa09aa81ee604d78f7c0febcaf7b/acf4b/newrelicdb8.png 173w,
+/gatsbyjs/static/3577fa09aa81ee604d78f7c0febcaf7b/fc834/newrelicdb8.png 345w,
+/gatsbyjs/static/3577fa09aa81ee604d78f7c0febcaf7b/36727/newrelicdb8.png 690w,
+/gatsbyjs/static/3577fa09aa81ee604d78f7c0febcaf7b/17fa4/newrelicdb8.png 1035w,
+/gatsbyjs/static/3577fa09aa81ee604d78f7c0febcaf7b/a5044/newrelicdb8.png 1380w,
+/gatsbyjs/static/3577fa09aa81ee604d78f7c0febcaf7b/a987b/newrelicdb8.png 1920w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;/details&gt;
+&lt;p&gt;En conclusión new relic nos aporta muchisimos recursos diferentes para la monitorización que podemos incluso agruparlos a nuestras necesidad y que el acceso a los mismos estan sencillo como entrar en su web desde cualquier dispositivo atraves de nuestra cuenta, tiene una interfaz bastante intuitiva y sencilla que a poco que indagas ves lo profunda que puede llegar a ser.&lt;/p&gt;
 &lt;/details&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
