@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sun, 19 Dec 2021 19:55:41 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SysAdmin Nazareno]]></title><description><![CDATA[Web estatica generada por Gatsby.]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link><image><url>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/logos/logo-48.png</url><title>SysAdmin Nazareno</title><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sun, 19 Dec 2021 19:58:02 GMT</lastBuildDate><atom:link href="https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Implantación de paginas web y su monitorización con New Relic utilizando kubernetes ANTIGUO]]></title><description><![CDATA[Este proyecto contemplará la utilización de New Relic para obtener metricas y logs de una web desplegada a traves de kubernetes, para…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/implantacion-de-paginas-web-y-su-monitorizacion-con-new-relic-utilizando-kubernetes-antiguo</guid><category><![CDATA[New Relic]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Web]]></category><category><![CDATA[Despligue]]></category><category><![CDATA[Monitorización]]></category><category><![CDATA[Logs]]></category><category><![CDATA[Metricas]]></category><pubDate>Sun, 07 Nov 2021 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
     &gt;
@@ -3365,7 +3365,7 @@ En New Relic, los eventos tienen varios atributos (pares clave-valor) adjuntos. 
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;El panel creado es totalmente personalizable, desde la posición de los elementos como la creación de nuevos gráficos.
+&lt;p&gt;El panel creado es totalmente personalizable, desde la posición de los elementos como la creación de nuevos gráficos, añadiremos como ejemplo el uso de disco de nuestro host.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -3428,7 +3428,7 @@ En New Relic, los eventos tienen varios atributos (pares clave-valor) adjuntos. 
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Lo mas interesante es la inserción graficos externos al host como por ejemplo los de nuestra pagina web.
+&lt;p&gt;Lo mas interesante es la inserción graficos externos al host como por ejemplo el rendimiento por pagina de nuestra web.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
@@ -3460,7 +3460,7 @@ En New Relic, los eventos tienen varios atributos (pares clave-valor) adjuntos. 
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Y de nuestro cluster de kubernetes.
+&lt;p&gt;Y del uso del cpu del controlador de nuestro cluster de kubernetes.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 354px;&quot;
@@ -3521,7 +3521,7 @@ En New Relic, los eventos tienen varios atributos (pares clave-valor) adjuntos. 
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;p&gt;En conclusión new relic nos aporta muchisimos recursos diferentes para la monitorización que podemos incluso agruparlos a nuestras necesidad y que el acceso a los mismos estan sencillo como entrar en su web desde cualquier dispositivo atraves de nuestra cuenta, tiene una interfaz bastante intuitiva y sencilla que a poco que indagas ves lo profunda que puede llegar a ser.&lt;/p&gt;
+&lt;p&gt;En conclusión New Relic nos aporta muchisimos recursos diferentes para la monitorización que podemos incluso agruparlos a nuestras necesidad y que el acceso a los mismos estan sencillo como entrar en su web desde cualquier dispositivo atraves de nuestra cuenta, tiene una interfaz bastante intuitiva y sencilla que a poco que indagas ves lo profunda que puede llegar a ser.&lt;/p&gt;
 &lt;/details&gt;</content:encoded><author>frandh1997@gmail.com</author></item><item><title><![CDATA[Despliegue de un cluster de kubernetes]]></title><description><![CDATA[Elige un método de instalación para crear un cluster de k8s con tres nodos (un controlador y dos workers), puedes usar kubeadm, k3s o…]]></description><link>https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</link><guid isPermaLink="false">https://github.com/franmadu6/gatsbyjs/https://github.com/franmadu6/gatsbyjs/despliegue-de-un-cluster-de-kubernetes</guid><category><![CDATA[Kubernete]]></category><category><![CDATA[Cluster]]></category><pubDate>Thu, 10 Jun 2021 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 690px;&quot;
