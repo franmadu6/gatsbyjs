@@ -828,21 +828,7 @@ Como podemos comprobar
 ## 4.2 Monitorización web
 </summary>
 
-Podemos obtener una visibilidad completa del ciclo de vida completo de nuestro sitio web o la página web de una aplicación. El navegador mide el tiempo de carga de la página, también conocido como Real User Monitoring (RUM). Pero va mucho más allá de eso para medir:
-
-Datos de rendimiento real, como por popularidad de visitas a la página , filtrados por regiones geográficas importantes para su negocio o por puntajes de satisfacción del usuario (Apdex)
-
-Datos de rendimiento percibido que mide la rapidez con sus asincrónicos o dinámicas visuales y contenidos de la página interactiva de visualización
-
-Análisis de errores de JavaScript , seguimientos de pila y mapas de origen con visibilidad de línea de código, para mostrarle los pasos del usuario final que conducen a un error en sí.
-
-Rendimiento de la sesión con un cronograma detallado y un mapa de calor de los eventos de carga e interacción durante el ciclo de vida completo de una página web
-
-Solicitudes AJAX que indican problemas con el tiempo, los puntos finales y ubicaciones específicas en la página web.
-
-Cambios de ruta basados ​​en hash en aplicaciones con arquitecturas de aplicaciones de una sola página (SPA)
-
-Podremos monitorizar el trafico de nuestra web, para ello nos iremos a la opción de añadir nuevos datos y seleccionaremos **Browser metrics**.
+Podremos monitorizar bastantes datos de nuestra web como por ejemplo el ciclo de vida y el trafico, para ello nos iremos a la opción de añadir nuevos datos y seleccionaremos **Browser metrics**.
 ![PracticaImg](images/proyecto/newrelicbrowsermetrics.png "newrelicbrowsermetrics.png")
 
 Seleccionaremos los parametros que se adapten a nuestro sitio, como puede ser que sea externo a la aplicación(sitio web) o que ya se esten recogiendo algun tipo de datos del mismo(app web), los datos que recogerá el nombre de nuestra aplicación y nos desplegará un script para que lo podamos implementar en nuestro sitio:
